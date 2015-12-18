@@ -1,0 +1,68 @@
+{
+    "name": "archi-strasbourg/archi-mediawiki",
+    "description": "Port of Archi-Wiki to MediaWiki",
+    "license": "GPL-3.0",
+	"require": {
+		"mediawiki/core": "~1.26.0",
+		"mediawiki/vector-skin": "dev-REL1_26",
+		"mediawiki/semantic-media-wiki": "~2.3.0",
+		"mediawiki/maps": "~3.4.0",
+		"mediawiki/ParserFunctions": "~1.26",
+		"mediawiki/Cite": "~1.26",
+		"mediawiki/Comments": "~1.26",
+		"mediawiki/MultimediaViewer": "~1.26",
+        "composer/installers": "~1.0.22"
+	},
+	"repositories": [{
+		"type": "vcs",
+		"url": "https://github.com/wikimedia/mediawiki.git"
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/ParserFunctions",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ParserFunctions.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+            "type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/Cite",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Cite.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+            "type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/Comments",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Comments.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+            "type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/MultimediaViewer",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/MultimediaViewer.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+            "type": "mediawiki-extension"
+		}
+	}]
+}
