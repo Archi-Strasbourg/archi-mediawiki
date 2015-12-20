@@ -2,6 +2,7 @@
     "name": "archi-strasbourg/archi-mediawiki",
     "description": "Port of Archi-Wiki to MediaWiki",
     "license": "GPL-3.0",
+    "type": "project",
 	"require": {
 		"mediawiki/core": "~1.26.0",
 		"mediawiki/vector-skin": "dev-REL1_26",
