@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e0f62b819f353f666344d3033ba0af50",
-    "content-hash": "265ce019619b1cd9591c00cf76acb481",
+    "hash": "54cb489600dabe143d71c0b134a4861e",
+    "content-hash": "cc19c382e0355b932b38ae44078c23ed",
     "packages": [
         {
             "name": "composer/installers",
@@ -866,16 +866,16 @@
         },
         {
             "name": "mediawiki/semantic-media-wiki",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SemanticMediaWiki/SemanticMediaWiki.git",
-                "reference": "62ada433ddce6b5f82a7d47134f1d1f238fa14fb"
+                "reference": "f7543bcb7ad1b08c1924d65aeea9e353d5953381"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMediaWiki/zipball/62ada433ddce6b5f82a7d47134f1d1f238fa14fb",
-                "reference": "62ada433ddce6b5f82a7d47134f1d1f238fa14fb",
+                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMediaWiki/zipball/f7543bcb7ad1b08c1924d65aeea9e353d5953381",
+                "reference": "f7543bcb7ad1b08c1924d65aeea9e353d5953381",
                 "shasum": ""
             },
             "require": {
@@ -950,7 +950,7 @@
                 "mediawiki",
                 "wiki"
             ],
-            "time": "2015-10-25 17:03:09"
+            "time": "2016-01-04 11:25:45"
         },
         {
             "name": "mediawiki/validator",
