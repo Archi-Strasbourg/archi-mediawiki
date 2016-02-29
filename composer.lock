@@ -9,20 +9,20 @@
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.22",
+            "version": "v1.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046"
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/bd9b14f094c89c8b5804a4e41edeb7853bb85046",
-                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046",
+                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0"
+                "composer-plugin-api": "^1.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
@@ -103,7 +103,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-10-29 23:28:48"
+            "time": "2016-01-27 12:54:22"
         },
         {
             "name": "composer/semver",
@@ -323,22 +323,22 @@
         },
         {
             "name": "data-values/geo",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataValues/Geo.git",
-                "reference": "e7222bc743ae05bfc5213cb1e20150aa772d8668"
+                "reference": "cf7628cae533c51e3f6bd67ec13245a245dec1da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataValues/Geo/zipball/e7222bc743ae05bfc5213cb1e20150aa772d8668",
-                "reference": "e7222bc743ae05bfc5213cb1e20150aa772d8668",
+                "url": "https://api.github.com/repos/DataValues/Geo/zipball/cf7628cae533c51e3f6bd67ec13245a245dec1da",
+                "reference": "cf7628cae533c51e3f6bd67ec13245a245dec1da",
                 "shasum": ""
             },
             "require": {
-                "data-values/common": "~0.1",
+                "data-values/common": "~0.2.3",
                 "data-values/data-values": "~1.0|~0.1",
-                "data-values/interfaces": "~0.1",
+                "data-values/interfaces": "~0.2.0|~0.1.5",
                 "php": ">=5.3.0"
             },
             "type": "library",
@@ -382,7 +382,7 @@
                 "parsers",
                 "wikidata"
             ],
-            "time": "2014-11-25 16:48:57"
+            "time": "2015-12-28 23:58:15"
         },
         {
             "name": "data-values/interfaces",
@@ -746,16 +746,16 @@
         },
         {
             "name": "mediawiki/maps",
-            "version": "3.4.0",
+            "version": "3.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Maps.git",
-                "reference": "6842093fc2d3cd26a41c0ba6ecb62a00f2101696"
+                "reference": "05e6e0b3774205bda59e0bf6013be5dea57b6b9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/6842093fc2d3cd26a41c0ba6ecb62a00f2101696",
-                "reference": "6842093fc2d3cd26a41c0ba6ecb62a00f2101696",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/05e6e0b3774205bda59e0bf6013be5dea57b6b9e",
+                "reference": "05e6e0b3774205bda59e0bf6013be5dea57b6b9e",
                 "shasum": ""
             },
             "require": {
@@ -807,7 +807,7 @@
                 "mediawiki",
                 "osm"
             ],
-            "time": "2015-07-24 23:47:09"
+            "time": "2016-01-30 15:31:21"
         },
         {
             "name": "mediawiki/parser-hooks",
