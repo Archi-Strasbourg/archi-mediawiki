@@ -1,8 +1,8 @@
 {
-    "name": "archi-strasbourg/archi-mediawiki",
-    "description": "Port of Archi-Wiki to MediaWiki",
-    "license": "GPL-3.0",
-    "type": "project",
+	"name": "archi-strasbourg/archi-mediawiki",
+	"description": "Port of Archi-Wiki to MediaWiki",
+	"license": "GPL-3.0",
+	"type": "project",
 	"require": {
 		"mediawiki/core": "~1.26.0",
 		"mediawiki/vector-skin": "dev-REL1_26",
@@ -12,7 +12,7 @@
 		"mediawiki/Cite": "~1.26",
 		"mediawiki/Comments": "~1.26",
 		"mediawiki/MultimediaViewer": "~1.26",
-        "composer/installers": "~1.0.22"
+		"composer/installers": "~1.0.22"
 	},
 	"repositories": [{
 		"type": "package",
@@ -24,7 +24,7 @@
 				"type": "git",
 				"reference": "REL1_26"
 			},
-            "type": "mediawiki-extension"
+			"type": "mediawiki-extension"
 		}
 	}, {
 		"type": "package",
@@ -36,7 +36,7 @@
 				"type": "git",
 				"reference": "REL1_26"
 			},
-            "type": "mediawiki-extension"
+			"type": "mediawiki-extension"
 		}
 	}, {
 		"type": "package",
@@ -48,7 +48,7 @@
 				"type": "git",
 				"reference": "REL1_26"
 			},
-            "type": "mediawiki-extension"
+			"type": "mediawiki-extension"
 		}
 	}, {
 		"type": "package",
@@ -60,7 +60,7 @@
 				"type": "git",
 				"reference": "REL1_26"
 			},
-            "type": "mediawiki-extension"
+			"type": "mediawiki-extension"
 		}
 	}]
 }
