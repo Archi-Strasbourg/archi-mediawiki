@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "54cb489600dabe143d71c0b134a4861e",
+    "hash": "874b87fc8d12a2920bf6177f79f1c865",
     "content-hash": "cc19c382e0355b932b38ae44078c23ed",
     "packages": [
         {
@@ -1054,16 +1054,16 @@
         },
         {
             "name": "onoi/blob-store",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/onoi/blob-store.git",
-                "reference": "dd9ddfd8f106f4a4583d130404a5888a6b6f5226"
+                "reference": "84fd128ad11c3c55ebde8bc5d4db2e443885b09a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/onoi/blob-store/zipball/dd9ddfd8f106f4a4583d130404a5888a6b6f5226",
-                "reference": "dd9ddfd8f106f4a4583d130404a5888a6b6f5226",
+                "url": "https://api.github.com/repos/onoi/blob-store/zipball/84fd128ad11c3c55ebde8bc5d4db2e443885b09a",
+                "reference": "84fd128ad11c3c55ebde8bc5d4db2e443885b09a",
                 "shasum": ""
             },
             "require": {
@@ -1095,7 +1095,7 @@
             "keywords": [
                 "messages"
             ],
-            "time": "2015-06-13 12:00:29"
+            "time": "2016-03-19 11:52:49"
         },
         {
             "name": "onoi/cache",
