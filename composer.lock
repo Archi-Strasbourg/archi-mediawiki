@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "874b87fc8d12a2920bf6177f79f1c865",
-    "content-hash": "cc19c382e0355b932b38ae44078c23ed",
+    "hash": "6ca9760942df5e23c231ea10a1a8fb25",
+    "content-hash": "f28ae57dadee54274cd257ee39e3f6ad",
     "packages": [
         {
             "name": "composer/installers",
@@ -323,20 +323,20 @@
         },
         {
             "name": "data-values/geo",
-            "version": "1.1.5",
+            "version": "1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataValues/Geo.git",
-                "reference": "cf7628cae533c51e3f6bd67ec13245a245dec1da"
+                "reference": "6fb5f20c10e8d55ba5fa83a3bbcd824850ee9b48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataValues/Geo/zipball/cf7628cae533c51e3f6bd67ec13245a245dec1da",
-                "reference": "cf7628cae533c51e3f6bd67ec13245a245dec1da",
+                "url": "https://api.github.com/repos/DataValues/Geo/zipball/6fb5f20c10e8d55ba5fa83a3bbcd824850ee9b48",
+                "reference": "6fb5f20c10e8d55ba5fa83a3bbcd824850ee9b48",
                 "shasum": ""
             },
             "require": {
-                "data-values/common": "~0.2.3",
+                "data-values/common": "~0.3.0|~0.2.0",
                 "data-values/data-values": "~1.0|~0.1",
                 "data-values/interfaces": "~0.2.0|~0.1.5",
                 "php": ">=5.3.0"
@@ -382,7 +382,7 @@
                 "parsers",
                 "wikidata"
             ],
-            "time": "2015-12-28 23:58:15"
+            "time": "2016-04-01 22:49:09"
         },
         {
             "name": "data-values/interfaces",
@@ -564,6 +564,16 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Comments.git",
+                "reference": "REL1_26"
+            },
+            "type": "mediawiki-extension"
+        },
+        {
+            "name": "mediawiki/CommonsMetadata",
+            "version": "1.26",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CommonsMetadata.git",
                 "reference": "REL1_26"
             },
             "type": "mediawiki-extension"
