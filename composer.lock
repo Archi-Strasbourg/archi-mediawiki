@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6ca9760942df5e23c231ea10a1a8fb25",
-    "content-hash": "f28ae57dadee54274cd257ee39e3f6ad",
+    "hash": "9c4a6d7f632ccc9d778e7e5e1fdb96aa",
+    "content-hash": "e3e06ea41e0780cea3d266d960a1b8c8",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.23",
+            "version": "v1.0.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
+                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
-                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "url": "https://api.github.com/repos/composer/installers/zipball/1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
+                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
                 "shasum": ""
             },
             "require": {
@@ -40,8 +40,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Composer\\Installers\\": "src/"
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -56,12 +56,14 @@
                 }
             ],
             "description": "A multi-framework Composer library installer",
-            "homepage": "http://composer.github.com/installers/",
+            "homepage": "https://composer.github.io/installers/",
             "keywords": [
                 "Craft",
                 "Dolibarr",
                 "Hurad",
+                "ImageCMS",
                 "MODX Evo",
+                "Mautic",
                 "OXID",
                 "SMF",
                 "Thelia",
@@ -103,7 +105,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-01-27 12:54:22"
+            "time": "2016-04-05 11:42:46"
         },
         {
             "name": "composer/semver",
@@ -203,37 +205,37 @@
         },
         {
             "name": "data-values/common",
-            "version": "0.2.3",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataValues/Common.git",
-                "reference": "c9f4dfd8af6337eb097d722b27fa76fa58dd441a"
+                "reference": "5d9d4bf902427a2a798ca273480f7dad825c72b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataValues/Common/zipball/c9f4dfd8af6337eb097d722b27fa76fa58dd441a",
-                "reference": "c9f4dfd8af6337eb097d722b27fa76fa58dd441a",
+                "url": "https://api.github.com/repos/DataValues/Common/zipball/5d9d4bf902427a2a798ca273480f7dad825c72b5",
+                "reference": "5d9d4bf902427a2a798ca273480f7dad825c72b5",
                 "shasum": ""
             },
             "require": {
                 "data-values/data-values": "~1.0|~0.1",
-                "data-values/interfaces": "~0.1.4",
+                "data-values/interfaces": "~0.2.0|^0.1.5",
                 "php": ">=5.3.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.2.x-dev"
+                    "dev-master": "0.3.x-dev"
                 }
             },
             "autoload": {
                 "files": [
                     "Common.php"
                 ],
-                "psr-0": {
-                    "DataValues\\": "src",
-                    "ValueFormatters\\": "src",
-                    "ValueParsers\\": "src"
+                "psr-4": {
+                    "DataValues\\": "src/DataValues/",
+                    "ValueFormatters\\": "src/ValueFormatters/",
+                    "ValueParsers\\": "src/ValueParsers/"
                 },
                 "classmap": [
                     "tests/ValueParsers"
@@ -260,7 +262,7 @@
                 "valuevalidators",
                 "wikidata"
             ],
-            "time": "2014-10-09 18:21:19"
+            "time": "2015-08-14 10:15:07"
         },
         {
             "name": "data-values/data-values",
@@ -386,16 +388,16 @@
         },
         {
             "name": "data-values/interfaces",
-            "version": "0.1.5",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataValues/Interfaces.git",
-                "reference": "f563e6a55547046070e3d79b5662b620005558d8"
+                "reference": "2bed9fff899b3bf9c522497f9bd875f326eb1ef0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataValues/Interfaces/zipball/f563e6a55547046070e3d79b5662b620005558d8",
-                "reference": "f563e6a55547046070e3d79b5662b620005558d8",
+                "url": "https://api.github.com/repos/DataValues/Interfaces/zipball/2bed9fff899b3bf9c522497f9bd875f326eb1ef0",
+                "reference": "2bed9fff899b3bf9c522497f9bd875f326eb1ef0",
                 "shasum": ""
             },
             "require": {
@@ -406,10 +408,10 @@
                 "files": [
                     "Interfaces.php"
                 ],
-                "psr-0": {
-                    "ValueFormatters\\": "src",
-                    "ValueParsers\\": "src",
-                    "ValueValidators\\": "src"
+                "psr-4": {
+                    "ValueFormatters\\": "src/ValueFormatters/",
+                    "ValueParsers\\": "src/ValueParsers/",
+                    "ValueValidators\\": "src/ValueValidators/"
                 },
                 "classmap": [
                     "tests/ValueFormatters/ValueFormatterTestBase.php"
@@ -436,7 +438,7 @@
                 "valuevalidators",
                 "wikidata"
             ],
-            "time": "2015-02-14 02:37:02"
+            "time": "2016-01-13 18:44:31"
         },
         {
             "name": "data-values/validators",
@@ -963,16 +965,16 @@
         },
         {
             "name": "mediawiki/validator",
-            "version": "2.0.4",
+            "version": "2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Validator.git",
-                "reference": "57c6f20f8c0100865e4318b9e5277dd2c4331a0a"
+                "reference": "d016211021c2811ad74581c40f169d96928fac8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Validator/zipball/57c6f20f8c0100865e4318b9e5277dd2c4331a0a",
-                "reference": "57c6f20f8c0100865e4318b9e5277dd2c4331a0a",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Validator/zipball/d016211021c2811ad74581c40f169d96928fac8a",
+                "reference": "d016211021c2811ad74581c40f169d96928fac8a",
                 "shasum": ""
             },
             "require": {
@@ -1017,7 +1019,7 @@
                 "mediawiki",
                 "validator"
             ],
-            "time": "2014-06-25 21:40:08"
+            "time": "2016-04-04 00:44:24"
         },
         {
             "name": "mediawiki/vector-skin",
@@ -1471,22 +1473,22 @@
         },
         {
             "name": "param-processor/param-processor",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/ParamProcessor.git",
-                "reference": "d046926ec7e3ef33e29c0ca3e4af3a92363376aa"
+                "reference": "da11318d947935851e4820d5e1ba0d2fd906999a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/ParamProcessor/zipball/d046926ec7e3ef33e29c0ca3e4af3a92363376aa",
-                "reference": "d046926ec7e3ef33e29c0ca3e4af3a92363376aa",
+                "url": "https://api.github.com/repos/JeroenDeDauw/ParamProcessor/zipball/da11318d947935851e4820d5e1ba0d2fd906999a",
+                "reference": "da11318d947935851e4820d5e1ba0d2fd906999a",
                 "shasum": ""
             },
             "require": {
-                "data-values/common": "~0.2.2",
+                "data-values/common": "~0.3.0|~0.2.2",
                 "data-values/data-values": "~1.0|~0.1.1",
-                "data-values/interfaces": "~0.1.4",
+                "data-values/interfaces": "~0.2.0|~0.1.4",
                 "data-values/validators": "~0.1.1",
                 "php": ">=5.3.0"
             },
@@ -1529,7 +1531,7 @@
                 "mediawiki",
                 "validator"
             ],
-            "time": "2014-10-24 16:04:12"
+            "time": "2016-04-04 00:55:56"
         },
         {
             "name": "psr/log",
@@ -1945,7 +1947,130 @@
             "time": "2015-05-08 01:56:46"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "1289d16209491b584839022f29257ad859b8532d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/1289d16209491b584839022f29257ad859b8532d",
+                "reference": "1289d16209491b584839022f29257ad859b8532d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2016-01-20 09:13:37"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "version": "v3.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-dumper.git",
+                "reference": "3841ed86527d18ee2c35fe4afb1b2fc60f8fae79"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/3841ed86527d18ee2c35fe4afb1b2fc60f8fae79",
+                "reference": "3841ed86527d18ee2c35fe4afb1b2fc60f8fae79",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "twig/twig": "~1.20|~2.0"
+            },
+            "suggest": {
+                "ext-symfony_debug": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Resources/functions/dump.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Component\\VarDumper\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony mechanism for exploring and dumping PHP variables",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "debug",
+                "dump"
+            ],
+            "time": "2016-03-10 10:34:12"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
