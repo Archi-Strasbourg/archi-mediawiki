@@ -4,9 +4,31 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0441b249d1e4c2436fd67645190ab53a",
-    "content-hash": "7a67a618e8a7fabcab14cc259c6e35f9",
+    "hash": "b2c3497b643c8e95fa0a113b4b338d94",
+    "content-hash": "89b5bc00f089d6be5b84b058fdeb3ee1",
     "packages": [
+        {
+            "name": "archi-strasbourg/category-breadcrumb",
+            "version": "2.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/mediawiki-category-breadcrumb.git",
+                "reference": "f254ad92abd3788be7859c8f3223f85b4e202a7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/f254ad92abd3788be7859c8f3223f85b4e202a7f",
+                "reference": "f254ad92abd3788be7859c8f3223f85b4e202a7f",
+                "shasum": ""
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "Provides DMOZ-style category breadcrumbs",
+            "time": "2016-04-07 20:51:56"
+        },
         {
             "name": "archi-strasbourg/news-tab",
             "version": "0.1.0",
