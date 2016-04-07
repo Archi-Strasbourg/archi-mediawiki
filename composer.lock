@@ -4,9 +4,37 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9c4a6d7f632ccc9d778e7e5e1fdb96aa",
-    "content-hash": "e3e06ea41e0780cea3d266d960a1b8c8",
+    "hash": "0441b249d1e4c2436fd67645190ab53a",
+    "content-hash": "7a67a618e8a7fabcab14cc259c6e35f9",
     "packages": [
+        {
+            "name": "archi-strasbourg/news-tab",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/mediawiki-news-tab.git",
+                "reference": "7fbb825369a7d030f7716462d60c53e4ba97e97e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-news-tab/zipball/7fbb825369a7d030f7716462d60c53e4ba97e97e",
+                "reference": "7fbb825369a7d030f7716462d60c53e4ba97e97e",
+                "shasum": ""
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Pierre Rudloff",
+                    "email": "contact@rudloff.pro"
+                }
+            ],
+            "description": "MediaWiki extension that replaces the talk tab with a news tab",
+            "time": "2016-04-07 20:12:21"
+        },
         {
             "name": "composer/installers",
             "version": "v1.0.24",
