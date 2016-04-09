@@ -35,12 +35,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-news-tab.git",
-                "reference": "514b5bf3f6ba7b60e8a2a94e6e6316af277eb615"
+                "reference": "a93095e360027133ad7faa12faf255d145d3c717"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-news-tab/zipball/514b5bf3f6ba7b60e8a2a94e6e6316af277eb615",
-                "reference": "514b5bf3f6ba7b60e8a2a94e6e6316af277eb615",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-news-tab/zipball/a93095e360027133ad7faa12faf255d145d3c717",
+                "reference": "a93095e360027133ad7faa12faf255d145d3c717",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -55,7 +55,7 @@
                 }
             ],
             "description": "MediaWiki extension that replaces the talk tab with a news tab",
-            "time": "2016-04-09 18:10:03"
+            "time": "2016-04-09 18:31:35"
         },
         {
             "name": "composer/installers",
