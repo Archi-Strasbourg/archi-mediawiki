@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b2c3497b643c8e95fa0a113b4b338d94",
-    "content-hash": "89b5bc00f089d6be5b84b058fdeb3ee1",
+    "hash": "7b2d1b0b0f87b1f1de790b2daf6e98c8",
+    "content-hash": "700498c90481c527aca00bcf87f6f608",
     "packages": [
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -808,16 +808,16 @@
         },
         {
             "name": "mediawiki/maps",
-            "version": "3.4.1",
+            "version": "3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Maps.git",
-                "reference": "05e6e0b3774205bda59e0bf6013be5dea57b6b9e"
+                "reference": "61b6d5f86565b514393ab4640e93aae8da9af797"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/05e6e0b3774205bda59e0bf6013be5dea57b6b9e",
-                "reference": "05e6e0b3774205bda59e0bf6013be5dea57b6b9e",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/61b6d5f86565b514393ab4640e93aae8da9af797",
+                "reference": "61b6d5f86565b514393ab4640e93aae8da9af797",
                 "shasum": ""
             },
             "require": {
@@ -829,7 +829,7 @@
             "type": "mediawiki-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.4.x-dev"
+                    "dev-master": "3.5.x-dev"
                 }
             },
             "autoload": {
@@ -869,7 +869,7 @@
                 "mediawiki",
                 "osm"
             ],
-            "time": "2016-01-30 15:31:21"
+            "time": "2016-04-01 22:42:30"
         },
         {
             "name": "mediawiki/parser-hooks",
