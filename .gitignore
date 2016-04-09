@@ -1,4 +1,4 @@
 extensions/
 skins/
 vendor/
-LocalSettings.php
+dbconfig.php
