@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7b2d1b0b0f87b1f1de790b2daf6e98c8",
-    "content-hash": "700498c90481c527aca00bcf87f6f608",
+    "hash": "1f9fdab6ddbf1692aff7dc615e885486",
+    "content-hash": "242c0b09891e7ee8752f203fbcda6c90",
     "packages": [
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -31,16 +31,16 @@
         },
         {
             "name": "archi-strasbourg/news-tab",
-            "version": "0.1.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-news-tab.git",
-                "reference": "7fbb825369a7d030f7716462d60c53e4ba97e97e"
+                "reference": "514b5bf3f6ba7b60e8a2a94e6e6316af277eb615"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-news-tab/zipball/7fbb825369a7d030f7716462d60c53e4ba97e97e",
-                "reference": "7fbb825369a7d030f7716462d60c53e4ba97e97e",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-news-tab/zipball/514b5bf3f6ba7b60e8a2a94e6e6316af277eb615",
+                "reference": "514b5bf3f6ba7b60e8a2a94e6e6316af277eb615",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -55,7 +55,7 @@
                 }
             ],
             "description": "MediaWiki extension that replaces the talk tab with a news tab",
-            "time": "2016-04-07 20:12:21"
+            "time": "2016-04-09 18:10:03"
         },
         {
             "name": "composer/installers",
@@ -2124,7 +2124,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mediawiki/vector-skin": 20
+        "mediawiki/vector-skin": 20,
+        "archi-strasbourg/news-tab": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
