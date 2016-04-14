@@ -59,16 +59,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.0.24",
+            "version": "v1.0.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988"
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
-                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
+                "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
                 "shasum": ""
             },
             "require": {
@@ -155,7 +155,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-05 11:42:46"
+            "time": "2016-04-13 19:46:30"
         },
         {
             "name": "composer/semver",
@@ -1346,16 +1346,16 @@
         },
         {
             "name": "onoi/message-reporter",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/onoi/message-reporter.git",
-                "reference": "483dc326ed19d6c79485d556a71a274a267d619e"
+                "reference": "910bf7e57f86a4f0393c85444dbeb040243da1fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/onoi/message-reporter/zipball/483dc326ed19d6c79485d556a71a274a267d619e",
-                "reference": "483dc326ed19d6c79485d556a71a274a267d619e",
+                "url": "https://api.github.com/repos/onoi/message-reporter/zipball/910bf7e57f86a4f0393c85444dbeb040243da1fb",
+                "reference": "910bf7e57f86a4f0393c85444dbeb040243da1fb",
                 "shasum": ""
             },
             "require": {
@@ -1389,7 +1389,7 @@
             "keywords": [
                 "messages"
             ],
-            "time": "2015-01-24 07:54:29"
+            "time": "2016-04-13 02:38:41"
         },
         {
             "name": "oojs/oojs-ui",
