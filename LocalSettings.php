@@ -41,6 +41,7 @@ wfLoadExtension('Comments');
 wfLoadExtension('CommonsMetadata');
 wfLoadExtension('NewsTab');
 wfLoadExtension('CategoryBreadcrumb');
+wfLoadExtension('ArchiMaps');
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 
 $egMapsEnableCategory = false;

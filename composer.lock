@@ -4,9 +4,37 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1f9fdab6ddbf1692aff7dc615e885486",
-    "content-hash": "242c0b09891e7ee8752f203fbcda6c90",
+    "hash": "95f2becd18ed890feb377aeab6e327d6",
+    "content-hash": "3350c890557450b4d0cad2bea931ec67",
     "packages": [
+        {
+            "name": "archi-strasbourg/archi-maps",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
+                "reference": "f752aa525bedd3bd7a8bd784caa5e3d9dbcbdf38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/f752aa525bedd3bd7a8bd784caa5e3d9dbcbdf38",
+                "reference": "f752aa525bedd3bd7a8bd784caa5e3d9dbcbdf38",
+                "shasum": ""
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Pierre Rudloff",
+                    "email": "contact@rudloff.pro"
+                }
+            ],
+            "description": "Map plugin for archi-wiki.org",
+            "time": "2016-05-19 16:29:33"
+        },
         {
             "name": "archi-strasbourg/category-breadcrumb",
             "version": "2.4.1",
@@ -59,16 +87,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.0.24",
+            "version": "v1.0.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988"
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
-                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
+                "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
                 "shasum": ""
             },
             "require": {
@@ -155,7 +183,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-05 11:42:46"
+            "time": "2016-04-13 19:46:30"
         },
         {
             "name": "composer/semver",
@@ -372,69 +400,6 @@
                 "wikidata"
             ],
             "time": "2014-09-26 07:02:27"
-        },
-        {
-            "name": "data-values/geo",
-            "version": "1.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DataValues/Geo.git",
-                "reference": "6fb5f20c10e8d55ba5fa83a3bbcd824850ee9b48"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DataValues/Geo/zipball/6fb5f20c10e8d55ba5fa83a3bbcd824850ee9b48",
-                "reference": "6fb5f20c10e8d55ba5fa83a3bbcd824850ee9b48",
-                "shasum": ""
-            },
-            "require": {
-                "data-values/common": "~0.3.0|~0.2.0",
-                "data-values/data-values": "~1.0|~0.1",
-                "data-values/interfaces": "~0.2.0|~0.1.5",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "Geo.php"
-                ],
-                "psr-4": {
-                    "DataValues\\Geo\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Jeroen De Dauw",
-                    "email": "jeroendedauw@gmail.com",
-                    "homepage": "http://jeroendedauw.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "The Wikidata team",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Geographical value objects, parsers and formatters",
-            "homepage": "https://github.com/DataValues/Geo",
-            "keywords": [
-                "datavalues",
-                "formatters",
-                "geo",
-                "geographical",
-                "latlong",
-                "parsers",
-                "wikidata"
-            ],
-            "time": "2016-04-01 22:49:09"
         },
         {
             "name": "data-values/interfaces",
@@ -807,71 +772,6 @@
             "time": "2015-12-20 23:48:38"
         },
         {
-            "name": "mediawiki/maps",
-            "version": "3.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/JeroenDeDauw/Maps.git",
-                "reference": "61b6d5f86565b514393ab4640e93aae8da9af797"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/61b6d5f86565b514393ab4640e93aae8da9af797",
-                "reference": "61b6d5f86565b514393ab4640e93aae8da9af797",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0.1",
-                "data-values/geo": "~1.0",
-                "mediawiki/validator": "^2.0.2",
-                "php": ">=5.3.2"
-            },
-            "type": "mediawiki-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.5.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "Maps.php"
-                ],
-                "psr-4": {
-                    "Maps\\": "src/Maps/"
-                },
-                "classmap": [
-                    "includes/",
-                    "Maps.hooks.php",
-                    "tests/phpunit/elements/",
-                    "tests/phpunit/parserhooks/ParserHookTest.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Jeroen De Dauw",
-                    "email": "jeroendedauw@gmail.com",
-                    "homepage": "http://jeroendedauw.com",
-                    "role": "Creator and lead developer"
-                }
-            ],
-            "description": "Adds various mapping features to MediaWiki",
-            "homepage": "https://github.com/JeroenDeDauw/Maps",
-            "keywords": [
-                "OpenLayers",
-                "OpenStreetMap",
-                "Semantic MediaWiki",
-                "google maps",
-                "maps",
-                "mediawiki",
-                "osm"
-            ],
-            "time": "2016-04-01 22:42:30"
-        },
-        {
             "name": "mediawiki/parser-hooks",
             "version": "1.5.0",
             "source": {
@@ -1014,64 +914,6 @@
             "time": "2016-01-04 11:25:45"
         },
         {
-            "name": "mediawiki/validator",
-            "version": "2.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/JeroenDeDauw/Validator.git",
-                "reference": "d016211021c2811ad74581c40f169d96928fac8a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Validator/zipball/d016211021c2811ad74581c40f169d96928fac8a",
-                "reference": "d016211021c2811ad74581c40f169d96928fac8a",
-                "shasum": ""
-            },
-            "require": {
-                "param-processor/param-processor": "~1.1",
-                "php": ">=5.3.0"
-            },
-            "type": "mediawiki-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "Validator.php"
-                ],
-                "psr-4": {
-                    "ParamProcessor\\": "src/ParamProcessor/"
-                },
-                "classmap": [
-                    "src/legacy/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Jeroen De Dauw",
-                    "email": "jeroendedauw@gmail.com",
-                    "homepage": "http://jeroendedauw.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "MediaWiki wrapper for the ParamProcessor library",
-            "homepage": "https://github.com/JeroenDeDauw/Validator",
-            "keywords": [
-                "ParamProcessor",
-                "SMW",
-                "Semantic MediaWiki",
-                "mediawiki",
-                "validator"
-            ],
-            "time": "2016-04-04 00:44:24"
-        },
-        {
             "name": "mediawiki/vector-skin",
             "version": "dev-REL1_26",
             "source": {
@@ -1206,16 +1048,16 @@
         },
         {
             "name": "onoi/callback-container",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/onoi/callback-container.git",
-                "reference": "e0379fcf8947e2c2b5dd0260df5336846937c47f"
+                "reference": "0cd9f879676d84033ea7d5a8499b497a108300aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/onoi/callback-container/zipball/e0379fcf8947e2c2b5dd0260df5336846937c47f",
-                "reference": "e0379fcf8947e2c2b5dd0260df5336846937c47f",
+                "url": "https://api.github.com/repos/onoi/callback-container/zipball/0cd9f879676d84033ea7d5a8499b497a108300aa",
+                "reference": "0cd9f879676d84033ea7d5a8499b497a108300aa",
                 "shasum": ""
             },
             "require": {
@@ -1247,7 +1089,7 @@
             "keywords": [
                 "cache"
             ],
-            "time": "2015-09-08 13:27:53"
+            "time": "2016-04-30 07:11:39"
         },
         {
             "name": "onoi/event-dispatcher",
@@ -1346,16 +1188,16 @@
         },
         {
             "name": "onoi/message-reporter",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/onoi/message-reporter.git",
-                "reference": "483dc326ed19d6c79485d556a71a274a267d619e"
+                "reference": "910bf7e57f86a4f0393c85444dbeb040243da1fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/onoi/message-reporter/zipball/483dc326ed19d6c79485d556a71a274a267d619e",
-                "reference": "483dc326ed19d6c79485d556a71a274a267d619e",
+                "url": "https://api.github.com/repos/onoi/message-reporter/zipball/910bf7e57f86a4f0393c85444dbeb040243da1fb",
+                "reference": "910bf7e57f86a4f0393c85444dbeb040243da1fb",
                 "shasum": ""
             },
             "require": {
@@ -1389,7 +1231,7 @@
             "keywords": [
                 "messages"
             ],
-            "time": "2015-01-24 07:54:29"
+            "time": "2016-04-13 02:38:41"
         },
         {
             "name": "oojs/oojs-ui",
@@ -1523,16 +1365,16 @@
         },
         {
             "name": "param-processor/param-processor",
-            "version": "1.2.3",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/ParamProcessor.git",
-                "reference": "da11318d947935851e4820d5e1ba0d2fd906999a"
+                "reference": "7c2e45f1e61c13f0975fdbb0f83d8258074f7f56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/ParamProcessor/zipball/da11318d947935851e4820d5e1ba0d2fd906999a",
-                "reference": "da11318d947935851e4820d5e1ba0d2fd906999a",
+                "url": "https://api.github.com/repos/JeroenDeDauw/ParamProcessor/zipball/7c2e45f1e61c13f0975fdbb0f83d8258074f7f56",
+                "reference": "7c2e45f1e61c13f0975fdbb0f83d8258074f7f56",
                 "shasum": ""
             },
             "require": {
@@ -1581,7 +1423,7 @@
                 "mediawiki",
                 "validator"
             ],
-            "time": "2016-04-04 00:55:56"
+            "time": "2016-05-15 05:58:49"
         },
         {
             "name": "psr/log",
@@ -2000,16 +1842,16 @@
     "packages-dev": [
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.1.1",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "1289d16209491b584839022f29257ad859b8532d"
+                "reference": "dff51f72b0706335131b00a7f49606168c582594"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/1289d16209491b584839022f29257ad859b8532d",
-                "reference": "1289d16209491b584839022f29257ad859b8532d",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/dff51f72b0706335131b00a7f49606168c582594",
+                "reference": "dff51f72b0706335131b00a7f49606168c582594",
                 "shasum": ""
             },
             "require": {
@@ -2021,7 +1863,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -2055,20 +1897,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-01-20 09:13:37"
+            "time": "2016-05-18 14:26:46"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.0.4",
+            "version": "v3.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "3841ed86527d18ee2c35fe4afb1b2fc60f8fae79"
+                "reference": "0e918c269093ba4c77fca14e9424fa74ed16f1a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/3841ed86527d18ee2c35fe4afb1b2fc60f8fae79",
-                "reference": "3841ed86527d18ee2c35fe4afb1b2fc60f8fae79",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/0e918c269093ba4c77fca14e9424fa74ed16f1a6",
+                "reference": "0e918c269093ba4c77fca14e9424fa74ed16f1a6",
                 "shasum": ""
             },
             "require": {
@@ -2118,7 +1960,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-03-10 10:34:12"
+            "time": "2016-04-25 11:17:47"
         }
     ],
     "aliases": [],
