@@ -42,7 +42,15 @@ wfLoadExtension('CommonsMetadata');
 wfLoadExtension('NewsTab');
 wfLoadExtension('CategoryBreadcrumb');
 wfLoadExtension('ArchiMaps');
+wfLoadExtension('VisualEditor');
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
+
+//VisualEditor
+$wgDefaultUserOptions['visualeditor-enable'] = 1;
+$wgVirtualRestConfig['modules']['parsoid'] = array(
+    'url' => 'http://localhost:8142',
+    'prefix' => 'localhost'
+);
 
 $egMapsEnableCategory = false;
 $wgAllowCopyUploads = true;
@@ -59,6 +67,7 @@ $wgExtraNamespaces[NS_SOURCE] = "Source";
 $wgExtraNamespaces[NS_SOURCE_TALK] = "Discussion_source";
 
 $wgNamespacesWithSubpages[NS_ADDRESS] = true;
+$wgVisualEditorAvailableNamespaces[NS_ADDRESS] = true;
 
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;

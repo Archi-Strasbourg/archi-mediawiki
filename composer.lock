@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "095a45d631fc895f9e63eabbba7db663",
-    "content-hash": "15819e28d4fab866986972214cd92394",
+    "hash": "519b8cf8a41c49bb3b94d4890e0e9be0",
+    "content-hash": "3dc7e3304bebe9e21651173ea9ef7b09",
     "packages": [
         {
             "name": "archi-strasbourg/archi-maps",
@@ -611,6 +611,16 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ParserFunctions.git",
+                "reference": "REL1_26"
+            },
+            "type": "mediawiki-extension"
+        },
+        {
+            "name": "mediawiki/VisualEditor",
+            "version": "1.26",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/VisualEditor.git",
                 "reference": "REL1_26"
             },
             "type": "mediawiki-extension"
