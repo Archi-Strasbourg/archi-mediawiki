@@ -8,7 +8,7 @@
 	},
 	"require": {
 		"mediawiki/core": "~1.26.0",
-		"mediawiki/vector-skin": "dev-REL1_26",
+		"mediawiki/vector-skin": "~1.0@dev",
 		"mediawiki/semantic-media-wiki": "~2.3.0",
 		"mediawiki/ParserFunctions": "~1.26",
 		"mediawiki/Cite": "~1.26",

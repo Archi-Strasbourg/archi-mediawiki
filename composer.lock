@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d4332f3cca7e010ea68731b77f0ea0c3",
-    "content-hash": "d817b7e18b9a021d589eb16fe89e8106",
+    "hash": "095a45d631fc895f9e63eabbba7db663",
+    "content-hash": "15819e28d4fab866986972214cd92394",
     "packages": [
         {
             "name": "archi-strasbourg/archi-maps",
@@ -915,25 +915,26 @@
         },
         {
             "name": "mediawiki/vector-skin",
-            "version": "dev-REL1_26",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://git.wikimedia.org/git/mediawiki/skins/Vector.git",
-                "reference": "186325fe473fe0472706132aa55040a653859c09"
+                "reference": "26f3f8c7329eec51cdf86869dbbc05cbe754741a"
             },
             "require": {
                 "composer/installers": ">1.0.12",
-                "php": ">=5.3.3"
+                "php": ">=5.5.9"
             },
             "require-dev": {
                 "jakub-onderka/php-parallel-lint": "0.9.*",
-                "mediawiki/mediawiki-codesniffer": "0.3.0"
+                "mediawiki/mediawiki-codesniffer": "0.7.1"
             },
             "type": "mediawiki-skin",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.x-dev"
-                }
+                },
+                "installer-name": "Vector"
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -954,7 +955,7 @@
                 "skin",
                 "wiki"
             ],
-            "time": "2015-11-23 21:46:56"
+            "time": "2016-05-17 20:06:06"
         },
         {
             "name": "onoi/blob-store",

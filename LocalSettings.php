@@ -33,7 +33,7 @@ $wgDiff3 = "/usr/bin/diff3";
 $wgDefaultSkin = "vector";
 
 //Extensions
-wfLoadSkin('vector');
+wfLoadSkin('Vector');
 enableSemantics('localhost');
 wfLoadExtension('ParserFunctions');
 wfLoadExtension('Cite');
