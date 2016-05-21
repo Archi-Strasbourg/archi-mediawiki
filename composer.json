@@ -16,6 +16,7 @@
 		"mediawiki/MultimediaViewer": "~1.26",
 		"mediawiki/CommonsMetadata": "~1.26",
 		"mediawiki/VisualEditor": "~1.26",
+		"mediawiki/TemplateData": "~1.26",
 		"composer/installers": "~1.0.22",
 		"archi-strasbourg/news-tab": "dev-develop",
 		"archi-strasbourg/category-breadcrumb": "~2.4.0",
@@ -91,6 +92,18 @@
 			"version": "1.26",
 			"source": {
 				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/VisualEditor.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/TemplateData",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TemplateData.git",
 				"type": "git",
 				"reference": "REL1_26"
 			},

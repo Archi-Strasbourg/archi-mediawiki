@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "519b8cf8a41c49bb3b94d4890e0e9be0",
-    "content-hash": "3dc7e3304bebe9e21651173ea9ef7b09",
+    "hash": "48f381bade016d281fd1e19cb63bb8e5",
+    "content-hash": "660b95e20418273d7e35641c0f4f15de",
     "packages": [
         {
             "name": "archi-strasbourg/archi-maps",
@@ -611,6 +611,16 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ParserFunctions.git",
+                "reference": "REL1_26"
+            },
+            "type": "mediawiki-extension"
+        },
+        {
+            "name": "mediawiki/TemplateData",
+            "version": "1.26",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TemplateData.git",
                 "reference": "REL1_26"
             },
             "type": "mediawiki-extension"

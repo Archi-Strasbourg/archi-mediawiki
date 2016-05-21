@@ -43,6 +43,7 @@ wfLoadExtension('NewsTab');
 wfLoadExtension('CategoryBreadcrumb');
 wfLoadExtension('ArchiMaps');
 wfLoadExtension('VisualEditor');
+wfLoadExtension( 'TemplateData' );
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 
 //VisualEditor
