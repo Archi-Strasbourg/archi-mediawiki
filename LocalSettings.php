@@ -43,7 +43,8 @@ wfLoadExtension('NewsTab');
 wfLoadExtension('CategoryBreadcrumb');
 wfLoadExtension('ArchiMaps');
 wfLoadExtension('VisualEditor');
-wfLoadExtension( 'TemplateData' );
+wfLoadExtension('TemplateData');
+require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 
 //VisualEditor
@@ -69,6 +70,7 @@ $wgExtraNamespaces[NS_SOURCE_TALK] = "Discussion_source";
 
 $wgNamespacesWithSubpages[NS_ADDRESS] = true;
 $wgVisualEditorAvailableNamespaces[NS_ADDRESS] = true;
+$smwgNamespacesWithSemanticLinks[NS_ADDRESS] = true;
 
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;

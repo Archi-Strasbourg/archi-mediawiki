@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "48f381bade016d281fd1e19cb63bb8e5",
-    "content-hash": "660b95e20418273d7e35641c0f4f15de",
+    "hash": "959ef675119cf6b44b5ab4c90fe16324",
+    "content-hash": "e1f7c9a127d098f35558f8264f928faa",
     "packages": [
         {
             "name": "archi-strasbourg/archi-maps",
@@ -564,6 +564,16 @@
                 "statsd"
             ],
             "time": "2015-04-27 08:12:26"
+        },
+        {
+            "name": "mediawiki/Arrays",
+            "version": "1.26",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Arrays.git",
+                "reference": "REL1_26"
+            },
+            "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/Cite",
