@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "95f2becd18ed890feb377aeab6e327d6",
-    "content-hash": "3350c890557450b4d0cad2bea931ec67",
+    "hash": "ab2e7c2643d5209620af12a2af160aa2",
+    "content-hash": "a5d1e5d3cfa5d2439507b7b20e913c78",
     "packages": [
         {
             "name": "archi-strasbourg/archi-maps",
-            "version": "0.1.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
-                "reference": "f752aa525bedd3bd7a8bd784caa5e3d9dbcbdf38"
+                "reference": "ac597c0b98d5dc655b18459c2c8de71e310279f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/f752aa525bedd3bd7a8bd784caa5e3d9dbcbdf38",
-                "reference": "f752aa525bedd3bd7a8bd784caa5e3d9dbcbdf38",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/ac597c0b98d5dc655b18459c2c8de71e310279f6",
+                "reference": "ac597c0b98d5dc655b18459c2c8de71e310279f6",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -33,7 +33,7 @@
                 }
             ],
             "description": "Map plugin for archi-wiki.org",
-            "time": "2016-05-19 16:29:33"
+            "time": "2016-05-21 15:01:59"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -1967,7 +1967,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "mediawiki/vector-skin": 20,
-        "archi-strasbourg/news-tab": 20
+        "archi-strasbourg/news-tab": 20,
+        "archi-strasbourg/archi-maps": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
