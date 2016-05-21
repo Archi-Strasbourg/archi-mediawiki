@@ -3,6 +3,9 @@
 	"description": "Port of Archi-Wiki to MediaWiki",
 	"license": "GPL-3.0",
 	"type": "project",
+	"replace": {
+		"rudloff/mediawiki-composer": "~0.1.3"
+	},
 	"require": {
 		"mediawiki/core": "~1.26.0",
 		"mediawiki/vector-skin": "dev-REL1_26",
