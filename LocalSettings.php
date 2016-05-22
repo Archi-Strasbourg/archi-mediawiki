@@ -44,6 +44,7 @@ wfLoadExtension('CategoryBreadcrumb');
 wfLoadExtension('ArchiMaps');
 wfLoadExtension('VisualEditor');
 wfLoadExtension('TemplateData');
+wfLoadExtensions(array('ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha'));
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
@@ -61,6 +62,10 @@ $wgExtensionFunctions[] = function () {
     return true;
 };
 $wgUploadWizardConfig['tutorial']['skip'] = true;
+
+//ReCaptcha
+$wgCaptchaClass = 'ReCaptchaNoCaptcha';
+
 
 $egMapsEnableCategory = false;
 $wgAllowCopyUploads = true;

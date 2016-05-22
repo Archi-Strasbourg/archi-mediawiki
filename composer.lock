@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cee9b020a84450fc46d8689593e09b35",
-    "content-hash": "99d765df6e7af1b1fa348b1f92e11c0b",
+    "hash": "784e1662859b7cb9e4385f388a3e0523",
+    "content-hash": "197adcab7c766603f4ff5ddb90bb7408",
     "packages": [
         {
             "name": "archi-strasbourg/archi-maps",
@@ -613,6 +613,20 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/CommonsMetadata-REL1_26-160f837.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension"
+        },
+        {
+            "name": "mediawiki/ConfirmEdit",
+            "version": "1.26",
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_26-d36751a.tar.gz",
                 "reference": null,
                 "shasum": null
             },
