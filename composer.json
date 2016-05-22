@@ -8,16 +8,16 @@
 	},
 	"require": {
 		"mediawiki/core": "~1.26.0",
-		"mediawiki/vector-skin": "~1.0@dev",
+		"mediawiki/Vector": "~1.26.0",
 		"mediawiki/semantic-media-wiki": "~2.3.0",
-		"mediawiki/ParserFunctions": "~1.26",
-		"mediawiki/Cite": "~1.26",
-		"mediawiki/Comments": "~1.26",
-		"mediawiki/MultimediaViewer": "~1.26",
-		"mediawiki/CommonsMetadata": "~1.26",
-		"mediawiki/VisualEditor": "~1.26",
-		"mediawiki/TemplateData": "~1.26",
-		"mediawiki/Arrays": "~1.26",
+		"mediawiki/ParserFunctions": "~1.26.0",
+		"mediawiki/Cite": "~1.26.0",
+		"mediawiki/Comments": "~1.26.0",
+		"mediawiki/MultimediaViewer": "~1.26.0",
+		"mediawiki/CommonsMetadata": "~1.26.0",
+		"mediawiki/VisualEditor": "~1.26.0",
+		"mediawiki/TemplateData": "~1.26.0",
+		"mediawiki/Arrays": "~1.26.0",
 		"composer/installers": "~1.0.22",
 		"archi-strasbourg/news-tab": "dev-develop",
 		"archi-strasbourg/category-breadcrumb": "~2.4.0",
@@ -27,101 +27,8 @@
 		"symfony/var-dumper": "~3.0.0"
 	},
 	"repositories": [{
-		"type": "package",
-		"package": {
-			"name": "mediawiki/ParserFunctions",
-			"version": "1.26",
-			"source": {
-				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ParserFunctions.git",
-				"type": "git",
-				"reference": "REL1_26"
-			},
-			"type": "mediawiki-extension"
-		}
-	}, {
-		"type": "package",
-		"package": {
-			"name": "mediawiki/Cite",
-			"version": "1.26",
-			"source": {
-				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Cite.git",
-				"type": "git",
-				"reference": "REL1_26"
-			},
-			"type": "mediawiki-extension"
-		}
-	}, {
-		"type": "package",
-		"package": {
-			"name": "mediawiki/Comments",
-			"version": "1.26",
-			"source": {
-				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Comments.git",
-				"type": "git",
-				"reference": "REL1_26"
-			},
-			"type": "mediawiki-extension"
-		}
-	}, {
-		"type": "package",
-		"package": {
-			"name": "mediawiki/MultimediaViewer",
-			"version": "1.26",
-			"source": {
-				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/MultimediaViewer.git",
-				"type": "git",
-				"reference": "REL1_26"
-			},
-			"type": "mediawiki-extension"
-		}
-	}, {
-		"type": "package",
-		"package": {
-			"name": "mediawiki/CommonsMetadata",
-			"version": "1.26",
-			"source": {
-				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CommonsMetadata.git",
-				"type": "git",
-				"reference": "REL1_26"
-			},
-			"type": "mediawiki-extension"
-		}
-	}, {
-		"type": "package",
-		"package": {
-			"name": "mediawiki/VisualEditor",
-			"version": "1.26",
-			"source": {
-				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/VisualEditor.git",
-				"type": "git",
-				"reference": "REL1_26"
-			},
-			"type": "mediawiki-extension"
-		}
-	}, {
-		"type": "package",
-		"package": {
-			"name": "mediawiki/TemplateData",
-			"version": "1.26",
-			"source": {
-				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TemplateData.git",
-				"type": "git",
-				"reference": "REL1_26"
-			},
-			"type": "mediawiki-extension"
-		}
-	}, {
-		"type": "package",
-		"package": {
-			"name": "mediawiki/Arrays",
-			"version": "1.26",
-			"source": {
-				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Arrays.git",
-				"type": "git",
-				"reference": "REL1_26"
-			},
-			"type": "mediawiki-extension"
-		}
+		"type": "composer",
+		"url": "https://mwpackagist.netlib.re/"
 	}],
 	"scripts": {
 		"post-install-cmd": [

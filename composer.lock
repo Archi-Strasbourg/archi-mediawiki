@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "959ef675119cf6b44b5ab4c90fe16324",
-    "content-hash": "e1f7c9a127d098f35558f8264f928faa",
+    "hash": "9259cf3ef36e078128cf092fb61ed753",
+    "content-hash": "25badfb8e35443529e05ecf57bc01c3c",
     "packages": [
         {
             "name": "archi-strasbourg/archi-maps",
@@ -568,80 +568,126 @@
         {
             "name": "mediawiki/Arrays",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Arrays.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Arrays-REL1_26-735b832.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/Cite",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Cite.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Cite-REL1_26-dc872e6.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/Comments",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Comments.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Comments-REL1_26-f913a64.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/CommonsMetadata",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CommonsMetadata.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/CommonsMetadata-REL1_26-160f837.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/MultimediaViewer",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/MultimediaViewer.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/MultimediaViewer-REL1_26-a312b66.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/ParserFunctions",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ParserFunctions.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/ParserFunctions-REL1_26-81eca7c.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/TemplateData",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TemplateData.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/TemplateData-REL1_26-8a1b550.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
+            "name": "mediawiki/Vector",
+            "version": "1.26",
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/skins/Vector-REL1_26-186325f.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-skin"
+        },
+        {
             "name": "mediawiki/VisualEditor",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/VisualEditor.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/VisualEditor-REL1_26-a733545.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
@@ -942,50 +988,6 @@
                 "wiki"
             ],
             "time": "2016-01-04 11:25:45"
-        },
-        {
-            "name": "mediawiki/vector-skin",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://git.wikimedia.org/git/mediawiki/skins/Vector.git",
-                "reference": "26f3f8c7329eec51cdf86869dbbc05cbe754741a"
-            },
-            "require": {
-                "composer/installers": ">1.0.12",
-                "php": ">=5.5.9"
-            },
-            "require-dev": {
-                "jakub-onderka/php-parallel-lint": "0.9.*",
-                "mediawiki/mediawiki-codesniffer": "0.7.1"
-            },
-            "type": "mediawiki-skin",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                },
-                "installer-name": "Vector"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Trevor Parscal"
-                },
-                {
-                    "name": "Roan Kattouw"
-                }
-            ],
-            "description": "Modern version of the MonoBook skin",
-            "homepage": "https://www.mediawiki.org/wiki/Skin:Vector",
-            "keywords": [
-                "mediawiki",
-                "skin",
-                "wiki"
-            ],
-            "time": "2016-05-17 20:06:06"
         },
         {
             "name": "onoi/blob-store",
@@ -1997,7 +1999,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mediawiki/vector-skin": 20,
         "archi-strasbourg/news-tab": 20,
         "archi-strasbourg/archi-maps": 20
     },
