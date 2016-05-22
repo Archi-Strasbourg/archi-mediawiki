@@ -46,6 +46,7 @@ wfLoadExtension('VisualEditor');
 wfLoadExtension('TemplateData');
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
+require_once "$IP/extensions/UploadWizard/UploadWizard.php";
 
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
@@ -53,6 +54,13 @@ $wgVirtualRestConfig['modules']['parsoid'] = array(
     'url' => 'http://localhost:8142',
     'prefix' => 'localhost'
 );
+
+//UploadWizard
+$wgExtensionFunctions[] = function () {
+    $GLOBALS['wgUploadNavigationUrl'] = SpecialPage::getTitleFor('UploadWizard')->getLocalURL();
+    return true;
+};
+$wgUploadWizardConfig['tutorial']['skip'] = true;
 
 $egMapsEnableCategory = false;
 $wgAllowCopyUploads = true;

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9259cf3ef36e078128cf092fb61ed753",
-    "content-hash": "25badfb8e35443529e05ecf57bc01c3c",
+    "hash": "cee9b020a84450fc46d8689593e09b35",
+    "content-hash": "99d765df6e7af1b1fa348b1f92e11c0b",
     "packages": [
         {
             "name": "archi-strasbourg/archi-maps",
@@ -655,6 +655,20 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/TemplateData-REL1_26-8a1b550.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension"
+        },
+        {
+            "name": "mediawiki/UploadWizard",
+            "version": "1.26",
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/UploadWizard-REL1_26-729d674.tar.gz",
                 "reference": null,
                 "shasum": null
             },
