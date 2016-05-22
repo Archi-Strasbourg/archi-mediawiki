@@ -49,6 +49,7 @@ require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
 require_once "$IP/extensions/ContactPage/ContactPage.php";
+require_once "$IP/extensions/AddThis/AddThis.php";
 
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
@@ -98,6 +99,12 @@ $wgContactConfig['default'] = array(
     'SenderName'=>'Archi-Wiki'
 );
 
+//AddThis
+$wgAddThisHeader = false;
+$wgResourceModules['ext.addThis'] = array(
+    'position' => 'top',
+    'styles' => 'addThis.css'
+);
 
 $egMapsEnableCategory = false;
 $wgAllowCopyUploads = true;

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0cc3631b6b9dcd186bd214c43e9fa141",
-    "content-hash": "7e4716a7595bfd0def1bac8e472b0d52",
+    "hash": "0b371022542826e1521ba7b1dda9c8f7",
+    "content-hash": "4e5466ad00a1c71f796408001cf2c703",
     "packages": [
         {
             "name": "archi-strasbourg/archi-maps",
@@ -564,6 +564,20 @@
                 "statsd"
             ],
             "time": "2015-04-27 08:12:26"
+        },
+        {
+            "name": "mediawiki/AddThis",
+            "version": "1.26",
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/AddThis-REL1_26-6a6f201.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/Arrays",
