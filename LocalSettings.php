@@ -48,6 +48,7 @@ wfLoadExtensions(array('ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha'));
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
+require_once "$IP/extensions/ContactPage/ContactPage.php";
 
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
@@ -65,6 +66,37 @@ $wgUploadWizardConfig['tutorial']['skip'] = true;
 
 //ReCaptcha
 $wgCaptchaClass = 'ReCaptchaNoCaptcha';
+//$wgCaptchaTriggers['contactpage'] = true;
+
+//ContactPage
+$wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
+    $contactLink = Html::element(
+        'a',
+        array( 'href' => SpecialPage::getTitleFor('Contact')->getLocalURL() ),
+        'Nous contacter'
+    );
+    $tpl->set('contact', $contactLink);
+    $tpl->data['footerlinks']['places'][] = 'contact';
+    return true;
+};
+$wgContactConfig['default'] = array(
+    'RecipientUser'=>'Rudloff',
+    'RequireDetails'=>true,
+    'AdditionalFields'=>array(),
+    'IncludeIP'=>false,
+    'DisplayFormat'=>'table',
+    'RLModules' => array(),
+    'RLStyleModules' => array(),
+    'AdditionalFields' => array(
+        'Text' => array(
+            'label-message' => 'emailmessage',
+            'type' => 'textarea',
+            'required' => true
+        )
+    ),
+    'SenderEmail'=>'contact@archi-strasbourg.org',
+    'SenderName'=>'Archi-Wiki'
+);
 
 
 $egMapsEnableCategory = false;

@@ -20,6 +20,7 @@
 		"mediawiki/Arrays": "~1.26.0",
 		"mediawiki/UploadWizard": "~1.26.0",
 		"mediawiki/ConfirmEdit": "~1.26.0",
+		"mediawiki/ContactPage": "~1.26.0",
 		"composer/installers": "~1.0.22",
 		"archi-strasbourg/news-tab": "dev-develop",
 		"archi-strasbourg/category-breadcrumb": "~2.4.0",

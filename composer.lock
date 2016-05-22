@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "784e1662859b7cb9e4385f388a3e0523",
-    "content-hash": "197adcab7c766603f4ff5ddb90bb7408",
+    "hash": "0cc3631b6b9dcd186bd214c43e9fa141",
+    "content-hash": "7e4716a7595bfd0def1bac8e472b0d52",
     "packages": [
         {
             "name": "archi-strasbourg/archi-maps",
@@ -627,6 +627,20 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_26-d36751a.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension"
+        },
+        {
+            "name": "mediawiki/ContactPage",
+            "version": "1.26",
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/ContactPage-REL1_26-99a687f.tar.gz",
                 "reference": null,
                 "shasum": null
             },
