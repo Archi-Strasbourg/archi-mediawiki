@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0b371022542826e1521ba7b1dda9c8f7",
-    "content-hash": "4e5466ad00a1c71f796408001cf2c703",
+    "hash": "8009e7ff4042d91391bfa6cbc6f88080",
+    "content-hash": "44199963c6391570feb69d7e34a084e0",
     "packages": [
         {
             "name": "archi-strasbourg/archi-maps",
@@ -796,16 +796,16 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.26.2",
+            "version": "1.26.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "f465524fc4840fb5c8b97e9ee6ffaf2a30c2e644"
+                "reference": "fa11b598b4e396f606c2ffe8a4929c24e0f8cf46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/f465524fc4840fb5c8b97e9ee6ffaf2a30c2e644",
-                "reference": "f465524fc4840fb5c8b97e9ee6ffaf2a30c2e644",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/fa11b598b4e396f606c2ffe8a4929c24e0f8cf46",
+                "reference": "fa11b598b4e396f606c2ffe8a4929c24e0f8cf46",
                 "shasum": ""
             },
             "require": {
@@ -899,9 +899,9 @@
                 "issues": "https://bugs.mediawiki.org/",
                 "irc": "irc://irc.freenode.net/mediawiki",
                 "wiki": "https://www.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.26.2"
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.26.3"
             },
-            "time": "2015-12-20 23:48:38"
+            "time": "2016-05-20 19:41:33"
         },
         {
             "name": "mediawiki/parser-hooks",
