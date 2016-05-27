@@ -68,6 +68,8 @@ $wgUploadWizardConfig['tutorial']['skip'] = true;
 //ReCaptcha
 $wgCaptchaClass = 'ReCaptchaNoCaptcha';
 //$wgCaptchaTriggers['contactpage'] = true;
+//À retirer en production
+$wgGroupPermissions['user']['skipcaptcha'] = true;
 
 //ContactPage
 $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
