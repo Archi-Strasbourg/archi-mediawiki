@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8009e7ff4042d91391bfa6cbc6f88080",
-    "content-hash": "44199963c6391570feb69d7e34a084e0",
+    "hash": "0b371022542826e1521ba7b1dda9c8f7",
+    "content-hash": "4e5466ad00a1c71f796408001cf2c703",
     "packages": [
         {
             "name": "archi-strasbourg/archi-maps",
@@ -1454,16 +1454,16 @@
         },
         {
             "name": "param-processor/param-processor",
-            "version": "1.2.4",
+            "version": "1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/ParamProcessor.git",
-                "reference": "7c2e45f1e61c13f0975fdbb0f83d8258074f7f56"
+                "reference": "b5c2b5e02a4a79f6c1b802eb639243d0e9376928"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/ParamProcessor/zipball/7c2e45f1e61c13f0975fdbb0f83d8258074f7f56",
-                "reference": "7c2e45f1e61c13f0975fdbb0f83d8258074f7f56",
+                "url": "https://api.github.com/repos/JeroenDeDauw/ParamProcessor/zipball/b5c2b5e02a4a79f6c1b802eb639243d0e9376928",
+                "reference": "b5c2b5e02a4a79f6c1b802eb639243d0e9376928",
                 "shasum": ""
             },
             "require": {
@@ -1512,7 +1512,7 @@
                 "mediawiki",
                 "validator"
             ],
-            "time": "2016-05-15 05:58:49"
+            "time": "2016-05-23 12:39:16"
         },
         {
             "name": "psr/log",
