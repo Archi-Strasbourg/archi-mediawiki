@@ -125,6 +125,7 @@ $wgExtraNamespaces[NS_SOURCE_TALK] = "Discussion_source";
 $wgNamespacesWithSubpages[NS_ADDRESS] = true;
 $wgVisualEditorAvailableNamespaces[NS_ADDRESS] = true;
 $smwgNamespacesWithSemanticLinks[NS_ADDRESS] = true;
+$wgNamespacesToBeSearchedDefault[NS_ADDRESS] = true;
 
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;
