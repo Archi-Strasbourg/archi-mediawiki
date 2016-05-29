@@ -71,8 +71,9 @@ $wgCaptchaClass = 'ReCaptchaNoCaptcha';
 //À retirer en production
 $wgGroupPermissions['user']['skipcaptcha'] = true;
 
-//ContactPage
+//Footer
 $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
+    $tpl->data['footerlinks']['places'] = array();
     $contactLink = Html::element(
         'a',
         array( 'href' => SpecialPage::getTitleFor('Contact')->getLocalURL() ),
@@ -80,8 +81,27 @@ $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
     );
     $tpl->set('contact', $contactLink);
     $tpl->data['footerlinks']['places'][] = 'contact';
+
+    $faq = Html::element(
+        'a',
+        array( 'href' => Title::newFromText('Foire aux questions')->getLocalURL() ),
+        'Foire aux questions'
+    );
+    $tpl->set('faq', $faq);
+    $tpl->data['footerlinks']['places'][] = 'faq';
+
+    $legal = Html::element(
+        'a',
+        array( 'href' => Title::newFromText('Mentions légales')->getLocalURL() ),
+        'Mentions légales'
+    );
+    $tpl->set('legal', $legal);
+    $tpl->data['footerlinks']['places'][] = 'legal';
+
     return true;
 };
+
+//ContactPage
 $wgContactConfig['default'] = array(
     'RecipientUser'=>'Rudloff',
     'RequireDetails'=>true,
