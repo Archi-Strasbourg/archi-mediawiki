@@ -31,6 +31,7 @@ $wgRightsText = "";
 $wgRightsIcon = "";
 $wgDiff3 = "/usr/bin/diff3";
 $wgDefaultSkin = "vector";
+$wgAllowSlowParserFunctions = true;
 
 //Extensions
 wfLoadSkin('Vector');
@@ -44,12 +45,15 @@ wfLoadExtension('CategoryBreadcrumb');
 wfLoadExtension('ArchiMaps');
 wfLoadExtension('VisualEditor');
 wfLoadExtension('TemplateData');
+wfLoadExtension('ArchiHome');
+wfLoadExtension('ArchiBlog');
 wfLoadExtensions(array('ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha'));
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
 require_once "$IP/extensions/ContactPage/ContactPage.php";
 require_once "$IP/extensions/AddThis/AddThis.php";
+require_once "$IP/extensions/TextExtracts/TextExtracts.php";
 
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
@@ -141,6 +145,10 @@ define("NS_SOURCE", 4002);
 define("NS_SOURCE_TALK", 4003);
 $wgExtraNamespaces[NS_SOURCE] = "Source";
 $wgExtraNamespaces[NS_SOURCE_TALK] = "Discussion_source";
+define("NS_NEWS", 4004);
+define("NS_NEWS_TALK", 4005);
+$wgExtraNamespaces[NS_NEWS] = "Actualité";
+$wgExtraNamespaces[NS_NEWS_TALK] = "Discussion_actualité";
 
 $wgNamespacesWithSubpages[NS_ADDRESS] = true;
 $wgVisualEditorAvailableNamespaces[NS_ADDRESS] = true;

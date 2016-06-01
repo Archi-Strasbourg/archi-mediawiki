@@ -22,10 +22,13 @@
 		"mediawiki/ConfirmEdit": "~1.26.0",
 		"mediawiki/ContactPage": "~1.26.0",
 		"mediawiki/AddThis": "~1.26.0",
+		"mediawiki/TextExtracts": "~1.26.0",
 		"composer/installers": "~1.0.22",
 		"archi-strasbourg/news-tab": "dev-develop",
 		"archi-strasbourg/category-breadcrumb": "~2.4.0",
-		"archi-strasbourg/archi-maps": "dev-develop"
+		"archi-strasbourg/archi-maps": "dev-develop",
+		"archi-strasbourg/archi-blog": "dev-develop",
+		"archi-strasbourg/archi-home": "dev-develop"
 	},
 	"require-dev": {
 		"symfony/var-dumper": "~3.0.0"

@@ -4,9 +4,59 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0b371022542826e1521ba7b1dda9c8f7",
-    "content-hash": "4e5466ad00a1c71f796408001cf2c703",
+    "hash": "7a8ca71aec8b87ec2d60a3cb09251189",
+    "content-hash": "a54c832591da28b4ec1570a935459f7e",
     "packages": [
+        {
+            "name": "archi-strasbourg/archi-blog",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog.git",
+                "reference": "352f0fbaf1cac7cefa5fc20835bf415639cbdf1f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/352f0fbaf1cac7cefa5fc20835bf415639cbdf1f",
+                "reference": "352f0fbaf1cac7cefa5fc20835bf415639cbdf1f",
+                "shasum": ""
+            },
+            "require": {
+                "mediawiki/textextracts": "~1.26"
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Blog page for archi-wiki.org",
+            "time": "2016-06-01 20:39:32"
+        },
+        {
+            "name": "archi-strasbourg/archi-home",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
+                "reference": "989fc742d13a87fc90aedfeccefc5634a018ee1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/989fc742d13a87fc90aedfeccefc5634a018ee1a",
+                "reference": "989fc742d13a87fc90aedfeccefc5634a018ee1a",
+                "shasum": ""
+            },
+            "require": {
+                "mediawiki/textextracts": "~1.26"
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Custom homepage for archi-wiki.org",
+            "time": "2016-06-01 20:38:29"
+        },
         {
             "name": "archi-strasbourg/archi-maps",
             "version": "dev-develop",
@@ -697,6 +747,20 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/TemplateData-REL1_26-8a1b550.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension"
+        },
+        {
+            "name": "mediawiki/TextExtracts",
+            "version": "1.26",
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/TextExtracts-REL1_26-e399b19.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -2056,7 +2120,9 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "archi-strasbourg/news-tab": 20,
-        "archi-strasbourg/archi-maps": 20
+        "archi-strasbourg/archi-maps": 20,
+        "archi-strasbourg/archi-blog": 20,
+        "archi-strasbourg/archi-home": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
