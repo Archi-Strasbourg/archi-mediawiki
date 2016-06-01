@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7a8ca71aec8b87ec2d60a3cb09251189",
-    "content-hash": "a54c832591da28b4ec1570a935459f7e",
+    "hash": "e37d09b073490c7447444d5f6c0ffa77",
+    "content-hash": "cc6ef3950808c1f9a91fd084323b8e7e",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -38,12 +38,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "989fc742d13a87fc90aedfeccefc5634a018ee1a"
+                "reference": "43dab5753d8752e409349698e348e63f0a4581fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/989fc742d13a87fc90aedfeccefc5634a018ee1a",
-                "reference": "989fc742d13a87fc90aedfeccefc5634a018ee1a",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/43dab5753d8752e409349698e348e63f0a4581fa",
+                "reference": "43dab5753d8752e409349698e348e63f0a4581fa",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2016-06-01 20:38:29"
+            "time": "2016-06-01 21:07:39"
         },
         {
             "name": "archi-strasbourg/archi-maps",
