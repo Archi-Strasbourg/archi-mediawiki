@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__.'/dbconfig.php';
+require_once __DIR__.'/namespaces.php';
 
 $wgSitename = "Archi-Wiki";
 $wgScriptExtension = ".php";
@@ -137,16 +138,10 @@ $wgAllowCopyUploads = true;
 $wgShowExceptionDetails = true;
 
 //Namespaces
-define("NS_ADDRESS", 4000);
-define("NS_ADDRESS_NEWS", 4001);
 $wgExtraNamespaces[NS_ADDRESS] = "Adresse";
 $wgExtraNamespaces[NS_ADDRESS_NEWS] = "Actualités_adresse";
-define("NS_SOURCE", 4002);
-define("NS_SOURCE_TALK", 4003);
 $wgExtraNamespaces[NS_SOURCE] = "Source";
 $wgExtraNamespaces[NS_SOURCE_TALK] = "Discussion_source";
-define("NS_NEWS", 4004);
-define("NS_NEWS_TALK", 4005);
 $wgExtraNamespaces[NS_NEWS] = "Actualité";
 $wgExtraNamespaces[NS_NEWS_TALK] = "Discussion_actualité";
 
