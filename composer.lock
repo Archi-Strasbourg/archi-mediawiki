@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e37d09b073490c7447444d5f6c0ffa77",
-    "content-hash": "cc6ef3950808c1f9a91fd084323b8e7e",
+    "hash": "f61cb115890fc1d147e483b358ce9e09",
+    "content-hash": "248c6ace7541403b3eb2ceaf07163254",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2054,16 +2054,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.0.6",
+            "version": "v3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "0e918c269093ba4c77fca14e9424fa74ed16f1a6"
+                "reference": "436195b421e8c0493ca3e390c1fbecd8ee08c546"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/0e918c269093ba4c77fca14e9424fa74ed16f1a6",
-                "reference": "0e918c269093ba4c77fca14e9424fa74ed16f1a6",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/436195b421e8c0493ca3e390c1fbecd8ee08c546",
+                "reference": "436195b421e8c0493ca3e390c1fbecd8ee08c546",
                 "shasum": ""
             },
             "require": {
@@ -2079,7 +2079,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -2113,7 +2113,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-04-25 11:17:47"
+            "time": "2016-05-24 10:06:56"
         }
     ],
     "aliases": [],
