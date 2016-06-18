@@ -38,13 +38,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer.git",
-                "reference": "1263406a0988d2f34f4a4d802e74ddb1c4b6c74b"
+                "reference": "1f2d251d5d8b368444ceb1f299798c30d7274fbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/1263406a0988d2f34f4a4d802e74ddb1c4b6c74b",
-                "reference": "1263406a0988d2f34f4a4d802e74ddb1c4b6c74b",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/1f2d251d5d8b368444ceb1f299798c30d7274fbd",
+                "reference": "1f2d251d5d8b368444ceb1f299798c30d7274fbd",
                 "shasum": ""
+            },
+            "require": {
+                "mediawiki/comments": "~1.26.0"
             },
             "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
@@ -52,7 +55,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom page footer for archi-wiki.org",
-            "time": "2016-06-18 12:29:46"
+            "time": "2016-06-18 14:09:50"
         },
         {
             "name": "archi-strasbourg/archi-home",
@@ -60,12 +63,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "ad89d3907e34e05759eb78e92a7e6a6b425a3ff2"
+                "reference": "057c72a951b86af7da6c13fe5766d935d15571e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/ad89d3907e34e05759eb78e92a7e6a6b425a3ff2",
-                "reference": "ad89d3907e34e05759eb78e92a7e6a6b425a3ff2",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/057c72a951b86af7da6c13fe5766d935d15571e2",
+                "reference": "057c72a951b86af7da6c13fe5766d935d15571e2",
                 "shasum": ""
             },
             "require": {
@@ -77,7 +80,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2016-06-18 13:06:18"
+            "time": "2016-06-18 15:44:33"
         },
         {
             "name": "archi-strasbourg/archi-maps",
