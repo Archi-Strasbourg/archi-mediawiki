@@ -48,6 +48,7 @@ wfLoadExtension('VisualEditor');
 wfLoadExtension('TemplateData');
 wfLoadExtension('ArchiHome');
 wfLoadExtension('ArchiBlog');
+wfLoadExtension('ArchiFooter');
 wfLoadExtensions(array('ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha'));
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";

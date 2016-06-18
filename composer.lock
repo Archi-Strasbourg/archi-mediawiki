@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f61cb115890fc1d147e483b358ce9e09",
-    "content-hash": "248c6ace7541403b3eb2ceaf07163254",
+    "hash": "38fd4ca61aeaf851f80db42337a7ec48",
+    "content-hash": "d5182d4e79d8ecccd77076f5cf73f5fc",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -31,6 +31,28 @@
             ],
             "description": "Blog page for archi-wiki.org",
             "time": "2016-06-06 14:44:18"
+        },
+        {
+            "name": "archi-strasbourg/archi-footer",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer.git",
+                "reference": "1263406a0988d2f34f4a4d802e74ddb1c4b6c74b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/1263406a0988d2f34f4a4d802e74ddb1c4b6c74b",
+                "reference": "1263406a0988d2f34f4a4d802e74ddb1c4b6c74b",
+                "shasum": ""
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Custom page footer for archi-wiki.org",
+            "time": "2016-06-18 12:29:46"
         },
         {
             "name": "archi-strasbourg/archi-home",
@@ -2122,7 +2144,8 @@
         "archi-strasbourg/news-tab": 20,
         "archi-strasbourg/archi-maps": 20,
         "archi-strasbourg/archi-blog": 20,
-        "archi-strasbourg/archi-home": 20
+        "archi-strasbourg/archi-home": 20,
+        "archi-strasbourg/archi-footer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
