@@ -60,12 +60,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "58bd75b621472f346e3169b79c337983df4c9f35"
+                "reference": "ad89d3907e34e05759eb78e92a7e6a6b425a3ff2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/58bd75b621472f346e3169b79c337983df4c9f35",
-                "reference": "58bd75b621472f346e3169b79c337983df4c9f35",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/ad89d3907e34e05759eb78e92a7e6a6b425a3ff2",
+                "reference": "ad89d3907e34e05759eb78e92a7e6a6b425a3ff2",
                 "shasum": ""
             },
             "require": {
@@ -77,7 +77,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2016-06-18 10:47:58"
+            "time": "2016-06-18 13:06:18"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -135,12 +135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-news-tab.git",
-                "reference": "fab539e878848f90cd5eafb2c7d5315e037067cb"
+                "reference": "5930bbd9349da7753d6bd6793f794c5200505de1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-news-tab/zipball/fab539e878848f90cd5eafb2c7d5315e037067cb",
-                "reference": "fab539e878848f90cd5eafb2c7d5315e037067cb",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-news-tab/zipball/5930bbd9349da7753d6bd6793f794c5200505de1",
+                "reference": "5930bbd9349da7753d6bd6793f794c5200505de1",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -155,7 +155,7 @@
                 }
             ],
             "description": "MediaWiki extension that replaces the talk tab with a news tab",
-            "time": "2016-06-06 14:45:32"
+            "time": "2016-06-18 13:23:44"
         },
         {
             "name": "composer/installers",

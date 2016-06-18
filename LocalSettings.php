@@ -140,6 +140,7 @@ $wgShowExceptionDetails = true;
 
 //Namespaces
 $wgExtraNamespaces[NS_ADDRESS] = "Adresse";
+$wgExtraNamespaces[NS_ADDRESS_TALK] = "Discussion_adresse";
 $wgExtraNamespaces[NS_ADDRESS_NEWS] = "Actualités_adresse";
 $wgExtraNamespaces[NS_SOURCE] = "Source";
 $wgExtraNamespaces[NS_SOURCE_TALK] = "Discussion_source";
