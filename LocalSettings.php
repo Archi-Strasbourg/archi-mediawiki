@@ -159,3 +159,5 @@ $wgNamespacesToBeSearchedDefault[NS_ADDRESS] = true;
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;
 $wgGroupPermissions['*']['upload_by_url'] = true;
+$wgShowSQLErrors = true;
+$wgDebugDumpSql  = true;
