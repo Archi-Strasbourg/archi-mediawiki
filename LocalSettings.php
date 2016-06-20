@@ -138,6 +138,10 @@ $egMapsEnableCategory = false;
 $wgAllowCopyUploads = true;
 $wgShowExceptionDetails = true;
 
+//Categories
+$wgCountryCategory = 'Pays';
+$wgHiddenCategories = array($wgCountryCategory);
+
 //Namespaces
 $wgExtraNamespaces[NS_ADDRESS] = "Adresse";
 $wgExtraNamespaces[NS_ADDRESS_TALK] = "Discussion_adresse";
