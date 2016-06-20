@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "38fd4ca61aeaf851f80db42337a7ec48",
-    "content-hash": "d5182d4e79d8ecccd77076f5cf73f5fc",
+    "hash": "4e1f07d6055e108b79d46571a4749727",
+    "content-hash": "0051edd3ff32b174a6e144b6a3ba99e5",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -31,6 +31,32 @@
             ],
             "description": "Blog page for archi-wiki.org",
             "time": "2016-06-06 14:44:18"
+        },
+        {
+            "name": "archi-strasbourg/archi-comments",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Rudloff/mediawiki-archi-comments.git",
+                "reference": "d4743851256bd55aa1b35d682d7ac7689e47ef16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Rudloff/mediawiki-archi-comments/zipball/d4743851256bd55aa1b35d682d7ac7689e47ef16",
+                "reference": "d4743851256bd55aa1b35d682d7ac7689e47ef16",
+                "shasum": ""
+            },
+            "require": {
+                "archi-strasbourg/archi-home": "dev-develop",
+                "mediawiki/comments": "~1.26.0"
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Comments page for archi-wiki.org",
+            "time": "2016-06-20 22:58:40"
         },
         {
             "name": "archi-strasbourg/archi-footer",
@@ -63,12 +89,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "057c72a951b86af7da6c13fe5766d935d15571e2"
+                "reference": "01af41be68f7f54effc66e97e44a792fedc360d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/057c72a951b86af7da6c13fe5766d935d15571e2",
-                "reference": "057c72a951b86af7da6c13fe5766d935d15571e2",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/01af41be68f7f54effc66e97e44a792fedc360d8",
+                "reference": "01af41be68f7f54effc66e97e44a792fedc360d8",
                 "shasum": ""
             },
             "require": {
@@ -80,7 +106,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2016-06-18 15:44:33"
+            "time": "2016-06-20 22:43:11"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -112,16 +138,16 @@
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
-            "version": "2.4.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-category-breadcrumb.git",
-                "reference": "f254ad92abd3788be7859c8f3223f85b4e202a7f"
+                "reference": "93ea77235a076a1e0d2f2e1f7ba3cf6da1cd4473"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/f254ad92abd3788be7859c8f3223f85b4e202a7f",
-                "reference": "f254ad92abd3788be7859c8f3223f85b4e202a7f",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/93ea77235a076a1e0d2f2e1f7ba3cf6da1cd4473",
+                "reference": "93ea77235a076a1e0d2f2e1f7ba3cf6da1cd4473",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -130,7 +156,7 @@
                 "proprietary"
             ],
             "description": "Provides DMOZ-style category breadcrumbs",
-            "time": "2016-04-07 20:51:56"
+            "time": "2016-06-20 21:22:50"
         },
         {
             "name": "archi-strasbourg/news-tab",
@@ -2145,8 +2171,10 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "archi-strasbourg/news-tab": 20,
+        "archi-strasbourg/category-breadcrumb": 20,
         "archi-strasbourg/archi-maps": 20,
         "archi-strasbourg/archi-blog": 20,
+        "archi-strasbourg/archi-comments": 20,
         "archi-strasbourg/archi-home": 20,
         "archi-strasbourg/archi-footer": 20
     },
