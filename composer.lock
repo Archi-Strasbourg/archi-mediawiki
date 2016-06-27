@@ -668,7 +668,12 @@
         },
         {
             "name": "mediawiki/AddThis",
-            "version": "1.26",
+            "version": "1.26+6a6f201",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/AddThis",
+                "reference": "6a6f201"
+            },
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/AddThis-REL1_26-6a6f201.tar.gz",
@@ -678,11 +683,20 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "type": "mediawiki-extension"
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:AddThis",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/AddThis"
+            }
         },
         {
             "name": "mediawiki/Arrays",
-            "version": "1.26",
+            "version": "1.26+735b832",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Arrays",
+                "reference": "735b832"
+            },
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/Arrays-REL1_26-735b832.tar.gz",
@@ -692,11 +706,20 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "type": "mediawiki-extension"
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Arrays",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Arrays"
+            }
         },
         {
             "name": "mediawiki/Cite",
-            "version": "1.26",
+            "version": "1.26+dc872e6",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Cite",
+                "reference": "dc872e6"
+            },
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/Cite-REL1_26-dc872e6.tar.gz",
@@ -706,11 +729,20 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "type": "mediawiki-extension"
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Cite",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Cite"
+            }
         },
         {
             "name": "mediawiki/Comments",
-            "version": "1.26",
+            "version": "1.26+f913a64",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Comments",
+                "reference": "f913a64"
+            },
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/Comments-REL1_26-f913a64.tar.gz",
@@ -720,11 +752,20 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "type": "mediawiki-extension"
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Comments",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Comments"
+            }
         },
         {
             "name": "mediawiki/CommonsMetadata",
-            "version": "1.26",
+            "version": "1.26+160f837",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CommonsMetadata",
+                "reference": "160f837"
+            },
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/CommonsMetadata-REL1_26-160f837.tar.gz",
@@ -734,11 +775,20 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "type": "mediawiki-extension"
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:CommonsMetadata",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/CommonsMetadata"
+            }
         },
         {
             "name": "mediawiki/ConfirmEdit",
-            "version": "1.26",
+            "version": "1.26+d36751a",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ConfirmEdit",
+                "reference": "d36751a"
+            },
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_26-d36751a.tar.gz",
@@ -748,11 +798,20 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "type": "mediawiki-extension"
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:ConfirmEdit",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/ConfirmEdit"
+            }
         },
         {
             "name": "mediawiki/ContactPage",
-            "version": "1.26",
+            "version": "1.26+99a687f",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ContactPage",
+                "reference": "99a687f"
+            },
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/ContactPage-REL1_26-99a687f.tar.gz",
@@ -762,11 +821,20 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "type": "mediawiki-extension"
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:ContactPage",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/ContactPage"
+            }
         },
         {
             "name": "mediawiki/MultimediaViewer",
-            "version": "1.26",
+            "version": "1.26+a312b66",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/MultimediaViewer",
+                "reference": "a312b66"
+            },
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/MultimediaViewer-REL1_26-a312b66.tar.gz",
@@ -776,11 +844,20 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "type": "mediawiki-extension"
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:MultimediaViewer",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/MultimediaViewer"
+            }
         },
         {
             "name": "mediawiki/ParserFunctions",
-            "version": "1.26",
+            "version": "1.26+81eca7c",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ParserFunctions",
+                "reference": "81eca7c"
+            },
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/ParserFunctions-REL1_26-81eca7c.tar.gz",
@@ -790,11 +867,20 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "type": "mediawiki-extension"
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:ParserFunctions",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/ParserFunctions"
+            }
         },
         {
             "name": "mediawiki/TemplateData",
-            "version": "1.26",
+            "version": "1.26+8a1b550",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TemplateData",
+                "reference": "8a1b550"
+            },
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/TemplateData-REL1_26-8a1b550.tar.gz",
@@ -804,11 +890,20 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "type": "mediawiki-extension"
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:TemplateData",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/TemplateData"
+            }
         },
         {
             "name": "mediawiki/TextExtracts",
-            "version": "1.26",
+            "version": "1.26+e399b19",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TextExtracts",
+                "reference": "e399b19"
+            },
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/TextExtracts-REL1_26-e399b19.tar.gz",
@@ -818,11 +913,20 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "type": "mediawiki-extension"
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:TextExtracts",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/TextExtracts"
+            }
         },
         {
             "name": "mediawiki/UploadWizard",
-            "version": "1.26",
+            "version": "1.26+729d674",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/UploadWizard",
+                "reference": "729d674"
+            },
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/UploadWizard-REL1_26-729d674.tar.gz",
@@ -832,11 +936,20 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "type": "mediawiki-extension"
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:UploadWizard",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/UploadWizard"
+            }
         },
         {
             "name": "mediawiki/Vector",
-            "version": "1.26",
+            "version": "1.26+186325f",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/skins/Vector",
+                "reference": "186325f"
+            },
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/skins/Vector-REL1_26-186325f.tar.gz",
@@ -846,11 +959,20 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "type": "mediawiki-skin"
+            "type": "mediawiki-skin",
+            "homepage": "https://www.mediawiki.org/wiki/Skin:Vector",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/skins/Vector"
+            }
         },
         {
             "name": "mediawiki/VisualEditor",
-            "version": "1.26",
+            "version": "1.26+a733545",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/VisualEditor",
+                "reference": "a733545"
+            },
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/VisualEditor-REL1_26-a733545.tar.gz",
@@ -860,7 +982,11 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "type": "mediawiki-extension"
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:VisualEditor",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/VisualEditor"
+            }
         },
         {
             "name": "mediawiki/at-ease",
