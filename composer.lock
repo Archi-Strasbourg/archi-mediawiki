@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer.git",
-                "reference": "1f2d251d5d8b368444ceb1f299798c30d7274fbd"
+                "reference": "f114a5d54d735794e70391c2753f362411d36266"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/1f2d251d5d8b368444ceb1f299798c30d7274fbd",
-                "reference": "1f2d251d5d8b368444ceb1f299798c30d7274fbd",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/f114a5d54d735794e70391c2753f362411d36266",
+                "reference": "f114a5d54d735794e70391c2753f362411d36266",
                 "shasum": ""
             },
             "require": {
@@ -81,7 +81,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom page footer for archi-wiki.org",
-            "time": "2016-06-18 14:09:50"
+            "time": "2016-06-30 22:09:29"
         },
         {
             "name": "archi-strasbourg/archi-home",
@@ -2531,16 +2531,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "436195b421e8c0493ca3e390c1fbecd8ee08c546"
+                "reference": "39492b8b8fe514163e677bf154fd80f6cc995759"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/436195b421e8c0493ca3e390c1fbecd8ee08c546",
-                "reference": "436195b421e8c0493ca3e390c1fbecd8ee08c546",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/39492b8b8fe514163e677bf154fd80f6cc995759",
+                "reference": "39492b8b8fe514163e677bf154fd80f6cc995759",
                 "shasum": ""
             },
             "require": {
@@ -2590,7 +2590,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-05-24 10:06:56"
+            "time": "2016-06-29 05:41:56"
         }
     ],
     "aliases": [],
