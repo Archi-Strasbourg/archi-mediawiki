@@ -6,3 +6,5 @@ define("NS_SOURCE", 4002);
 define("NS_SOURCE_TALK", 4003);
 define("NS_NEWS", 4004);
 define("NS_NEWS_TALK", 4005);
+define("NS_PERSON", 4006);
+define("NS_PERSON_TALK", 4007);
