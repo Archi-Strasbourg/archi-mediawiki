@@ -161,6 +161,9 @@ $wgVisualEditorAvailableNamespaces[NS_ADDRESS] = true;
 $smwgNamespacesWithSemanticLinks[NS_ADDRESS] = true;
 $wgNamespacesToBeSearchedDefault[NS_ADDRESS] = true;
 
+//Cache
+$wgMainCacheType = CACHE_ACCEL;
+
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;
 $wgGroupPermissions['*']['upload_by_url'] = true;
