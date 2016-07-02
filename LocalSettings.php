@@ -169,3 +169,4 @@ $wgGroupPermissions['*']['bot'] = true;
 $wgGroupPermissions['*']['upload_by_url'] = true;
 $wgShowSQLErrors = true;
 $wgDebugDumpSql  = true;
+$wgPasswordAttemptThrottle = false;
