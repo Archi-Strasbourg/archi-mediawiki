@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3d7254d1368511a084ffa940c254fc66",
-    "content-hash": "44d160deb5f16f6ba0f006af942355bf",
+    "hash": "9e2732e72a25d1cb21ff088ebc2bfe76",
+    "content-hash": "6c6be4cfe0c47a19e9f0f62d63a68071",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -89,12 +89,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "c469defeae31c29591e7817b9d71eae18f96c78f"
+                "reference": "94335c75ddb5858f9db50bc8912d88f4151ebb30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/c469defeae31c29591e7817b9d71eae18f96c78f",
-                "reference": "c469defeae31c29591e7817b9d71eae18f96c78f",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/94335c75ddb5858f9db50bc8912d88f4151ebb30",
+                "reference": "94335c75ddb5858f9db50bc8912d88f4151ebb30",
                 "shasum": ""
             },
             "require": {
@@ -106,7 +106,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2016-07-14 15:57:59"
+            "time": "2016-07-14 16:47:36"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -1019,6 +1019,29 @@
             }
         },
         {
+            "name": "mediawiki/Echo",
+            "version": "1.26+1d2029d",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Echo",
+                "reference": "1d2029d"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Echo-REL1_26-1d2029d.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Echo",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Echo"
+            }
+        },
+        {
             "name": "mediawiki/GeoData",
             "version": "1.26+401ba91",
             "source": {
@@ -1062,6 +1085,29 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:MultimediaViewer",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/MultimediaViewer"
+            }
+        },
+        {
+            "name": "mediawiki/Newsletter",
+            "version": "1.26+47b66b1",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Newsletter",
+                "reference": "47b66b1"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Newsletter-REL1_26-47b66b1.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Newsletter",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Newsletter"
             }
         },
         {
