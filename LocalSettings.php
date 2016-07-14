@@ -51,6 +51,7 @@ wfLoadExtension('ArchiBlog');
 wfLoadExtension('ArchiComments');
 wfLoadExtension('ArchiFooter');
 wfLoadExtension('GeoDataGeoCoding');
+wfLoadExtension('Newsletter');
 wfLoadExtensions(array('ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha'));
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
@@ -59,7 +60,6 @@ require_once "$IP/extensions/ContactPage/ContactPage.php";
 require_once "$IP/extensions/AddThis/AddThis.php";
 require_once "$IP/extensions/TextExtracts/TextExtracts.php";
 require_once "$IP/extensions/GeoData/GeoData.php";
-require_once "$IP/extensions/Newsletter/Newsletter.php";
 require_once "$IP/extensions/Echo/Echo.php";
 
 //VisualEditor
