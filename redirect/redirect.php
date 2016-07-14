@@ -5,6 +5,7 @@ use \Psr\Http\Message\ResponseInterface as Response;
 error_reporting(E_ALL^E_DEPRECATED);
 
 require_once __DIR__.'/vendor/autoload.php';
+require_once __DIR__.'/constants.php';
 
 $app = new \Slim\App;
 $app->get('{path:.*}', function (Request $request, Response $response) {
