@@ -10,6 +10,8 @@ require_once __DIR__.'/constants.php';
 $app = new \Slim\App;
 $app->get('{path:.*}', function (Request $request, Response $response) {
     $params = $request->getQueryParams();
+    global $config;
+    $config = new \Config();
     switch ($params['archiAffichage']) {
         case 'adresseDetail':
             $id = intval($params['archiIdAdresse']);
@@ -28,7 +30,12 @@ $app->get('{path:.*}', function (Request $request, Response $response) {
             ).' ('.$addressInfo['nomVille'].')';
             $return = explode('#', $return);
             return $response->withRedirect('index.php/Adresse:'.$return[0]);
-            break;
+        case 'evenementListe':
+            switch ($params['selection']) {
+                case 'personne':
+                    $person = new \ArchiPersonne(intval($params['id']));
+                    return $response->withRedirect('index.php/Personne:'.$person->prenom.' '.$person->nom);
+            }
     }
 });
 $app->run();
