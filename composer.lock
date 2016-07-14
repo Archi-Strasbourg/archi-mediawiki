@@ -1502,16 +1502,16 @@
         },
         {
             "name": "onoi/blob-store",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/onoi/blob-store.git",
-                "reference": "84fd128ad11c3c55ebde8bc5d4db2e443885b09a"
+                "reference": "c3e1f15214977e904fc0e91e0480175a464977ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/onoi/blob-store/zipball/84fd128ad11c3c55ebde8bc5d4db2e443885b09a",
-                "reference": "84fd128ad11c3c55ebde8bc5d4db2e443885b09a",
+                "url": "https://api.github.com/repos/onoi/blob-store/zipball/c3e1f15214977e904fc0e91e0480175a464977ce",
+                "reference": "c3e1f15214977e904fc0e91e0480175a464977ce",
                 "shasum": ""
             },
             "require": {
@@ -1543,7 +1543,7 @@
             "keywords": [
                 "messages"
             ],
-            "time": "2016-03-19 11:52:49"
+            "time": "2016-07-09 17:32:53"
         },
         {
             "name": "onoi/cache",
