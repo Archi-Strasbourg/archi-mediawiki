@@ -145,6 +145,7 @@ $wgShowExceptionDetails = true;
 
 //Categories
 $wgCountryCategory = 'Pays';
+$wgShowBreadcrumbCategories = array($wgCountryCategory);
 $wgHiddenCategories = array($wgCountryCategory);
 
 //Namespaces
