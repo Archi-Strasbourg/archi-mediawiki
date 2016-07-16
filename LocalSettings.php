@@ -33,6 +33,7 @@ $wgRightsIcon = "";
 $wgDiff3 = "/usr/bin/diff3";
 $wgDefaultSkin = "vector";
 $wgAllowSlowParserFunctions = true;
+$wgPFEnableStringFunctions = true;
 
 //Extensions
 wfLoadSkin('Vector');

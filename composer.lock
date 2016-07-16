@@ -114,12 +114,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
-                "reference": "36b41163c7a64a16aa80f9bee3d87f932830558f"
+                "reference": "e53da8f5cbaa8162fc6fcc9d97193da7e530e16c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/36b41163c7a64a16aa80f9bee3d87f932830558f",
-                "reference": "36b41163c7a64a16aa80f9bee3d87f932830558f",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/e53da8f5cbaa8162fc6fcc9d97193da7e530e16c",
+                "reference": "e53da8f5cbaa8162fc6fcc9d97193da7e530e16c",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -134,7 +134,7 @@
                 }
             ],
             "description": "Map plugin for archi-wiki.org",
-            "time": "2016-07-02 17:23:09"
+            "time": "2016-07-16 16:04:40"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -164,12 +164,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-geodata-geocoding.git",
-                "reference": "c48a8af4783b6335d6d63dce8cd65be50908b647"
+                "reference": "1cef5f5ae1a7c3c8e6b4b6bd73f915c13dd413b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-geodata-geocoding/zipball/c48a8af4783b6335d6d63dce8cd65be50908b647",
-                "reference": "c48a8af4783b6335d6d63dce8cd65be50908b647",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-geodata-geocoding/zipball/1cef5f5ae1a7c3c8e6b4b6bd73f915c13dd413b5",
+                "reference": "1cef5f5ae1a7c3c8e6b4b6bd73f915c13dd413b5",
                 "shasum": ""
             },
             "require": {
@@ -188,7 +188,7 @@
                 }
             ],
             "description": "Add Nominatim geocoding to GeoData extension",
-            "time": "2016-07-02 17:22:50"
+            "time": "2016-07-16 16:03:48"
         },
         {
             "name": "archi-strasbourg/news-tab",
