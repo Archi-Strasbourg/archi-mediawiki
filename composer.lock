@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9e2732e72a25d1cb21ff088ebc2bfe76",
-    "content-hash": "6c6be4cfe0c47a19e9f0f62d63a68071",
+    "hash": "bab332aeb45c2710fbf2e71001dced2e",
+    "content-hash": "a0406aa8283b4ec5f2d03bc39444987d",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1089,15 +1089,15 @@
         },
         {
             "name": "mediawiki/Newsletter",
-            "version": "1.26+47b66b1",
+            "version": "1.27+e0ad10a",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Newsletter",
-                "reference": "47b66b1"
+                "reference": "e0ad10a"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Newsletter-REL1_26-47b66b1.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Newsletter-REL1_27-e0ad10a.tar.gz",
                 "reference": null,
                 "shasum": null
             },
