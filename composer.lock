@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-category-breadcrumb.git",
-                "reference": "00b8a54b12b2720029c54865e476ce01745ad6f7"
+                "reference": "9669a1303508e8b311f7bac2e115c2aaed9725b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/00b8a54b12b2720029c54865e476ce01745ad6f7",
-                "reference": "00b8a54b12b2720029c54865e476ce01745ad6f7",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/9669a1303508e8b311f7bac2e115c2aaed9725b1",
+                "reference": "9669a1303508e8b311f7bac2e115c2aaed9725b1",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -156,7 +156,7 @@
                 "proprietary"
             ],
             "description": "Provides DMOZ-style category breadcrumbs",
-            "time": "2016-07-16 13:02:15"
+            "time": "2016-07-17 17:44:03"
         },
         {
             "name": "archi-strasbourg/geo-data-geo-coding",
