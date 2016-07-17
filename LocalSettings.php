@@ -53,6 +53,7 @@ wfLoadExtension('ArchiComments');
 wfLoadExtension('ArchiFooter');
 wfLoadExtension('GeoDataGeoCoding');
 wfLoadExtension('Newsletter');
+wfLoadExtension('Nuke');
 wfLoadExtensions(array('ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha'));
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";

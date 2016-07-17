@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bab332aeb45c2710fbf2e71001dced2e",
-    "content-hash": "a0406aa8283b4ec5f2d03bc39444987d",
+    "hash": "f3eb4715eb25236eeb25fd62e7a83374",
+    "content-hash": "b8c1b33673fb67bd516526fb117b1d39",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1108,6 +1108,29 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:Newsletter",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Newsletter"
+            }
+        },
+        {
+            "name": "mediawiki/Nuke",
+            "version": "1.26+5763d10",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Nuke",
+                "reference": "5763d10"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Nuke-REL1_26-5763d10.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Nuke",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Nuke"
             }
         },
         {
