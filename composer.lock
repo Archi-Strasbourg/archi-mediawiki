@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog.git",
-                "reference": "4917abaf8cd011b2ae7a467634f5dc6f1dc7a196"
+                "reference": "7181a27b1e65b8071e6118278a07b7be781b9844"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/4917abaf8cd011b2ae7a467634f5dc6f1dc7a196",
-                "reference": "4917abaf8cd011b2ae7a467634f5dc6f1dc7a196",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/7181a27b1e65b8071e6118278a07b7be781b9844",
+                "reference": "7181a27b1e65b8071e6118278a07b7be781b9844",
                 "shasum": ""
             },
             "require": {
@@ -30,7 +30,7 @@
                 "GPL-3.0"
             ],
             "description": "Blog page for archi-wiki.org",
-            "time": "2016-06-06 14:44:18"
+            "time": "2016-07-21 20:54:50"
         },
         {
             "name": "archi-strasbourg/archi-comments",
@@ -89,12 +89,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "d6f4bdd0b28af692e956529920f89571b6b081b5"
+                "reference": "9fc627c33e945f5fcf4900f37cacc4d144dc8d61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/d6f4bdd0b28af692e956529920f89571b6b081b5",
-                "reference": "d6f4bdd0b28af692e956529920f89571b6b081b5",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/9fc627c33e945f5fcf4900f37cacc4d144dc8d61",
+                "reference": "9fc627c33e945f5fcf4900f37cacc4d144dc8d61",
                 "shasum": ""
             },
             "require": {
@@ -106,7 +106,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2016-07-16 12:41:35"
+            "time": "2016-07-21 20:49:27"
         },
         {
             "name": "archi-strasbourg/archi-maps",
