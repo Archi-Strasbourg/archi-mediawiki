@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "98dec82d118faa5252481667f45cbe0c",
-    "content-hash": "fea554f82c62efc8fc7aa5fc79de0e86",
+    "hash": "3a2f92c1d8c7bcc1910528365f359a37",
+    "content-hash": "3c73e792d5583d9cc66e93330ece796a",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -109,6 +109,34 @@
             "time": "2016-07-21 20:49:27"
         },
         {
+            "name": "archi-strasbourg/archi-maps",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
+                "reference": "f4c0f1d48e8c5df61a0e7ea3a32a6a12bb80ab98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/f4c0f1d48e8c5df61a0e7ea3a32a6a12bb80ab98",
+                "reference": "f4c0f1d48e8c5df61a0e7ea3a32a6a12bb80ab98",
+                "shasum": ""
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Pierre Rudloff",
+                    "email": "contact@rudloff.pro"
+                }
+            ],
+            "description": "Map plugin for archi-wiki.org",
+            "time": "2016-07-23 17:57:00"
+        },
+        {
             "name": "archi-strasbourg/category-breadcrumb",
             "version": "dev-develop",
             "source": {
@@ -129,38 +157,6 @@
             ],
             "description": "Provides DMOZ-style category breadcrumbs",
             "time": "2016-07-17 17:44:03"
-        },
-        {
-            "name": "archi-strasbourg/geo-data-geo-coding",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Archi-Strasbourg/mediawiki-geodata-geocoding.git",
-                "reference": "1cef5f5ae1a7c3c8e6b4b6bd73f915c13dd413b5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-geodata-geocoding/zipball/1cef5f5ae1a7c3c8e6b4b6bd73f915c13dd413b5",
-                "reference": "1cef5f5ae1a7c3c8e6b4b6bd73f915c13dd413b5",
-                "shasum": ""
-            },
-            "require": {
-                "mediawiki/geodata": "~1.26.0",
-                "opendi/nominatim": "~0.2.0"
-            },
-            "type": "mediawiki-extension",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Pierre Rudloff",
-                    "email": "contact@rudloff.pro"
-                }
-            ],
-            "description": "Add Nominatim geocoding to GeoData extension",
-            "time": "2016-07-16 16:03:48"
         },
         {
             "name": "archi-strasbourg/news-tab",
@@ -683,165 +679,6 @@
                 "wikidata"
             ],
             "time": "2014-10-09 19:10:23"
-        },
-        {
-            "name": "guzzlehttp/guzzle",
-            "version": "5.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "6c72627de1d66832e4270e36e56acdb0d1d8f282"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/6c72627de1d66832e4270e36e56acdb0d1d8f282",
-                "reference": "6c72627de1d66832e4270e36e56acdb0d1d8f282",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/ringphp": "~1.0",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "ext-curl": "*",
-                "phpunit/phpunit": "~4.0",
-                "psr/log": "~1.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
-            "homepage": "http://guzzlephp.org/",
-            "keywords": [
-                "client",
-                "curl",
-                "framework",
-                "http",
-                "http client",
-                "rest",
-                "web service"
-            ],
-            "time": "2014-11-04 07:09:15"
-        },
-        {
-            "name": "guzzlehttp/ringphp",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/RingPHP.git",
-                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/dbbb91d7f6c191e5e405e900e3102ac7f261bc0b",
-                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/streams": "~3.0",
-                "php": ">=5.4.0",
-                "react/promise": "~2.0"
-            },
-            "require-dev": {
-                "ext-curl": "*",
-                "phpunit/phpunit": "~4.0"
-            },
-            "suggest": {
-                "ext-curl": "Guzzle will use specific adapters if cURL is present"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Ring\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
-            "time": "2015-05-20 03:37:09"
-        },
-        {
-            "name": "guzzlehttp/streams",
-            "version": "3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/streams.git",
-                "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/streams/zipball/47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
-                "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Stream\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "Provides a simple abstraction over streams of data",
-            "homepage": "http://guzzlephp.org/",
-            "keywords": [
-                "Guzzle",
-                "stream"
-            ],
-            "time": "2014-10-12 19:18:40"
         },
         {
             "name": "liuggio/statsd-php-client",
@@ -2386,48 +2223,6 @@
             "time": "2015-10-13 20:29:29"
         },
         {
-            "name": "opendi/nominatim",
-            "version": "0.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/opendi/nominatim.git",
-                "reference": "9373f9c6a82aeb8b47c43d1e097464b67567a406"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/opendi/nominatim/zipball/9373f9c6a82aeb8b47c43d1e097464b67567a406",
-                "reference": "9373f9c6a82aeb8b47c43d1e097464b67567a406",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "~5.0.0",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "@stable"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Opendi\\Nominatim\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Opendi AG",
-                    "email": "info@opendi.com",
-                    "homepage": "http://www.opendi.com/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A simple interface to OSM Nominatim search.",
-            "time": "2015-02-05 15:15:41"
-        },
-        {
             "name": "oyejorge/less.php",
             "version": "v1.7.0.9",
             "source": {
@@ -2591,50 +2386,6 @@
                 "psr-3"
             ],
             "time": "2012-12-21 11:40:51"
-        },
-        {
-            "name": "react/promise",
-            "version": "v2.4.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/reactphp/promise.git",
-                "reference": "8025426794f1944de806618671d4fa476dc7626f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/promise/zipball/8025426794f1944de806618671d4fa476dc7626f",
-                "reference": "8025426794f1944de806618671d4fa476dc7626f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "React\\Promise\\": "src/"
-                },
-                "files": [
-                    "src/functions_include.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jan Sorgalla",
-                    "email": "jsorgalla@gmail.com"
-                }
-            ],
-            "description": "A lightweight implementation of CommonJS Promises/A for PHP",
-            "time": "2016-05-03 17:50:52"
         },
         {
             "name": "serialization/serialization",
@@ -3140,9 +2891,9 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "mediawiki/open-layers": 20,
-        "archi-strasbourg/geo-data-geo-coding": 20,
         "archi-strasbourg/news-tab": 20,
         "archi-strasbourg/category-breadcrumb": 20,
+        "archi-strasbourg/archi-maps": 20,
         "archi-strasbourg/archi-blog": 20,
         "archi-strasbourg/archi-comments": 20,
         "archi-strasbourg/archi-home": 20,
