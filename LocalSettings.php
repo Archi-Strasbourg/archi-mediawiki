@@ -174,6 +174,12 @@ $srfgFormats[] = 'datatables';
 $srfgFormats[] = 'map';
 $smwgCategoriesAsInstances = true;
 
+$wgExtensionFunctions[] = function () {
+    global $wgOut;
+    $wgOut->addModules('ext.sf_select.scriptselect');
+};
+
+
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;
 $wgGroupPermissions['*']['upload_by_url'] = true;
