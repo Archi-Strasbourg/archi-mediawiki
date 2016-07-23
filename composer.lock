@@ -89,12 +89,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "9fc627c33e945f5fcf4900f37cacc4d144dc8d61"
+                "reference": "0634b98032ca6703307d3f2d72e92be15b7a2c0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/9fc627c33e945f5fcf4900f37cacc4d144dc8d61",
-                "reference": "9fc627c33e945f5fcf4900f37cacc4d144dc8d61",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/0634b98032ca6703307d3f2d72e92be15b7a2c0d",
+                "reference": "0634b98032ca6703307d3f2d72e92be15b7a2c0d",
                 "shasum": ""
             },
             "require": {
@@ -106,7 +106,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2016-07-21 20:49:27"
+            "time": "2016-07-23 20:55:59"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -114,12 +114,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
-                "reference": "f4c0f1d48e8c5df61a0e7ea3a32a6a12bb80ab98"
+                "reference": "43a05935efac5142fb4b5dd87c6a3af28f09183c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/f4c0f1d48e8c5df61a0e7ea3a32a6a12bb80ab98",
-                "reference": "f4c0f1d48e8c5df61a0e7ea3a32a6a12bb80ab98",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/43a05935efac5142fb4b5dd87c6a3af28f09183c",
+                "reference": "43a05935efac5142fb4b5dd87c6a3af28f09183c",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -134,7 +134,7 @@
                 }
             ],
             "description": "Map plugin for archi-wiki.org",
-            "time": "2016-07-23 17:57:00"
+            "time": "2016-07-23 21:27:56"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
