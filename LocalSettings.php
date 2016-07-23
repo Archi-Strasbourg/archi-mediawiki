@@ -44,7 +44,6 @@ wfLoadExtension('Comments');
 wfLoadExtension('CommonsMetadata');
 wfLoadExtension('NewsTab');
 wfLoadExtension('CategoryBreadcrumb');
-wfLoadExtension('ArchiMaps');
 wfLoadExtension('VisualEditor');
 wfLoadExtension('TemplateData');
 wfLoadExtension('ArchiHome');
@@ -169,6 +168,11 @@ $wgNamespacesToBeSearchedDefault[NS_ADDRESS] = true;
 
 //Cache
 $wgMainCacheType = CACHE_ACCEL;
+
+//Semantic forms
+$srfgFormats[] = 'datatables';
+$srfgFormats[] = 'map';
+$smwgCategoriesAsInstances = true;
 
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c5c61c4c6ac68aec40d7985d2ff7ce25",
-    "content-hash": "b75720619494bab1948edad6bf6c8988",
+    "hash": "98dec82d118faa5252481667f45cbe0c",
+    "content-hash": "fea554f82c62efc8fc7aa5fc79de0e86",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -107,34 +107,6 @@
             ],
             "description": "Custom homepage for archi-wiki.org",
             "time": "2016-07-21 20:49:27"
-        },
-        {
-            "name": "archi-strasbourg/archi-maps",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
-                "reference": "e53da8f5cbaa8162fc6fcc9d97193da7e530e16c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/e53da8f5cbaa8162fc6fcc9d97193da7e530e16c",
-                "reference": "e53da8f5cbaa8162fc6fcc9d97193da7e530e16c",
-                "shasum": ""
-            },
-            "type": "mediawiki-extension",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Pierre Rudloff",
-                    "email": "contact@rudloff.pro"
-                }
-            ],
-            "description": "Map plugin for archi-wiki.org",
-            "time": "2016-07-16 16:04:40"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -533,6 +505,69 @@
                 "wikidata"
             ],
             "time": "2014-09-26 07:02:27"
+        },
+        {
+            "name": "data-values/geo",
+            "version": "1.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataValues/Geo.git",
+                "reference": "31bc304c5b525f59fa7db047adc583d6b86e3ad9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataValues/Geo/zipball/31bc304c5b525f59fa7db047adc583d6b86e3ad9",
+                "reference": "31bc304c5b525f59fa7db047adc583d6b86e3ad9",
+                "shasum": ""
+            },
+            "require": {
+                "data-values/common": "~0.3.0|~0.2.0",
+                "data-values/data-values": "~1.0|~0.1",
+                "data-values/interfaces": "~0.2.0|~0.1.5",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Geo.php"
+                ],
+                "psr-4": {
+                    "DataValues\\Geo\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "The Wikidata team",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Geographical value objects, parsers and formatters",
+            "homepage": "https://github.com/DataValues/Geo",
+            "keywords": [
+                "datavalues",
+                "formatters",
+                "geo",
+                "geographical",
+                "latlong",
+                "parsers",
+                "wikidata"
+            ],
+            "time": "2016-05-27 15:02:09"
         },
         {
             "name": "data-values/interfaces",
@@ -1428,6 +1463,74 @@
             "time": "2016-05-20 19:41:33"
         },
         {
+            "name": "mediawiki/maps",
+            "version": "3.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JeroenDeDauw/Maps.git",
+                "reference": "f28469d077156ae67d0e2d7d7ffbbbc54092c175"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/f28469d077156ae67d0e2d7d7ffbbbc54092c175",
+                "reference": "f28469d077156ae67d0e2d7d7ffbbbc54092c175",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.1",
+                "data-values/geo": "~1.0",
+                "mediawiki/validator": "^2.0.2",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "data-values/common": "~0.3.1"
+            },
+            "type": "mediawiki-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.7.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Maps.php"
+                ],
+                "psr-4": {
+                    "Maps\\": "src/Maps/"
+                },
+                "classmap": [
+                    "includes/",
+                    "Maps.hooks.php",
+                    "tests/phpunit/elements/",
+                    "tests/phpunit/parserhooks/ParserHookTest.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Creator and lead developer"
+                }
+            ],
+            "description": "Adds various mapping features to MediaWiki",
+            "homepage": "https://github.com/JeroenDeDauw/Maps",
+            "keywords": [
+                "OpenLayers",
+                "OpenStreetMap",
+                "Semantic MediaWiki",
+                "google maps",
+                "maps",
+                "mediawiki",
+                "osm"
+            ],
+            "time": "2016-06-21 14:40:19"
+        },
+        {
             "name": "mediawiki/open-layers",
             "version": "dev-master",
             "source": {
@@ -1581,6 +1684,130 @@
             "time": "2016-05-04 16:28:20"
         },
         {
+            "name": "mediawiki/semantic-forms-select",
+            "version": "1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SemanticMediaWiki/SemanticFormsSelect.git",
+                "reference": "068b033d085b3efab231924698205ddf48ad8bf5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticFormsSelect/zipball/068b033d085b3efab231924698205ddf48ad8bf5",
+                "reference": "068b033d085b3efab231924698205ddf48ad8bf5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "1.*,>=1.0.1",
+                "mediawiki/semantic-forms": ">=2.7",
+                "mediawiki/semantic-media-wiki": ">=2.0",
+                "php": ">=5.3.0"
+            },
+            "type": "mediawiki-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "SemanticFormsSelect.php"
+                ],
+                "psr-4": {
+                    "SFS\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Toni Hermoso Pulido",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jasonzhang",
+                    "role": "Creator"
+                }
+            ],
+            "description": "Generate a select field in Semantic Form which values are from query",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:SemanticFormsSelect",
+            "keywords": [
+                "SMW",
+                "Semantic Forms",
+                "Semantic MediaWiki",
+                "mediawiki"
+            ],
+            "time": "2015-11-30 16:35:10"
+        },
+        {
+            "name": "mediawiki/semantic-maps",
+            "version": "3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SemanticMediaWiki/SemanticMaps.git",
+                "reference": "c8c74c23f8f615f869f8b7f60cdfbe13684b41a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMaps/zipball/c8c74c23f8f615f869f8b7f60cdfbe13684b41a9",
+                "reference": "c8c74c23f8f615f869f8b7f60cdfbe13684b41a9",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.1",
+                "data-values/geo": "~1.1",
+                "mediawiki/maps": "~3.2",
+                "mediawiki/semantic-media-wiki": "~2.0",
+                "mediawiki/validator": "~2.0",
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "mediawiki/semantic-forms": "Allows entering coordinates via a form map input"
+            },
+            "type": "mediawiki-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "SemanticMaps.php"
+                ],
+                "classmap": [
+                    "src/",
+                    "SemanticMaps.hooks.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Adds geographic capabilities to Semantic MediaWiki",
+            "homepage": "https://www.semantic-mediawiki.org/wiki/Semantic_Maps",
+            "keywords": [
+                "OpenLayers",
+                "SMW",
+                "Semantic Maps",
+                "Semantic MediaWiki",
+                "google maps",
+                "maps",
+                "mediawiki",
+                "wiki"
+            ],
+            "time": "2016-04-02 15:58:05"
+        },
+        {
             "name": "mediawiki/semantic-media-wiki",
             "version": "2.3.1",
             "source": {
@@ -1667,6 +1894,148 @@
                 "wiki"
             ],
             "time": "2016-01-04 11:25:45"
+        },
+        {
+            "name": "mediawiki/semantic-result-formats",
+            "version": "2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SemanticMediaWiki/SemanticResultFormats.git",
+                "reference": "986366a3cbcff524a5317aa0c7c8c052b7cc94a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticResultFormats/zipball/986366a3cbcff524a5317aa0c7c8c052b7cc94a1",
+                "reference": "986366a3cbcff524a5317aa0c7c8c052b7cc94a1",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "1.*,>=1.0.1",
+                "mediawiki/semantic-media-wiki": "~2.1",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mediawiki/semantic-media-wiki": "@dev"
+            },
+            "suggest": {
+                "mediawiki/graph-viz": "Required for 'format=graph'",
+                "phpoffice/phpexcel": "Used when exporting to excel format using 'format=excel'"
+            },
+            "type": "mediawiki-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "SemanticResultFormats.php"
+                ],
+                "classmap": [
+                    "formats/",
+                    "SemanticResultFormats.hooks.php",
+                    "SemanticResultFormats.parser.php",
+                    "SemanticResultFormats.utils.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "James Hong Kong",
+                    "homepage": "https://semantic-mediawiki.org/wiki/User:MWJames",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Stephan Gambke",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Yaron Koren",
+                    "homepage": "http://www.yaronkoren.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Additional result formats for Semantic MediaWiki queries",
+            "homepage": "https://www.semantic-mediawiki.org/wiki/Semantic_Result_Formats",
+            "keywords": [
+                "SMW",
+                "SRF",
+                "Semantic MediaWiki",
+                "Semantic Result Formats",
+                "mediawiki",
+                "wiki"
+            ],
+            "time": "2015-09-24 21:27:44"
+        },
+        {
+            "name": "mediawiki/validator",
+            "version": "2.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JeroenDeDauw/Validator.git",
+                "reference": "860b673fccf25863bdedbe5ae733f7edc7711a3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Validator/zipball/860b673fccf25863bdedbe5ae733f7edc7711a3e",
+                "reference": "860b673fccf25863bdedbe5ae733f7edc7711a3e",
+                "shasum": ""
+            },
+            "require": {
+                "param-processor/param-processor": "~1.1",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "data-values/common": "~0.3.1"
+            },
+            "type": "mediawiki-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Validator.php"
+                ],
+                "psr-4": {
+                    "ParamProcessor\\": "src/ParamProcessor/"
+                },
+                "classmap": [
+                    "src/legacy/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "MediaWiki wrapper for the ParamProcessor library",
+            "homepage": "https://github.com/JeroenDeDauw/Validator",
+            "keywords": [
+                "ParamProcessor",
+                "SMW",
+                "Semantic MediaWiki",
+                "mediawiki",
+                "validator"
+            ],
+            "time": "2016-07-01 18:07:25"
         },
         {
             "name": "onoi/blob-store",
@@ -2774,7 +3143,6 @@
         "archi-strasbourg/geo-data-geo-coding": 20,
         "archi-strasbourg/news-tab": 20,
         "archi-strasbourg/category-breadcrumb": 20,
-        "archi-strasbourg/archi-maps": 20,
         "archi-strasbourg/archi-blog": 20,
         "archi-strasbourg/archi-comments": 20,
         "archi-strasbourg/archi-home": 20,
