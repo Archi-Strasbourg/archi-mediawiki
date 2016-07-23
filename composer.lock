@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f3eb4715eb25236eeb25fd62e7a83374",
-    "content-hash": "b8c1b33673fb67bd516526fb117b1d39",
+    "hash": "c5c61c4c6ac68aec40d7985d2ff7ce25",
+    "content-hash": "b75720619494bab1948edad6bf6c8988",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1428,6 +1428,46 @@
             "time": "2016-05-20 19:41:33"
         },
         {
+            "name": "mediawiki/open-layers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/mediawiki-extensions-OpenLayers.git",
+                "reference": "5704ce2492e5b9df703065f37b5c66dab8e438de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-OpenLayers/zipball/5704ce2492e5b9df703065f37b5c66dab8e438de",
+                "reference": "5704ce2492e5b9df703065f37b5c66dab8e438de",
+                "shasum": ""
+            },
+            "require-dev": {
+                "jakub-onderka/php-parallel-lint": "0.9.2",
+                "mediawiki/mediawiki-codesniffer": "0.7.2"
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Yaron Koren",
+                    "homepage": "http://yaronkoren.com/"
+                },
+                {
+                    "name": "Paladox"
+                }
+            ],
+            "homepage": "https://www.mediawiki.org/wiki/Extension:OpenLayers",
+            "keywords": [
+                "OpenLayers",
+                "mediawiki",
+                "wiki"
+            ],
+            "time": "2016-07-17 13:12:19"
+        },
+        {
             "name": "mediawiki/parser-hooks",
             "version": "1.5.0",
             "source": {
@@ -1480,6 +1520,65 @@
                 "tag extension"
             ],
             "time": "2016-03-05 15:47:04"
+        },
+        {
+            "name": "mediawiki/semantic-forms",
+            "version": "3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/mediawiki-extensions-SemanticForms.git",
+                "reference": "0dae7d5e995f59f6a9f1db88a3e5c87e6302f163"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-SemanticForms/zipball/0dae7d5e995f59f6a9f1db88a3e5c87e6302f163",
+                "reference": "0dae7d5e995f59f6a9f1db88a3e5c87e6302f163",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "1.*,>=1.0.1",
+                "mediawiki/open-layers": "dev-master",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "jakub-onderka/php-parallel-lint": "0.9.2"
+            },
+            "type": "mediawiki-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.6.x-dev"
+                },
+                "installer-paths": {
+                    "../{$name}": [
+                        "mediawiki/open-layers"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "SemanticForms.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Yaron Koren",
+                    "homepage": "http://yaronkoren.com/"
+                }
+            ],
+            "description": "Forms for creating and editing wiki pages.",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Semantic_Forms",
+            "keywords": [
+                "Forms",
+                "SF",
+                "Semantic Forms",
+                "mediawiki",
+                "wiki"
+            ],
+            "time": "2016-05-04 16:28:20"
         },
         {
             "name": "mediawiki/semantic-media-wiki",
@@ -2671,6 +2770,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "mediawiki/open-layers": 20,
         "archi-strasbourg/geo-data-geo-coding": 20,
         "archi-strasbourg/news-tab": 20,
         "archi-strasbourg/category-breadcrumb": 20,

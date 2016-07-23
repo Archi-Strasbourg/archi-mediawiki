@@ -10,6 +10,8 @@
 		"mediawiki/core": "~1.26.0",
 		"mediawiki/Vector": "~1.26.0",
 		"mediawiki/semantic-media-wiki": "~2.3.0",
+		"mediawiki/semantic-forms": "~3.6.0",
+		"mediawiki/open-layers": "dev-master",
 		"mediawiki/ParserFunctions": "~1.26.0",
 		"mediawiki/Cite": "~1.26.0",
 		"mediawiki/Comments": "~1.26.0",
