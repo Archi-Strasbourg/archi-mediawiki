@@ -171,7 +171,6 @@ $wgNamespacesToBeSearchedDefault[NS_ADDRESS] = true;
 $wgMainCacheType = CACHE_ACCEL;
 
 //Semantic forms
-$srfgFormats[] = 'datatables';
 $srfgFormats[] = 'map';
 
 $wgExtensionFunctions[] = function () {

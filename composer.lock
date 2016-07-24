@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3a2f92c1d8c7bcc1910528365f359a37",
-    "content-hash": "3c73e792d5583d9cc66e93330ece796a",
+    "hash": "51628483155a722249c158b03f27dd1b",
+    "content-hash": "68ac7416e34f000afd5f51a742237d24",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1731,87 +1731,6 @@
                 "wiki"
             ],
             "time": "2016-01-04 11:25:45"
-        },
-        {
-            "name": "mediawiki/semantic-result-formats",
-            "version": "2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/SemanticMediaWiki/SemanticResultFormats.git",
-                "reference": "986366a3cbcff524a5317aa0c7c8c052b7cc94a1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticResultFormats/zipball/986366a3cbcff524a5317aa0c7c8c052b7cc94a1",
-                "reference": "986366a3cbcff524a5317aa0c7c8c052b7cc94a1",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "1.*,>=1.0.1",
-                "mediawiki/semantic-media-wiki": "~2.1",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "mediawiki/semantic-media-wiki": "@dev"
-            },
-            "suggest": {
-                "mediawiki/graph-viz": "Required for 'format=graph'",
-                "phpoffice/phpexcel": "Used when exporting to excel format using 'format=excel'"
-            },
-            "type": "mediawiki-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "SemanticResultFormats.php"
-                ],
-                "classmap": [
-                    "formats/",
-                    "SemanticResultFormats.hooks.php",
-                    "SemanticResultFormats.parser.php",
-                    "SemanticResultFormats.utils.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Jeroen De Dauw",
-                    "email": "jeroendedauw@gmail.com",
-                    "homepage": "http://jeroendedauw.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "James Hong Kong",
-                    "homepage": "https://semantic-mediawiki.org/wiki/User:MWJames",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Stephan Gambke",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Yaron Koren",
-                    "homepage": "http://www.yaronkoren.com/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Additional result formats for Semantic MediaWiki queries",
-            "homepage": "https://www.semantic-mediawiki.org/wiki/Semantic_Result_Formats",
-            "keywords": [
-                "SMW",
-                "SRF",
-                "Semantic MediaWiki",
-                "Semantic Result Formats",
-                "mediawiki",
-                "wiki"
-            ],
-            "time": "2015-09-24 21:27:44"
         },
         {
             "name": "mediawiki/validator",
