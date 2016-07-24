@@ -172,7 +172,6 @@ $wgMainCacheType = CACHE_ACCEL;
 //Semantic forms
 $srfgFormats[] = 'datatables';
 $srfgFormats[] = 'map';
-$smwgCategoriesAsInstances = true;
 
 $wgExtensionFunctions[] = function () {
     global $wgOut;
