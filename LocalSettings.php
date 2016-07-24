@@ -164,6 +164,7 @@ $wgExtraNamespaces[NS_PERSON_TALK] = "Discussion_personne";
 $wgNamespacesWithSubpages[NS_ADDRESS] = true;
 $wgVisualEditorAvailableNamespaces[NS_ADDRESS] = true;
 $smwgNamespacesWithSemanticLinks[NS_ADDRESS] = true;
+$smwgNamespacesWithSemanticLinks[NS_PERSON] = true;
 $wgNamespacesToBeSearchedDefault[NS_ADDRESS] = true;
 
 //Cache
