@@ -81,8 +81,6 @@ $wgUploadWizardConfig['tutorial']['skip'] = true;
 //ReCaptcha
 $wgCaptchaClass = 'ReCaptchaNoCaptcha';
 //$wgCaptchaTriggers['contactpage'] = true;
-//À retirer en production
-$wgGroupPermissions['user']['skipcaptcha'] = true;
 
 //Footer
 $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
@@ -182,6 +180,7 @@ $wgExtensionFunctions[] = function () {
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;
 $wgGroupPermissions['*']['upload_by_url'] = true;
+$wgGroupPermissions['*']['skipcaptcha'] = true;
 $wgShowSQLErrors = true;
 $wgDebugDumpSql  = true;
 $wgPasswordAttemptThrottle = false;
