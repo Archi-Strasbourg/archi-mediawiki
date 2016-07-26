@@ -33,7 +33,7 @@
 		"mediawiki/Nuke": "~1.26.0",
 		"mediawiki/Loops": "~1.26.0",
 		"mediawiki/Variables": "~1.26.0",
-		"composer/installers": "~1.0.22",
+		"composer/installers": "~1.1.0",
 		"archi-strasbourg/news-tab": "dev-develop",
 		"archi-strasbourg/category-breadcrumb": "dev-develop",
 		"archi-strasbourg/archi-maps": "dev-develop",
