@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "56a878a59f18a96940179ca48de12c11",
-    "content-hash": "24258ba293d8e4ecf0744e1c3bb427ac",
+    "hash": "a7d2b35c4918411326ee43b28e12e99a",
+    "content-hash": "1a58793b7fbda33f36c34ef99f312bd7",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2855,9 +2855,8 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
-        "mediawiki/open-layers": 20,
         "archi-strasbourg/news-tab": 20,
         "archi-strasbourg/category-breadcrumb": 20,
         "archi-strasbourg/archi-maps": 20,
@@ -2866,7 +2865,7 @@
         "archi-strasbourg/archi-home": 20,
         "archi-strasbourg/archi-footer": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []

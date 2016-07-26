@@ -13,7 +13,6 @@
 		"mediawiki/semantic-forms": "~3.6.0",
 		"mediawiki/semantic-forms-select": "~1.3.0",
 		"mediawiki/semantic-maps": "~3.3.0",
-		"mediawiki/open-layers": "dev-master",
 		"mediawiki/ParserFunctions": "~1.26.0",
 		"mediawiki/Cite": "~1.26.0",
 		"mediawiki/Comments": "~1.26.0",
@@ -45,6 +44,8 @@
 	"require-dev": {
 		"symfony/var-dumper": "~3.1.0"
 	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
 	"repositories": [{
 		"type": "composer",
 		"url": "https://mwpackagist.netlib.re/"
