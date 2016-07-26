@@ -63,6 +63,8 @@ require_once "$IP/extensions/TextExtracts/TextExtracts.php";
 require_once "$IP/extensions/GeoData/GeoData.php";
 require_once "$IP/extensions/Echo/Echo.php";
 include_once "$IP/extensions/SemanticForms/SemanticForms.php";
+require_once "$IP/extensions/Variables/Variables.php";
+require_once "$IP/extensions/Loops/Loops.php";
 
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;

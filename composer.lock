@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "51628483155a722249c158b03f27dd1b",
-    "content-hash": "68ac7416e34f000afd5f51a742237d24",
+    "hash": "e821a5c08853e8d6710842d508296447",
+    "content-hash": "3de6d115dbea6518b04873c3831d178b",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -937,6 +937,29 @@
             }
         },
         {
+            "name": "mediawiki/Loops",
+            "version": "1.26+871e3d1",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Loops",
+                "reference": "871e3d1"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Loops-REL1_26-871e3d1.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Loops",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Loops"
+            }
+        },
+        {
             "name": "mediawiki/MultimediaViewer",
             "version": "1.26+a312b66",
             "source": {
@@ -1095,6 +1118,29 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:UploadWizard",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/UploadWizard"
+            }
+        },
+        {
+            "name": "mediawiki/Variables",
+            "version": "1.26+510f243",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Variables",
+                "reference": "510f243"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Variables-REL1_26-510f243.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Variables",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Variables"
             }
         },
         {
