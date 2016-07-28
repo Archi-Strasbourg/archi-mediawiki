@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer.git",
-                "reference": "111cb9a2b9b10acffa7722d98130a8d0af3ef676"
+                "reference": "6b0900f1429af1b0c67ec1ec10883e5fcdb06eb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/111cb9a2b9b10acffa7722d98130a8d0af3ef676",
-                "reference": "111cb9a2b9b10acffa7722d98130a8d0af3ef676",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/6b0900f1429af1b0c67ec1ec10883e5fcdb06eb7",
+                "reference": "6b0900f1429af1b0c67ec1ec10883e5fcdb06eb7",
                 "shasum": ""
             },
             "require": {
@@ -81,7 +81,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom page footer for archi-wiki.org",
-            "time": "2016-07-26 22:38:58"
+            "time": "2016-07-28 18:53:30"
         },
         {
             "name": "archi-strasbourg/archi-home",
