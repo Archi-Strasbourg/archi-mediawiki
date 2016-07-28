@@ -29,7 +29,11 @@ $app->get('{path:.*}', function (Request $request, Response $response) {
                 )
             ).' ('.$addressInfo['nomVille'].')';
             $return = explode('#', $return);
-            return $response->withRedirect('index.php/Adresse:'.$return[0]);
+            $name = $return[0];
+            $name = str_replace("l' ", "l'", $name);
+            $name = str_replace("d' ", "d'", $name);
+            $name = trim($name, '.');
+            return $response->withRedirect('index.php/Adresse:'.$name);
         case 'evenementListe':
             switch ($params['selection']) {
                 case 'personne':
