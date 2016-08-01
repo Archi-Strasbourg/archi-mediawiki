@@ -2,3 +2,4 @@ extensions/
 skins/
 vendor/
 dbconfig.php
+node_modules/
