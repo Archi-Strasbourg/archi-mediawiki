@@ -33,12 +33,12 @@ $app->get('{path:.*}', function (Request $request, Response $response) {
             $name = str_replace("l' ", "l'", $name);
             $name = str_replace("d' ", "d'", $name);
             $name = trim($name, '.');
-            return $response->withRedirect('index.php/Adresse:'.$name);
+            return $response->withRedirect('index.php/Adresse:'.$name, 301);
         case 'evenementListe':
             switch ($params['selection']) {
                 case 'personne':
                     $person = new \ArchiPersonne(intval($params['id']));
-                    return $response->withRedirect('index.php/Personne:'.$person->prenom.' '.$person->nom);
+                    return $response->withRedirect('index.php/Personne:'.$person->prenom.' '.$person->nom, 301);
             }
     }
 });
