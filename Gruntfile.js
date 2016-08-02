@@ -5,6 +5,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-jslint');
     grunt.loadNpmTasks('grunt-phpcs');
     grunt.loadNpmTasks('grunt-shipit');
+    grunt.loadNpmTasks('shipit-git-update');
 
     grunt.initConfig({
         jslint: {
@@ -23,14 +24,14 @@ module.exports = function (grunt) {
         },
         shipit: {
             staging: {
-                servers: 'pierre@dev.rudloff.pro'
+                branch: 'develop',
+                servers: 'pierre@dev.rudloff.pro',
+                deployTo: '/var/www/archi-mediawiki/',
+                postUpdateCmd: 'composer install --no-dev; composer updatedb -- --quick; cd redirect/; composer install --no-dev'
             }
         }
     });
 
     grunt.registerTask('lint', ['jslint', 'phpcs']);
-    grunt.registerTask('pull', function () {
-        grunt.shipit.remote('cd /var/www/archi-mediawiki/; git pull; composer install --no-dev; composer updatedb -- --quick; cd redirect/; composer install --no-dev', this.async());
-    });
-    grunt.registerTask('staging', ['shipit:staging', 'pull']);
+    grunt.registerTask('staging', ['shipit:staging', 'update']);
 };
