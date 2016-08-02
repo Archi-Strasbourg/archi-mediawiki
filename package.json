@@ -1,7 +1,7 @@
 {
-    "name": "archi-mediawiki",
-    "repository": "https://github.com/Archi-Strasbourg/archi-mediawiki",
-    "license": "GPL-3.0",
+	"name": "archi-mediawiki",
+	"repository": "https://github.com/Archi-Strasbourg/archi-mediawiki",
+	"license": "GPL-3.0",
 	"devDependencies": {
 		"grunt": "~1.0.1",
 		"grunt-jslint": "~1.1.14",
