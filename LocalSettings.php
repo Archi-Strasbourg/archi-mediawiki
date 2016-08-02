@@ -6,6 +6,7 @@ $wgSitename = "Archi-Wiki";
 $wgScriptExtension = ".php";
 $wgStylePath = "$wgScriptPath/skins";
 $wgResourceBasePath = $wgScriptPath;
+$wgScript = $wgScriptPath;
 $wgLogo = "$wgResourceBasePath/logo_archi_wiki.png";
 $wgFavicon = "$wgResourceBasePath/favicon.png";
 $wgEnableEmail = true;
