@@ -2073,16 +2073,16 @@
         },
         {
             "name": "onoi/message-reporter",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/onoi/message-reporter.git",
-                "reference": "910bf7e57f86a4f0393c85444dbeb040243da1fb"
+                "reference": "72a30b7ae393fed978bf6928a2e2440b1c0c0e93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/onoi/message-reporter/zipball/910bf7e57f86a4f0393c85444dbeb040243da1fb",
-                "reference": "910bf7e57f86a4f0393c85444dbeb040243da1fb",
+                "url": "https://api.github.com/repos/onoi/message-reporter/zipball/72a30b7ae393fed978bf6928a2e2440b1c0c0e93",
+                "reference": "72a30b7ae393fed978bf6928a2e2440b1c0c0e93",
                 "shasum": ""
             },
             "require": {
@@ -2116,7 +2116,7 @@
             "keywords": [
                 "messages"
             ],
-            "time": "2016-04-13 02:38:41"
+            "time": "2016-08-02 04:16:55"
         },
         {
             "name": "oojs/oojs-ui",
