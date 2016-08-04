@@ -37,13 +37,13 @@
             "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Rudloff/mediawiki-archi-comments.git",
-                "reference": "d4743851256bd55aa1b35d682d7ac7689e47ef16"
+                "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments.git",
+                "reference": "b481ebb7d17a8e42a6f7265f38a26e9ec70db39b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Rudloff/mediawiki-archi-comments/zipball/d4743851256bd55aa1b35d682d7ac7689e47ef16",
-                "reference": "d4743851256bd55aa1b35d682d7ac7689e47ef16",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/b481ebb7d17a8e42a6f7265f38a26e9ec70db39b",
+                "reference": "b481ebb7d17a8e42a6f7265f38a26e9ec70db39b",
                 "shasum": ""
             },
             "require": {
@@ -56,7 +56,7 @@
                 "GPL-3.0"
             ],
             "description": "Comments page for archi-wiki.org",
-            "time": "2016-06-20 22:58:40"
+            "time": "2016-08-04 00:03:08"
         },
         {
             "name": "archi-strasbourg/archi-footer",
