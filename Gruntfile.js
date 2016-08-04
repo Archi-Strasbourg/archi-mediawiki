@@ -29,7 +29,7 @@ module.exports = function (grunt) {
                 servers: 'pierre@dev.rudloff.pro',
                 composer: {
                     noDev: true,
-                    cmd: 'updatedb'
+                    cmd: 'updatedb -- --quick'
                 }
             },
             staging: {
