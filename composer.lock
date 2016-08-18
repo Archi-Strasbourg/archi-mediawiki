@@ -764,7 +764,7 @@
             "version": "1.26+6a6f201",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/AddThis",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/AddThis.git",
                 "reference": "6a6f201"
             },
             "dist": {
@@ -787,7 +787,7 @@
             "version": "1.26+735b832",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Arrays",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Arrays.git",
                 "reference": "735b832"
             },
             "dist": {
@@ -810,7 +810,7 @@
             "version": "1.26+dc872e6",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Cite",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Cite.git",
                 "reference": "dc872e6"
             },
             "dist": {
@@ -833,7 +833,7 @@
             "version": "1.26+f913a64",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Comments",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Comments.git",
                 "reference": "f913a64"
             },
             "dist": {
@@ -856,7 +856,7 @@
             "version": "1.26+160f837",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CommonsMetadata",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/CommonsMetadata.git",
                 "reference": "160f837"
             },
             "dist": {
@@ -879,7 +879,7 @@
             "version": "1.26+d36751a",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ConfirmEdit",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ConfirmEdit.git",
                 "reference": "d36751a"
             },
             "dist": {
@@ -902,7 +902,7 @@
             "version": "1.26+99a687f",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ContactPage",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ContactPage.git",
                 "reference": "99a687f"
             },
             "dist": {
@@ -925,7 +925,7 @@
             "version": "1.26+1d2029d",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Echo",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Echo.git",
                 "reference": "1d2029d"
             },
             "dist": {
@@ -948,7 +948,7 @@
             "version": "1.26+401ba91",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/GeoData",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/GeoData.git",
                 "reference": "401ba91"
             },
             "dist": {
@@ -971,7 +971,7 @@
             "version": "1.26+871e3d1",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Loops",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Loops.git",
                 "reference": "871e3d1"
             },
             "dist": {
@@ -994,7 +994,7 @@
             "version": "1.26+a312b66",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/MultimediaViewer",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/MultimediaViewer.git",
                 "reference": "a312b66"
             },
             "dist": {
@@ -1017,7 +1017,7 @@
             "version": "1.27+e0ad10a",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Newsletter",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Newsletter.git",
                 "reference": "e0ad10a"
             },
             "dist": {
@@ -1040,7 +1040,7 @@
             "version": "1.26+5763d10",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Nuke",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Nuke.git",
                 "reference": "5763d10"
             },
             "dist": {
@@ -1063,7 +1063,7 @@
             "version": "1.26+81eca7c",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ParserFunctions",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ParserFunctions.git",
                 "reference": "81eca7c"
             },
             "dist": {
@@ -1086,7 +1086,7 @@
             "version": "1.26+8a1b550",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TemplateData",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateData.git",
                 "reference": "8a1b550"
             },
             "dist": {
@@ -1109,7 +1109,7 @@
             "version": "1.26+e399b19",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TextExtracts",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/TextExtracts.git",
                 "reference": "e399b19"
             },
             "dist": {
@@ -1132,7 +1132,7 @@
             "version": "1.26+729d674",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/UploadWizard",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/UploadWizard.git",
                 "reference": "729d674"
             },
             "dist": {
@@ -1155,7 +1155,7 @@
             "version": "1.26+510f243",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Variables",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Variables.git",
                 "reference": "510f243"
             },
             "dist": {
@@ -1178,7 +1178,7 @@
             "version": "1.26+186325f",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/skins/Vector",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/skins/Vector.git",
                 "reference": "186325f"
             },
             "dist": {
@@ -1201,7 +1201,7 @@
             "version": "1.26+a733545",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/VisualEditor",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/VisualEditor.git",
                 "reference": "a733545"
             },
             "dist": {
