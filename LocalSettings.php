@@ -21,8 +21,6 @@ $wgUserEmailUseReplyTo = true;
 $wgDBprefix = "";
 $wgDBTableOptions = "ENGINE=InnoDB, DEFAULT CHARSET=binary";
 $wgDBmysql5 = false;
-$wgMainCacheType = CACHE_NONE;
-$wgMemCachedServers = array();
 $wgEnableUploads = true;
 $wgUseImageMagick = true;
 $wgImageMagickConvertCommand = "/usr/bin/convert";
