@@ -23,7 +23,10 @@ module.exports = function (grunt) {
             },
             redirect: {
                 src: ['redirect/*.php']
-            }
+            },
+            settings: [
+                src: ['LocalSettings.php', 'dbconfig.php', 'namespaces.php']
+            ]
         },
         shipit: {
             options: {
