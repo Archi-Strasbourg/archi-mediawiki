@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-wiki.git",
-                "reference": "cef37fcd648c728953ec6ae1f12d502fe2208cfb"
+                "reference": "fd76c6c29414a223dce2bc5225f7b4f68f14aa29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/cef37fcd648c728953ec6ae1f12d502fe2208cfb",
-                "reference": "cef37fcd648c728953ec6ae1f12d502fe2208cfb",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/fd76c6c29414a223dce2bc5225f7b4f68f14aa29",
+                "reference": "fd76c6c29414a223dce2bc5225f7b4f68f14aa29",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                 "GPL-3.0"
             ],
             "description": "Source code for http://archi-strasbourg.org/",
-            "time": "2016-06-12 15:37:34"
+            "time": "2016-08-18 19:26:08"
         },
         {
             "name": "container-interop/container-interop",
@@ -72,19 +72,20 @@
         },
         {
             "name": "eventviva/php-image-resize",
-            "version": "1.5.4",
+            "version": "1.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/eventviva/php-image-resize.git",
-                "reference": "41e2bbc8dbbf43b9a78bf56095e33d5398eeb056"
+                "reference": "87e7200ad2e24beb9ec9862f6f2c11d93dee8838"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eventviva/php-image-resize/zipball/41e2bbc8dbbf43b9a78bf56095e33d5398eeb056",
-                "reference": "41e2bbc8dbbf43b9a78bf56095e33d5398eeb056",
+                "url": "https://api.github.com/repos/eventviva/php-image-resize/zipball/87e7200ad2e24beb9ec9862f6f2c11d93dee8838",
+                "reference": "87e7200ad2e24beb9ec9862f6f2c11d93dee8838",
                 "shasum": ""
             },
             "require": {
+                "ext-exif": "*",
                 "ext-gd": "*",
                 "php": ">=5.3.0"
             },
@@ -112,7 +113,7 @@
                 "resize",
                 "scale"
             ],
-            "time": "2016-05-06 08:00:50"
+            "time": "2016-08-17 17:41:24"
         },
         {
             "name": "nikic/fast-route",
@@ -205,16 +206,16 @@
         },
         {
             "name": "psr/http-message",
-            "version": "1.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
-                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
                 "shasum": ""
             },
             "require": {
@@ -242,6 +243,7 @@
                 }
             ],
             "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
             "keywords": [
                 "http",
                 "http-message",
@@ -250,7 +252,7 @@
                 "request",
                 "response"
             ],
-            "time": "2015-05-04 20:22:00"
+            "time": "2016-08-06 14:39:51"
         },
         {
             "name": "slim/slim",

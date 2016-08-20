@@ -63,6 +63,9 @@
       "ln -sfn ../../../composer.lock vendor/mediawiki/core/composer.lock",
       "cd extensions/VisualEditor && git submodule update --init"
     ],
+    "post-update-cmd": [
+      "cd redirect && composer update"
+    ],
     "updatedb": "php vendor/mediawiki/core/maintenance/update.php --conf LocalSettings.php"
   }
 }
