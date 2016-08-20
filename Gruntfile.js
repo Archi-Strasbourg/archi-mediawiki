@@ -47,6 +47,12 @@ module.exports = function (grunt) {
                 options: {
                     format: true
                 }
+            },
+            redirect: {
+                src: 'redirect/*.json',
+                options: {
+                    format: true
+                }
             }
         },
         fixpack: {
