@@ -40,8 +40,8 @@ module.exports = function (grunt) {
             staging: {
                 deployTo: '/var/www/archi-mediawiki/'
             },
-            'staging:redirect': {
-                deployTo: '/var/www/archi-mediawiki/redirect'
+            'staging-redirect': {
+                deployTo: '/var/www/archi-mediawiki/redirect/'
             }
         },
         jsonlint: {
@@ -66,5 +66,5 @@ module.exports = function (grunt) {
     });
 
     grunt.registerTask('lint', ['jslint', 'fixpack', 'jsonlint', 'phpcs']);
-    grunt.registerTask('staging', ['shipit:staging', 'update', 'composer:install', 'composer:cmd', 'shipit:staging:redirect', 'composer:install']);
+    grunt.registerTask('staging', ['shipit:staging', 'update', 'composer:install', 'composer:cmd', 'shipit:staging-redirect', 'composer:install']);
 };
