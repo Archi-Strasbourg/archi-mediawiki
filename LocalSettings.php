@@ -43,7 +43,7 @@ wfLoadExtension('ParserFunctions');
 wfLoadExtension('Cite');
 wfLoadExtension('Comments');
 wfLoadExtension('CommonsMetadata');
-wfLoadExtension('NewsTab');
+wfLoadExtension('ArchiNewsTab');
 wfLoadExtension('CategoryBreadcrumb');
 wfLoadExtension('ArchiMaps');
 wfLoadExtension('VisualEditor');
