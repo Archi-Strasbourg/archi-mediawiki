@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4785ce1769b25c4360b1769f50e1469d",
-    "content-hash": "6fc11e0cd35e47fc74ebb58ee586989a",
+    "hash": "916af77fe2ebc9446fa55c2dff991c02",
+    "content-hash": "e3aba2517a57999f2cc78167637f51f7",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -137,6 +137,34 @@
             "time": "2016-08-03 23:49:41"
         },
         {
+            "name": "archi-strasbourg/archi-news-tab",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab.git",
+                "reference": "263566987d139e8e1883643a6dea90593b24f0b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/263566987d139e8e1883643a6dea90593b24f0b3",
+                "reference": "263566987d139e8e1883643a6dea90593b24f0b3",
+                "shasum": ""
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Pierre Rudloff",
+                    "email": "contact@rudloff.pro"
+                }
+            ],
+            "description": "MediaWiki extension that replaces the talk tab with a news tab",
+            "time": "2016-08-21 20:52:10"
+        },
+        {
             "name": "archi-strasbourg/category-breadcrumb",
             "version": "dev-develop",
             "source": {
@@ -164,19 +192,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-emailuser-html.git",
-                "reference": "857a0c2b4bb778d8d0a353408452b2bce7fcfee6"
+                "reference": "52cd3a6697902558e0ad6a433b8d369bc6c5e3ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-emailuser-html/zipball/857a0c2b4bb778d8d0a353408452b2bce7fcfee6",
-                "reference": "857a0c2b4bb778d8d0a353408452b2bce7fcfee6",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-emailuser-html/zipball/52cd3a6697902558e0ad6a433b8d369bc6c5e3ff",
+                "reference": "52cd3a6697902558e0ad6a433b8d369bc6c5e3ff",
                 "shasum": ""
             },
             "require": {
                 "pear/mail_mime": "~1.10.0"
             },
             "require-dev": {
-                "squizlabs/php_codesniffer": "~2.6.2"
+                "mockery/mockery": "~0.9.5",
+                "phpunit/phpunit": "~5.5.2",
+                "squizlabs/php_codesniffer": "~2.6.2",
+                "symfony/var-dumper": "~3.1.0"
             },
             "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
@@ -184,35 +215,7 @@
                 "GPL-3.0"
             ],
             "description": "MediaWiki API to send an HTML email to an user",
-            "time": "2016-08-21 17:20:39"
-        },
-        {
-            "name": "archi-strasbourg/news-tab",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Archi-Strasbourg/mediawiki-news-tab.git",
-                "reference": "5930bbd9349da7753d6bd6793f794c5200505de1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-news-tab/zipball/5930bbd9349da7753d6bd6793f794c5200505de1",
-                "reference": "5930bbd9349da7753d6bd6793f794c5200505de1",
-                "shasum": ""
-            },
-            "type": "mediawiki-extension",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Pierre Rudloff",
-                    "email": "contact@rudloff.pro"
-                }
-            ],
-            "description": "MediaWiki extension that replaces the talk tab with a news tab",
-            "time": "2016-06-18 13:23:44"
+            "time": "2016-08-21 19:50:18"
         },
         {
             "name": "composer/installers",
@@ -3077,7 +3080,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "archi-strasbourg/news-tab": 20,
+        "archi-strasbourg/archi-news-tab": 20,
         "archi-strasbourg/category-breadcrumb": 20,
         "archi-strasbourg/archi-maps": 20,
         "archi-strasbourg/archi-blog": 20,
