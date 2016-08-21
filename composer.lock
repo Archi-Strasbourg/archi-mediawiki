@@ -164,12 +164,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-emailuser-html.git",
-                "reference": "bc55c03b46f8a591bf1f906ed6de83a670145f65"
+                "reference": "857a0c2b4bb778d8d0a353408452b2bce7fcfee6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-emailuser-html/zipball/bc55c03b46f8a591bf1f906ed6de83a670145f65",
-                "reference": "bc55c03b46f8a591bf1f906ed6de83a670145f65",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-emailuser-html/zipball/857a0c2b4bb778d8d0a353408452b2bce7fcfee6",
+                "reference": "857a0c2b4bb778d8d0a353408452b2bce7fcfee6",
                 "shasum": ""
             },
             "require": {
@@ -184,7 +184,7 @@
                 "GPL-3.0"
             ],
             "description": "MediaWiki API to send an HTML email to an user",
-            "time": "2016-08-03 23:46:57"
+            "time": "2016-08-21 17:20:39"
         },
         {
             "name": "archi-strasbourg/news-tab",
