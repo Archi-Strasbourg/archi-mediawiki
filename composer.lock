@@ -1034,6 +1034,9 @@
             },
             "type": "mediawiki-extension",
             "homepage": "https://www.mediawiki.org/wiki/Extension:Newsletter",
+            "keywords": [
+                "mediawiki"
+            ],
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Newsletter"
             }
