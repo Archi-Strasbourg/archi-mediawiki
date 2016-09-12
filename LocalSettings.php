@@ -1,9 +1,10 @@
 <?php
+
 require_once __DIR__.'/dbconfig.php';
 require_once __DIR__.'/namespaces.php';
 
-$wgSitename = "Archi-Wiki";
-$wgScriptExtension = ".php";
+$wgSitename = 'Archi-Wiki';
+$wgScriptExtension = '.php';
 $wgStylePath = "$wgScriptPath/skins";
 $wgResourceBasePath = $wgScriptPath;
 $wgScript = $wgScriptPath.'/';
@@ -11,28 +12,28 @@ $wgLogo = "$wgResourceBasePath/logo_archi_wiki.png";
 $wgFavicon = "$wgResourceBasePath/favicon.png";
 $wgEnableEmail = true;
 $wgEnableUserEmail = true;
-$wgEmergencyContact = "contact@rudloff.pro";
-$wgPasswordSender = "contact@rudloff.pro";
+$wgEmergencyContact = 'contact@rudloff.pro';
+$wgPasswordSender = 'contact@rudloff.pro';
 $wgEnotifUserTalk = true;
 $wgEnotifWatchlist = true;
 $wgEmailAuthentication = true;
 $wgAllowHTMLEmail = true;
 $wgUserEmailUseReplyTo = true;
-$wgDBprefix = "";
-$wgDBTableOptions = "ENGINE=InnoDB, DEFAULT CHARSET=binary";
+$wgDBprefix = '';
+$wgDBTableOptions = 'ENGINE=InnoDB, DEFAULT CHARSET=binary';
 $wgDBmysql5 = false;
 $wgEnableUploads = true;
 $wgUseImageMagick = true;
-$wgImageMagickConvertCommand = "/usr/bin/convert";
+$wgImageMagickConvertCommand = '/usr/bin/convert';
 $wgUseInstantCommons = true;
-$wgShellLocale = "fr_FR.utf8";
-$wgLanguageCode = "fr";
-$wgRightsPage = "";
-$wgRightsUrl = "";
-$wgRightsText = "";
-$wgRightsIcon = "";
-$wgDiff3 = "/usr/bin/diff3";
-$wgDefaultSkin = "vector";
+$wgShellLocale = 'fr_FR.utf8';
+$wgLanguageCode = 'fr';
+$wgRightsPage = '';
+$wgRightsUrl = '';
+$wgRightsText = '';
+$wgRightsIcon = '';
+$wgDiff3 = '/usr/bin/diff3';
+$wgDefaultSkin = 'vector';
 $wgAllowSlowParserFunctions = true;
 $wgPFEnableStringFunctions = true;
 
@@ -55,7 +56,7 @@ wfLoadExtension('ArchiFooter');
 wfLoadExtension('Newsletter');
 wfLoadExtension('Nuke');
 wfLoadExtension('EmailuserHtml');
-wfLoadExtensions(array('ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha'));
+wfLoadExtensions(['ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha']);
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
@@ -70,14 +71,15 @@ require_once "$IP/extensions/Loops/Loops.php";
 
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
-$wgVirtualRestConfig['modules']['parsoid'] = array(
-    'url' => 'http://localhost:8142',
-    'prefix' => 'localhost'
-);
+$wgVirtualRestConfig['modules']['parsoid'] = [
+    'url'    => 'http://localhost:8142',
+    'prefix' => 'localhost',
+];
 
 //UploadWizard
 $wgExtensionFunctions[] = function () {
     $GLOBALS['wgUploadNavigationUrl'] = SpecialPage::getTitleFor('UploadWizard')->getLocalURL();
+
     return true;
 };
 $wgUploadWizardConfig['tutorial']['skip'] = true;
@@ -88,10 +90,10 @@ $wgCaptchaClass = 'ReCaptchaNoCaptcha';
 
 //Footer
 $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
-    $tpl->data['footerlinks']['places'] = array();
+    $tpl->data['footerlinks']['places'] = [];
     $contactLink = Html::element(
         'a',
-        array( 'href' => SpecialPage::getTitleFor('Contact')->getLocalURL() ),
+        ['href' => SpecialPage::getTitleFor('Contact')->getLocalURL()],
         'Nous contacter'
     );
     $tpl->set('contact', $contactLink);
@@ -99,7 +101,7 @@ $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
 
     $faq = Html::element(
         'a',
-        array( 'href' => Title::newFromText('Foire aux questions')->getLocalURL() ),
+        ['href' => Title::newFromText('Foire aux questions')->getLocalURL()],
         'Foire aux questions'
     );
     $tpl->set('faq', $faq);
@@ -107,7 +109,7 @@ $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
 
     $legal = Html::element(
         'a',
-        array( 'href' => Title::newFromText('Mentions légales')->getLocalURL() ),
+        ['href' => Title::newFromText('Mentions légales')->getLocalURL()],
         'Mentions légales'
     );
     $tpl->set('legal', $legal);
@@ -117,31 +119,31 @@ $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
 };
 
 //ContactPage
-$wgContactConfig['default'] = array(
-    'RecipientUser'=>'Rudloff',
-    'RequireDetails'=>true,
-    'AdditionalFields'=>array(),
-    'IncludeIP'=>false,
-    'DisplayFormat'=>'table',
-    'RLModules' => array(),
-    'RLStyleModules' => array(),
-    'AdditionalFields' => array(
-        'Text' => array(
+$wgContactConfig['default'] = [
+    'RecipientUser'    => 'Rudloff',
+    'RequireDetails'   => true,
+    'AdditionalFields' => [],
+    'IncludeIP'        => false,
+    'DisplayFormat'    => 'table',
+    'RLModules'        => [],
+    'RLStyleModules'   => [],
+    'AdditionalFields' => [
+        'Text' => [
             'label-message' => 'emailmessage',
-            'type' => 'textarea',
-            'required' => true
-        )
-    ),
-    'SenderEmail'=>'contact@archi-strasbourg.org',
-    'SenderName'=>'Archi-Wiki'
-);
+            'type'          => 'textarea',
+            'required'      => true,
+        ],
+    ],
+    'SenderEmail' => 'contact@archi-strasbourg.org',
+    'SenderName'  => 'Archi-Wiki',
+];
 
 //AddThis
 $wgAddThisHeader = false;
-$wgResourceModules['ext.addThis'] = array(
+$wgResourceModules['ext.addThis'] = [
     'position' => 'top',
-    'styles' => 'addThis.css'
-);
+    'styles'   => 'addThis.css',
+];
 
 $egMapsEnableCategory = false;
 $wgAllowCopyUploads = true;
@@ -149,19 +151,19 @@ $wgShowExceptionDetails = true;
 
 //Categories
 $wgCountryCategory = 'Pays';
-$wgShowBreadcrumbCategories = array($wgCountryCategory);
-$wgHiddenCategories = array($wgCountryCategory);
+$wgShowBreadcrumbCategories = [$wgCountryCategory];
+$wgHiddenCategories = [$wgCountryCategory];
 
 //Namespaces
-$wgExtraNamespaces[NS_ADDRESS] = "Adresse";
-$wgExtraNamespaces[NS_ADDRESS_TALK] = "Discussion_adresse";
-$wgExtraNamespaces[NS_ADDRESS_NEWS] = "Actualités_adresse";
-$wgExtraNamespaces[NS_SOURCE] = "Source";
-$wgExtraNamespaces[NS_SOURCE_TALK] = "Discussion_source";
-$wgExtraNamespaces[NS_NEWS] = "Actualité";
-$wgExtraNamespaces[NS_NEWS_TALK] = "Discussion_actualité";
-$wgExtraNamespaces[NS_PERSON] = "Personne";
-$wgExtraNamespaces[NS_PERSON_TALK] = "Discussion_personne";
+$wgExtraNamespaces[NS_ADDRESS] = 'Adresse';
+$wgExtraNamespaces[NS_ADDRESS_TALK] = 'Discussion_adresse';
+$wgExtraNamespaces[NS_ADDRESS_NEWS] = 'Actualités_adresse';
+$wgExtraNamespaces[NS_SOURCE] = 'Source';
+$wgExtraNamespaces[NS_SOURCE_TALK] = 'Discussion_source';
+$wgExtraNamespaces[NS_NEWS] = 'Actualité';
+$wgExtraNamespaces[NS_NEWS_TALK] = 'Discussion_actualité';
+$wgExtraNamespaces[NS_PERSON] = 'Personne';
+$wgExtraNamespaces[NS_PERSON_TALK] = 'Discussion_personne';
 
 $wgNamespacesWithSubpages[NS_ADDRESS] = true;
 $wgVisualEditorAvailableNamespaces[NS_ADDRESS] = true;
@@ -186,5 +188,5 @@ $wgGroupPermissions['*']['bot'] = true;
 $wgGroupPermissions['*']['upload_by_url'] = true;
 $wgGroupPermissions['*']['skipcaptcha'] = true;
 $wgShowSQLErrors = true;
-$wgDebugDumpSql  = true;
+$wgDebugDumpSql = true;
 $wgPasswordAttemptThrottle = false;
