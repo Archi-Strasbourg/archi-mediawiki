@@ -182,6 +182,8 @@ $wgExtensionFunctions[] = function () {
     $wgOut->addModules('ext.sf_select.scriptselect');
 };
 
+//Comments
+$wgCommentsSortDescending = true;
 
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;
