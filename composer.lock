@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4989f2823f67a89947ae9bf346749d7d",
-    "content-hash": "11da7d5c055b9bf9665cdf0a019b41b8",
+    "hash": "25f3061ab4a46e265af49189037cc6b1",
+    "content-hash": "85021a08105be7e0b0ab384ee9cc471c",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -217,6 +217,28 @@
             ],
             "description": "MediaWiki API to send an HTML email to an user",
             "time": "2016-09-07 22:44:36"
+        },
+        {
+            "name": "archi-strasbourg/paypal",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/mediawiki-Paypal.git",
+                "reference": "47edba7ffe2669a1674d0c1faa1ac835ef604fb5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-Paypal/zipball/47edba7ffe2669a1674d0c1faa1ac835ef604fb5",
+                "reference": "47edba7ffe2669a1674d0c1faa1ac835ef604fb5",
+                "shasum": ""
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Fork of Paypal extension for MediaWiki",
+            "time": "2016-09-13 21:27:14"
         },
         {
             "name": "composer/installers",
@@ -3068,7 +3090,8 @@
         "archi-strasbourg/archi-comments": 20,
         "archi-strasbourg/archi-home": 20,
         "archi-strasbourg/archi-footer": 20,
-        "archi-strasbourg/emailuser-html": 20
+        "archi-strasbourg/emailuser-html": 20,
+        "archi-strasbourg/paypal": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

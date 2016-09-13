@@ -40,7 +40,8 @@
     "archi-strasbourg/archi-comments": "dev-develop",
     "archi-strasbourg/archi-home": "dev-develop",
     "archi-strasbourg/archi-footer": "dev-develop",
-    "archi-strasbourg/emailuser-html": "dev-develop"
+    "archi-strasbourg/emailuser-html": "dev-develop",
+    "archi-strasbourg/paypal": "dev-develop"
   },
   "require-dev": {
     "symfony/var-dumper": "~3.1.0"

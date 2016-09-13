@@ -67,6 +67,7 @@ require_once "$IP/extensions/Echo/Echo.php";
 include_once "$IP/extensions/SemanticForms/SemanticForms.php";
 require_once "$IP/extensions/Variables/Variables.php";
 require_once "$IP/extensions/Loops/Loops.php";
+require_once "$IP/extensions/Paypal/Paypal.php";
 
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
