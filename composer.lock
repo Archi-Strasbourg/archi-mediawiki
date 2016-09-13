@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "916af77fe2ebc9446fa55c2dff991c02",
-    "content-hash": "e3aba2517a57999f2cc78167637f51f7",
+    "hash": "4989f2823f67a89947ae9bf346749d7d",
+    "content-hash": "11da7d5c055b9bf9665cdf0a019b41b8",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -948,29 +948,6 @@
             }
         },
         {
-            "name": "mediawiki/GeoData",
-            "version": "1.26+401ba91",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/GeoData.git",
-                "reference": "401ba91"
-            },
-            "dist": {
-                "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/GeoData-REL1_26-401ba91.tar.gz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "mediawiki-extension",
-            "homepage": "https://www.mediawiki.org/wiki/Extension:GeoData",
-            "support": {
-                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/GeoData"
-            }
-        },
-        {
             "name": "mediawiki/Loops",
             "version": "1.26+871e3d1",
             "source": {
@@ -1384,16 +1361,16 @@
         },
         {
             "name": "mediawiki/maps",
-            "version": "3.8.1",
+            "version": "3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Maps.git",
-                "reference": "978b928b7279006f4a95a7f146127976d4dd930d"
+                "reference": "f28469d077156ae67d0e2d7d7ffbbbc54092c175"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/978b928b7279006f4a95a7f146127976d4dd930d",
-                "reference": "978b928b7279006f4a95a7f146127976d4dd930d",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/f28469d077156ae67d0e2d7d7ffbbbc54092c175",
+                "reference": "f28469d077156ae67d0e2d7d7ffbbbc54092c175",
                 "shasum": ""
             },
             "require": {
@@ -1408,7 +1385,7 @@
             "type": "mediawiki-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.8.x-dev"
+                    "dev-master": "3.7.x-dev"
                 }
             },
             "autoload": {
@@ -1416,7 +1393,7 @@
                     "Maps.php"
                 ],
                 "psr-4": {
-                    "Maps\\": "src/"
+                    "Maps\\": "src/Maps/"
                 },
                 "classmap": [
                     "includes/",
@@ -1448,7 +1425,7 @@
                 "mediawiki",
                 "osm"
             ],
-            "time": "2016-09-07 11:37:12"
+            "time": "2016-06-21 14:40:19"
         },
         {
             "name": "mediawiki/open-layers",
