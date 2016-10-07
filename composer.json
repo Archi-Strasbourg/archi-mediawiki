@@ -41,7 +41,8 @@
     "archi-strasbourg/archi-home": "dev-develop",
     "archi-strasbourg/archi-footer": "dev-develop",
     "archi-strasbourg/emailuser-html": "dev-develop",
-    "archi-strasbourg/paypal": "dev-develop"
+    "archi-strasbourg/paypal": "dev-develop",
+    "archi-strasbourg/archi-mediawiki-redirect": "dev-develop"
   },
   "require-dev": {
     "symfony/var-dumper": "~3.1.0"
@@ -63,9 +64,6 @@
       "ln -sfn ../../../extensions/ vendor/mediawiki/core/extensions",
       "ln -sfn ../../../composer.lock vendor/mediawiki/core/composer.lock",
       "cd extensions/VisualEditor && git submodule update --init"
-    ],
-    "post-update-cmd": [
-      "cd redirect && composer update"
     ],
     "updatedb": "php vendor/mediawiki/core/maintenance/update.php --conf LocalSettings.php"
   }
