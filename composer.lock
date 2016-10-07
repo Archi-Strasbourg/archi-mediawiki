@@ -89,12 +89,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "b07709831461127a34017c84f1b6c8816535ec88"
+                "reference": "f80496ae8646d60f71e5c45b4c8b246726e16404"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/b07709831461127a34017c84f1b6c8816535ec88",
-                "reference": "b07709831461127a34017c84f1b6c8816535ec88",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/f80496ae8646d60f71e5c45b4c8b246726e16404",
+                "reference": "f80496ae8646d60f71e5c45b4c8b246726e16404",
                 "shasum": ""
             },
             "require": {
@@ -106,7 +106,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2016-09-08 00:28:49"
+            "time": "2016-10-07 10:04:18"
         },
         {
             "name": "archi-strasbourg/archi-maps",
