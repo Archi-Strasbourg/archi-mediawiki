@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-redirect.git",
-                "reference": "461805cea536c900cc7c2f1d239842e99104fc06"
+                "reference": "44026a7edc26d49f320de88f12f5eb9223db5849"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-redirect/zipball/461805cea536c900cc7c2f1d239842e99104fc06",
-                "reference": "461805cea536c900cc7c2f1d239842e99104fc06",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-redirect/zipball/44026a7edc26d49f320de88f12f5eb9223db5849",
+                "reference": "44026a7edc26d49f320de88f12f5eb9223db5849",
                 "shasum": ""
             },
             "require": {
@@ -164,7 +164,7 @@
                 "GPL-3.0"
             ],
             "description": "Script that redirects old Archi-Wiki URLs to new MediaWiki URLs",
-            "time": "2016-10-07 11:19:42"
+            "time": "2016-10-07 11:52:44"
         },
         {
             "name": "archi-strasbourg/archi-news-tab",
