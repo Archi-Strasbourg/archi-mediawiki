@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8b75f9db08e1a740bf1619e4277fef9f",
-    "content-hash": "0b4b2ef63a76685d83cd6e51decbfd44",
+    "hash": "e6cac721ecae915620e24bd885b5eccf",
+    "content-hash": "bbfd42dcb20c2c743571fa2f7aaa7f3f",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -305,6 +305,42 @@
             ],
             "description": "Fork of Paypal extension for MediaWiki",
             "time": "2016-09-13 21:27:14"
+        },
+        {
+            "name": "archi-strasbourg/sections-count",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/mediawiki-sections-count.git",
+                "reference": "6faf173187937ad0e434ef1149d17a40624c8d80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-sections-count/zipball/6faf173187937ad0e434ef1149d17a40624c8d80",
+                "reference": "6faf173187937ad0e434ef1149d17a40624c8d80",
+                "shasum": ""
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.5",
+                "phpunit/phpunit": "~5.6.1",
+                "squizlabs/php_codesniffer": "~2.7.0",
+                "symfony/var-dumper": "~3.1.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Pierre Rudloff",
+                    "email": "contact@rudloff.pro",
+                    "homepage": "https://rudloff.pro/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "MediaWiki magic word that displays the number of sections in a page",
+            "time": "2016-10-08 15:16:40"
         },
         {
             "name": "composer/installers",

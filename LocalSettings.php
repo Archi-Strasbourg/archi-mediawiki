@@ -56,6 +56,7 @@ wfLoadExtension('ArchiFooter');
 wfLoadExtension('Newsletter');
 wfLoadExtension('Nuke');
 wfLoadExtension('EmailuserHtml');
+wfLoadExtension('SectionsCount');
 wfLoadExtensions(['ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha']);
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
