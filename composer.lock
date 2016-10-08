@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e6cac721ecae915620e24bd885b5eccf",
-    "content-hash": "bbfd42dcb20c2c743571fa2f7aaa7f3f",
+    "hash": "cebc0049daa85a2aa49d37d1e88fc2f5",
+    "content-hash": "4f26d8bf0dd9561be10a0715dc983c95",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -308,16 +308,16 @@
         },
         {
             "name": "archi-strasbourg/sections-count",
-            "version": "0.1.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-sections-count.git",
-                "reference": "6faf173187937ad0e434ef1149d17a40624c8d80"
+                "reference": "1cfb842d52ee04fd02946284810aed9fe451ef13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-sections-count/zipball/6faf173187937ad0e434ef1149d17a40624c8d80",
-                "reference": "6faf173187937ad0e434ef1149d17a40624c8d80",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-sections-count/zipball/1cfb842d52ee04fd02946284810aed9fe451ef13",
+                "reference": "1cfb842d52ee04fd02946284810aed9fe451ef13",
                 "shasum": ""
             },
             "require-dev": {
@@ -326,7 +326,7 @@
                 "squizlabs/php_codesniffer": "~2.7.0",
                 "symfony/var-dumper": "~3.1.0"
             },
-            "type": "library",
+            "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0"
@@ -340,7 +340,7 @@
                 }
             ],
             "description": "MediaWiki magic word that displays the number of sections in a page",
-            "time": "2016-10-08 15:16:40"
+            "time": "2016-10-08 15:25:59"
         },
         {
             "name": "composer/installers",
@@ -3480,7 +3480,8 @@
         "archi-strasbourg/archi-footer": 20,
         "archi-strasbourg/emailuser-html": 20,
         "archi-strasbourg/paypal": 20,
-        "archi-strasbourg/archi-mediawiki-redirect": 20
+        "archi-strasbourg/archi-mediawiki-redirect": 20,
+        "archi-strasbourg/sections-count": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

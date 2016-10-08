@@ -43,7 +43,7 @@
     "archi-strasbourg/emailuser-html": "dev-develop",
     "archi-strasbourg/paypal": "dev-develop",
     "archi-strasbourg/archi-mediawiki-redirect": "dev-develop",
-    "archi-strasbourg/sections-count": "~0.1.0"
+    "archi-strasbourg/sections-count": "dev-develop"
   },
   "require-dev": {
     "symfony/var-dumper": "~3.1.0"
