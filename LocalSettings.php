@@ -36,6 +36,7 @@ $wgDiff3 = '/usr/bin/diff3';
 $wgDefaultSkin = 'vector';
 $wgAllowSlowParserFunctions = true;
 $wgPFEnableStringFunctions = true;
+$wgExternalLinkTarget = '_blank';
 
 //Extensions
 wfLoadSkin('Vector');
