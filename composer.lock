@@ -200,12 +200,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-wiki.git",
-                "reference": "4f0da99f0bafad4b60d6c4cbccd729550f66199c"
+                "reference": "e7b59e49d155839a1ec7841825dc64e8a7892b1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/4f0da99f0bafad4b60d6c4cbccd729550f66199c",
-                "reference": "4f0da99f0bafad4b60d6c4cbccd729550f66199c",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/e7b59e49d155839a1ec7841825dc64e8a7892b1a",
+                "reference": "e7b59e49d155839a1ec7841825dc64e8a7892b1a",
                 "shasum": ""
             },
             "require": {
@@ -228,7 +228,7 @@
                 "GPL-3.0"
             ],
             "description": "Source code for http://archi-strasbourg.org/",
-            "time": "2016-10-07 10:43:40"
+            "time": "2016-10-10 20:43:01"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -1995,21 +1995,21 @@
         },
         {
             "name": "mediawiki/validator",
-            "version": "2.0.6",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Validator.git",
-                "reference": "860b673fccf25863bdedbe5ae733f7edc7711a3e"
+                "reference": "04ad7a2f6c982b291dcbaa166f2ce90505da6401"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Validator/zipball/860b673fccf25863bdedbe5ae733f7edc7711a3e",
-                "reference": "860b673fccf25863bdedbe5ae733f7edc7711a3e",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Validator/zipball/04ad7a2f6c982b291dcbaa166f2ce90505da6401",
+                "reference": "04ad7a2f6c982b291dcbaa166f2ce90505da6401",
                 "shasum": ""
             },
             "require": {
                 "param-processor/param-processor": "~1.1",
-                "php": ">=5.3.0"
+                "php": ">=5.5.0"
             },
             "require-dev": {
                 "data-values/common": "~0.3.1"
@@ -2017,7 +2017,7 @@
             "type": "mediawiki-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "2.2.x-dev"
                 }
             },
             "autoload": {
@@ -2052,7 +2052,7 @@
                 "mediawiki",
                 "validator"
             ],
-            "time": "2016-07-01 18:07:25"
+            "time": "2016-10-10 08:33:58"
         },
         {
             "name": "nikic/fast-route",
