@@ -236,12 +236,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-category-breadcrumb.git",
-                "reference": "f679dc61a8b4dbe8495b08b37b975c87cd7db936"
+                "reference": "298643fa23b9bd5b15c75066af2482c4d5d0d9c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/f679dc61a8b4dbe8495b08b37b975c87cd7db936",
-                "reference": "f679dc61a8b4dbe8495b08b37b975c87cd7db936",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/298643fa23b9bd5b15c75066af2482c4d5d0d9c1",
+                "reference": "298643fa23b9bd5b15c75066af2482c4d5d0d9c1",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -250,7 +250,7 @@
                 "proprietary"
             ],
             "description": "Provides DMOZ-style category breadcrumbs",
-            "time": "2016-08-03 23:49:03"
+            "time": "2016-10-16 12:01:05"
         },
         {
             "name": "archi-strasbourg/emailuser-html",
@@ -1634,12 +1634,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-OpenLayers.git",
-                "reference": "5704ce2492e5b9df703065f37b5c66dab8e438de"
+                "reference": "57f24ae8ee41c502e03bd34e22880a37e04c3304"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-OpenLayers/zipball/5704ce2492e5b9df703065f37b5c66dab8e438de",
-                "reference": "5704ce2492e5b9df703065f37b5c66dab8e438de",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-OpenLayers/zipball/57f24ae8ee41c502e03bd34e22880a37e04c3304",
+                "reference": "57f24ae8ee41c502e03bd34e22880a37e04c3304",
                 "shasum": ""
             },
             "require-dev": {
@@ -1666,7 +1666,7 @@
                 "mediawiki",
                 "wiki"
             ],
-            "time": "2016-07-17 13:12:19"
+            "time": "2016-10-09 20:53:53"
         },
         {
             "name": "mediawiki/parser-hooks",
