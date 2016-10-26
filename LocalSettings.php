@@ -171,6 +171,7 @@ $wgNamespacesWithSubpages[NS_ADDRESS] = true;
 $wgVisualEditorAvailableNamespaces[NS_ADDRESS] = true;
 $wgVisualEditorAvailableNamespaces[NS_ADDRESS_NEWS] = true;
 $smwgNamespacesWithSemanticLinks[NS_ADDRESS] = true;
+$smwgNamespacesWithSemanticLinks[NS_ADDRESS_NEWS] = true;
 $smwgNamespacesWithSemanticLinks[NS_PERSON] = true;
 $wgNamespacesToBeSearchedDefault[NS_ADDRESS] = true;
 
