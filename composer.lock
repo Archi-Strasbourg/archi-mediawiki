@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-redirect.git",
-                "reference": "44026a7edc26d49f320de88f12f5eb9223db5849"
+                "reference": "d5dd84b1f7636f93d28ab2eb583d3e3843ee753d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-redirect/zipball/44026a7edc26d49f320de88f12f5eb9223db5849",
-                "reference": "44026a7edc26d49f320de88f12f5eb9223db5849",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-redirect/zipball/d5dd84b1f7636f93d28ab2eb583d3e3843ee753d",
+                "reference": "d5dd84b1f7636f93d28ab2eb583d3e3843ee753d",
                 "shasum": ""
             },
             "require": {
@@ -164,7 +164,7 @@
                 "GPL-3.0"
             ],
             "description": "Script that redirects old Archi-Wiki URLs to new MediaWiki URLs",
-            "time": "2016-10-07 11:52:44"
+            "time": "2016-10-22 13:26:04"
         },
         {
             "name": "archi-strasbourg/archi-news-tab",
@@ -200,12 +200,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-wiki.git",
-                "reference": "e7b59e49d155839a1ec7841825dc64e8a7892b1a"
+                "reference": "eaa27546a1433daa16e9b7c0a5ff74141f434113"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/e7b59e49d155839a1ec7841825dc64e8a7892b1a",
-                "reference": "e7b59e49d155839a1ec7841825dc64e8a7892b1a",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/eaa27546a1433daa16e9b7c0a5ff74141f434113",
+                "reference": "eaa27546a1433daa16e9b7c0a5ff74141f434113",
                 "shasum": ""
             },
             "require": {
@@ -228,7 +228,7 @@
                 "GPL-3.0"
             ],
             "description": "Source code for http://archi-strasbourg.org/",
-            "time": "2016-10-10 20:43:01"
+            "time": "2016-10-24 08:45:22"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -3406,16 +3406,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.1.5",
+            "version": "v3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "70bfe927b86ba9999aeebd829715b0bb2cd39a10"
+                "reference": "4dc2f03b480c43f1665d3317d827a04ed6ffd11e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/70bfe927b86ba9999aeebd829715b0bb2cd39a10",
-                "reference": "70bfe927b86ba9999aeebd829715b0bb2cd39a10",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/4dc2f03b480c43f1665d3317d827a04ed6ffd11e",
+                "reference": "4dc2f03b480c43f1665d3317d827a04ed6ffd11e",
                 "shasum": ""
             },
             "require": {
@@ -3465,7 +3465,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-09-29 14:13:09"
+            "time": "2016-10-18 15:46:07"
         }
     ],
     "aliases": [],
