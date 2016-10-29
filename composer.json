@@ -32,6 +32,8 @@
     "mediawiki/Nuke": "~1.26.0",
     "mediawiki/Loops": "~1.26.0",
     "mediawiki/Variables": "~1.26.0",
+    "mediawiki/translate": "~2016.08",
+    "mediawiki/CleanChanges": "~1.26.0",
     "composer/installers": "~1.2.0",
     "archi-strasbourg/archi-news-tab": "dev-develop",
     "archi-strasbourg/category-breadcrumb": "dev-develop",
@@ -43,7 +45,8 @@
     "archi-strasbourg/emailuser-html": "dev-develop",
     "archi-strasbourg/paypal": "dev-develop",
     "archi-strasbourg/archi-mediawiki-redirect": "dev-develop",
-    "archi-strasbourg/sections-count": "dev-develop"
+    "archi-strasbourg/sections-count": "dev-develop",
+    "archi-strasbourg/language-code": "dev-develop"
   },
   "require-dev": {
     "symfony/var-dumper": "~3.1.0"

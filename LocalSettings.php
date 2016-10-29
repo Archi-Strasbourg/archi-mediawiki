@@ -58,6 +58,9 @@ wfLoadExtension('Newsletter');
 wfLoadExtension('Nuke');
 wfLoadExtension('EmailuserHtml');
 wfLoadExtension('SectionsCount');
+wfLoadExtension('UniversalLanguageSelector');
+wfLoadExtension('CleanChanges');
+wfLoadExtension('LanguageCode');
 wfLoadExtensions(['ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha']);
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
@@ -70,6 +73,7 @@ include_once "$IP/extensions/SemanticForms/SemanticForms.php";
 require_once "$IP/extensions/Variables/Variables.php";
 require_once "$IP/extensions/Loops/Loops.php";
 require_once "$IP/extensions/Paypal/Paypal.php";
+require_once "$IP/extensions/Translate/Translate.php";
 
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
@@ -188,6 +192,17 @@ $wgExtensionFunctions[] = function () {
 
 //Comments
 $wgCommentsSortDescending = true;
+
+//Translate
+$wgEnablePageTranslation = true;
+$wgTranslatePageTranslationULS = true;
+$wgGroupPermissions['user']['translate'] = true;
+$wgGroupPermissions['user']['translate-messagereview'] = true;
+$wgGroupPermissions['user']['translate-groupreview'] = true;
+$wgGroupPermissions['user']['translate-import'] = true;
+$wgGroupPermissions['sysop']['pagetranslation'] = true;
+$wgGroupPermissions['sysop']['translate-manage'] = true;
+$wgCCTrailerFilter = true;
 
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;

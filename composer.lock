@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cebc0049daa85a2aa49d37d1e88fc2f5",
-    "content-hash": "4f26d8bf0dd9561be10a0715dc983c95",
+    "hash": "e8224ede78206a69725b6b905a0aed6a",
+    "content-hash": "1d8dac212607fac2ae7cd538c5a7d956",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -89,12 +89,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "f80496ae8646d60f71e5c45b4c8b246726e16404"
+                "reference": "095d5b4eab03e914b32be365c312cce049369087"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/f80496ae8646d60f71e5c45b4c8b246726e16404",
-                "reference": "f80496ae8646d60f71e5c45b4c8b246726e16404",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/095d5b4eab03e914b32be365c312cce049369087",
+                "reference": "095d5b4eab03e914b32be365c312cce049369087",
                 "shasum": ""
             },
             "require": {
@@ -106,7 +106,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2016-10-07 10:04:18"
+            "time": "2016-10-29 17:27:53"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -283,6 +283,42 @@
             ],
             "description": "MediaWiki API to send an HTML email to an user",
             "time": "2016-09-07 22:44:36"
+        },
+        {
+            "name": "archi-strasbourg/language-code",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/mediawiki-language-code.git",
+                "reference": "29ded2967913e94d77592b8965633c78bcb0e058"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-language-code/zipball/29ded2967913e94d77592b8965633c78bcb0e058",
+                "reference": "29ded2967913e94d77592b8965633c78bcb0e058",
+                "shasum": ""
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.5",
+                "phpunit/phpunit": "~5.6.1",
+                "squizlabs/php_codesniffer": "~2.7.0",
+                "symfony/var-dumper": "~3.1.0"
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Pierre Rudloff",
+                    "email": "contact@rudloff.pro",
+                    "homepage": "https://rudloff.pro/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "MediaWiki magic words that display the current user or page language code",
+            "time": "2016-10-29 16:48:46"
         },
         {
             "name": "archi-strasbourg/paypal",
@@ -1034,6 +1070,32 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:Cite",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Cite"
+            }
+        },
+        {
+            "name": "mediawiki/CleanChanges",
+            "version": "1.26+2c8c729",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/CleanChanges.git",
+                "reference": "2c8c729"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/CleanChanges-REL1_26-2c8c729.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:CleanChanges",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/CleanChanges"
             }
         },
         {
@@ -1995,6 +2057,108 @@
                 "wiki"
             ],
             "time": "2016-01-04 11:25:45"
+        },
+        {
+            "name": "mediawiki/translate",
+            "version": "2016.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/mediawiki-extensions-Translate.git",
+                "reference": "81b64d5ba8c09484a84faa1ccc262810d3d68666"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-Translate/zipball/81b64d5ba8c09484a84faa1ccc262810d3d68666",
+                "reference": "81b64d5ba8c09484a84faa1ccc262810d3d68666",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.1",
+                "mediawiki/universal-language-selector": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "jakub-onderka/php-parallel-lint": "0.9.2",
+                "mediawiki/mediawiki-codesniffer": "0.5.1"
+            },
+            "suggest": {
+                "mediawiki/babel": "Users can easily indicate their language proficiency on their user page",
+                "mediawiki/translation-notifications": "Manage communication with translators",
+                "mustangostang/spyc": "More recent version of the bundled spyc library",
+                "romaricdrigon/metayaml": "If you want to validate message group configurations"
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Niklas Laxström",
+                    "email": "niklas.laxstrom@gmail.com",
+                    "role": "Lead nitpicker"
+                },
+                {
+                    "name": "Siebrand Mazeland",
+                    "email": "siebrand@kitano.nl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The only standard solution to translate any kind of text with an avant-garde web interface within MediaWiki, including your documentation and software",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Translate",
+            "keywords": [
+                "g11n",
+                "i18n",
+                "internationalization",
+                "l10n",
+                "localization",
+                "m17n",
+                "mediawiki",
+                "translatewiki.net",
+                "translation"
+            ],
+            "time": "2016-10-28 15:34:55"
+        },
+        {
+            "name": "mediawiki/universal-language-selector",
+            "version": "2016.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/mediawiki-extensions-UniversalLanguageSelector.git",
+                "reference": "d62c787fd0698e4bad15c58e7458699fb77fe0d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-UniversalLanguageSelector/zipball/d62c787fd0698e4bad15c58e7458699fb77fe0d8",
+                "reference": "d62c787fd0698e4bad15c58e7458699fb77fe0d8",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.1",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "jakub-onderka/php-parallel-lint": "0.9.2",
+                "mediawiki/mediawiki-codesniffer": "0.7.2"
+            },
+            "suggest": {
+                "mediawiki/cldr": "Language names in all languages"
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+",
+                "MIT"
+            ],
+            "description": "The primary aim is to allow users to select a language and configure its support in an easy way. Main features are language selection, input methods and web fonts.",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:UniversalLanguageSelector",
+            "keywords": [
+                "Input methods",
+                "Language selection",
+                "Web fonts",
+                "mediawiki"
+            ],
+            "time": "2016-10-28 15:34:56"
         },
         {
             "name": "mediawiki/validator",
@@ -3484,7 +3648,8 @@
         "archi-strasbourg/emailuser-html": 20,
         "archi-strasbourg/paypal": 20,
         "archi-strasbourg/archi-mediawiki-redirect": 20,
-        "archi-strasbourg/sections-count": 20
+        "archi-strasbourg/sections-count": 20,
+        "archi-strasbourg/language-code": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
