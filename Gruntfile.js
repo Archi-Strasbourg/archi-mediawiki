@@ -19,10 +19,7 @@ module.exports = function (grunt) {
         phpcs: {
             options: {
                 standard: 'PSR2',
-                bin: 'redirect/vendor/bin/phpcs'
-            },
-            redirect: {
-                src: ['redirect/*.php']
+                bin: 'vendor/bin/phpcs'
             },
             settings: {
                 src: ['LocalSettings.php', 'dbconfig.php', 'namespaces.php']
