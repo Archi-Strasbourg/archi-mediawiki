@@ -89,12 +89,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "095d5b4eab03e914b32be365c312cce049369087"
+                "reference": "61fbf2f3a7a0d4f4e0460365b1055edf56cc71b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/095d5b4eab03e914b32be365c312cce049369087",
-                "reference": "095d5b4eab03e914b32be365c312cce049369087",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/61fbf2f3a7a0d4f4e0460365b1055edf56cc71b4",
+                "reference": "61fbf2f3a7a0d4f4e0460365b1055edf56cc71b4",
                 "shasum": ""
             },
             "require": {
@@ -106,7 +106,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2016-10-29 17:27:53"
+            "time": "2016-11-01 19:10:16"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -200,12 +200,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-wiki.git",
-                "reference": "eaa27546a1433daa16e9b7c0a5ff74141f434113"
+                "reference": "59df21088b1d117701521dac8bb1b2d2d4784357"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/eaa27546a1433daa16e9b7c0a5ff74141f434113",
-                "reference": "eaa27546a1433daa16e9b7c0a5ff74141f434113",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/59df21088b1d117701521dac8bb1b2d2d4784357",
+                "reference": "59df21088b1d117701521dac8bb1b2d2d4784357",
                 "shasum": ""
             },
             "require": {
@@ -228,7 +228,7 @@
                 "GPL-3.0"
             ],
             "description": "Source code for http://archi-strasbourg.org/",
-            "time": "2016-10-24 08:45:22"
+            "time": "2016-11-01 19:21:23"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -1699,12 +1699,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-OpenLayers.git",
-                "reference": "57f24ae8ee41c502e03bd34e22880a37e04c3304"
+                "reference": "dad0c4fbf6dac46676f1d081591ffa91ba97b444"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-OpenLayers/zipball/57f24ae8ee41c502e03bd34e22880a37e04c3304",
-                "reference": "57f24ae8ee41c502e03bd34e22880a37e04c3304",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-OpenLayers/zipball/dad0c4fbf6dac46676f1d081591ffa91ba97b444",
+                "reference": "dad0c4fbf6dac46676f1d081591ffa91ba97b444",
                 "shasum": ""
             },
             "require-dev": {
@@ -1731,7 +1731,7 @@
                 "mediawiki",
                 "wiki"
             ],
-            "time": "2016-10-09 20:53:53"
+            "time": "2016-10-25 00:03:09"
         },
         {
             "name": "mediawiki/parser-hooks",
