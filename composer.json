@@ -34,6 +34,8 @@
     "mediawiki/Variables": "~1.26.0",
     "mediawiki/translate": "~2016.08",
     "mediawiki/CleanChanges": "~1.26.0",
+    "mediawiki/DynamicPageList": "~1.26.0",
+    "mediawiki/NukeDPL": "~1.26.0",
     "composer/installers": "~1.2.0",
     "archi-strasbourg/archi-news-tab": "dev-develop",
     "archi-strasbourg/category-breadcrumb": "dev-develop",

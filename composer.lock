@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e8224ede78206a69725b6b905a0aed6a",
-    "content-hash": "1d8dac212607fac2ae7cd538c5a7d956",
+    "hash": "977966f88876a5c25a76fc630a104da4",
+    "content-hash": "ff0ec7d7a4e473b560a5779f3ed8b11e",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog.git",
-                "reference": "d7dca0c1db51c58a1ae43edf2571e94a3a96f4f6"
+                "reference": "2adeabf7951b910903dc2fb5a0aa8f54d89ef052"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/d7dca0c1db51c58a1ae43edf2571e94a3a96f4f6",
-                "reference": "d7dca0c1db51c58a1ae43edf2571e94a3a96f4f6",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/2adeabf7951b910903dc2fb5a0aa8f54d89ef052",
+                "reference": "2adeabf7951b910903dc2fb5a0aa8f54d89ef052",
                 "shasum": ""
             },
             "require": {
@@ -30,7 +30,7 @@
                 "GPL-3.0"
             ],
             "description": "Blog page for archi-wiki.org",
-            "time": "2016-09-08 00:25:18"
+            "time": "2016-11-02 12:42:32"
         },
         {
             "name": "archi-strasbourg/archi-comments",
@@ -1191,6 +1191,32 @@
             }
         },
         {
+            "name": "mediawiki/DynamicPageList",
+            "version": "1.26+6e6c632",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/DynamicPageList.git",
+                "reference": "6e6c632"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/DynamicPageList-REL1_26-6e6c632.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:DynamicPageList",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/DynamicPageList"
+            }
+        },
+        {
             "name": "mediawiki/Echo",
             "version": "1.26+1d2029d",
             "source": {
@@ -1306,6 +1332,32 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:Nuke",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Nuke"
+            }
+        },
+        {
+            "name": "mediawiki/NukeDPL",
+            "version": "1.26+03eb568",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/NukeDPL.git",
+                "reference": "03eb568"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/NukeDPL-REL1_26-03eb568.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:NukeDPL",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/NukeDPL"
             }
         },
         {

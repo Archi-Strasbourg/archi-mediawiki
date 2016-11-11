@@ -74,6 +74,8 @@ require_once "$IP/extensions/Variables/Variables.php";
 require_once "$IP/extensions/Loops/Loops.php";
 require_once "$IP/extensions/Paypal/Paypal.php";
 require_once "$IP/extensions/Translate/Translate.php";
+require_once "$IP/extensions/DynamicPageList/DynamicPageList.php";
+require_once "$IP/extensions/NukeDPL/NukeDPL.php";
 
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
