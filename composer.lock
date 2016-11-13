@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "977966f88876a5c25a76fc630a104da4",
-    "content-hash": "ff0ec7d7a4e473b560a5779f3ed8b11e",
+    "hash": "b7714f71056b52fd758516afa4bd23d1",
+    "content-hash": "54b582a0f4f34ff2c956efcefc8f8ea4",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -172,13 +172,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab.git",
-                "reference": "08e8b3ac0b72f294a1987ba6c5b3176b79ce938d"
+                "reference": "d2796f88d5a3c3e1f574d3fdd7d090198e2b015b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/08e8b3ac0b72f294a1987ba6c5b3176b79ce938d",
-                "reference": "08e8b3ac0b72f294a1987ba6c5b3176b79ce938d",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/d2796f88d5a3c3e1f574d3fdd7d090198e2b015b",
+                "reference": "d2796f88d5a3c3e1f574d3fdd7d090198e2b015b",
                 "shasum": ""
+            },
+            "require": {
+                "archi-strasbourg/sections-count": "~0.1.0"
             },
             "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
@@ -192,7 +195,7 @@
                 }
             ],
             "description": "MediaWiki extension that replaces the talk tab with a news tab",
-            "time": "2016-09-08 00:37:50"
+            "time": "2016-11-13 14:01:25"
         },
         {
             "name": "archi-strasbourg/archi-wiki",
@@ -3687,7 +3690,14 @@
             "time": "2016-10-18 15:46:07"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "0.1.0",
+            "alias_normalized": "0.1.0.0",
+            "version": "dev-develop",
+            "package": "archi-strasbourg/sections-count"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "archi-strasbourg/archi-news-tab": 20,

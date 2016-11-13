@@ -47,7 +47,7 @@
     "archi-strasbourg/emailuser-html": "dev-develop",
     "archi-strasbourg/paypal": "dev-develop",
     "archi-strasbourg/archi-mediawiki-redirect": "dev-develop",
-    "archi-strasbourg/sections-count": "dev-develop",
+    "archi-strasbourg/sections-count": "dev-develop as 0.1.0",
     "archi-strasbourg/language-code": "dev-develop"
   },
   "require-dev": {
