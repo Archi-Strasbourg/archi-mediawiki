@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b7714f71056b52fd758516afa4bd23d1",
-    "content-hash": "54b582a0f4f34ff2c956efcefc8f8ea4",
+    "hash": "b643d0bae7fdbf49bc6b22a391a2fa03",
+    "content-hash": "ab4be1bc9a2c9dd0fafccb6c2ca86b67",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer.git",
-                "reference": "2eda0a7841eaf6d1252035b18d2239ebb6e6469e"
+                "reference": "c420acd52da53c61bcb984b536140c242f4331d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/2eda0a7841eaf6d1252035b18d2239ebb6e6469e",
-                "reference": "2eda0a7841eaf6d1252035b18d2239ebb6e6469e",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/c420acd52da53c61bcb984b536140c242f4331d8",
+                "reference": "c420acd52da53c61bcb984b536140c242f4331d8",
                 "shasum": ""
             },
             "require": {
@@ -81,7 +81,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom page footer for archi-wiki.org",
-            "time": "2016-11-15 22:05:30"
+            "time": "2016-11-21 22:05:11"
         },
         {
             "name": "archi-strasbourg/archi-home",
@@ -232,6 +232,28 @@
             ],
             "description": "Source code for http://archi-strasbourg.org/",
             "time": "2016-11-01 19:21:23"
+        },
+        {
+            "name": "archi-strasbourg/archive-links",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/mediawiki-archive-links.git",
+                "reference": "2bb68d2ed177eac61cbaa931015555b0b3d98b37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archive-links/zipball/2bb68d2ed177eac61cbaa931015555b0b3d98b37",
+                "reference": "2bb68d2ed177eac61cbaa931015555b0b3d98b37",
+                "shasum": ""
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Add a link to archive.org to every external link",
+            "time": "2016-11-21 22:19:45"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -3714,7 +3736,8 @@
         "archi-strasbourg/paypal": 20,
         "archi-strasbourg/archi-mediawiki-redirect": 20,
         "archi-strasbourg/sections-count": 20,
-        "archi-strasbourg/language-code": 20
+        "archi-strasbourg/language-code": 20,
+        "archi-strasbourg/archive-links": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

@@ -61,6 +61,7 @@ wfLoadExtension('SectionsCount');
 wfLoadExtension('UniversalLanguageSelector');
 wfLoadExtension('CleanChanges');
 wfLoadExtension('LanguageCode');
+wfLoadExtension('ArchiveLinks');
 wfLoadExtensions(['ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha']);
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
