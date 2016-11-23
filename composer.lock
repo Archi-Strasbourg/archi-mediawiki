@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5228f153f170745c661c13ebeb22e12b",
-    "content-hash": "a12222238cf07bf733f4631e895f08ba",
+    "hash": "99a3fa9bba4a324c980da72aecdf6bfa",
+    "content-hash": "887e5b445722338cb0d476b346ce341c",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -980,6 +980,115 @@
             "time": "2016-08-17 17:41:24"
         },
         {
+            "name": "jeroen/file-fetcher",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JeroenDeDauw/FileFetcher.git",
+                "reference": "818da8261c256aac137f000cabbe59bd4c348a44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JeroenDeDauw/FileFetcher/zipball/818da8261c256aac137f000cabbe59bd4c348a44",
+                "reference": "818da8261c256aac137f000cabbe59bd4c348a44",
+                "shasum": ""
+            },
+            "require": {
+                "jeroen/simple-cache": "~2.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "ockcyp/covers-validator": "~0.4",
+                "phpmd/phpmd": "~2.1",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FileFetcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple file fetching interface",
+            "homepage": "https://github.com/JeroenDeDauw/FileFetcher",
+            "keywords": [
+                "cache",
+                "curl",
+                "file fetcher",
+                "file_get_contents",
+                "wget"
+            ],
+            "time": "2016-01-07 21:17:42"
+        },
+        {
+            "name": "jeroen/simple-cache",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JeroenDeDauw/SimpleCache.git",
+                "reference": "159a72cf2ba7b7506495914d294d9e423700bd54"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JeroenDeDauw/SimpleCache/zipball/159a72cf2ba7b7506495914d294d9e423700bd54",
+                "reference": "159a72cf2ba7b7506495914d294d9e423700bd54",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "replace": {
+                "jeroen-de-dauw/simple-cache": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SimpleCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Small library defining a minimalistic caching interface and provides some basic implementations",
+            "homepage": "https://github.com/JeroenDeDauw/SimpleCache",
+            "keywords": [
+                "cache",
+                "simplecache"
+            ],
+            "time": "2014-08-19 00:36:41"
+        },
+        {
             "name": "liuggio/statsd-php-client",
             "version": "v1.0.16",
             "source": {
@@ -1707,31 +1816,40 @@
         },
         {
             "name": "mediawiki/maps",
-            "version": "3.7.0",
+            "version": "4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Maps.git",
-                "reference": "f28469d077156ae67d0e2d7d7ffbbbc54092c175"
+                "reference": "9f59f5a91c67b2ed05e3f3c729512de4dcde15f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/f28469d077156ae67d0e2d7d7ffbbbc54092c175",
-                "reference": "f28469d077156ae67d0e2d7d7ffbbbc54092c175",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/9f59f5a91c67b2ed05e3f3c729512de4dcde15f0",
+                "reference": "9f59f5a91c67b2ed05e3f3c729512de4dcde15f0",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0.1",
                 "data-values/geo": "~1.0",
-                "mediawiki/validator": "^2.0.2",
+                "jeroen/file-fetcher": "~3.1",
+                "jeroen/simple-cache": "~2.0",
+                "mediawiki/validator": "~2.2",
                 "php": ">=5.5"
             },
+            "replace": {
+                "mediawiki/semantic-maps": "*"
+            },
             "require-dev": {
-                "data-values/common": "~0.3.1"
+                "data-values/common": "~0.3.1",
+                "phpunit/phpunit": "~3.7"
+            },
+            "suggest": {
+                "mediawiki/semantic-media-wiki": "Add, edit, aggregate and visualize structured coordinate data stored with Semantic MediaWiki"
             },
             "type": "mediawiki-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.7.x-dev"
+                    "dev-master": "4.0.x-dev"
                 }
             },
             "autoload": {
@@ -1739,13 +1857,13 @@
                     "Maps.php"
                 ],
                 "psr-4": {
-                    "Maps\\": "src/Maps/"
+                    "Maps\\": "src/"
                 },
                 "classmap": [
                     "includes/",
                     "Maps.hooks.php",
-                    "tests/phpunit/elements/",
-                    "tests/phpunit/parserhooks/ParserHookTest.php"
+                    "SemanticMaps/src/",
+                    "SemanticMaps/SemanticMaps.hooks.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1765,13 +1883,17 @@
             "keywords": [
                 "OpenLayers",
                 "OpenStreetMap",
+                "Semantic Maps",
                 "Semantic MediaWiki",
+                "geocode",
+                "geocoding",
                 "google maps",
+                "leaflet",
                 "maps",
                 "mediawiki",
                 "osm"
             ],
-            "time": "2016-06-21 14:40:19"
+            "time": "2016-11-18 18:21:38"
         },
         {
             "name": "mediawiki/open-layers",
@@ -1983,72 +2105,6 @@
                 "mediawiki"
             ],
             "time": "2015-11-30 16:35:10"
-        },
-        {
-            "name": "mediawiki/semantic-maps",
-            "version": "3.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/SemanticMediaWiki/SemanticMaps.git",
-                "reference": "c8c74c23f8f615f869f8b7f60cdfbe13684b41a9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMaps/zipball/c8c74c23f8f615f869f8b7f60cdfbe13684b41a9",
-                "reference": "c8c74c23f8f615f869f8b7f60cdfbe13684b41a9",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0.1",
-                "data-values/geo": "~1.1",
-                "mediawiki/maps": "~3.2",
-                "mediawiki/semantic-media-wiki": "~2.0",
-                "mediawiki/validator": "~2.0",
-                "php": ">=5.3.0"
-            },
-            "suggest": {
-                "mediawiki/semantic-forms": "Allows entering coordinates via a form map input"
-            },
-            "type": "mediawiki-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.2.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "SemanticMaps.php"
-                ],
-                "classmap": [
-                    "src/",
-                    "SemanticMaps.hooks.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Jeroen De Dauw",
-                    "email": "jeroendedauw@gmail.com",
-                    "homepage": "http://jeroendedauw.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Adds geographic capabilities to Semantic MediaWiki",
-            "homepage": "https://www.semantic-mediawiki.org/wiki/Semantic_Maps",
-            "keywords": [
-                "OpenLayers",
-                "SMW",
-                "Semantic Maps",
-                "Semantic MediaWiki",
-                "google maps",
-                "maps",
-                "mediawiki",
-                "wiki"
-            ],
-            "time": "2016-04-02 15:58:05"
         },
         {
             "name": "mediawiki/semantic-media-wiki",

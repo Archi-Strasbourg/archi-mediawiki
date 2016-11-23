@@ -13,7 +13,7 @@
     "mediawiki/semantic-forms": "~3.6.0",
     "mediawiki/semantic-forms-select": "~1.3.0",
     "mediawiki/semantic-maps": "~3.3.0",
-    "mediawiki/maps": "~3.7.0",
+    "mediawiki/maps": "~4.0.1",
     "mediawiki/ParserFunctions": "~1.26.0",
     "mediawiki/Cite": "~1.26.0",
     "mediawiki/Comments": "~1.26.0",
