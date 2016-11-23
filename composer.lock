@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b643d0bae7fdbf49bc6b22a391a2fa03",
-    "content-hash": "ab4be1bc9a2c9dd0fafccb6c2ca86b67",
+    "hash": "5228f153f170745c661c13ebeb22e12b",
+    "content-hash": "a12222238cf07bf733f4631e895f08ba",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -234,28 +234,6 @@
             "time": "2016-11-01 19:21:23"
         },
         {
-            "name": "archi-strasbourg/archive-links",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Archi-Strasbourg/mediawiki-archive-links.git",
-                "reference": "d06d71a963cfc9019c3bdddcdf43634d6e00b126"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archive-links/zipball/d06d71a963cfc9019c3bdddcdf43634d6e00b126",
-                "reference": "d06d71a963cfc9019c3bdddcdf43634d6e00b126",
-                "shasum": ""
-            },
-            "type": "mediawiki-extension",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "description": "Add a link to archive.org to every external link",
-            "time": "2016-11-21 22:28:24"
-        },
-        {
             "name": "archi-strasbourg/category-breadcrumb",
             "version": "dev-develop",
             "source": {
@@ -344,6 +322,28 @@
             ],
             "description": "MediaWiki magic words that display the current user or page language code",
             "time": "2016-10-29 16:48:46"
+        },
+        {
+            "name": "archi-strasbourg/link-to-archive",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/mediawiki-link-to-archive.git",
+                "reference": "3122851f205d2f0205b9cc653f40689f5e4fd1c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-link-to-archive/zipball/3122851f205d2f0205b9cc653f40689f5e4fd1c9",
+                "reference": "3122851f205d2f0205b9cc653f40689f5e4fd1c9",
+                "shasum": ""
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Add a link to archive.org to every external link",
+            "time": "2016-11-23 15:45:34"
         },
         {
             "name": "archi-strasbourg/paypal",
@@ -3737,7 +3737,7 @@
         "archi-strasbourg/archi-mediawiki-redirect": 20,
         "archi-strasbourg/sections-count": 20,
         "archi-strasbourg/language-code": 20,
-        "archi-strasbourg/archive-links": 20
+        "archi-strasbourg/link-to-archive": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

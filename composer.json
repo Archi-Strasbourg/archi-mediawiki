@@ -49,7 +49,7 @@
     "archi-strasbourg/archi-mediawiki-redirect": "dev-develop",
     "archi-strasbourg/sections-count": "dev-develop as 0.1.0",
     "archi-strasbourg/language-code": "dev-develop",
-    "archi-strasbourg/archive-links": "dev-develop"
+    "archi-strasbourg/link-to-archive": "dev-develop"
   },
   "require-dev": {
     "symfony/var-dumper": "~3.1.0"
