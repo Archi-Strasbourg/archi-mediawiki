@@ -114,12 +114,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
-                "reference": "9a67ade00a579a55ed38a4cdb1553b0f46fdc0b7"
+                "reference": "0c2136b36d5b9d56391e0ef00982e9a75b38a4e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/9a67ade00a579a55ed38a4cdb1553b0f46fdc0b7",
-                "reference": "9a67ade00a579a55ed38a4cdb1553b0f46fdc0b7",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/0c2136b36d5b9d56391e0ef00982e9a75b38a4e2",
+                "reference": "0c2136b36d5b9d56391e0ef00982e9a75b38a4e2",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -134,7 +134,7 @@
                 }
             ],
             "description": "Map plugin for archi-wiki.org",
-            "time": "2016-11-23 16:22:57"
+            "time": "2016-11-23 16:42:15"
         },
         {
             "name": "archi-strasbourg/archi-mediawiki-redirect",
