@@ -1885,16 +1885,16 @@
         },
         {
             "name": "mediawiki/maps",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Maps.git",
-                "reference": "9f59f5a91c67b2ed05e3f3c729512de4dcde15f0"
+                "reference": "264305eeafc554e0cb2771f3ba74f34511a0afc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/9f59f5a91c67b2ed05e3f3c729512de4dcde15f0",
-                "reference": "9f59f5a91c67b2ed05e3f3c729512de4dcde15f0",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/264305eeafc554e0cb2771f3ba74f34511a0afc5",
+                "reference": "264305eeafc554e0cb2771f3ba74f34511a0afc5",
                 "shasum": ""
             },
             "require": {
@@ -1962,7 +1962,7 @@
                 "mediawiki",
                 "osm"
             ],
-            "time": "2016-11-18 18:21:38"
+            "time": "2016-12-04 09:49:17"
         },
         {
             "name": "mediawiki/parser-hooks",
@@ -2130,16 +2130,16 @@
         },
         {
             "name": "mediawiki/semantic-media-wiki",
-            "version": "2.4.2",
+            "version": "2.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SemanticMediaWiki/SemanticMediaWiki.git",
-                "reference": "8893969cd0a379a557993c1da528227d644b96bd"
+                "reference": "6661acdd8c8420a7e07c178aad47590d086c83d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMediaWiki/zipball/8893969cd0a379a557993c1da528227d644b96bd",
-                "reference": "8893969cd0a379a557993c1da528227d644b96bd",
+                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMediaWiki/zipball/6661acdd8c8420a7e07c178aad47590d086c83d6",
+                "reference": "6661acdd8c8420a7e07c178aad47590d086c83d6",
                 "shasum": ""
             },
             "require": {
@@ -2220,7 +2220,7 @@
                 "mediawiki",
                 "wiki"
             ],
-            "time": "2016-11-13 02:28:26"
+            "time": "2016-11-30 00:37:08"
         },
         {
             "name": "mediawiki/translate",
