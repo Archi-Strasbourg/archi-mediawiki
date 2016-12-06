@@ -19,7 +19,8 @@ module.exports = function (grunt) {
         phpcs: {
             options: {
                 standard: 'PSR2',
-                bin: 'vendor/bin/phpcs'
+                // We can't install it locally with Composer because it conflicts with MediaWiki
+                bin: '/usr/bin/phpcs'
             },
             settings: {
                 src: ['LocalSettings.php', 'dbconfig.php', 'namespaces.php']
