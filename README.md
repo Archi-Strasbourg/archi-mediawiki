@@ -12,6 +12,7 @@ $wgDBserver = "localhost";
 $wgDBname = "";
 $wgDBuser = "";
 $wgDBpassword = "";
+$wgScriptPath = "/archi-mediawiki";
 ```
 
 You then need to run:
