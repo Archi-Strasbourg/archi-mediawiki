@@ -69,8 +69,7 @@
       "ln -sfn ../../../skins/ vendor/mediawiki/core/skins",
       "rm -r vendor/mediawiki/core/extensions",
       "ln -sfn ../../../extensions/ vendor/mediawiki/core/extensions",
-      "ln -sfn ../../../composer.lock vendor/mediawiki/core/composer.lock",
-      "cd extensions/VisualEditor && git submodule update --init"
+      "ln -sfn ../../../composer.lock vendor/mediawiki/core/composer.lock"
     ],
     "updatedb": "php vendor/mediawiki/core/maintenance/update.php --conf LocalSettings.php"
   }
