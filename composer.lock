@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e7617c19f842441c85d3dd5b7053d4b9",
+    "hash": "7ab56fa8a37012e2c3e60160de3f4a13",
     "content-hash": "abc1ff7fa4fd699edf14bec2f2de67b0",
     "packages": [
         {
@@ -203,18 +203,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-wiki.git",
-                "reference": "59df21088b1d117701521dac8bb1b2d2d4784357"
+                "reference": "60f3ec675d03f3717ee3df09104cf5459d7ced96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/59df21088b1d117701521dac8bb1b2d2d4784357",
-                "reference": "59df21088b1d117701521dac8bb1b2d2d4784357",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/60f3ec675d03f3717ee3df09104cf5459d7ced96",
+                "reference": "60f3ec675d03f3717ee3df09104cf5459d7ced96",
                 "shasum": ""
             },
             "require": {
                 "eventviva/php-image-resize": "~1.5.2"
             },
             "require-dev": {
+                "dshafik/php7-mysql-shim": "~0.2.0",
+                "pear-pear.php.net/html_bbcodeparser2": "*",
                 "symfony/var-dumper": "~3.1.0"
             },
             "type": "library",
@@ -231,7 +233,7 @@
                 "GPL-3.0"
             ],
             "description": "Source code for http://archi-strasbourg.org/",
-            "time": "2016-11-01 19:21:23"
+            "time": "2016-12-10 16:23:39"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -1885,16 +1887,16 @@
         },
         {
             "name": "mediawiki/maps",
-            "version": "4.0.2",
+            "version": "4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Maps.git",
-                "reference": "264305eeafc554e0cb2771f3ba74f34511a0afc5"
+                "reference": "e4f4b9a3d04727d7ffd23c5a82a455d99f6d34b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/264305eeafc554e0cb2771f3ba74f34511a0afc5",
-                "reference": "264305eeafc554e0cb2771f3ba74f34511a0afc5",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/e4f4b9a3d04727d7ffd23c5a82a455d99f6d34b7",
+                "reference": "e4f4b9a3d04727d7ffd23c5a82a455d99f6d34b7",
                 "shasum": ""
             },
             "require": {
@@ -1962,7 +1964,7 @@
                 "mediawiki",
                 "osm"
             ],
-            "time": "2016-12-04 09:49:17"
+            "time": "2016-12-06 13:18:25"
         },
         {
             "name": "mediawiki/parser-hooks",
