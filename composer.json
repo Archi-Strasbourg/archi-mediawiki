@@ -52,7 +52,7 @@
     "archi-strasbourg/link-to-archive": "dev-develop"
   },
   "require-dev": {
-    "symfony/var-dumper": "~3.1.0"
+    "symfony/var-dumper": "~3.2.1"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
