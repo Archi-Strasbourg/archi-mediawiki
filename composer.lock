@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b3c5a43a1199ac2c3e44a20d4fcbf185",
-    "content-hash": "2d997ede0bdb07e0e63bfa15ea7cbee6",
+    "hash": "1fbf8a2e58948acd71dab97c23ac9711",
+    "content-hash": "ede0028a75a43a6be4ca28c2f7360dd0",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog.git",
-                "reference": "91cfaf1858cdc83557467a9a4cc27e5c03622684"
+                "reference": "621cfa64c65dfbfa04822fd37ca38650ceced31b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/91cfaf1858cdc83557467a9a4cc27e5c03622684",
-                "reference": "91cfaf1858cdc83557467a9a4cc27e5c03622684",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/621cfa64c65dfbfa04822fd37ca38650ceced31b",
+                "reference": "621cfa64c65dfbfa04822fd37ca38650ceced31b",
                 "shasum": ""
             },
             "require": {
@@ -33,7 +33,7 @@
                 "GPL-3.0"
             ],
             "description": "Blog page for archi-wiki.org",
-            "time": "2016-12-13 18:10:12"
+            "time": "2016-12-19 16:58:35"
         },
         {
             "name": "archi-strasbourg/archi-comments",
@@ -41,12 +41,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments.git",
-                "reference": "1f0783a6846bd1e56dc1607bf90a0de44a0ab262"
+                "reference": "774c04ea04d5a202c5df2f5a6f1c849229d3b057"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/1f0783a6846bd1e56dc1607bf90a0de44a0ab262",
-                "reference": "1f0783a6846bd1e56dc1607bf90a0de44a0ab262",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/774c04ea04d5a202c5df2f5a6f1c849229d3b057",
+                "reference": "774c04ea04d5a202c5df2f5a6f1c849229d3b057",
                 "shasum": ""
             },
             "require": {
@@ -62,7 +62,7 @@
                 "GPL-3.0"
             ],
             "description": "Comments page for archi-wiki.org",
-            "time": "2016-12-13 18:10:53"
+            "time": "2016-12-19 16:59:04"
         },
         {
             "name": "archi-strasbourg/archi-footer",
@@ -98,12 +98,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "466eba5b3915c56db6ae8a384fef12904550700f"
+                "reference": "5b34ca21050c34edb31790800b64b972ddb56050"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/466eba5b3915c56db6ae8a384fef12904550700f",
-                "reference": "466eba5b3915c56db6ae8a384fef12904550700f",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/5b34ca21050c34edb31790800b64b972ddb56050",
+                "reference": "5b34ca21050c34edb31790800b64b972ddb56050",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2016-12-13 18:18:15"
+            "time": "2016-12-19 16:57:51"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -776,16 +776,16 @@
         },
         {
             "name": "data-values/geo",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataValues/Geo.git",
-                "reference": "b0c635635cf3e25aed8d1d1000e50f893bd3d91c"
+                "reference": "4fc2cddbdcef229665e7c2cc52a65688cd3e820d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataValues/Geo/zipball/b0c635635cf3e25aed8d1d1000e50f893bd3d91c",
-                "reference": "b0c635635cf3e25aed8d1d1000e50f893bd3d91c",
+                "url": "https://api.github.com/repos/DataValues/Geo/zipball/4fc2cddbdcef229665e7c2cc52a65688cd3e820d",
+                "reference": "4fc2cddbdcef229665e7c2cc52a65688cd3e820d",
                 "shasum": ""
             },
             "require": {
@@ -838,7 +838,7 @@
                 "parsers",
                 "wikidata"
             ],
-            "time": "2016-11-11 19:17:21"
+            "time": "2016-12-16 15:11:26"
         },
         {
             "name": "data-values/interfaces",
@@ -1985,6 +1985,64 @@
             "time": "2016-12-06 13:18:25"
         },
         {
+            "name": "mediawiki/page-forms",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/mediawiki-extensions-PageForms.git",
+                "reference": "f97847ff3c0634f5b64d77fe77312fbe2877b6d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-PageForms/zipball/f97847ff3c0634f5b64d77fe77312fbe2877b6d8",
+                "reference": "f97847ff3c0634f5b64d77fe77312fbe2877b6d8",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "1.*,>=1.0.1",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "jakub-onderka/php-parallel-lint": "0.9.2"
+            },
+            "suggest": {
+                "mediawiki/open-layers": "Allow us to use ResourceLoader for OpenLayers."
+            },
+            "type": "mediawiki-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0.x-dev"
+                },
+                "installer-paths": {
+                    "../{$name}": [
+                        "mediawiki/open-layers"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Yaron Koren",
+                    "homepage": "http://yaronkoren.com/"
+                }
+            ],
+            "description": "Forms for creating and editing wiki pages.",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Page_Forms",
+            "keywords": [
+                "Forms",
+                "PF",
+                "Page Forms",
+                "SF",
+                "Semantic Forms",
+                "mediawiki",
+                "wiki"
+            ],
+            "time": "2016-11-15 17:30:47"
+        },
+        {
             "name": "mediawiki/parser-hooks",
             "version": "1.5.0",
             "source": {
@@ -2039,87 +2097,35 @@
             "time": "2016-03-05 15:47:04"
         },
         {
-            "name": "mediawiki/semantic-forms",
-            "version": "3.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wikimedia/mediawiki-extensions-SemanticForms.git",
-                "reference": "b41636f17dc869a9a372f724b8dfe4aa43de7e81"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-SemanticForms/zipball/b41636f17dc869a9a372f724b8dfe4aa43de7e81",
-                "reference": "b41636f17dc869a9a372f724b8dfe4aa43de7e81",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "1.*,>=1.0.1",
-                "mediawiki/semantic-media-wiki": ">=1.9",
-                "php": ">=5.3.0"
-            },
-            "type": "mediawiki-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.8.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "SemanticForms.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Yaron Koren",
-                    "homepage": "http://yaronkoren.com/"
-                }
-            ],
-            "description": "An extension, based around Semantic MediaWiki, that allows users to create forms for adding and editing pages that use templates to store semantic data.",
-            "homepage": "https://www.mediawiki.org/wiki/Extension:Semantic_Forms",
-            "keywords": [
-                "Forms",
-                "SF",
-                "Semantic Forms",
-                "Semantic MediaWiki",
-                "mediawiki",
-                "wiki"
-            ],
-            "time": "2015-07-29 13:48:22"
-        },
-        {
             "name": "mediawiki/semantic-forms-select",
-            "version": "1.3",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SemanticMediaWiki/SemanticFormsSelect.git",
-                "reference": "068b033d085b3efab231924698205ddf48ad8bf5"
+                "reference": "76f212702a6c6617d30e53e4f1a9459abe3d3603"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticFormsSelect/zipball/068b033d085b3efab231924698205ddf48ad8bf5",
-                "reference": "068b033d085b3efab231924698205ddf48ad8bf5",
+                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticFormsSelect/zipball/76f212702a6c6617d30e53e4f1a9459abe3d3603",
+                "reference": "76f212702a6c6617d30e53e4f1a9459abe3d3603",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "1.*,>=1.0.1",
-                "mediawiki/semantic-forms": ">=2.7",
-                "mediawiki/semantic-media-wiki": ">=2.0",
-                "php": ">=5.3.0"
+                "mediawiki/page-forms": ">=4.0",
+                "mediawiki/semantic-media-wiki": "~2.3",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "mediawiki/semantic-media-wiki": "@dev"
             },
             "type": "mediawiki-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3.x-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "autoload": {
-                "files": [
-                    "SemanticFormsSelect.php"
-                ],
                 "psr-4": {
                     "SFS\\": "src/"
                 }
@@ -2134,19 +2140,27 @@
                     "role": "Developer"
                 },
                 {
-                    "name": "Jasonzhang",
+                    "name": "Jason Zhang",
                     "role": "Creator"
+                },
+                {
+                    "name": "James Hong Kong",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Thomas Mulhall",
+                    "role": "Developer"
                 }
             ],
-            "description": "Generate a select field in Semantic Form which values are from query",
+            "description": "Allows to generate a select field in a form whose values are retrieved from a query",
             "homepage": "https://www.mediawiki.org/wiki/Extension:SemanticFormsSelect",
             "keywords": [
+                "Page Forms",
                 "SMW",
-                "Semantic Forms",
                 "Semantic MediaWiki",
                 "mediawiki"
             ],
-            "time": "2015-11-30 16:35:10"
+            "time": "2016-12-19 15:05:53"
         },
         {
             "name": "mediawiki/semantic-media-wiki",

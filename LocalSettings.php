@@ -63,6 +63,8 @@ wfLoadExtension('CleanChanges');
 wfLoadExtension('LanguageCode');
 wfLoadExtension('LinkToArchive');
 wfLoadExtensions(['ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha']);
+wfLoadExtension('PageForms');
+wfLoadExtension('SemanticFormsSelect');
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
@@ -70,7 +72,6 @@ require_once "$IP/extensions/ContactPage/ContactPage.php";
 require_once "$IP/extensions/AddThis/AddThis.php";
 require_once "$IP/extensions/TextExtracts/TextExtracts.php";
 require_once "$IP/extensions/Echo/Echo.php";
-include_once "$IP/extensions/SemanticForms/SemanticForms.php";
 require_once "$IP/extensions/Variables/Variables.php";
 require_once "$IP/extensions/Loops/Loops.php";
 require_once "$IP/extensions/Paypal/Paypal.php";
@@ -188,11 +189,6 @@ $wgMainCacheType = CACHE_ACCEL;
 
 //Semantic forms
 $srfgFormats[] = 'map';
-
-$wgExtensionFunctions[] = function () {
-    global $wgOut;
-    $wgOut->addModules('ext.sf_select.scriptselect');
-};
 
 //Comments
 $wgCommentsSortDescending = true;
