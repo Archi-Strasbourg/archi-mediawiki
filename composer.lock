@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1fbf8a2e58948acd71dab97c23ac9711",
     "content-hash": "ede0028a75a43a6be4ca28c2f7360dd0",
     "packages": [
         {
@@ -528,7 +527,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-08-13 20:53:52"
+            "time": "2016-08-13T20:53:52+00:00"
         },
         {
             "name": "composer/semver",
@@ -590,7 +589,7 @@
                 "validation",
                 "versioning"
             ],
-            "time": "2016-08-30 16:08:34"
+            "time": "2016-08-30T16:08:34+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -617,7 +616,7 @@
                 "MIT"
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
-            "time": "2014-12-30 15:22:37"
+            "time": "2014-12-30T15:22:37+00:00"
         },
         {
             "name": "cssjanus/cssjanus",
@@ -652,7 +651,7 @@
                 "Apache-2.0"
             ],
             "description": "Convert CSS stylesheets between left-to-right and right-to-left.",
-            "time": "2015-06-15 17:20:16"
+            "time": "2015-06-15T17:20:16+00:00"
         },
         {
             "name": "data-values/common",
@@ -713,7 +712,7 @@
                 "valuevalidators",
                 "wikidata"
             ],
-            "time": "2015-08-14 10:15:07"
+            "time": "2015-08-14T10:15:07+00:00"
         },
         {
             "name": "data-values/data-values",
@@ -772,7 +771,7 @@
                 "wikibase",
                 "wikidata"
             ],
-            "time": "2014-09-26 07:02:27"
+            "time": "2014-09-26T07:02:27+00:00"
         },
         {
             "name": "data-values/geo",
@@ -838,7 +837,7 @@
                 "parsers",
                 "wikidata"
             ],
-            "time": "2016-12-16 15:11:26"
+            "time": "2016-12-16T15:11:26+00:00"
         },
         {
             "name": "data-values/interfaces",
@@ -892,7 +891,7 @@
                 "valuevalidators",
                 "wikidata"
             ],
-            "time": "2016-07-15 10:58:24"
+            "time": "2016-07-15T10:58:24+00:00"
         },
         {
             "name": "data-values/validators",
@@ -953,7 +952,7 @@
                 "valueparsers",
                 "wikidata"
             ],
-            "time": "2014-10-09 19:10:23"
+            "time": "2014-10-09T19:10:23+00:00"
         },
         {
             "name": "eventviva/php-image-resize",
@@ -998,7 +997,7 @@
                 "resize",
                 "scale"
             ],
-            "time": "2016-08-17 17:41:24"
+            "time": "2016-08-17T17:41:24+00:00"
         },
         {
             "name": "jeroen/file-fetcher",
@@ -1056,7 +1055,7 @@
                 "file_get_contents",
                 "wget"
             ],
-            "time": "2016-01-07 21:17:42"
+            "time": "2016-01-07T21:17:42+00:00"
         },
         {
             "name": "jeroen/simple-cache",
@@ -1107,7 +1106,7 @@
                 "cache",
                 "simplecache"
             ],
-            "time": "2014-08-19 00:36:41"
+            "time": "2014-08-19T00:36:41+00:00"
         },
         {
             "name": "liuggio/statsd-php-client",
@@ -1157,7 +1156,7 @@
                 "php",
                 "statsd"
             ],
-            "time": "2015-07-23 23:12:45"
+            "time": "2015-07-23T23:12:45+00:00"
         },
         {
             "name": "mediawiki/AddThis",
@@ -1776,7 +1775,7 @@
             ],
             "description": "Safe replacement to @ for suppressing warnings.",
             "homepage": "https://www.mediawiki.org/wiki/at-ease",
-            "time": "2015-09-18 07:02:06"
+            "time": "2015-09-18T07:02:06+00:00"
         },
         {
             "name": "mediawiki/core",
@@ -1901,7 +1900,7 @@
                 "wiki": "https://www.mediawiki.org/",
                 "source": "https://github.com/wikimedia/mediawiki/tree/1.28.0"
             },
-            "time": "2016-11-28 18:42:27"
+            "time": "2016-11-28T18:42:27+00:00"
         },
         {
             "name": "mediawiki/maps",
@@ -1982,7 +1981,7 @@
                 "mediawiki",
                 "osm"
             ],
-            "time": "2016-12-06 13:18:25"
+            "time": "2016-12-06T13:18:25+00:00"
         },
         {
             "name": "mediawiki/page-forms",
@@ -2040,7 +2039,7 @@
                 "mediawiki",
                 "wiki"
             ],
-            "time": "2016-11-15 17:30:47"
+            "time": "2016-11-15T17:30:47+00:00"
         },
         {
             "name": "mediawiki/parser-hooks",
@@ -2094,7 +2093,7 @@
                 "parserhooks",
                 "tag extension"
             ],
-            "time": "2016-03-05 15:47:04"
+            "time": "2016-03-05T15:47:04+00:00"
         },
         {
             "name": "mediawiki/semantic-forms-select",
@@ -2160,7 +2159,7 @@
                 "Semantic MediaWiki",
                 "mediawiki"
             ],
-            "time": "2016-12-19 15:05:53"
+            "time": "2016-12-19T15:05:53+00:00"
         },
         {
             "name": "mediawiki/semantic-media-wiki",
@@ -2254,7 +2253,7 @@
                 "mediawiki",
                 "wiki"
             ],
-            "time": "2016-12-13 16:10:45"
+            "time": "2016-12-13T16:10:45+00:00"
         },
         {
             "name": "mediawiki/translate",
@@ -2315,7 +2314,7 @@
                 "translatewiki.net",
                 "translation"
             ],
-            "time": "2016-10-28 15:34:55"
+            "time": "2016-10-28T15:34:55+00:00"
         },
         {
             "name": "mediawiki/universal-language-selector",
@@ -2356,7 +2355,7 @@
                 "Web fonts",
                 "mediawiki"
             ],
-            "time": "2016-10-28 15:34:56"
+            "time": "2016-10-28T15:34:56+00:00"
         },
         {
             "name": "mediawiki/validator",
@@ -2417,20 +2416,20 @@
                 "mediawiki",
                 "validator"
             ],
-            "time": "2016-10-10 08:33:58"
+            "time": "2016-10-10T08:33:58+00:00"
         },
         {
             "name": "nikic/fast-route",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "8ea928195fa9b907f0d6e48312d323c1a13cc2af"
+                "reference": "f3dcf5130e634b6123d40727d612ec6aa4f61fb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/8ea928195fa9b907f0d6e48312d323c1a13cc2af",
-                "reference": "8ea928195fa9b907f0d6e48312d323c1a13cc2af",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/f3dcf5130e634b6123d40727d612ec6aa4f61fb3",
+                "reference": "f3dcf5130e634b6123d40727d612ec6aa4f61fb3",
                 "shasum": ""
             },
             "require": {
@@ -2460,7 +2459,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2016-06-12 19:08:51"
+            "time": "2016-10-20T17:36:47+00:00"
         },
         {
             "name": "onoi/blob-store",
@@ -2505,7 +2504,7 @@
             "keywords": [
                 "messages"
             ],
-            "time": "2016-07-09 17:32:53"
+            "time": "2016-07-09T17:32:53+00:00"
         },
         {
             "name": "onoi/cache",
@@ -2550,7 +2549,7 @@
             "keywords": [
                 "cache"
             ],
-            "time": "2015-06-02 08:52:45"
+            "time": "2015-06-02T08:52:45+00:00"
         },
         {
             "name": "onoi/callback-container",
@@ -2595,7 +2594,7 @@
             "keywords": [
                 "cache"
             ],
-            "time": "2016-04-30 07:11:39"
+            "time": "2016-04-30T07:11:39+00:00"
         },
         {
             "name": "onoi/event-dispatcher",
@@ -2640,7 +2639,7 @@
                 "events",
                 "listener"
             ],
-            "time": "2015-03-25 23:19:55"
+            "time": "2015-03-25T23:19:55+00:00"
         },
         {
             "name": "onoi/http-request",
@@ -2690,7 +2689,7 @@
                 "curl",
                 "http request"
             ],
-            "time": "2015-11-23 14:04:14"
+            "time": "2015-11-23T14:04:14+00:00"
         },
         {
             "name": "onoi/message-reporter",
@@ -2737,7 +2736,7 @@
             "keywords": [
                 "messages"
             ],
-            "time": "2016-08-02 04:16:55"
+            "time": "2016-08-02T04:16:55+00:00"
         },
         {
             "name": "oojs/oojs-ui",
@@ -2816,7 +2815,7 @@
             ],
             "description": "Provides library of common widgets, layouts, and windows.",
             "homepage": "https://www.mediawiki.org/wiki/OOjs_UI",
-            "time": "2016-10-03 18:37:58"
+            "time": "2016-10-03T18:37:58+00:00"
         },
         {
             "name": "oyejorge/less.php",
@@ -2878,7 +2877,7 @@
                 "php",
                 "stylesheet"
             ],
-            "time": "2015-12-30 05:47:36"
+            "time": "2015-12-30T05:47:36+00:00"
         },
         {
             "name": "param-processor/param-processor",
@@ -2946,7 +2945,7 @@
                 "mediawiki",
                 "validator"
             ],
-            "time": "2016-09-21 02:42:06"
+            "time": "2016-09-21T02:42:06+00:00"
         },
         {
             "name": "pear/console_getopt",
@@ -2993,7 +2992,7 @@
                 }
             ],
             "description": "More info available on: http://pear.php.net/package/Console_Getopt",
-            "time": "2015-07-20 20:28:12"
+            "time": "2015-07-20T20:28:12+00:00"
         },
         {
             "name": "pear/mail_mime",
@@ -3039,7 +3038,7 @@
             ],
             "description": "Mail_Mime provides classes to create MIME messages",
             "homepage": "http://pear.php.net/package/Mail_Mime",
-            "time": "2015-09-13 12:42:41"
+            "time": "2015-09-13T12:42:41+00:00"
         },
         {
             "name": "pear/pear-core-minimal",
@@ -3083,7 +3082,7 @@
                 }
             ],
             "description": "Minimal set of PEAR core files to be used as composer dependency",
-            "time": "2015-10-17 11:41:19"
+            "time": "2015-10-17T11:41:19+00:00"
         },
         {
             "name": "pear/pear_exception",
@@ -3138,7 +3137,7 @@
             "keywords": [
                 "exception"
             ],
-            "time": "2015-02-10 20:07:52"
+            "time": "2015-02-10T20:07:52+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -3184,7 +3183,7 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2015-09-11 15:10:35"
+            "time": "2015-09-11T15:10:35+00:00"
         },
         {
             "name": "psr/http-message",
@@ -3234,7 +3233,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
@@ -3272,7 +3271,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2012-12-21T11:40:51+00:00"
         },
         {
             "name": "serialization/serialization",
@@ -3328,7 +3327,7 @@
                 "unserialization",
                 "wikidata"
             ],
-            "time": "2014-08-19 01:53:31"
+            "time": "2014-08-19T01:53:31+00:00"
         },
         {
             "name": "slim/slim",
@@ -3398,7 +3397,7 @@
                 "micro",
                 "router"
             ],
-            "time": "2016-07-26 15:12:13"
+            "time": "2016-07-26T15:12:13+00:00"
         },
         {
             "name": "wikimedia/assert",
@@ -3443,7 +3442,7 @@
                 "precondition",
                 "qa"
             ],
-            "time": "2015-04-29 17:23:50"
+            "time": "2015-04-29T17:23:50+00:00"
         },
         {
             "name": "wikimedia/base-convert",
@@ -3489,7 +3488,7 @@
             ],
             "description": "Convert an arbitrarily-long string from one numeric base to another, optionally zero-padding to a minimum column width.",
             "homepage": "https://www.mediawiki.org/wiki/base_convert",
-            "time": "2015-10-29 22:19:02"
+            "time": "2015-10-29T22:19:02+00:00"
         },
         {
             "name": "wikimedia/cdb",
@@ -3542,7 +3541,7 @@
             ],
             "description": "Constant Database (CDB) wrapper library for PHP. Provides pure-PHP fallback when dba_* functions are absent.",
             "homepage": "https://www.mediawiki.org/wiki/CDB",
-            "time": "2016-05-29 07:39:26"
+            "time": "2016-05-29T07:39:26+00:00"
         },
         {
             "name": "wikimedia/cldr-plural-rule-parser",
@@ -3588,7 +3587,7 @@
             ],
             "description": "Evaluates plural rules specified in the CLDR project notation.",
             "homepage": "https://www.mediawiki.org/wiki/CLDRPluralRuleParser",
-            "time": "2015-08-28 17:03:03"
+            "time": "2015-08-28T17:03:03+00:00"
         },
         {
             "name": "wikimedia/composer-merge-plugin",
@@ -3637,7 +3636,7 @@
                 }
             ],
             "description": "Composer plugin to merge multiple composer.json files",
-            "time": "2016-03-08 17:11:37"
+            "time": "2016-03-08T17:11:37+00:00"
         },
         {
             "name": "wikimedia/html-formatter",
@@ -3679,7 +3678,7 @@
             ],
             "description": "Performs transformations of HTML by wrapping around libxml2 and working around its countless bugs.",
             "homepage": "https://www.mediawiki.org/wiki/HtmlFormatter",
-            "time": "2016-04-07 21:25:47"
+            "time": "2016-04-07T21:25:47+00:00"
         },
         {
             "name": "wikimedia/ip-set",
@@ -3721,7 +3720,7 @@
             ],
             "description": "Efficiently match IP addresses against a set of CIDR specifications.",
             "homepage": "https://github.com/wikimedia/IPSet",
-            "time": "2016-02-12 15:19:10"
+            "time": "2016-02-12T15:19:10+00:00"
         },
         {
             "name": "wikimedia/php-session-serializer",
@@ -3765,7 +3764,7 @@
             ],
             "description": "Provides methods like PHP's session_encode and session_decode that don't mess with $_SESSION",
             "homepage": "https://www.mediawiki.org/wiki/Php-session-serializer",
-            "time": "2016-10-01 13:19:49"
+            "time": "2016-10-01T13:19:49+00:00"
         },
         {
             "name": "wikimedia/relpath",
@@ -3807,7 +3806,7 @@
             ],
             "description": "Compute a relative filepath between two paths.",
             "homepage": "https://www.mediawiki.org/wiki/RelPath",
-            "time": "2015-09-29 21:17:03"
+            "time": "2015-09-29T21:17:03+00:00"
         },
         {
             "name": "wikimedia/running-stat",
@@ -3849,7 +3848,7 @@
             ],
             "description": "PHP implementations of online statistical algorithms",
             "homepage": "https://www.mediawiki.org/wiki/RunningStat",
-            "time": "2015-10-28 22:29:15"
+            "time": "2015-10-28T22:29:15+00:00"
         },
         {
             "name": "wikimedia/scoped-callback",
@@ -3891,7 +3890,7 @@
             ],
             "description": "Class for asserting that a callback happens when a dummy object leaves scope",
             "homepage": "https://www.mediawiki.org/wiki/ScopedCallback",
-            "time": "2016-09-29 07:03:03"
+            "time": "2016-09-29T07:03:03+00:00"
         },
         {
             "name": "wikimedia/utfnormal",
@@ -3934,7 +3933,7 @@
             ],
             "description": "Contains Unicode normalization routines, including both pure PHP implementations and automatic use of the 'intl' PHP extension when present",
             "homepage": "https://www.mediawiki.org/wiki/utfnormal",
-            "time": "2016-05-24 13:13:30"
+            "time": "2016-05-24T13:13:30+00:00"
         },
         {
             "name": "wikimedia/wait-condition-loop",
@@ -3976,7 +3975,7 @@
             ],
             "description": "Wait loop that reaches a condition or times out",
             "homepage": "https://www.mediawiki.org/wiki/WaitConditionLoop",
-            "time": "2016-10-01 06:58:30"
+            "time": "2016-10-01T06:58:30+00:00"
         },
         {
             "name": "wikimedia/wrappedstring",
@@ -4018,7 +4017,7 @@
             ],
             "description": "Automatically compact sequentially-outputted strings that share a common prefix / suffix pair.",
             "homepage": "https://www.mediawiki.org/wiki/WrappedString",
-            "time": "2016-07-21 00:41:10"
+            "time": "2016-07-21T00:41:10+00:00"
         },
         {
             "name": "zordius/lightncandy",
@@ -4065,7 +4064,7 @@
                 "php",
                 "template"
             ],
-            "time": "2015-11-05 07:14:57"
+            "time": "2015-11-05T07:14:57+00:00"
         }
     ],
     "packages-dev": [
@@ -4126,7 +4125,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/var-dumper",
@@ -4189,7 +4188,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-12-11 14:34:22"
+            "time": "2016-12-11T14:34:22+00:00"
         }
     ],
     "aliases": [
