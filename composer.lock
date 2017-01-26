@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ede0028a75a43a6be4ca28c2f7360dd0",
+    "content-hash": "df835fc22581f0cfc17b81e342bbc77d",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -220,12 +220,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-wiki.git",
-                "reference": "60f3ec675d03f3717ee3df09104cf5459d7ced96"
+                "reference": "9fe93a4afe7ab84639c83cfa6bdbb2e4dc7beeac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/60f3ec675d03f3717ee3df09104cf5459d7ced96",
-                "reference": "60f3ec675d03f3717ee3df09104cf5459d7ced96",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/9fe93a4afe7ab84639c83cfa6bdbb2e4dc7beeac",
+                "reference": "9fe93a4afe7ab84639c83cfa6bdbb2e4dc7beeac",
                 "shasum": ""
             },
             "require": {
@@ -250,7 +250,44 @@
                 "GPL-3.0"
             ],
             "description": "Source code for http://archi-strasbourg.org/",
-            "time": "2016-12-10 16:23:39"
+            "time": "2017-01-26 15:06:19"
+        },
+        {
+            "name": "archi-strasbourg/archi-wiki-skin",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
+                "reference": "f4640afc30f83c9a27472a27080b15aa4925b292"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/f4640afc30f83c9a27472a27080b15aa4925b292",
+                "reference": "f4640afc30f83c9a27472a27080b15aa4925b292",
+                "shasum": ""
+            },
+            "require-dev": {
+                "jakub-onderka/php-parallel-lint": "0.9"
+            },
+            "type": "mediawiki-skin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Damien Senger",
+                    "homepage": "http://raccoon.studio/",
+                    "role": "Designer"
+                },
+                {
+                    "name": "Mark Nightingale",
+                    "homepage": "http://www.marknightingale.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "MediaWiki skin used on archi-wiki.org",
+            "time": "2017-01-26 13:53:07"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -1904,16 +1941,16 @@
         },
         {
             "name": "mediawiki/maps",
-            "version": "4.0.3",
+            "version": "4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Maps.git",
-                "reference": "e4f4b9a3d04727d7ffd23c5a82a455d99f6d34b7"
+                "reference": "cc9eb40be1a39fd35bb7323f61e44166177704ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/e4f4b9a3d04727d7ffd23c5a82a455d99f6d34b7",
-                "reference": "e4f4b9a3d04727d7ffd23c5a82a455d99f6d34b7",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/cc9eb40be1a39fd35bb7323f61e44166177704ff",
+                "reference": "cc9eb40be1a39fd35bb7323f61e44166177704ff",
                 "shasum": ""
             },
             "require": {
@@ -1981,7 +2018,7 @@
                 "mediawiki",
                 "osm"
             ],
-            "time": "2016-12-06T13:18:25+00:00"
+            "time": "2017-01-09T09:25:29+00:00"
         },
         {
             "name": "mediawiki/page-forms",
@@ -2163,16 +2200,16 @@
         },
         {
             "name": "mediawiki/semantic-media-wiki",
-            "version": "2.4.4",
+            "version": "2.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SemanticMediaWiki/SemanticMediaWiki.git",
-                "reference": "f31fdbe430e47b144dff46620af86ca5e942ea16"
+                "reference": "59d5cf0cc79d994285c22926f40cac49d2287349"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMediaWiki/zipball/f31fdbe430e47b144dff46620af86ca5e942ea16",
-                "reference": "f31fdbe430e47b144dff46620af86ca5e942ea16",
+                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMediaWiki/zipball/59d5cf0cc79d994285c22926f40cac49d2287349",
+                "reference": "59d5cf0cc79d994285c22926f40cac49d2287349",
                 "shasum": ""
             },
             "require": {
@@ -2253,7 +2290,7 @@
                 "mediawiki",
                 "wiki"
             ],
-            "time": "2016-12-13T16:10:45+00:00"
+            "time": "2017-01-16T14:06:13+00:00"
         },
         {
             "name": "mediawiki/translate",
@@ -2318,16 +2355,16 @@
         },
         {
             "name": "mediawiki/universal-language-selector",
-            "version": "2016.10",
+            "version": "2017.01",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-UniversalLanguageSelector.git",
-                "reference": "d62c787fd0698e4bad15c58e7458699fb77fe0d8"
+                "reference": "eceeee4f93f6bde566170283a3242f0fbfd3c72a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-UniversalLanguageSelector/zipball/d62c787fd0698e4bad15c58e7458699fb77fe0d8",
-                "reference": "d62c787fd0698e4bad15c58e7458699fb77fe0d8",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-UniversalLanguageSelector/zipball/eceeee4f93f6bde566170283a3242f0fbfd3c72a",
+                "reference": "eceeee4f93f6bde566170283a3242f0fbfd3c72a",
                 "shasum": ""
             },
             "require": {
@@ -2355,7 +2392,7 @@
                 "Web fonts",
                 "mediawiki"
             ],
-            "time": "2016-10-28T15:34:56+00:00"
+            "time": "2017-01-25T14:04:20+00:00"
         },
         {
             "name": "mediawiki/validator",
@@ -2643,16 +2680,16 @@
         },
         {
             "name": "onoi/http-request",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/onoi/http-request.git",
-                "reference": "e6b704d95763d8cffa484f8790dc283aa3aa05b4"
+                "reference": "a7cf33bae82cffe570086fc06d6617e802c0cc74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/onoi/http-request/zipball/e6b704d95763d8cffa484f8790dc283aa3aa05b4",
-                "reference": "e6b704d95763d8cffa484f8790dc283aa3aa05b4",
+                "url": "https://api.github.com/repos/onoi/http-request/zipball/a7cf33bae82cffe570086fc06d6617e802c0cc74",
+                "reference": "a7cf33bae82cffe570086fc06d6617e802c0cc74",
                 "shasum": ""
             },
             "require": {
@@ -2689,7 +2726,7 @@
                 "curl",
                 "http request"
             ],
-            "time": "2015-11-23T14:04:14+00:00"
+            "time": "2017-01-14T16:25:41+00:00"
         },
         {
             "name": "onoi/message-reporter",
@@ -4129,16 +4166,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.2.1",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "f722532b0966e9b6fc631e682143c07b2cf583a0"
+                "reference": "b54b23f9a19b465e76fdaac0f6732410467c83b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/f722532b0966e9b6fc631e682143c07b2cf583a0",
-                "reference": "f722532b0966e9b6fc631e682143c07b2cf583a0",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/b54b23f9a19b465e76fdaac0f6732410467c83b2",
+                "reference": "b54b23f9a19b465e76fdaac0f6732410467c83b2",
                 "shasum": ""
             },
             "require": {
@@ -4188,7 +4225,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-12-11T14:34:22+00:00"
+            "time": "2017-01-03T08:53:57+00:00"
         }
     ],
     "aliases": [
@@ -4213,7 +4250,8 @@
         "archi-strasbourg/archi-mediawiki-redirect": 20,
         "archi-strasbourg/sections-count": 20,
         "archi-strasbourg/language-code": 20,
-        "archi-strasbourg/link-to-archive": 20
+        "archi-strasbourg/link-to-archive": 20,
+        "archi-strasbourg/archi-wiki-skin": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

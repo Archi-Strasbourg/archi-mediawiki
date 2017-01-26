@@ -32,7 +32,7 @@
     "mediawiki/Nuke": "~1.28.0",
     "mediawiki/Loops": "~1.28.0",
     "mediawiki/Variables": "~1.28.0",
-    "mediawiki/translate": "~2016.08",
+    "mediawiki/translate": "~2016.10.0",
     "mediawiki/CleanChanges": "~1.28.0",
     "mediawiki/DynamicPageList": "~1.28.0",
     "mediawiki/NukeDPL": "~1.28.0",
@@ -49,7 +49,8 @@
     "archi-strasbourg/archi-mediawiki-redirect": "dev-develop",
     "archi-strasbourg/sections-count": "dev-develop as 0.1.0",
     "archi-strasbourg/language-code": "dev-develop",
-    "archi-strasbourg/link-to-archive": "dev-develop"
+    "archi-strasbourg/link-to-archive": "dev-develop",
+    "archi-strasbourg/archi-wiki-skin": "dev-develop"
   },
   "require-dev": {
     "symfony/var-dumper": "~3.2.1"

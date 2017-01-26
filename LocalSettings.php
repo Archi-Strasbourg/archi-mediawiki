@@ -33,12 +33,13 @@ $wgRightsUrl = '';
 $wgRightsText = '';
 $wgRightsIcon = '';
 $wgDiff3 = '/usr/bin/diff3';
-$wgDefaultSkin = 'vector';
+$wgDefaultSkin = 'ArchiWiki';
 $wgAllowSlowParserFunctions = true;
 $wgPFEnableStringFunctions = true;
 $wgExternalLinkTarget = '_blank';
 
 //Extensions
+wfLoadSkin('archi-wiki');
 wfLoadSkin('Vector');
 enableSemantics('localhost');
 wfLoadExtension('ParserFunctions');
@@ -85,6 +86,7 @@ $wgVirtualRestConfig['modules']['parsoid'] = [
     'url'    => 'http://localhost:8142',
     'prefix' => 'localhost',
 ];
+$wgVisualEditorSupportedSkins = ['vector', 'archi-wiki'];
 
 //UploadWizard
 $wgExtensionFunctions[] = function () {
@@ -181,11 +183,12 @@ $wgVisualEditorAvailableNamespaces[NS_ADDRESS_NEWS] = true;
 $smwgNamespacesWithSemanticLinks[NS_ADDRESS] = true;
 $smwgNamespacesWithSemanticLinks[NS_ADDRESS_NEWS] = true;
 $smwgNamespacesWithSemanticLinks[NS_PERSON] = true;
+$smwgNamespacesWithSemanticLinks[NS_USER] = true;
 $wgNamespacesToBeSearchedDefault[NS_ADDRESS] = true;
 $wgNamespacesToBeSearchedDefault[NS_PERSON] = true;
 
 //Cache
-$wgMainCacheType = CACHE_ACCEL;
+//$wgMainCacheType = CACHE_ACCEL;
 
 //Semantic forms
 $srfgFormats[] = 'map';
