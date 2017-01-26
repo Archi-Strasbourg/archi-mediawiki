@@ -50,7 +50,8 @@
     "archi-strasbourg/sections-count": "dev-develop as 0.1.0",
     "archi-strasbourg/language-code": "dev-develop",
     "archi-strasbourg/link-to-archive": "dev-develop",
-    "archi-strasbourg/archi-wiki-skin": "dev-develop"
+    "archi-strasbourg/archi-wiki-skin": "dev-develop",
+    "shakeepers/hide-namespace": "~1.4.3"
   },
   "require-dev": {
     "symfony/var-dumper": "~3.2.1"

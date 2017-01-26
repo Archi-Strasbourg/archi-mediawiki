@@ -79,6 +79,7 @@ require_once "$IP/extensions/Paypal/Paypal.php";
 require_once "$IP/extensions/Translate/Translate.php";
 require_once "$IP/extensions/DynamicPageList/DynamicPageList.php";
 require_once "$IP/extensions/NukeDPL/NukeDPL.php";
+require_once "$IP/extensions/HideNamespace/HideNamespace.php";
 
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
@@ -206,6 +207,9 @@ $wgGroupPermissions['user']['translate-import'] = true;
 $wgGroupPermissions['sysop']['pagetranslation'] = true;
 $wgGroupPermissions['sysop']['translate-manage'] = true;
 $wgCCTrailerFilter = true;
+
+//HideNamespace
+$wgHidensNamespaces = [NS_ADDRESS];
 
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;
