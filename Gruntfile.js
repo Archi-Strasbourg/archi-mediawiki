@@ -29,14 +29,14 @@ module.exports = function (grunt) {
         shipit: {
             options: {
                 branch: 'develop',
-                servers: 'pierre@dev.rudloff.pro',
+                servers: 'pierre@archi-strasbourg.org',
                 composer: {
                     noDev: true,
                     cmd: 'updatedb -- --quick'
                 }
             },
             staging: {
-                deployTo: '/var/www/archi-mediawiki/'
+                deployTo: '/home/vhosts/fabien/archi-mediawiki/'
             }
         },
         jsonlint: {
