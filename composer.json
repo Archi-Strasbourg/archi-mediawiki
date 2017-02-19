@@ -71,7 +71,8 @@
       "ln -sfn ../../../skins/ vendor/mediawiki/core/skins",
       "rm -r vendor/mediawiki/core/extensions",
       "ln -sfn ../../../extensions/ vendor/mediawiki/core/extensions",
-      "ln -sfn ../../../composer.lock vendor/mediawiki/core/composer.lock"
+      "ln -sfn ../../../composer.lock vendor/mediawiki/core/composer.lock",
+      "cd skins/archi-wiki/; gulp"
     ],
     "updatedb": "php vendor/mediawiki/core/maintenance/update.php --conf LocalSettings.php"
   }
