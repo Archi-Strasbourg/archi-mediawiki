@@ -258,12 +258,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "b71406f43c85aa8ac7fb86d62e8ba0493c1564ef"
+                "reference": "ba449d3a3cd751dafc9a55cedcee728a9a779239"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/b71406f43c85aa8ac7fb86d62e8ba0493c1564ef",
-                "reference": "b71406f43c85aa8ac7fb86d62e8ba0493c1564ef",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/ba449d3a3cd751dafc9a55cedcee728a9a779239",
+                "reference": "ba449d3a3cd751dafc9a55cedcee728a9a779239",
                 "shasum": ""
             },
             "require-dev": {
@@ -287,7 +287,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2017-01-27 12:44:18"
+            "time": "2017-02-19 17:29:37"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -1945,16 +1945,16 @@
         },
         {
             "name": "mediawiki/maps",
-            "version": "4.0.4",
+            "version": "4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Maps.git",
-                "reference": "cc9eb40be1a39fd35bb7323f61e44166177704ff"
+                "reference": "5ad5775bdd9dd28e3b12c447cc214921d3e78e39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/cc9eb40be1a39fd35bb7323f61e44166177704ff",
-                "reference": "cc9eb40be1a39fd35bb7323f61e44166177704ff",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/5ad5775bdd9dd28e3b12c447cc214921d3e78e39",
+                "reference": "5ad5775bdd9dd28e3b12c447cc214921d3e78e39",
                 "shasum": ""
             },
             "require": {
@@ -2022,7 +2022,7 @@
                 "mediawiki",
                 "osm"
             ],
-            "time": "2017-01-09T09:25:29+00:00"
+            "time": "2017-03-05T00:43:08+00:00"
         },
         {
             "name": "mediawiki/page-forms",
@@ -3083,20 +3083,20 @@
         },
         {
             "name": "pear/pear-core-minimal",
-            "version": "v1.10.1",
+            "version": "v1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/pear-core-minimal.git",
-                "reference": "cae0f1ce0cb5bddb611b0a652d322905a65a5896"
+                "reference": "070f0b600b2caca2501e2c9b7e553016e4b0d115"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/cae0f1ce0cb5bddb611b0a652d322905a65a5896",
-                "reference": "cae0f1ce0cb5bddb611b0a652d322905a65a5896",
+                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/070f0b600b2caca2501e2c9b7e553016e4b0d115",
+                "reference": "070f0b600b2caca2501e2c9b7e553016e4b0d115",
                 "shasum": ""
             },
             "require": {
-                "pear/console_getopt": "~1.3",
+                "pear/console_getopt": "~1.4",
                 "pear/pear_exception": "~1.0"
             },
             "replace": {
@@ -3123,7 +3123,7 @@
                 }
             ],
             "description": "Minimal set of PEAR core files to be used as composer dependency",
-            "time": "2015-10-17T11:41:19+00:00"
+            "time": "2017-02-28T16:46:11+00:00"
         },
         {
             "name": "pear/pear_exception",
