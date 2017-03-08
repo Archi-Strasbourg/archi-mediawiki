@@ -1357,15 +1357,15 @@
         },
         {
             "name": "mediawiki/ConfirmEdit",
-            "version": "1.28+25c20e2",
+            "version": "1.28+6ee100a",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ConfirmEdit.git",
-                "reference": "25c20e2"
+                "reference": "6ee100a"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_28-25c20e2.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_28-6ee100a.tar.gz",
                 "reference": null,
                 "shasum": null
             },
