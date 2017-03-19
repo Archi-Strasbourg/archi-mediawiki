@@ -816,16 +816,16 @@
         },
         {
             "name": "data-values/geo",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataValues/Geo.git",
-                "reference": "4fc2cddbdcef229665e7c2cc52a65688cd3e820d"
+                "reference": "b16af85da2dc879382d2913bb32aeae00a074c55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataValues/Geo/zipball/4fc2cddbdcef229665e7c2cc52a65688cd3e820d",
-                "reference": "4fc2cddbdcef229665e7c2cc52a65688cd3e820d",
+                "url": "https://api.github.com/repos/DataValues/Geo/zipball/b16af85da2dc879382d2913bb32aeae00a074c55",
+                "reference": "b16af85da2dc879382d2913bb32aeae00a074c55",
                 "shasum": ""
             },
             "require": {
@@ -840,7 +840,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "1.2.x-dev"
                 }
             },
             "autoload": {
@@ -878,7 +878,7 @@
                 "parsers",
                 "wikidata"
             ],
-            "time": "2016-12-16T15:11:26+00:00"
+            "time": "2017-03-14T17:59:19+00:00"
         },
         {
             "name": "data-values/interfaces",
@@ -1357,15 +1357,15 @@
         },
         {
             "name": "mediawiki/ConfirmEdit",
-            "version": "1.28+6ee100a",
+            "version": "1.28+25c20e2",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ConfirmEdit.git",
-                "reference": "6ee100a"
+                "reference": "25c20e2"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_28-6ee100a.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_28-25c20e2.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -4241,21 +4241,24 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.2.4",
+            "version": "v3.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "cb50260b674ee1c2d4ab49f2395a42e0b4681e20"
+                "reference": "4100f347aff890bc16b0b4b42843b599db257b2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/cb50260b674ee1c2d4ab49f2395a42e0b4681e20",
-                "reference": "cb50260b674ee1c2d4ab49f2395a42e0b4681e20",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/4100f347aff890bc16b0b4b42843b599db257b2d",
+                "reference": "4100f347aff890bc16b0b4b42843b599db257b2d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.9",
                 "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
             },
             "require-dev": {
                 "twig/twig": "~1.20|~2.0"
@@ -4300,7 +4303,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2017-02-16T22:46:52+00:00"
+            "time": "2017-02-20T13:45:48+00:00"
         }
     ],
     "aliases": [
