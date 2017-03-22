@@ -258,12 +258,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "3e54035373a94be5da2e615e759897b0169bfc1e"
+                "reference": "f69b4c47aafb447b6f658626ba3841a0c5de4e23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/3e54035373a94be5da2e615e759897b0169bfc1e",
-                "reference": "3e54035373a94be5da2e615e759897b0169bfc1e",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/f69b4c47aafb447b6f658626ba3841a0c5de4e23",
+                "reference": "f69b4c47aafb447b6f658626ba3841a0c5de4e23",
                 "shasum": ""
             },
             "require-dev": {
@@ -287,7 +287,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2017-03-07 17:17:51"
+            "time": "2017-03-22 16:46:29"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -1357,15 +1357,15 @@
         },
         {
             "name": "mediawiki/ConfirmEdit",
-            "version": "1.28+25c20e2",
+            "version": "1.28+6ee100a",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ConfirmEdit.git",
-                "reference": "25c20e2"
+                "reference": "6ee100a"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_28-25c20e2.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_28-6ee100a.tar.gz",
                 "reference": null,
                 "shasum": null
             },
