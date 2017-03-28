@@ -87,7 +87,7 @@ $wgVirtualRestConfig['modules']['parsoid'] = [
     'url'    => 'http://localhost:8142',
     'prefix' => 'localhost',
 ];
-$wgVisualEditorSupportedSkins = ['vector', 'archi-wiki'];
+$wgVisualEditorSupportedSkins = ['vector', 'archiwiki'];
 
 //UploadWizard
 $wgExtensionFunctions[] = function () {
