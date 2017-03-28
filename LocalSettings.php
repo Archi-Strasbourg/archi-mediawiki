@@ -209,6 +209,7 @@ $wgGroupPermissions['user']['translate-import'] = true;
 $wgGroupPermissions['sysop']['pagetranslation'] = true;
 $wgGroupPermissions['sysop']['translate-manage'] = true;
 $wgCCTrailerFilter = true;
+$wgULSIMEEnabled = false;
 
 //HideNamespace
 $wgHidensNamespaces = [NS_ADDRESS];
