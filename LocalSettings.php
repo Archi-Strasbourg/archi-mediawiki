@@ -196,6 +196,8 @@ $srfgFormats[] = 'map';
 
 //Comments
 $wgCommentsSortDescending = true;
+$wgGroupPermissions['*']['comment'] = false;
+$wgGroupPermissions['user']['comment'] = true;
 
 //Translate
 $wgEnablePageTranslation = true;
