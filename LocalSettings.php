@@ -211,6 +211,10 @@ $wgCCTrailerFilter = true;
 //HideNamespace
 $wgHidensNamespaces = [NS_ADDRESS];
 
+//Gallery
+$wgGalleryOptions['imageWidth'] = 180;
+$wgGalleryOptions['imageHeight'] = 240;
+
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;
 $wgGroupPermissions['*']['upload_by_url'] = true;
