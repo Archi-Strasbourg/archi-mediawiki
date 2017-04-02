@@ -41,6 +41,8 @@ $wgExternalLinkTarget = '_blank';
 //Permissions
 $wgGroupPermissions['*']['edit'] = false;
 $wgGroupPermissions['user']['edit'] = true;
+$wgGroupPermissions['*']['createpage'] = false;
+$wgGroupPermissions['user']['createpage'] = true;
 
 //Extensions
 wfLoadSkin('archi-wiki');
