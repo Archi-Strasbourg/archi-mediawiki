@@ -38,6 +38,10 @@ $wgAllowSlowParserFunctions = true;
 $wgPFEnableStringFunctions = true;
 $wgExternalLinkTarget = '_blank';
 
+//Permissions
+$wgGroupPermissions['*']['edit'] = false;
+$wgGroupPermissions['user']['edit'] = true;
+
 //Extensions
 wfLoadSkin('archi-wiki');
 wfLoadSkin('Vector');
