@@ -80,6 +80,9 @@ require_once "$IP/extensions/Translate/Translate.php";
 require_once "$IP/extensions/DynamicPageList/DynamicPageList.php";
 require_once "$IP/extensions/NukeDPL/NukeDPL.php";
 require_once "$IP/extensions/HideNamespace/HideNamespace.php";
+require_once "$IP/extensions/GoogleCustomWikiSearch/GoogleCustomWikiSearch.php";
+
+include_once __DIR__.'/apikeys.php';
 
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
@@ -218,6 +221,10 @@ $wgHidensNamespaces = [NS_ADDRESS];
 //Gallery
 $wgGalleryOptions['imageWidth'] = 180;
 $wgGalleryOptions['imageHeight'] = 240;
+
+//Google Search
+$wgGoogleCustomWikiSearchAppendToSearch = true;
+$wgGoogleCustomWikiSearchCodeVersion = 1;
 
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;

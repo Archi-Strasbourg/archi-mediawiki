@@ -36,6 +36,7 @@
     "mediawiki/CleanChanges": "~1.28.0",
     "mediawiki/DynamicPageList": "~1.28.0",
     "mediawiki/NukeDPL": "~1.28.0",
+    "mediawiki/GoogleCustomWikiSearch": "~1.28.0",
     "composer/installers": "~1.2.0",
     "archi-strasbourg/archi-news-tab": "dev-develop",
     "archi-strasbourg/category-breadcrumb": "dev-develop",
