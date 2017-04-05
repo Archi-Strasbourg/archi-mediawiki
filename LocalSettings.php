@@ -190,6 +190,7 @@ $wgExtraNamespaces[NS_PERSON_TALK] = 'Discussion_personne';
 $wgNamespacesWithSubpages[NS_ADDRESS] = true;
 $wgVisualEditorAvailableNamespaces[NS_ADDRESS] = true;
 $wgVisualEditorAvailableNamespaces[NS_ADDRESS_NEWS] = true;
+$wgVisualEditorAvailableNamespaces[NS_PERSON] = true;
 $smwgNamespacesWithSemanticLinks[NS_ADDRESS] = true;
 $smwgNamespacesWithSemanticLinks[NS_ADDRESS_NEWS] = true;
 $smwgNamespacesWithSemanticLinks[NS_PERSON] = true;
