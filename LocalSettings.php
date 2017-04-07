@@ -38,6 +38,12 @@ $wgAllowSlowParserFunctions = true;
 $wgPFEnableStringFunctions = true;
 $wgExternalLinkTarget = '_blank';
 
+//Permissions
+$wgGroupPermissions['*']['edit'] = false;
+$wgGroupPermissions['user']['edit'] = true;
+$wgGroupPermissions['*']['createpage'] = false;
+$wgGroupPermissions['user']['createpage'] = true;
+
 //Extensions
 wfLoadSkin('archi-wiki');
 wfLoadSkin('Vector');
@@ -80,6 +86,9 @@ require_once "$IP/extensions/Translate/Translate.php";
 require_once "$IP/extensions/DynamicPageList/DynamicPageList.php";
 require_once "$IP/extensions/NukeDPL/NukeDPL.php";
 require_once "$IP/extensions/HideNamespace/HideNamespace.php";
+require_once "$IP/extensions/GoogleCustomWikiSearch/GoogleCustomWikiSearch.php";
+
+include_once __DIR__.'/apikeys.php';
 
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
@@ -87,7 +96,7 @@ $wgVirtualRestConfig['modules']['parsoid'] = [
     'url'    => 'http://localhost:8142',
     'prefix' => 'localhost',
 ];
-$wgVisualEditorSupportedSkins = ['vector', 'archi-wiki'];
+$wgVisualEditorSupportedSkins = ['vector', 'archiwiki'];
 
 //UploadWizard
 $wgExtensionFunctions[] = function () {
@@ -181,6 +190,7 @@ $wgExtraNamespaces[NS_PERSON_TALK] = 'Discussion_personne';
 $wgNamespacesWithSubpages[NS_ADDRESS] = true;
 $wgVisualEditorAvailableNamespaces[NS_ADDRESS] = true;
 $wgVisualEditorAvailableNamespaces[NS_ADDRESS_NEWS] = true;
+$wgVisualEditorAvailableNamespaces[NS_PERSON] = true;
 $smwgNamespacesWithSemanticLinks[NS_ADDRESS] = true;
 $smwgNamespacesWithSemanticLinks[NS_ADDRESS_NEWS] = true;
 $smwgNamespacesWithSemanticLinks[NS_PERSON] = true;
@@ -189,13 +199,16 @@ $wgNamespacesToBeSearchedDefault[NS_ADDRESS] = true;
 $wgNamespacesToBeSearchedDefault[NS_PERSON] = true;
 
 //Cache
-//$wgMainCacheType = CACHE_ACCEL;
+$wgMainCacheType = CACHE_ACCEL;
+$wgSessionCacheType = CACHE_DB;
 
 //Semantic forms
 $srfgFormats[] = 'map';
 
 //Comments
 $wgCommentsSortDescending = true;
+$wgGroupPermissions['*']['comment'] = false;
+$wgGroupPermissions['user']['comment'] = true;
 
 //Translate
 $wgEnablePageTranslation = true;
@@ -207,9 +220,18 @@ $wgGroupPermissions['user']['translate-import'] = true;
 $wgGroupPermissions['sysop']['pagetranslation'] = true;
 $wgGroupPermissions['sysop']['translate-manage'] = true;
 $wgCCTrailerFilter = true;
+$wgULSIMEEnabled = false;
 
 //HideNamespace
 $wgHidensNamespaces = [NS_ADDRESS];
+
+//Gallery
+$wgGalleryOptions['imageWidth'] = 180;
+$wgGalleryOptions['imageHeight'] = 240;
+
+//Google Search
+$wgGoogleCustomWikiSearchAppendToSearch = true;
+$wgGoogleCustomWikiSearchCodeVersion = 1;
 
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;

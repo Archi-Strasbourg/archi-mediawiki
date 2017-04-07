@@ -4,3 +4,4 @@ vendor/
 dbconfig.php
 node_modules/
 config.php
+apikeys.php

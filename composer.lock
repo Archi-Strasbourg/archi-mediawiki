@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "683bf6fa730f3ce2489acb6d9743968c",
+    "content-hash": "2da75fe7003c136e08300d04f3aa1006",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1457,6 +1457,32 @@
             ],
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Echo"
+            }
+        },
+        {
+            "name": "mediawiki/GoogleCustomWikiSearch",
+            "version": "1.28+5c12cca",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/GoogleCustomWikiSearch.git",
+                "reference": "5c12cca"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/GoogleCustomWikiSearch-REL1_28-5c12cca.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:GoogleCustomWikiSearch",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/GoogleCustomWikiSearch"
             }
         },
         {
