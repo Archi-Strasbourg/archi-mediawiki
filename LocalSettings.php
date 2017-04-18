@@ -159,6 +159,51 @@ $wgContactConfig['default'] = [
     'SenderEmail' => 'contact@archi-strasbourg.org',
     'SenderName'  => 'Archi-Wiki',
 ];
+$wgContactConfig['membership'] = [
+    'RecipientUser'    => 'Rudloff',
+    'RequireDetails'   => true,
+    'AdditionalFields' => [],
+    'IncludeIP'        => false,
+    'DisplayFormat'    => 'table',
+    'RLModules'        => [],
+    'RLStyleModules'   => [],
+    'AdditionalFields' => [
+        'job' => [
+            'label' => 'Votre profession/société :',
+            'type'          => 'text',
+            'required'      => false,
+        ],
+        'address' => [
+            'label' => 'Votre adresse postale :',
+            'type'          => 'text',
+            'required'      => false,
+        ],
+        'tel' => [
+            'label' => 'Votre numéro de téléphone :',
+            'type'          => 'text',
+            'required'      => false,
+        ],
+        'Text' => [
+            'label' => 'Laisser un commentaire :',
+            'type'          => 'textarea',
+            'required'      => false,
+            'rows'          => 5,
+        ],
+        'amount' => [
+            'label' => 'Cotisation :',
+            'type'          => 'radio',
+            'options'       => [
+                '<b>10 €</b><br/>Tarif réduit pour étudiants, bénéficiaires du RSA et personnes non-imposables, sur justificatif'=>10,
+                '<b>20 €</b></br>Particulier'=>20,
+                '<b>30 €</b></br>Couple, famille'=>30,
+                '<b>50 €</b></br>Vous recevrez un reçu fiscal, votre don ne vous coûtera que 30,20 euros.'=>50,
+                '<b>80 €</b></br>Vous recevrez un reçu fiscal, votre don ne vous coûtera que 40,40 euros. Si vous le souhaitez, vous pourrez figurer sur notre liste de donateurs et pour une entreprise faire apparaître votre logo et un lien sur le site de votre société.'=>80],
+            'required'      => true,
+        ],
+    ],
+    'SenderEmail' => 'contact@archi-strasbourg.org',
+    'SenderName'  => 'Archi-Wiki',
+];
 
 //AddThis
 $wgAddThisHeader = false;
