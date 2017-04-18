@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb193454396fd9fc4800a7886000db58",
+    "content-hash": "9bd73f8ce696851cd9a09f3931efc3e8",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2052,16 +2052,16 @@
         },
         {
             "name": "mediawiki/page-forms",
-            "version": "4.0.2",
+            "version": "4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-PageForms.git",
-                "reference": "f97847ff3c0634f5b64d77fe77312fbe2877b6d8"
+                "reference": "7f1cec5d7bcbc8ddce8e012deb71979acbb6aa02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-PageForms/zipball/f97847ff3c0634f5b64d77fe77312fbe2877b6d8",
-                "reference": "f97847ff3c0634f5b64d77fe77312fbe2877b6d8",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-PageForms/zipball/7f1cec5d7bcbc8ddce8e012deb71979acbb6aa02",
+                "reference": "7f1cec5d7bcbc8ddce8e012deb71979acbb6aa02",
                 "shasum": ""
             },
             "require": {
@@ -2106,7 +2106,7 @@
                 "mediawiki",
                 "wiki"
             ],
-            "time": "2016-11-15T17:30:47+00:00"
+            "time": "2017-02-08T19:13:24+00:00"
         },
         {
             "name": "mediawiki/parser-hooks",
