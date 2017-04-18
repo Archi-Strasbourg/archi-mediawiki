@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2da75fe7003c136e08300d04f3aa1006",
+    "content-hash": "eb193454396fd9fc4800a7886000db58",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -97,12 +97,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "6d2c53933e96daa95d42605f35bacbfe9f06ecd5"
+                "reference": "f3511cf8639be5ea7d9492ff2bb1de0eb5e93c52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/6d2c53933e96daa95d42605f35bacbfe9f06ecd5",
-                "reference": "6d2c53933e96daa95d42605f35bacbfe9f06ecd5",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/f3511cf8639be5ea7d9492ff2bb1de0eb5e93c52",
+                "reference": "f3511cf8639be5ea7d9492ff2bb1de0eb5e93c52",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2017-03-30 10:33:03"
+            "time": "2017-04-06 08:43:11"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -125,12 +125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
-                "reference": "3c2294c1cd2fe9f39310939a413fc3b142cf88cd"
+                "reference": "02fe9460e1ea817639cd02c49132d0e613f29d3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/3c2294c1cd2fe9f39310939a413fc3b142cf88cd",
-                "reference": "3c2294c1cd2fe9f39310939a413fc3b142cf88cd",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/02fe9460e1ea817639cd02c49132d0e613f29d3e",
+                "reference": "02fe9460e1ea817639cd02c49132d0e613f29d3e",
                 "shasum": ""
             },
             "require-dev": {
@@ -148,7 +148,7 @@
                 }
             ],
             "description": "Map plugin for archi-wiki.org",
-            "time": "2016-12-13 18:18:57"
+            "time": "2017-04-06 10:20:15"
         },
         {
             "name": "archi-strasbourg/archi-mediawiki-redirect",
@@ -186,12 +186,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab.git",
-                "reference": "3d72f4e78c31a9119e61d95aab67a3f72595798d"
+                "reference": "3a816ef89d5f3d6348a3968d3e63b785de3467a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/3d72f4e78c31a9119e61d95aab67a3f72595798d",
-                "reference": "3d72f4e78c31a9119e61d95aab67a3f72595798d",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/3a816ef89d5f3d6348a3968d3e63b785de3467a8",
+                "reference": "3a816ef89d5f3d6348a3968d3e63b785de3467a8",
                 "shasum": ""
             },
             "require": {
@@ -212,7 +212,7 @@
                 }
             ],
             "description": "MediaWiki extension that replaces the talk tab with a news tab",
-            "time": "2017-03-06 18:51:54"
+            "time": "2017-04-06 12:05:51"
         },
         {
             "name": "archi-strasbourg/archi-wiki",
@@ -258,12 +258,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "39f40b19ef4dea5ce1e2a561383f72ffbea1f26c"
+                "reference": "83abfc3c94a66fba6163cee996d0068a2ff30974"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/39f40b19ef4dea5ce1e2a561383f72ffbea1f26c",
-                "reference": "39f40b19ef4dea5ce1e2a561383f72ffbea1f26c",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/83abfc3c94a66fba6163cee996d0068a2ff30974",
+                "reference": "83abfc3c94a66fba6163cee996d0068a2ff30974",
                 "shasum": ""
             },
             "require-dev": {
@@ -287,7 +287,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2017-04-01 17:04:53"
+            "time": "2017-04-11 14:13:45"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -1846,16 +1846,16 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.28.0",
+            "version": "1.28.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "34bc8899bf68e011fde9113c6857853cf91df0b8"
+                "reference": "819c0d21addeed5336244cb9b776fe83a7b2279e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/34bc8899bf68e011fde9113c6857853cf91df0b8",
-                "reference": "34bc8899bf68e011fde9113c6857853cf91df0b8",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/819c0d21addeed5336244cb9b776fe83a7b2279e",
+                "reference": "819c0d21addeed5336244cb9b776fe83a7b2279e",
                 "shasum": ""
             },
             "require": {
@@ -1965,9 +1965,9 @@
                 "issues": "https://bugs.mediawiki.org/",
                 "irc": "irc://irc.freenode.net/mediawiki",
                 "wiki": "https://www.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.28.0"
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.28.1"
             },
-            "time": "2016-11-28T18:42:27+00:00"
+            "time": "2017-04-06T22:51:18+00:00"
         },
         {
             "name": "mediawiki/maps",
@@ -2164,16 +2164,16 @@
         },
         {
             "name": "mediawiki/semantic-forms-select",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SemanticMediaWiki/SemanticFormsSelect.git",
-                "reference": "76f212702a6c6617d30e53e4f1a9459abe3d3603"
+                "reference": "d2e693fac2a943b160e57ad5d7f40ec2930ed809"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticFormsSelect/zipball/76f212702a6c6617d30e53e4f1a9459abe3d3603",
-                "reference": "76f212702a6c6617d30e53e4f1a9459abe3d3603",
+                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticFormsSelect/zipball/d2e693fac2a943b160e57ad5d7f40ec2930ed809",
+                "reference": "d2e693fac2a943b160e57ad5d7f40ec2930ed809",
                 "shasum": ""
             },
             "require": {
@@ -2188,7 +2188,7 @@
             "type": "mediawiki-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "2.1.x-dev"
                 }
             },
             "autoload": {
@@ -2226,7 +2226,7 @@
                 "Semantic MediaWiki",
                 "mediawiki"
             ],
-            "time": "2016-12-19T15:05:53+00:00"
+            "time": "2017-01-19T09:31:34+00:00"
         },
         {
             "name": "mediawiki/semantic-media-wiki",
@@ -4267,16 +4267,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.2.6",
+            "version": "v3.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "4100f347aff890bc16b0b4b42843b599db257b2d"
+                "reference": "81dce20f69a8b40427e1f4e6462178df87cafc03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/4100f347aff890bc16b0b4b42843b599db257b2d",
-                "reference": "4100f347aff890bc16b0b4b42843b599db257b2d",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/81dce20f69a8b40427e1f4e6462178df87cafc03",
+                "reference": "81dce20f69a8b40427e1f4e6462178df87cafc03",
                 "shasum": ""
             },
             "require": {
@@ -4329,7 +4329,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2017-02-20T13:45:48+00:00"
+            "time": "2017-03-12T16:07:05+00:00"
         }
     ],
     "aliases": [

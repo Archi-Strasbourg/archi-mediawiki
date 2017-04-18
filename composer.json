@@ -11,7 +11,7 @@
     "mediawiki/Vector": "~1.28.0",
     "mediawiki/semantic-media-wiki": "~2.4.2",
     "mediawiki/page-forms": "~4.0.2",
-    "mediawiki/semantic-forms-select": "~2.0.0",
+    "mediawiki/semantic-forms-select": "~2.1.0",
     "mediawiki/semantic-maps": "~3.3.0",
     "mediawiki/maps": "~4.0.1",
     "mediawiki/ParserFunctions": "~1.28.0",
