@@ -37,6 +37,7 @@ $wgDefaultSkin = 'ArchiWiki';
 $wgAllowSlowParserFunctions = true;
 $wgPFEnableStringFunctions = true;
 $wgExternalLinkTarget = '_blank';
+$wgEmailConfirmToEdit = true;
 
 //Permissions
 $wgGroupPermissions['*']['edit'] = false;
