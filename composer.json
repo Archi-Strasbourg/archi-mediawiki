@@ -52,6 +52,7 @@
     "archi-strasbourg/language-code": "dev-develop",
     "archi-strasbourg/link-to-archive": "dev-develop",
     "archi-strasbourg/archi-wiki-skin": "dev-develop",
+    "archi-strasbourg/email-login": "dev-develop",
     "shakeepers/hide-namespace": "~1.4.3"
   },
   "require-dev": {

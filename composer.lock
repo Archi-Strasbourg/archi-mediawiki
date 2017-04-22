@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9bd73f8ce696851cd9a09f3931efc3e8",
+    "content-hash": "33cb3bf9d50f1470bd769dedf7985f19",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -97,12 +97,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "f3511cf8639be5ea7d9492ff2bb1de0eb5e93c52"
+                "reference": "110c920b9a6babe1d372d646c6844ca72abe28c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/f3511cf8639be5ea7d9492ff2bb1de0eb5e93c52",
-                "reference": "f3511cf8639be5ea7d9492ff2bb1de0eb5e93c52",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/110c920b9a6babe1d372d646c6844ca72abe28c0",
+                "reference": "110c920b9a6babe1d372d646c6844ca72abe28c0",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2017-04-06 08:43:11"
+            "time": "2017-04-18 16:53:54"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -310,6 +310,43 @@
             ],
             "description": "Provides DMOZ-style category breadcrumbs",
             "time": "2016-10-16 12:01:05"
+        },
+        {
+            "name": "archi-strasbourg/email-login",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/mediawiki-email-login.git",
+                "reference": "5c7da599a17fefcafb610faab092e46eab8b5ed6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-email-login/zipball/5c7da599a17fefcafb610faab092e46eab8b5ed6",
+                "reference": "5c7da599a17fefcafb610faab092e46eab8b5ed6",
+                "shasum": ""
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.5",
+                "php-mock/php-mock-mockery": "~1.1.0",
+                "phpunit/phpunit": "~5.7.0",
+                "squizlabs/php_codesniffer": "~2.8.0",
+                "symfony/var-dumper": "~3.2.0"
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Pierre Rudloff",
+                    "email": "contact@rudloff.pro",
+                    "homepage": "https://rudloff.pro/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "MediaWiki extension that allows user to login with their e-mail address",
+            "time": "2017-04-22 15:49:57"
         },
         {
             "name": "archi-strasbourg/emailuser-html",
@@ -1392,7 +1429,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/ContactPage-REL1_28-2b8ae0a.tar.gz",
-                "reference": "2b8ae0a",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -4355,7 +4392,8 @@
         "archi-strasbourg/sections-count": 20,
         "archi-strasbourg/language-code": 20,
         "archi-strasbourg/link-to-archive": 20,
-        "archi-strasbourg/archi-wiki-skin": 20
+        "archi-strasbourg/archi-wiki-skin": 20,
+        "archi-strasbourg/email-login": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
