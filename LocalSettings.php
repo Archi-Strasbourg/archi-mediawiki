@@ -199,7 +199,7 @@ $wgContactConfig['membership'] = [
                 '<b>20 €</b></br>Particulier'                                                                                                                                                                                                                                 => 20,
                 '<b>30 €</b></br>Couple, famille'                                                                                                                                                                                                                             => 30,
                 '<b>50 €</b></br>Vous recevrez un reçu fiscal, votre don ne vous coûtera que 30,20 euros.'                                                                                                                                                                    => 50,
-                '<b>80 €</b></br>Vous recevrez un reçu fiscal, votre don ne vous coûtera que 40,40 euros. Si vous le souhaitez, vous pourrez figurer sur notre liste de donateurs et pour une entreprise faire apparaître votre logo et un lien sur le site de votre société.'=> 80, ],
+                '<b>80 €</b></br>Vous recevrez un reçu fiscal, votre don ne vous coûtera que 40,40 euros.<br/>Si vous le souhaitez, vous pourrez figurer sur notre liste de donateurs<br/>et pour une entreprise faire apparaître votre logo et un lien sur le site de votre société.'=> 80, ],
             'required'      => true,
         ],
     ],
