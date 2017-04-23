@@ -258,12 +258,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "83abfc3c94a66fba6163cee996d0068a2ff30974"
+                "reference": "1d94b7d48a962e01efc1584e47b5774ab128fbae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/83abfc3c94a66fba6163cee996d0068a2ff30974",
-                "reference": "83abfc3c94a66fba6163cee996d0068a2ff30974",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/1d94b7d48a962e01efc1584e47b5774ab128fbae",
+                "reference": "1d94b7d48a962e01efc1584e47b5774ab128fbae",
                 "shasum": ""
             },
             "require-dev": {
@@ -287,7 +287,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2017-04-11 14:13:45"
+            "time": "2017-04-23 10:31:19"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -317,12 +317,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-email-login.git",
-                "reference": "5c7da599a17fefcafb610faab092e46eab8b5ed6"
+                "reference": "4b54b50f655d06d1fefb68b789368622a8345aac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-email-login/zipball/5c7da599a17fefcafb610faab092e46eab8b5ed6",
-                "reference": "5c7da599a17fefcafb610faab092e46eab8b5ed6",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-email-login/zipball/4b54b50f655d06d1fefb68b789368622a8345aac",
+                "reference": "4b54b50f655d06d1fefb68b789368622a8345aac",
                 "shasum": ""
             },
             "require-dev": {
@@ -345,8 +345,8 @@
                     "role": "Developer"
                 }
             ],
-            "description": "MediaWiki extension that allows user to login with their e-mail address",
-            "time": "2017-04-22 15:49:57"
+            "description": "MediaWiki extension that allows users to login with their e-mail address",
+            "time": "2017-04-22 16:09:28"
         },
         {
             "name": "archi-strasbourg/emailuser-html",
