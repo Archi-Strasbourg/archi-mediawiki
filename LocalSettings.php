@@ -110,7 +110,7 @@ $wgUploadWizardConfig['tutorial']['skip'] = true;
 
 //ReCaptcha
 $wgCaptchaClass = 'ReCaptchaNoCaptcha';
-//$wgCaptchaTriggers['contactpage'] = true;
+$wgCaptchaTriggers['contactpage'] = true;
 
 //Footer
 $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
@@ -305,7 +305,6 @@ $wgGoogleCustomWikiSearchCodeVersion = 1;
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;
 $wgGroupPermissions['*']['upload_by_url'] = true;
-$wgGroupPermissions['*']['skipcaptcha'] = true;
 $wgShowSQLErrors = true;
 $wgDebugDumpSql = true;
 $wgPasswordAttemptThrottle = false;
