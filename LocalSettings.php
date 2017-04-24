@@ -188,17 +188,17 @@ $wgContactConfig['membership'] = [
     'RLStyleModules'   => [],
     'AdditionalFields' => [
         'job' => [
-            'label'         => 'Votre profession/société :',
+            'label'         => 'Profession/société :',
             'type'          => 'text',
             'required'      => false,
         ],
         'address' => [
-            'label'         => 'Votre adresse postale :',
+            'label'         => 'Adresse postale :',
             'type'          => 'text',
             'required'      => false,
         ],
         'tel' => [
-            'label'         => 'Votre numéro de téléphone :',
+            'label'         => 'Numéro de téléphone :',
             'type'          => 'text',
             'required'      => false,
         ],
