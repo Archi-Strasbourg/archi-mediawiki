@@ -115,36 +115,45 @@ $wgCaptchaClass = 'ReCaptchaNoCaptcha';
 //Footer
 $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
     $tpl->data['footerlinks']['places'] = [];
-    $contactLink = Html::element(
-        'a',
-        ['href' => SpecialPage::getTitleFor('Contact')->getLocalURL()],
-        'Nous contacter'
+
+    $tpl->set(
+        'contact',
+        Html::element(
+            'a',
+            ['href' => SpecialPage::getTitleFor('Contact')->getLocalURL()],
+            'Nous contacter'
+        )
     );
-    $tpl->set('contact', $contactLink);
     $tpl->data['footerlinks']['places'][] = 'contact';
 
-    $faq = Html::element(
-        'a',
-        ['href' => Title::newFromText('Foire aux questions')->getLocalURL()],
-        'Foire aux questions'
+    $tpl->set(
+        'faq',
+        Html::element(
+            'a',
+            ['href' => Title::newFromText('Foire aux questions')->getLocalURL()],
+            'Foire aux questions'
+        )
     );
-    $tpl->set('faq', $faq);
     $tpl->data['footerlinks']['places'][] = 'faq';
 
-    $opendata = Html::element(
-        'a',
-        ['href' => Title::newFromText('Open Data')->getLocalURL()],
-        'Open Data'
+    $tpl->set(
+        'opendata',
+        Html::element(
+            'a',
+            ['href' => Title::newFromText('Open Data')->getLocalURL()],
+            'Open Data'
+        )
     );
-    $tpl->set('opendata', $faq);
     $tpl->data['footerlinks']['places'][] = 'opendata';
 
-    $legal = Html::element(
-        'a',
-        ['href' => Title::newFromText('Mentions légales')->getLocalURL()],
-        'Mentions légales'
+    $tpl->set(
+        'legal',
+        Html::element(
+            'a',
+            ['href' => Title::newFromText('Mentions légales')->getLocalURL()],
+            'Mentions légales'
+        )
     );
-    $tpl->set('legal', $legal);
     $tpl->data['footerlinks']['places'][] = 'legal';
 
     return true;
