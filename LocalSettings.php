@@ -131,6 +131,14 @@ $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
     $tpl->set('faq', $faq);
     $tpl->data['footerlinks']['places'][] = 'faq';
 
+    $opendata = Html::element(
+        'a',
+        ['href' => Title::newFromText('Open Data')->getLocalURL()],
+        'Open Data'
+    );
+    $tpl->set('opendata', $faq);
+    $tpl->data['footerlinks']['places'][] = 'opendata';
+
     $legal = Html::element(
         'a',
         ['href' => Title::newFromText('Mentions légales')->getLocalURL()],
