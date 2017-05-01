@@ -37,7 +37,7 @@ $wgDefaultSkin = 'ArchiWiki';
 $wgAllowSlowParserFunctions = true;
 $wgPFEnableStringFunctions = true;
 $wgExternalLinkTarget = '_blank';
-$wgEmailConfirmToEdit = true;
+//$wgEmailConfirmToEdit = true;
 
 //Permissions
 $wgGroupPermissions['*']['edit'] = false;
@@ -70,7 +70,7 @@ wfLoadExtension('UniversalLanguageSelector');
 wfLoadExtension('CleanChanges');
 wfLoadExtension('LanguageCode');
 wfLoadExtension('LinkToArchive');
-wfLoadExtensions(['ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha']);
+//wfLoadExtensions(['ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha']);
 wfLoadExtension('PageForms');
 wfLoadExtension('SemanticFormsSelect');
 wfLoadExtension('EmailLogin');
