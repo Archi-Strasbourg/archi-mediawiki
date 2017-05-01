@@ -9,3 +9,4 @@ define('NS_NEWS', 4004);
 define('NS_NEWS_TALK', 4005);
 define('NS_PERSON', 4006);
 define('NS_PERSON_TALK', 4007);
+define('NS_ROUTE', 4008);

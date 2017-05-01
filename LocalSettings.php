@@ -255,6 +255,7 @@ $wgExtraNamespaces[NS_NEWS] = 'Actualité';
 $wgExtraNamespaces[NS_NEWS_TALK] = 'Discussion_actualité';
 $wgExtraNamespaces[NS_PERSON] = 'Personne';
 $wgExtraNamespaces[NS_PERSON_TALK] = 'Discussion_personne';
+$wgExtraNamespaces[NS_ROUTE] = 'Parcours';
 
 $wgNamespacesWithSubpages[NS_ADDRESS] = true;
 $wgVisualEditorAvailableNamespaces[NS_ADDRESS] = true;
