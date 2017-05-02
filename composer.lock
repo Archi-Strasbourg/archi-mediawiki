@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog.git",
-                "reference": "51c8ba6a734de40db8617b2d0891441372a1201b"
+                "reference": "ffcf5f14f16bc3e11b7dae5cf1c26ed78b407612"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/51c8ba6a734de40db8617b2d0891441372a1201b",
-                "reference": "51c8ba6a734de40db8617b2d0891441372a1201b",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/ffcf5f14f16bc3e11b7dae5cf1c26ed78b407612",
+                "reference": "ffcf5f14f16bc3e11b7dae5cf1c26ed78b407612",
                 "shasum": ""
             },
             "require": {
@@ -32,7 +32,7 @@
                 "GPL-3.0"
             ],
             "description": "Blog page for archi-wiki.org",
-            "time": "2017-03-06 18:21:30"
+            "time": "2017-05-01 13:53:55"
         },
         {
             "name": "archi-strasbourg/archi-comments",
@@ -40,12 +40,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments.git",
-                "reference": "c0146d34cd9456ce815bdc5ad549b5b387f23f94"
+                "reference": "55d5f86be58c4f15f39de2274ce2fbef5eaabe20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/c0146d34cd9456ce815bdc5ad549b5b387f23f94",
-                "reference": "c0146d34cd9456ce815bdc5ad549b5b387f23f94",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/55d5f86be58c4f15f39de2274ce2fbef5eaabe20",
+                "reference": "55d5f86be58c4f15f39de2274ce2fbef5eaabe20",
                 "shasum": ""
             },
             "require": {
@@ -61,7 +61,7 @@
                 "GPL-3.0"
             ],
             "description": "Comments page for archi-wiki.org",
-            "time": "2017-03-06 18:18:01"
+            "time": "2017-05-01 13:54:39"
         },
         {
             "name": "archi-strasbourg/archi-footer",
@@ -69,12 +69,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer.git",
-                "reference": "b9bd84c6cea1e89588d29ae1117cef91589456e8"
+                "reference": "03c84d8a1a286e629af8cd0b431e61cd1822ef71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/b9bd84c6cea1e89588d29ae1117cef91589456e8",
-                "reference": "b9bd84c6cea1e89588d29ae1117cef91589456e8",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/03c84d8a1a286e629af8cd0b431e61cd1822ef71",
+                "reference": "03c84d8a1a286e629af8cd0b431e61cd1822ef71",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom page footer for archi-wiki.org",
-            "time": "2017-03-28 15:33:43"
+            "time": "2017-05-01 13:50:45"
         },
         {
             "name": "archi-strasbourg/archi-home",
@@ -97,12 +97,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "110c920b9a6babe1d372d646c6844ca72abe28c0"
+                "reference": "92adee053a4785941d3f9d14e12b2935faefafc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/110c920b9a6babe1d372d646c6844ca72abe28c0",
-                "reference": "110c920b9a6babe1d372d646c6844ca72abe28c0",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/92adee053a4785941d3f9d14e12b2935faefafc5",
+                "reference": "92adee053a4785941d3f9d14e12b2935faefafc5",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2017-04-18 16:53:54"
+            "time": "2017-05-01 13:55:28"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -125,16 +125,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
-                "reference": "02fe9460e1ea817639cd02c49132d0e613f29d3e"
+                "reference": "69b29140f5b25bc064aa869f028a9670cbdbaa44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/02fe9460e1ea817639cd02c49132d0e613f29d3e",
-                "reference": "02fe9460e1ea817639cd02c49132d0e613f29d3e",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/69b29140f5b25bc064aa869f028a9670cbdbaa44",
+                "reference": "69b29140f5b25bc064aa869f028a9670cbdbaa44",
                 "shasum": ""
             },
             "require-dev": {
-                "phpdocumentor/phpdocumentor": "~2.9.0"
+                "phpdocumentor/phpdocumentor": "~2.9.0",
+                "squizlabs/php_codesniffer": "~2.8.0"
             },
             "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
@@ -148,7 +149,7 @@
                 }
             ],
             "description": "Map plugin for archi-wiki.org",
-            "time": "2017-04-06 10:20:15"
+            "time": "2017-05-01 13:50:11"
         },
         {
             "name": "archi-strasbourg/archi-mediawiki-redirect",
@@ -258,12 +259,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "880306de1a84aaf98715c22f5c869d41f560271e"
+                "reference": "e222b1fea314bc5c383df1935e171079efa53a67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/880306de1a84aaf98715c22f5c869d41f560271e",
-                "reference": "880306de1a84aaf98715c22f5c869d41f560271e",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/e222b1fea314bc5c383df1935e171079efa53a67",
+                "reference": "e222b1fea314bc5c383df1935e171079efa53a67",
                 "shasum": ""
             },
             "require-dev": {
@@ -287,7 +288,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2017-04-24 19:31:47"
+            "time": "2017-05-01 12:38:50"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -354,12 +355,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-emailuser-html.git",
-                "reference": "11fbde408d2ea39520e8df5f82957f923bc1b494"
+                "reference": "7a8918a60bf6655a942330eef1ac0609e872147c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-emailuser-html/zipball/11fbde408d2ea39520e8df5f82957f923bc1b494",
-                "reference": "11fbde408d2ea39520e8df5f82957f923bc1b494",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-emailuser-html/zipball/7a8918a60bf6655a942330eef1ac0609e872147c",
+                "reference": "7a8918a60bf6655a942330eef1ac0609e872147c",
                 "shasum": ""
             },
             "require": {
@@ -378,7 +379,7 @@
                 "GPL-3.0"
             ],
             "description": "MediaWiki API to send an HTML email to an user",
-            "time": "2016-09-07 22:44:36"
+            "time": "2017-04-30 12:49:57"
         },
         {
             "name": "archi-strasbourg/language-code",
@@ -2422,16 +2423,16 @@
         },
         {
             "name": "mediawiki/universal-language-selector",
-            "version": "2017.01",
+            "version": "2017.04",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-UniversalLanguageSelector.git",
-                "reference": "eceeee4f93f6bde566170283a3242f0fbfd3c72a"
+                "reference": "b18901349d4a6c81400c825920b06ecae1d8d627"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-UniversalLanguageSelector/zipball/eceeee4f93f6bde566170283a3242f0fbfd3c72a",
-                "reference": "eceeee4f93f6bde566170283a3242f0fbfd3c72a",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-UniversalLanguageSelector/zipball/b18901349d4a6c81400c825920b06ecae1d8d627",
+                "reference": "b18901349d4a6c81400c825920b06ecae1d8d627",
                 "shasum": ""
             },
             "require": {
@@ -2459,7 +2460,7 @@
                 "Web fonts",
                 "mediawiki"
             ],
-            "time": "2017-01-25T14:04:20+00:00"
+            "time": "2017-04-28T11:22:23+00:00"
         },
         {
             "name": "mediawiki/validator",
@@ -4304,16 +4305,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.2.7",
+            "version": "v3.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "81dce20f69a8b40427e1f4e6462178df87cafc03"
+                "reference": "fa47963ac7979ddbd42b2d646d1b056bddbf7bb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/81dce20f69a8b40427e1f4e6462178df87cafc03",
-                "reference": "81dce20f69a8b40427e1f4e6462178df87cafc03",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/fa47963ac7979ddbd42b2d646d1b056bddbf7bb8",
+                "reference": "fa47963ac7979ddbd42b2d646d1b056bddbf7bb8",
                 "shasum": ""
             },
             "require": {
@@ -4324,9 +4325,11 @@
                 "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
             },
             "require-dev": {
+                "ext-iconv": "*",
                 "twig/twig": "~1.20|~2.0"
             },
             "suggest": {
+                "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
                 "ext-symfony_debug": ""
             },
             "type": "library",
@@ -4366,7 +4369,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2017-03-12T16:07:05+00:00"
+            "time": "2017-05-01T14:55:58+00:00"
         }
     ],
     "aliases": [
