@@ -110,7 +110,7 @@ $wgUploadWizardConfig['tutorial']['skip'] = true;
 
 //ReCaptcha
 $wgCaptchaClass = 'ReCaptchaNoCaptcha';
-$wgCaptchaTriggers['contactpage'] = true;
+//$wgCaptchaTriggers['contactpage'] = true;
 
 //Footer
 $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
