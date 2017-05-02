@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "33cb3bf9d50f1470bd769dedf7985f19",
+    "content-hash": "84120ef379ae541f3813259e25351b81",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -259,12 +259,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "e222b1fea314bc5c383df1935e171079efa53a67"
+                "reference": "b1fb9b27305bb482773d8316ecdce96efcf1d552"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/e222b1fea314bc5c383df1935e171079efa53a67",
-                "reference": "e222b1fea314bc5c383df1935e171079efa53a67",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/b1fb9b27305bb482773d8316ecdce96efcf1d552",
+                "reference": "b1fb9b27305bb482773d8316ecdce96efcf1d552",
                 "shasum": ""
             },
             "require-dev": {
@@ -288,7 +288,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2017-05-01 12:38:50"
+            "time": "2017-05-02 15:34:28"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -2009,16 +2009,16 @@
         },
         {
             "name": "mediawiki/maps",
-            "version": "4.0.5",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Maps.git",
-                "reference": "5ad5775bdd9dd28e3b12c447cc214921d3e78e39"
+                "reference": "36e790385fa364b4edfc58f378e616ba2624157e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/5ad5775bdd9dd28e3b12c447cc214921d3e78e39",
-                "reference": "5ad5775bdd9dd28e3b12c447cc214921d3e78e39",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/36e790385fa364b4edfc58f378e616ba2624157e",
+                "reference": "36e790385fa364b4edfc58f378e616ba2624157e",
                 "shasum": ""
             },
             "require": {
@@ -2042,7 +2042,7 @@
             "type": "mediawiki-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0.x-dev"
+                    "dev-master": "4.1.x-dev"
                 }
             },
             "autoload": {
@@ -2086,7 +2086,7 @@
                 "mediawiki",
                 "osm"
             ],
-            "time": "2017-03-05T00:43:08+00:00"
+            "time": "2017-04-14T00:07:50+00:00"
         },
         {
             "name": "mediawiki/page-forms",
