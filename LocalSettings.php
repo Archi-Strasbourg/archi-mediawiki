@@ -306,6 +306,9 @@ $wgGalleryOptions['imageHeight'] = 240;
 $wgGoogleCustomWikiSearchAppendToSearch = true;
 $wgGoogleCustomWikiSearchCodeVersion = 1;
 
+//SectionsCount
+$wgSectionsCountIgnoreSections = ['Références'];
+
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;
 $wgGroupPermissions['*']['upload_by_url'] = true;
