@@ -312,6 +312,7 @@ $wgSectionsCountIgnoreSections = ['Références'];
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;
 $wgGroupPermissions['*']['upload_by_url'] = true;
+$wgGroupPermissions['*']['noratelimit'] = true;
 $wgShowSQLErrors = true;
 $wgDebugDumpSql = true;
 $wgPasswordAttemptThrottle = false;
