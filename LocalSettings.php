@@ -39,6 +39,8 @@ $wgPFEnableStringFunctions = true;
 $wgExternalLinkTarget = '_blank';
 //$wgEmailConfirmToEdit = true;
 
+setlocale(LC_TIME, 'fr_FR');
+
 //Permissions
 $wgGroupPermissions['*']['edit'] = false;
 $wgGroupPermissions['user']['edit'] = true;
