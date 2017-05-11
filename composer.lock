@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog.git",
-                "reference": "c98451f3ac6c356e7ab171b587427daf79f1073a"
+                "reference": "1eb2b95a41cea0685ba6a84c5df9a00427517e26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/c98451f3ac6c356e7ab171b587427daf79f1073a",
-                "reference": "c98451f3ac6c356e7ab171b587427daf79f1073a",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/1eb2b95a41cea0685ba6a84c5df9a00427517e26",
+                "reference": "1eb2b95a41cea0685ba6a84c5df9a00427517e26",
                 "shasum": ""
             },
             "require": {
@@ -32,7 +32,7 @@
                 "GPL-3.0"
             ],
             "description": "Blog page for archi-wiki.org",
-            "time": "2017-05-08 20:42:24"
+            "time": "2017-05-10 19:40:07"
         },
         {
             "name": "archi-strasbourg/archi-comments",
@@ -69,12 +69,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer.git",
-                "reference": "03c84d8a1a286e629af8cd0b431e61cd1822ef71"
+                "reference": "9b3c280e14deb762efd123c625599885494af7e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/03c84d8a1a286e629af8cd0b431e61cd1822ef71",
-                "reference": "03c84d8a1a286e629af8cd0b431e61cd1822ef71",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/9b3c280e14deb762efd123c625599885494af7e3",
+                "reference": "9b3c280e14deb762efd123c625599885494af7e3",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom page footer for archi-wiki.org",
-            "time": "2017-05-01 13:50:45"
+            "time": "2017-05-10 22:09:18"
         },
         {
             "name": "archi-strasbourg/archi-home",
@@ -97,12 +97,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "92adee053a4785941d3f9d14e12b2935faefafc5"
+                "reference": "1536a9440466a538c17cb2143a6f7ce202af043b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/92adee053a4785941d3f9d14e12b2935faefafc5",
-                "reference": "92adee053a4785941d3f9d14e12b2935faefafc5",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/1536a9440466a538c17cb2143a6f7ce202af043b",
+                "reference": "1536a9440466a538c17cb2143a6f7ce202af043b",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2017-05-01 13:55:28"
+            "time": "2017-05-10 20:20:08"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -259,12 +259,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "21a8e42fbc5cb1e599a8bac6d8c1a239f337657f"
+                "reference": "268cc09d1eab264dd7bbf13756dff5ec2dcbb024"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/21a8e42fbc5cb1e599a8bac6d8c1a239f337657f",
-                "reference": "21a8e42fbc5cb1e599a8bac6d8c1a239f337657f",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/268cc09d1eab264dd7bbf13756dff5ec2dcbb024",
+                "reference": "268cc09d1eab264dd7bbf13756dff5ec2dcbb024",
                 "shasum": ""
             },
             "require-dev": {
@@ -288,7 +288,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2017-05-09 09:18:08"
+            "time": "2017-05-11 10:24:11"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -296,12 +296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-category-breadcrumb.git",
-                "reference": "298643fa23b9bd5b15c75066af2482c4d5d0d9c1"
+                "reference": "91df5d65490c06bdf45fead433b271edf45bcc28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/298643fa23b9bd5b15c75066af2482c4d5d0d9c1",
-                "reference": "298643fa23b9bd5b15c75066af2482c4d5d0d9c1",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/91df5d65490c06bdf45fead433b271edf45bcc28",
+                "reference": "91df5d65490c06bdf45fead433b271edf45bcc28",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -310,7 +310,7 @@
                 "proprietary"
             ],
             "description": "Provides DMOZ-style category breadcrumbs",
-            "time": "2016-10-16 12:01:05"
+            "time": "2017-05-10 20:02:49"
         },
         {
             "name": "archi-strasbourg/email-login",
