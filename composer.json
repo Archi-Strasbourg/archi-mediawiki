@@ -74,7 +74,7 @@
       "rm -r vendor/mediawiki/core/extensions",
       "ln -sfn ../../../extensions/ vendor/mediawiki/core/extensions",
       "ln -sfn ../../../composer.lock vendor/mediawiki/core/composer.lock",
-      "cd skins/archi-wiki/; npm install; bower install; ./node_modules/.bin/gulp"
+      "cd skins/archi-wiki/; npm install; ./node_modules/.bin/bower install; ./node_modules/.bin/gulp"
     ],
     "updatedb": "php vendor/mediawiki/core/maintenance/update.php --conf LocalSettings.php"
   }
