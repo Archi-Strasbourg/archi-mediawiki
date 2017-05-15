@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "84120ef379ae541f3813259e25351b81",
+    "content-hash": "f734c86b22cfeeb96ce0287e97ba0cbf",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -854,16 +854,16 @@
         },
         {
             "name": "data-values/geo",
-            "version": "1.2.2",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataValues/Geo.git",
-                "reference": "b16af85da2dc879382d2913bb32aeae00a074c55"
+                "reference": "25bae6416e4da31fa3c9c6479d472ea7a85ea354"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataValues/Geo/zipball/b16af85da2dc879382d2913bb32aeae00a074c55",
-                "reference": "b16af85da2dc879382d2913bb32aeae00a074c55",
+                "url": "https://api.github.com/repos/DataValues/Geo/zipball/25bae6416e4da31fa3c9c6479d472ea7a85ea354",
+                "reference": "25bae6416e4da31fa3c9c6479d472ea7a85ea354",
                 "shasum": ""
             },
             "require": {
@@ -873,12 +873,13 @@
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "~0.5"
+                "mediawiki/mediawiki-codesniffer": ">=0.4 <0.8",
+                "phpunit/phpunit": "~4.8"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2.x-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "autoload": {
@@ -916,7 +917,7 @@
                 "parsers",
                 "wikidata"
             ],
-            "time": "2017-03-14T17:59:19+00:00"
+            "time": "2017-05-09T10:14:00+00:00"
         },
         {
             "name": "data-values/interfaces",
@@ -2009,21 +2010,21 @@
         },
         {
             "name": "mediawiki/maps",
-            "version": "4.1.0",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Maps.git",
-                "reference": "36e790385fa364b4edfc58f378e616ba2624157e"
+                "reference": "e1e171309ec151e3ab178b5a35dd2ef5140aea26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/36e790385fa364b4edfc58f378e616ba2624157e",
-                "reference": "36e790385fa364b4edfc58f378e616ba2624157e",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/e1e171309ec151e3ab178b5a35dd2ef5140aea26",
+                "reference": "e1e171309ec151e3ab178b5a35dd2ef5140aea26",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0.1",
-                "data-values/geo": "~1.0",
+                "data-values/geo": "~2.0|~1.0",
                 "jeroen/file-fetcher": "~3.1",
                 "jeroen/simple-cache": "~2.0",
                 "mediawiki/validator": "~2.2",
@@ -2042,7 +2043,7 @@
             "type": "mediawiki-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1.x-dev"
+                    "dev-master": "4.2.x-dev"
                 }
             },
             "autoload": {
@@ -2086,20 +2087,20 @@
                 "mediawiki",
                 "osm"
             ],
-            "time": "2017-04-14T00:07:50+00:00"
+            "time": "2017-05-14T22:20:51+00:00"
         },
         {
             "name": "mediawiki/page-forms",
-            "version": "4.1",
+            "version": "4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-PageForms.git",
-                "reference": "7f1cec5d7bcbc8ddce8e012deb71979acbb6aa02"
+                "reference": "256f2652a26702e8a0e465d69e8ccf9fe08b48b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-PageForms/zipball/7f1cec5d7bcbc8ddce8e012deb71979acbb6aa02",
-                "reference": "7f1cec5d7bcbc8ddce8e012deb71979acbb6aa02",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-PageForms/zipball/256f2652a26702e8a0e465d69e8ccf9fe08b48b4",
+                "reference": "256f2652a26702e8a0e465d69e8ccf9fe08b48b4",
                 "shasum": ""
             },
             "require": {
@@ -2107,6 +2108,7 @@
                 "php": ">=5.3.0"
             },
             "require-dev": {
+                "jakub-onderka/php-console-highlighter": "0.3.2",
                 "jakub-onderka/php-parallel-lint": "0.9.2"
             },
             "suggest": {
@@ -2144,7 +2146,7 @@
                 "mediawiki",
                 "wiki"
             ],
-            "time": "2017-02-08T19:13:24+00:00"
+            "time": "2017-05-08T17:55:54+00:00"
         },
         {
             "name": "mediawiki/parser-hooks",
