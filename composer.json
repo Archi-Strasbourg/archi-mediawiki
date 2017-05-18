@@ -10,7 +10,7 @@
     "mediawiki/core": "~1.28.0",
     "mediawiki/Vector": "~1.28.0",
     "mediawiki/semantic-media-wiki": "~2.4.2",
-    "mediawiki/page-forms": "~4.1.0",
+    "mediawiki/page-forms": "4.1.0",
     "mediawiki/semantic-forms-select": "~2.1.0",
     "mediawiki/semantic-maps": "~3.3.0",
     "mediawiki/maps": "~4.2.0",
