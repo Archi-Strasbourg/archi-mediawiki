@@ -270,6 +270,7 @@ $smwgNamespacesWithSemanticLinks[NS_ADDRESS_NEWS] = true;
 $smwgNamespacesWithSemanticLinks[NS_PERSON] = true;
 $smwgNamespacesWithSemanticLinks[NS_USER] = true;
 $smwgNamespacesWithSemanticLinks[NS_SOURCE] = true;
+$smwgNamespacesWithSemanticLinks[NS_NEWS] = true;
 $wgNamespacesToBeSearchedDefault[NS_ADDRESS] = true;
 $wgNamespacesToBeSearchedDefault[NS_PERSON] = true;
 
