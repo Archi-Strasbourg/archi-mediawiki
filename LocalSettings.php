@@ -112,7 +112,7 @@ $wgUploadWizardConfig['tutorial']['skip'] = true;
 $wgUploadWizardConfig['uwLanguages'] = [
     'fr' => 'Français',
     'de' => 'Deutsch',
-    'en' => 'English'
+    'en' => 'English',
 ];
 
 //ReCaptcha
