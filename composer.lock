@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog.git",
-                "reference": "1eb2b95a41cea0685ba6a84c5df9a00427517e26"
+                "reference": "1767a541f935113b562b6aec5a8b43d7e322f36a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/1eb2b95a41cea0685ba6a84c5df9a00427517e26",
-                "reference": "1eb2b95a41cea0685ba6a84c5df9a00427517e26",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/1767a541f935113b562b6aec5a8b43d7e322f36a",
+                "reference": "1767a541f935113b562b6aec5a8b43d7e322f36a",
                 "shasum": ""
             },
             "require": {
@@ -32,7 +32,7 @@
                 "GPL-3.0"
             ],
             "description": "Blog page for archi-wiki.org",
-            "time": "2017-05-10 19:40:07"
+            "time": "2017-05-20 17:46:49"
         },
         {
             "name": "archi-strasbourg/archi-comments",
@@ -125,12 +125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
-                "reference": "78c4c97e2fe0c0c3f92bb154122402ef546299bc"
+                "reference": "292f5a9fd4d6e1c7b939173321dbdc429539e636"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/78c4c97e2fe0c0c3f92bb154122402ef546299bc",
-                "reference": "78c4c97e2fe0c0c3f92bb154122402ef546299bc",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/292f5a9fd4d6e1c7b939173321dbdc429539e636",
+                "reference": "292f5a9fd4d6e1c7b939173321dbdc429539e636",
                 "shasum": ""
             },
             "require-dev": {
@@ -149,7 +149,7 @@
                 }
             ],
             "description": "Map plugin for archi-wiki.org",
-            "time": "2017-05-02 17:18:46"
+            "time": "2017-05-22 19:31:01"
         },
         {
             "name": "archi-strasbourg/archi-mediawiki-redirect",
@@ -3189,16 +3189,16 @@
         },
         {
             "name": "pear/mail_mime",
-            "version": "1.10.0",
+            "version": "1.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Mail_Mime.git",
-                "reference": "e071727cf41a4b85ecc1de210ed4fd7f4f8d1ec4"
+                "reference": "3d4e33a6879cbb4c71684a282750b7bb072a121e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Mail_Mime/zipball/e071727cf41a4b85ecc1de210ed4fd7f4f8d1ec4",
-                "reference": "e071727cf41a4b85ecc1de210ed4fd7f4f8d1ec4",
+                "url": "https://api.github.com/repos/pear/Mail_Mime/zipball/3d4e33a6879cbb4c71684a282750b7bb072a121e",
+                "reference": "3d4e33a6879cbb4c71684a282750b7bb072a121e",
                 "shasum": ""
             },
             "require": {
@@ -3215,7 +3215,7 @@
                 "./"
             ],
             "license": [
-                "BSD Style"
+                "BSD-3-clause"
             ],
             "authors": [
                 {
@@ -3231,7 +3231,7 @@
             ],
             "description": "Mail_Mime provides classes to create MIME messages",
             "homepage": "http://pear.php.net/package/Mail_Mime",
-            "time": "2015-09-13T12:42:41+00:00"
+            "time": "2017-05-21T10:43:06+00:00"
         },
         {
             "name": "pear/pear-core-minimal",
