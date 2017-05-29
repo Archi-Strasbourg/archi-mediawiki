@@ -109,6 +109,11 @@ $wgExtensionFunctions[] = function () {
     return true;
 };
 $wgUploadWizardConfig['tutorial']['skip'] = true;
+$wgUploadWizardConfig['uwLanguages'] = [
+    'fr' => 'Français',
+    'de' => 'Deutsch',
+    'en' => 'English'
+];
 
 //ReCaptcha
 $wgCaptchaClass = 'ReCaptchaNoCaptcha';
