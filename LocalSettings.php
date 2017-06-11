@@ -265,6 +265,9 @@ $wgExtraNamespaces[NS_PERSON_TALK] = 'Discussion_personne';
 $wgExtraNamespaces[NS_ROUTE] = 'Parcours';
 
 $wgNamespacesWithSubpages[NS_ADDRESS] = true;
+$wgNamespacesWithSubpages[NS_ADDRESS_NEWS] = true;
+$wgNamespacesWithSubpages[NS_PERSON] = true;
+$wgNamespacesWithSubpages[NS_SOURCE] = true;
 $wgVisualEditorAvailableNamespaces[NS_ADDRESS] = true;
 $wgVisualEditorAvailableNamespaces[NS_ADDRESS_NEWS] = true;
 $wgVisualEditorAvailableNamespaces[NS_PERSON] = true;
