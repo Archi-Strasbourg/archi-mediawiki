@@ -37,7 +37,7 @@
     "mediawiki/DynamicPageList": "~1.28.0",
     "mediawiki/NukeDPL": "~1.28.0",
     "mediawiki/GoogleCustomWikiSearch": "~1.28.0",
-    "composer/installers": "~1.2.0",
+    "composer/installers": "~1.3.0",
     "archi-strasbourg/archi-news-tab": "dev-develop",
     "archi-strasbourg/category-breadcrumb": "dev-develop",
     "archi-strasbourg/archi-maps": "dev-develop",
@@ -56,7 +56,7 @@
     "shakeepers/hide-namespace": "~1.4.3"
   },
   "require-dev": {
-    "symfony/var-dumper": "~3.2.1"
+    "symfony/var-dumper": "~3.3.2"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
