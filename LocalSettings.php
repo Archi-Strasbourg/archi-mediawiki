@@ -76,6 +76,7 @@ wfLoadExtension('LinkToArchive');
 wfLoadExtension('PageForms');
 wfLoadExtension('SemanticFormsSelect');
 wfLoadExtension('EmailLogin');
+wfLoadExtension('ReplaceText');
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
