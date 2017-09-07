@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteRule adresse-(.+)-([0-9]+)\.html vendor/archi-strasbourg/archi-mediawiki-redirect/redirect.php?archiAffichage=adresseDetail&archiIdAdresse=$2 [QSA,L]
+RewriteRule personnalite-(.+)-([0-9]+)\.html vendor/archi-strasbourg/archi-mediawiki-redirect/redirect.php?archiAffichage=evenementListe&selection=personne&id=$2 [QSA,L]
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
+RewriteRule ^(.*)$ %{DOCUMENT_ROOT}/archi-mediawiki/index.php [L]
