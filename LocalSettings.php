@@ -321,6 +321,9 @@ $wgGoogleCustomWikiSearchCodeVersion = 1;
 //SectionsCount
 $wgSectionsCountIgnoreSections = ['Références'];
 
+//SMW
+$smwgQDefaultLimit = 500;
+
 //À retirer en production
 $wgGroupPermissions['*']['bot'] = true;
 $wgGroupPermissions['*']['upload_by_url'] = true;
