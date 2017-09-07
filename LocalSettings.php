@@ -37,7 +37,7 @@ $wgDefaultSkin = 'ArchiWiki';
 $wgAllowSlowParserFunctions = true;
 $wgPFEnableStringFunctions = true;
 $wgExternalLinkTarget = '_blank';
-//$wgEmailConfirmToEdit = true;
+$wgEmailConfirmToEdit = true;
 
 setlocale(LC_TIME, 'fr_FR');
 
@@ -72,7 +72,7 @@ wfLoadExtension('UniversalLanguageSelector');
 wfLoadExtension('CleanChanges');
 wfLoadExtension('LanguageCode');
 wfLoadExtension('LinkToArchive');
-//wfLoadExtensions(['ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha']);
+wfLoadExtensions(['ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha']);
 wfLoadExtension('PageForms');
 wfLoadExtension('SemanticFormsSelect');
 wfLoadExtension('EmailLogin');
@@ -118,7 +118,7 @@ $wgUploadWizardConfig['uwLanguages'] = [
 
 //ReCaptcha
 $wgCaptchaClass = 'ReCaptchaNoCaptcha';
-//$wgCaptchaTriggers['contactpage'] = true;
+$wgCaptchaTriggers['contactpage'] = true;
 
 //Footer
 $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
@@ -323,11 +323,3 @@ $wgSectionsCountIgnoreSections = ['Références'];
 
 //SMW
 $smwgQDefaultLimit = 500;
-
-//À retirer en production
-$wgGroupPermissions['*']['bot'] = true;
-$wgGroupPermissions['*']['upload_by_url'] = true;
-$wgGroupPermissions['*']['noratelimit'] = true;
-$wgShowSQLErrors = true;
-$wgDebugDumpSql = true;
-$wgPasswordAttemptThrottle = false;
