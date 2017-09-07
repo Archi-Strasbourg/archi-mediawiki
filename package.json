@@ -1,7 +1,7 @@
 {
   "name": "archi-mediawiki",
   "description": "Port of Archi-Wiki to MediaWiki",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Pierre Rudloff",
   "bugs": "https://github.com/Archi-Strasbourg/archi-mediawiki/issues",
   "devDependencies": {
