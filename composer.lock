@@ -70,12 +70,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer.git",
-                "reference": "9b3c280e14deb762efd123c625599885494af7e3"
+                "reference": "26613653852e110aecaf2c858e2fce938865a4b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/9b3c280e14deb762efd123c625599885494af7e3",
-                "reference": "9b3c280e14deb762efd123c625599885494af7e3",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/26613653852e110aecaf2c858e2fce938865a4b5",
+                "reference": "26613653852e110aecaf2c858e2fce938865a4b5",
                 "shasum": ""
             },
             "require": {
@@ -90,7 +90,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom page footer for archi-wiki.org",
-            "time": "2017-05-10 22:09:18"
+            "time": "2017-09-06 21:15:28"
         },
         {
             "name": "archi-strasbourg/archi-home",
@@ -98,12 +98,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "481518de1a27d5f80cd1e0dbab3345b69d523426"
+                "reference": "627b0f25aff0e4bbca973949f92330f04055c398"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/481518de1a27d5f80cd1e0dbab3345b69d523426",
-                "reference": "481518de1a27d5f80cd1e0dbab3345b69d523426",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/627b0f25aff0e4bbca973949f92330f04055c398",
+                "reference": "627b0f25aff0e4bbca973949f92330f04055c398",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2017-08-10 19:30:48"
+            "time": "2017-09-06 12:45:42"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -425,12 +425,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-link-to-archive.git",
-                "reference": "a94a2dd1039a5833463617e06826dd637c25402f"
+                "reference": "facf7e062985d2ec40710ced566ea79ee26218f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-link-to-archive/zipball/a94a2dd1039a5833463617e06826dd637c25402f",
-                "reference": "a94a2dd1039a5833463617e06826dd637c25402f",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-link-to-archive/zipball/facf7e062985d2ec40710ced566ea79ee26218f3",
+                "reference": "facf7e062985d2ec40710ced566ea79ee26218f3",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -439,7 +439,7 @@
                 "GPL-3.0"
             ],
             "description": "Add a link to archive.org to every external link",
-            "time": "2017-03-06 18:57:33"
+            "time": "2017-09-06 12:25:55"
         },
         {
             "name": "archi-strasbourg/paypal",
