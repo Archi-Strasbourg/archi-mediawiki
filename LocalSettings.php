@@ -327,3 +327,7 @@ $smwgQDefaultLimit = 500;
 
 //UserMerge
 $wgGroupPermissions['bureaucrat']['usermerge'] = true;
+
+//Permissions requises pour aw2mw
+$wgGroupPermissions['bot']['bot'] = true;
+$wgGroupPermissions['bot']['upload_by_url'] = true;
