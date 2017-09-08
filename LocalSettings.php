@@ -170,7 +170,7 @@ $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
 
 //ContactPage
 $wgContactConfig['default'] = [
-    'RecipientUser'    => 'Rudloff',
+    'RecipientUser'    => 'Digito',
     'RequireDetails'   => true,
     'AdditionalFields' => [],
     'IncludeIP'        => false,
@@ -188,7 +188,7 @@ $wgContactConfig['default'] = [
     'SenderName'  => 'Archi-Wiki',
 ];
 $wgContactConfig['membership'] = [
-    'RecipientUser'    => 'Rudloff',
+    'RecipientUser'    => 'Digito',
     'RequireDetails'   => true,
     'AdditionalFields' => [],
     'IncludeIP'        => false,
