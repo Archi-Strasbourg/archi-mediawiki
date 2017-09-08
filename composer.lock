@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c61dd3809478af840cd2213e239c2969",
-    "content-hash": "c7b3f90b8ba2cc96dea0da2069a258ad",
+    "hash": "2173b2dc82fb8243dc6d1744288c066c",
+    "content-hash": "590b173d3f55ad63e83acceef9576eec",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1838,6 +1838,32 @@
             ],
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/UploadWizard"
+            }
+        },
+        {
+            "name": "mediawiki/UserMerge",
+            "version": "1.28+55971e5",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/UserMerge.git",
+                "reference": "55971e5"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/UserMerge-REL1_28-55971e5.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:UserMerge",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/UserMerge"
             }
         },
         {

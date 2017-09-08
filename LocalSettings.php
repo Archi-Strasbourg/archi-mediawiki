@@ -77,6 +77,7 @@ wfLoadExtension('PageForms');
 wfLoadExtension('SemanticFormsSelect');
 wfLoadExtension('EmailLogin');
 wfLoadExtension('ReplaceText');
+wfLoadExtension('UserMerge');
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
@@ -323,3 +324,6 @@ $wgSectionsCountIgnoreSections = ['Références'];
 
 //SMW
 $smwgQDefaultLimit = 500;
+
+//UserMerge
+$wgGroupPermissions['bureaucrat']['usermerge'] = true;
