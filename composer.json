@@ -38,6 +38,7 @@
     "mediawiki/NukeDPL": "~1.28.0",
     "mediawiki/GoogleCustomWikiSearch": "~1.28.0",
     "mediawiki/ReplaceText": "~1.28.0",
+    "mediawiki/UserMerge": "~1.28.0",
     "composer/installers": "~1.3.0",
     "archi-strasbourg/archi-news-tab": "~1.0.0",
     "archi-strasbourg/category-breadcrumb": "~2.5.0",
