@@ -78,10 +78,11 @@ wfLoadExtension('SemanticFormsSelect');
 wfLoadExtension('EmailLogin');
 wfLoadExtension('ReplaceText');
 wfLoadExtension('UserMerge');
+wfLoadExtension('ContactPage');
+wfLoadExtension('Elastica');
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
-require_once "$IP/extensions/ContactPage/ContactPage.php";
 require_once "$IP/extensions/AddThis/AddThis.php";
 require_once "$IP/extensions/TextExtracts/TextExtracts.php";
 require_once "$IP/extensions/Echo/Echo.php";
@@ -93,6 +94,7 @@ require_once "$IP/extensions/DynamicPageList/DynamicPageList.php";
 require_once "$IP/extensions/NukeDPL/NukeDPL.php";
 require_once "$IP/extensions/HideNamespace/HideNamespace.php";
 require_once "$IP/extensions/GoogleCustomWikiSearch/GoogleCustomWikiSearch.php";
+require_once "$IP/extensions/CirrusSearch/CirrusSearch.php";
 
 include_once __DIR__.'/apikeys.php';
 
@@ -327,6 +329,10 @@ $smwgQDefaultLimit = 500;
 
 //UserMerge
 $wgGroupPermissions['bureaucrat']['usermerge'] = true;
+
+//CirrusSearch
+$wgSearchType = 'CirrusSearch';
+$wgCirrusSearchServers = ['localhost'];
 
 //Permissions requises pour aw2mw
 $wgGroupPermissions['bot']['bot'] = true;
