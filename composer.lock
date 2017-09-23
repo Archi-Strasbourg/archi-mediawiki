@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f48fad90fdc9455ed2b69607e62b5287",
-    "content-hash": "4d4c9643d089e27b869712eb3bae8963",
+    "hash": "2a26320299905627a5f12811670b8a05",
+    "content-hash": "efa811126ec2ff842365980cf13a272f",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1137,32 +1137,34 @@
         },
         {
             "name": "jeroen/file-fetcher",
-            "version": "3.1.0",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/FileFetcher.git",
-                "reference": "818da8261c256aac137f000cabbe59bd4c348a44"
+                "reference": "11eee4ec8b40adc3936bcdc63a61bf3d6efdb225"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/FileFetcher/zipball/818da8261c256aac137f000cabbe59bd4c348a44",
-                "reference": "818da8261c256aac137f000cabbe59bd4c348a44",
+                "url": "https://api.github.com/repos/JeroenDeDauw/FileFetcher/zipball/11eee4ec8b40adc3936bcdc63a61bf3d6efdb225",
+                "reference": "11eee4ec8b40adc3936bcdc63a61bf3d6efdb225",
                 "shasum": ""
             },
             "require": {
                 "jeroen/simple-cache": "~2.0",
-                "php": ">=5.3.0"
+                "php": ">=7.0",
+                "psr/log": "~1.0"
             },
             "require-dev": {
-                "ockcyp/covers-validator": "~0.4",
+                "ockcyp/covers-validator": "~0.6",
                 "phpmd/phpmd": "~2.1",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~2.1"
+                "phpunit/phpunit": "~6.1",
+                "squizlabs/php_codesniffer": "~2.1",
+                "wmde/psr-log-test-doubles": "~2.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1.x-dev"
+                    "dev-master": "4.2.x-dev"
                 }
             },
             "autoload": {
@@ -1191,7 +1193,7 @@
                 "file_get_contents",
                 "wget"
             ],
-            "time": "2016-01-07 21:17:42"
+            "time": "2017-06-07 00:07:08"
         },
         {
             "name": "jeroen/simple-cache",
@@ -2155,25 +2157,25 @@
         },
         {
             "name": "mediawiki/maps",
-            "version": "4.2.1",
+            "version": "4.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Maps.git",
-                "reference": "d985439e4c72e033c74064781ac7b20aa3ed06e5"
+                "reference": "64b870f79dcbe1e2815180ba86309c7433b753d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/d985439e4c72e033c74064781ac7b20aa3ed06e5",
-                "reference": "d985439e4c72e033c74064781ac7b20aa3ed06e5",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/64b870f79dcbe1e2815180ba86309c7433b753d2",
+                "reference": "64b870f79dcbe1e2815180ba86309c7433b753d2",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0.1",
-                "data-values/geo": "~2.0|~1.0",
-                "jeroen/file-fetcher": "~3.1",
+                "data-values/geo": "~2.0",
+                "jeroen/file-fetcher": "~3.1|~4.0",
                 "jeroen/simple-cache": "~2.0",
                 "mediawiki/validator": "~2.2",
-                "php": ">=5.5"
+                "php": ">=5.6"
             },
             "replace": {
                 "mediawiki/semantic-maps": "*"
@@ -2188,7 +2190,7 @@
             "type": "mediawiki-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2.x-dev"
+                    "dev-master": "4.4.x-dev"
                 }
             },
             "autoload": {
@@ -2232,7 +2234,7 @@
                 "mediawiki",
                 "osm"
             ],
-            "time": "2017-05-19 23:24:04"
+            "time": "2017-09-14 13:21:52"
         },
         {
             "name": "mediawiki/page-forms",
