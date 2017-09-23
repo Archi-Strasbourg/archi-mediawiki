@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2a26320299905627a5f12811670b8a05",
-    "content-hash": "efa811126ec2ff842365980cf13a272f",
+    "hash": "202edb4d2fb53cc3dffd9a57f0cd21c0",
+    "content-hash": "d9a7076ae8613175b6c103434f49b805",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1137,34 +1137,32 @@
         },
         {
             "name": "jeroen/file-fetcher",
-            "version": "4.2.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/FileFetcher.git",
-                "reference": "11eee4ec8b40adc3936bcdc63a61bf3d6efdb225"
+                "reference": "818da8261c256aac137f000cabbe59bd4c348a44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/FileFetcher/zipball/11eee4ec8b40adc3936bcdc63a61bf3d6efdb225",
-                "reference": "11eee4ec8b40adc3936bcdc63a61bf3d6efdb225",
+                "url": "https://api.github.com/repos/JeroenDeDauw/FileFetcher/zipball/818da8261c256aac137f000cabbe59bd4c348a44",
+                "reference": "818da8261c256aac137f000cabbe59bd4c348a44",
                 "shasum": ""
             },
             "require": {
                 "jeroen/simple-cache": "~2.0",
-                "php": ">=7.0",
-                "psr/log": "~1.0"
+                "php": ">=5.3.0"
             },
             "require-dev": {
-                "ockcyp/covers-validator": "~0.6",
+                "ockcyp/covers-validator": "~0.4",
                 "phpmd/phpmd": "~2.1",
-                "phpunit/phpunit": "~6.1",
-                "squizlabs/php_codesniffer": "~2.1",
-                "wmde/psr-log-test-doubles": "~2.1"
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2.x-dev"
+                    "dev-master": "3.1.x-dev"
                 }
             },
             "autoload": {
@@ -1193,7 +1191,7 @@
                 "file_get_contents",
                 "wget"
             ],
-            "time": "2017-06-07 00:07:08"
+            "time": "2016-01-07 21:17:42"
         },
         {
             "name": "jeroen/simple-cache",

@@ -13,6 +13,7 @@
     "mediawiki/page-forms": "4.1.0",
     "mediawiki/semantic-forms-select": "~2.1.0",
     "mediawiki/maps": "~4.4.0",
+    "jeroen/file-fetcher": "~3.1.0",
     "mediawiki/ParserFunctions": "~1.29.0",
     "mediawiki/Cite": "~1.29.0",
     "mediawiki/Comments": "~1.29.0",
