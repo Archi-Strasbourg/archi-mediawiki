@@ -119,6 +119,7 @@ $wgUploadWizardConfig['uwLanguages'] = [
     'de' => 'Deutsch',
     'en' => 'English',
 ];
+$wgFileExtensions[] = 'pdf';
 
 //ReCaptcha
 $wgCaptchaClass = 'ReCaptchaNoCaptcha';
