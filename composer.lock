@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9a7076ae8613175b6c103434f49b805",
+    "content-hash": "eb5cab518f39f9d2a5aa486201e6ad07",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2154,22 +2154,22 @@
         },
         {
             "name": "mediawiki/maps",
-            "version": "4.4.0",
+            "version": "5.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Maps.git",
-                "reference": "64b870f79dcbe1e2815180ba86309c7433b753d2"
+                "reference": "3a537d623de8d2735198261afe0d42728bc6547b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/64b870f79dcbe1e2815180ba86309c7433b753d2",
-                "reference": "64b870f79dcbe1e2815180ba86309c7433b753d2",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/3a537d623de8d2735198261afe0d42728bc6547b",
+                "reference": "3a537d623de8d2735198261afe0d42728bc6547b",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0.1",
                 "data-values/geo": "~2.0",
-                "jeroen/file-fetcher": "~3.1|~4.0",
+                "jeroen/file-fetcher": "~3.1",
                 "jeroen/simple-cache": "~2.0",
                 "mediawiki/validator": "~2.2",
                 "php": ">=5.6"
@@ -2187,7 +2187,7 @@
             "type": "mediawiki-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.4.x-dev"
+                    "dev-master": "5.0.x-dev"
                 }
             },
             "autoload": {
@@ -2231,7 +2231,7 @@
                 "mediawiki",
                 "osm"
             ],
-            "time": "2017-09-14T13:21:52+00:00"
+            "time": "2017-10-19T06:05:12+00:00"
         },
         {
             "name": "mediawiki/page-forms",
