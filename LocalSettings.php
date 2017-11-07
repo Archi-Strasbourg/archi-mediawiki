@@ -39,6 +39,7 @@ $wgPFEnableStringFunctions = true;
 $wgExternalLinkTarget = '_blank';
 $wgEmailConfirmToEdit = true;
 $wgPasswordAttemptThrottle = false;
+$wgCategoryCollation = 'numeric';
 
 setlocale(LC_TIME, 'fr_FR');
 
