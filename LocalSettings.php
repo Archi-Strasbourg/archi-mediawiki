@@ -202,30 +202,30 @@ $wgContactConfig['membership'] = [
     'RLStyleModules'   => [],
     'AdditionalFields' => [
         'job' => [
-            'label'         => 'Profession/société :',
-            'type'          => 'text',
-            'required'      => false,
+            'label'    => 'Profession/société :',
+            'type'     => 'text',
+            'required' => false,
         ],
         'address' => [
-            'label'         => 'Adresse postale :',
-            'type'          => 'text',
-            'required'      => false,
+            'label'    => 'Adresse postale :',
+            'type'     => 'text',
+            'required' => false,
         ],
         'tel' => [
-            'label'         => 'Numéro de téléphone :',
-            'type'          => 'text',
-            'required'      => false,
+            'label'    => 'Numéro de téléphone :',
+            'type'     => 'text',
+            'required' => false,
         ],
         'Text' => [
-            'label'         => 'Laisser un commentaire :',
-            'type'          => 'textarea',
-            'required'      => false,
-            'rows'          => 5,
+            'label'    => 'Laisser un commentaire :',
+            'type'     => 'textarea',
+            'required' => false,
+            'rows'     => 5,
         ],
         'amount' => [
-            'label'         => 'Cotisation :',
-            'type'          => 'radio',
-            'options'       => [
+            'label'   => 'Cotisation :',
+            'type'    => 'radio',
+            'options' => [
                 '<b>10 €</b><br/>Tarif réduit pour étudiants, bénéficiaires du RSA'.
                     'et personnes non-imposables, sur justificatif'                                        => 10,
                 '<b>20 €</b></br>Particulier'                                                              => 20,
@@ -234,9 +234,9 @@ $wgContactConfig['membership'] = [
                 '<b>80 €</b></br>Vous recevrez un reçu fiscal, votre don ne vous coûtera que 40,40 euros.'.
                 '<br/>Si vous le souhaitez, vous pourrez figurer sur notre liste de donateurs<br/>'.
                     'et pour une entreprise faire apparaître votre logo et un lien '.
-                    'sur le site de votre société.'=> 80,
+                    'sur le site de votre société.' => 80,
             ],
-            'required'      => true,
+            'required' => true,
         ],
     ],
     'SenderEmail' => 'contact@archi-strasbourg.org',
