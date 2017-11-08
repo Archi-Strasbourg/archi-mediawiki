@@ -82,6 +82,7 @@ wfLoadExtension('ReplaceText');
 wfLoadExtension('UserMerge');
 wfLoadExtension('ContactPage');
 wfLoadExtension('Elastica');
+wfLoadExtension('ArchiMove');
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
