@@ -290,6 +290,9 @@ $smwgNamespacesWithSemanticLinks[NS_NEWS] = true;
 $wgNamespacesToBeSearchedDefault[NS_ADDRESS] = true;
 $wgNamespacesToBeSearchedDefault[NS_PERSON] = true;
 
+$wgContentNamespaces[] = NS_ADDRESS;
+$wgContentNamespaces[] = NS_PERSON;
+
 //Cache
 $wgMainCacheType = CACHE_ACCEL;
 $wgSessionCacheType = CACHE_DB;
