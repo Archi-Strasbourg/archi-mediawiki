@@ -83,6 +83,7 @@ wfLoadExtension('UserMerge');
 wfLoadExtension('ContactPage');
 wfLoadExtension('Elastica');
 wfLoadExtension('ArchiMove');
+wfLoadExtension('LookupUser');
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
@@ -340,6 +341,9 @@ $wgGroupPermissions['bureaucrat']['usermerge'] = true;
 //CirrusSearch
 $wgSearchType = 'CirrusSearch';
 $wgCirrusSearchServers = ['localhost'];
+
+//LookupUser
+$wgGroupPermissions['bureaucrat']['lookupuser'] = true;
 
 //Permissions requises pour aw2mw
 $wgGroupPermissions['bot']['bot'] = true;

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "77073d0b02bc9e84ccc1394497df76de",
+    "content-hash": "c8b1d38640f953628e2699f8312453ee",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1654,6 +1654,32 @@
             ],
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/GoogleCustomWikiSearch"
+            }
+        },
+        {
+            "name": "mediawiki/LookupUser",
+            "version": "1.29+d175349",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/LookupUser.git",
+                "reference": "d175349"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/LookupUser-REL1_29-d175349.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:LookupUser",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/LookupUser"
             }
         },
         {
