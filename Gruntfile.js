@@ -28,15 +28,18 @@ module.exports = function (grunt) {
         },
         shipit: {
             options: {
-                branch: 'develop',
                 servers: 'pierre@archi-strasbourg.org',
                 composer: {
                     noDev: true,
                     cmd: 'updatedb -- --quick'
-                }
+                },
+                deployTo: '/home/vhosts/fabien/archi-mediawiki/'
             },
             staging: {
-                deployTo: '/home/vhosts/fabien/archi-mediawiki/'
+                branch: 'develop'
+            },
+            prod: {
+                branch: 'master'
             }
         },
         jsonlint: {
@@ -62,4 +65,5 @@ module.exports = function (grunt) {
 
     grunt.registerTask('lint', ['jslint', 'fixpack', 'jsonlint', 'phpcs']);
     grunt.registerTask('staging', ['shipit:staging', 'update', 'composer:install', 'composer:cmd']);
+    grunt.registerTask('prod', ['shipit:prod', 'update', 'composer:install', 'composer:cmd']);
 };
