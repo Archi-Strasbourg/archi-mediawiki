@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c8b1d38640f953628e2699f8312453ee",
+    "content-hash": "72d454b4f7a8b6026054436538491cea",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1810,6 +1810,32 @@
             ],
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/NukeDPL"
+            }
+        },
+        {
+            "name": "mediawiki/PageImages",
+            "version": "1.29+68f89b2",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/PageImages.git",
+                "reference": "68f89b2"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/PageImages-REL1_29-68f89b2.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:PageImages",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/PageImages"
             }
         },
         {

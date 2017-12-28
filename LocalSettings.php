@@ -84,6 +84,7 @@ wfLoadExtension('ContactPage');
 wfLoadExtension('Elastica');
 wfLoadExtension('ArchiMove');
 wfLoadExtension('LookupUser');
+wfLoadExtension('PageImages');
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
@@ -344,6 +345,9 @@ $wgCirrusSearchServers = ['localhost'];
 
 //LookupUser
 $wgGroupPermissions['bureaucrat']['lookupuser'] = true;
+
+//PageImages
+$wgPageImagesNamespaces[] = NS_NEWS;
 
 //Permissions requises pour aw2mw
 $wgGroupPermissions['bot']['bot'] = true;
