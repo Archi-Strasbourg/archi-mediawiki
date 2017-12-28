@@ -42,7 +42,6 @@
     "mediawiki/CirrusSearch": "~1.29.0",
     "mediawiki/LookupUser": "~1.29.0",
     "mediawiki/PageImages": "~1.29.0",
-    "composer/installers": "~1.3.0",
     "archi-strasbourg/archi-news-tab": "~1.0.0",
     "archi-strasbourg/category-breadcrumb": "~2.5.0",
     "archi-strasbourg/archi-maps": "~1.0.0",

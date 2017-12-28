@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "72d454b4f7a8b6026054436538491cea",
+    "content-hash": "2bb48bd6ff5cbf1a17dd0b5af1861579",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -65,16 +65,16 @@
         },
         {
             "name": "archi-strasbourg/archi-footer",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer.git",
-                "reference": "bdc1a0aaa14bac10b51f0e527124721c6931ee2c"
+                "reference": "5d557f0ed63cfe51b1f0fca20d175e19cea982fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/bdc1a0aaa14bac10b51f0e527124721c6931ee2c",
-                "reference": "bdc1a0aaa14bac10b51f0e527124721c6931ee2c",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/5d557f0ed63cfe51b1f0fca20d175e19cea982fd",
+                "reference": "5d557f0ed63cfe51b1f0fca20d175e19cea982fd",
                 "shasum": ""
             },
             "require": {
@@ -89,20 +89,20 @@
                 "GPL-3.0"
             ],
             "description": "Custom page footer for archi-wiki.org",
-            "time": "2017-09-07T16:35:13+00:00"
+            "time": "2017-12-28T01:25:22+00:00"
         },
         {
             "name": "archi-strasbourg/archi-home",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "83cd6a5a330d1f6a9d90658b09295f9ba843cb19"
+                "reference": "4da64739a7de2a0863a6cd21730ed49342050add"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/83cd6a5a330d1f6a9d90658b09295f9ba843cb19",
-                "reference": "83cd6a5a330d1f6a9d90658b09295f9ba843cb19",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/4da64739a7de2a0863a6cd21730ed49342050add",
+                "reference": "4da64739a7de2a0863a6cd21730ed49342050add",
                 "shasum": ""
             },
             "require": {
@@ -117,20 +117,20 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2017-09-07T16:43:46+00:00"
+            "time": "2017-12-28T01:31:36+00:00"
         },
         {
             "name": "archi-strasbourg/archi-maps",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
-                "reference": "4d0a1a1a25ec5032392561938f0cfcad71f0a77c"
+                "reference": "c899ee41b99bbfa1e08e0a3eeed6aa720d924282"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/4d0a1a1a25ec5032392561938f0cfcad71f0a77c",
-                "reference": "4d0a1a1a25ec5032392561938f0cfcad71f0a77c",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/c899ee41b99bbfa1e08e0a3eeed6aa720d924282",
+                "reference": "c899ee41b99bbfa1e08e0a3eeed6aa720d924282",
                 "shasum": ""
             },
             "require-dev": {
@@ -149,7 +149,7 @@
                 }
             ],
             "description": "Map plugin for archi-wiki.org",
-            "time": "2017-09-07T16:36:16+00:00"
+            "time": "2017-12-28T01:17:29+00:00"
         },
         {
             "name": "archi-strasbourg/archi-mediawiki-redirect",
@@ -209,16 +209,16 @@
         },
         {
             "name": "archi-strasbourg/archi-news-tab",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab.git",
-                "reference": "4258b4932ecff0e360c64f8e52baa942213d2fe4"
+                "reference": "a34f39626874a3d64ae37986a8dd312f33a07fd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/4258b4932ecff0e360c64f8e52baa942213d2fe4",
-                "reference": "4258b4932ecff0e360c64f8e52baa942213d2fe4",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/a34f39626874a3d64ae37986a8dd312f33a07fd7",
+                "reference": "a34f39626874a3d64ae37986a8dd312f33a07fd7",
                 "shasum": ""
             },
             "require": {
@@ -239,7 +239,7 @@
                 }
             ],
             "description": "MediaWiki extension that replaces the talk tab with a news tab",
-            "time": "2017-09-07T17:06:57+00:00"
+            "time": "2017-12-28T01:10:15+00:00"
         },
         {
             "name": "archi-strasbourg/archi-wiki",
@@ -281,16 +281,16 @@
         },
         {
             "name": "archi-strasbourg/archi-wiki-skin",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "1f0aa3bb9384812700bd624ba53675a33001ed6a"
+                "reference": "0c729afd39dc3c0350c4d5512a61b08e6a5e92b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/1f0aa3bb9384812700bd624ba53675a33001ed6a",
-                "reference": "1f0aa3bb9384812700bd624ba53675a33001ed6a",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/0c729afd39dc3c0350c4d5512a61b08e6a5e92b6",
+                "reference": "0c729afd39dc3c0350c4d5512a61b08e6a5e92b6",
                 "shasum": ""
             },
             "require-dev": {
@@ -314,7 +314,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2017-09-07T16:40:16+00:00"
+            "time": "2017-12-28T01:30:15+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -340,16 +340,16 @@
         },
         {
             "name": "archi-strasbourg/email-login",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-email-login.git",
-                "reference": "89ebda2f9dbf8d4c8aa6070b7aafee5b497e0986"
+                "reference": "7d5fea90fce6294b767f3ea460b463c1872050d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-email-login/zipball/89ebda2f9dbf8d4c8aa6070b7aafee5b497e0986",
-                "reference": "89ebda2f9dbf8d4c8aa6070b7aafee5b497e0986",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-email-login/zipball/7d5fea90fce6294b767f3ea460b463c1872050d6",
+                "reference": "7d5fea90fce6294b767f3ea460b463c1872050d6",
                 "shasum": ""
             },
             "require-dev": {
@@ -373,7 +373,7 @@
                 }
             ],
             "description": "MediaWiki extension that allows users to login with their e-mail address",
-            "time": "2017-09-07T16:57:26+00:00"
+            "time": "2017-12-28T01:13:40+00:00"
         },
         {
             "name": "archi-strasbourg/emailuser-html",
@@ -489,16 +489,16 @@
         },
         {
             "name": "archi-strasbourg/sections-count",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-sections-count.git",
-                "reference": "b62fff74c910caae36591ff2af83f0097743e785"
+                "reference": "9f0aae0ffe8aee9e78d79bf53fa5ba68716bbef6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-sections-count/zipball/b62fff74c910caae36591ff2af83f0097743e785",
-                "reference": "b62fff74c910caae36591ff2af83f0097743e785",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-sections-count/zipball/9f0aae0ffe8aee9e78d79bf53fa5ba68716bbef6",
+                "reference": "9f0aae0ffe8aee9e78d79bf53fa5ba68716bbef6",
                 "shasum": ""
             },
             "require-dev": {
@@ -521,20 +521,20 @@
                 }
             ],
             "description": "MediaWiki magic word that displays the number of sections in a page",
-            "time": "2017-09-07T17:02:59+00:00"
+            "time": "2017-12-28T01:16:04+00:00"
         },
         {
             "name": "composer/installers",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045"
+                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/79ad876c7498c0bbfe7eed065b8651c93bfd6045",
-                "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045",
+                "url": "https://api.github.com/repos/composer/installers/zipball/9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
+                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
                 "shasum": ""
             },
             "require": {
@@ -580,6 +580,7 @@
                 "Hurad",
                 "ImageCMS",
                 "Kanboard",
+                "Lan Management System",
                 "MODX Evo",
                 "Mautic",
                 "Maya",
@@ -603,6 +604,7 @@
                 "croogo",
                 "dokuwiki",
                 "drupal",
+                "eZ Platform",
                 "elgg",
                 "expressionengine",
                 "fuelphp",
@@ -619,6 +621,7 @@
                 "mediawiki",
                 "modulework",
                 "moodle",
+                "osclass",
                 "phpbb",
                 "piwik",
                 "ppi",
@@ -635,7 +638,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-04-24T06:37:16+00:00"
+            "time": "2017-08-09T07:53:48+00:00"
         },
         {
             "name": "composer/semver",
