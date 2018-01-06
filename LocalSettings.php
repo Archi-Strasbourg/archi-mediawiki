@@ -349,6 +349,9 @@ $wgGroupPermissions['bureaucrat']['lookupuser'] = true;
 //PageImages
 $wgPageImagesNamespaces[] = NS_NEWS;
 
+//Loops
+ExtLoops::$maxLoops = 200;
+
 //Permissions requises pour aw2mw
 $wgGroupPermissions['bot']['bot'] = true;
 $wgGroupPermissions['bot']['upload_by_url'] = true;
