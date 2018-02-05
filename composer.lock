@@ -36,16 +36,16 @@
         },
         {
             "name": "archi-strasbourg/archi-comments",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments.git",
-                "reference": "8b72d693b2007a96e40776466c76fe48bbf7f4b1"
+                "reference": "2b42ad59fa9b463caf37015d244f2a050152ebb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/8b72d693b2007a96e40776466c76fe48bbf7f4b1",
-                "reference": "8b72d693b2007a96e40776466c76fe48bbf7f4b1",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/2b42ad59fa9b463caf37015d244f2a050152ebb9",
+                "reference": "2b42ad59fa9b463caf37015d244f2a050152ebb9",
                 "shasum": ""
             },
             "require": {
@@ -61,7 +61,7 @@
                 "GPL-3.0"
             ],
             "description": "Comments page for archi-wiki.org",
-            "time": "2017-09-07T16:49:35+00:00"
+            "time": "2018-02-05T15:15:27+00:00"
         },
         {
             "name": "archi-strasbourg/archi-footer",
@@ -247,12 +247,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-wiki.git",
-                "reference": "f89d23e59023bfe45b44b478c17217ebb087934a"
+                "reference": "b9fb39f43a78409890a7de96426c1f6c49d5c323"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/f89d23e59023bfe45b44b478c17217ebb087934a",
-                "reference": "f89d23e59023bfe45b44b478c17217ebb087934a",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/b9fb39f43a78409890a7de96426c1f6c49d5c323",
+                "reference": "b9fb39f43a78409890a7de96426c1f6c49d5c323",
                 "shasum": ""
             },
             "require": {
@@ -277,7 +277,7 @@
                 "GPL-3.0"
             ],
             "description": "Source code for http://archi-strasbourg.org/",
-            "time": "2017-08-25T19:37:01+00:00"
+            "time": "2018-01-02T13:33:20+00:00"
         },
         {
             "name": "archi-strasbourg/archi-wiki-skin",
@@ -525,16 +525,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b"
+                "reference": "049797d727261bf27f2690430d935067710049c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
-                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
+                "url": "https://api.github.com/repos/composer/installers/zipball/049797d727261bf27f2690430d935067710049c2",
+                "reference": "049797d727261bf27f2690430d935067710049c2",
                 "shasum": ""
             },
             "require": {
@@ -546,7 +546,7 @@
             },
             "require-dev": {
                 "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "4.1.*"
+                "phpunit/phpunit": "^4.8.36"
             },
             "type": "composer-plugin",
             "extra": {
@@ -617,15 +617,18 @@
                 "lavalite",
                 "lithium",
                 "magento",
+                "majima",
                 "mako",
                 "mediawiki",
                 "modulework",
+                "modx",
                 "moodle",
                 "osclass",
                 "phpbb",
                 "piwik",
                 "ppi",
                 "puppet",
+                "pxcms",
                 "reindex",
                 "roundcube",
                 "shopware",
@@ -638,7 +641,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-08-09T07:53:48+00:00"
+            "time": "2017-12-29T09:13:20+00:00"
         },
         {
             "name": "composer/semver",
@@ -1160,6 +1163,7 @@
                 "resize",
                 "scale"
             ],
+            "abandoned": "gumlet/php-image-resize",
             "time": "2016-08-17T17:41:24+00:00"
         },
         {
@@ -3561,16 +3565,16 @@
         },
         {
             "name": "pimple/pimple",
-            "version": "v3.2.2",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silexphp/Pimple.git",
-                "reference": "4d45fb62d96418396ec58ba76e6f065bca16e10a"
+                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/4d45fb62d96418396ec58ba76e6f065bca16e10a",
-                "reference": "4d45fb62d96418396ec58ba76e6f065bca16e10a",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/9e403941ef9d65d20cba7d54e29fe906db42cf32",
+                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32",
                 "shasum": ""
             },
             "require": {
@@ -3607,7 +3611,7 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2017-07-23T07:32:15+00:00"
+            "time": "2018-01-21T07:42:36+00:00"
         },
         {
             "name": "psr/container",
@@ -3905,16 +3909,16 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v3.4.2",
+            "version": "v3.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "eac760b414cf1f64362c3dd047b989e4db121332"
+                "reference": "e66394bc7610e69279bfdb3ab11b4fe65403f556"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/eac760b414cf1f64362c3dd047b989e4db121332",
-                "reference": "eac760b414cf1f64362c3dd047b989e4db121332",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/e66394bc7610e69279bfdb3ab11b4fe65403f556",
+                "reference": "e66394bc7610e69279bfdb3ab11b4fe65403f556",
                 "shasum": ""
             },
             "require": {
@@ -3954,7 +3958,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-14T19:40:10+00:00"
+            "time": "2018-01-03T07:37:34+00:00"
         },
         {
             "name": "wikimedia/assert",
@@ -4758,16 +4762,16 @@
     "packages-dev": [
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296"
+                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
-                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/78be803ce01e55d3491c1397cf1c64beb9c1b63b",
+                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b",
                 "shasum": ""
             },
             "require": {
@@ -4779,7 +4783,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
@@ -4813,20 +4817,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-10-11T12:05:26+00:00"
+            "time": "2018-01-30T19:27:44+00:00"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.3.14",
+            "version": "v3.3.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "f193230a7fd5051910de4e8238139921f3a40af8"
+                "reference": "cecebf98682c1a30d224a0423247259aa6c62483"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/f193230a7fd5051910de4e8238139921f3a40af8",
-                "reference": "f193230a7fd5051910de4e8238139921f3a40af8",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/cecebf98682c1a30d224a0423247259aa6c62483",
+                "reference": "cecebf98682c1a30d224a0423247259aa6c62483",
                 "shasum": ""
             },
             "require": {
@@ -4881,7 +4885,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2017-11-30T09:28:49+00:00"
+            "time": "2018-01-29T09:02:23+00:00"
         }
     ],
     "aliases": [],
