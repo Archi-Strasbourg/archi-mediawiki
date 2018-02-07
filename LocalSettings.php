@@ -52,7 +52,9 @@ $wgGroupPermissions['user']['createpage'] = true;
 //Extensions
 wfLoadSkin('archi-wiki');
 wfLoadSkin('Vector');
-enableSemantics('localhost');
+if (function_exists('enableSemantics')) {
+    enableSemantics('localhost');
+}
 wfLoadExtension('ParserFunctions');
 wfLoadExtension('Cite');
 wfLoadExtension('Comments');
