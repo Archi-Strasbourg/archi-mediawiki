@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2bb48bd6ff5cbf1a17dd0b5af1861579",
+    "content-hash": "a8dbae49b99a774618937004201e6aa5",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -93,16 +93,16 @@
         },
         {
             "name": "archi-strasbourg/archi-home",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "4da64739a7de2a0863a6cd21730ed49342050add"
+                "reference": "39a8c4079df50949c8e728d766dfb13095e5c972"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/4da64739a7de2a0863a6cd21730ed49342050add",
-                "reference": "4da64739a7de2a0863a6cd21730ed49342050add",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/39a8c4079df50949c8e728d766dfb13095e5c972",
+                "reference": "39a8c4079df50949c8e728d766dfb13095e5c972",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2017-12-28T01:31:36+00:00"
+            "time": "2018-02-19T18:28:55+00:00"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -281,16 +281,16 @@
         },
         {
             "name": "archi-strasbourg/archi-wiki-skin",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "0c729afd39dc3c0350c4d5512a61b08e6a5e92b6"
+                "reference": "e38fa742a430720c507b1996ff547ba0b82910cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/0c729afd39dc3c0350c4d5512a61b08e6a5e92b6",
-                "reference": "0c729afd39dc3c0350c4d5512a61b08e6a5e92b6",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/e38fa742a430720c507b1996ff547ba0b82910cc",
+                "reference": "e38fa742a430720c507b1996ff547ba0b82910cc",
                 "shasum": ""
             },
             "require-dev": {
@@ -314,7 +314,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2017-12-28T01:30:15+00:00"
+            "time": "2018-02-19T18:30:33+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -1716,6 +1716,32 @@
             }
         },
         {
+            "name": "mediawiki/MixedNamespaceSearchSuggestions",
+            "version": "1.29+6fffac5",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/MixedNamespaceSearchSuggestions.git",
+                "reference": "6fffac5"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/MixedNamespaceSearchSuggestions-REL1_29-6fffac5.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:MixedNamespaceSearchSuggestions",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/MixedNamespaceSearchSuggestions"
+            }
+        },
+        {
             "name": "mediawiki/MultimediaViewer",
             "version": "1.29+c76c6f4",
             "source": {
@@ -2498,16 +2524,16 @@
         },
         {
             "name": "mediawiki/semantic-media-wiki",
-            "version": "2.5.5",
+            "version": "2.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SemanticMediaWiki/SemanticMediaWiki.git",
-                "reference": "5aa7f2048be5986746b7abfe28fc52d05e0d6033"
+                "reference": "33df15ed8f0f918357d170650c90ef1bf040cef7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMediaWiki/zipball/5aa7f2048be5986746b7abfe28fc52d05e0d6033",
-                "reference": "5aa7f2048be5986746b7abfe28fc52d05e0d6033",
+                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMediaWiki/zipball/33df15ed8f0f918357d170650c90ef1bf040cef7",
+                "reference": "33df15ed8f0f918357d170650c90ef1bf040cef7",
                 "shasum": ""
             },
             "require": {
@@ -2558,7 +2584,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -2586,7 +2612,7 @@
                 "mediawiki",
                 "wiki"
             ],
-            "time": "2017-10-25T13:16:13+00:00"
+            "time": "2018-02-14T13:09:23+00:00"
         },
         {
             "name": "mediawiki/translate",
@@ -2755,20 +2781,23 @@
         },
         {
             "name": "nikic/fast-route",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "b5f95749071c82a8e0f58586987627054400cdf6"
+                "reference": "181d480e08d9476e61381e04a71b34dc0432e812"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/b5f95749071c82a8e0f58586987627054400cdf6",
-                "reference": "b5f95749071c82a8e0f58586987627054400cdf6",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/181d480e08d9476e61381e04a71b34dc0432e812",
+                "reference": "181d480e08d9476e61381e04a71b34dc0432e812",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35|~5.7"
             },
             "type": "library",
             "autoload": {
@@ -2794,7 +2823,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2017-01-19T11:35:12+00:00"
+            "time": "2018-02-13T20:26:39+00:00"
         },
         {
             "name": "onoi/blob-store",
