@@ -93,16 +93,16 @@
         },
         {
             "name": "archi-strasbourg/archi-home",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "4da64739a7de2a0863a6cd21730ed49342050add"
+                "reference": "39a8c4079df50949c8e728d766dfb13095e5c972"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/4da64739a7de2a0863a6cd21730ed49342050add",
-                "reference": "4da64739a7de2a0863a6cd21730ed49342050add",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/39a8c4079df50949c8e728d766dfb13095e5c972",
+                "reference": "39a8c4079df50949c8e728d766dfb13095e5c972",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2017-12-28T01:31:36+00:00"
+            "time": "2018-02-19T18:28:55+00:00"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -281,16 +281,16 @@
         },
         {
             "name": "archi-strasbourg/archi-wiki-skin",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "0c729afd39dc3c0350c4d5512a61b08e6a5e92b6"
+                "reference": "e38fa742a430720c507b1996ff547ba0b82910cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/0c729afd39dc3c0350c4d5512a61b08e6a5e92b6",
-                "reference": "0c729afd39dc3c0350c4d5512a61b08e6a5e92b6",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/e38fa742a430720c507b1996ff547ba0b82910cc",
+                "reference": "e38fa742a430720c507b1996ff547ba0b82910cc",
                 "shasum": ""
             },
             "require-dev": {
@@ -314,7 +314,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2017-12-28T01:30:15+00:00"
+            "time": "2018-02-19T18:30:33+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
