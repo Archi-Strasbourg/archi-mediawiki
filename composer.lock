@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2bb48bd6ff5cbf1a17dd0b5af1861579",
+    "content-hash": "a8dbae49b99a774618937004201e6aa5",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1713,6 +1713,32 @@
             ],
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Loops"
+            }
+        },
+        {
+            "name": "mediawiki/MixedNamespaceSearchSuggestions",
+            "version": "1.29+6fffac5",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/MixedNamespaceSearchSuggestions.git",
+                "reference": "6fffac5"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/MixedNamespaceSearchSuggestions-REL1_29-6fffac5.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:MixedNamespaceSearchSuggestions",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/MixedNamespaceSearchSuggestions"
             }
         },
         {

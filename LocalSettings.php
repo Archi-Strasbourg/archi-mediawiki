@@ -102,6 +102,7 @@ require_once "$IP/extensions/NukeDPL/NukeDPL.php";
 require_once "$IP/extensions/HideNamespace/HideNamespace.php";
 require_once "$IP/extensions/GoogleCustomWikiSearch/GoogleCustomWikiSearch.php";
 require_once "$IP/extensions/CirrusSearch/CirrusSearch.php";
+require_once "$IP/extensions/MixedNamespaceSearchSuggestions/MixedNamespaceSearchSuggestions.php";
 
 include_once __DIR__.'/apikeys.php';
 
