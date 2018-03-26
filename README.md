@@ -15,7 +15,7 @@ $wgDBpassword = "";
 $wgScriptPath = "/archi-mediawiki";
 ```
 
-You then need to run:
+You then need to run [Composer](https://getcomposer.org/):
 
 ```bash
 composer install
