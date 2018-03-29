@@ -20,6 +20,6 @@
     "mediawiki"
   ],
   "license": "GPL-3.0",
-  "main": "index.php",
+  "main": "Gruntfile.js",
   "repository": "https://github.com/Archi-Strasbourg/archi-mediawiki.git"
 }
