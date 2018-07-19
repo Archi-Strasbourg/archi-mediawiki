@@ -93,16 +93,16 @@
         },
         {
             "name": "archi-strasbourg/archi-home",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "39a8c4079df50949c8e728d766dfb13095e5c972"
+                "reference": "e77cea0e667fb152deeccd47ba2f4a7a98395964"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/39a8c4079df50949c8e728d766dfb13095e5c972",
-                "reference": "39a8c4079df50949c8e728d766dfb13095e5c972",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/e77cea0e667fb152deeccd47ba2f4a7a98395964",
+                "reference": "e77cea0e667fb152deeccd47ba2f4a7a98395964",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2018-02-19T18:28:55+00:00"
+            "time": "2018-07-19T16:07:09+00:00"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -277,6 +277,7 @@
                 "GPL-3.0"
             ],
             "description": "Source code for http://archi-strasbourg.org/",
+            "abandoned": "archi-strasbourg/archi-mediawiki",
             "time": "2018-01-02T13:33:20+00:00"
         },
         {
@@ -2150,6 +2151,7 @@
             ],
             "description": "Safe replacement to @ for suppressing warnings.",
             "homepage": "https://www.mediawiki.org/wiki/at-ease",
+            "abandoned": "wikimedia/at-ease",
             "time": "2015-09-18T07:02:06+00:00"
         },
         {
@@ -2677,16 +2679,16 @@
         },
         {
             "name": "mediawiki/universal-language-selector",
-            "version": "2018.01",
+            "version": "2018.07",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-UniversalLanguageSelector.git",
-                "reference": "6354b6fb1e00ab702b708dd42b9b5fa1545fd478"
+                "reference": "7d99fc07add85f96d78fced8fba7588f10246bb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-UniversalLanguageSelector/zipball/6354b6fb1e00ab702b708dd42b9b5fa1545fd478",
-                "reference": "6354b6fb1e00ab702b708dd42b9b5fa1545fd478",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-UniversalLanguageSelector/zipball/7d99fc07add85f96d78fced8fba7588f10246bb3",
+                "reference": "7d99fc07add85f96d78fced8fba7588f10246bb3",
                 "shasum": ""
             },
             "require": {
@@ -2695,9 +2697,9 @@
             },
             "require-dev": {
                 "jakub-onderka/php-console-highlighter": "0.3.2",
-                "jakub-onderka/php-parallel-lint": "0.9.2",
-                "mediawiki/mediawiki-codesniffer": "15.0.0",
-                "mediawiki/minus-x": "0.2.1"
+                "jakub-onderka/php-parallel-lint": "1.0.0",
+                "mediawiki/mediawiki-codesniffer": "19.0.0",
+                "mediawiki/minus-x": "0.3.1"
             },
             "suggest": {
                 "mediawiki/cldr": "Language names in all languages"
@@ -2705,7 +2707,7 @@
             "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+",
+                "GPL-2.0-or-later",
                 "MIT"
             ],
             "description": "The primary aim is to allow users to select a language and configure its support in an easy way. Main features are language selection, input methods and web fonts.",
@@ -2716,7 +2718,7 @@
                 "Web fonts",
                 "mediawiki"
             ],
-            "time": "2018-01-30T15:27:22+00:00"
+            "time": "2018-07-10T06:19:05+00:00"
         },
         {
             "name": "mediawiki/validator",
@@ -3335,16 +3337,16 @@
         },
         {
             "name": "param-processor/param-processor",
-            "version": "1.3.3",
+            "version": "1.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/ParamProcessor.git",
-                "reference": "22204d843604862bab2da071815d57f33b487deb"
+                "reference": "f35b06f3bebf899cf640f15362e08768ac112202"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/ParamProcessor/zipball/22204d843604862bab2da071815d57f33b487deb",
-                "reference": "22204d843604862bab2da071815d57f33b487deb",
+                "url": "https://api.github.com/repos/JeroenDeDauw/ParamProcessor/zipball/f35b06f3bebf899cf640f15362e08768ac112202",
+                "reference": "f35b06f3bebf899cf640f15362e08768ac112202",
                 "shasum": ""
             },
             "require": {
@@ -3380,13 +3382,13 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
                     "name": "Jeroen De Dauw",
                     "email": "jeroendedauw@gmail.com",
-                    "homepage": "http://jeroendedauw.com",
+                    "homepage": "https://www.entropywins.wtf",
                     "role": "Developer"
                 }
             ],
@@ -3399,7 +3401,7 @@
                 "mediawiki",
                 "validator"
             ],
-            "time": "2017-09-28T06:17:38+00:00"
+            "time": "2018-05-05T18:38:56+00:00"
         },
         {
             "name": "pear/console_getopt",
@@ -3939,16 +3941,16 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v3.4.4",
+            "version": "v3.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "e66394bc7610e69279bfdb3ab11b4fe65403f556"
+                "reference": "d2ce52290b648ae33b5301d09bc14ee378612914"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/e66394bc7610e69279bfdb3ab11b4fe65403f556",
-                "reference": "e66394bc7610e69279bfdb3ab11b4fe65403f556",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/d2ce52290b648ae33b5301d09bc14ee378612914",
+                "reference": "d2ce52290b648ae33b5301d09bc14ee378612914",
                 "shasum": ""
             },
             "require": {
@@ -3988,7 +3990,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03T07:37:34+00:00"
+            "time": "2018-05-16T12:49:49+00:00"
         },
         {
             "name": "wikimedia/assert",
@@ -4792,16 +4794,16 @@
     "packages-dev": [
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b"
+                "reference": "3296adf6a6454a050679cde90f95350ad604b171"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/78be803ce01e55d3491c1397cf1c64beb9c1b63b",
-                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/3296adf6a6454a050679cde90f95350ad604b171",
+                "reference": "3296adf6a6454a050679cde90f95350ad604b171",
                 "shasum": ""
             },
             "require": {
@@ -4813,7 +4815,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.7-dev"
+                    "dev-master": "1.8-dev"
                 }
             },
             "autoload": {
@@ -4847,11 +4849,11 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-01-30T19:27:44+00:00"
+            "time": "2018-04-26T10:06:28+00:00"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.3.16",
+            "version": "v3.3.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
