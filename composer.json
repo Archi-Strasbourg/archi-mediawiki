@@ -43,6 +43,7 @@
     "mediawiki/LookupUser": "~1.29.0",
     "mediawiki/PageImages": "~1.29.0",
     "mediawiki/MixedNamespaceSearchSuggestions": "~1.29.0",
+    "mediawiki/MetaDescriptionTag": "~0.4.0",
     "archi-strasbourg/archi-news-tab": "~1.0.0",
     "archi-strasbourg/category-breadcrumb": "~2.5.0",
     "archi-strasbourg/archi-maps": "~1.0.0",
@@ -70,6 +71,19 @@
     {
       "type": "composer",
       "url": "https://mwpackagist.netlib.re/"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mediawiki/MetaDescriptionTag",
+        "version": "0.4.0",
+        "type": "mediawiki-extension",
+        "source": {
+          "url": "https://github.com/kolzchut/mediawiki-extensions-MetaDescriptionTag.git",
+          "type": "git",
+          "reference": "0.4.0"
+        }
+      }
     }
   ],
   "scripts": {

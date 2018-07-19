@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8dbae49b99a774618937004201e6aa5",
+    "content-hash": "91107d1a9dfea9e8ae425558486dc568",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1715,6 +1715,16 @@
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Loops"
             }
+        },
+        {
+            "name": "mediawiki/MetaDescriptionTag",
+            "version": "0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kolzchut/mediawiki-extensions-MetaDescriptionTag.git",
+                "reference": "0.4.0"
+            },
+            "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/MixedNamespaceSearchSuggestions",

@@ -359,3 +359,6 @@ ExtLoops::$maxLoops = 200;
 $wgGroupPermissions['bot']['bot'] = true;
 $wgGroupPermissions['bot']['upload_by_url'] = true;
 $wgGroupPermissions['bot']['noratelimit'] = true;
+
+//MetaDescriptionTag
+wfLoadExtension('MetaDescriptionTag');

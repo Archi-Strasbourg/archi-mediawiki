@@ -1,7 +1,7 @@
 {
   "name": "archi-mediawiki",
   "description": "Port of Archi-Wiki to MediaWiki",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Pierre Rudloff",
   "bugs": "https://github.com/Archi-Strasbourg/archi-mediawiki/issues",
   "devDependencies": {
@@ -20,6 +20,6 @@
     "mediawiki"
   ],
   "license": "GPL-3.0",
-  "main": "index.php",
+  "main": "Gruntfile.js",
   "repository": "https://github.com/Archi-Strasbourg/archi-mediawiki.git"
 }
