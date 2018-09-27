@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "91107d1a9dfea9e8ae425558486dc568",
+    "content-hash": "00ab172c5c5fc7bb471e1167992e07f6",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1324,32 +1324,6 @@
                 "statsd"
             ],
             "time": "2015-07-23T23:12:45+00:00"
-        },
-        {
-            "name": "mediawiki/AddThis",
-            "version": "1.29+b6bc289",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/AddThis.git",
-                "reference": "b6bc289"
-            },
-            "dist": {
-                "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/AddThis-REL1_29-b6bc289.tar.gz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "mediawiki-extension",
-            "homepage": "https://www.mediawiki.org/wiki/Extension:AddThis",
-            "keywords": [
-                "mediawiki"
-            ],
-            "support": {
-                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/AddThis"
-            }
         },
         {
             "name": "mediawiki/Arrays",

@@ -90,7 +90,6 @@ wfLoadExtension('PageImages');
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
-require_once "$IP/extensions/AddThis/AddThis.php";
 require_once "$IP/extensions/TextExtracts/TextExtracts.php";
 require_once "$IP/extensions/Echo/Echo.php";
 require_once "$IP/extensions/Variables/Variables.php";
@@ -247,13 +246,6 @@ $wgContactConfig['membership'] = [
     ],
     'SenderEmail' => 'contact@archi-strasbourg.org',
     'SenderName'  => 'Archi-Wiki',
-];
-
-//AddThis
-$wgAddThisHeader = false;
-$wgResourceModules['ext.addThis'] = [
-    'position' => 'top',
-    'styles'   => 'addThis.css',
 ];
 
 $egMapsEnableCategory = false;
