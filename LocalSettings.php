@@ -301,6 +301,7 @@ $wgContentNamespaces[] = NS_PERSON;
 //Cache
 $wgMainCacheType = CACHE_ACCEL;
 $wgSessionCacheType = CACHE_DB;
+$wgParserCacheType = CACHE_DB;
 
 //Semantic forms
 $srfgFormats[] = 'map';
