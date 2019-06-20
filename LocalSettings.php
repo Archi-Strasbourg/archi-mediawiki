@@ -49,7 +49,13 @@ $wgGroupPermissions['user']['edit'] = true;
 $wgGroupPermissions['*']['createpage'] = false;
 $wgGroupPermissions['user']['createpage'] = true;
 
+$wgContentNamespaces = array( NS_MAIN, NS_ADDRESS);
 //Extensions
+wfLoadExtension( 'MobileFrontend' );
+wfLoadExtension( 'GeoData' );
+$wgMFNearby = true;
+#$wgMFNearbyEndpoint = 'https://archi-wiki.org/api.php?gsnamespace=4000'
+#$wgMFNearbyEndpoint = 'https://www.archi-wiki.org/api.php?gsnamespace=4000'
 wfLoadSkin('archi-wiki');
 wfLoadSkin('Vector');
 if (function_exists('enableSemantics')) {
@@ -339,6 +345,7 @@ $wgSectionsCountIgnoreSections = ['Références'];
 
 //SMW
 $smwgQDefaultLimit = 500;
+$smwgQMaxInlineLimit = 4000;
 
 //UserMerge
 $wgGroupPermissions['bureaucrat']['usermerge'] = true;
