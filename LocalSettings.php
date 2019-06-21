@@ -49,7 +49,6 @@ $wgGroupPermissions['user']['edit'] = true;
 $wgGroupPermissions['*']['createpage'] = false;
 $wgGroupPermissions['user']['createpage'] = true;
 
-$wgContentNamespaces = array( NS_MAIN, NS_ADDRESS);
 //Extensions
 wfLoadSkin('archi-wiki');
 wfLoadSkin('Vector');
