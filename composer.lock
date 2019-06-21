@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "91107d1a9dfea9e8ae425558486dc568",
+    "content-hash": "27cf220e8d1d3f60457cb562a1c8e6e3",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2792,6 +2792,62 @@
             "time": "2016-10-10T08:33:58+00:00"
         },
         {
+            "name": "mediawiki/whats-nearby",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SemanticMediaWiki/WhatsNearby.git",
+                "reference": "1489d96f86e0b007e75ef5d29f9a90695fd164b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SemanticMediaWiki/WhatsNearby/zipball/1489d96f86e0b007e75ef5d29f9a90695fd164b2",
+                "reference": "1489d96f86e0b007e75ef5d29f9a90695fd164b2",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "1.*,>=1.0.1",
+                "mediawiki/maps": "~3.5|~4.0|~5.0",
+                "onoi/shared-resources": "~0.1",
+                "php": ">=5.3.0"
+            },
+            "type": "mediawiki-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "DefaultSettings.php",
+                    "WhatsNearby.php"
+                ],
+                "psr-4": {
+                    "WNBY\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "mwjames",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides geolocation information to templates",
+            "homepage": "https://www.semantic-mediawiki.org/wiki/Extension:WhatsNearby",
+            "keywords": [
+                "geolocation",
+                "maps",
+                "mediawiki",
+                "semantic queries",
+                "semantic templates"
+            ],
+            "time": "2019-04-22T20:24:20+00:00"
+        },
+        {
             "name": "nikic/fast-route",
             "version": "v1.3.0",
             "source": {
@@ -4246,12 +4302,12 @@
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wikimedia/HtmlFormatter.git",
+                "url": "https://github.com/wikimedia/html-formatter.git",
                 "reference": "60069c2fb5e4f034e7025089cc4a1023b810d197"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/HtmlFormatter/zipball/60069c2fb5e4f034e7025089cc4a1023b810d197",
+                "url": "https://api.github.com/repos/wikimedia/html-formatter/zipball/60069c2fb5e4f034e7025089cc4a1023b810d197",
                 "reference": "60069c2fb5e4f034e7025089cc4a1023b810d197",
                 "shasum": ""
             },
@@ -4932,7 +4988,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "mediawiki/whats-nearby": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

@@ -60,7 +60,8 @@
     "archi-strasbourg/link-to-archive": "~1.0.0",
     "archi-strasbourg/archi-wiki-skin": "~1.0.0",
     "archi-strasbourg/email-login": "~1.0.0",
-    "shakeepers/hide-namespace": "~1.4.3"
+    "shakeepers/hide-namespace": "~1.4.3",
+    "mediawiki/whats-nearby": "^1.0@dev"
   },
   "require-dev": {
     "symfony/var-dumper": "~3.3.2"
