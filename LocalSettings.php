@@ -50,11 +50,6 @@ $wgGroupPermissions['*']['createpage'] = false;
 $wgGroupPermissions['user']['createpage'] = true;
 
 //Extensions
-wfLoadExtension( 'MobileFrontend' );
-wfLoadExtension( 'GeoData' );
-$wgMFNearby = true;
-#$wgMFNearbyEndpoint = 'https://archi-wiki.org/api.php?gsnamespace=4000'
-#$wgMFNearbyEndpoint = 'https://www.archi-wiki.org/api.php?gsnamespace=4000'
 wfLoadSkin('archi-wiki');
 wfLoadSkin('Vector');
 if (function_exists('enableSemantics')) {
@@ -92,6 +87,8 @@ wfLoadExtension('Elastica');
 wfLoadExtension('ArchiMove');
 wfLoadExtension('LookupUser');
 wfLoadExtension('PageImages');
+wfLoadExtension('MobileFrontend');
+wfLoadExtension('GeoData');
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
@@ -357,6 +354,7 @@ $wgCirrusSearchServers = ['localhost'];
 $wgGroupPermissions['bureaucrat']['lookupuser'] = true;
 
 //PageImages
+$wgPageImagesNamespaces[] = NS_ADDRESS;
 $wgPageImagesNamespaces[] = NS_NEWS;
 
 //Loops
@@ -369,3 +367,7 @@ $wgGroupPermissions['bot']['noratelimit'] = true;
 
 //MetaDescriptionTag
 wfLoadExtension('MetaDescriptionTag');
+
+//MobileFrontend
+$wgMFNearby = true;
+$wgMFContentNamespace = NS_ADDRESS;

@@ -60,7 +60,9 @@
     "archi-strasbourg/link-to-archive": "~1.0.0",
     "archi-strasbourg/archi-wiki-skin": "~1.0.0",
     "archi-strasbourg/email-login": "~1.0.0",
-    "shakeepers/hide-namespace": "~1.4.3"
+    "shakeepers/hide-namespace": "~1.4.3",
+    "mediawiki/GeoData": "dev-master#b96ab95f996596d98259b3a908562f5db493be22",
+    "mediawiki/MobileFrontend": "dev-master#4f7aee1ef2c60f4bb80eac8cb7b18d441ce636b2"
   },
   "require-dev": {
     "symfony/var-dumper": "~3.3.2"

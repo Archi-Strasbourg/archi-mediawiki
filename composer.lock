@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "91107d1a9dfea9e8ae425558486dc568",
+    "content-hash": "6334cc22973206bb46956e3399e3017c",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1639,6 +1639,33 @@
             }
         },
         {
+            "name": "mediawiki/GeoData",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/GeoData.git",
+                "reference": "b96ab95f996596d98259b3a908562f5db493be22"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/GeoData-master-8e77e0a.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:GeoData",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/GeoData"
+            },
+            "time": "2017-04-25T18:39:50+00:00"
+        },
+        {
             "name": "mediawiki/GoogleCustomWikiSearch",
             "version": "1.29+1c3172f",
             "source": {
@@ -1751,6 +1778,33 @@
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/MixedNamespaceSearchSuggestions"
             }
+        },
+        {
+            "name": "mediawiki/MobileFrontend",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileFrontend.git",
+                "reference": "4f7aee1ef2c60f4bb80eac8cb7b18d441ce636b2"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/MobileFrontend-master-ad889b4.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:MobileFrontend",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/MobileFrontend"
+            },
+            "time": "2017-10-12T15:52:51+00:00"
         },
         {
             "name": "mediawiki/MultimediaViewer",
@@ -4246,12 +4300,12 @@
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wikimedia/HtmlFormatter.git",
+                "url": "https://github.com/wikimedia/html-formatter.git",
                 "reference": "60069c2fb5e4f034e7025089cc4a1023b810d197"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/HtmlFormatter/zipball/60069c2fb5e4f034e7025089cc4a1023b810d197",
+                "url": "https://api.github.com/repos/wikimedia/html-formatter/zipball/60069c2fb5e4f034e7025089cc4a1023b810d197",
                 "reference": "60069c2fb5e4f034e7025089cc4a1023b810d197",
                 "shasum": ""
             },
@@ -4932,7 +4986,10 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "mediawiki/geodata": 20,
+        "mediawiki/mobilefrontend": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
