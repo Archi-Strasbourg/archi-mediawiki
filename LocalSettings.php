@@ -50,6 +50,11 @@ $wgGroupPermissions['*']['createpage'] = false;
 $wgGroupPermissions['user']['createpage'] = true;
 
 //Extensions
+wfLoadExtension( 'MobileFrontend' );
+wfLoadExtension( 'GeoData' );
+$wgMFNearby = true;
+#$wgMFNearbyEndpoint = 'https://archi-wiki.org/api.php?gsnamespace=4000'
+#$wgMFNearbyEndpoint = 'https://www.archi-wiki.org/api.php?gsnamespace=4000'
 wfLoadSkin('archi-wiki');
 wfLoadSkin('Vector');
 if (function_exists('enableSemantics')) {
