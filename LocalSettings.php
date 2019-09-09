@@ -89,6 +89,7 @@ wfLoadExtension('LookupUser');
 wfLoadExtension('PageImages');
 wfLoadExtension('MobileFrontend');
 wfLoadExtension('GeoData');
+wfLoadExtension('ArchiTweaks');
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
@@ -371,3 +372,4 @@ wfLoadExtension('MetaDescriptionTag');
 //MobileFrontend
 $wgMFNearby = true;
 $wgMFContentNamespace = NS_ADDRESS;
+$wgMFQueryPropModules = ['archiDescription'];
