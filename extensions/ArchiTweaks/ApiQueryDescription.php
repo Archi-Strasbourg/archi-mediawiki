@@ -2,8 +2,11 @@
 
 namespace ArchiTweaks;
 
+use ApiQuery;
 use ApiQueryBase;
-use ApiResult;
+use Config;
+use MediaWiki\MediaWikiServices;
+use TextExtracts\ExtractFormatter;
 
 /**
  * Class ApiQueryDescription
@@ -11,6 +14,26 @@ use ApiResult;
  * @package ArchiTweaks
  */
 class ApiQueryDescription extends ApiQueryBase {
+
+  /** @var \Config */
+  private $config;
+
+  /**
+   * ApiQueryDescription constructor.
+   *
+   * @param \ApiQuery $queryModule
+   * @param $moduleName
+   * @param string $paramPrefix
+   *
+   * @throws \ConfigException
+   */
+  public function __construct(ApiQuery $queryModule, $moduleName, $paramPrefix = '') {
+    parent::__construct($queryModule, $moduleName, $paramPrefix);
+
+    $this->config = MediaWikiServices::getInstance()
+      ->getConfigFactory()
+      ->makeConfig('textextracts');
+  }
 
   /**
    * @param $options
@@ -28,7 +51,33 @@ class ApiQueryDescription extends ApiQueryBase {
     return $api->getResult()->getResultData();
   }
 
-  function execute() {
+  /**
+   * @param $text
+   *
+   * @return string
+   */
+  private function convertText($text) {
+    $fmt = new ExtractFormatter(
+      $text,
+      TRUE,
+      $this->config
+    );
+
+    $text = trim(
+      preg_replace(
+        "/" . ExtractFormatter::SECTION_MARKER_START . '(\d)' . ExtractFormatter::SECTION_MARKER_END . "(.*?)$/m",
+        '',
+        ExtractFormatter::getFirstChars($fmt->getText(), 120)
+      )
+    );
+    if (!empty($text)) {
+      $text .= wfMessage('ellipsis')->inContentLanguage()->text();
+    }
+
+    return $text;
+  }
+
+  public function execute() {
     $result = $this->getResult();
 
     foreach ($this->getPageSet()->getGoodTitles() as $id => $title) {
@@ -41,9 +90,31 @@ class ApiQueryDescription extends ApiQueryBase {
         ]
       );
 
+      $address = '';
       if (isset($properties['query']['results'][(string) $title]) && !empty($properties['query']['results'][(string) $title]['printouts']['Adresse complète'])) {
-        $description .= $properties['query']['results'][(string) $title]['printouts']['Adresse complète'][0]['fulltext'];
+        $address = $properties['query']['results'][(string) $title]['printouts']['Adresse complète'][0]['fulltext'];
       }
+
+      // On refait manuellement ce que fait TextExtracts pour pouvoir le faire sur la section 1.
+      $extracts = $this->apiRequest(
+        [
+          'action' => 'parse',
+          'pageid' => $id,
+          'prop' => 'text',
+          'section' => 1,
+        ]
+      );
+
+      $intro = '';
+      if (isset($extracts['parse']['text'])) {
+        $intro = $this->convertText($extracts['parse']['text']);
+      }
+
+      $description .= $address;
+      if (!empty($address) && !empty($intro)) {
+        $description .= ' - ';
+      }
+      $description .= $intro;
 
       $result->addValue(
         [
@@ -71,14 +142,14 @@ class ApiQueryDescription extends ApiQueryBase {
   /**
    * @return array|false|\Message|string
    */
-  function getDescription() {
+  public function getDescription() {
     return "Remplace la propriété wikidataDescription normalement retournée par l'extension Wikidata, pour que Special:Nearby puisse l'utiliser.";
   }
 
   /**
    * @return bool
    */
-  function isInternal() {
+  public function isInternal() {
     return TRUE;
   }
 
