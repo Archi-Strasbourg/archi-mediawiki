@@ -4,7 +4,7 @@ namespace ArchiTweaks;
 
 use ApiQuery;
 use ApiQueryBase;
-use Config;
+use Title;
 use MediaWiki\MediaWikiServices;
 use TextExtracts\ExtractFormatter;
 
@@ -77,6 +77,41 @@ class ApiQueryDescription extends ApiQueryBase {
     return $text;
   }
 
+  /**
+   * @param \Title $title
+   *
+   * @return mixed|string
+   */
+  private function getIntro(Title $title) {
+    global $wgMemc;
+
+    $id = $title->getArticleID();
+
+    $key = wfMemcKey('archidescription', $id, $title->getTouched());
+    $result = $wgMemc->get($key);
+
+    if (!$result) {
+      // On refait manuellement ce que fait TextExtracts pour pouvoir le faire sur la section 1.
+      $extracts = $this->apiRequest(
+        [
+          'action' => 'parse',
+          'pageid' => $id,
+          'prop' => 'text',
+          'section' => 1,
+        ]
+      );
+
+      $result = '';
+      if (isset($extracts['parse']['text'])) {
+        $result = $this->convertText($extracts['parse']['text']);
+      }
+
+      $wgMemc->set($key, $result);
+    }
+
+    return $result;
+  }
+
   public function execute() {
     $result = $this->getResult();
 
@@ -95,20 +130,7 @@ class ApiQueryDescription extends ApiQueryBase {
         $address = $properties['query']['results'][(string) $title]['printouts']['Adresse complète'][0]['fulltext'];
       }
 
-      // On refait manuellement ce que fait TextExtracts pour pouvoir le faire sur la section 1.
-      $extracts = $this->apiRequest(
-        [
-          'action' => 'parse',
-          'pageid' => $id,
-          'prop' => 'text',
-          'section' => 1,
-        ]
-      );
-
-      $intro = '';
-      if (isset($extracts['parse']['text'])) {
-        $intro = $this->convertText($extracts['parse']['text']);
-      }
+      $intro = $this->getIntro($title);
 
       $description .= $address;
       if (!empty($address) && !empty($intro)) {
