@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6334cc22973206bb46956e3399e3017c",
+    "content-hash": "4165a22fc0e3580b0f0cca411fecdf62",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -282,16 +282,16 @@
         },
         {
             "name": "archi-strasbourg/archi-wiki-skin",
-            "version": "1.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "e38fa742a430720c507b1996ff547ba0b82910cc"
+                "reference": "752d88a128fb5d7a96f96d53fbc3fe97ffd3554b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/e38fa742a430720c507b1996ff547ba0b82910cc",
-                "reference": "e38fa742a430720c507b1996ff547ba0b82910cc",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/752d88a128fb5d7a96f96d53fbc3fe97ffd3554b",
+                "reference": "752d88a128fb5d7a96f96d53fbc3fe97ffd3554b",
                 "shasum": ""
             },
             "require-dev": {
@@ -315,7 +315,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2018-02-19T18:30:33+00:00"
+            "time": "2019-09-11T09:04:59+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -4987,6 +4987,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "archi-strasbourg/archi-wiki-skin": 20,
         "mediawiki/geodata": 20,
         "mediawiki/mobilefrontend": 20
     },

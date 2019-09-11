@@ -58,7 +58,7 @@
     "archi-strasbourg/sections-count": "~1.0.0",
     "archi-strasbourg/language-code": "~1.0.0",
     "archi-strasbourg/link-to-archive": "~1.0.0",
-    "archi-strasbourg/archi-wiki-skin": "~1.0.0",
+    "archi-strasbourg/archi-wiki-skin": "dev-master",
     "archi-strasbourg/email-login": "~1.0.0",
     "shakeepers/hide-namespace": "~1.4.3",
     "mediawiki/GeoData": "dev-master#b96ab95f996596d98259b3a908562f5db493be22",
