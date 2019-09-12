@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4165a22fc0e3580b0f0cca411fecdf62",
+    "content-hash": "878ebdad846f3233ee7b45a5c7176240",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -36,20 +36,20 @@
         },
         {
             "name": "archi-strasbourg/archi-comments",
-            "version": "1.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments.git",
-                "reference": "2b42ad59fa9b463caf37015d244f2a050152ebb9"
+                "reference": "45143f0e7fb9d3c83bb8ec0f88a2ae4c81c903d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/2b42ad59fa9b463caf37015d244f2a050152ebb9",
-                "reference": "2b42ad59fa9b463caf37015d244f2a050152ebb9",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/45143f0e7fb9d3c83bb8ec0f88a2ae4c81c903d8",
+                "reference": "45143f0e7fb9d3c83bb8ec0f88a2ae4c81c903d8",
                 "shasum": ""
             },
             "require": {
-                "archi-strasbourg/archi-home": "^1.0.0",
+                "archi-strasbourg/archi-home": "*",
                 "mediawiki/comments": "~1.26"
             },
             "require-dev": {
@@ -61,7 +61,7 @@
                 "GPL-3.0"
             ],
             "description": "Comments page for archi-wiki.org",
-            "time": "2018-02-05T15:15:27+00:00"
+            "time": "2019-09-12T10:31:36+00:00"
         },
         {
             "name": "archi-strasbourg/archi-footer",
@@ -93,16 +93,16 @@
         },
         {
             "name": "archi-strasbourg/archi-home",
-            "version": "1.0.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "e77cea0e667fb152deeccd47ba2f4a7a98395964"
+                "reference": "7e374fce84253d1d3a225eda0d0919655ce863e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/e77cea0e667fb152deeccd47ba2f4a7a98395964",
-                "reference": "e77cea0e667fb152deeccd47ba2f4a7a98395964",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/7e374fce84253d1d3a225eda0d0919655ce863e7",
+                "reference": "7e374fce84253d1d3a225eda0d0919655ce863e7",
                 "shasum": ""
             },
             "require": {
@@ -117,20 +117,20 @@
                 "GPL-3.0"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2018-07-19T16:07:09+00:00"
+            "time": "2019-09-12T10:37:25+00:00"
         },
         {
             "name": "archi-strasbourg/archi-maps",
-            "version": "1.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
-                "reference": "c899ee41b99bbfa1e08e0a3eeed6aa720d924282"
+                "reference": "04c60b81496820f971d98d0c8476de8e294b50cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/c899ee41b99bbfa1e08e0a3eeed6aa720d924282",
-                "reference": "c899ee41b99bbfa1e08e0a3eeed6aa720d924282",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/04c60b81496820f971d98d0c8476de8e294b50cf",
+                "reference": "04c60b81496820f971d98d0c8476de8e294b50cf",
                 "shasum": ""
             },
             "require-dev": {
@@ -149,7 +149,7 @@
                 }
             ],
             "description": "Map plugin for archi-wiki.org",
-            "time": "2017-12-28T01:17:29+00:00"
+            "time": "2019-09-12T13:19:43+00:00"
         },
         {
             "name": "archi-strasbourg/archi-mediawiki-redirect",
@@ -4987,6 +4987,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "archi-strasbourg/archi-maps": 20,
+        "archi-strasbourg/archi-comments": 20,
+        "archi-strasbourg/archi-home": 20,
         "archi-strasbourg/archi-wiki-skin": 20,
         "mediawiki/geodata": 20,
         "mediawiki/mobilefrontend": 20
