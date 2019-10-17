@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "878ebdad846f3233ee7b45a5c7176240",
+    "content-hash": "1a7be0a06acb0e8731c6ee28607f65ef",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -40,16 +40,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments.git",
-                "reference": "45143f0e7fb9d3c83bb8ec0f88a2ae4c81c903d8"
+                "reference": "a349309ac8319072d98c0e748b3faa3002690f0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/45143f0e7fb9d3c83bb8ec0f88a2ae4c81c903d8",
-                "reference": "45143f0e7fb9d3c83bb8ec0f88a2ae4c81c903d8",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/a349309ac8319072d98c0e748b3faa3002690f0c",
+                "reference": "a349309ac8319072d98c0e748b3faa3002690f0c",
                 "shasum": ""
             },
             "require": {
-                "archi-strasbourg/archi-home": "*",
+                "archi-strasbourg/archi-home": "^1.0.0",
                 "mediawiki/comments": "~1.26"
             },
             "require-dev": {
@@ -61,7 +61,7 @@
                 "GPL-3.0"
             ],
             "description": "Comments page for archi-wiki.org",
-            "time": "2019-09-12T10:31:36+00:00"
+            "time": "2019-10-17T08:43:17+00:00"
         },
         {
             "name": "archi-strasbourg/archi-footer",
@@ -490,16 +490,16 @@
         },
         {
             "name": "archi-strasbourg/sections-count",
-            "version": "1.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-sections-count.git",
-                "reference": "9f0aae0ffe8aee9e78d79bf53fa5ba68716bbef6"
+                "reference": "bc3c05cc8089588c1187cb0040acba53fd488a4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-sections-count/zipball/9f0aae0ffe8aee9e78d79bf53fa5ba68716bbef6",
-                "reference": "9f0aae0ffe8aee9e78d79bf53fa5ba68716bbef6",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-sections-count/zipball/bc3c05cc8089588c1187cb0040acba53fd488a4e",
+                "reference": "bc3c05cc8089588c1187cb0040acba53fd488a4e",
                 "shasum": ""
             },
             "require-dev": {
@@ -522,7 +522,7 @@
                 }
             ],
             "description": "MediaWiki magic word that displays the number of sections in a page",
-            "time": "2017-12-28T01:16:04+00:00"
+            "time": "2019-10-17T08:51:29+00:00"
         },
         {
             "name": "composer/installers",
@@ -4984,12 +4984,26 @@
             "time": "2018-01-29T09:02:23+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "1.0.x-dev",
+            "alias_normalized": "1.0.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "archi-strasbourg/archi-home"
+        },
+        {
+            "alias": "1.0.x-dev",
+            "alias_normalized": "1.0.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "archi-strasbourg/sections-count"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "archi-strasbourg/archi-maps": 20,
         "archi-strasbourg/archi-comments": 20,
         "archi-strasbourg/archi-home": 20,
+        "archi-strasbourg/sections-count": 20,
         "archi-strasbourg/archi-wiki-skin": 20,
         "mediawiki/geodata": 20,
         "mediawiki/mobilefrontend": 20
