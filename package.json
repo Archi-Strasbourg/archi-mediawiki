@@ -5,7 +5,7 @@
   "author": "Pierre Rudloff",
   "bugs": "https://github.com/Archi-Strasbourg/archi-mediawiki/issues",
   "devDependencies": {
-    "grunt": "~1.0.1",
+    "grunt": "^1.0.4",
     "grunt-fixpack": "~0.1.0",
     "grunt-jslint": "~1.1.14",
     "grunt-jsonlint": "~1.1.0",
