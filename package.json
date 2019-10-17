@@ -18,5 +18,8 @@
   ],
   "license": "GPL-3.0",
   "main": "Gruntfile.js",
-  "repository": "https://github.com/Archi-Strasbourg/archi-mediawiki.git"
+  "repository": "https://github.com/Archi-Strasbourg/archi-mediawiki.git",
+  "resolutions": {
+    "grunt-fixpack/fixpack/rc": "^1.2.8"
+  }
 }
