@@ -40,6 +40,7 @@ $wgExternalLinkTarget = '_blank';
 $wgEmailConfirmToEdit = true;
 $wgPasswordAttemptThrottle = false;
 $wgCategoryCollation = 'numeric';
+$wgMaxArticleSize = 4096;
 
 setlocale(LC_TIME, 'fr_FR');
 
