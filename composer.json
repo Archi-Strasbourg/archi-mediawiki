@@ -1,7 +1,7 @@
 {
   "name": "archi-strasbourg/archi-mediawiki",
   "description": "Port of Archi-Wiki to MediaWiki",
-  "license": "GPL-3.0",
+  "license": "GPL-3.0-only",
   "type": "project",
   "replace": {
     "rudloff/mediawiki-composer": "~0.1.3"
