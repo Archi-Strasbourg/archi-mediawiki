@@ -45,7 +45,7 @@
     "mediawiki/MixedNamespaceSearchSuggestions": "~1.29.0",
     "mediawiki/MetaDescriptionTag": "~0.4.0",
     "archi-strasbourg/archi-news-tab": "~1.0.0",
-    "archi-strasbourg/category-breadcrumb": "~2.5.0",
+    "archi-strasbourg/category-breadcrumb": "^2.6",
     "archi-strasbourg/archi-maps": "dev-master",
     "archi-strasbourg/archi-blog": "~1.0.0",
     "archi-strasbourg/archi-comments": "dev-master",

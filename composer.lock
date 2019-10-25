@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a7be0a06acb0e8731c6ee28607f65ef",
+    "content-hash": "fef3ef5b7fbce4df54dfeac0c9af8545",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -286,12 +286,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "9e56747808b2c192aafd70679a5d26e441877d92"
+                "reference": "446b141df914393883d61b9b9a525a442c79e09d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/9e56747808b2c192aafd70679a5d26e441877d92",
-                "reference": "9e56747808b2c192aafd70679a5d26e441877d92",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/446b141df914393883d61b9b9a525a442c79e09d",
+                "reference": "446b141df914393883d61b9b9a525a442c79e09d",
                 "shasum": ""
             },
             "require-dev": {
@@ -315,20 +315,20 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2019-09-17T15:52:04+00:00"
+            "time": "2019-10-25T09:53:59+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-category-breadcrumb.git",
-                "reference": "79443d717a2c090a5e9876e8cdee7104a648f60c"
+                "reference": "c8ddbf6f25a0eadbd8f39385e2f60eb955319d8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/79443d717a2c090a5e9876e8cdee7104a648f60c",
-                "reference": "79443d717a2c090a5e9876e8cdee7104a648f60c",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/c8ddbf6f25a0eadbd8f39385e2f60eb955319d8a",
+                "reference": "c8ddbf6f25a0eadbd8f39385e2f60eb955319d8a",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -337,7 +337,7 @@
                 "proprietary"
             ],
             "description": "Provides DMOZ-style category breadcrumbs",
-            "time": "2017-09-07T16:54:51+00:00"
+            "time": "2017-12-28T01:07:13+00:00"
         },
         {
             "name": "archi-strasbourg/email-login",
