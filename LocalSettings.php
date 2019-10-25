@@ -91,6 +91,7 @@ wfLoadExtension('PageImages');
 wfLoadExtension('MobileFrontend');
 wfLoadExtension('GeoData');
 wfLoadExtension('ArchiTweaks');
+wfLoadExtension('BlockAndNuke');
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";

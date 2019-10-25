@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fef3ef5b7fbce4df54dfeac0c9af8545",
+    "content-hash": "95890a2bb985d0226404c8ee3dad96f0",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1377,6 +1377,30 @@
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Arrays"
             }
+        },
+        {
+            "name": "mediawiki/BlockAndNuke",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/BlockAndNuke.git",
+                "reference": "aef35514b97f8005a55a05fdc1fd191e9309d9b3"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/BlockAndNuke-master-17cb8cc.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:BlockAndNuke",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/BlockAndNuke"
+            },
+            "time": "2017-09-22T21:21:38+00:00"
         },
         {
             "name": "mediawiki/CirrusSearch",
@@ -5006,7 +5030,8 @@
         "archi-strasbourg/sections-count": 20,
         "archi-strasbourg/archi-wiki-skin": 20,
         "mediawiki/geodata": 20,
-        "mediawiki/mobilefrontend": 20
+        "mediawiki/mobilefrontend": 20,
+        "mediawiki/blockandnuke": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
