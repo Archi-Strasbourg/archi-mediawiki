@@ -377,3 +377,6 @@ wfLoadExtension('MetaDescriptionTag');
 $wgMFNearby = true;
 $wgMFContentNamespace = NS_ADDRESS;
 $wgMFQueryPropModules = ['archiDescription'];
+
+// BlockAndNuke
+$wgWhitelist = $IP . '/whitelist.txt';
