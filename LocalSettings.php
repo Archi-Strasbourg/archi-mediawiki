@@ -77,7 +77,7 @@ wfLoadExtension('UniversalLanguageSelector');
 wfLoadExtension('CleanChanges');
 wfLoadExtension('LanguageCode');
 wfLoadExtension('LinkToArchive');
-wfLoadExtensions(['ConfirmEdit', 'ConfirmEdit/ReCaptchaNoCaptcha']);
+wfLoadExtensions(['ConfirmEdit', 'ConfirmEdit/QuestyCaptcha']);
 wfLoadExtension('PageForms');
 wfLoadExtension('SemanticFormsSelect');
 wfLoadExtension('EmailLogin');
@@ -133,8 +133,10 @@ $wgUploadWizardConfig['uwLanguages'] = [
 ];
 $wgFileExtensions[] = 'pdf';
 
-//ReCaptcha
-$wgCaptchaClass = 'ReCaptchaNoCaptcha';
+// Captcha
+$wgCaptchaQuestions = [
+    'Quelle est la capitale de la France ?' => 'Paris'
+];
 $wgCaptchaTriggers['contactpage'] = true;
 
 //Footer
