@@ -380,3 +380,4 @@ $wgMFQueryPropModules = ['archiDescription'];
 
 // BlockAndNuke
 $wgWhitelist = $IP . '/whitelist.txt';
+$wgBaNnomerge = true;

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "95890a2bb985d0226404c8ee3dad96f0",
+    "content-hash": "441277a31e2c3ba758c69d35f162212e",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -773,6 +773,50 @@
             "time": "2017-03-14T20:57:08+00:00"
         },
         {
+            "name": "cweagans/composer-patches",
+            "version": "1.6.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cweagans/composer-patches.git",
+                "reference": "2e6f72a2ad8d59cd7e2b729f218bf42adb14f590"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/2e6f72a2ad8d59cd7e2b729f218bf42adb14f590",
+                "reference": "2e6f72a2ad8d59cd7e2b729f218bf42adb14f590",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0",
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "cweagans\\Composer\\Patches"
+            },
+            "autoload": {
+                "psr-4": {
+                    "cweagans\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Cameron Eagans",
+                    "email": "me@cweagans.net"
+                }
+            ],
+            "description": "Provides a way to patch Composer packages.",
+            "time": "2019-08-29T20:11:49+00:00"
+        },
+        {
             "name": "data-values/common",
             "version": "0.4.1",
             "source": {
@@ -1388,7 +1432,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/BlockAndNuke-master-17cb8cc.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/BlockAndNuke-master-5cb0db5.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -1396,6 +1440,11 @@
                 "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension",
+            "extra": {
+                "patches_applied": {
+                    "Pas de merge": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-BlockAndNuke/pull/3.diff"
+                }
+            },
             "homepage": "https://www.mediawiki.org/wiki/Extension:BlockAndNuke",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/BlockAndNuke"
