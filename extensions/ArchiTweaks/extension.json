@@ -9,6 +9,12 @@
     }
   },
   "AutoloadClasses": {
-    "ArchiTweaks\\ApiQueryDescription": "ApiQueryDescription.php"
+    "ArchiTweaks\\ApiQueryDescription": "ApiQueryDescription.php",
+    "ArchiTweaks\\Hooks": "Hooks.php"
+  },
+  "Hooks": {
+    "PageContentInsertComplete": [
+      "ArchiTweaks\\Hooks::onPageContentInsertComplete"
+    ]
   }
 }
