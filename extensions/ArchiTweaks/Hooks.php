@@ -41,6 +41,15 @@ class Hooks
                     'content' => '{{Infobox sous-quartier|quartier=Autre (' . $titleText . ')}}'
                 ];
             }
+
+            // Quartier
+            if (strpos($contentText, 'Infobox quartier') !== false) {
+                // Sous-quartier
+                $toCreate[] = [
+                    'title' => 'Catégorie:Autre (' . $titleText . ')',
+                    'content' => '{{Infobox sous-quartier|quartier=' . $titleText . '}}'
+                ];
+            }
         }
 
         foreach ($toCreate as $newPageInfo) {
