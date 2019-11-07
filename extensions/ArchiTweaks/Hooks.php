@@ -32,15 +32,13 @@ class Hooks
                 // Quartier
                 $toCreate[] = [
                     'title' => 'Catégorie:Autre (' . $titleText . ')',
-                    'content' => '{{Infobox quartier}}' . PHP_EOL .
-                        '[[Catégorie:' . $titleText . ']]'
+                    'content' => '{{Infobox quartier|ville=' . $titleText . '}}'
                 ];
 
                 // Sous-quartier
                 $toCreate[] = [
                     'title' => 'Catégorie:Autre (autre) (' . $titleText . ')',
-                    'content' => '{{Infobox quartier}}' . PHP_EOL .
-                        '[[Catégorie:autre (' . $titleText . ')]]'
+                    'content' => '{{Infobox sous-quartier|quartier=Autre (' . $titleText . ')}}'
                 ];
             }
         }
