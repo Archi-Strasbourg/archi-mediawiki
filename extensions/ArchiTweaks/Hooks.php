@@ -34,12 +34,6 @@ class Hooks
                     'title' => 'Catégorie:Autre (' . $titleText . ')',
                     'content' => '{{Infobox quartier|ville=' . $titleText . '}}'
                 ];
-
-                // Sous-quartier
-                $toCreate[] = [
-                    'title' => 'Catégorie:Autre (autre) (' . $titleText . ')',
-                    'content' => '{{Infobox sous-quartier|quartier=Autre (' . $titleText . ')}}'
-                ];
             }
 
             // Quartier
