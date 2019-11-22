@@ -317,6 +317,7 @@ $srfgFormats[] = 'map';
 $wgCommentsSortDescending = true;
 $wgGroupPermissions['*']['comment'] = false;
 $wgGroupPermissions['user']['comment'] = true;
+$wgGroupPermissions['sysop']['commentadmin'] = true;
 
 //Translate
 $wgEnablePageTranslation = true;
