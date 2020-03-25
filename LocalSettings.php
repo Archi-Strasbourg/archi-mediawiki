@@ -118,6 +118,30 @@ $wgVirtualRestConfig['modules']['parsoid'] = [
     'prefix' => 'localhost',
 ];
 $wgVisualEditorSupportedSkins = ['vector', 'archiwiki'];
+$wgUploadDialog = [
+    'fields' => [
+        'description' => true,
+        'date' => true,
+    ],
+    'licensemessages' => [
+        'local' => 'generic-local',
+        'foreign' => 'generic-foreign',
+    ],
+    'comment' => 'Import depuis l\'éditeur visuel sur la page $PAGENAME',
+    'format' => [
+        'filepage' => '{{Infobox image
+|description=$DESCRIPTION
+|date=$DATE
+|auteur=$AUTHOR
+|licence =$LICENSE
+|tags =
+|source=$SOURCE
+}}',
+        'description' => '$TEXT',
+        'ownwork' => 'Travail personnel',
+        'license' => '{{Modèle:CC-BY-SA}}',
+    ],
+];
 
 //UploadWizard
 $wgExtensionFunctions[] = function () {
