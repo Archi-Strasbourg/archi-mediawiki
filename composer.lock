@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "624cc0c6996244c5cdd843356d9686c2",
+    "content-hash": "231adb2b6543c02209d5a8e6eb16a418",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
-            "version": "1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog.git",
-                "reference": "2b1455ce801038cc68e7151372ec251fb5f61a8d"
+                "reference": "1e81a575a34401ab24515b28ff6ef48bd5f8dad5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/2b1455ce801038cc68e7151372ec251fb5f61a8d",
-                "reference": "2b1455ce801038cc68e7151372ec251fb5f61a8d",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/1e81a575a34401ab24515b28ff6ef48bd5f8dad5",
+                "reference": "1e81a575a34401ab24515b28ff6ef48bd5f8dad5",
                 "shasum": ""
             },
             "require": {
@@ -29,10 +29,10 @@
             "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0"
+                "GPL-3.0-only"
             ],
             "description": "Blog page for archi-wiki.org",
-            "time": "2017-09-07T16:32:55+00:00"
+            "time": "2020-04-15T09:44:47+00:00"
         },
         {
             "name": "archi-strasbourg/archi-comments",
@@ -97,12 +97,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "7e374fce84253d1d3a225eda0d0919655ce863e7"
+                "reference": "9134c91bb2c1234881418765b38fefea4533cbc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/7e374fce84253d1d3a225eda0d0919655ce863e7",
-                "reference": "7e374fce84253d1d3a225eda0d0919655ce863e7",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/9134c91bb2c1234881418765b38fefea4533cbc4",
+                "reference": "9134c91bb2c1234881418765b38fefea4533cbc4",
                 "shasum": ""
             },
             "require": {
@@ -114,10 +114,10 @@
             "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0"
+                "GPL-3.0-only"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2019-09-12T10:37:25+00:00"
+            "time": "2020-04-15T09:51:46+00:00"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -735,6 +735,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
@@ -1380,9 +1381,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/AddThis-REL1_29-b6bc289.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/AddThis-REL1_29-b6bc289.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1406,9 +1405,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Arrays-REL1_29-e72aa5b.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Arrays-REL1_29-e72aa5b.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1432,9 +1429,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/BlockAndNuke-master-5cb0db5.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/BlockAndNuke-master-5cb0db5.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1462,9 +1457,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/CirrusSearch-REL1_29-7005f38.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/CirrusSearch-REL1_29-7005f38.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1488,9 +1481,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Cite-REL1_29-5b01316.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Cite-REL1_29-5b01316.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1514,9 +1505,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/CleanChanges-REL1_29-0f74845.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/CleanChanges-REL1_29-0f74845.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1540,9 +1529,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Comments-REL1_29-2b8b9d4.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Comments-REL1_29-2b8b9d4.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1566,9 +1553,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/CommonsMetadata-REL1_29-cb5895a.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/CommonsMetadata-REL1_29-cb5895a.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1592,9 +1577,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_29-6925a22.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_29-6925a22.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1618,9 +1601,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/ContactPage-REL1_29-d269558.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/ContactPage-REL1_29-d269558.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1644,9 +1625,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/DynamicPageList-REL1_29-969980b.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/DynamicPageList-REL1_29-969980b.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1670,9 +1649,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Echo-REL1_29-a3fd1af.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Echo-REL1_29-a3fd1af.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1696,9 +1673,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Elastica-REL1_29-e2a9593.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Elastica-REL1_29-e2a9593.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1722,9 +1697,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/GeoData-master-8e77e0a.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/GeoData-master-8e77e0a.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1749,9 +1722,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/GoogleCustomWikiSearch-REL1_29-1c3172f.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/GoogleCustomWikiSearch-REL1_29-1c3172f.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1775,9 +1746,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/LookupUser-REL1_29-d175349.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/LookupUser-REL1_29-d175349.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1801,9 +1770,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Loops-REL1_29-f9fe1ad.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Loops-REL1_29-f9fe1ad.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1837,9 +1804,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/MixedNamespaceSearchSuggestions-REL1_29-6fffac5.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/MixedNamespaceSearchSuggestions-REL1_29-6fffac5.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1863,9 +1828,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/MobileFrontend-master-ad889b4.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/MobileFrontend-master-ad889b4.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1890,9 +1853,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/MultimediaViewer-REL1_29-c76c6f4.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/MultimediaViewer-REL1_29-c76c6f4.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1916,9 +1877,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Newsletter-REL1_29-83d6001.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Newsletter-REL1_29-83d6001.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1942,9 +1901,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Nuke-REL1_29-5a1d3c4.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Nuke-REL1_29-5a1d3c4.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1968,9 +1925,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/NukeDPL-REL1_29-19237d8.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/NukeDPL-REL1_29-19237d8.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1994,9 +1949,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/PageImages-REL1_29-68f89b2.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/PageImages-REL1_29-68f89b2.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2020,9 +1973,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/ParserFunctions-REL1_29-ec53ace.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/ParserFunctions-REL1_29-ec53ace.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2046,9 +1997,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/ReplaceText-REL1_29-b02d10f.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/ReplaceText-REL1_29-b02d10f.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2072,9 +2021,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/TemplateData-REL1_29-a8ecd7a.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/TemplateData-REL1_29-a8ecd7a.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2098,9 +2045,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/TextExtracts-REL1_29-aecd1c8.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/TextExtracts-REL1_29-aecd1c8.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2124,9 +2069,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/UploadWizard-REL1_29-434cd35.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/UploadWizard-REL1_29-434cd35.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2150,9 +2093,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/UserMerge-REL1_29-de5f67d.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/UserMerge-REL1_29-de5f67d.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2176,9 +2117,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Variables-REL1_29-7a95992.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Variables-REL1_29-7a95992.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2202,9 +2141,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/skins/Vector-REL1_29-380951d.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/skins/Vector-REL1_29-380951d.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2228,9 +2165,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/VisualEditor-REL1_29-ef45039.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/VisualEditor-REL1_29-ef45039.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3471,6 +3406,7 @@
                 "php",
                 "stylesheet"
             ],
+            "abandoned": true,
             "time": "2017-03-28T22:19:25+00:00"
         },
         {
@@ -5075,6 +5011,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "archi-strasbourg/archi-maps": 20,
+        "archi-strasbourg/archi-blog": 20,
         "archi-strasbourg/archi-comments": 20,
         "archi-strasbourg/archi-home": 20,
         "archi-strasbourg/sections-count": 20,
@@ -5086,5 +5023,6 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

@@ -47,7 +47,7 @@
     "archi-strasbourg/archi-news-tab": "~1.0.0",
     "archi-strasbourg/category-breadcrumb": "^2.6",
     "archi-strasbourg/archi-maps": "dev-master",
-    "archi-strasbourg/archi-blog": "~1.0.0",
+    "archi-strasbourg/archi-blog": "dev-master",
     "archi-strasbourg/archi-comments": "dev-master",
     "archi-strasbourg/archi-home": "dev-master as 1.0.x-dev",
     "archi-strasbourg/archi-footer": "~1.0.0",
