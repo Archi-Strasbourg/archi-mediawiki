@@ -159,9 +159,11 @@ $wgFileExtensions[] = 'pdf';
 
 // Captcha
 $wgCaptchaQuestions = [
-    'Quelle est la capitale de la France ?' => 'Paris'
+    "Quel est la couleur du logo d'Archi-Wiki ?" => 'noir',
+    'Où se trouve le siège du Parlement Européen ?' => 'Strasbourg'
 ];
 $wgCaptchaTriggers['contactpage'] = true;
+$wgRateLimits['badcaptcha']['ip'] = ['3', '60'];
 
 //Footer
 $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
