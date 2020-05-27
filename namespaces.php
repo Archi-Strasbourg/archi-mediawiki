@@ -10,3 +10,6 @@ define('NS_NEWS_TALK', 4005);
 define('NS_PERSON', 4006);
 define('NS_PERSON_TALK', 4007);
 define('NS_ROUTE', 4008);
+define('NS_ROUTE_TALK', 4009);
+define('NS_BRIEF', 4010);
+define('NS_BRIEF_TALK', 4011);

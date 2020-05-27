@@ -311,6 +311,9 @@ $wgNamespaceAliases['Discussion_actualité'] = NS_NEWS_TALK;
 $wgExtraNamespaces[NS_PERSON] = 'Personne';
 $wgExtraNamespaces[NS_PERSON_TALK] = 'Discussion_personne';
 $wgExtraNamespaces[NS_ROUTE] = 'Parcours';
+$wgExtraNamespaces[NS_ROUTE_TALK] = 'Discussion_parcours';
+$wgExtraNamespaces[NS_BRIEF] = 'Brève';
+$wgExtraNamespaces[NS_BRIEF_TALK] = 'Discussion_brève';
 
 $wgNamespacesWithSubpages[NS_ADDRESS] = true;
 $wgNamespacesWithSubpages[NS_ADDRESS_NEWS] = true;
@@ -327,6 +330,7 @@ $smwgNamespacesWithSemanticLinks[NS_PERSON] = true;
 $smwgNamespacesWithSemanticLinks[NS_USER] = true;
 $smwgNamespacesWithSemanticLinks[NS_SOURCE] = true;
 $smwgNamespacesWithSemanticLinks[NS_NEWS] = true;
+$smwgNamespacesWithSemanticLinks[NS_BRIEF] = true;
 $wgNamespacesToBeSearchedDefault[NS_ADDRESS] = true;
 $wgNamespacesToBeSearchedDefault[NS_PERSON] = true;
 
