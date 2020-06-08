@@ -350,6 +350,7 @@ $wgCommentsSortDescending = true;
 $wgGroupPermissions['*']['comment'] = false;
 $wgGroupPermissions['user']['comment'] = true;
 $wgGroupPermissions['sysop']['commentadmin'] = true;
+$wgCommentsDefaultAvatar = '/assets/default_ml.gif';
 
 //Translate
 $wgEnablePageTranslation = true;
