@@ -92,6 +92,7 @@ wfLoadExtension('MobileFrontend');
 wfLoadExtension('GeoData');
 wfLoadExtension('ArchiTweaks');
 wfLoadExtension('BlockAndNuke');
+wfLoadExtension('DismissableSiteNotice');
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
@@ -415,3 +416,6 @@ $wgMFQueryPropModules = ['archiDescription'];
 // BlockAndNuke
 $wgWhitelist = $IP . '/whitelist.txt';
 $wgBaNnomerge = true;
+
+// DismissableSiteNotice
+$wgDismissableSiteNoticeForAnons = true;

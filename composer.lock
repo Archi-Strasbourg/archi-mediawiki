@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "231adb2b6543c02209d5a8e6eb16a418",
+    "content-hash": "6b9563c8b4cebc11f70a3c6f49d0d63d",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1613,6 +1613,27 @@
             ],
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/ContactPage"
+            }
+        },
+        {
+            "name": "mediawiki/DismissableSiteNotice",
+            "version": "1.31+73a6b72",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/DismissableSiteNotice.git",
+                "reference": "73a6b72"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/DismissableSiteNotice-REL1_31-73a6b72.tar.gz"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:DismissableSiteNotice",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/DismissableSiteNotice"
             }
         },
         {
