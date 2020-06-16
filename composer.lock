@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5883a90e07dfc50db00965a733eca889",
+    "content-hash": "e4b435d4f507c1433fc63aa5d26db05f",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -5031,15 +5031,15 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "archi-strasbourg/archi-maps": 20,
         "archi-strasbourg/archi-blog": 20,
         "archi-strasbourg/archi-comments": 20,
         "archi-strasbourg/archi-home": 20,
-        "archi-strasbourg/sections-count": 20,
+        "archi-strasbourg/archi-maps": 20,
         "archi-strasbourg/archi-wiki-skin": 20,
+        "archi-strasbourg/sections-count": 20,
+        "mediawiki/blockandnuke": 20,
         "mediawiki/geodata": 20,
-        "mediawiki/mobilefrontend": 20,
-        "mediawiki/blockandnuke": 20
+        "mediawiki/mobilefrontend": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
