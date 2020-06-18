@@ -380,6 +380,8 @@ $wgSectionsCountIgnoreSections = ['Références'];
 //SMW
 $smwgQDefaultLimit = 500;
 $smwgQMaxInlineLimit = 4000;
+$smwgQMaxLimit = 20000;
+$smwgQUpperbound = 20000;
 
 //UserMerge
 $wgGroupPermissions['bureaucrat']['usermerge'] = true;
