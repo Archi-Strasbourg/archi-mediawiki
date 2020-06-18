@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d12f32dd601b6795e8797992880be456",
+    "content-hash": "452c2ae2eeebf866a68ac377c1ee4209",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2473,6 +2473,9 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.5.x-dev"
+                },
+                "patches_applied": {
+                    "Échappement des virgules dans les CSV": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticMediaWiki/pull/4796.diff"
                 }
             },
             "autoload": {

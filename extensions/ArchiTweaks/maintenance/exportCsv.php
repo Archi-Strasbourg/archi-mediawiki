@@ -97,8 +97,6 @@ class ExportCsv extends Maintenance
     private function getCount()
     {
         // Limite bidon puisque le format "count" l'ignore.
-        list($queryString, $parameters, $printouts) = $this->getParams(1);
-
         return $this->getResults(1, 0, 'count')->getCountValue();
     }
 
