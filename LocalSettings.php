@@ -12,8 +12,8 @@ $wgLogo = "$wgResourceBasePath/logo_archi_wiki.png";
 $wgFavicon = "$wgResourceBasePath/favicon.png";
 $wgEnableEmail = true;
 $wgEnableUserEmail = true;
-$wgEmergencyContact = 'contact@archi-strasbourg.org';
-$wgPasswordSender = 'contact@archi-strasbourg.org';
+$wgEmergencyContact = 'contact@archi-wiki.org';
+$wgPasswordSender = 'contact@archi-wiki.org';
 $wgEnotifUserTalk = true;
 $wgEnotifWatchlist = true;
 $wgEmailAuthentication = true;
@@ -228,7 +228,7 @@ $wgContactConfig['default'] = [
             'required'      => true,
         ],
     ],
-    'SenderEmail' => 'contact@archi-strasbourg.org',
+    'SenderEmail' => 'contact@archi-wiki.org',
     'SenderName'  => 'Archi-Wiki',
 ];
 $wgContactConfig['membership'] = [
@@ -277,7 +277,7 @@ $wgContactConfig['membership'] = [
             'required' => true,
         ],
     ],
-    'SenderEmail' => 'contact@archi-strasbourg.org',
+    'SenderEmail' => 'contact@archi-wiki.org',
     'SenderName'  => 'Archi-Wiki',
 ];
 
