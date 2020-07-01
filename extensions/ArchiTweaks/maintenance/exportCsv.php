@@ -2,13 +2,19 @@
 
 namespace ArchiTweaks;
 
+use ConfigException;
 use Maintenance;
+use MediaWiki\MediaWikiServices;
 use SMW\ApplicationFactory;
 use SMW\CsvResultPrinter;
 use SMW\MediaWiki\Api\ApiRequestParameterFormatter;
 use SMW\MediaWiki\Api\Ask;
 use SMWQueryProcessor;
 use SMWQueryResult;
+use SplTempFileObject;
+use TextExtracts\ExtractFormatter;
+use Title;
+use WikiPage;
 
 $IP = getenv('MW_INSTALL_PATH');
 if ($IP === false) {
@@ -101,7 +107,137 @@ class ExportCsv extends Maintenance
     }
 
     /**
+     * @param array $row
+     * @return string
+     */
+    private function csvToString(array $row)
+    {
+        $newTmp = new SplTempFileObject();
+        $newTmp->fputcsv($row);
+        $newTmp->rewind();
+
+        $result = '';
+        while (!$newTmp->eof()) {
+            $result .= $newTmp->fgets();
+        }
+
+        return $result;
+    }
+
+    /**
+     * @param $delimiter
+     * @param $str
+     * @param string $escapeChar
+     * @return false|string[]
+     * @link https://r.je/php-explode-split-with-escape-character
+     */
+    private function explodeEscaped($delimiter, $str, $escapeChar = '\\')
+    {
+
+        //Just some random placeholders that won't ever appear in the source $str
+
+        $double = "\0\0\0_doub";
+
+        $escaped = "\0\0\0_esc";
+
+        $str = str_replace($escapeChar . $escapeChar, $double, $str);
+
+        $str = str_replace($escapeChar . $delimiter, $escaped, $str);
+
+
+        $split = explode($delimiter, $str);
+
+        foreach ($split as &$val) $val = str_replace([$double, $escaped], [$escapeChar, $delimiter], $val);
+
+        return $split;
+
+    }
+
+    /**
+     * @param $csv
+     * @param $headers
+     * @throws ConfigException
+     * @see CsvResultPrinter::getResultText()
+     */
+    private function addSectionsAndOutput($csv, $headers)
+    {
+        $oldTmp = new SplTempFileObject();
+        $oldTmp->fwrite($csv);
+        $oldTmp->rewind();
+
+        $j = 0;
+        while (!$oldTmp->eof()) {
+            $row = $oldTmp->fgetcsv();
+
+            if (isset($row[0])) {
+
+                if ($j == 0 && $headers == 'show') {
+                    // On ajoute l'en-tête.
+                    $row[] = 'Description';
+                } else {
+                    $title = Title::newFromText($row[0]);
+                    $page = WikiPage::newFromID($title->getArticleID());
+                    $content = $page->getContent();
+
+                    $descriptions = [];
+
+                    // On a besoin des dates des événements.
+                    $dates = [];
+                    foreach ($this->explodeEscaped(',', $row[8]) as $event) {
+                        $eventInfo = explode(';', $event);
+                        if (isset($eventInfo[1])) {
+                            $dates[] = trim($eventInfo[1]);
+                        }
+                    }
+
+                    foreach ($content->getParserOutput($title, null, null, false)->getSections() as $section) {
+                        if ($section['toclevel'] == 1) {
+                            // Extraction de la date.
+                            preg_match('/\|\s?date\s?=\s?([^|}]+)/', $content->getSection($section['index'])->getWikitextForTransclusion(), $matches);
+
+                            if (isset($matches[1])) {
+                                $date = trim($matches[1]);
+
+                                // On ne prend que les sections correspondant à un événement.
+                                if (in_array($date, $dates)) {
+                                    // Extraction du texte brut.
+                                    $output = $content->getSection($section['index'])->getParserOutput($title, null, null, false);
+                                    $formatter = new ExtractFormatter(
+                                        $output->getText(),
+                                        true,
+                                        MediaWikiServices::getInstance()
+                                            ->getConfigFactory()
+                                            ->makeConfig('textextracts')
+                                    );
+                                    $text = trim(
+                                        preg_replace(
+                                            "/" . ExtractFormatter::SECTION_MARKER_START . '(\d)' . ExtractFormatter::SECTION_MARKER_END . "(.*?)$/m",
+                                            '',
+                                            $formatter->getText()
+                                        )
+                                    );
+
+                                    $descriptions[] = addcslashes($date, ',;') . '; ' .
+                                        addcslashes($text, ',;');
+                                }
+                            }
+                        }
+                    }
+
+                    // On ajoute la colonne.
+                    $row[] = implode(',', $descriptions);
+                }
+
+                $this->output($this->csvToString($row));
+            }
+
+            $j++;
+        }
+    }
+
+    /**
      * @return void
+     * @throws ConfigException
      * @see Ask
      */
     public function execute()
@@ -116,7 +252,7 @@ class ExportCsv extends Maintenance
                 $headers = 'hide';
             }
 
-            $this->output($this->getCsv($smwgQDefaultLimit, $i, $headers));
+            $this->addSectionsAndOutput($this->getCsv($smwgQDefaultLimit, $i, $headers), $headers);
         }
     }
 }
