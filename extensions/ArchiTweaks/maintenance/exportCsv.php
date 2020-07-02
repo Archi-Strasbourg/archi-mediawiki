@@ -175,7 +175,7 @@ class ExportCsv extends Maintenance
                     // On ajoute l'en-tête.
                     $row[] = 'Description';
                 } else {
-                    $title = Title::newFromText($row[0]);
+                    $title = Title::newFromText(stripcslashes($row[0]));
                     $page = WikiPage::newFromID($title->getArticleID());
                     $content = $page->getContent();
 
@@ -186,7 +186,7 @@ class ExportCsv extends Maintenance
                     foreach ($this->explodeEscaped(',', $row[8]) as $event) {
                         $eventInfo = explode(';', $event);
                         if (isset($eventInfo[1])) {
-                            $dates[] = trim($eventInfo[1]);
+                            $dates[] = trim(stripcslashes($eventInfo[1]));
                         }
                     }
 
