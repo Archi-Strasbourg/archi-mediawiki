@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "452c2ae2eeebf866a68ac377c1ee4209",
+    "content-hash": "1b8ef18a7819102c9fb833179f861e97",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -178,16 +178,16 @@
         },
         {
             "name": "archi-strasbourg/archi-news-tab",
-            "version": "1.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab.git",
-                "reference": "a34f39626874a3d64ae37986a8dd312f33a07fd7"
+                "reference": "9a8ea97fef3391dcffef8262eb4dac8280158732"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/a34f39626874a3d64ae37986a8dd312f33a07fd7",
-                "reference": "a34f39626874a3d64ae37986a8dd312f33a07fd7",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/9a8ea97fef3391dcffef8262eb4dac8280158732",
+                "reference": "9a8ea97fef3391dcffef8262eb4dac8280158732",
                 "shasum": ""
             },
             "require": {
@@ -208,7 +208,7 @@
                 }
             ],
             "description": "MediaWiki extension that replaces the talk tab with a news tab",
-            "time": "2017-12-28T01:10:15+00:00"
+            "time": "2020-07-17T10:31:16+00:00"
         },
         {
             "name": "archi-strasbourg/archi-wiki-skin",
@@ -4582,6 +4582,7 @@
         "archi-strasbourg/archi-comments": 20,
         "archi-strasbourg/archi-home": 20,
         "archi-strasbourg/archi-maps": 20,
+        "archi-strasbourg/archi-news-tab": 20,
         "archi-strasbourg/archi-wiki-skin": 20,
         "archi-strasbourg/sections-count": 20,
         "mediawiki/blockandnuke": 20,

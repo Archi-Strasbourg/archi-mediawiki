@@ -13,7 +13,7 @@
     "archi-strasbourg/archi-home": "dev-master as 1.0.x-dev",
     "archi-strasbourg/archi-maps": "dev-master",
     "archi-strasbourg/archi-move": "~1.0.0",
-    "archi-strasbourg/archi-news-tab": "~1.0.0",
+    "archi-strasbourg/archi-news-tab": "dev-master",
     "archi-strasbourg/archi-wiki-skin": "dev-master",
     "archi-strasbourg/category-breadcrumb": "^2.6",
     "archi-strasbourg/email-login": "~1.0.0",
