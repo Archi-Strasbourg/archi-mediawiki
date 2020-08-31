@@ -398,7 +398,7 @@ $wgPageImagesNamespaces[] = NS_ADDRESS;
 $wgPageImagesNamespaces[] = NS_NEWS;
 
 //Loops
-ExtLoops::$maxLoops = 200;
+ExtLoops::$maxLoops = 800;
 
 //Permissions requises pour aw2mw
 $wgGroupPermissions['bot']['bot'] = true;
