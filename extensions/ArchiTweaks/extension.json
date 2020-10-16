@@ -16,7 +16,6 @@
     "PageContentInsertComplete": [
       "ArchiTweaks\\Hooks::onPageContentInsertComplete"
     ],
-    "EmailUser": "ArchiTweaks\\Hooks::onEmailUser",
-    "ContactForm": "ArchiTweaks\\Hooks::onContactForm"
+    "EmailUser": "ArchiTweaks\\Hooks::onEmailUser"
   }
 }

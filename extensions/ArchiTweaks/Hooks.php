@@ -64,26 +64,16 @@ class Hooks
     /**
      * @param $address
      * @param MailAddress $from
+     * @see \SpecialContact::processInput()
      */
     public static function onEmailUser(&$address, MailAddress &$from)
     {
         global $wgPasswordSender;
 
+        // Sinon on modifie également $replyTo qui pointe vers la même variable.
+        $from = clone $from;
+
         // Pour Mailjet, il faut que l'expéditeur soit une adresse validée.
         $from->address = $wgPasswordSender;
-    }
-
-    /**
-     * @param $contactRecipientAddress
-     * @param $replyTo
-     * @param $subject
-     * @param $text
-     * @param $formType
-     * @param $formData
-     */
-    public static function onContactForm(&$contactRecipientAddress, &$replyTo, &$subject, &$text, $formType, $formData)
-    {
-        // Comme on a modifié l'expéditeur, on met le vrai expéditeur en adresse de réponse.
-        $replyTo = new MailAddress($formData['FromAddress'], $formData['FromName']);
     }
 }
