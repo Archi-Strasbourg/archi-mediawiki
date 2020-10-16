@@ -112,6 +112,9 @@
         "Pas de merge": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-BlockAndNuke/pull/3.diff",
         "Masquer les utilisateurs bloqués": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-BlockAndNuke/pull/4.diff"
       },
+      "mediawiki/contactpage": {
+        "En-tête From fixe": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-ContactPage/pull/1.diff"
+      },
       "mediawiki/semantic-media-wiki": {
         "Échappement des virgules dans les CSV": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticMediaWiki/pull/4796.diff"
       }
