@@ -1,13 +1,15 @@
 <?php
 
-require_once __DIR__.'/dbconfig.php';
-require_once __DIR__.'/namespaces.php';
+require_once __DIR__ . '/dbconfig.php';
+require_once __DIR__ . '/namespaces.php';
+
+/** @var $wgScriptPath string */
 
 $wgSitename = 'Archi-Wiki';
 $wgScriptExtension = '.php';
 $wgStylePath = "$wgScriptPath/skins";
 $wgResourceBasePath = $wgScriptPath;
-$wgScript = $wgScriptPath.'/';
+$wgScript = $wgScriptPath . '/';
 $wgLogo = "$wgResourceBasePath/logo_archi_wiki.png";
 $wgFavicon = "$wgResourceBasePath/favicon.png";
 $wgEnableEmail = true;
@@ -93,6 +95,8 @@ wfLoadExtension('GeoData');
 wfLoadExtension('ArchiTweaks');
 wfLoadExtension('BlockAndNuke');
 wfLoadExtension('DismissableSiteNotice');
+
+/** @var $IP string */
 require_once "$IP/extensions/Arrays/Arrays.php";
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
 require_once "$IP/extensions/UploadWizard/UploadWizard.php";
@@ -110,12 +114,12 @@ require_once "$IP/extensions/GoogleCustomWikiSearch/GoogleCustomWikiSearch.php";
 require_once "$IP/extensions/CirrusSearch/CirrusSearch.php";
 require_once "$IP/extensions/MixedNamespaceSearchSuggestions/MixedNamespaceSearchSuggestions.php";
 
-include_once __DIR__.'/apikeys.php';
+include_once __DIR__ . '/apikeys.php';
 
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
 $wgVirtualRestConfig['modules']['parsoid'] = [
-    'url'    => 'http://localhost:8142',
+    'url' => 'http://localhost:8142',
     'prefix' => 'localhost',
 ];
 $wgVisualEditorSupportedSkins = ['vector', 'archiwiki'];
@@ -215,77 +219,77 @@ $wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
 
 //ContactPage
 $wgContactConfig['default'] = [
-    'RecipientUser'    => 'Archi-Wiki',
-    'RequireDetails'   => true,
-    'IncludeIP'        => false,
-    'DisplayFormat'    => 'table',
-    'RLModules'        => [],
-    'RLStyleModules'   => [],
+    'RecipientUser' => 'Archi-Wiki',
+    'RequireDetails' => true,
+    'IncludeIP' => false,
+    'DisplayFormat' => 'table',
+    'RLModules' => [],
+    'RLStyleModules' => [],
     'AdditionalFields' => [
         'Text' => [
             'label-message' => 'emailmessage',
-            'type'          => 'textarea',
-            'required'      => true,
+            'type' => 'textarea',
+            'required' => true,
         ],
     ],
     'SenderEmail' => 'contact@archi-wiki.org',
-    'SenderName'  => 'Archi-Wiki',
+    'SenderName' => 'Archi-Wiki',
 ];
 $wgContactConfig['membership'] = [
-    'RecipientUser'    => 'Archi-Wiki',
-    'RequireDetails'   => true,
-    'IncludeIP'        => false,
-    'DisplayFormat'    => 'table',
-    'RLModules'        => [],
-    'RLStyleModules'   => [],
+    'RecipientUser' => 'Archi-Wiki',
+    'RequireDetails' => true,
+    'IncludeIP' => false,
+    'DisplayFormat' => 'table',
+    'RLModules' => [],
+    'RLStyleModules' => [],
     'AdditionalFields' => [
         'job' => [
-            'label'    => 'Profession/société :',
-            'type'     => 'text',
+            'label' => 'Profession/société :',
+            'type' => 'text',
             'required' => false,
         ],
         'address' => [
-            'label'    => 'Adresse postale :',
-            'type'     => 'text',
+            'label' => 'Adresse postale :',
+            'type' => 'text',
             'required' => false,
         ],
         'tel' => [
-            'label'    => 'Numéro de téléphone :',
-            'type'     => 'text',
+            'label' => 'Numéro de téléphone :',
+            'type' => 'text',
             'required' => false,
         ],
         'Text' => [
-            'label'    => 'Laisser un commentaire :',
-            'type'     => 'textarea',
+            'label' => 'Laisser un commentaire :',
+            'type' => 'textarea',
             'required' => false,
-            'rows'     => 5,
+            'rows' => 5,
         ],
         'amount' => [
-            'label'   => 'Cotisation :',
-            'type'    => 'radio',
+            'label' => 'Cotisation :',
+            'type' => 'radio',
             'options' => [
-                '<b>10 €</b><br/>Tarif réduit pour étudiants, bénéficiaires du RSA'.
-                    'et personnes non-imposables, sur justificatif'                                        => 10,
-                '<b>20 €</b></br>Particulier'                                                              => 20,
-                '<b>30 €</b></br>Couple, famille'                                                          => 30,
+                '<b>10 €</b><br/>Tarif réduit pour étudiants, bénéficiaires du RSA' .
+                'et personnes non-imposables, sur justificatif' => 10,
+                '<b>20 €</b></br>Particulier' => 20,
+                '<b>30 €</b></br>Couple, famille' => 30,
                 '<b>50 €</b></br>Vous recevrez un reçu fiscal, votre don ne vous coûtera que 30,20 euros.' => 50,
-                '<b>80 €</b></br>Vous recevrez un reçu fiscal, votre don ne vous coûtera que 40,40 euros.'.
-                '<br/>Si vous le souhaitez, vous pourrez figurer sur notre liste de donateurs<br/>'.
-                    'et pour une entreprise faire apparaître votre logo et un lien '.
-                    'sur le site de votre société.' => 80,
+                '<b>80 €</b></br>Vous recevrez un reçu fiscal, votre don ne vous coûtera que 40,40 euros.' .
+                '<br/>Si vous le souhaitez, vous pourrez figurer sur notre liste de donateurs<br/>' .
+                'et pour une entreprise faire apparaître votre logo et un lien ' .
+                'sur le site de votre société.' => 80,
             ],
             'required' => true,
         ],
     ],
     'SenderEmail' => 'contact@archi-wiki.org',
-    'SenderName'  => 'Archi-Wiki',
+    'SenderName' => 'Archi-Wiki',
 ];
 
 //AddThis
 $wgAddThisHeader = false;
 $wgResourceModules['ext.addThis'] = [
     'position' => 'top',
-    'styles'   => 'addThis.css',
+    'styles' => 'addThis.css',
 ];
 
 $egMapsEnableCategory = false;
