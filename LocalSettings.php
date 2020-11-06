@@ -161,6 +161,8 @@ $wgUploadWizardConfig['uwLanguages'] = [
     'en' => 'English',
 ];
 $wgFileExtensions[] = 'pdf';
+$wgFileExtensions[] = 'doc';
+$wgFileExtensions[] = 'docx';
 
 // Captcha
 $wgCaptchaQuestions = [
