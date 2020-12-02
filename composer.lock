@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5f579477448c48b2ded67491cd61c10a",
+    "content-hash": "15423f1671173d255399df1c7278dbb5",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1428,6 +1428,28 @@
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/ContactPage"
             }
+        },
+        {
+            "name": "mediawiki/ContributionScores",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ContributionScores.git",
+                "reference": "ef9a18dbb3bb09bc998e7601129037bcf09783ec"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/ContributionScores-master-4f60431.tar.gz"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:ContributionScores",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/ContributionScores"
+            },
+            "time": "2017-04-24T20:37:44+00:00"
         },
         {
             "name": "mediawiki/DismissableSiteNotice",
@@ -4590,6 +4612,7 @@
         "archi-strasbourg/archi-news-tab": 20,
         "archi-strasbourg/archi-wiki-skin": 20,
         "archi-strasbourg/sections-count": 20,
+        "mediawiki/contributionscores": 20,
         "mediawiki/blockandnuke": 20,
         "mediawiki/geodata": 20,
         "mediawiki/mobilefrontend": 20

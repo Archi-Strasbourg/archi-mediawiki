@@ -23,6 +23,7 @@
     "archi-strasbourg/paypal": "~1.0.0",
     "archi-strasbourg/sections-count": "dev-master as 1.0.x-dev",
     "cweagans/composer-patches": "^1.6",
+    "mediawiki/contributionscores": "dev-master#ef9a18dbb3bb09bc998e7601129037bcf09783ec",
     "mediawiki/addthis": "~1.29.0",
     "mediawiki/arrays": "~1.29.0",
     "mediawiki/blockandnuke": "dev-master#aef35514b97f8005a55a05fdc1fd191e9309d9b3",

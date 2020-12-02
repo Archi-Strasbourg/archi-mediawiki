@@ -113,6 +113,7 @@ require_once "$IP/extensions/HideNamespace/HideNamespace.php";
 require_once "$IP/extensions/GoogleCustomWikiSearch/GoogleCustomWikiSearch.php";
 require_once "$IP/extensions/CirrusSearch/CirrusSearch.php";
 require_once "$IP/extensions/MixedNamespaceSearchSuggestions/MixedNamespaceSearchSuggestions.php";
+require_once "$IP/extensions/ContributionScores/ContributionScores.php";
 
 include_once __DIR__ . '/apikeys.php';
 
@@ -425,3 +426,6 @@ $wgBaNnomerge = true;
 
 // DismissableSiteNotice
 $wgDismissableSiteNoticeForAnons = true;
+
+// ContributionScores
+$wgContribScoreIgnoreBots = true;
