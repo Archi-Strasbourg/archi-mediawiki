@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15423f1671173d255399df1c7278dbb5",
+    "content-hash": "69e46b2ca292cfb46242e43a9d2ab0be",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2231,6 +2231,9 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "5.0.x-dev"
+                },
+                "patches_applied": {
+                    "Configuration de la durée du cache du geocoder": "https://github.com/JeroenDeDauw/Maps/commit/6371fa202888280293700aef2f59cb79df6f6601.diff"
                 }
             },
             "autoload": {

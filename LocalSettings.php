@@ -429,3 +429,6 @@ $wgDismissableSiteNoticeForAnons = true;
 
 // ContributionScores
 $wgContribScoreIgnoreBots = true;
+
+// Maps
+$egMapsGeoCacheTtl = BagOStuff::TTL_MONTH;
