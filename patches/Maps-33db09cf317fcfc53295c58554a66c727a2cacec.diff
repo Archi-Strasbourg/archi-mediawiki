@@ -1,0 +1,37 @@
+diff --git a/Maps.php b/Maps.php
+index b6ed043e..d8c509c9 100644
+--- a/Maps.php
++++ b/Maps.php
+@@ -106,10 +106,12 @@ $GLOBALS['wgExtensionFunctions'][] = function() {
+ 	// Parser hooks
+
+ 	// Required for #coordinates.
+-	$GLOBALS['wgHooks']['ParserFirstCallInit'][] = function( Parser &$parser ) {
+-		$instance = new MapsCoordinates();
+-		return $instance->init( $parser );
+-	};
++	if ( $GLOBALS['egMapsEnableCoordinateFunction'] ) {
++		$GLOBALS['wgHooks']['ParserFirstCallInit'][] = function( Parser &$parser ) {
++			$instance = new MapsCoordinates();
++			return $instance->init( $parser );
++		};
++	}
+
+ 	$GLOBALS['wgHooks']['ParserFirstCallInit'][] = function( Parser &$parser ) {
+ 		$instance = new MapsDisplayMap();
+
+diff --git a/Maps_Settings.php b/Maps_Settings.php
+index 27531604..07f7a2ce 100644
+--- a/Maps_Settings.php
++++ b/Maps_Settings.php
+@@ -94,6 +97,10 @@
+ 	// Boolean. Sets if direction labels should be translated to their equivalent in the wiki language or not.
+ 	$GLOBALS['egMapsInternatDirectionLabels'] = true;
+
++	// Boolean. When false, the #coordinates parser function will not be enabled.
++	// This is useful for people using the GeoData extension and want to use its #coordinates function instead.
++	$GLOBALS['egMapsEnableCoordinateFunction'] = true;
++
+
+ // Distance configuration
+
