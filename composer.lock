@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "65a186653d1c923c2dac2f5b7738f756",
+    "content-hash": "3a8d7b540e65a52803f1f263a9076da5",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2234,7 +2234,8 @@
                 },
                 "patches_applied": {
                     "Configuration de la durée du cache du geocoder": "patches/Maps-6371fa202888280293700aef2f59cb79df6f6601.diff",
-                    "Compatibilité avec GeoData": "patches/Maps-33db09cf317fcfc53295c58554a66c727a2cacec.diff"
+                    "Compatibilité avec GeoData": "patches/Maps-33db09cf317fcfc53295c58554a66c727a2cacec.diff",
+                    "Cache du geocoder dans la BDD": "patches/Maps-cache_db.diff"
                 }
             },
             "autoload": {

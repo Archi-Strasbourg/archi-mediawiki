@@ -118,7 +118,8 @@
       },
       "mediawiki/maps": {
         "Configuration de la durée du cache du geocoder": "patches/Maps-6371fa202888280293700aef2f59cb79df6f6601.diff",
-        "Compatibilité avec GeoData": "patches/Maps-33db09cf317fcfc53295c58554a66c727a2cacec.diff"
+        "Compatibilité avec GeoData": "patches/Maps-33db09cf317fcfc53295c58554a66c727a2cacec.diff",
+        "Cache du geocoder dans la BDD": "patches/Maps-cache_db.diff"
       },
       "mediawiki/semantic-media-wiki": {
         "Échappement des virgules dans les CSV": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticMediaWiki/pull/4796.diff"
