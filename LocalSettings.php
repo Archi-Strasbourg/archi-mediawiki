@@ -343,6 +343,8 @@ $wgNamespacesToBeSearchedDefault[NS_PERSON] = true;
 $wgContentNamespaces[] = NS_ADDRESS;
 $wgContentNamespaces[] = NS_PERSON;
 
+$wgArticleRobotPolicies['Adresse:Bac à sable'] = 'noindex';
+
 //Cache
 $wgMainCacheType = CACHE_ACCEL;
 $wgSessionCacheType = CACHE_DB;
