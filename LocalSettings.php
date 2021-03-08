@@ -256,6 +256,11 @@ $wgContactConfig['membership'] = [
             'type' => 'text',
             'required' => false,
         ],
+        'city' => [
+            'label' => 'Ville :',
+            'type' => 'text',
+            'required' => false,
+        ],
         'tel' => [
             'label' => 'Numéro de téléphone :',
             'type' => 'text',
