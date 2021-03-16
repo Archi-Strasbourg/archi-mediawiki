@@ -6,3 +6,5 @@ RewriteRule personnalite-(.+)-([0-9]+)\.html vendor/archi-strasbourg/archi-media
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
 RewriteRule ^(.*)$ %{DOCUMENT_ROOT}/index.php [L]
+
+RedirectMatch 403 /\.git
