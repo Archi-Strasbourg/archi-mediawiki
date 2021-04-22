@@ -1,1 +1,1 @@
-vendor/mediawiki/core/opensearch_desc.php
+core/opensearch_desc.php

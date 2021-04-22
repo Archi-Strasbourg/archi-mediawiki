@@ -1,1 +1,1 @@
-vendor/mediawiki/core/index.php
+core/index.php

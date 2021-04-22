@@ -1,1 +1,1 @@
-vendor/mediawiki/core/load.php
+core/load.php

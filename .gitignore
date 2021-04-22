@@ -8,3 +8,4 @@ config.php
 apikeys.php
 whitelist.txt
 assets/export.csv
+core/

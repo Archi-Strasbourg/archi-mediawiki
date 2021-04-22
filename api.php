@@ -1,1 +1,1 @@
-vendor/mediawiki/core/api.php
+core/api.php
