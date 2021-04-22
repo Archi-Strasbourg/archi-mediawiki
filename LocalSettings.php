@@ -95,23 +95,23 @@ wfLoadExtension('GeoData');
 wfLoadExtension('ArchiTweaks');
 wfLoadExtension('BlockAndNuke');
 wfLoadExtension('DismissableSiteNotice');
+wfLoadExtension('Arrays');
+wfLoadExtension('MultimediaViewer');
+wfLoadExtension('UploadWizard');
+wfLoadExtension('TextExtracts');
+wfLoadExtension('Echo');
+wfLoadExtension('Variables');
+wfLoadExtension('Loops');
+wfLoadExtension('NukeDPL');
+wfLoadExtension('CirrusSearch');
+wfLoadExtension('MixedNamespaceSearchSuggestions');
 
 /** @var $IP string */
-require_once "$IP/extensions/Arrays/Arrays.php";
-require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
-require_once "$IP/extensions/UploadWizard/UploadWizard.php";
-require_once "$IP/extensions/TextExtracts/TextExtracts.php";
-require_once "$IP/extensions/Echo/Echo.php";
-require_once "$IP/extensions/Variables/Variables.php";
-require_once "$IP/extensions/Loops/Loops.php";
 require_once "$IP/extensions/Paypal/Paypal.php";
 require_once "$IP/extensions/Translate/Translate.php";
 require_once "$IP/extensions/DynamicPageList/DynamicPageList.php";
-require_once "$IP/extensions/NukeDPL/NukeDPL.php";
 require_once "$IP/extensions/HideNamespace/HideNamespace.php";
 require_once "$IP/extensions/GoogleCustomWikiSearch/GoogleCustomWikiSearch.php";
-require_once "$IP/extensions/CirrusSearch/CirrusSearch.php";
-require_once "$IP/extensions/MixedNamespaceSearchSuggestions/MixedNamespaceSearchSuggestions.php";
 require_once "$IP/extensions/ContributionScores/ContributionScores.php";
 
 include_once __DIR__ . '/apikeys.php';
@@ -404,7 +404,7 @@ $wgPageImagesNamespaces[] = NS_ADDRESS;
 $wgPageImagesNamespaces[] = NS_NEWS;
 
 //Loops
-ExtLoops::$maxLoops = 4000;
+$egLoopsCounterLimit = 4000;
 
 //Permissions requises pour aw2mw
 $wgGroupPermissions['bot']['bot'] = true;
