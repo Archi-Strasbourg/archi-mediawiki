@@ -1,0 +1,20 @@
+{
+  "manifest_version": 1,
+  "name": "ArchiTweaks",
+  "author": "Insite",
+  "type": "other",
+  "APIPropModules": {
+    "archiDescription": {
+      "class": "ArchiTweaks\\ApiQueryDescription"
+    }
+  },
+  "AutoloadClasses": {
+    "ArchiTweaks\\ApiQueryDescription": "ApiQueryDescription.php",
+    "ArchiTweaks\\Hooks": "Hooks.php"
+  },
+  "Hooks": {
+    "PageContentInsertComplete": [
+      "ArchiTweaks\\Hooks::onPageContentInsertComplete"
+    ]
+  }
+}

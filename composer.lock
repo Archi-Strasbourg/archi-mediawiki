@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "00ab172c5c5fc7bb471e1167992e07f6",
+    "content-hash": "2c9323e859be487ab4e3fc4d4de4b7a8",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
-            "version": "1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog.git",
-                "reference": "2b1455ce801038cc68e7151372ec251fb5f61a8d"
+                "reference": "1e81a575a34401ab24515b28ff6ef48bd5f8dad5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/2b1455ce801038cc68e7151372ec251fb5f61a8d",
-                "reference": "2b1455ce801038cc68e7151372ec251fb5f61a8d",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/1e81a575a34401ab24515b28ff6ef48bd5f8dad5",
+                "reference": "1e81a575a34401ab24515b28ff6ef48bd5f8dad5",
                 "shasum": ""
             },
             "require": {
@@ -29,23 +29,23 @@
             "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0"
+                "GPL-3.0-only"
             ],
             "description": "Blog page for archi-wiki.org",
-            "time": "2017-09-07T16:32:55+00:00"
+            "time": "2020-04-15T09:44:47+00:00"
         },
         {
             "name": "archi-strasbourg/archi-comments",
-            "version": "1.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments.git",
-                "reference": "2b42ad59fa9b463caf37015d244f2a050152ebb9"
+                "reference": "a349309ac8319072d98c0e748b3faa3002690f0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/2b42ad59fa9b463caf37015d244f2a050152ebb9",
-                "reference": "2b42ad59fa9b463caf37015d244f2a050152ebb9",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/a349309ac8319072d98c0e748b3faa3002690f0c",
+                "reference": "a349309ac8319072d98c0e748b3faa3002690f0c",
                 "shasum": ""
             },
             "require": {
@@ -61,7 +61,7 @@
                 "GPL-3.0"
             ],
             "description": "Comments page for archi-wiki.org",
-            "time": "2018-02-05T15:15:27+00:00"
+            "time": "2019-10-17T08:43:17+00:00"
         },
         {
             "name": "archi-strasbourg/archi-footer",
@@ -93,16 +93,16 @@
         },
         {
             "name": "archi-strasbourg/archi-home",
-            "version": "1.0.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "e77cea0e667fb152deeccd47ba2f4a7a98395964"
+                "reference": "60085cdfdb81f1a1d24de6885bc13e3ac731112b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/e77cea0e667fb152deeccd47ba2f4a7a98395964",
-                "reference": "e77cea0e667fb152deeccd47ba2f4a7a98395964",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/60085cdfdb81f1a1d24de6885bc13e3ac731112b",
+                "reference": "60085cdfdb81f1a1d24de6885bc13e3ac731112b",
                 "shasum": ""
             },
             "require": {
@@ -114,23 +114,23 @@
             "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0"
+                "GPL-3.0-only"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2018-07-19T16:07:09+00:00"
+            "time": "2021-01-25T10:50:59+00:00"
         },
         {
             "name": "archi-strasbourg/archi-maps",
-            "version": "1.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
-                "reference": "c899ee41b99bbfa1e08e0a3eeed6aa720d924282"
+                "reference": "04c60b81496820f971d98d0c8476de8e294b50cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/c899ee41b99bbfa1e08e0a3eeed6aa720d924282",
-                "reference": "c899ee41b99bbfa1e08e0a3eeed6aa720d924282",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/04c60b81496820f971d98d0c8476de8e294b50cf",
+                "reference": "04c60b81496820f971d98d0c8476de8e294b50cf",
                 "shasum": ""
             },
             "require-dev": {
@@ -149,38 +149,7 @@
                 }
             ],
             "description": "Map plugin for archi-wiki.org",
-            "time": "2017-12-28T01:17:29+00:00"
-        },
-        {
-            "name": "archi-strasbourg/archi-mediawiki-redirect",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-redirect.git",
-                "reference": "7b0de5fbcf6b019744b2374294af77f733e1ae6a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-redirect/zipball/7b0de5fbcf6b019744b2374294af77f733e1ae6a",
-                "reference": "7b0de5fbcf6b019744b2374294af77f733e1ae6a",
-                "shasum": ""
-            },
-            "require": {
-                "archi-strasbourg/archi-wiki": "dev-master",
-                "dshafik/php7-mysql-shim": "~1.0.0@beta",
-                "slim/slim": "~3.5.0"
-            },
-            "require-dev": {
-                "squizlabs/php_codesniffer": "~2.7.0",
-                "symfony/var-dumper": "~3.1.0"
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "description": "Script that redirects old Archi-Wiki URLs to new MediaWiki URLs",
-            "time": "2018-02-07T21:11:43+00:00"
+            "time": "2019-09-12T13:19:43+00:00"
         },
         {
             "name": "archi-strasbourg/archi-move",
@@ -209,16 +178,16 @@
         },
         {
             "name": "archi-strasbourg/archi-news-tab",
-            "version": "1.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab.git",
-                "reference": "a34f39626874a3d64ae37986a8dd312f33a07fd7"
+                "reference": "9a8ea97fef3391dcffef8262eb4dac8280158732"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/a34f39626874a3d64ae37986a8dd312f33a07fd7",
-                "reference": "a34f39626874a3d64ae37986a8dd312f33a07fd7",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/9a8ea97fef3391dcffef8262eb4dac8280158732",
+                "reference": "9a8ea97fef3391dcffef8262eb4dac8280158732",
                 "shasum": ""
             },
             "require": {
@@ -239,59 +208,20 @@
                 }
             ],
             "description": "MediaWiki extension that replaces the talk tab with a news tab",
-            "time": "2017-12-28T01:10:15+00:00"
-        },
-        {
-            "name": "archi-strasbourg/archi-wiki",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Archi-Strasbourg/archi-wiki.git",
-                "reference": "b9fb39f43a78409890a7de96426c1f6c49d5c323"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/b9fb39f43a78409890a7de96426c1f6c49d5c323",
-                "reference": "b9fb39f43a78409890a7de96426c1f6c49d5c323",
-                "shasum": ""
-            },
-            "require": {
-                "eventviva/php-image-resize": "~1.5.2"
-            },
-            "require-dev": {
-                "dshafik/php7-mysql-shim": "~0.2.0",
-                "pear-pear.php.net/html_bbcodeparser2": "*",
-                "symfony/var-dumper": "~3.1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "modules/archi/includes/"
-                ],
-                "files": [
-                    "includes/framework/config.class.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "description": "Source code for http://archi-strasbourg.org/",
-            "abandoned": "archi-strasbourg/archi-mediawiki",
-            "time": "2018-01-02T13:33:20+00:00"
+            "time": "2020-07-17T10:31:16+00:00"
         },
         {
             "name": "archi-strasbourg/archi-wiki-skin",
-            "version": "1.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "e38fa742a430720c507b1996ff547ba0b82910cc"
+                "reference": "72549e00611178ed2fbef9cede09ebeb6f03c5a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/e38fa742a430720c507b1996ff547ba0b82910cc",
-                "reference": "e38fa742a430720c507b1996ff547ba0b82910cc",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/72549e00611178ed2fbef9cede09ebeb6f03c5a5",
+                "reference": "72549e00611178ed2fbef9cede09ebeb6f03c5a5",
                 "shasum": ""
             },
             "require-dev": {
@@ -315,20 +245,20 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2018-02-19T18:30:33+00:00"
+            "time": "2021-03-09T11:57:52+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-category-breadcrumb.git",
-                "reference": "79443d717a2c090a5e9876e8cdee7104a648f60c"
+                "reference": "c8ddbf6f25a0eadbd8f39385e2f60eb955319d8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/79443d717a2c090a5e9876e8cdee7104a648f60c",
-                "reference": "79443d717a2c090a5e9876e8cdee7104a648f60c",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/c8ddbf6f25a0eadbd8f39385e2f60eb955319d8a",
+                "reference": "c8ddbf6f25a0eadbd8f39385e2f60eb955319d8a",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -337,7 +267,7 @@
                 "proprietary"
             ],
             "description": "Provides DMOZ-style category breadcrumbs",
-            "time": "2017-09-07T16:54:51+00:00"
+            "time": "2017-12-28T01:07:13+00:00"
         },
         {
             "name": "archi-strasbourg/email-login",
@@ -490,16 +420,16 @@
         },
         {
             "name": "archi-strasbourg/sections-count",
-            "version": "1.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-sections-count.git",
-                "reference": "9f0aae0ffe8aee9e78d79bf53fa5ba68716bbef6"
+                "reference": "bc3c05cc8089588c1187cb0040acba53fd488a4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-sections-count/zipball/9f0aae0ffe8aee9e78d79bf53fa5ba68716bbef6",
-                "reference": "9f0aae0ffe8aee9e78d79bf53fa5ba68716bbef6",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-sections-count/zipball/bc3c05cc8089588c1187cb0040acba53fd488a4e",
+                "reference": "bc3c05cc8089588c1187cb0040acba53fd488a4e",
                 "shasum": ""
             },
             "require-dev": {
@@ -522,38 +452,42 @@
                 }
             ],
             "description": "MediaWiki magic word that displays the number of sections in a page",
-            "time": "2017-12-28T01:16:04+00:00"
+            "time": "2019-10-17T08:51:29+00:00"
         },
         {
             "name": "composer/installers",
-            "version": "v1.6.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b"
+                "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/cfcca6b1b60bc4974324efb5783c13dca6932b5b",
-                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+                "url": "https://api.github.com/repos/composer/installers/zipball/1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
+                "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0"
+                "composer-plugin-api": "^1.0 || ^2.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
                 "shama/baton": "*"
             },
             "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "^4.8.36"
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^4.2 || ^5",
+                "symfony/process": "^2.3"
             },
             "type": "composer-plugin",
             "extra": {
                 "class": "Composer\\Installers\\Plugin",
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-main": "1.x-dev"
                 }
             },
             "autoload": {
@@ -583,6 +517,7 @@
                 "Kanboard",
                 "Lan Management System",
                 "MODX Evo",
+                "MantisBT",
                 "Mautic",
                 "Maya",
                 "OXID",
@@ -590,7 +525,9 @@
                 "Porto",
                 "RadPHP",
                 "SMF",
+                "Starbug",
                 "Thelia",
+                "Whmcs",
                 "WolfCMS",
                 "agl",
                 "aimeos",
@@ -613,6 +550,7 @@
                 "installer",
                 "itop",
                 "joomla",
+                "known",
                 "kohana",
                 "laravel",
                 "lavalite",
@@ -628,6 +566,7 @@
                 "phpbb",
                 "piwik",
                 "ppi",
+                "processwire",
                 "puppet",
                 "pxcms",
                 "reindex",
@@ -635,6 +574,7 @@
                 "shopware",
                 "silverstripe",
                 "sydes",
+                "sylius",
                 "symfony",
                 "typo3",
                 "wordpress",
@@ -642,7 +582,21 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2018-08-27T06:10:37+00:00"
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-01-14T11:07:16+00:00"
         },
         {
             "name": "composer/semver",
@@ -707,37 +661,6 @@
             "time": "2016-08-30T16:08:34+00:00"
         },
         {
-            "name": "container-interop/container-interop",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/container-interop/container-interop.git",
-                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/79cbf1341c22ec75643d841642dd5d6acd83bdb8",
-                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
-                "shasum": ""
-            },
-            "require": {
-                "psr/container": "^1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Interop\\Container\\": "src/Interop/Container/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
-            "homepage": "https://github.com/container-interop/container-interop",
-            "time": "2017-02-14T19:40:03+00:00"
-        },
-        {
             "name": "cssjanus/cssjanus",
             "version": "v1.2.0",
             "source": {
@@ -771,6 +694,50 @@
             ],
             "description": "Convert CSS stylesheets between left-to-right and right-to-left.",
             "time": "2017-03-14T20:57:08+00:00"
+        },
+        {
+            "name": "cweagans/composer-patches",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cweagans/composer-patches.git",
+                "reference": "ae02121445ad75f4eaff800cc532b5e6233e2ddf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/ae02121445ad75f4eaff800cc532b5e6233e2ddf",
+                "reference": "ae02121445ad75f4eaff800cc532b5e6233e2ddf",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0 || ~2.0",
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "cweagans\\Composer\\Patches"
+            },
+            "autoload": {
+                "psr-4": {
+                    "cweagans\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Cameron Eagans",
+                    "email": "me@cweagans.net"
+                }
+            ],
+            "description": "Provides a way to patch Composer packages.",
+            "time": "2020-09-30T17:56:20+00:00"
         },
         {
             "name": "data-values/common",
@@ -1078,95 +1045,6 @@
             "time": "2018-08-28T05:49:45+00:00"
         },
         {
-            "name": "dshafik/php7-mysql-shim",
-            "version": "1.0.0beta2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dshafik/php7-mysql-shim.git",
-                "reference": "f5b1bc97181418daf854385154a2800eda04c7f1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dshafik/php7-mysql-shim/zipball/f5b1bc97181418daf854385154a2800eda04c7f1",
-                "reference": "f5b1bc97181418daf854385154a2800eda04c7f1",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mysqli": "*",
-                "php": ">=5.3.6"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^1.9|^2.0",
-                "phpunit/phpunit": "^4.8|^5.2",
-                "squizlabs/php_codesniffer": "^2.3"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "lib/mysql.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Davey Shafik",
-                    "email": "me@daveyshafik.com",
-                    "homepage": "https://daveyshafik.com"
-                }
-            ],
-            "description": "A PHP 7 shim for ext/mysql",
-            "time": "2017-01-12T20:22:02+00:00"
-        },
-        {
-            "name": "eventviva/php-image-resize",
-            "version": "1.5.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/eventviva/php-image-resize.git",
-                "reference": "87e7200ad2e24beb9ec9862f6f2c11d93dee8838"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/eventviva/php-image-resize/zipball/87e7200ad2e24beb9ec9862f6f2c11d93dee8838",
-                "reference": "87e7200ad2e24beb9ec9862f6f2c11d93dee8838",
-                "shasum": ""
-            },
-            "require": {
-                "ext-exif": "*",
-                "ext-gd": "*",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Aditya Patadia",
-                    "homepage": "http://aditya.patadia.org/"
-                }
-            ],
-            "description": "PHP class to re-size and scale images",
-            "homepage": "https://github.com/eventviva/php-image-resize",
-            "keywords": [
-                "image",
-                "php",
-                "resize",
-                "scale"
-            ],
-            "abandoned": "gumlet/php-image-resize",
-            "time": "2016-08-17T17:41:24+00:00"
-        },
-        {
             "name": "jeroen/file-fetcher",
             "version": "3.1.0",
             "source": {
@@ -1335,9 +1213,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Arrays-REL1_29-e72aa5b.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Arrays-REL1_29-e72aa5b.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1352,6 +1228,34 @@
             }
         },
         {
+            "name": "mediawiki/BlockAndNuke",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/BlockAndNuke.git",
+                "reference": "aef35514b97f8005a55a05fdc1fd191e9309d9b3"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/BlockAndNuke-master-5cb0db5.tar.gz"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "extra": {
+                "patches_applied": {
+                    "Pas de merge": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-BlockAndNuke/pull/3.diff",
+                    "Masquer les utilisateurs bloqués": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-BlockAndNuke/pull/4.diff"
+                }
+            },
+            "homepage": "https://www.mediawiki.org/wiki/Extension:BlockAndNuke",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/BlockAndNuke"
+            },
+            "time": "2017-09-22T21:21:38+00:00"
+        },
+        {
             "name": "mediawiki/CirrusSearch",
             "version": "1.29+7005f38",
             "source": {
@@ -1361,9 +1265,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/CirrusSearch-REL1_29-7005f38.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/CirrusSearch-REL1_29-7005f38.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1387,9 +1289,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Cite-REL1_29-5b01316.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Cite-REL1_29-5b01316.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1413,9 +1313,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/CleanChanges-REL1_29-0f74845.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/CleanChanges-REL1_29-0f74845.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1439,9 +1337,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Comments-REL1_29-2b8b9d4.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Comments-REL1_29-2b8b9d4.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1465,9 +1361,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/CommonsMetadata-REL1_29-cb5895a.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/CommonsMetadata-REL1_29-cb5895a.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1491,9 +1385,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_29-6925a22.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_29-6925a22.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1517,20 +1409,66 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/ContactPage-REL1_29-d269558.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/ContactPage-REL1_29-d269558.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension",
+            "extra": {
+                "patches_applied": {
+                    "En-tête From fixe": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-ContactPage/pull/1.diff"
+                }
+            },
             "homepage": "https://www.mediawiki.org/wiki/Extension:ContactPage",
             "keywords": [
                 "mediawiki"
             ],
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/ContactPage"
+            }
+        },
+        {
+            "name": "mediawiki/ContributionScores",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ContributionScores.git",
+                "reference": "ef9a18dbb3bb09bc998e7601129037bcf09783ec"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/ContributionScores-master-4f60431.tar.gz"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:ContributionScores",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/ContributionScores"
+            },
+            "time": "2017-04-24T20:37:44+00:00"
+        },
+        {
+            "name": "mediawiki/DismissableSiteNotice",
+            "version": "1.31+73a6b72",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/DismissableSiteNotice.git",
+                "reference": "73a6b72"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/DismissableSiteNotice-REL1_31-73a6b72.tar.gz"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:DismissableSiteNotice",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/DismissableSiteNotice"
             }
         },
         {
@@ -1543,9 +1481,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/DynamicPageList-REL1_29-969980b.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/DynamicPageList-REL1_29-969980b.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1569,9 +1505,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Echo-REL1_29-a3fd1af.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Echo-REL1_29-a3fd1af.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1595,9 +1529,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Elastica-REL1_29-e2a9593.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Elastica-REL1_29-e2a9593.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1612,6 +1544,31 @@
             }
         },
         {
+            "name": "mediawiki/GeoData",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/GeoData.git",
+                "reference": "b96ab95f996596d98259b3a908562f5db493be22"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/GeoData-master-8e77e0a.tar.gz"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:GeoData",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/GeoData"
+            },
+            "time": "2017-04-25T18:39:50+00:00"
+        },
+        {
             "name": "mediawiki/GoogleCustomWikiSearch",
             "version": "1.29+1c3172f",
             "source": {
@@ -1621,9 +1578,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/GoogleCustomWikiSearch-REL1_29-1c3172f.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/GoogleCustomWikiSearch-REL1_29-1c3172f.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1647,9 +1602,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/LookupUser-REL1_29-d175349.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/LookupUser-REL1_29-d175349.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1673,9 +1626,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Loops-REL1_29-f9fe1ad.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Loops-REL1_29-f9fe1ad.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1709,9 +1660,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/MixedNamespaceSearchSuggestions-REL1_29-6fffac5.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/MixedNamespaceSearchSuggestions-REL1_29-6fffac5.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1726,6 +1675,31 @@
             }
         },
         {
+            "name": "mediawiki/MobileFrontend",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileFrontend.git",
+                "reference": "4f7aee1ef2c60f4bb80eac8cb7b18d441ce636b2"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/MobileFrontend-master-ad889b4.tar.gz"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:MobileFrontend",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/MobileFrontend"
+            },
+            "time": "2017-10-12T15:52:51+00:00"
+        },
+        {
             "name": "mediawiki/MultimediaViewer",
             "version": "1.29+c76c6f4",
             "source": {
@@ -1735,9 +1709,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/MultimediaViewer-REL1_29-c76c6f4.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/MultimediaViewer-REL1_29-c76c6f4.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1761,9 +1733,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Newsletter-REL1_29-83d6001.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Newsletter-REL1_29-83d6001.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1787,9 +1757,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Nuke-REL1_29-5a1d3c4.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Nuke-REL1_29-5a1d3c4.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1813,9 +1781,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/NukeDPL-REL1_29-19237d8.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/NukeDPL-REL1_29-19237d8.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1839,9 +1805,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/PageImages-REL1_29-68f89b2.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/PageImages-REL1_29-68f89b2.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1865,9 +1829,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/ParserFunctions-REL1_29-ec53ace.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/ParserFunctions-REL1_29-ec53ace.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1891,9 +1853,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/ReplaceText-REL1_29-b02d10f.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/ReplaceText-REL1_29-b02d10f.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1917,9 +1877,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/TemplateData-REL1_29-a8ecd7a.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/TemplateData-REL1_29-a8ecd7a.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1943,9 +1901,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/TextExtracts-REL1_29-aecd1c8.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/TextExtracts-REL1_29-aecd1c8.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1969,9 +1925,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/UploadWizard-REL1_29-434cd35.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/UploadWizard-REL1_29-434cd35.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1995,9 +1949,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/UserMerge-REL1_29-de5f67d.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/UserMerge-REL1_29-de5f67d.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2021,9 +1973,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Variables-REL1_29-7a95992.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/Variables-REL1_29-7a95992.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2047,9 +1997,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/skins/Vector-REL1_29-380951d.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/skins/Vector-REL1_29-380951d.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2073,9 +2021,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/VisualEditor-REL1_29-ef45039.tar.gz",
-                "reference": null,
-                "shasum": null
+                "url": "https://extdist.wmflabs.org/dist/extensions/VisualEditor-REL1_29-ef45039.tar.gz"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2284,6 +2230,11 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "5.0.x-dev"
+                },
+                "patches_applied": {
+                    "Configuration de la durée du cache du geocoder": "patches/Maps-6371fa202888280293700aef2f59cb79df6f6601.diff",
+                    "Compatibilité avec GeoData": "patches/Maps-33db09cf317fcfc53295c58554a66c727a2cacec.diff",
+                    "Cache du geocoder dans la BDD": "patches/Maps-cache_db.diff"
                 }
             },
             "autoload": {
@@ -2553,6 +2504,9 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.5.x-dev"
+                },
+                "patches_applied": {
+                    "Échappement des virgules dans les CSV": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticMediaWiki/pull/4796.diff"
                 }
             },
             "autoload": {
@@ -2763,52 +2717,6 @@
                 "validator"
             ],
             "time": "2016-10-10T08:33:58+00:00"
-        },
-        {
-            "name": "nikic/fast-route",
-            "version": "v1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "181d480e08d9476e61381e04a71b34dc0432e812"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/181d480e08d9476e61381e04a71b34dc0432e812",
-                "reference": "181d480e08d9476e61381e04a71b34dc0432e812",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8.35|~5.7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "FastRoute\\": "src/"
-                },
-                "files": [
-                    "src/functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nikita Popov",
-                    "email": "nikic@php.net"
-                }
-            ],
-            "description": "Fast request router for PHP",
-            "keywords": [
-                "router",
-                "routing"
-            ],
-            "time": "2018-02-13T20:26:39+00:00"
         },
         {
             "name": "onoi/blob-store",
@@ -3316,6 +3224,7 @@
                 "php",
                 "stylesheet"
             ],
+            "abandoned": true,
             "time": "2017-03-28T22:19:25+00:00"
         },
         {
@@ -3579,155 +3488,6 @@
             "time": "2015-02-10T20:07:52+00:00"
         },
         {
-            "name": "pimple/pimple",
-            "version": "v3.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silexphp/Pimple.git",
-                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/9e403941ef9d65d20cba7d54e29fe906db42cf32",
-                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "psr/container": "^1.0"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "^3.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.2.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Pimple": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                }
-            ],
-            "description": "Pimple, a simple Dependency Injection Container",
-            "homepage": "http://pimple.sensiolabs.org",
-            "keywords": [
-                "container",
-                "dependency injection"
-            ],
-            "time": "2018-01-21T07:42:36+00:00"
-        },
-        {
-            "name": "psr/container",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/container.git",
-                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
-                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Psr\\Container\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
-                }
-            ],
-            "description": "Common Container Interface (PHP FIG PSR-11)",
-            "homepage": "https://github.com/php-fig/container",
-            "keywords": [
-                "PSR-11",
-                "container",
-                "container-interface",
-                "container-interop",
-                "psr"
-            ],
-            "time": "2017-02-14T16:28:37+00:00"
-        },
-        {
-            "name": "psr/http-message",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/http-message.git",
-                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
-                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Psr\\Http\\Message\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
-                }
-            ],
-            "description": "Common interface for HTTP messages",
-            "homepage": "https://github.com/php-fig/http-message",
-            "keywords": [
-                "http",
-                "http-message",
-                "psr",
-                "psr-7",
-                "request",
-                "response"
-            ],
-            "time": "2016-08-06T14:39:51+00:00"
-        },
-        {
             "name": "psr/log",
             "version": "1.0.2",
             "source": {
@@ -3850,77 +3610,8 @@
                 "GPL-2.0"
             ],
             "description": "Fork of HideNamespace extension for MediaWiki",
+            "abandoned": true,
             "time": "2016-01-09T18:39:25+00:00"
-        },
-        {
-            "name": "slim/slim",
-            "version": "3.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/slimphp/Slim.git",
-                "reference": "184352bc1913d7ba552ab4131d62f4730ddb0893"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/slimphp/Slim/zipball/184352bc1913d7ba552ab4131d62f4730ddb0893",
-                "reference": "184352bc1913d7ba552ab4131d62f4730ddb0893",
-                "shasum": ""
-            },
-            "require": {
-                "container-interop/container-interop": "^1.1",
-                "nikic/fast-route": "^1.0",
-                "php": ">=5.5.0",
-                "pimple/pimple": "^3.0",
-                "psr/http-message": "^1.0"
-            },
-            "provide": {
-                "psr/http-message-implementation": "1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.0",
-                "squizlabs/php_codesniffer": "^2.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Slim\\": "Slim"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rob Allen",
-                    "email": "rob@akrabat.com",
-                    "homepage": "http://akrabat.com"
-                },
-                {
-                    "name": "Josh Lockhart",
-                    "email": "hello@joshlockhart.com",
-                    "homepage": "https://joshlockhart.com"
-                },
-                {
-                    "name": "Gabriel Manricks",
-                    "email": "gmanricks@me.com",
-                    "homepage": "http://gabrielmanricks.com"
-                },
-                {
-                    "name": "Andrew Smith",
-                    "email": "a.smith@silentworks.co.uk",
-                    "homepage": "http://silentworks.co.uk"
-                }
-            ],
-            "description": "Slim is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs",
-            "homepage": "http://slimframework.com",
-            "keywords": [
-                "api",
-                "framework",
-                "micro",
-                "router"
-            ],
-            "time": "2016-07-26T15:12:13+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -4219,12 +3910,12 @@
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wikimedia/HtmlFormatter.git",
+                "url": "https://github.com/wikimedia/html-formatter.git",
                 "reference": "60069c2fb5e4f034e7025089cc4a1023b810d197"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/HtmlFormatter/zipball/60069c2fb5e4f034e7025089cc4a1023b810d197",
+                "url": "https://api.github.com/repos/wikimedia/html-formatter/zipball/60069c2fb5e4f034e7025089cc4a1023b810d197",
                 "reference": "60069c2fb5e4f034e7025089cc4a1023b810d197",
                 "shasum": ""
             },
@@ -4776,6 +4467,462 @@
     ],
     "packages-dev": [
         {
+            "name": "archi-strasbourg/archi-mediawiki-redirect",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-redirect.git",
+                "reference": "7b0de5fbcf6b019744b2374294af77f733e1ae6a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-redirect/zipball/7b0de5fbcf6b019744b2374294af77f733e1ae6a",
+                "reference": "7b0de5fbcf6b019744b2374294af77f733e1ae6a",
+                "shasum": ""
+            },
+            "require": {
+                "archi-strasbourg/archi-wiki": "dev-master",
+                "dshafik/php7-mysql-shim": "~1.0.0@beta",
+                "slim/slim": "~3.5.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "~2.7.0",
+                "symfony/var-dumper": "~3.1.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Script that redirects old Archi-Wiki URLs to new MediaWiki URLs",
+            "time": "2018-02-07T21:11:43+00:00"
+        },
+        {
+            "name": "archi-strasbourg/archi-wiki",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Archi-Strasbourg/archi-wiki.git",
+                "reference": "b9fb39f43a78409890a7de96426c1f6c49d5c323"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/b9fb39f43a78409890a7de96426c1f6c49d5c323",
+                "reference": "b9fb39f43a78409890a7de96426c1f6c49d5c323",
+                "shasum": ""
+            },
+            "require": {
+                "eventviva/php-image-resize": "~1.5.2"
+            },
+            "require-dev": {
+                "dshafik/php7-mysql-shim": "~0.2.0",
+                "pear-pear.php.net/html_bbcodeparser2": "*",
+                "symfony/var-dumper": "~3.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "modules/archi/includes/"
+                ],
+                "files": [
+                    "includes/framework/config.class.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Source code for http://archi-strasbourg.org/",
+            "abandoned": "archi-strasbourg/archi-mediawiki",
+            "time": "2018-01-02T13:33:20+00:00"
+        },
+        {
+            "name": "container-interop/container-interop",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/container-interop/container-interop.git",
+                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+                "shasum": ""
+            },
+            "require": {
+                "psr/container": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Interop\\Container\\": "src/Interop/Container/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
+            "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
+            "time": "2017-02-14T19:40:03+00:00"
+        },
+        {
+            "name": "dshafik/php7-mysql-shim",
+            "version": "1.0.0beta2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dshafik/php7-mysql-shim.git",
+                "reference": "f5b1bc97181418daf854385154a2800eda04c7f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dshafik/php7-mysql-shim/zipball/f5b1bc97181418daf854385154a2800eda04c7f1",
+                "reference": "f5b1bc97181418daf854385154a2800eda04c7f1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mysqli": "*",
+                "php": ">=5.3.6"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^1.9|^2.0",
+                "phpunit/phpunit": "^4.8|^5.2",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/mysql.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Davey Shafik",
+                    "email": "me@daveyshafik.com",
+                    "homepage": "https://daveyshafik.com"
+                }
+            ],
+            "description": "A PHP 7 shim for ext/mysql",
+            "time": "2017-01-12T20:22:02+00:00"
+        },
+        {
+            "name": "eventviva/php-image-resize",
+            "version": "1.5.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eventviva/php-image-resize.git",
+                "reference": "87e7200ad2e24beb9ec9862f6f2c11d93dee8838"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eventviva/php-image-resize/zipball/87e7200ad2e24beb9ec9862f6f2c11d93dee8838",
+                "reference": "87e7200ad2e24beb9ec9862f6f2c11d93dee8838",
+                "shasum": ""
+            },
+            "require": {
+                "ext-exif": "*",
+                "ext-gd": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aditya Patadia",
+                    "homepage": "http://aditya.patadia.org/"
+                }
+            ],
+            "description": "PHP class to re-size and scale images",
+            "homepage": "https://github.com/eventviva/php-image-resize",
+            "keywords": [
+                "image",
+                "php",
+                "resize",
+                "scale"
+            ],
+            "abandoned": "gumlet/php-image-resize",
+            "time": "2016-08-17T17:41:24+00:00"
+        },
+        {
+            "name": "nikic/fast-route",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/FastRoute.git",
+                "reference": "181d480e08d9476e61381e04a71b34dc0432e812"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/181d480e08d9476e61381e04a71b34dc0432e812",
+                "reference": "181d480e08d9476e61381e04a71b34dc0432e812",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35|~5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FastRoute\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov",
+                    "email": "nikic@php.net"
+                }
+            ],
+            "description": "Fast request router for PHP",
+            "keywords": [
+                "router",
+                "routing"
+            ],
+            "time": "2018-02-13T20:26:39+00:00"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v3.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/9e403941ef9d65d20cba7d54e29fe906db42cf32",
+                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple, a simple Dependency Injection Container",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2018-01-21T07:42:36+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "slim/slim",
+            "version": "3.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slimphp/Slim.git",
+                "reference": "184352bc1913d7ba552ab4131d62f4730ddb0893"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slimphp/Slim/zipball/184352bc1913d7ba552ab4131d62f4730ddb0893",
+                "reference": "184352bc1913d7ba552ab4131d62f4730ddb0893",
+                "shasum": ""
+            },
+            "require": {
+                "container-interop/container-interop": "^1.1",
+                "nikic/fast-route": "^1.0",
+                "php": ">=5.5.0",
+                "pimple/pimple": "^3.0",
+                "psr/http-message": "^1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0",
+                "squizlabs/php_codesniffer": "^2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slim\\": "Slim"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Allen",
+                    "email": "rob@akrabat.com",
+                    "homepage": "http://akrabat.com"
+                },
+                {
+                    "name": "Josh Lockhart",
+                    "email": "hello@joshlockhart.com",
+                    "homepage": "https://joshlockhart.com"
+                },
+                {
+                    "name": "Gabriel Manricks",
+                    "email": "gmanricks@me.com",
+                    "homepage": "http://gabrielmanricks.com"
+                },
+                {
+                    "name": "Andrew Smith",
+                    "email": "a.smith@silentworks.co.uk",
+                    "homepage": "http://silentworks.co.uk"
+                }
+            ],
+            "description": "Slim is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs",
+            "homepage": "http://slimframework.com",
+            "keywords": [
+                "api",
+                "framework",
+                "micro",
+                "router"
+            ],
+            "time": "2016-07-26T15:12:13+00:00"
+        },
+        {
             "name": "symfony/polyfill-mbstring",
             "version": "v1.9.0",
             "source": {
@@ -4903,11 +5050,42 @@
             "time": "2018-01-29T09:02:23+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "1.0.x-dev",
+            "alias_normalized": "1.0.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "archi-strasbourg/archi-home"
+        },
+        {
+            "alias": "1.0.x-dev",
+            "alias_normalized": "1.0.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "archi-strasbourg/sections-count"
+        }
+    ],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "archi-strasbourg/archi-blog": 20,
+        "archi-strasbourg/archi-comments": 20,
+        "archi-strasbourg/archi-home": 20,
+        "archi-strasbourg/archi-maps": 20,
+        "archi-strasbourg/archi-news-tab": 20,
+        "archi-strasbourg/archi-wiki-skin": 20,
+        "archi-strasbourg/sections-count": 20,
+        "mediawiki/blockandnuke": 20,
+        "mediawiki/contributionscores": 20,
+        "mediawiki/geodata": 20,
+        "mediawiki/mobilefrontend": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": []
+    "platform": {
+        "php": ">=5.6"
+    },
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "5.6.40"
+    },
+    "plugin-api-version": "1.1.0"
 }
