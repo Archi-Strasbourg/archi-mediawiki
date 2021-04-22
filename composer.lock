@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e916eaf501c931115cf108e006da15ca",
+    "content-hash": "bc1c4e3777db7a3dc38c17aa77549903",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -867,45 +867,44 @@
         },
         {
             "name": "data-values/common",
-            "version": "0.4.2",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataValues/Common.git",
-                "reference": "c99e06ffe1cfb709d4d8c970bac75dad65f66a1b"
+                "reference": "315bd95ef8e5c360ce8a1cf02c0eef35bbb92561"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataValues/Common/zipball/c99e06ffe1cfb709d4d8c970bac75dad65f66a1b",
-                "reference": "c99e06ffe1cfb709d4d8c970bac75dad65f66a1b",
+                "url": "https://api.github.com/repos/DataValues/Common/zipball/315bd95ef8e5c360ce8a1cf02c0eef35bbb92561",
+                "reference": "315bd95ef8e5c360ce8a1cf02c0eef35bbb92561",
                 "shasum": ""
             },
             "require": {
-                "data-values/data-values": "~2.0|~1.0|~0.1",
-                "data-values/interfaces": "~0.2.0|^0.1.5",
-                "php": ">=5.3.0"
+                "data-values/data-values": "~3.0|~2.0|~1.0|~0.1",
+                "data-values/interfaces": "~1.0|~0.2.0",
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "mediawiki/mediawiki-codesniffer": "^34",
+                "ockcyp/covers-validator": "^1.3.3",
+                "phpunit/phpunit": "~8.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.4.x-dev"
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "autoload": {
-                "files": [
-                    "Common.php"
-                ],
                 "psr-4": {
                     "DataValues\\": "src/DataValues/",
                     "ValueFormatters\\": "src/ValueFormatters/",
                     "ValueParsers\\": "src/ValueParsers/"
-                },
-                "classmap": [
-                    "tests/ValueParsers"
-                ]
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -924,49 +923,46 @@
                 "valuevalidators",
                 "wikidata"
             ],
-            "time": "2018-08-16T08:16:18+00:00"
+            "time": "2021-01-25T15:31:52+00:00"
         },
         {
             "name": "data-values/data-values",
-            "version": "1.1.1",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataValues/DataValues.git",
-                "reference": "c629d18daa781690d3efff442bc0da50199d8e8a"
+                "reference": "63dee286f8bb4ae7899c2d2e8d439e7b5332cc49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataValues/DataValues/zipball/c629d18daa781690d3efff442bc0da50199d8e8a",
-                "reference": "c629d18daa781690d3efff442bc0da50199d8e8a",
+                "url": "https://api.github.com/repos/DataValues/DataValues/zipball/63dee286f8bb4ae7899c2d2e8d439e7b5332cc49",
+                "reference": "63dee286f8bb4ae7899c2d2e8d439e7b5332cc49",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=7.2.0"
             },
             "replace": {
                 "mediawiki/data-values": "*"
             },
+            "require-dev": {
+                "phpunit/phpunit": "~8.0",
+                "wikibase/wikibase-codesniffer": "~1.2.0"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "3.x-dev"
                 }
             },
             "autoload": {
-                "files": [
-                    "DataValues.php"
-                ],
-                "classmap": [
-                    "src/interfaces",
-                    "tests/phpunit/DataValueTest.php"
-                ],
-                "psr-0": {
+                "psr-4": {
                     "DataValues\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -983,49 +979,57 @@
                 "wikibase",
                 "wikidata"
             ],
-            "time": "2017-11-02T18:08:35+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/JeroenDeDauw",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-01-19T16:36:36+00:00"
         },
         {
             "name": "data-values/geo",
-            "version": "2.1.2",
+            "version": "4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataValues/Geo.git",
-                "reference": "d283ebf4cb9aa0afcd0d11b5328ebb27c5013b1f"
+                "reference": "58fe0a1d027fce6feddbbe97d04678c6b2e40f17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataValues/Geo/zipball/d283ebf4cb9aa0afcd0d11b5328ebb27c5013b1f",
-                "reference": "d283ebf4cb9aa0afcd0d11b5328ebb27c5013b1f",
+                "url": "https://api.github.com/repos/DataValues/Geo/zipball/58fe0a1d027fce6feddbbe97d04678c6b2e40f17",
+                "reference": "58fe0a1d027fce6feddbbe97d04678c6b2e40f17",
                 "shasum": ""
             },
             "require": {
-                "data-values/common": "~0.4.0|~0.3.0|~0.2.0",
-                "data-values/data-values": "~1.0|~0.1",
-                "data-values/interfaces": "~0.2.0|~0.1.5",
-                "php": ">=5.5.9"
+                "data-values/data-values": "^3.0|^2.0|^1.0|~0.1",
+                "data-values/interfaces": "^1.0.0|^0.2.0",
+                "php": ">=7.3",
+                "symfony/polyfill-php80": "^1.18.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8",
-                "wikibase/wikibase-codesniffer": "^0.1.0"
+                "maglnet/composer-require-checker": "^3.0|^2.0",
+                "mediawiki/mediawiki-codesniffer": "^34 || ^35",
+                "ockcyp/covers-validator": "^1.3.3",
+                "phpmd/phpmd": "^2.9.1",
+                "phpstan/phpstan": "^0.12.68",
+                "phpunit/phpunit": "^9.4.1",
+                "vimeo/psalm": "^4.4.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "4.x-dev"
                 }
             },
             "autoload": {
-                "files": [
-                    "Geo.php"
-                ],
                 "psr-4": {
                     "DataValues\\Geo\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -1042,54 +1046,65 @@
             "description": "Geographical value objects, parsers and formatters",
             "homepage": "https://github.com/DataValues/Geo",
             "keywords": [
+                "Degrees",
+                "Minutes",
+                "coordinate",
+                "coordinates",
                 "datavalues",
+                "dms",
                 "formatters",
                 "geo",
                 "geographical",
+                "latitude",
                 "latlong",
+                "longitude",
                 "parsers",
+                "seconds",
                 "wikidata"
             ],
-            "time": "2018-08-01T13:35:32+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/JeroenDeDauw",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-04-21T11:29:29+00:00"
         },
         {
             "name": "data-values/interfaces",
-            "version": "0.2.5",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataValues/Interfaces.git",
-                "reference": "441a5c3c4d1ac8998ee95a0aafbf30e1064ae6f4"
+                "reference": "244d078954bc05edf8f8c6b088e848289171c3a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataValues/Interfaces/zipball/441a5c3c4d1ac8998ee95a0aafbf30e1064ae6f4",
-                "reference": "441a5c3c4d1ac8998ee95a0aafbf30e1064ae6f4",
+                "url": "https://api.github.com/repos/DataValues/Interfaces/zipball/244d078954bc05edf8f8c6b088e848289171c3a8",
+                "reference": "244d078954bc05edf8f8c6b088e848289171c3a8",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9"
+                "php": ">=7.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8",
-                "wikibase/wikibase-codesniffer": "^0.1.0"
+                "mediawiki/mediawiki-codesniffer": "^34",
+                "ockcyp/covers-validator": "~1.0",
+                "phpmd/phpmd": "^2.9.1",
+                "phpstan/phpstan": "^0.12.68",
+                "phpunit/phpunit": "~8.5"
             },
             "type": "library",
             "autoload": {
-                "files": [
-                    "Interfaces.php"
-                ],
                 "psr-4": {
                     "ValueFormatters\\": "src/ValueFormatters/",
                     "ValueParsers\\": "src/ValueParsers/",
                     "ValueValidators\\": "src/ValueValidators/"
-                },
-                "classmap": [
-                    "tests/ValueFormatters/ValueFormatterTestBase.php"
-                ]
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -1108,30 +1123,30 @@
                 "valuevalidators",
                 "wikidata"
             ],
-            "time": "2017-08-09T15:18:46+00:00"
+            "time": "2021-01-20T13:45:09+00:00"
         },
         {
             "name": "data-values/validators",
-            "version": "0.1.3",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataValues/Validators.git",
-                "reference": "926673bd5e23c52514933c0b65c2b44c222e27d0"
+                "reference": "83dbac2c5e9442e8fa2119c8b941ecb88156abe8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataValues/Validators/zipball/926673bd5e23c52514933c0b65c2b44c222e27d0",
-                "reference": "926673bd5e23c52514933c0b65c2b44c222e27d0",
+                "url": "https://api.github.com/repos/DataValues/Validators/zipball/83dbac2c5e9442e8fa2119c8b941ecb88156abe8",
+                "reference": "83dbac2c5e9442e8fa2119c8b941ecb88156abe8",
                 "shasum": ""
             },
             "require": {
-                "data-values/data-values": "^2.1.1|~1.0|~0.1",
-                "data-values/interfaces": "~0.2.0|~0.1.0",
-                "php": ">=5.5.9"
+                "data-values/data-values": "^3.0.0|^2.1.1|~1.0|~0.1",
+                "data-values/interfaces": "^1.0.0|~0.2.0|~0.1.0",
+                "php": ">=7.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35",
-                "wikibase/wikibase-codesniffer": "0.4.0"
+                "mediawiki/mediawiki-codesniffer": "^34",
+                "phpunit/phpunit": "^8.5"
             },
             "type": "library",
             "extra": {
@@ -1168,7 +1183,7 @@
                 "validators",
                 "wikidata"
             ],
-            "time": "2018-08-28T05:49:45+00:00"
+            "time": "2021-01-22T19:14:47+00:00"
         },
         {
             "name": "dshafik/php7-mysql-shim",
@@ -1614,32 +1629,38 @@
         },
         {
             "name": "jeroen/file-fetcher",
-            "version": "3.1.0",
+            "version": "6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/FileFetcher.git",
-                "reference": "818da8261c256aac137f000cabbe59bd4c348a44"
+                "reference": "7a17d947e268e351efc42386d4454a41b07ad481"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/FileFetcher/zipball/818da8261c256aac137f000cabbe59bd4c348a44",
-                "reference": "818da8261c256aac137f000cabbe59bd4c348a44",
+                "url": "https://api.github.com/repos/JeroenDeDauw/FileFetcher/zipball/7a17d947e268e351efc42386d4454a41b07ad481",
+                "reference": "7a17d947e268e351efc42386d4454a41b07ad481",
                 "shasum": ""
             },
             "require": {
-                "jeroen/simple-cache": "~2.0",
-                "php": ">=5.3.0"
+                "php": ">=7.1",
+                "psr/log": "~1.0"
             },
             "require-dev": {
-                "ockcyp/covers-validator": "~0.4",
-                "phpmd/phpmd": "~2.1",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~2.1"
+                "ockcyp/covers-validator": "~1.0",
+                "phpmd/phpmd": "~2.6",
+                "phpstan/phpstan": "~0.10.1",
+                "phpunit/phpunit": "~7.2",
+                "squizlabs/php_codesniffer": "~3.2",
+                "wmde/psr-log-test-doubles": "~2.1"
+            },
+            "suggest": {
+                "jeroen/file-fetcher-cache ": "Provides a SimpleCache (PSR-16) decorator for file fetchers",
+                "jeroen/file-fetcher-stopwatch": "Provides a Symfony Stopwatch decorator for file fetchers"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1.x-dev"
+                    "dev-master": "6.0.x-dev"
                 }
             },
             "autoload": {
@@ -1649,7 +1670,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -1662,13 +1683,95 @@
             "description": "Simple file fetching interface",
             "homepage": "https://github.com/JeroenDeDauw/FileFetcher",
             "keywords": [
+                "Test Doubles",
                 "cache",
                 "curl",
                 "file fetcher",
                 "file_get_contents",
+                "http",
+                "http client",
+                "http request",
+                "interface",
+                "mocks",
+                "request",
+                "spies",
+                "stubs",
                 "wget"
             ],
-            "time": "2016-01-07T21:17:42+00:00"
+            "time": "2019-01-17T11:44:23+00:00"
+        },
+        {
+            "name": "jeroen/file-fetcher-cache",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JeroenDeDauw/file-fetcher-cache.git",
+                "reference": "048ca2f966edcb38989332d13543185e864200ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JeroenDeDauw/file-fetcher-cache/zipball/048ca2f966edcb38989332d13543185e864200ba",
+                "reference": "048ca2f966edcb38989332d13543185e864200ba",
+                "shasum": ""
+            },
+            "require": {
+                "jeroen/file-fetcher": "~6.0|~5.0",
+                "jeroen/simple-cache": "~2.0",
+                "php": ">=7.1",
+                "psr/simple-cache": "~1.0"
+            },
+            "require-dev": {
+                "mediawiki/mediawiki-codesniffer": "~31.0",
+                "ockcyp/covers-validator": "~1.0",
+                "phpstan/phpstan": "^0.12.29",
+                "phpunit/phpunit": "~7.5",
+                "slevomat/coding-standard": "~6.0",
+                "squizlabs/php_codesniffer": "~3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FileFetcher\\Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "https://EntropyWins.wtf"
+                }
+            ],
+            "description": "Provides a SimpleCache (PSR-16) decorator for file fetchers",
+            "keywords": [
+                "cache",
+                "caching",
+                "file-fetcher",
+                "file_get_contents",
+                "filefetcher",
+                "psr-16",
+                "simple-cache",
+                "simplecache"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/JeroenDeDauw",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/jeroendedauw",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2020-08-19T16:25:55+00:00"
         },
         {
             "name": "jeroen/simple-cache",
@@ -1720,6 +1823,126 @@
                 "simplecache"
             ],
             "time": "2014-08-19T00:36:41+00:00"
+        },
+        {
+            "name": "jeroen/simple-geocoder",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JeroenDeDauw/SimpleGeocoder.git",
+                "reference": "1a9e6a6b8318d712363b53b1715aee5ce266e6b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JeroenDeDauw/SimpleGeocoder/zipball/1a9e6a6b8318d712363b53b1715aee5ce266e6b8",
+                "reference": "1a9e6a6b8318d712363b53b1715aee5ce266e6b8",
+                "shasum": ""
+            },
+            "require": {
+                "data-values/geo": "~4.0|~3.0|~2.0",
+                "jeroen/file-fetcher": "~6.0|~5.0|~4.0",
+                "php": ">=7.0",
+                "willdurand/geocoder": "~4.1"
+            },
+            "require-dev": {
+                "geocoder-php/google-maps-provider": "~4.1",
+                "guzzlehttp/psr7": "~1.4",
+                "mediawiki/mediawiki-codesniffer": "~31.0",
+                "ockcyp/covers-validator": "~1.2",
+                "php-http/mock-client": "~1.0",
+                "phpstan/phpstan": "^0.12.29",
+                "phpunit/phpunit": "~6.2",
+                "slevomat/coding-standard": "~6.0",
+                "squizlabs/php_codesniffer": "~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jeroen\\SimpleGeocoder\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "https://EntropyWins.wtf",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple and minimalistic Geocoder interface with some basic implementations",
+            "funding": [
+                {
+                    "url": "https://github.com/JeroenDeDauw",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/jeroendedauw",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2020-08-19T15:49:20+00:00"
+        },
+        {
+            "name": "jmikola/geojson",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jmikola/geojson.git",
+                "reference": "6ec3016cc0215667b7775f6ead7bd0337ad66eee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jmikola/geojson/zipball/6ec3016cc0215667b7775f6ead7bd0337ad66eee",
+                "reference": "6ec3016cc0215667b7775f6ead7bd0337ad66eee",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "GeoJson\\": "src/"
+                },
+                "classmap": [
+                    "stubs/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Mikola",
+                    "email": "jmikola@gmail.com"
+                }
+            ],
+            "description": "GeoJSON implementation for PHP",
+            "homepage": "https://github.com/jmikola/geojson",
+            "keywords": [
+                "geo",
+                "geojson",
+                "geospatial"
+            ],
+            "time": "2015-09-27T15:35:21+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -2762,32 +2985,37 @@
         },
         {
             "name": "mediawiki/maps",
-            "version": "5.0.2",
+            "version": "8.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Maps.git",
-                "reference": "3a537d623de8d2735198261afe0d42728bc6547b"
+                "reference": "e36df2e383da16f6c332076329a95637cb6499d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/3a537d623de8d2735198261afe0d42728bc6547b",
-                "reference": "3a537d623de8d2735198261afe0d42728bc6547b",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Maps/zipball/e36df2e383da16f6c332076329a95637cb6499d4",
+                "reference": "e36df2e383da16f6c332076329a95637cb6499d4",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0.1",
-                "data-values/geo": "~2.0",
-                "jeroen/file-fetcher": "~3.1",
+                "data-values/geo": "~4.0|~3.0",
+                "jeroen/file-fetcher": "~6.0|~5.0",
+                "jeroen/file-fetcher-cache": "~1.0",
                 "jeroen/simple-cache": "~2.0",
+                "jeroen/simple-geocoder": "~1.2",
+                "jmikola/geojson": "^1.0.2",
+                "mediawiki/parser-hooks": "~1.5",
                 "mediawiki/validator": "~2.2",
-                "php": ">=5.6"
+                "param-processor/param-processor": "^1.10",
+                "php": ">=7.1"
             },
             "replace": {
                 "mediawiki/semantic-maps": "*"
             },
             "require-dev": {
-                "data-values/common": "~0.3.1",
-                "phpunit/phpunit": "~3.7"
+                "data-values/common": "~0.4.1",
+                "maglnet/composer-require-checker": "^2.0"
             },
             "suggest": {
                 "mediawiki/semantic-media-wiki": "Add, edit, aggregate and visualize structured coordinate data stored with Semantic MediaWiki"
@@ -2795,42 +3023,36 @@
             "type": "mediawiki-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.0.x-dev"
+                    "dev-master": "8.x-dev"
                 },
-                "patches_applied": {
-                    "Configuration de la durée du cache du geocoder": "patches/Maps-6371fa202888280293700aef2f59cb79df6f6601.diff",
-                    "Compatibilité avec GeoData": "patches/Maps-33db09cf317fcfc53295c58554a66c727a2cacec.diff",
-                    "Cache du geocoder dans la BDD": "patches/Maps-cache_db.diff"
-                }
+                "patches_applied": []
             },
             "autoload": {
-                "files": [
-                    "Maps.php"
-                ],
                 "psr-4": {
-                    "Maps\\": "src/"
+                    "Maps\\": "src/",
+                    "Maps\\Tests\\": "tests/"
                 },
                 "classmap": [
-                    "includes/",
-                    "Maps.hooks.php",
-                    "SemanticMaps/src/",
-                    "SemanticMaps/SemanticMaps.hooks.php"
+                    "MapsRegistration.php"
+                ],
+                "files": [
+                    "Maps_Settings.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
                     "name": "Jeroen De Dauw",
                     "email": "jeroendedauw@gmail.com",
-                    "homepage": "http://jeroendedauw.com",
+                    "homepage": "https://www.entropywins.wtf",
                     "role": "Creator and lead developer"
                 }
             ],
             "description": "Adds various mapping features to MediaWiki",
-            "homepage": "https://github.com/JeroenDeDauw/Maps",
+            "homepage": "https://maps.extension.wiki",
             "keywords": [
                 "OpenLayers",
                 "OpenStreetMap",
@@ -2844,7 +3066,17 @@
                 "mediawiki",
                 "osm"
             ],
-            "time": "2017-10-19T06:05:12+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/JeroenDeDauw",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/jeroendedauw",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2020-12-09T13:12:53+00:00"
         },
         {
             "name": "mediawiki/page-forms",
@@ -2906,26 +3138,26 @@
         },
         {
             "name": "mediawiki/parser-hooks",
-            "version": "1.5.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/ParserHooks.git",
-                "reference": "8139d79191e467d71139d53ac12bb4acb7b3963d"
+                "reference": "45660efef737bcf33abbbb12c1ddb049c4e713fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/ParserHooks/zipball/8139d79191e467d71139d53ac12bb4acb7b3963d",
-                "reference": "8139d79191e467d71139d53ac12bb4acb7b3963d",
+                "url": "https://api.github.com/repos/JeroenDeDauw/ParserHooks/zipball/45660efef737bcf33abbbb12c1ddb049c4e713fe",
+                "reference": "45660efef737bcf33abbbb12c1ddb049c4e713fe",
                 "shasum": ""
             },
             "require": {
-                "param-processor/param-processor": "~1.2",
-                "php": ">=5.3.0"
+                "param-processor/param-processor": "^1.3.2",
+                "php": ">=7.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5.x-dev"
+                    "dev-master": "1.6.x-dev"
                 }
             },
             "autoload": {
@@ -2938,7 +3170,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -2956,7 +3188,7 @@
                 "parserhooks",
                 "tag extension"
             ],
-            "time": "2016-03-05T15:47:04+00:00"
+            "time": "2020-01-14T02:43:39+00:00"
         },
         {
             "name": "mediawiki/semantic-forms-select",
@@ -3244,16 +3476,16 @@
         },
         {
             "name": "mediawiki/validator",
-            "version": "2.2.1",
+            "version": "2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/Validator.git",
-                "reference": "04ad7a2f6c982b291dcbaa166f2ce90505da6401"
+                "reference": "944421640b3b34273b3722fbfd155550f1c7a8c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/Validator/zipball/04ad7a2f6c982b291dcbaa166f2ce90505da6401",
-                "reference": "04ad7a2f6c982b291dcbaa166f2ce90505da6401",
+                "url": "https://api.github.com/repos/JeroenDeDauw/Validator/zipball/944421640b3b34273b3722fbfd155550f1c7a8c6",
+                "reference": "944421640b3b34273b3722fbfd155550f1c7a8c6",
                 "shasum": ""
             },
             "require": {
@@ -3261,7 +3493,7 @@
                 "php": ">=5.5.0"
             },
             "require-dev": {
-                "data-values/common": "~0.3.1"
+                "data-values/common": "~1.0|~0.4.0|~0.3.1"
             },
             "type": "mediawiki-extension",
             "extra": {
@@ -3282,13 +3514,13 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
                     "name": "Jeroen De Dauw",
                     "email": "jeroendedauw@gmail.com",
-                    "homepage": "http://jeroendedauw.com",
+                    "homepage": "https://www.entropywins.wtf",
                     "role": "Developer"
                 }
             ],
@@ -3301,7 +3533,17 @@
                 "mediawiki",
                 "validator"
             ],
-            "time": "2016-10-10T08:33:58+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/JeroenDeDauw",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/jeroendedauw",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2020-11-19T22:38:12+00:00"
         },
         {
             "name": "nikic/fast-route",
@@ -3799,45 +4041,41 @@
         },
         {
             "name": "param-processor/param-processor",
-            "version": "1.3.4",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/ParamProcessor.git",
-                "reference": "f35b06f3bebf899cf640f15362e08768ac112202"
+                "reference": "2f26935d29512d78d32187a614a0a97eb4aed94c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/ParamProcessor/zipball/f35b06f3bebf899cf640f15362e08768ac112202",
-                "reference": "f35b06f3bebf899cf640f15362e08768ac112202",
+                "url": "https://api.github.com/repos/JeroenDeDauw/ParamProcessor/zipball/2f26935d29512d78d32187a614a0a97eb4aed94c",
+                "reference": "2f26935d29512d78d32187a614a0a97eb4aed94c",
                 "shasum": ""
             },
             "require": {
-                "data-values/common": "~0.4.0|~0.3.0|~0.2.2",
-                "data-values/data-values": "~2.0|~1.0|~0.1.1",
-                "data-values/interfaces": "~0.2.0|~0.1.4",
-                "data-values/validators": "~0.1.1",
-                "php": ">=5.5.0"
+                "data-values/common": "~1.0|~0.4.0|~0.3.0",
+                "data-values/data-values": "~3.0|~2.0|~1.0",
+                "data-values/interfaces": "~1.0|~0.2.0|~0.1.4",
+                "data-values/validators": "~1.0|~0.1.1",
+                "php": "~7.1"
             },
             "require-dev": {
-                "ockcyp/covers-validator": "~0.4",
-                "phpmd/phpmd": "~2.1",
-                "phpunit/phpunit": "~5.4|~4.8",
-                "squizlabs/php_codesniffer": "~2.1"
+                "ockcyp/covers-validator": "~1.0",
+                "phpmd/phpmd": "~2.6",
+                "phpunit/phpunit": "~7.4",
+                "squizlabs/php_codesniffer": "~3.3"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3.x-dev"
+                    "dev-master": "1.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
                     "ParamProcessor\\": "src"
                 },
-                "classmap": [
-                    "tests/phpunit/Definitions/ParamDefinitionTest.php",
-                    "tests/phpunit/Definitions/NumericParamTest.php"
-                ],
                 "files": [
                     "DefaultConfig.php"
                 ]
@@ -3850,7 +4088,7 @@
                 {
                     "name": "Jeroen De Dauw",
                     "email": "jeroendedauw@gmail.com",
-                    "homepage": "https://www.entropywins.wtf",
+                    "homepage": "https://EntropyWins.wtf",
                     "role": "Developer"
                 }
             ],
@@ -3860,10 +4098,19 @@
                 "ParamProcessor",
                 "SMW",
                 "Semantic MediaWiki",
+                "Vaidation",
+                "declarative",
                 "mediawiki",
+                "parameters",
                 "validator"
             ],
-            "time": "2018-05-05T18:38:56+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/JeroenDeDauw",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-03-18T01:48:52+00:00"
         },
         {
             "name": "pear/console_getopt",
@@ -4471,6 +4718,54 @@
             "time": "2020-03-23T09:12:05+00:00"
         },
         {
+            "name": "psr/simple-cache",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/simple-cache.git",
+                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\SimpleCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for simple caching",
+            "keywords": [
+                "cache",
+                "caching",
+                "psr",
+                "psr-16",
+                "simple-cache"
+            ],
+            "time": "2017-10-23T01:57:42+00:00"
+        },
+        {
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
             "source": {
@@ -5032,6 +5327,86 @@
                 }
             ],
             "description": "Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-01-07T16:49:33+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "version": "v1.22.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php80.git",
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dc3063ba22c2a1fd2f45ed856374d79114998f91",
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.22-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
             "homepage": "https://symfony.com",
             "keywords": [
                 "compatibility",
@@ -6457,6 +6832,65 @@
                 "selector"
             ],
             "time": "2021-03-23T15:15:09+00:00"
+        },
+        {
+            "name": "willdurand/geocoder",
+            "version": "4.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/geocoder-php/php-common.git",
+                "reference": "3e86f5b10ab0cef1cf03f979fe8e34b6476daff0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/geocoder-php/php-common/zipball/3e86f5b10ab0cef1cf03f979fe8e34b6476daff0",
+                "reference": "3e86f5b10ab0cef1cf03f979fe8e34b6476daff0",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "nyholm/nsa": "^1.1",
+                "phpunit/phpunit": "^9.5",
+                "symfony/stopwatch": "~2.5"
+            },
+            "suggest": {
+                "symfony/stopwatch": "If you want to use the TimedGeocoder"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Geocoder\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William Durand",
+                    "email": "william.durand1@gmail.com"
+                }
+            ],
+            "description": "Common files for PHP Geocoder",
+            "homepage": "http://geocoder-php.org",
+            "keywords": [
+                "abstraction",
+                "geocoder",
+                "geocoding",
+                "geoip"
+            ],
+            "time": "2020-12-21T09:30:01+00:00"
         },
         {
             "name": "zordius/lightncandy",

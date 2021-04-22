@@ -43,7 +43,7 @@
     "mediawiki/googlecustomwikisearch": "~1.35.0",
     "mediawiki/lookupuser": "~1.35.0",
     "mediawiki/loops": "~1.35.0",
-    "mediawiki/maps": "~5.0.2",
+    "mediawiki/maps": "^8.0",
     "mediawiki/metadescriptiontag": "~0.4.0",
     "mediawiki/mixednamespacesearchsuggestions": "~1.35.0",
     "mediawiki/mobilefrontend": "~1.35.0",
@@ -111,11 +111,6 @@
   },
   "extra": {
     "patches": {
-      "mediawiki/maps": {
-        "Configuration de la durée du cache du geocoder": "patches/Maps-6371fa202888280293700aef2f59cb79df6f6601.diff",
-        "Compatibilité avec GeoData": "patches/Maps-33db09cf317fcfc53295c58554a66c727a2cacec.diff",
-        "Cache du geocoder dans la BDD": "patches/Maps-cache_db.diff"
-      }
     }
   }
 }
