@@ -55,8 +55,8 @@
     "mediawiki/pageimages": "~1.35.0",
     "mediawiki/parserfunctions": "~1.35.0",
     "mediawiki/replacetext": "~1.35.0",
-    "mediawiki/semantic-forms-select": "~2.1.0",
-    "mediawiki/semantic-media-wiki": "~2.5.2",
+    "mediawiki/semantic-forms-select": "^3.0",
+    "mediawiki/semantic-media-wiki": "^3.2",
     "mediawiki/templatedata": "~1.35.0",
     "mediawiki/textextracts": "~1.35.0",
     "mediawiki/translate": "~2016.10.0",
@@ -115,9 +115,6 @@
         "Configuration de la durée du cache du geocoder": "patches/Maps-6371fa202888280293700aef2f59cb79df6f6601.diff",
         "Compatibilité avec GeoData": "patches/Maps-33db09cf317fcfc53295c58554a66c727a2cacec.diff",
         "Cache du geocoder dans la BDD": "patches/Maps-cache_db.diff"
-      },
-      "mediawiki/semantic-media-wiki": {
-        "Échappement des virgules dans les CSV": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticMediaWiki/pull/4796.diff"
       }
     }
   }
