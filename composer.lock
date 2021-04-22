@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc1c4e3777db7a3dc38c17aa77549903",
+    "content-hash": "e392c29a668649790488f1170ee7e31e",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -3080,24 +3080,27 @@
         },
         {
             "name": "mediawiki/page-forms",
-            "version": "4.1",
+            "version": "5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-PageForms.git",
-                "reference": "7f1cec5d7bcbc8ddce8e012deb71979acbb6aa02"
+                "reference": "f73585e79455b0b1f4d27aedcbfc9bbf19618382"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-PageForms/zipball/7f1cec5d7bcbc8ddce8e012deb71979acbb6aa02",
-                "reference": "7f1cec5d7bcbc8ddce8e012deb71979acbb6aa02",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-PageForms/zipball/f73585e79455b0b1f4d27aedcbfc9bbf19618382",
+                "reference": "f73585e79455b0b1f4d27aedcbfc9bbf19618382",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "1.*,>=1.0.1",
-                "php": ">=5.3.0"
+                "php": ">=5.5.9"
             },
             "require-dev": {
-                "jakub-onderka/php-parallel-lint": "0.9.2"
+                "mediawiki/mediawiki-codesniffer": "35.0.0",
+                "mediawiki/minus-x": "1.1.1",
+                "php-parallel-lint/php-console-highlighter": "0.5.0",
+                "php-parallel-lint/php-parallel-lint": "1.2.0"
             },
             "suggest": {
                 "mediawiki/open-layers": "Allow us to use ResourceLoader for OpenLayers."
@@ -3115,7 +3118,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -3134,7 +3137,7 @@
                 "mediawiki",
                 "wiki"
             ],
-            "time": "2017-02-08T19:13:24+00:00"
+            "time": "2021-04-16T01:19:17+00:00"
         },
         {
             "name": "mediawiki/parser-hooks",

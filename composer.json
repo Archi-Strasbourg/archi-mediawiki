@@ -51,7 +51,7 @@
     "mediawiki/newsletter": "~1.35.0",
     "mediawiki/nuke": "~1.35.0",
     "mediawiki/nukedpl": "~1.35.0",
-    "mediawiki/page-forms": "4.1.0",
+    "mediawiki/page-forms": "^5.2",
     "mediawiki/pageimages": "~1.35.0",
     "mediawiki/parserfunctions": "~1.35.0",
     "mediawiki/replacetext": "~1.35.0",
