@@ -101,7 +101,10 @@
       "ln -sfn ../composer.lock core/composer.lock",
       "cd skins/archi-wiki/; npm install; ./node_modules/.bin/bower install; ./node_modules/.bin/gulp"
     ],
-    "updatedb": "@php core/maintenance/update.php --conf LocalSettings.php"
+    "updatedb": [
+      "Composer\\Config::disableProcessTimeout",
+      "@php core/maintenance/update.php --conf LocalSettings.php"
+    ]
   },
   "config": {
     "sort-packages": true,
