@@ -101,8 +101,7 @@
       "rm -r vendor/mediawiki/core/extensions",
       "ln -sfn ../../../extensions/ vendor/mediawiki/core/extensions",
       "ln -sfn ../../../composer.lock vendor/mediawiki/core/composer.lock",
-      "npm ci --prefix=skins/archi-wiki/",
-      "npm run deploy --prefix=skins/archi-wiki/"
+      "cd skins/archi-wiki/ && npm ci && npm run deploy"
     ],
     "updatedb": "php vendor/mediawiki/core/maintenance/update.php --conf LocalSettings.php"
   },
