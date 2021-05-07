@@ -59,7 +59,7 @@
     "mediawiki/semantic-media-wiki": "^3.2",
     "mediawiki/templatedata": "~1.35.0",
     "mediawiki/textextracts": "~1.35.0",
-    "mediawiki/translate": "~2016.10.0",
+    "mediawiki/translate": "^2021.04",
     "mediawiki/uploadwizard": "~1.35.0",
     "mediawiki/usermerge": "~1.35.0",
     "mediawiki/variables": "~1.35.0",
