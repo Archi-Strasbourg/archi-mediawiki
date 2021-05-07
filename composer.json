@@ -99,7 +99,7 @@
       "rm -r core/extensions",
       "ln -sfn ../extensions/ core/extensions",
       "ln -sfn ../composer.lock core/composer.lock",
-      "cd skins/archi-wiki/; npm install; ./node_modules/.bin/bower install; ./node_modules/.bin/gulp"
+      "cd skins/archi-wiki/ && npm ci && npm run deploy"
     ],
     "updatedb": [
       "Composer\\Config::disableProcessTimeout",
