@@ -28,7 +28,6 @@ $wgEnableUploads = true;
 $wgUseImageMagick = true;
 $wgImageMagickConvertCommand = '/usr/bin/convert';
 $wgUseInstantCommons = true;
-$wgShellLocale = 'fr_FR.utf8';
 $wgLanguageCode = 'fr';
 $wgRightsPage = '';
 $wgRightsUrl = '';
