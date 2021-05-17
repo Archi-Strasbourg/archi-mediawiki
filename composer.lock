@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9b25eaf67a1a642376af310fefbb1dc",
+    "content-hash": "bd477a1a0e3a943c7e81b932c531c9f4",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -152,37 +152,6 @@
             "time": "2019-09-12T13:19:43+00:00"
         },
         {
-            "name": "archi-strasbourg/archi-mediawiki-redirect",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-redirect.git",
-                "reference": "7b0de5fbcf6b019744b2374294af77f733e1ae6a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-redirect/zipball/7b0de5fbcf6b019744b2374294af77f733e1ae6a",
-                "reference": "7b0de5fbcf6b019744b2374294af77f733e1ae6a",
-                "shasum": ""
-            },
-            "require": {
-                "archi-strasbourg/archi-wiki": "dev-master",
-                "dshafik/php7-mysql-shim": "~1.0.0@beta",
-                "slim/slim": "~3.5.0"
-            },
-            "require-dev": {
-                "squizlabs/php_codesniffer": "~2.7.0",
-                "symfony/var-dumper": "~3.1.0"
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "description": "Script that redirects old Archi-Wiki URLs to new MediaWiki URLs",
-            "time": "2018-02-07T21:11:43+00:00"
-        },
-        {
             "name": "archi-strasbourg/archi-move",
             "version": "1.0.0",
             "source": {
@@ -240,45 +209,6 @@
             ],
             "description": "MediaWiki extension that replaces the talk tab with a news tab",
             "time": "2020-07-17T10:31:16+00:00"
-        },
-        {
-            "name": "archi-strasbourg/archi-wiki",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Archi-Strasbourg/archi-wiki.git",
-                "reference": "b9fb39f43a78409890a7de96426c1f6c49d5c323"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-wiki/zipball/b9fb39f43a78409890a7de96426c1f6c49d5c323",
-                "reference": "b9fb39f43a78409890a7de96426c1f6c49d5c323",
-                "shasum": ""
-            },
-            "require": {
-                "eventviva/php-image-resize": "~1.5.2"
-            },
-            "require-dev": {
-                "dshafik/php7-mysql-shim": "~0.2.0",
-                "pear-pear.php.net/html_bbcodeparser2": "*",
-                "symfony/var-dumper": "~3.1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "modules/archi/includes/"
-                ],
-                "files": [
-                    "includes/framework/config.class.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "description": "Source code for http://archi-strasbourg.org/",
-            "abandoned": "archi-strasbourg/archi-mediawiki",
-            "time": "2018-01-02T13:33:20+00:00"
         },
         {
             "name": "archi-strasbourg/archi-wiki-skin",
@@ -744,38 +674,6 @@
             "time": "2020-12-03T15:47:16+00:00"
         },
         {
-            "name": "container-interop/container-interop",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/container-interop/container-interop.git",
-                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/79cbf1341c22ec75643d841642dd5d6acd83bdb8",
-                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
-                "shasum": ""
-            },
-            "require": {
-                "psr/container": "^1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Interop\\Container\\": "src/Interop/Container/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
-            "homepage": "https://github.com/container-interop/container-interop",
-            "abandoned": "psr/container",
-            "time": "2017-02-14T19:40:03+00:00"
-        },
-        {
             "name": "cssjanus/cssjanus",
             "version": "v1.3.0",
             "source": {
@@ -1186,49 +1084,6 @@
             "time": "2021-01-22T19:14:47+00:00"
         },
         {
-            "name": "dshafik/php7-mysql-shim",
-            "version": "1.0.0beta2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dshafik/php7-mysql-shim.git",
-                "reference": "f5b1bc97181418daf854385154a2800eda04c7f1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dshafik/php7-mysql-shim/zipball/f5b1bc97181418daf854385154a2800eda04c7f1",
-                "reference": "f5b1bc97181418daf854385154a2800eda04c7f1",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mysqli": "*",
-                "php": ">=5.3.6"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^1.9|^2.0",
-                "phpunit/phpunit": "^4.8|^5.2",
-                "squizlabs/php_codesniffer": "^2.3"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "lib/mysql.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Davey Shafik",
-                    "email": "me@daveyshafik.com",
-                    "homepage": "https://daveyshafik.com"
-                }
-            ],
-            "description": "A PHP 7 shim for ext/mysql",
-            "time": "2017-01-12T20:22:02+00:00"
-        },
-        {
             "name": "elasticsearch/elasticsearch",
             "version": "v6.8.1",
             "source": {
@@ -1290,52 +1145,6 @@
                 "search"
             ],
             "time": "2021-03-22T21:48:32+00:00"
-        },
-        {
-            "name": "eventviva/php-image-resize",
-            "version": "1.5.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/eventviva/php-image-resize.git",
-                "reference": "87e7200ad2e24beb9ec9862f6f2c11d93dee8838"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/eventviva/php-image-resize/zipball/87e7200ad2e24beb9ec9862f6f2c11d93dee8838",
-                "reference": "87e7200ad2e24beb9ec9862f6f2c11d93dee8838",
-                "shasum": ""
-            },
-            "require": {
-                "ext-exif": "*",
-                "ext-gd": "*",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Aditya Patadia",
-                    "homepage": "http://aditya.patadia.org/"
-                }
-            ],
-            "description": "PHP class to re-size and scale images",
-            "homepage": "https://github.com/eventviva/php-image-resize",
-            "keywords": [
-                "image",
-                "php",
-                "resize",
-                "scale"
-            ],
-            "abandoned": "gumlet/php-image-resize",
-            "time": "2016-08-17T17:41:24+00:00"
         },
         {
             "name": "ezimuel/guzzlestreams",
@@ -3454,27 +3263,28 @@
         },
         {
             "name": "mediawiki/universal-language-selector",
-            "version": "2018.07",
+            "version": "2021.04",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-UniversalLanguageSelector.git",
-                "reference": "7d99fc07add85f96d78fced8fba7588f10246bb3"
+                "reference": "190d6cd1cce5836c1335f49d12ad72560eef0e48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-UniversalLanguageSelector/zipball/7d99fc07add85f96d78fced8fba7588f10246bb3",
-                "reference": "7d99fc07add85f96d78fced8fba7588f10246bb3",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-UniversalLanguageSelector/zipball/190d6cd1cce5836c1335f49d12ad72560eef0e48",
+                "reference": "190d6cd1cce5836c1335f49d12ad72560eef0e48",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": ">=1.0.1",
-                "php": ">=5.5.9"
+                "php": ">=7.1"
             },
             "require-dev": {
-                "jakub-onderka/php-console-highlighter": "0.3.2",
-                "jakub-onderka/php-parallel-lint": "1.0.0",
-                "mediawiki/mediawiki-codesniffer": "19.0.0",
-                "mediawiki/minus-x": "0.3.1"
+                "mediawiki/mediawiki-codesniffer": "35.0.0",
+                "mediawiki/mediawiki-phan-config": "0.10.6",
+                "mediawiki/minus-x": "1.1.1",
+                "php-parallel-lint/php-console-highlighter": "0.5.0",
+                "php-parallel-lint/php-parallel-lint": "1.2.0"
             },
             "suggest": {
                 "mediawiki/cldr": "Language names in all languages"
@@ -3493,7 +3303,7 @@
                 "Web fonts",
                 "mediawiki"
             ],
-            "time": "2018-07-10T06:19:05+00:00"
+            "time": "2021-04-29T11:49:59+00:00"
         },
         {
             "name": "mediawiki/validator",
@@ -3615,52 +3425,6 @@
                 "yml"
             ],
             "time": "2019-09-10T13:16:29+00:00"
-        },
-        {
-            "name": "nikic/fast-route",
-            "version": "v1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "181d480e08d9476e61381e04a71b34dc0432e812"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/181d480e08d9476e61381e04a71b34dc0432e812",
-                "reference": "181d480e08d9476e61381e04a71b34dc0432e812",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8.35|~5.7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "FastRoute\\": "src/"
-                },
-                "files": [
-                    "src/functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nikita Popov",
-                    "email": "nikic@php.net"
-                }
-            ],
-            "description": "Fast request router for PHP",
-            "keywords": [
-                "router",
-                "routing"
-            ],
-            "time": "2018-02-13T20:26:39+00:00"
         },
         {
             "name": "onoi/blob-store",
@@ -4547,56 +4311,6 @@
             "time": "2021-03-21T15:43:46+00:00"
         },
         {
-            "name": "pimple/pimple",
-            "version": "v3.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silexphp/Pimple.git",
-                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/9e403941ef9d65d20cba7d54e29fe906db42cf32",
-                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "psr/container": "^1.0"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "^3.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.2.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Pimple": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                }
-            ],
-            "description": "Pimple, a simple Dependency Injection Container",
-            "homepage": "http://pimple.sensiolabs.org",
-            "keywords": [
-                "container",
-                "dependency injection"
-            ],
-            "time": "2018-01-21T07:42:36+00:00"
-        },
-        {
             "name": "pleonasm/bloom-filter",
             "version": "1.0.2",
             "source": {
@@ -5059,76 +4773,6 @@
             "description": "Fork of HideNamespace extension for MediaWiki",
             "abandoned": true,
             "time": "2016-01-09T18:39:25+00:00"
-        },
-        {
-            "name": "slim/slim",
-            "version": "3.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/slimphp/Slim.git",
-                "reference": "184352bc1913d7ba552ab4131d62f4730ddb0893"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/slimphp/Slim/zipball/184352bc1913d7ba552ab4131d62f4730ddb0893",
-                "reference": "184352bc1913d7ba552ab4131d62f4730ddb0893",
-                "shasum": ""
-            },
-            "require": {
-                "container-interop/container-interop": "^1.1",
-                "nikic/fast-route": "^1.0",
-                "php": ">=5.5.0",
-                "pimple/pimple": "^3.0",
-                "psr/http-message": "^1.0"
-            },
-            "provide": {
-                "psr/http-message-implementation": "1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.0",
-                "squizlabs/php_codesniffer": "^2.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Slim\\": "Slim"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rob Allen",
-                    "email": "rob@akrabat.com",
-                    "homepage": "http://akrabat.com"
-                },
-                {
-                    "name": "Josh Lockhart",
-                    "email": "hello@joshlockhart.com",
-                    "homepage": "https://joshlockhart.com"
-                },
-                {
-                    "name": "Gabriel Manricks",
-                    "email": "gmanricks@me.com",
-                    "homepage": "http://gabrielmanricks.com"
-                },
-                {
-                    "name": "Andrew Smith",
-                    "email": "a.smith@silentworks.co.uk",
-                    "homepage": "http://silentworks.co.uk"
-                }
-            ],
-            "description": "Slim is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs",
-            "homepage": "http://slimframework.com",
-            "keywords": [
-                "api",
-                "framework",
-                "micro",
-                "router"
-            ],
-            "time": "2016-07-26T15:12:13+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -7016,7 +6660,108 @@
             "time": "2020-03-08T06:00:24+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "insite/composer-dangling-locked-deps",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/prudloff-insite/composer-dangling-locked-deps.git",
+                "reference": "73e0f7096f860ff7c326194463373c364923f3fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prudloff-insite/composer-dangling-locked-deps/zipball/73e0f7096f860ff7c326194463373c364923f3fc",
+                "reference": "73e0f7096f860ff7c326194463373c364923f3fc",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1|^2.0",
+                "ocramius/package-versions": "^1.4"
+            },
+            "require-dev": {
+                "composer/composer": "^2.0",
+                "phpro/grumphp": "^0.21.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "ComposerDanglingLockedDeps\\DanglingLockedDepsPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ComposerDanglingLockedDeps\\": "src/",
+                    "ComposerDanglingLockedDeps\\GrumPHP\\": "src/grumphp/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Detect dangling Composer locked dependencies",
+            "time": "2020-11-16T13:45:00+00:00"
+        },
+        {
+            "name": "ocramius/package-versions",
+            "version": "1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ocramius/PackageVersions.git",
+                "reference": "94c9d42a466c57f91390cdd49c81313264f49d85"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ocramius/PackageVersions/zipball/94c9d42a466c57f91390cdd49c81313264f49d85",
+                "reference": "94c9d42a466c57f91390cdd49c81313264f49d85",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1.0 || ^2.0",
+                "php": "^7.4.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.9.3 || ^2.0@dev",
+                "doctrine/coding-standard": "^7.0.2",
+                "ext-zip": "^1.15.0",
+                "infection/infection": "^0.15.3",
+                "phpunit/phpunit": "^9.1.1",
+                "vimeo/psalm": "^3.9.3"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "PackageVersions\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.99.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PackageVersions\\": "src/PackageVersions"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com"
+                }
+            ],
+            "description": "Composer plugin that provides efficient querying for installed package versions (no runtime IO)",
+            "funding": [
+                {
+                    "url": "https://github.com/Ocramius",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/ocramius/package-versions",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-06-22T14:15:44+00:00"
+        }
+    ],
     "aliases": [
         {
             "alias": "1.0.x-dev",

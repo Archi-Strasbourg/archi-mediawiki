@@ -60,6 +60,7 @@
     "mediawiki/templatedata": "~1.35.0",
     "mediawiki/textextracts": "~1.35.0",
     "mediawiki/translate": "^2021.04",
+    "mediawiki/universal-language-selector": "^2021.04",
     "mediawiki/uploadwizard": "~1.35.0",
     "mediawiki/usermerge": "~1.35.0",
     "mediawiki/variables": "~1.35.0",
@@ -68,6 +69,7 @@
     "shakeepers/hide-namespace": "~1.4.3"
   },
   "require-dev": {
+    "insite/composer-dangling-locked-deps": "^0.2.1"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
