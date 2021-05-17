@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cde98bc77b15f0e9fc807d8e81f5e720",
+    "content-hash": "a9b25eaf67a1a642376af310fefbb1dc",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -97,12 +97,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "60085cdfdb81f1a1d24de6885bc13e3ac731112b"
+                "reference": "a3d02dc64922a2d092ea76f66a58fc9edb054c64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/60085cdfdb81f1a1d24de6885bc13e3ac731112b",
-                "reference": "60085cdfdb81f1a1d24de6885bc13e3ac731112b",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/a3d02dc64922a2d092ea76f66a58fc9edb054c64",
+                "reference": "a3d02dc64922a2d092ea76f66a58fc9edb054c64",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "GPL-3.0-only"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2021-01-25T10:50:59+00:00"
+            "time": "2021-05-17T09:29:22+00:00"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -286,12 +286,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "ca1d10c64def04653455d48e7d7b0daef1ee4049"
+                "reference": "5d674415b33542e471922715190b7ddbc3a408d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/ca1d10c64def04653455d48e7d7b0daef1ee4049",
-                "reference": "ca1d10c64def04653455d48e7d7b0daef1ee4049",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/5d674415b33542e471922715190b7ddbc3a408d5",
+                "reference": "5d674415b33542e471922715190b7ddbc3a408d5",
                 "shasum": ""
             },
             "require-dev": {
@@ -315,20 +315,20 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2021-04-30T09:45:38+00:00"
+            "time": "2021-05-07T09:19:22+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
-            "version": "2.6.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-category-breadcrumb.git",
-                "reference": "c8ddbf6f25a0eadbd8f39385e2f60eb955319d8a"
+                "reference": "17a924614f1b5b98e21a93076e118f823c9ebc22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/c8ddbf6f25a0eadbd8f39385e2f60eb955319d8a",
-                "reference": "c8ddbf6f25a0eadbd8f39385e2f60eb955319d8a",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/17a924614f1b5b98e21a93076e118f823c9ebc22",
+                "reference": "17a924614f1b5b98e21a93076e118f823c9ebc22",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -337,7 +337,7 @@
                 "proprietary"
             ],
             "description": "Provides DMOZ-style category breadcrumbs",
-            "time": "2017-12-28T01:07:13+00:00"
+            "time": "2021-05-07T09:27:34+00:00"
         },
         {
             "name": "archi-strasbourg/email-login",
@@ -7039,6 +7039,7 @@
         "archi-strasbourg/archi-maps": 20,
         "archi-strasbourg/archi-news-tab": 20,
         "archi-strasbourg/archi-wiki-skin": 20,
+        "archi-strasbourg/category-breadcrumb": 20,
         "archi-strasbourg/sections-count": 20
     },
     "prefer-stable": true,
