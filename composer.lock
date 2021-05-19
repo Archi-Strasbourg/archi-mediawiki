@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bd477a1a0e3a943c7e81b932c531c9f4",
+    "content-hash": "885a9de0dc5c0c1a0a8fd37d9da7c2bd",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -1907,7 +1907,10 @@
             },
             "type": "mediawiki-extension",
             "extra": {
-                "patches_applied": []
+                "patches_applied": {
+                    "Pas de merge": "patches/blockandnuke-3.diff",
+                    "Masquer les utilisateurs bloqués": "patches/blockandnuke-4.diff"
+                }
             },
             "homepage": "https://www.mediawiki.org/wiki/Extension:BlockAndNuke",
             "support": {
@@ -2057,7 +2060,9 @@
             },
             "type": "mediawiki-extension",
             "extra": {
-                "patches_applied": []
+                "patches_applied": {
+                    "En-tête From fixe": "patches/contactpage-1.diff"
+                }
             },
             "homepage": "https://www.mediawiki.org/wiki/Extension:ContactPage",
             "support": {
@@ -2834,7 +2839,9 @@
                 "branch-alias": {
                     "dev-master": "8.x-dev"
                 },
-                "patches_applied": []
+                "patches_applied": {
+                    "Cache du geocoder dans la BDD": "https://patch-diff.githubusercontent.com/raw/ProfessionalWiki/Maps/pull/645.diff"
+                }
             },
             "autoload": {
                 "psr-4": {
@@ -3126,7 +3133,9 @@
                 "branch-alias": {
                     "dev-master": "3.x-dev"
                 },
-                "patches_applied": []
+                "patches_applied": {
+                    "Échappement des virgules dans les CSV": "patches/semantic-media-wiki-4976.diff"
+                }
             },
             "autoload": {
                 "psr-4": {

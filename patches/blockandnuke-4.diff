@@ -1,0 +1,30 @@
+diff --git a/includes/SpecialBlock_Nuke.php b/includes/SpecialBlock_Nuke.php
+index 4580dda..6fbfc49 100644
+--- a/includes/SpecialBlock_Nuke.php
++++ b/includes/SpecialBlock_Nuke.php
+@@ -69,14 +69,17 @@ class SpecialBlock_Nuke extends SpecialPage {
+ 
+ 		foreach ( $names as $user ) {
+ 			if ( !in_array( $user, $whitelist ) ) {
+-				$out->addHTML(
+-					'<li>' .
+-					Xml::check( 'names[]', true,
+-						[ 'value' => $user ]
+-					) .
+-					htmlspecialchars( $user ) .
+-					"</li>\n"
+-				);
++				$userObject = User::newFromName( $user );
++				if (!$userObject->isBlocked()) {
++					$out->addHTML(
++						'<li>' .
++						Xml::check('names[]', true,
++							['value' => $user]
++						) .
++						htmlspecialchars($user) .
++						"</li>\n"
++					);
++				}
+ 			}
+ 
+ 		}

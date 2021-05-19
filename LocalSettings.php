@@ -432,3 +432,4 @@ $wgContribScoreIgnoreBots = true;
 // Maps
 $egMapsGeoCacheTtl = BagOStuff::TTL_MONTH;
 $egMapsEnableCoordinateFunction = false;
+$egMapsGeoCacheType = CACHE_DB;
