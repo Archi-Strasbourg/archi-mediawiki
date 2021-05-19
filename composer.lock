@@ -40,12 +40,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments.git",
-                "reference": "a349309ac8319072d98c0e748b3faa3002690f0c"
+                "reference": "f517e9c5814b476cb2df1c9efc437f0167b23e81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/a349309ac8319072d98c0e748b3faa3002690f0c",
-                "reference": "a349309ac8319072d98c0e748b3faa3002690f0c",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/f517e9c5814b476cb2df1c9efc437f0167b23e81",
+                "reference": "f517e9c5814b476cb2df1c9efc437f0167b23e81",
                 "shasum": ""
             },
             "require": {
@@ -61,7 +61,7 @@
                 "GPL-3.0"
             ],
             "description": "Comments page for archi-wiki.org",
-            "time": "2019-10-17T08:43:17+00:00"
+            "time": "2021-05-17T09:32:54+00:00"
         },
         {
             "name": "archi-strasbourg/archi-footer",
@@ -216,12 +216,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "5d674415b33542e471922715190b7ddbc3a408d5"
+                "reference": "3f49b03ca18df5541db7df71e65464739f651d81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/5d674415b33542e471922715190b7ddbc3a408d5",
-                "reference": "5d674415b33542e471922715190b7ddbc3a408d5",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/3f49b03ca18df5541db7df71e65464739f651d81",
+                "reference": "3f49b03ca18df5541db7df71e65464739f651d81",
                 "shasum": ""
             },
             "require-dev": {
@@ -245,7 +245,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2021-05-07T09:19:22+00:00"
+            "time": "2021-05-19T08:49:14+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
