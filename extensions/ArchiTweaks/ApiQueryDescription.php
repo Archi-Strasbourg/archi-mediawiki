@@ -2,11 +2,9 @@
 
 namespace ArchiTweaks;
 
-use ApiQuery;
 use ApiQueryBase;
 use TextExtracts\TextTruncator;
 use Title;
-use MediaWiki\MediaWikiServices;
 use TextExtracts\ExtractFormatter;
 
 /**
@@ -15,26 +13,6 @@ use TextExtracts\ExtractFormatter;
  * @package ArchiTweaks
  */
 class ApiQueryDescription extends ApiQueryBase {
-
-  /** @var \Config */
-  private $config;
-
-  /**
-   * ApiQueryDescription constructor.
-   *
-   * @param \ApiQuery $queryModule
-   * @param $moduleName
-   * @param string $paramPrefix
-   *
-   * @throws \ConfigException
-   */
-  public function __construct(ApiQuery $queryModule, $moduleName, $paramPrefix = '') {
-    parent::__construct($queryModule, $moduleName, $paramPrefix);
-
-    $this->config = MediaWikiServices::getInstance()
-      ->getConfigFactory()
-      ->makeConfig('textextracts');
-  }
 
   /**
    * @param $options
@@ -57,7 +35,8 @@ class ApiQueryDescription extends ApiQueryBase {
    *
    * @return string
    */
-  private function convertText($text) {
+  private function convertText($text): string
+  {
     $fmt = new ExtractFormatter(
       $text,
       TRUE,
@@ -79,7 +58,7 @@ class ApiQueryDescription extends ApiQueryBase {
   }
 
   /**
-   * @param \Title $title
+   * @param Title $title
    *
    * @return mixed|string
    */
@@ -163,23 +142,26 @@ class ApiQueryDescription extends ApiQueryBase {
   }
 
   /**
-   * @return array|false|\Message|string
+   * @return string
    */
-  public function getDescription() {
+  public function getDescription(): string
+  {
     return "Remplace la propriété wikidataDescription normalement retournée par l'extension Wikidata, pour que Special:Nearby puisse l'utiliser.";
   }
 
   /**
    * @return bool
    */
-  public function isInternal() {
+  public function isInternal(): bool
+  {
     return TRUE;
   }
 
   /**
-   * @return array|bool|string
+   * @return array
    */
-  protected function getExamples() {
+  protected function getExamples(): array
+  {
     return [
       'action=query&prop=archiDescription&titles=Adresse:14 Avenue de la Marseillaise (Strasbourg)',
     ];
