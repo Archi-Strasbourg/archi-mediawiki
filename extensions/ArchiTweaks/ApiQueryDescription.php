@@ -4,6 +4,7 @@ namespace ArchiTweaks;
 
 use ApiQuery;
 use ApiQueryBase;
+use TextExtracts\TextTruncator;
 use Title;
 use MediaWiki\MediaWikiServices;
 use TextExtracts\ExtractFormatter;
@@ -60,14 +61,14 @@ class ApiQueryDescription extends ApiQueryBase {
     $fmt = new ExtractFormatter(
       $text,
       TRUE,
-      $this->config
     );
+    $truncator = new TextTruncator(false);
 
     $text = trim(
       preg_replace(
         "/" . ExtractFormatter::SECTION_MARKER_START . '(\d)' . ExtractFormatter::SECTION_MARKER_END . "(.*?)$/m",
         '',
-        ExtractFormatter::getFirstChars($fmt->getText(), 120)
+        $truncator->getFirstChars($fmt->getText(), 120)
       )
     );
     if (!empty($text)) {
