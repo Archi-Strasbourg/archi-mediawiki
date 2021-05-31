@@ -124,7 +124,7 @@ class ApiQueryDescription extends ApiQueryBase {
           'pages',
           $id,
         ],
-        'wikidataDescription',
+        'description',
         $description
       );
 
