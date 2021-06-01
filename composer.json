@@ -66,6 +66,7 @@
     "mediawiki/variables": "~1.35.0",
     "mediawiki/vector": "~1.35.0",
     "mediawiki/visualeditor": "~1.35.0",
+    "ruflin/elastica": "^6.1",
     "shakeepers/hide-namespace": "~1.4.3"
   },
   "require-dev": {
