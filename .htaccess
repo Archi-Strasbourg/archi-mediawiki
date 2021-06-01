@@ -2,6 +2,9 @@ RewriteEngine on
 
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
+RewriteCond %{REQUEST_URI} !^/rest.php
 RewriteRule ^(.*)$ %{DOCUMENT_ROOT}/index.php [L]
 
 RedirectMatch 403 /\.git
+
+SetEnv MW_INSTALL_PATH /srv/www/archi-mediawiki-php74/

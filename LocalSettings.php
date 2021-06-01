@@ -118,10 +118,6 @@ include_once __DIR__ . '/apikeys.php';
 
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
-$wgVirtualRestConfig['modules']['parsoid'] = [
-    'url' => 'http://localhost:8142',
-    'prefix' => 'localhost',
-];
 $wgVisualEditorSupportedSkins = ['vector', 'archiwiki'];
 $wgUploadDialog = [
     'fields' => [
