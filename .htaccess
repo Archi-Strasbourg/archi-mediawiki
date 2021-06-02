@@ -7,4 +7,5 @@ RewriteRule ^(.*)$ %{DOCUMENT_ROOT}/index.php [L]
 
 RedirectMatch 403 /\.git
 
-SetEnv MW_INSTALL_PATH /srv/www/archi-mediawiki-php74/
+SetEnvIf Host ^test.archi-wiki.org$ MW_INSTALL_PATH=/srv/www/archi-mediawiki-php74/
+SetEnvIf Host ^www.archi-wiki.org$ MW_INSTALL_PATH=/srv/www/archi-mediawiki/
