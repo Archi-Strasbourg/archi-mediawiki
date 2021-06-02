@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7fcd01390e5062cc8f3b78d7af3259e1",
+    "content-hash": "a0c121a04417d791c3332a179b7d07c0",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -65,16 +65,16 @@
         },
         {
             "name": "archi-strasbourg/archi-footer",
-            "version": "1.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer.git",
-                "reference": "5d557f0ed63cfe51b1f0fca20d175e19cea982fd"
+                "reference": "f44a74e8dad9cc75565ab6ca286988de93809d62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/5d557f0ed63cfe51b1f0fca20d175e19cea982fd",
-                "reference": "5d557f0ed63cfe51b1f0fca20d175e19cea982fd",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/f44a74e8dad9cc75565ab6ca286988de93809d62",
+                "reference": "f44a74e8dad9cc75565ab6ca286988de93809d62",
                 "shasum": ""
             },
             "require": {
@@ -86,10 +86,10 @@
             "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0"
+                "GPL-3.0-only"
             ],
             "description": "Custom page footer for archi-wiki.org",
-            "time": "2017-12-28T01:25:22+00:00"
+            "time": "2021-06-01T08:44:41+00:00"
         },
         {
             "name": "archi-strasbourg/archi-home",
@@ -97,12 +97,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "a3d02dc64922a2d092ea76f66a58fc9edb054c64"
+                "reference": "a20d31d52e5f5ea6a54a8aa220a7f03ea269fd16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/a3d02dc64922a2d092ea76f66a58fc9edb054c64",
-                "reference": "a3d02dc64922a2d092ea76f66a58fc9edb054c64",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/a20d31d52e5f5ea6a54a8aa220a7f03ea269fd16",
+                "reference": "a20d31d52e5f5ea6a54a8aa220a7f03ea269fd16",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "GPL-3.0-only"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2021-05-17T09:29:22+00:00"
+            "time": "2021-06-01T08:59:11+00:00"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -424,12 +424,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-sections-count.git",
-                "reference": "bc3c05cc8089588c1187cb0040acba53fd488a4e"
+                "reference": "937c3ae777fed20ccf80c2fd47f03c8f522372bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-sections-count/zipball/bc3c05cc8089588c1187cb0040acba53fd488a4e",
-                "reference": "bc3c05cc8089588c1187cb0040acba53fd488a4e",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-sections-count/zipball/937c3ae777fed20ccf80c2fd47f03c8f522372bc",
+                "reference": "937c3ae777fed20ccf80c2fd47f03c8f522372bc",
                 "shasum": ""
             },
             "require-dev": {
@@ -452,7 +452,11 @@
                 }
             ],
             "description": "MediaWiki magic word that displays the number of sections in a page",
-            "time": "2019-10-17T08:51:29+00:00"
+            "support": {
+                "issues": "https://github.com/Archi-Strasbourg/mediawiki-sections-count/issues",
+                "source": "https://github.com/Archi-Strasbourg/mediawiki-sections-count/tree/master"
+            },
+            "time": "2021-06-01T09:09:02+00:00"
         },
         {
             "name": "composer/installers",
@@ -6851,6 +6855,7 @@
     "stability-flags": {
         "archi-strasbourg/archi-blog": 20,
         "archi-strasbourg/archi-comments": 20,
+        "archi-strasbourg/archi-footer": 20,
         "archi-strasbourg/archi-home": 20,
         "archi-strasbourg/archi-maps": 20,
         "archi-strasbourg/archi-news-tab": 20,
