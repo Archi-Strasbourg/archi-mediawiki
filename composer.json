@@ -70,6 +70,7 @@
     "shakeepers/hide-namespace": "~1.4.3"
   },
   "require-dev": {
+    "enlightn/security-checker": "^1.9",
     "insite/composer-dangling-locked-deps": "^0.2.1"
   },
   "minimum-stability": "dev",
@@ -107,7 +108,8 @@
     "updatedb": [
       "Composer\\Config::disableProcessTimeout",
       "@php core/maintenance/update.php --conf LocalSettings.php"
-    ]
+    ],
+    "security": "security-checker security:check"
   },
   "config": {
     "sort-packages": true,
