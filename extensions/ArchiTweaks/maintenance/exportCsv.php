@@ -6,9 +6,9 @@ use ConfigException;
 use Maintenance;
 use MediaWiki\MediaWikiServices;
 use SMW\ApplicationFactory;
-use SMW\CsvResultPrinter;
 use SMW\MediaWiki\Api\ApiRequestParameterFormatter;
 use SMW\MediaWiki\Api\Ask;
+use SMW\Query\ResultPrinters\CsvFileExportPrinter;
 use SMWQueryProcessor;
 use SMWQueryResult;
 use SplTempFileObject;
@@ -88,7 +88,7 @@ class ExportCsv extends Maintenance
     {
         list($queryString, $parameters, $printouts) = $this->getParams($limit, $offset, $headers);
 
-        $printer = new CsvResultPrinter('csv');
+        $printer = new CsvFileExportPrinter('csv');
 
         return $printer->getResult(
             $this->getResults($limit, $offset, 'csv', $headers),
