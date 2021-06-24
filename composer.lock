@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "42357291ece942124bc37b491a585f1f",
+    "content-hash": "12dfccb24820f8011cef4ffb1c3cbc3b",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog.git",
-                "reference": "1e81a575a34401ab24515b28ff6ef48bd5f8dad5"
+                "reference": "5ab211d235cd17fc10529b4993c26a81c0928574"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/1e81a575a34401ab24515b28ff6ef48bd5f8dad5",
-                "reference": "1e81a575a34401ab24515b28ff6ef48bd5f8dad5",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/5ab211d235cd17fc10529b4993c26a81c0928574",
+                "reference": "5ab211d235cd17fc10529b4993c26a81c0928574",
                 "shasum": ""
             },
             "require": {
@@ -32,7 +32,7 @@
                 "GPL-3.0-only"
             ],
             "description": "Blog page for archi-wiki.org",
-            "time": "2020-04-15T09:44:47+00:00"
+            "time": "2021-05-11T09:28:28+00:00"
         },
         {
             "name": "archi-strasbourg/archi-comments",
@@ -125,12 +125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
-                "reference": "04c60b81496820f971d98d0c8476de8e294b50cf"
+                "reference": "0a62114c2b177d23c3eb54552f1e303d904ce919"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/04c60b81496820f971d98d0c8476de8e294b50cf",
-                "reference": "04c60b81496820f971d98d0c8476de8e294b50cf",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/0a62114c2b177d23c3eb54552f1e303d904ce919",
+                "reference": "0a62114c2b177d23c3eb54552f1e303d904ce919",
                 "shasum": ""
             },
             "require-dev": {
@@ -149,7 +149,7 @@
                 }
             ],
             "description": "Map plugin for archi-wiki.org",
-            "time": "2019-09-12T13:19:43+00:00"
+            "time": "2021-06-24T09:23:00+00:00"
         },
         {
             "name": "archi-strasbourg/archi-move",
@@ -182,12 +182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab.git",
-                "reference": "9a8ea97fef3391dcffef8262eb4dac8280158732"
+                "reference": "b2beee551b4ee97d9255a07359bdd6fd169ca2ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/9a8ea97fef3391dcffef8262eb4dac8280158732",
-                "reference": "9a8ea97fef3391dcffef8262eb4dac8280158732",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/b2beee551b4ee97d9255a07359bdd6fd169ca2ac",
+                "reference": "b2beee551b4ee97d9255a07359bdd6fd169ca2ac",
                 "shasum": ""
             },
             "require": {
@@ -208,7 +208,7 @@
                 }
             ],
             "description": "MediaWiki extension that replaces the talk tab with a news tab",
-            "time": "2020-07-17T10:31:16+00:00"
+            "time": "2021-05-07T10:27:22+00:00"
         },
         {
             "name": "archi-strasbourg/archi-wiki-skin",
@@ -216,12 +216,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "3f49b03ca18df5541db7df71e65464739f651d81"
+                "reference": "0d4510ef06d7f1ebe0ba48bbd4a38a95a1aae0e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/3f49b03ca18df5541db7df71e65464739f651d81",
-                "reference": "3f49b03ca18df5541db7df71e65464739f651d81",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/0d4510ef06d7f1ebe0ba48bbd4a38a95a1aae0e2",
+                "reference": "0d4510ef06d7f1ebe0ba48bbd4a38a95a1aae0e2",
                 "shasum": ""
             },
             "require-dev": {
@@ -245,7 +245,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2021-05-19T08:49:14+00:00"
+            "time": "2021-06-24T09:00:22+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -308,16 +308,16 @@
         },
         {
             "name": "archi-strasbourg/emailuser-html",
-            "version": "1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-emailuser-html.git",
-                "reference": "90244495425c5105a79ae117eed23deebe96b8b8"
+                "reference": "668c25d8f07b1824c913c05cbb50447506b47d24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-emailuser-html/zipball/90244495425c5105a79ae117eed23deebe96b8b8",
-                "reference": "90244495425c5105a79ae117eed23deebe96b8b8",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-emailuser-html/zipball/668c25d8f07b1824c913c05cbb50447506b47d24",
+                "reference": "668c25d8f07b1824c913c05cbb50447506b47d24",
                 "shasum": ""
             },
             "require": {
@@ -336,7 +336,11 @@
                 "GPL-3.0"
             ],
             "description": "MediaWiki API to send an HTML email to an user",
-            "time": "2017-09-07T16:58:59+00:00"
+            "support": {
+                "issues": "https://github.com/Archi-Strasbourg/mediawiki-emailuser-html/issues",
+                "source": "https://github.com/Archi-Strasbourg/mediawiki-emailuser-html/tree/master"
+            },
+            "time": "2021-06-24T09:41:06+00:00"
         },
         {
             "name": "archi-strasbourg/language-code",
@@ -452,10 +456,6 @@
                 }
             ],
             "description": "MediaWiki magic word that displays the number of sections in a page",
-            "support": {
-                "issues": "https://github.com/Archi-Strasbourg/mediawiki-sections-count/issues",
-                "source": "https://github.com/Archi-Strasbourg/mediawiki-sections-count/tree/master"
-            },
             "time": "2021-06-01T09:09:02+00:00"
         },
         {
@@ -7581,6 +7581,7 @@
         "archi-strasbourg/archi-news-tab": 20,
         "archi-strasbourg/archi-wiki-skin": 20,
         "archi-strasbourg/category-breadcrumb": 20,
+        "archi-strasbourg/emailuser-html": 20,
         "archi-strasbourg/sections-count": 20
     },
     "prefer-stable": true,
