@@ -428,12 +428,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-sections-count.git",
-                "reference": "937c3ae777fed20ccf80c2fd47f03c8f522372bc"
+                "reference": "36613aaabd5b66fef24fcc5172f6194fadb44f4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-sections-count/zipball/937c3ae777fed20ccf80c2fd47f03c8f522372bc",
-                "reference": "937c3ae777fed20ccf80c2fd47f03c8f522372bc",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-sections-count/zipball/36613aaabd5b66fef24fcc5172f6194fadb44f4e",
+                "reference": "36613aaabd5b66fef24fcc5172f6194fadb44f4e",
                 "shasum": ""
             },
             "require-dev": {
@@ -456,7 +456,7 @@
                 }
             ],
             "description": "MediaWiki magic word that displays the number of sections in a page",
-            "time": "2021-06-01T09:09:02+00:00"
+            "time": "2021-06-28T09:12:24+00:00"
         },
         {
             "name": "composer/installers",
@@ -2714,7 +2714,8 @@
                         "composer.local.json"
                     ],
                     "merge-dev": false
-                }
+                },
+                "patches_applied": []
             },
             "autoload": {
                 "psr-0": {
