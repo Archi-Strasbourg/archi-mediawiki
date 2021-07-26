@@ -21,7 +21,7 @@
     "archi-strasbourg/emailuser-html": "dev-master",
     "archi-strasbourg/language-code": "~1.0.0",
     "archi-strasbourg/link-to-archive": "~1.0.0",
-    "archi-strasbourg/paypal": "~1.0.0",
+    "archi-strasbourg/paypal": "dev-master",
     "archi-strasbourg/sections-count": "dev-master as 1.0.x-dev",
     "cweagans/composer-patches": "^1.6",
     "mediawiki/arrays": "~1.35.0",
