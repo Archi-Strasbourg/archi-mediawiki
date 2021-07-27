@@ -101,7 +101,6 @@ wfLoadExtension('TextExtracts');
 wfLoadExtension('Echo');
 wfLoadExtension('Variables');
 wfLoadExtension('Loops');
-wfLoadExtension('NukeDPL');
 wfLoadExtension('CirrusSearch');
 wfLoadExtension('MixedNamespaceSearchSuggestions');
 wfLoadExtension('Translate');
@@ -109,7 +108,6 @@ wfLoadExtension('Maps');
 
 /** @var $IP string */
 require_once "$IP/extensions/Paypal/Paypal.php";
-require_once "$IP/extensions/DynamicPageList/DynamicPageList.php";
 require_once "$IP/extensions/HideNamespace/HideNamespace.php";
 require_once "$IP/extensions/GoogleCustomWikiSearch/GoogleCustomWikiSearch.php";
 require_once "$IP/extensions/ContributionScores/ContributionScores.php";

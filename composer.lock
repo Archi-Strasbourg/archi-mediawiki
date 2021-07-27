@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62e5a1857422ed558e9e7f2b30d9d470",
+    "content-hash": "f3bf5d4362e257657af7cf420df9369f",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -471,16 +471,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d"
+                "reference": "ae03311f45dfe194412081526be2e003960df74b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
-                "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
+                "url": "https://api.github.com/repos/composer/installers/zipball/ae03311f45dfe194412081526be2e003960df74b",
+                "reference": "ae03311f45dfe194412081526be2e003960df74b",
                 "shasum": ""
             },
             "require": {
@@ -574,6 +574,7 @@
                 "majima",
                 "mako",
                 "mediawiki",
+                "miaoxing",
                 "modulework",
                 "modx",
                 "moodle",
@@ -591,6 +592,7 @@
                 "sydes",
                 "sylius",
                 "symfony",
+                "tastyigniter",
                 "typo3",
                 "wordpress",
                 "yawik",
@@ -611,7 +613,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-14T11:07:16+00:00"
+            "time": "2021-04-28T06:42:17+00:00"
         },
         {
             "name": "composer/semver",
@@ -2127,27 +2129,6 @@
             }
         },
         {
-            "name": "mediawiki/DynamicPageList",
-            "version": "1.35+49b3419",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/DynamicPageList.git",
-                "reference": "49b3419"
-            },
-            "dist": {
-                "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/DynamicPageList-REL1_35-49b3419.tar.gz"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "mediawiki-extension",
-            "homepage": "https://www.mediawiki.org/wiki/Extension:DynamicPageList",
-            "support": {
-                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/DynamicPageList"
-            }
-        },
-        {
             "name": "mediawiki/Echo",
             "version": "1.35+17c90bc",
             "source": {
@@ -2386,27 +2367,6 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:Nuke",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Nuke"
-            }
-        },
-        {
-            "name": "mediawiki/NukeDPL",
-            "version": "1.35+04aa809",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/NukeDPL.git",
-                "reference": "04aa809"
-            },
-            "dist": {
-                "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/NukeDPL-REL1_35-04aa809.tar.gz"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "mediawiki-extension",
-            "homepage": "https://www.mediawiki.org/wiki/Extension:NukeDPL",
-            "support": {
-                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/NukeDPL"
             }
         },
         {
