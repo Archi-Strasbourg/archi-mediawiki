@@ -129,6 +129,9 @@
       },
       "mediawiki/semantic-media-wiki": {
         "Échappement des virgules dans les CSV": "patches/semantic-media-wiki-4976.diff"
+      },
+      "mediawiki/semantic-forms-select": {
+        "Compatibilité select2": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/84.diff"
       }
     }
   }
