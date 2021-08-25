@@ -9,3 +9,4 @@ RedirectMatch 403 /\.git
 
 SetEnvIf Host ^test.archi-wiki.org$ MW_INSTALL_PATH=/srv/www/archi-mediawiki-php74/
 SetEnvIf Host ^www.archi-wiki.org$ MW_INSTALL_PATH=/srv/www/archi-mediawiki/
+SetEnvIf Host ^archi-wiki.org$ MW_INSTALL_PATH=/srv/www/archi-mediawiki/
