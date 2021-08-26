@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfc25792a33fc94045833af1e9d11fbb",
+    "content-hash": "d1c54e155a31d8d635a81d565ce97ca6",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -157,16 +157,16 @@
         },
         {
             "name": "archi-strasbourg/archi-move",
-            "version": "1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-move.git",
-                "reference": "f21d3e6052d1c4e7a533239bd38806dd8a233835"
+                "reference": "a7155a1aa0fd84ad95b1317876871ef57da6f7d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-move/zipball/f21d3e6052d1c4e7a533239bd38806dd8a233835",
-                "reference": "f21d3e6052d1c4e7a533239bd38806dd8a233835",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-move/zipball/a7155a1aa0fd84ad95b1317876871ef57da6f7d7",
+                "reference": "a7155a1aa0fd84ad95b1317876871ef57da6f7d7",
                 "shasum": ""
             },
             "require-dev": {
@@ -178,7 +178,11 @@
                 "GPL-3.0"
             ],
             "description": "Implement ArchiWiki's page renaming workflow",
-            "time": "2017-11-08T00:19:31+00:00"
+            "support": {
+                "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-move/issues",
+                "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-move/tree/master"
+            },
+            "time": "2021-08-26T08:41:06+00:00"
         },
         {
             "name": "archi-strasbourg/archi-news-tab",
@@ -7557,6 +7561,7 @@
         "archi-strasbourg/archi-footer": 20,
         "archi-strasbourg/archi-home": 20,
         "archi-strasbourg/archi-maps": 20,
+        "archi-strasbourg/archi-move": 20,
         "archi-strasbourg/archi-news-tab": 20,
         "archi-strasbourg/archi-wiki-skin": 20,
         "archi-strasbourg/category-breadcrumb": 20,
