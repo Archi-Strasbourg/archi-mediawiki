@@ -105,6 +105,7 @@ wfLoadExtension('CirrusSearch');
 wfLoadExtension('MixedNamespaceSearchSuggestions');
 wfLoadExtension('Translate');
 wfLoadExtension('Maps');
+wfLoadExtension('WikiEditor');
 
 /** @var $IP string */
 require_once "$IP/extensions/Paypal/Paypal.php";

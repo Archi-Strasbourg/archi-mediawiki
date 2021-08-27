@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1c54e155a31d8d635a81d565ce97ca6",
+    "content-hash": "abf0d57a82d3594350bc64a2313587a7",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2585,6 +2585,27 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:VisualEditor",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/VisualEditor"
+            }
+        },
+        {
+            "name": "mediawiki/WikiEditor",
+            "version": "1.35+e18315e",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/WikiEditor.git",
+                "reference": "e18315e"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/WikiEditor-REL1_35-e18315e.tar.gz"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:WikiEditor",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/WikiEditor"
             }
         },
         {
