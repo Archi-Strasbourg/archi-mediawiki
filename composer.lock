@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "abf0d57a82d3594350bc64a2313587a7",
+    "content-hash": "aceff6d65b435024662cf08437dbf55b",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2614,16 +2614,16 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.35.2",
+            "version": "1.35.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "e5823c068a2e0d8af72538fe5cd152ddb43c58e9"
+                "reference": "4a3d6a63f4656877f454f050355ee565b97f40f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/e5823c068a2e0d8af72538fe5cd152ddb43c58e9",
-                "reference": "e5823c068a2e0d8af72538fe5cd152ddb43c58e9",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/4a3d6a63f4656877f454f050355ee565b97f40f4",
+                "reference": "4a3d6a63f4656877f454f050355ee565b97f40f4",
                 "shasum": ""
             },
             "require": {
@@ -2718,8 +2718,7 @@
                         "composer.local.json"
                     ],
                     "merge-dev": false
-                },
-                "patches_applied": []
+                }
             },
             "autoload": {
                 "psr-0": {
@@ -2800,11 +2799,11 @@
             ],
             "support": {
                 "issues": "https://bugs.mediawiki.org/",
-                "irc": "irc://irc.freenode.net/mediawiki",
+                "irc": "irc://irc.libera.chat/mediawiki",
                 "wiki": "https://www.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.35.2"
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.35.4"
             },
-            "time": "2021-04-08T19:52:50+00:00"
+            "time": "2021-09-30T17:51:55+00:00"
         },
         {
             "name": "mediawiki/maps",
@@ -2849,7 +2848,8 @@
                     "dev-master": "8.x-dev"
                 },
                 "patches_applied": {
-                    "Cache du geocoder dans la BDD": "https://patch-diff.githubusercontent.com/raw/ProfessionalWiki/Maps/pull/645.diff"
+                    "Cache du geocoder dans la BDD": "https://patch-diff.githubusercontent.com/raw/ProfessionalWiki/Maps/pull/645.diff",
+                    "Constante non-définie": "https://github.com/ProfessionalWiki/Maps/commit/d80245cb4f4519036f7aa1a4f933de401502920e.diff"
                 }
             },
             "autoload": {
