@@ -383,6 +383,7 @@ $smwgQDefaultLimit = 500;
 $smwgQMaxInlineLimit = 4000;
 $smwgQMaxLimit = 20000;
 $smwgQUpperbound = 20000;
+$smwgInlineErrors = false;
 
 //UserMerge
 $wgGroupPermissions['bureaucrat']['usermerge'] = true;
