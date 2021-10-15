@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aceff6d65b435024662cf08437dbf55b",
+    "content-hash": "ec3aab09a8c73689619545277afba48b",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -419,31 +419,6 @@
             ],
             "description": "Add a link to archive.org to every external link",
             "time": "2017-09-07T17:12:52+00:00"
-        },
-        {
-            "name": "archi-strasbourg/paypal",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Archi-Strasbourg/mediawiki-Paypal.git",
-                "reference": "98bbb41caef67d41d67c63e40e2e153cc08cb5da"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-Paypal/zipball/98bbb41caef67d41d67c63e40e2e153cc08cb5da",
-                "reference": "98bbb41caef67d41d67c63e40e2e153cc08cb5da",
-                "shasum": ""
-            },
-            "type": "mediawiki-extension",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "description": "Fork of Paypal extension for MediaWiki",
-            "support": {
-                "source": "https://github.com/Archi-Strasbourg/mediawiki-Paypal/tree/master"
-            },
-            "time": "2021-07-26T10:03:25+00:00"
         },
         {
             "name": "archi-strasbourg/sections-count",
@@ -7591,7 +7566,6 @@
         "archi-strasbourg/archi-wiki-skin": 20,
         "archi-strasbourg/category-breadcrumb": 20,
         "archi-strasbourg/emailuser-html": 20,
-        "archi-strasbourg/paypal": 20,
         "archi-strasbourg/sections-count": 20
     },
     "prefer-stable": true,
