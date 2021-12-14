@@ -1,0 +1,4 @@
+User-agent: *
+# Pas utile d'indexer les pages qui ne sont pas du contenu (édition, diff, etc.)
+Disallow: /?
+Crawl-delay: 10
