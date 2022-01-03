@@ -106,6 +106,7 @@ wfLoadExtension('MixedNamespaceSearchSuggestions');
 wfLoadExtension('Translate');
 wfLoadExtension('Maps');
 wfLoadExtension('WikiEditor');
+wfLoadExtension('SemanticResultFormats');
 
 /** @var $IP string */
 require_once "$IP/extensions/HideNamespace/HideNamespace.php";

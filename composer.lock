@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec3aab09a8c73689619545277afba48b",
+    "content-hash": "edb29c75732c2c334918437f9632628c",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -3171,6 +3171,112 @@
             "time": "2021-03-29T22:40:46+00:00"
         },
         {
+            "name": "mediawiki/semantic-result-formats",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SemanticMediaWiki/SemanticResultFormats.git",
+                "reference": "ecbf369424ae5cd59315a4dca24f50d3af70702a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticResultFormats/zipball/ecbf369424ae5cd59315a4dca24f50d3af70702a",
+                "reference": "ecbf369424ae5cd59315a4dca24f50d3af70702a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "1.*,>=1.0.1",
+                "data-values/geo": "~4.0|~3.0|~2.0",
+                "mediawiki/semantic-media-wiki": "~3.0",
+                "nicmart/tree": "^0.2.7",
+                "php": ">=7.1",
+                "symfony/css-selector": "^3.3"
+            },
+            "suggest": {
+                "mediawiki/graph-viz": "Required for 'format=graph' and 'format=process'",
+                "mediawiki/mermaid": "Required for 'format=gantt'",
+                "phpoffice/phpexcel": "Required for 'format=excel'",
+                "phpoffice/phpspreadsheet": "Required for 'format=spreadsheet'"
+            },
+            "type": "mediawiki-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SRF\\": "src/"
+                },
+                "files": [
+                    "SemanticResultFormats.php"
+                ],
+                "classmap": [
+                    "formats/",
+                    "SemanticResultFormats.hooks.php",
+                    "SemanticResultFormats.parser.php",
+                    "SemanticResultFormats.utils.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "https://www.entropywins.wtf/mediawiki",
+                    "role": "Developer"
+                },
+                {
+                    "name": "James Hong Kong",
+                    "homepage": "https://www.semantic-mediawiki.org/wiki/User:MWJames",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Stephan Gambke",
+                    "homepage": "https://www.mediawiki.org/wiki/User:F.trott",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Yaron Koren",
+                    "homepage": "https://www.yaronkoren.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides additional result formats for queries using Semantic MediaWiki",
+            "homepage": "https://www.semantic-mediawiki.org/wiki/Extension:Semantic_Result_Formats",
+            "keywords": [
+                "Result Formats",
+                "SMW",
+                "SRF",
+                "Semantic MediaWiki",
+                "Semantic Result Formats",
+                "mediawiki",
+                "wiki"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/JeroenDeDauw",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/[user1",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/kghbln] # Replace with up to 4 GitHub Sponsors-enabled usernames e.g.",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/user2",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-08-27T17:44:05+00:00"
+        },
+        {
             "name": "mediawiki/translate",
             "version": "2021.04",
             "source": {
@@ -3413,6 +3519,42 @@
                 "yml"
             ],
             "time": "2019-09-10T13:16:29+00:00"
+        },
+        {
+            "name": "nicmart/tree",
+            "version": "v0.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nicmart/Tree.git",
+                "reference": "0616b54bb49938e1a816141d7943db48ebf76938"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nicmart/Tree/zipball/0616b54bb49938e1a816141d7943db48ebf76938",
+                "reference": "0616b54bb49938e1a816141d7943db48ebf76938",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tree\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolò Martini",
+                    "email": "nicmartnic@gmail.com"
+                }
+            ],
+            "description": "A basic but flexible php tree data structure and a fluent tree builder implementation.",
+            "time": "2015-08-20T20:50:35+00:00"
         },
         {
             "name": "onoi/blob-store",
