@@ -1312,16 +1312,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.4.1",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "8e7d04f1f6450fef59366c399cfad4b9383aa30d"
+                "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/8e7d04f1f6450fef59366c399cfad4b9383aa30d",
-                "reference": "8e7d04f1f6450fef59366c399cfad4b9383aa30d",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
+                "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
                 "shasum": ""
             },
             "require": {
@@ -1333,7 +1333,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -1350,29 +1350,58 @@
             ],
             "authors": [
                 {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "email": "webmaster@tubo-world.de",
+                    "homepage": "https://github.com/Tobion"
                 }
             ],
             "description": "Guzzle promises library",
             "keywords": [
                 "promise"
             ],
-            "time": "2021-03-07T09:25:29+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/promises",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-10-22T20:56:57+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.8.1",
+            "version": "1.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1"
+                "reference": "1afdd860a2566ed3c2b0b4a3de6e23434a79ec85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/35ea11d335fd638b5882ff1725228b3d35496ab1",
-                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/1afdd860a2566ed3c2b0b4a3de6e23434a79ec85",
+                "reference": "1afdd860a2566ed3c2b0b4a3de6e23434a79ec85",
                 "shasum": ""
             },
             "require": {
@@ -1410,12 +1439,33 @@
             ],
             "authors": [
                 {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
                 },
                 {
+                    "name": "George Mponos",
+                    "email": "gmponos@gmail.com",
+                    "homepage": "https://github.com/gmponos"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://github.com/sagikazarmark"
+                },
+                {
                     "name": "Tobias Schultze",
+                    "email": "webmaster@tubo-world.de",
                     "homepage": "https://github.com/Tobion"
                 }
             ],
@@ -1430,7 +1480,21 @@
                 "uri",
                 "url"
             ],
-            "time": "2021-03-21T16:25:00+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/psr7",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-10-05T13:56:00+00:00"
         },
         {
             "name": "jeroen/file-fetcher",
@@ -2581,16 +2645,16 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.35.4",
+            "version": "1.35.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "4a3d6a63f4656877f454f050355ee565b97f40f4"
+                "reference": "8b874ff6c6ed5f209dfd0c825c5b310ef1ecca2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/4a3d6a63f4656877f454f050355ee565b97f40f4",
-                "reference": "4a3d6a63f4656877f454f050355ee565b97f40f4",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/8b874ff6c6ed5f209dfd0c825c5b310ef1ecca2f",
+                "reference": "8b874ff6c6ed5f209dfd0c825c5b310ef1ecca2f",
                 "shasum": ""
             },
             "require": {
@@ -2607,12 +2671,13 @@
                 "liuggio/statsd-php-client": "1.0.18",
                 "oojs/oojs-ui": "0.39.3",
                 "pear/mail": "1.4.1",
-                "pear/mail_mime": "1.10.8",
+                "pear/mail_mime": "1.10.11",
                 "pear/net_smtp": "1.9.1",
                 "php": ">=7.3.19",
                 "psr/container": "1.0.0",
                 "psr/log": "1.1.3",
                 "ralouphie/getallheaders": "3.0.3",
+                "symfony/polyfill-php80": "1.23.1",
                 "wikimedia/assert": "0.5.0",
                 "wikimedia/at-ease": "2.0.0",
                 "wikimedia/base-convert": "2.0.1",
@@ -2768,9 +2833,9 @@
                 "issues": "https://bugs.mediawiki.org/",
                 "irc": "irc://irc.libera.chat/mediawiki",
                 "wiki": "https://www.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.35.4"
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.35.5"
             },
-            "time": "2021-09-30T17:51:55+00:00"
+            "time": "2021-12-15T20:05:27+00:00"
         },
         {
             "name": "mediawiki/maps",
@@ -4042,20 +4107,21 @@
         },
         {
             "name": "pear/mail_mime",
-            "version": "1.10.8",
+            "version": "1.10.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Mail_Mime.git",
-                "reference": "094b39784aa02cef1a1e267a6fdfae0c42b8f2ac"
+                "reference": "d4fb9ce61201593d0f8c6db629c45e29c3409c14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Mail_Mime/zipball/094b39784aa02cef1a1e267a6fdfae0c42b8f2ac",
-                "reference": "094b39784aa02cef1a1e267a6fdfae0c42b8f2ac",
+                "url": "https://api.github.com/repos/pear/Mail_Mime/zipball/d4fb9ce61201593d0f8c6db629c45e29c3409c14",
+                "reference": "d4fb9ce61201593d0f8c6db629c45e29c3409c14",
                 "shasum": ""
             },
             "require": {
-                "pear/pear-core-minimal": "*"
+                "pear/pear-core-minimal": "*",
+                "php": ">=5.2.0"
             },
             "type": "library",
             "autoload": {
@@ -4068,7 +4134,7 @@
                 "./"
             ],
             "license": [
-                "BSD-3-clause"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -4084,7 +4150,7 @@
             ],
             "description": "Mail_Mime provides classes to create MIME messages",
             "homepage": "http://pear.php.net/package/Mail_Mime",
-            "time": "2020-06-13T06:55:37+00:00"
+            "time": "2021-09-05T08:42:45+00:00"
         },
         {
             "name": "pear/net_smtp",
@@ -4201,16 +4267,16 @@
         },
         {
             "name": "pear/pear-core-minimal",
-            "version": "v1.10.10",
+            "version": "v1.10.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/pear-core-minimal.git",
-                "reference": "625a3c429d9b2c1546438679074cac1b089116a7"
+                "reference": "68d0d32ada737153b7e93b8d3c710ebe70ac867d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/625a3c429d9b2c1546438679074cac1b089116a7",
-                "reference": "625a3c429d9b2c1546438679074cac1b089116a7",
+                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/68d0d32ada737153b7e93b8d3c710ebe70ac867d",
+                "reference": "68d0d32ada737153b7e93b8d3c710ebe70ac867d",
                 "shasum": ""
             },
             "require": {
@@ -4241,7 +4307,7 @@
                 }
             ],
             "description": "Minimal set of PEAR core files to be used as composer dependency",
-            "time": "2019-11-19T19:00:24+00:00"
+            "time": "2021-08-10T22:31:03+00:00"
         },
         {
             "name": "pear/pear_exception",
@@ -4879,16 +4945,16 @@
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.22.1",
+            "version": "v1.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "2d63434d922daf7da8dd863e7907e67ee3031483"
+                "reference": "65bd267525e82759e7d8c4e8ceea44f398838e65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/2d63434d922daf7da8dd863e7907e67ee3031483",
-                "reference": "2d63434d922daf7da8dd863e7907e67ee3031483",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/65bd267525e82759e7d8c4e8ceea44f398838e65",
+                "reference": "65bd267525e82759e7d8c4e8ceea44f398838e65",
                 "shasum": ""
             },
             "require": {
@@ -4902,7 +4968,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.22-dev"
+                    "dev-main": "1.23-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4959,20 +5025,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-22T09:19:47+00:00"
+            "time": "2021-05-27T09:27:20+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.22.1",
+            "version": "v1.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
-                "reference": "43a0283138253ed1d48d352ab6d0bdb3f809f248"
+                "reference": "8590a5f561694770bdcd3f9b5c69dde6945028e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/43a0283138253ed1d48d352ab6d0bdb3f809f248",
-                "reference": "43a0283138253ed1d48d352ab6d0bdb3f809f248",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/8590a5f561694770bdcd3f9b5c69dde6945028e8",
+                "reference": "8590a5f561694770bdcd3f9b5c69dde6945028e8",
                 "shasum": ""
             },
             "require": {
@@ -4984,7 +5050,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.22-dev"
+                    "dev-main": "1.23-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -5040,20 +5106,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-22T09:19:47+00:00"
+            "time": "2021-02-19T12:13:01+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.22.1",
+            "version": "v1.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9"
+                "reference": "9a142215a36a3888e30d0a9eeea9766764e96976"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9",
-                "reference": "cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/9a142215a36a3888e30d0a9eeea9766764e96976",
+                "reference": "9a142215a36a3888e30d0a9eeea9766764e96976",
                 "shasum": ""
             },
             "require": {
@@ -5062,7 +5128,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.22-dev"
+                    "dev-main": "1.23-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -5113,20 +5179,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-07T16:49:33+00:00"
+            "time": "2021-05-27T09:17:38+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.22.1",
+            "version": "v1.23.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91"
+                "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dc3063ba22c2a1fd2f45ed856374d79114998f91",
-                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/1100343ed1a92e3a38f9ae122fc0eb21602547be",
+                "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be",
                 "shasum": ""
             },
             "require": {
@@ -5135,7 +5201,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.22-dev"
+                    "dev-main": "1.23-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -5193,7 +5259,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-07T16:49:33+00:00"
+            "time": "2021-07-28T13:41:28+00:00"
         },
         {
             "name": "wikimedia/assert",
@@ -6397,33 +6463,38 @@
         },
         {
             "name": "wikimedia/wikipeg",
-            "version": "2.0.5",
+            "version": "2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/wikipeg.git",
-                "reference": "df47c20859c80923d08ce906c5c7412161ef052f"
+                "reference": "9a92384ae11e1a3b7ecfe0feef1809b1af73889b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/wikipeg/zipball/df47c20859c80923d08ce906c5c7412161ef052f",
-                "reference": "df47c20859c80923d08ce906c5c7412161ef052f",
+                "url": "https://api.github.com/repos/wikimedia/wikipeg/zipball/9a92384ae11e1a3b7ecfe0feef1809b1af73889b",
+                "reference": "9a92384ae11e1a3b7ecfe0feef1809b1af73889b",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": ">=7.2"
+                "php": ">=7.2.9"
             },
             "require-dev": {
-                "mediawiki/minus-x": "1.1.0",
+                "mediawiki/mediawiki-codesniffer": "37.0.0",
+                "mediawiki/mediawiki-phan-config": "0.10.6",
+                "mediawiki/minus-x": "1.1.1",
+                "ockcyp/covers-validator": "1.3.3",
                 "php-parallel-lint/php-console-highlighter": "0.5.0",
-                "php-parallel-lint/php-parallel-lint": "1.2.0"
+                "php-parallel-lint/php-parallel-lint": "1.3.0",
+                "phpunit/phpunit": "^8.5|^9.5",
+                "wikimedia/update-history": "^1.0"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "WikiPEG\\": "src",
-                    "WikiPEG\\Tests\\": "tests/php"
+                    "WikiPEG\\": "src/",
+                    "Wikimedia\\WikiPEG\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -6431,7 +6502,7 @@
                 "MIT"
             ],
             "description": "Parser generator for JavaScript and PHP",
-            "time": "2020-12-17T21:12:05+00:00"
+            "time": "2021-08-07T06:12:21+00:00"
         },
         {
             "name": "wikimedia/wrappedstring",
