@@ -107,6 +107,7 @@ wfLoadExtension('Translate');
 wfLoadExtension('Maps');
 wfLoadExtension('WikiEditor');
 wfLoadExtension('SemanticResultFormats');
+wfLoadExtension('Flow');
 
 /** @var $IP string */
 require_once "$IP/extensions/HideNamespace/HideNamespace.php";
@@ -334,6 +335,8 @@ $wgNamespacesToBeSearchedDefault[NS_PERSON] = true;
 
 $wgContentNamespaces[] = NS_ADDRESS;
 $wgContentNamespaces[] = NS_PERSON;
+
+$wgNamespaceContentModels[NS_ADDRESS_TALK] = 'flow-board';
 
 $wgArticleRobotPolicies['Adresse:Bac à sable'] = 'noindex';
 

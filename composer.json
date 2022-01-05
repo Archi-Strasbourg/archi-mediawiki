@@ -37,6 +37,7 @@
     "mediawiki/dismissablesitenotice": "~1.35.0",
     "mediawiki/echo": "~1.35.0",
     "mediawiki/elastica": "~1.35.0",
+    "mediawiki/flow": "~1.35.0",
     "mediawiki/geodata": "~1.35.0",
     "mediawiki/googlecustomwikisearch": "~1.35.0",
     "mediawiki/lookupuser": "~1.35.0",
@@ -124,6 +125,9 @@
       },
       "mediawiki/contactpage": {
         "En-tête From fixe": "patches/contactpage-1.diff"
+      },
+      "mediawiki/flow": {
+        "Compatibilité éditeur visuel": "patches/flow-T260648.diff"
       },
       "mediawiki/maps": {
         "Cache du geocoder dans la BDD": "https://patch-diff.githubusercontent.com/raw/ProfessionalWiki/Maps/pull/645.diff",

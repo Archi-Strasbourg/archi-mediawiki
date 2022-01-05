@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "edb29c75732c2c334918437f9632628c",
+    "content-hash": "8a901010fbe05a85cf6cf7e2cd03a4d6",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2211,6 +2211,27 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:Elastica",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Elastica"
+            }
+        },
+        {
+            "name": "mediawiki/Flow",
+            "version": "1.35+79f0295",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Flow.git",
+                "reference": "79f0295"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Flow-REL1_35-79f0295.tar.gz"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Flow",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Flow"
             }
         },
         {
