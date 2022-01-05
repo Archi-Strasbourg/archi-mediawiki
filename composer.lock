@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a901010fbe05a85cf6cf7e2cd03a4d6",
+    "content-hash": "ceb6631e8fc4a551c5d7dcb4d13b8a6d",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2229,6 +2229,11 @@
                 "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension",
+            "extra": {
+                "patches_applied": {
+                    "Compatibilité éditeur visuel": "patches/flow-T260648.diff"
+                }
+            },
             "homepage": "https://www.mediawiki.org/wiki/Extension:Flow",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Flow"
@@ -2536,6 +2541,27 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:TextExtracts",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/TextExtracts"
+            }
+        },
+        {
+            "name": "mediawiki/Thanks",
+            "version": "1.35+8d58925",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Thanks.git",
+                "reference": "8d58925"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Thanks-REL1_35-8d58925.tar.gz"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Thanks",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Thanks"
             }
         },
         {

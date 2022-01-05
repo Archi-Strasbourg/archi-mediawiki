@@ -108,6 +108,7 @@ wfLoadExtension('Maps');
 wfLoadExtension('WikiEditor');
 wfLoadExtension('SemanticResultFormats');
 wfLoadExtension('Flow');
+wfLoadExtension('Thanks');
 
 /** @var $IP string */
 require_once "$IP/extensions/HideNamespace/HideNamespace.php";

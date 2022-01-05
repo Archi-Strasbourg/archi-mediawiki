@@ -58,6 +58,7 @@
     "mediawiki/semantic-result-formats": "^3.2",
     "mediawiki/templatedata": "~1.35.0",
     "mediawiki/textextracts": "~1.35.0",
+    "mediawiki/thanks": "~1.35.0",
     "mediawiki/translate": "^2021.04",
     "mediawiki/universal-language-selector": "^2021.04",
     "mediawiki/uploadwizard": "~1.35.0",
