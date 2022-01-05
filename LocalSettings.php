@@ -384,7 +384,7 @@ $wgSectionsCountIgnoreSections = ['Références'];
 
 //SMW
 $smwgQDefaultLimit = 500;
-$smwgQMaxInlineLimit = 4000;
+$smwgQMaxInlineLimit = 20000;
 $smwgQMaxLimit = 20000;
 $smwgQUpperbound = 20000;
 $smwgInlineErrors = false;
