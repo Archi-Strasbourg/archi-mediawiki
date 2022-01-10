@@ -228,12 +228,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "8f3c007df201d855112403d56c4630104a89f6ce"
+                "reference": "121412004b7ea570d38cdf492bf7851e00c53f53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/8f3c007df201d855112403d56c4630104a89f6ce",
-                "reference": "8f3c007df201d855112403d56c4630104a89f6ce",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/121412004b7ea570d38cdf492bf7851e00c53f53",
+                "reference": "121412004b7ea570d38cdf492bf7851e00c53f53",
                 "shasum": ""
             },
             "require-dev": {
@@ -257,7 +257,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2021-12-15T09:58:01+00:00"
+            "time": "2022-01-06T10:05:20+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
