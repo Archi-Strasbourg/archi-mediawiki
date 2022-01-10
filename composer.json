@@ -37,6 +37,7 @@
     "mediawiki/dismissablesitenotice": "~1.35.0",
     "mediawiki/echo": "~1.35.0",
     "mediawiki/elastica": "~1.35.0",
+    "mediawiki/flow": "~1.35.0",
     "mediawiki/geodata": "~1.35.0",
     "mediawiki/googlecustomwikisearch": "~1.35.0",
     "mediawiki/lookupuser": "~1.35.0",
@@ -54,8 +55,10 @@
     "mediawiki/replacetext": "~1.35.0",
     "mediawiki/semantic-forms-select": "^3.0",
     "mediawiki/semantic-media-wiki": "^3.2",
+    "mediawiki/semantic-result-formats": "^3.2",
     "mediawiki/templatedata": "~1.35.0",
     "mediawiki/textextracts": "~1.35.0",
+    "mediawiki/thanks": "~1.35.0",
     "mediawiki/translate": "^2021.04",
     "mediawiki/universal-language-selector": "^2021.04",
     "mediawiki/uploadwizard": "~1.35.0",
@@ -123,6 +126,9 @@
       },
       "mediawiki/contactpage": {
         "En-tête From fixe": "patches/contactpage-1.diff"
+      },
+      "mediawiki/flow": {
+        "Compatibilité éditeur visuel": "patches/flow-T260648.diff"
       },
       "mediawiki/maps": {
         "Cache du geocoder dans la BDD": "https://patch-diff.githubusercontent.com/raw/ProfessionalWiki/Maps/pull/645.diff",
