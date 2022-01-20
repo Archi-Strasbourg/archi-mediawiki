@@ -224,12 +224,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "121412004b7ea570d38cdf492bf7851e00c53f53"
+                "reference": "929d26bbef918dd390e913a7f96c3e10c44edef0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/121412004b7ea570d38cdf492bf7851e00c53f53",
-                "reference": "121412004b7ea570d38cdf492bf7851e00c53f53",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/929d26bbef918dd390e913a7f96c3e10c44edef0",
+                "reference": "929d26bbef918dd390e913a7f96c3e10c44edef0",
                 "shasum": ""
             },
             "require-dev": {
@@ -253,7 +253,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2022-01-06T10:05:20+00:00"
+            "time": "2022-01-20T11:34:03+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -261,12 +261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-category-breadcrumb.git",
-                "reference": "17a924614f1b5b98e21a93076e118f823c9ebc22"
+                "reference": "c3f3945b6bbf619f57458516683986b46a073533"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/17a924614f1b5b98e21a93076e118f823c9ebc22",
-                "reference": "17a924614f1b5b98e21a93076e118f823c9ebc22",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/c3f3945b6bbf619f57458516683986b46a073533",
+                "reference": "c3f3945b6bbf619f57458516683986b46a073533",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -275,7 +275,7 @@
                 "proprietary"
             ],
             "description": "Provides DMOZ-style category breadcrumbs",
-            "time": "2021-05-07T09:27:34+00:00"
+            "time": "2022-01-20T11:41:43+00:00"
         },
         {
             "name": "archi-strasbourg/email-login",
