@@ -109,6 +109,7 @@ wfLoadExtension('WikiEditor');
 wfLoadExtension('SemanticResultFormats');
 wfLoadExtension('Flow');
 wfLoadExtension('Thanks');
+wfLoadExtension('SmiteSpam');
 
 /** @var $IP string */
 require_once "$IP/extensions/HideNamespace/HideNamespace.php";

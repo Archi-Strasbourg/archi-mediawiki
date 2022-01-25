@@ -56,6 +56,7 @@
     "mediawiki/semantic-forms-select": "^3.0",
     "mediawiki/semantic-media-wiki": "^3.2",
     "mediawiki/semantic-result-formats": "^3.2",
+    "mediawiki/smitespam": "~1.35.0",
     "mediawiki/templatedata": "~1.35.0",
     "mediawiki/textextracts": "~1.35.0",
     "mediawiki/thanks": "~1.35.0",

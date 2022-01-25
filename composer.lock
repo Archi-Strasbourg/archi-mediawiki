@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ceb6631e8fc4a551c5d7dcb4d13b8a6d",
+    "content-hash": "cfd28c2e7f1b5fa29a9395d548ae253e",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2491,6 +2491,27 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:ReplaceText",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/ReplaceText"
+            }
+        },
+        {
+            "name": "mediawiki/SmiteSpam",
+            "version": "1.35+11977a0",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/SmiteSpam.git",
+                "reference": "11977a0"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/SmiteSpam-REL1_35-11977a0.tar.gz"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:SmiteSpam",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/SmiteSpam"
             }
         },
         {
