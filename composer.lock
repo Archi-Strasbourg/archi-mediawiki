@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cfd28c2e7f1b5fa29a9395d548ae253e",
+    "content-hash": "56e583ce85f30ff55bb4d08479b96c42",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -3327,6 +3327,9 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "3.2.x-dev"
+                },
+                "patches_applied": {
+                    "Variable non-définie": "https://github.com/SemanticMediaWiki/SemanticResultFormats/commit/19f4c0cb927769eb919d464092434afb99763c53.diff"
                 }
             },
             "autoload": {
