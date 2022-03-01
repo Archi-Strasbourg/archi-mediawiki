@@ -4,7 +4,6 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-jslint');
     grunt.loadNpmTasks('grunt-phpcs');
-    grunt.loadNpmTasks('grunt-jsonlint');
     grunt.loadNpmTasks('grunt-fixpack');
 
     grunt.initConfig({
@@ -23,20 +22,6 @@ module.exports = function (grunt) {
                 src: ['LocalSettings.php', 'dbconfig.php', 'namespaces.php']
             }
         },
-        jsonlint: {
-            manifests: {
-                src: '*.json',
-                options: {
-                    format: true
-                }
-            },
-            redirect: {
-                src: 'redirect/*.json',
-                options: {
-                    format: true
-                }
-            }
-        },
         fixpack: {
             package: {
                 src: 'package.json'
@@ -44,5 +29,5 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.registerTask('lint', ['jslint', 'fixpack', 'jsonlint', 'phpcs']);
+    grunt.registerTask('lint', ['jslint', 'fixpack', 'phpcs']);
 };
