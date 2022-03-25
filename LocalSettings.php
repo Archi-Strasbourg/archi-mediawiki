@@ -346,6 +346,7 @@ $wgArticleRobotPolicies['Adresse:Bac à sable'] = 'noindex';
 $wgMainCacheType = CACHE_ACCEL;
 $wgSessionCacheType = CACHE_DB;
 $wgParserCacheType = CACHE_DB;
+$smwgQueryResultCacheType = CACHE_ACCEL;
 
 //Semantic forms
 $srfgFormats[] = 'map';
