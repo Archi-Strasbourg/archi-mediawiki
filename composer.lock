@@ -1384,16 +1384,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.8.3",
+            "version": "1.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "1afdd860a2566ed3c2b0b4a3de6e23434a79ec85"
+                "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/1afdd860a2566ed3c2b0b4a3de6e23434a79ec85",
-                "reference": "1afdd860a2566ed3c2b0b4a3de6e23434a79ec85",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/337e3ad8e5716c15f9657bd214d16cc5e69df268",
+                "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268",
                 "shasum": ""
             },
             "require": {
@@ -1418,12 +1418,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Psr7\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1486,7 +1486,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-05T13:56:00+00:00"
+            "time": "2022-03-20T21:51:18+00:00"
         },
         {
             "name": "jeroen/file-fetcher",
@@ -2705,21 +2705,22 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.35.5",
+            "version": "1.35.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "8b874ff6c6ed5f209dfd0c825c5b310ef1ecca2f"
+                "reference": "76572f7b8bc7bd3a9dfb73e3d9a08e56a06266f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/8b874ff6c6ed5f209dfd0c825c5b310ef1ecca2f",
-                "reference": "8b874ff6c6ed5f209dfd0c825c5b310ef1ecca2f",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/76572f7b8bc7bd3a9dfb73e3d9a08e56a06266f7",
+                "reference": "76572f7b8bc7bd3a9dfb73e3d9a08e56a06266f7",
                 "shasum": ""
             },
             "require": {
                 "composer/semver": "1.7.2",
                 "cssjanus/cssjanus": "1.3.0",
+                "ext-calendar": "*",
                 "ext-ctype": "*",
                 "ext-dom": "*",
                 "ext-fileinfo": "*",
@@ -2737,7 +2738,7 @@
                 "psr/container": "1.0.0",
                 "psr/log": "1.1.3",
                 "ralouphie/getallheaders": "3.0.3",
-                "symfony/polyfill-php80": "1.23.1",
+                "symfony/polyfill-php80": "1.25.0",
                 "wikimedia/assert": "0.5.0",
                 "wikimedia/at-ease": "2.0.0",
                 "wikimedia/base-convert": "2.0.1",
@@ -2745,11 +2746,11 @@
                 "wikimedia/cldr-plural-rule-parser": "1.0.0",
                 "wikimedia/common-passwords": "0.2.0",
                 "wikimedia/composer-merge-plugin": "2.0.1",
-                "wikimedia/html-formatter": "1.0.2",
+                "wikimedia/html-formatter": "2.0.1",
                 "wikimedia/ip-set": "2.1.0",
                 "wikimedia/ip-utils": "1.0.0",
                 "wikimedia/less.php": "3.1.0",
-                "wikimedia/object-factory": "2.1.0",
+                "wikimedia/object-factory": "2.2.0",
                 "wikimedia/parsoid": "0.12.2",
                 "wikimedia/php-session-serializer": "1.0.7",
                 "wikimedia/purtle": "1.0.7",
@@ -2771,13 +2772,14 @@
             },
             "require-dev": {
                 "composer/spdx-licenses": "1.5.3",
-                "doctrine/dbal": "3.0.0",
+                "doctrine/dbal": "3.1.5",
                 "doctrine/sql-formatter": "1.1.0",
+                "ext-simplexml": "*",
                 "giorgiosironi/eris": "^0.10.0",
                 "hamcrest/hamcrest-php": "^2.0",
                 "johnkary/phpunit-speedtrap": "^3.1",
                 "justinrainbow/json-schema": "~5.2",
-                "mediawiki/mediawiki-codesniffer": "34.0.0",
+                "mediawiki/mediawiki-codesniffer": "38.0.0",
                 "mediawiki/mediawiki-phan-config": "0.10.6",
                 "monolog/monolog": "~2.2.0",
                 "nikic/php-parser": "4.4.0",
@@ -2796,9 +2798,20 @@
             "suggest": {
                 "ext-apcu": "Local data cache for greatly improved performance",
                 "ext-curl": "Improved http communication abilities",
+                "ext-gd": "Support for Graphics Draw",
+                "ext-gmp": "Support for arbitrary-length integers",
                 "ext-intl": "ICU integration",
+                "ext-mysqli": "Allows MediaWiki to use MySQL/MariaDB as a database",
                 "ext-openssl": "Cryptographical functions",
+                "ext-pcntl": "Process control",
+                "ext-pdo": "Allows MediaWiki to use SQLite as a database",
+                "ext-pgsql": "Allows MediaWiki to use PostgreSQL as a database",
+                "ext-posix": "Process control",
+                "ext-readline": "Improved command line support",
+                "ext-sockets": "Socket support",
                 "ext-wikidiff2": "Diff accelerator",
+                "ext-yaml": "Improved YAML parsing performance",
+                "ext-zlib": "gzip compressiion",
                 "monolog/monolog": "Flexible debug logging system",
                 "nmred/kafka-php": "Send debug log events to kafka",
                 "wikimedia/avro": "Binary serialization format used with kafka"
@@ -2850,6 +2863,9 @@
                 "post-update-cmd": [
                     "ComposerVendorHtaccessCreator::onEvent"
                 ],
+                "releasenotes": [
+                    "@phpunit:entrypoint --group ReleaseNotes"
+                ],
                 "test": [
                     "composer lint",
                     "composer phpcs"
@@ -2872,6 +2888,9 @@
                 ],
                 "phpunit:coverage-edit": [
                     "ComposerPhpunitXmlCoverageEdit::onEvent"
+                ],
+                "phpunit:entrypoint": [
+                    "php tests/phpunit/phpunit.php"
                 ]
             },
             "license": [
@@ -2893,9 +2912,9 @@
                 "issues": "https://bugs.mediawiki.org/",
                 "irc": "irc://irc.libera.chat/mediawiki",
                 "wiki": "https://www.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.35.5"
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.35.6"
             },
-            "time": "2021-12-15T20:05:27+00:00"
+            "time": "2022-03-31T21:55:16+00:00"
         },
         {
             "name": "mediawiki/maps",
@@ -5150,16 +5169,16 @@
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.23.0",
+            "version": "v1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "65bd267525e82759e7d8c4e8ceea44f398838e65"
+                "reference": "749045c69efb97c70d25d7463abba812e91f3a44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/65bd267525e82759e7d8c4e8ceea44f398838e65",
-                "reference": "65bd267525e82759e7d8c4e8ceea44f398838e65",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/749045c69efb97c70d25d7463abba812e91f3a44",
+                "reference": "749045c69efb97c70d25d7463abba812e91f3a44",
                 "shasum": ""
             },
             "require": {
@@ -5181,12 +5200,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Intl\\Idn\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Idn\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5230,11 +5249,11 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-27T09:27:20+00:00"
+            "time": "2021-09-14T14:02:44+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.23.0",
+            "version": "v1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -5263,12 +5282,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
@@ -5315,7 +5334,7 @@
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.23.0",
+            "version": "v1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
@@ -5341,12 +5360,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php72\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php72\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5388,16 +5407,16 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.23.1",
+            "version": "v1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be"
+                "reference": "4407588e0d3f1f52efb65fbe92babe41f37fe50c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/1100343ed1a92e3a38f9ae122fc0eb21602547be",
-                "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/4407588e0d3f1f52efb65fbe92babe41f37fe50c",
+                "reference": "4407588e0d3f1f52efb65fbe92babe41f37fe50c",
                 "shasum": ""
             },
             "require": {
@@ -5414,12 +5433,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php80\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
@@ -5464,7 +5483,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-28T13:41:28+00:00"
+            "time": "2022-03-04T08:16:47+00:00"
         },
         {
             "name": "wikimedia/assert",
@@ -5822,34 +5841,37 @@
         },
         {
             "name": "wikimedia/html-formatter",
-            "version": "1.0.2",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/html-formatter.git",
-                "reference": "d6241e74d8091cf1fad91a764da5e1ba5f46e785"
+                "reference": "3abeb56b30f436a486735ca53f6af0ba6367e4cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/html-formatter/zipball/d6241e74d8091cf1fad91a764da5e1ba5f46e785",
-                "reference": "d6241e74d8091cf1fad91a764da5e1ba5f46e785",
+                "url": "https://api.github.com/repos/wikimedia/html-formatter/zipball/3abeb56b30f436a486735ca53f6af0ba6367e4cf",
+                "reference": "3abeb56b30f436a486735ca53f6af0ba6367e4cf",
                 "shasum": ""
             },
             "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
                 "ext-mbstring": "*",
-                "php": ">=5.5"
+                "php": ">=7.2.9"
             },
             "require-dev": {
-                "jakub-onderka/php-console-highlighter": "0.3.2",
-                "jakub-onderka/php-parallel-lint": "1.0.0",
-                "mediawiki/mediawiki-codesniffer": "18.0.0",
-                "mediawiki/minus-x": "0.3.1",
-                "phpunit/phpunit": "4.8.36 || ^6.5"
+                "mediawiki/mediawiki-codesniffer": "34.0.0",
+                "mediawiki/minus-x": "1.1.0",
+                "ockcyp/covers-validator": "1.3.1",
+                "php-parallel-lint/php-console-highlighter": "0.5.0",
+                "php-parallel-lint/php-parallel-lint": "1.2.0",
+                "phpunit/phpunit": "^8.5"
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "src/"
-                ]
+                "psr-4": {
+                    "HtmlFormatter\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5862,7 +5884,7 @@
             ],
             "description": "Performs transformations of HTML by wrapping around libxml2 and working around its countless bugs.",
             "homepage": "https://www.mediawiki.org/wiki/HtmlFormatter",
-            "time": "2018-04-14T10:06:56+00:00"
+            "time": "2021-01-09T04:31:34+00:00"
         },
         {
             "name": "wikimedia/ip-set",
@@ -6024,16 +6046,16 @@
         },
         {
             "name": "wikimedia/object-factory",
-            "version": "v2.1.0",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/object-factory.git",
-                "reference": "863aee60c8f9d964870b1a119d5d9e904233e1aa"
+                "reference": "d2e8cba4c8d98c29f6dd2f93cf19b0792dd83d42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/object-factory/zipball/863aee60c8f9d964870b1a119d5d9e904233e1aa",
-                "reference": "863aee60c8f9d964870b1a119d5d9e904233e1aa",
+                "url": "https://api.github.com/repos/wikimedia/object-factory/zipball/d2e8cba4c8d98c29f6dd2f93cf19b0792dd83d42",
+                "reference": "d2e8cba4c8d98c29f6dd2f93cf19b0792dd83d42",
                 "shasum": ""
             },
             "require": {
@@ -6041,12 +6063,12 @@
                 "psr/container": "1.0.0"
             },
             "require-dev": {
-                "jakub-onderka/php-console-highlighter": "0.3.2",
-                "jakub-onderka/php-parallel-lint": "1.0.0",
-                "mediawiki/mediawiki-codesniffer": "24.0.0",
-                "mediawiki/minus-x": "0.3.1",
-                "ockcyp/covers-validator": "0.5.1 || 0.6.1",
-                "phpunit/phpunit": "4.8.36 || ^6.5"
+                "mediawiki/mediawiki-codesniffer": "34.0.0",
+                "mediawiki/minus-x": "1.1.0",
+                "ockcyp/covers-validator": "1.3.1",
+                "php-parallel-lint/php-console-highlighter": "0.5.0",
+                "php-parallel-lint/php-parallel-lint": "1.2.0",
+                "phpunit/phpunit": "^8.5"
             },
             "type": "library",
             "autoload": {
@@ -6066,7 +6088,7 @@
             ],
             "description": "Construct objects from configuration instructions",
             "homepage": "https://www.mediawiki.org/wiki/ObjectFactory",
-            "time": "2019-06-19T17:08:21+00:00"
+            "time": "2022-03-10T01:19:51+00:00"
         },
         {
             "name": "wikimedia/parsoid",
