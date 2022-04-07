@@ -220,12 +220,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "c891b5172b1781305c19bc1e5cf7f7ef78c8485b"
+                "reference": "965315c728a82e0f8bebda56919cde2573970e30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/c891b5172b1781305c19bc1e5cf7f7ef78c8485b",
-                "reference": "c891b5172b1781305c19bc1e5cf7f7ef78c8485b",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/965315c728a82e0f8bebda56919cde2573970e30",
+                "reference": "965315c728a82e0f8bebda56919cde2573970e30",
                 "shasum": ""
             },
             "require-dev": {
@@ -249,7 +249,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2022-02-01T10:22:43+00:00"
+            "time": "2022-04-06T09:19:35+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -6491,12 +6491,12 @@
             "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wikimedia/wikimedia-textcat.git",
+                "url": "https://github.com/wikimedia/textcat.git",
                 "reference": "17818e14cf31c99f43a3c9bdd09a4d6e2914883f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/wikimedia-textcat/zipball/17818e14cf31c99f43a3c9bdd09a4d6e2914883f",
+                "url": "https://api.github.com/repos/wikimedia/textcat/zipball/17818e14cf31c99f43a3c9bdd09a4d6e2914883f",
                 "reference": "17818e14cf31c99f43a3c9bdd09a4d6e2914883f",
                 "shasum": ""
             },
