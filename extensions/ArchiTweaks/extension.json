@@ -8,7 +8,13 @@
       "class": "ArchiTweaks\\ApiQueryDescription"
     }
   },
+  "APIListModules": {
+    "archiRecentChanges": {
+      "class": "ArchiTweaks\\ApiQueryArchiRecentChanges"
+    }
+  },
   "AutoloadClasses": {
+    "ArchiTweaks\\ApiQueryArchiRecentChanges": "ApiQueryArchiRecentChanges.php",
     "ArchiTweaks\\ApiQueryDescription": "ApiQueryDescription.php",
     "ArchiTweaks\\Hooks": "Hooks.php"
   },
