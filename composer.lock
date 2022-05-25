@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56e583ce85f30ff55bb4d08479b96c42",
+    "content-hash": "19862387c29998b484d06a54dbccab2a",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -3050,6 +3050,9 @@
                     "../{$name}": [
                         "mediawiki/open-layers"
                     ]
+                },
+                "patches_applied": {
+                    "Compatibilité avec mobilefrontend": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-PageForms/pull/10.diff"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3158,7 +3161,8 @@
                     "dev-master": "3.0.x-dev"
                 },
                 "patches_applied": {
-                    "Compatibilité select2": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/84.diff"
+                    "Compatibilité select2": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/84.diff",
+                    "Compatibilité avec mobilefrontend": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/94.diff"
                 }
             },
             "autoload": {
