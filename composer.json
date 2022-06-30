@@ -117,6 +117,13 @@
     "sort-packages": true,
     "platform": {
       "php": "7.4.16"
+    },
+    "allow-plugins": {
+      "composer/installers": true,
+      "ocramius/package-versions": true,
+      "wikimedia/composer-merge-plugin": true,
+      "cweagans/composer-patches": true,
+      "insite/composer-dangling-locked-deps": true
     }
   },
   "extra": {
