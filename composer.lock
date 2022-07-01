@@ -97,12 +97,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "03a855892df5aae03a1335b62daa23f38223c954"
+                "reference": "d630fabfe11c3adfcc220c1bdb0b838647d029c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/03a855892df5aae03a1335b62daa23f38223c954",
-                "reference": "03a855892df5aae03a1335b62daa23f38223c954",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/d630fabfe11c3adfcc220c1bdb0b838647d029c0",
+                "reference": "d630fabfe11c3adfcc220c1bdb0b838647d029c0",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "GPL-3.0-only"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2021-12-15T09:26:44+00:00"
+            "time": "2022-06-30T08:45:30+00:00"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -174,10 +174,6 @@
                 "GPL-3.0"
             ],
             "description": "Implement ArchiWiki's page renaming workflow",
-            "support": {
-                "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-move/issues",
-                "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-move/tree/master"
-            },
             "time": "2021-08-26T08:41:06+00:00"
         },
         {
@@ -340,10 +336,6 @@
                 "GPL-3.0"
             ],
             "description": "MediaWiki API to send an HTML email to an user",
-            "support": {
-                "issues": "https://github.com/Archi-Strasbourg/mediawiki-emailuser-html/issues",
-                "source": "https://github.com/Archi-Strasbourg/mediawiki-emailuser-html/tree/master"
-            },
             "time": "2021-06-24T09:41:06+00:00"
         },
         {
