@@ -343,10 +343,15 @@ $wgNamespaceContentModels[NS_ADDRESS_TALK] = 'flow-board';
 $wgArticleRobotPolicies['Adresse:Bac à sable'] = 'noindex';
 
 //Cache
-$wgMainCacheType = CACHE_ACCEL;
+$wgObjectCaches['redis'] = [
+    'class' => 'RedisBagOStuff',
+    'servers' => ['127.0.0.1:6379'],
+];
+$wgMainCacheType = 'redis';
 $wgSessionCacheType = CACHE_DB;
-$wgParserCacheType = CACHE_DB;
-$smwgQueryResultCacheType = CACHE_ACCEL;
+$smwgMainCacheType = 'redis';
+$smwgQueryResultCacheType = 'redis';
+$smwgEnabledQueryDependencyLinksStore = true;
 
 //Semantic forms
 $srfgFormats[] = 'map';
