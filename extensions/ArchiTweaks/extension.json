@@ -10,11 +10,16 @@
   },
   "AutoloadClasses": {
     "ArchiTweaks\\ApiQueryDescription": "ApiQueryDescription.php",
-    "ArchiTweaks\\Hooks": "Hooks.php"
+    "ArchiTweaks\\Hooks": "Hooks.php",
+    "ArchiTweaks\\SpecialRunQueryCache": "SpecialRunQueryCache.php",
+    "ArchiTweaks\\CachedQuery": "CachedQuery.php"
   },
   "Hooks": {
     "PageContentInsertComplete": [
       "ArchiTweaks\\Hooks::onPageContentInsertComplete"
     ]
+  },
+  "SpecialPages": {
+    "RunQueryCache": "ArchiTweaks\\SpecialRunQueryCache"
   }
 }
