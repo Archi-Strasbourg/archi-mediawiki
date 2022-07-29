@@ -2,34 +2,64 @@
 
 namespace ArchiTweaks;
 
+use OutputPage;
+
 class CachedQuery
 {
 
     /**
      * @var string
      */
-    public string $title;
+    private string $title;
 
     /**
      * @var string
      */
-    public string $html;
+    private string $html;
 
     /**
      * @var string[]
      */
-    public array $head;
+    private array $head;
+
+    /**
+     * @var array
+     */
+    private array $jsconfig;
+
+    /**
+     * @var string[]
+     */
+    private array $modules;
 
     /**
      * @param string $title
      * @param string $html
      * @param string[] $head
+     * @param array $jsconfig
+     * @param array $modules
      */
-    public function __construct(string $title, string $html, array $head)
+    public function __construct(string $title, string $html, array $head, array $jsconfig, array $modules)
     {
         $this->title = $title;
         $this->html = $html;
         $this->head = $head;
+        $this->jsconfig = $jsconfig;
+        $this->modules = $modules;
+    }
+
+    /**
+     * @param OutputPage $output
+     * @return void
+     */
+    public function populateOutput(OutputPage $output)
+    {
+        $output->addHTML($this->html);
+        $output->setPageTitle($this->title);
+        $output->addHeadItems($this->head);
+        $output->addHeadItems($this->head);
+        $output->addJsConfigVars($this->jsconfig);
+        $output->addModules($this->modules);
     }
 
 }

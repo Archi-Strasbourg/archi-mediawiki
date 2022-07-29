@@ -5,8 +5,8 @@ namespace ArchiTweaks;
 use MWException;
 use ObjectCache;
 use PFRunQuery;
-use PFUtils;
 use SpecialPage;
+use const PHP_QUERY_RFC3986;
 
 class SpecialRunQueryCache extends PFRunQuery
 {
@@ -26,10 +26,20 @@ class SpecialRunQueryCache extends PFRunQuery
     }
 
     /**
+     * @param array $queryArgs
+     * @return string
+     * @link https://api.drupal.org/api/drupal/vendor%21symfony%21http-foundation%21Request.php/function/Request%3A%3AnormalizeQueryString/9.3.x
+     */
+    private function normalizeQueryString(array $queryArgs): string
+    {
+        ksort($queryArgs);
+        return http_build_query($queryArgs, '', '&', PHP_QUERY_RFC3986);
+    }
+
+    /**
      * @param string $form_name
      * @param bool $embedded
      * @return void
-     * @throws MWException
      */
     function printPage($form_name, $embedded = false): void
     {
@@ -45,21 +55,25 @@ class SpecialRunQueryCache extends PFRunQuery
                 'archi-tweaks',
                 'query',
                 $this->getLanguage()->getCode(),
-                md5($this->getRequest()->getRequestURL())
+                md5($this->normalizeQueryString($this->getRequest()->getValues()))
             ]
         );
 
         /** @var CachedQuery $cachedQuery */
         if ($cachedQuery = $cache->get($cacheKey)) {
-            $output->addHTML($cachedQuery->html);
-            $output->setPageTitle($cachedQuery->title);
-            $output->addHeadItems($cachedQuery->head);
+            $cachedQuery->populateOutput($output);
         } else {
             parent::printPage($form_name, $embedded);
 
             $cache->set(
                 $cacheKey,
-                new CachedQuery($output->getPageTitle(), $output->getHTML(), $output->getHeadItemsArray()),
+                new CachedQuery(
+                    $output->getPageTitle(),
+                    $output->getHTML(),
+                    $output->getHeadItemsArray(),
+                    $output->getJsConfigVars(),
+                    $output->getModules()
+                ),
                 $cache::TTL_DAY
             );
         }
