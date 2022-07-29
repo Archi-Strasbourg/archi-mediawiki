@@ -12,14 +12,21 @@
     "ArchiTweaks\\ApiQueryDescription": "ApiQueryDescription.php",
     "ArchiTweaks\\Hooks": "Hooks.php",
     "ArchiTweaks\\SpecialRunQueryCache": "SpecialRunQueryCache.php",
-    "ArchiTweaks\\CachedQuery": "CachedQuery.php"
+    "ArchiTweaks\\CachedQuery": "CachedQuery.php",
+    "ArchiTweaks\\QueryCacheFormLink": "QueryCacheFormLink.php"
   },
   "Hooks": {
     "PageContentInsertComplete": [
       "ArchiTweaks\\Hooks::onPageContentInsertComplete"
+    ],
+    "ParserFirstCallInit": [
+      "ArchiTweaks\\Hooks::onParserFirstCallInit"
     ]
   },
   "SpecialPages": {
     "RunQueryCache": "ArchiTweaks\\SpecialRunQueryCache"
+  },
+  "ExtensionMessagesFiles": {
+    "ArchiTweaksMagic": "ArchiTweaks.i18n.php"
   }
 }
