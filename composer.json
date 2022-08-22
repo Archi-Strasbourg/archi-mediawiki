@@ -151,7 +151,8 @@
       },
       "mediawiki/semantic-forms-select": {
         "Compatibilité select2": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/84.diff",
-        "Compatibilité avec mobilefrontend" : "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/94.diff"
+        "Compatibilité avec mobilefrontend" : "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/94.diff",
+        "Événement change ajouté trop tôt": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/95.diff"
       },
       "mediawiki/semantic-result-formats": {
         "Variable non-définie": "https://github.com/SemanticMediaWiki/SemanticResultFormats/commit/19f4c0cb927769eb919d464092434afb99763c53.diff"
