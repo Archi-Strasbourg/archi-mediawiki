@@ -127,6 +127,7 @@
     }
   },
   "extra": {
+    "composer-exit-on-patch-failure": true,
     "patches": {
       "mediawiki/blockandnuke": {
         "Pas de merge": "patches/blockandnuke-3.diff",
