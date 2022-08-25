@@ -13,7 +13,8 @@
     "ArchiTweaks\\Hooks": "Hooks.php",
     "ArchiTweaks\\SpecialRunQueryCache": "SpecialRunQueryCache.php",
     "ArchiTweaks\\CachedQuery": "CachedQuery.php",
-    "ArchiTweaks\\QueryCacheFormLink": "QueryCacheFormLink.php"
+    "ArchiTweaks\\QueryCacheFormLink": "QueryCacheFormLink.php",
+    "ArchiTweaks\\Subcategories": "Subcategories.php"
   },
   "Hooks": {
     "PageContentInsertComplete": [
