@@ -2,7 +2,8 @@
 
 namespace ArchiTweaks;
 
-use MailAddress;
+use MWException;
+use Parser;
 use Title;
 use WikiPage;
 use WikitextContent;
@@ -16,7 +17,7 @@ class Hooks
 
     /**
      * @param WikiPage $wikiPage
-     * @throws \MWException
+     * @throws MWException
      */
     public static function onPageContentInsertComplete(WikiPage &$wikiPage)
     {
@@ -59,6 +60,15 @@ class Hooks
                 );
             }
         }
+    }
+
+    /**
+     * @param Parser $parser
+     * @return void
+     * @throws MWException
+     */
+    public static function onParserFirstCallInit(Parser $parser) {
+        $parser->setFunctionHook( 'subcategories', [ Subcategories::class, 'render' ] );
     }
 
 }

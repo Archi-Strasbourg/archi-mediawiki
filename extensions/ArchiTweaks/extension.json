@@ -16,7 +16,8 @@
   "AutoloadClasses": {
     "ArchiTweaks\\ApiQueryArchiRecentChanges": "ApiQueryArchiRecentChanges.php",
     "ArchiTweaks\\ApiQueryDescription": "ApiQueryDescription.php",
-    "ArchiTweaks\\Hooks": "Hooks.php"
+    "ArchiTweaks\\Hooks": "Hooks.php",
+    "ArchiTweaks\\Subcategories": "Subcategories.php"
   },
   "Hooks": {
     "PageContentInsertComplete": [
