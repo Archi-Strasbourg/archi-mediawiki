@@ -110,6 +110,7 @@ wfLoadExtension('SemanticResultFormats');
 wfLoadExtension('Flow');
 wfLoadExtension('Thanks');
 wfLoadExtension('SmiteSpam');
+wfLoadExtension('CodeMirror');
 
 /** @var $IP string */
 require_once "$IP/extensions/HideNamespace/HideNamespace.php";

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c344246837a536aae8036240503850b3",
+    "content-hash": "4651010e50560bf01e0bbc5f6fa2b896",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2066,6 +2066,27 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:CleanChanges",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/CleanChanges"
+            }
+        },
+        {
+            "name": "mediawiki/CodeMirror",
+            "version": "1.35+6b05f05",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/CodeMirror.git",
+                "reference": "6b05f05"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/CodeMirror-REL1_35-6b05f05.tar.gz"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:CodeMirror",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/CodeMirror"
             }
         },
         {

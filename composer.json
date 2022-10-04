@@ -28,6 +28,7 @@
     "mediawiki/cirrussearch": "~1.35.0",
     "mediawiki/cite": "~1.35.0",
     "mediawiki/cleanchanges": "~1.35.0",
+    "mediawiki/codemirror": "~1.35.0",
     "mediawiki/comments": "~1.35.0",
     "mediawiki/commonsmetadata": "~1.35.0",
     "mediawiki/confirmedit": "~1.35.0",
