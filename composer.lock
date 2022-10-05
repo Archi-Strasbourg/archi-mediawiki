@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4651010e50560bf01e0bbc5f6fa2b896",
+    "content-hash": "ca4e1f990b776a780cabd411196155e6",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2373,16 +2373,6 @@
             }
         },
         {
-            "name": "mediawiki/MetaDescriptionTag",
-            "version": "0.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/kolzchut/mediawiki-extensions-MetaDescriptionTag.git",
-                "reference": "0.4.0"
-            },
-            "type": "mediawiki-extension"
-        },
-        {
             "name": "mediawiki/MixedNamespaceSearchSuggestions",
             "version": "1.35+8134dd4",
             "source": {
@@ -3070,6 +3060,16 @@
                 }
             ],
             "time": "2020-12-09T13:12:53+00:00"
+        },
+        {
+            "name": "mediawiki/meta-description-tag",
+            "version": "0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kolzchut/mediawiki-extensions-MetaDescriptionTag.git",
+                "reference": "0.4.0"
+            },
+            "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/page-forms",
@@ -7894,16 +7894,16 @@
     ],
     "aliases": [
         {
-            "alias": "1.0.x-dev",
-            "alias_normalized": "1.0.9999999.9999999-dev",
+            "package": "archi-strasbourg/archi-home",
             "version": "9999999-dev",
-            "package": "archi-strasbourg/archi-home"
+            "alias": "1.0.x-dev",
+            "alias_normalized": "1.0.9999999.9999999-dev"
         },
         {
-            "alias": "1.0.x-dev",
-            "alias_normalized": "1.0.9999999.9999999-dev",
+            "package": "archi-strasbourg/sections-count",
             "version": "9999999-dev",
-            "package": "archi-strasbourg/sections-count"
+            "alias": "1.0.x-dev",
+            "alias_normalized": "1.0.9999999.9999999-dev"
         }
     ],
     "minimum-stability": "dev",
@@ -7929,5 +7929,5 @@
     "platform-overrides": {
         "php": "7.4.16"
     },
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.3.0"
 }

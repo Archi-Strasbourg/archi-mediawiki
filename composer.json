@@ -44,7 +44,7 @@
     "mediawiki/lookupuser": "~1.35.0",
     "mediawiki/loops": "~1.35.0",
     "mediawiki/maps": "^8.0",
-    "mediawiki/metadescriptiontag": "~0.4.0",
+    "mediawiki/meta-description-tag": "^0.4.0",
     "mediawiki/mixednamespacesearchsuggestions": "~1.35.0",
     "mediawiki/mobilefrontend": "~1.35.0",
     "mediawiki/multimediaviewer": "~1.35.0",
@@ -86,7 +86,7 @@
     {
       "type": "package",
       "package": {
-        "name": "mediawiki/MetaDescriptionTag",
+        "name": "mediawiki/meta-description-tag",
         "version": "0.4.0",
         "type": "mediawiki-extension",
         "source": {
