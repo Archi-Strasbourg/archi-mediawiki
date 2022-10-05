@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca4e1f990b776a780cabd411196155e6",
+    "content-hash": "e433a264eebcbc5e4a8f1fc41871670a",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -137,7 +137,6 @@
                 "phpdocumentor/phpdocumentor": "~2.9.0",
                 "squizlabs/php_codesniffer": "~2.8.0"
             },
-            "default-branch": true,
             "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -150,10 +149,6 @@
                 }
             ],
             "description": "Map plugin for archi-wiki.org",
-            "support": {
-                "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps/issues",
-                "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps/tree/master"
-            },
             "time": "2022-10-05T09:59:18+00:00"
         },
         {
@@ -3225,7 +3220,8 @@
                 "patches_applied": {
                     "Compatibilité select2": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/84.diff",
                     "Compatibilité avec mobilefrontend": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/94.diff",
-                    "Événement change ajouté trop tôt": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/95.diff"
+                    "Événement change ajouté trop tôt": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/95.diff",
+                    "Requêtes AJAX asynchrones": "https://github.com/SemanticMediaWiki/SemanticFormsSelect/commit/1b43f273ba50304326f3aa91f114dab389916053.diff"
                 }
             },
             "autoload": {
@@ -7899,16 +7895,16 @@
     ],
     "aliases": [
         {
-            "package": "archi-strasbourg/archi-home",
-            "version": "9999999-dev",
             "alias": "1.0.x-dev",
-            "alias_normalized": "1.0.9999999.9999999-dev"
+            "alias_normalized": "1.0.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "archi-strasbourg/archi-home"
         },
         {
-            "package": "archi-strasbourg/sections-count",
-            "version": "9999999-dev",
             "alias": "1.0.x-dev",
-            "alias_normalized": "1.0.9999999.9999999-dev"
+            "alias_normalized": "1.0.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "archi-strasbourg/sections-count"
         }
     ],
     "minimum-stability": "dev",
@@ -7934,5 +7930,5 @@
     "platform-overrides": {
         "php": "7.4.16"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "1.1.0"
 }
