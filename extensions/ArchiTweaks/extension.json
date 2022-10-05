@@ -22,6 +22,12 @@
   "Hooks": {
     "PageContentInsertComplete": [
       "ArchiTweaks\\Hooks::onPageContentInsertComplete"
+    ],
+    "ParserFirstCallInit": [
+      "ArchiTweaks\\Hooks::onParserFirstCallInit"
     ]
+  },
+  "ExtensionMessagesFiles": {
+    "ArchiTweaksMagic": "ArchiTweaks.i18n.php"
   }
 }
