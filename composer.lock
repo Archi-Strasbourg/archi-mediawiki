@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56e583ce85f30ff55bb4d08479b96c42",
+    "content-hash": "e433a264eebcbc5e4a8f1fc41871670a",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -97,12 +97,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "03a855892df5aae03a1335b62daa23f38223c954"
+                "reference": "a23cac313c5e53e62f53f8901de55d9fdd276bc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/03a855892df5aae03a1335b62daa23f38223c954",
-                "reference": "03a855892df5aae03a1335b62daa23f38223c954",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/a23cac313c5e53e62f53f8901de55d9fdd276bc6",
+                "reference": "a23cac313c5e53e62f53f8901de55d9fdd276bc6",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "GPL-3.0-only"
             ],
             "description": "Custom homepage for archi-wiki.org",
-            "time": "2021-12-15T09:26:44+00:00"
+            "time": "2022-07-29T09:51:14+00:00"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -125,12 +125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
-                "reference": "0a62114c2b177d23c3eb54552f1e303d904ce919"
+                "reference": "0ce48653d11d4dc9a979f65fa1ea65c4d31b74ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/0a62114c2b177d23c3eb54552f1e303d904ce919",
-                "reference": "0a62114c2b177d23c3eb54552f1e303d904ce919",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/0ce48653d11d4dc9a979f65fa1ea65c4d31b74ce",
+                "reference": "0ce48653d11d4dc9a979f65fa1ea65c4d31b74ce",
                 "shasum": ""
             },
             "require-dev": {
@@ -149,7 +149,7 @@
                 }
             ],
             "description": "Map plugin for archi-wiki.org",
-            "time": "2021-06-24T09:23:00+00:00"
+            "time": "2022-10-05T09:59:18+00:00"
         },
         {
             "name": "archi-strasbourg/archi-move",
@@ -174,10 +174,6 @@
                 "GPL-3.0"
             ],
             "description": "Implement ArchiWiki's page renaming workflow",
-            "support": {
-                "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-move/issues",
-                "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-move/tree/master"
-            },
             "time": "2021-08-26T08:41:06+00:00"
         },
         {
@@ -220,12 +216,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "0b3ed0ef125594ecffee41e7569bf8e700e0b5c5"
+                "reference": "417c095328b4bffaa7265afb0e04f01525a81715"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/0b3ed0ef125594ecffee41e7569bf8e700e0b5c5",
-                "reference": "0b3ed0ef125594ecffee41e7569bf8e700e0b5c5",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/417c095328b4bffaa7265afb0e04f01525a81715",
+                "reference": "417c095328b4bffaa7265afb0e04f01525a81715",
                 "shasum": ""
             },
             "require-dev": {
@@ -249,7 +245,7 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2022-04-07T08:13:51+00:00"
+            "time": "2022-10-04T08:12:14+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -340,10 +336,6 @@
                 "GPL-3.0"
             ],
             "description": "MediaWiki API to send an HTML email to an user",
-            "support": {
-                "issues": "https://github.com/Archi-Strasbourg/mediawiki-emailuser-html/issues",
-                "source": "https://github.com/Archi-Strasbourg/mediawiki-emailuser-html/tree/master"
-            },
             "time": "2021-06-24T09:41:06+00:00"
         },
         {
@@ -2077,6 +2069,27 @@
             }
         },
         {
+            "name": "mediawiki/CodeMirror",
+            "version": "1.35+6b05f05",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/CodeMirror.git",
+                "reference": "6b05f05"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/CodeMirror-REL1_35-6b05f05.tar.gz"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:CodeMirror",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/CodeMirror"
+            }
+        },
+        {
             "name": "mediawiki/Comments",
             "version": "1.35+957399d",
             "source": {
@@ -2358,16 +2371,6 @@
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Loops"
             }
-        },
-        {
-            "name": "mediawiki/MetaDescriptionTag",
-            "version": "0.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/kolzchut/mediawiki-extensions-MetaDescriptionTag.git",
-                "reference": "0.4.0"
-            },
-            "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/MixedNamespaceSearchSuggestions",
@@ -3059,6 +3062,16 @@
             "time": "2020-12-09T13:12:53+00:00"
         },
         {
+            "name": "mediawiki/meta-description-tag",
+            "version": "0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kolzchut/mediawiki-extensions-MetaDescriptionTag.git",
+                "reference": "0.4.0"
+            },
+            "type": "mediawiki-extension"
+        },
+        {
             "name": "mediawiki/page-forms",
             "version": "5.2",
             "source": {
@@ -3094,6 +3107,9 @@
                     "../{$name}": [
                         "mediawiki/open-layers"
                     ]
+                },
+                "patches_applied": {
+                    "Compatibilité avec mobilefrontend": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-PageForms/pull/10.diff"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3202,7 +3218,10 @@
                     "dev-master": "3.0.x-dev"
                 },
                 "patches_applied": {
-                    "Compatibilité select2": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/84.diff"
+                    "Compatibilité select2": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/84.diff",
+                    "Compatibilité avec mobilefrontend": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/94.diff",
+                    "Événement change ajouté trop tôt": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/95.diff",
+                    "Requêtes AJAX asynchrones": "https://github.com/SemanticMediaWiki/SemanticFormsSelect/commit/1b43f273ba50304326f3aa91f114dab389916053.diff"
                 }
             },
             "autoload": {

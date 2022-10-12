@@ -8,15 +8,12 @@
       "class": "ArchiTweaks\\ApiQueryDescription"
     }
   },
-  "APIListModules": {
-    "archiRecentChanges": {
-      "class": "ArchiTweaks\\ApiQueryArchiRecentChanges"
-    }
-  },
   "AutoloadClasses": {
-    "ArchiTweaks\\ApiQueryArchiRecentChanges": "ApiQueryArchiRecentChanges.php",
     "ArchiTweaks\\ApiQueryDescription": "ApiQueryDescription.php",
     "ArchiTweaks\\Hooks": "Hooks.php",
+    "ArchiTweaks\\SpecialRunQueryCache": "SpecialRunQueryCache.php",
+    "ArchiTweaks\\CachedQuery": "CachedQuery.php",
+    "ArchiTweaks\\QueryCacheFormLink": "QueryCacheFormLink.php",
     "ArchiTweaks\\Subcategories": "Subcategories.php"
   },
   "Hooks": {
@@ -26,6 +23,9 @@
     "ParserFirstCallInit": [
       "ArchiTweaks\\Hooks::onParserFirstCallInit"
     ]
+  },
+  "SpecialPages": {
+    "RunQueryCache": "ArchiTweaks\\SpecialRunQueryCache"
   },
   "ExtensionMessagesFiles": {
     "ArchiTweaksMagic": "ArchiTweaks.i18n.php"

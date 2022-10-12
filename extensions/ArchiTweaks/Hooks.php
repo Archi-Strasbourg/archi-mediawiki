@@ -68,6 +68,7 @@ class Hooks
      * @throws MWException
      */
     public static function onParserFirstCallInit(Parser $parser) {
+        $parser->setFunctionHook( 'querycacheformlink', [ QueryCacheFormLink::class, 'run' ] );
         $parser->setFunctionHook( 'subcategories', [ Subcategories::class, 'render' ] );
     }
 
