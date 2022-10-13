@@ -125,18 +125,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
-                "reference": "0ce48653d11d4dc9a979f65fa1ea65c4d31b74ce"
+                "reference": "2ec3ed2d31dcc7fb9033215fd04c258507cd5a3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/0ce48653d11d4dc9a979f65fa1ea65c4d31b74ce",
-                "reference": "0ce48653d11d4dc9a979f65fa1ea65c4d31b74ce",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/2ec3ed2d31dcc7fb9033215fd04c258507cd5a3e",
+                "reference": "2ec3ed2d31dcc7fb9033215fd04c258507cd5a3e",
                 "shasum": ""
             },
             "require-dev": {
                 "phpdocumentor/phpdocumentor": "~2.9.0",
                 "squizlabs/php_codesniffer": "~2.8.0"
             },
+            "default-branch": true,
             "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -149,7 +150,11 @@
                 }
             ],
             "description": "Map plugin for archi-wiki.org",
-            "time": "2022-10-05T09:59:18+00:00"
+            "support": {
+                "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps/issues",
+                "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps/tree/master"
+            },
+            "time": "2022-10-13T09:38:00+00:00"
         },
         {
             "name": "archi-strasbourg/archi-move",
@@ -7895,16 +7900,16 @@
     ],
     "aliases": [
         {
-            "alias": "1.0.x-dev",
-            "alias_normalized": "1.0.9999999.9999999-dev",
+            "package": "archi-strasbourg/archi-home",
             "version": "9999999-dev",
-            "package": "archi-strasbourg/archi-home"
+            "alias": "1.0.x-dev",
+            "alias_normalized": "1.0.9999999.9999999-dev"
         },
         {
-            "alias": "1.0.x-dev",
-            "alias_normalized": "1.0.9999999.9999999-dev",
+            "package": "archi-strasbourg/sections-count",
             "version": "9999999-dev",
-            "package": "archi-strasbourg/sections-count"
+            "alias": "1.0.x-dev",
+            "alias_normalized": "1.0.9999999.9999999-dev"
         }
     ],
     "minimum-stability": "dev",
@@ -7930,5 +7935,5 @@
     "platform-overrides": {
         "php": "7.4.16"
     },
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.3.0"
 }
