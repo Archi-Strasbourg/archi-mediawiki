@@ -221,17 +221,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "417c095328b4bffaa7265afb0e04f01525a81715"
+                "reference": "371274be6e1b70743adb11b85bee26867e56b6ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/417c095328b4bffaa7265afb0e04f01525a81715",
-                "reference": "417c095328b4bffaa7265afb0e04f01525a81715",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/371274be6e1b70743adb11b85bee26867e56b6ce",
+                "reference": "371274be6e1b70743adb11b85bee26867e56b6ce",
                 "shasum": ""
             },
             "require-dev": {
                 "jakub-onderka/php-parallel-lint": "0.9"
             },
+            "default-branch": true,
             "type": "mediawiki-skin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -250,7 +251,11 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "time": "2022-10-04T08:12:14+00:00"
+            "support": {
+                "issues": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/issues",
+                "source": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/tree/master"
+            },
+            "time": "2022-10-18T10:48:58+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
