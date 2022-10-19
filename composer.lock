@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e433a264eebcbc5e4a8f1fc41871670a",
+    "content-hash": "79e56d0ecdebc9e123bf4d752acfc2da",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -137,7 +137,6 @@
                 "phpdocumentor/phpdocumentor": "~2.9.0",
                 "squizlabs/php_codesniffer": "~2.8.0"
             },
-            "default-branch": true,
             "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -150,10 +149,6 @@
                 }
             ],
             "description": "Map plugin for archi-wiki.org",
-            "support": {
-                "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps/issues",
-                "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps/tree/master"
-            },
             "time": "2022-10-13T09:38:00+00:00"
         },
         {
@@ -232,7 +227,6 @@
             "require-dev": {
                 "jakub-onderka/php-parallel-lint": "0.9"
             },
-            "default-branch": true,
             "type": "mediawiki-skin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -251,10 +245,6 @@
                 }
             ],
             "description": "MediaWiki skin used on archi-wiki.org",
-            "support": {
-                "issues": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/issues",
-                "source": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/tree/master"
-            },
             "time": "2022-10-18T10:48:58+00:00"
         },
         {
@@ -3119,7 +3109,8 @@
                     ]
                 },
                 "patches_applied": {
-                    "Compatibilité avec mobilefrontend": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-PageForms/pull/10.diff"
+                    "Compatibilité avec mobilefrontend": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-PageForms/pull/10.diff",
+                    "Option pour désactiver l'avertissement à la fermeture de l'onglet": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-PageForms/pull/11.diff"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7905,16 +7896,16 @@
     ],
     "aliases": [
         {
-            "package": "archi-strasbourg/archi-home",
-            "version": "9999999-dev",
             "alias": "1.0.x-dev",
-            "alias_normalized": "1.0.9999999.9999999-dev"
+            "alias_normalized": "1.0.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "archi-strasbourg/archi-home"
         },
         {
-            "package": "archi-strasbourg/sections-count",
-            "version": "9999999-dev",
             "alias": "1.0.x-dev",
-            "alias_normalized": "1.0.9999999.9999999-dev"
+            "alias_normalized": "1.0.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "archi-strasbourg/sections-count"
         }
     ],
     "minimum-stability": "dev",
@@ -7940,5 +7931,5 @@
     "platform-overrides": {
         "php": "7.4.16"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "1.1.0"
 }
