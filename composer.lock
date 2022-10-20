@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79e56d0ecdebc9e123bf4d752acfc2da",
+    "content-hash": "e433a264eebcbc5e4a8f1fc41871670a",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -3109,8 +3109,7 @@
                     ]
                 },
                 "patches_applied": {
-                    "Compatibilité avec mobilefrontend": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-PageForms/pull/10.diff",
-                    "Option pour désactiver l'avertissement à la fermeture de l'onglet": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-PageForms/pull/11.diff"
+                    "Compatibilité avec mobilefrontend": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-PageForms/pull/10.diff"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",

@@ -29,5 +29,23 @@
   },
   "ExtensionMessagesFiles": {
     "ArchiTweaksMagic": "ArchiTweaks.i18n.php"
+  },
+  "ResourceModules": {
+    "ext.architweaks.disableeditwarning": {
+      "scripts": [
+        "js/disableeditwarning.js"
+      ],
+      "dependencies": [
+        "user.options"
+      ],
+      "targets": [
+        "desktop",
+        "mobile"
+      ]
+    }
+  },
+  "ResourceFileModulePaths": {
+    "localBasePath": "",
+    "remoteExtPath": "ArchiTweaks"
   }
 }

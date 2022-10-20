@@ -145,8 +145,7 @@
         "Constante non-définie": "https://github.com/ProfessionalWiki/Maps/commit/d80245cb4f4519036f7aa1a4f933de401502920e.diff"
       },
       "mediawiki/page-forms": {
-        "Compatibilité avec mobilefrontend" : "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-PageForms/pull/10.diff",
-        "Option pour désactiver l'avertissement à la fermeture de l'onglet": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-PageForms/pull/11.diff"
+        "Compatibilité avec mobilefrontend" : "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-PageForms/pull/10.diff"
       },
       "mediawiki/semantic-media-wiki": {
         "Échappement des virgules dans les CSV": "patches/semantic-media-wiki-4976.diff"

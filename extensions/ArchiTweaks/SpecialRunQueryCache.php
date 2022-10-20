@@ -77,6 +77,9 @@ class SpecialRunQueryCache extends PFRunQuery
                 $cache::TTL_DAY
             );
         }
+
+        // Script pour désactiver l'avertissement à la fermeture sur cette page.
+        $this->getOutput()->addModules(['ext.architweaks.disableeditwarning']);
     }
 
 }
