@@ -395,7 +395,7 @@ $smwgQDefaultLimit = 500;
 $smwgQMaxInlineLimit = 20000;
 $smwgQMaxLimit = 20000;
 $smwgQUpperbound = 20000;
-$smwgInlineErrors = false;
+$smwgParserFeatures = SMW_PARSER_STRICT | SMW_PARSER_HID_CATS;
 
 //UserMerge
 $wgGroupPermissions['bureaucrat']['usermerge'] = true;
