@@ -8,6 +8,7 @@
   },
   "require": {
     "php": ">=7.4",
+    "ext-redis": "*",
     "archi-strasbourg/archi-blog": "dev-master",
     "archi-strasbourg/archi-comments": "dev-master",
     "archi-strasbourg/archi-footer": "dev-master",

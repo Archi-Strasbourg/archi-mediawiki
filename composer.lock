@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e433a264eebcbc5e4a8f1fc41871670a",
+    "content-hash": "2702b93f39aaace456b39694f80db754",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -8114,7 +8114,8 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "ext-redis": "*"
     },
     "platform-dev": [],
     "platform-overrides": {
