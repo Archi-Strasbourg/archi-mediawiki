@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2702b93f39aaace456b39694f80db754",
+    "content-hash": "6fb242acc0079b9093f84ba42988d528",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -221,12 +221,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "706dd202f3ae15e2261050a08811bd51daa7f6ab"
+                "reference": "a6f82d9854dd6b8eef7d57bb22b2665d68406a9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/706dd202f3ae15e2261050a08811bd51daa7f6ab",
-                "reference": "706dd202f3ae15e2261050a08811bd51daa7f6ab",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/a6f82d9854dd6b8eef7d57bb22b2665d68406a9f",
+                "reference": "a6f82d9854dd6b8eef7d57bb22b2665d68406a9f",
                 "shasum": ""
             },
             "require-dev": {
@@ -255,7 +255,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/issues",
                 "source": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/tree/master"
             },
-            "time": "2023-01-03T12:14:09+00:00"
+            "time": "2023-01-10T17:11:20+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -2997,6 +2997,16 @@
                 "source": "https://github.com/wikimedia/mediawiki/tree/1.35.9"
             },
             "time": "2022-12-22T14:39:16+00:00"
+        },
+        {
+            "name": "mediawiki/g-tag",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SkizNet/mediawiki-GTag.git",
+                "reference": "1ebe30f99785451c51ae4e7a076ed6eb55c0a8de"
+            },
+            "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/maps",
@@ -8109,7 +8119,8 @@
         "archi-strasbourg/archi-wiki-skin": 20,
         "archi-strasbourg/category-breadcrumb": 20,
         "archi-strasbourg/emailuser-html": 20,
-        "archi-strasbourg/sections-count": 20
+        "archi-strasbourg/sections-count": 20,
+        "mediawiki/g-tag": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

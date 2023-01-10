@@ -111,6 +111,7 @@ wfLoadExtension('Flow');
 wfLoadExtension('Thanks');
 wfLoadExtension('SmiteSpam');
 wfLoadExtension('CodeMirror');
+wfLoadExtension('GTag');
 
 /** @var $IP string */
 require_once "$IP/extensions/HideNamespace/HideNamespace.php";
@@ -443,3 +444,6 @@ $wgContribScoreIgnoreBots = true;
 $egMapsGeoCacheTtl = BagOStuff::TTL_MONTH;
 $egMapsEnableCoordinateFunction = false;
 $egMapsGeoCacheType = CACHE_DB;
+
+// GTag
+$wgGTagAnalyticsId = 'UA-21024687-1';

@@ -40,6 +40,7 @@
     "mediawiki/echo": "~1.35.0",
     "mediawiki/elastica": "~1.35.0",
     "mediawiki/flow": "~1.35.0",
+    "mediawiki/g-tag": "dev-master",
     "mediawiki/geodata": "~1.35.0",
     "mediawiki/googlecustomwikisearch": "~1.35.0",
     "mediawiki/lookupuser": "~1.35.0",
@@ -94,6 +95,19 @@
           "url": "https://github.com/kolzchut/mediawiki-extensions-MetaDescriptionTag.git",
           "type": "git",
           "reference": "0.4.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mediawiki/g-tag",
+        "version": "dev-master",
+        "type": "mediawiki-extension",
+        "source": {
+          "url": "https://github.com/SkizNet/mediawiki-GTag.git",
+          "type": "git",
+          "reference": "1ebe30f99785451c51ae4e7a076ed6eb55c0a8de"
         }
       }
     }
