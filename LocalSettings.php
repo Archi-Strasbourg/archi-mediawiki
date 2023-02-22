@@ -446,4 +446,4 @@ $egMapsEnableCoordinateFunction = false;
 $egMapsGeoCacheType = CACHE_DB;
 
 // GTag
-$wgGTagAnalyticsId = 'UA-21024687-1';
+$wgGTagAnalyticsId = 'G-CLE3C9XSV4';
