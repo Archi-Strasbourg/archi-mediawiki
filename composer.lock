@@ -2787,16 +2787,16 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.35.9",
+            "version": "1.35.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "4a804b4950cd62bfbd1991471308e27793ab2a27"
+                "reference": "75c8f0aa3abe70b22058fb2de7d41c3eac8b6aba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/4a804b4950cd62bfbd1991471308e27793ab2a27",
-                "reference": "4a804b4950cd62bfbd1991471308e27793ab2a27",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/75c8f0aa3abe70b22058fb2de7d41c3eac8b6aba",
+                "reference": "75c8f0aa3abe70b22058fb2de7d41c3eac8b6aba",
                 "shasum": ""
             },
             "require": {
@@ -2994,9 +2994,9 @@
                 "issues": "https://bugs.mediawiki.org/",
                 "irc": "irc://irc.libera.chat/mediawiki",
                 "wiki": "https://www.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.35.9"
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.35.10"
             },
-            "time": "2022-12-22T14:39:16+00:00"
+            "time": "2023-03-30T23:34:54+00:00"
         },
         {
             "name": "mediawiki/g-tag",
@@ -8132,5 +8132,5 @@
     "platform-overrides": {
         "php": "7.4.16"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
