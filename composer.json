@@ -4,7 +4,8 @@
   "license": "GPL-3.0-only",
   "type": "project",
   "replace": {
-    "rudloff/mediawiki-composer": "~0.1.3"
+    "rudloff/mediawiki-composer": "~0.1.3",
+    "mediawiki/textextracts": "*"
   },
   "require": {
     "php": ">=7.4",
@@ -24,53 +25,54 @@
     "archi-strasbourg/link-to-archive": "~1.0.0",
     "archi-strasbourg/sections-count": "dev-master as 1.0.x-dev",
     "cweagans/composer-patches": "^1.6",
-    "mediawiki/arrays": "~1.35.0",
-    "mediawiki/blockandnuke": "~1.35.0",
-    "mediawiki/cirrussearch": "~1.35.0",
-    "mediawiki/cite": "~1.35.0",
-    "mediawiki/cleanchanges": "~1.35.0",
-    "mediawiki/codemirror": "~1.35.0",
-    "mediawiki/comments": "~1.35.0",
-    "mediawiki/commonsmetadata": "~1.35.0",
-    "mediawiki/confirmedit": "~1.35.0",
-    "mediawiki/contactpage": "~1.35.0",
-    "mediawiki/contributionscores": "~1.35.0",
+    "mediawiki/arrays": "dev-REL1_35",
+    "mediawiki/block-and-nuke": "dev-REL1_35",
+    "mediawiki/cirrussearch": "dev-REL1_35",
+    "mediawiki/cite": "dev-master#bc16b05",
+    "mediawiki/clean-changes": "dev-REL1_35",
+    "mediawiki/code-mirror": "dev-REL1_35",
+    "mediawiki/comments": "dev-REL1_35 as 1.35",
+    "mediawiki/commons-metadata": "dev-REL1_35",
+    "mediawiki/confirm-edit": "dev-master#eceeda6",
+    "mediawiki/contact-page": "dev-REL1_35",
+    "mediawiki/contribution-scores": "dev-REL1_35",
     "mediawiki/core": "~1.35.0",
-    "mediawiki/dismissablesitenotice": "~1.35.0",
-    "mediawiki/echo": "~1.35.0",
-    "mediawiki/elastica": "~1.35.0",
-    "mediawiki/flow": "~1.35.0",
+    "mediawiki/dismissable-site-notice": "dev-REL1_35",
+    "mediawiki/echo": "dev-REL1_35",
+    "mediawiki/elastica": "dev-REL1_35",
+    "mediawiki/flow": "dev-REL1_35",
     "mediawiki/g-tag": "dev-master",
-    "mediawiki/geodata": "~1.35.0",
-    "mediawiki/googlecustomwikisearch": "~1.35.0",
-    "mediawiki/lookupuser": "~1.35.0",
-    "mediawiki/loops": "~1.35.0",
+    "mediawiki/geo-data": "dev-REL1_35",
+    "mediawiki/googlecustomwikisearch": "dev-REL1_35",
+    "mediawiki/lookup-user": "dev-REL1_35",
+    "mediawiki/loops": "dev-REL1_35",
     "mediawiki/maps": "^8.0",
     "mediawiki/meta-description-tag": "^0.4.0",
-    "mediawiki/mixednamespacesearchsuggestions": "~1.35.0",
-    "mediawiki/mobilefrontend": "~1.35.0",
-    "mediawiki/multimediaviewer": "~1.35.0",
-    "mediawiki/newsletter": "~1.35.0",
-    "mediawiki/nuke": "~1.35.0",
+    "mediawiki/mixed-namespace-search-suggestions": "dev-REL1_35",
+    "mediawiki/mobile-frontend": "dev-REL1_27#1421405",
+    "mediawiki/multimedia-viewer": "dev-REL1_35",
+    "mediawiki/newsletter": "dev-REL1_35",
+    "mediawiki/nuke": "dev-REL1_35",
     "mediawiki/page-forms": "^5.2",
-    "mediawiki/pageimages": "~1.35.0",
-    "mediawiki/parserfunctions": "~1.35.0",
-    "mediawiki/replacetext": "~1.35.0",
+    "mediawiki/page-images": "dev-REL1_35",
+    "mediawiki/parser-functions": "dev-master",
+    "mediawiki/replace-text": "dev-REL1_35",
     "mediawiki/semantic-forms-select": "^3.0",
     "mediawiki/semantic-media-wiki": "^3.2",
     "mediawiki/semantic-result-formats": "^3.2",
-    "mediawiki/smitespam": "~1.35.0",
-    "mediawiki/templatedata": "~1.35.0",
-    "mediawiki/textextracts": "~1.35.0",
-    "mediawiki/thanks": "~1.35.0",
+    "mediawiki/smitespam": "dev-REL1_35",
+    "mediawiki/template-data": "dev-REL1_35",
+    "mediawiki/text-extracts": "dev-REL1_35",
+    "mediawiki/thanks": "dev-REL1_35",
     "mediawiki/translate": "^2021.04",
     "mediawiki/universal-language-selector": "^2021.04",
-    "mediawiki/uploadwizard": "~1.35.0",
-    "mediawiki/usermerge": "~1.35.0",
-    "mediawiki/variables": "~1.35.0",
-    "mediawiki/vector": "~1.35.0",
-    "mediawiki/visualeditor": "~1.35.0",
-    "mediawiki/wikieditor": "~1.35.0",
+    "mediawiki/upload-wizard": "dev-REL1_35",
+    "mediawiki/user-merge": "dev-REL1_35",
+    "mediawiki/variables": "dev-REL1_35",
+    "mediawiki/vector-skin": "dev-master#37d7761",
+    "mediawiki/visual-editor": "dev-REL1_35",
+    "mediawiki/wiki-editor": "dev-master#e18315e",
+    "mnsami/composer-custom-directory-installer": "^2.0",
     "ruflin/elastica": "^6.1",
     "shakeepers/hide-namespace": "~1.4.3"
   },
@@ -83,7 +85,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://mwpackagist.netlib.re/"
+      "url": "https://packages.bluespice.com/"
     },
     {
       "type": "package",
@@ -108,6 +110,169 @@
           "url": "https://github.com/SkizNet/mediawiki-GTag.git",
           "type": "git",
           "reference": "1ebe30f99785451c51ae4e7a076ed6eb55c0a8de"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mediawiki/comments",
+        "version": "dev-REL1_35",
+        "type": "mediawiki-extension",
+        "source": {
+          "url": "https://github.com/wikimedia/mediawiki-extensions-Comments.git",
+          "type": "git",
+          "reference": "a9880be2f5ea0215baef7f33bdb9085d804f1f03"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mediawiki/thanks",
+        "version": "dev-REL1_35",
+        "type": "mediawiki-extension",
+        "source": {
+          "url": "https://github.com/wikimedia/mediawiki-extensions-Thanks.git",
+          "type": "git",
+          "reference": "8d58925"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wikimedia/mediawiki-extensions-SmiteSpam.git"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mediawiki/newsletter",
+        "version": "dev-REL1_35",
+        "type": "mediawiki-extension",
+        "source": {
+          "url": "https://github.com/wikimedia/mediawiki-extensions-Newsletter.git",
+          "type": "git",
+          "reference": "0aa33948316f931dfa74ddce6b56904c691ebb47"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mediawiki/lookup-user",
+        "version": "dev-REL1_35",
+        "type": "mediawiki-extension",
+        "source": {
+          "url": "https://github.com/wikimedia/mediawiki-extensions-LookupUser.git",
+          "type": "git",
+          "reference": "6c5c1d7c0cdd9eb054e10937d06bf86c065b8820"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mediawiki/google-custom-wiki-search",
+        "version": "dev-REL1_35",
+        "type": "mediawiki-extension",
+        "source": {
+          "url": "https://github.com/wikimedia/mediawiki-extensions-GoogleCustomWikiSearch.git",
+          "type": "git",
+          "reference": "4ff4cf030b1ad2f5c92caa8f0f4e5a702213a74b"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mediawiki/geo-data",
+        "version": "dev-REL1_35",
+        "type": "mediawiki-extension",
+        "source": {
+          "url": "https://github.com/wikimedia/mediawiki-extensions-GeoData.git",
+          "type": "git",
+          "reference": "34ca364355f1142ad2eefe5fb15169870d92a892"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wikimedia/mediawiki-extensions-Flow.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wikimedia/mediawiki-extensions-GoogleCustomWikiSearch.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wikimedia/mediawiki-extensions-Elastica.git"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mediawiki/dismissable-site-notice",
+        "version": "dev-REL1_35",
+        "type": "mediawiki-extension",
+        "source": {
+          "url": "https://github.com/wikimedia/mediawiki-extensions-DismissableSiteNotice.git",
+          "type": "git",
+          "reference": "7efd96482315ca9a546316604688d24c9de25cac"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mediawiki/contribution-scores",
+        "version": "dev-REL1_35",
+        "type": "mediawiki-extension",
+        "source": {
+          "url": "https://github.com/wikimedia/mediawiki-extensions-ContributionScores.git",
+          "type": "git",
+          "reference": "a35de703c04e92edb8c2115c297affa3e832b641"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mediawiki/contact-page",
+        "version": "dev-REL1_35",
+        "type": "mediawiki-extension",
+        "source": {
+          "url": "https://github.com/wikimedia/mediawiki-extensions-ContactPage.git",
+          "type": "git",
+          "reference": "edef59661956afac6d655ee0c8db59d253587768"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mediawiki/commons-metadata",
+        "version": "dev-REL1_35",
+        "type": "mediawiki-extension",
+        "source": {
+          "url": "https://github.com/wikimedia/mediawiki-extensions-CommonsMetadata.git",
+          "type": "git",
+          "reference": "d370fd071d6cf98f50c0a892f36c2d7611fb7fea"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wikimedia/mediawiki-extensions-CleanChanges.git"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mediawiki/block-and-nuke",
+        "version": "dev-REL1_35",
+        "type": "mediawiki-extension",
+        "source": {
+          "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/BlockAndNuke.git",
+          "type": "git",
+          "reference": "c1dd5b1"
         }
       }
     }
@@ -139,11 +304,33 @@
       "ocramius/package-versions": true,
       "wikimedia/composer-merge-plugin": true,
       "cweagans/composer-patches": true,
-      "insite/composer-dangling-locked-deps": true
+      "insite/composer-dangling-locked-deps": true,
+      "oomphinc/composer-installers-extender": true,
+      "mnsami/composer-custom-directory-installer": true
     }
   },
   "extra": {
     "composer-exit-on-patch-failure": true,
+    "installer-paths": {
+      "drush/Commands/contrib/{$name}": [
+        "type:drupal-drush"
+      ],
+      "extensions/CirrusSearch": [
+        "mediawiki/cirrussearch"
+      ],
+      "extensions/SmiteSpam": [
+        "mediawiki/smitespam"
+      ],
+      "extensions/Flow": [
+        "mediawiki/flow"
+      ],
+      "extensions/GoogleCustomWikiSearch": [
+        "mediawiki/googlecustomwikisearch"
+      ],
+      "extensions/Elastica": [
+        "mediawiki/elastica"
+      ]
+    },
     "patches": {
       "mediawiki/blockandnuke": {
         "Pas de merge": "patches/blockandnuke-3.diff",
@@ -160,14 +347,14 @@
         "Constante non-définie": "https://github.com/ProfessionalWiki/Maps/commit/d80245cb4f4519036f7aa1a4f933de401502920e.diff"
       },
       "mediawiki/page-forms": {
-        "Compatibilité avec mobilefrontend" : "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-PageForms/pull/10.diff"
+        "Compatibilité avec mobilefrontend": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-PageForms/pull/10.diff"
       },
       "mediawiki/semantic-media-wiki": {
         "Échappement des virgules dans les CSV": "patches/semantic-media-wiki-4976.diff"
       },
       "mediawiki/semantic-forms-select": {
         "Compatibilité select2": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/84.diff",
-        "Compatibilité avec mobilefrontend" : "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/94.diff",
+        "Compatibilité avec mobilefrontend": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/94.diff",
         "Événement change ajouté trop tôt": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/95.diff",
         "Requêtes AJAX asynchrones": "https://github.com/SemanticMediaWiki/SemanticFormsSelect/commit/1b43f273ba50304326f3aa91f114dab389916053.diff"
       },
