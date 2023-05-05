@@ -415,6 +415,7 @@ $wgPageImagesNamespaces[] = NS_NEWS;
 
 //Loops
 $egLoopsCounterLimit = 4000;
+$egLoopsCountLimit = 4000;
 
 //Permissions requises pour aw2mw
 $wgGroupPermissions['bot']['bot'] = true;
