@@ -2307,16 +2307,16 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.35.10",
+            "version": "1.35.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "75c8f0aa3abe70b22058fb2de7d41c3eac8b6aba"
+                "reference": "b8d14e9d292f1199b959b9ce26d99f72bf935406"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/75c8f0aa3abe70b22058fb2de7d41c3eac8b6aba",
-                "reference": "75c8f0aa3abe70b22058fb2de7d41c3eac8b6aba",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/b8d14e9d292f1199b959b9ce26d99f72bf935406",
+                "reference": "b8d14e9d292f1199b959b9ce26d99f72bf935406",
                 "shasum": ""
             },
             "require": {
@@ -2338,6 +2338,7 @@
                 "pear/net_smtp": "1.9.1",
                 "php": ">=7.3.19",
                 "psr/container": "1.0.0",
+                "psr/http-message": "1.0.1",
                 "psr/log": "1.1.3",
                 "ralouphie/getallheaders": "3.0.3",
                 "symfony/polyfill-php80": "1.25.0",
@@ -2453,11 +2454,11 @@
             "support": {
                 "irc": "irc://irc.libera.chat/mediawiki",
                 "issues": "https://bugs.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.35.10",
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.35.11",
                 "wiki": "https://www.mediawiki.org/"
             },
             "abandoned": true,
-            "time": "2023-03-30T23:34:54+00:00"
+            "time": "2023-06-30T15:35:20+00:00"
         },
         {
             "name": "mediawiki/dismissable-site-notice",
