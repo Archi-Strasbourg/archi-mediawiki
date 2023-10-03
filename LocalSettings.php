@@ -39,7 +39,7 @@ $wgAllowSlowParserFunctions = true;
 $wgPFEnableStringFunctions = true;
 $wgExternalLinkTarget = '_blank';
 $wgEmailConfirmToEdit = true;
-$wgPasswordAttemptThrottle = false;
+$wgPasswordAttemptThrottle = [];
 $wgCategoryCollation = 'numeric';
 $wgMaxArticleSize = 4096;
 
@@ -54,6 +54,7 @@ $wgGroupPermissions['user']['createpage'] = true;
 //Extensions
 wfLoadSkin('archi-wiki');
 wfLoadSkin('Vector');
+wfLoadExtension('SemanticMediaWiki');
 if (function_exists('enableSemantics')) {
     enableSemantics('localhost');
 }

@@ -19,15 +19,15 @@
     "archi-strasbourg/archi-news-tab": "dev-master",
     "archi-strasbourg/archi-wiki-skin": "dev-master",
     "archi-strasbourg/category-breadcrumb": "dev-master",
-    "archi-strasbourg/email-login": "~1.0.0",
+    "archi-strasbourg/email-login": "dev-master",
     "archi-strasbourg/emailuser-html": "dev-master",
-    "archi-strasbourg/language-code": "~1.0.0",
-    "archi-strasbourg/link-to-archive": "~1.0.0",
+    "archi-strasbourg/language-code": "dev-master",
+    "archi-strasbourg/link-to-archive": "dev-master",
     "archi-strasbourg/sections-count": "dev-master as 1.0.x-dev",
     "cweagans/composer-patches": "^1.6",
     "mediawiki/arrays": "dev-REL1_35",
     "mediawiki/block-and-nuke": "dev-REL1_35",
-    "mediawiki/cirrussearch": "dev-REL1_35",
+    "mediawiki/cirrussearch": "dev-REL1_39",
     "mediawiki/cite": "dev-master#bc16b05",
     "mediawiki/clean-changes": "dev-REL1_35",
     "mediawiki/code-mirror": "dev-REL1_35",
@@ -36,7 +36,7 @@
     "mediawiki/confirm-edit": "dev-master#eceeda6",
     "mediawiki/contact-page": "dev-REL1_35",
     "mediawiki/contribution-scores": "dev-REL1_35",
-    "mediawiki/core": "~1.35.0",
+    "mediawiki/core": "~1.39.0",
     "mediawiki/dismissable-site-notice": "dev-REL1_35",
     "mediawiki/echo": "dev-REL1_35",
     "mediawiki/elastica": "dev-REL1_35",
@@ -46,7 +46,7 @@
     "mediawiki/googlecustomwikisearch": "dev-REL1_35",
     "mediawiki/lookup-user": "dev-REL1_35",
     "mediawiki/loops": "dev-REL1_35",
-    "mediawiki/maps": "^8.0",
+    "mediawiki/maps": "^10.0",
     "mediawiki/meta-description-tag": "^0.4.0",
     "mediawiki/mixed-namespace-search-suggestions": "dev-REL1_35",
     "mediawiki/mobile-frontend": "dev-REL1_27#1421405",
@@ -57,9 +57,9 @@
     "mediawiki/page-images": "dev-REL1_35",
     "mediawiki/parser-functions": "dev-master",
     "mediawiki/replace-text": "dev-REL1_35",
-    "mediawiki/semantic-forms-select": "^3.0",
-    "mediawiki/semantic-media-wiki": "^3.2",
-    "mediawiki/semantic-result-formats": "^3.2",
+    "mediawiki/semantic-forms-select": "^4.0@beta",
+    "mediawiki/semantic-media-wiki": "^4.0",
+    "mediawiki/semantic-result-formats": "^4.0",
     "mediawiki/smitespam": "dev-REL1_35",
     "mediawiki/template-data": "dev-REL1_35",
     "mediawiki/text-extracts": "dev-REL1_35",
@@ -70,7 +70,7 @@
     "mediawiki/user-merge": "dev-REL1_35",
     "mediawiki/variables": "dev-REL1_35",
     "mediawiki/vector-skin": "dev-master#37d7761",
-    "mediawiki/visual-editor": "dev-REL1_35",
+    "mediawiki/visual-editor": "dev-master#1619506",
     "mediawiki/wiki-editor": "dev-master#e18315e",
     "mnsami/composer-custom-directory-installer": "^2.0",
     "ruflin/elastica": "^6.1",
@@ -340,24 +340,12 @@
       "mediawiki/flow": {
         "Compatibilité éditeur visuel": "patches/flow-T260648.diff"
       },
-      "mediawiki/maps": {
-        "Cache du geocoder dans la BDD": "https://patch-diff.githubusercontent.com/raw/ProfessionalWiki/Maps/pull/645.diff",
-        "Constante non-définie": "https://github.com/ProfessionalWiki/Maps/commit/d80245cb4f4519036f7aa1a4f933de401502920e.diff"
-      },
-      "mediawiki/page-forms": {
-        "Compatibilité avec mobilefrontend": "https://patch-diff.githubusercontent.com/raw/wikimedia/mediawiki-extensions-PageForms/pull/10.diff"
-      },
       "mediawiki/semantic-media-wiki": {
         "Échappement des virgules dans les CSV": "patches/semantic-media-wiki-4976.diff"
       },
       "mediawiki/semantic-forms-select": {
-        "Compatibilité select2": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/84.diff",
         "Compatibilité avec mobilefrontend": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/94.diff",
-        "Événement change ajouté trop tôt": "https://patch-diff.githubusercontent.com/raw/SemanticMediaWiki/SemanticFormsSelect/pull/95.diff",
-        "Requêtes AJAX asynchrones": "https://github.com/SemanticMediaWiki/SemanticFormsSelect/commit/1b43f273ba50304326f3aa91f114dab389916053.diff"
-      },
-      "mediawiki/semantic-result-formats": {
-        "Variable non-définie": "https://github.com/SemanticMediaWiki/SemanticResultFormats/commit/19f4c0cb927769eb919d464092434afb99763c53.diff"
+        "Requêtes AJAX asynchrones": "https://github.com/SemanticMediaWiki/SemanticFormsSelect/commit/5c87fcc877f3f0bf0e9e5180cbd100d67b85898e.diff"
       }
     }
   }
