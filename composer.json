@@ -25,56 +25,53 @@
     "archi-strasbourg/link-to-archive": "dev-master",
     "archi-strasbourg/sections-count": "dev-master as 1.0.x-dev",
     "cweagans/composer-patches": "^1.6",
-    "mediawiki/arrays": "dev-REL1_35",
-    "mediawiki/block-and-nuke": "dev-REL1_35",
+    "mediawiki/arrays": "dev-REL1_39",
     "mediawiki/cirrussearch": "dev-REL1_39",
-    "mediawiki/cite": "dev-master#bc16b05",
-    "mediawiki/clean-changes": "dev-REL1_35",
-    "mediawiki/code-mirror": "dev-REL1_35",
-    "mediawiki/comments": "dev-REL1_35 as 1.35",
-    "mediawiki/commons-metadata": "dev-REL1_35",
-    "mediawiki/confirm-edit": "dev-master#eceeda6",
-    "mediawiki/contact-page": "dev-REL1_35",
-    "mediawiki/contribution-scores": "dev-REL1_35",
+    "mediawiki/cite": "dev-master#989dcce3b74cf0c784e1a415adad3a5753de5a98",
+    "mediawiki/clean-changes": "dev-REL1_39",
+    "mediawiki/code-mirror": "dev-REL1_39",
+    "mediawiki/comments": "dev-REL1_39 as 1.39",
+    "mediawiki/commons-metadata": "dev-REL1_39",
+    "mediawiki/confirm-edit": "dev-master#b793c792470f0993970d2bbe191ca06eaa11fdfb",
+    "mediawiki/contact-page": "dev-REL1_39",
+    "mediawiki/contribution-scores": "dev-REL1_39",
     "mediawiki/core": "~1.39.0",
-    "mediawiki/dismissable-site-notice": "dev-REL1_35",
-    "mediawiki/echo": "dev-REL1_35",
-    "mediawiki/elastica": "dev-REL1_35",
-    "mediawiki/flow": "dev-REL1_35",
+    "mediawiki/dismissable-site-notice": "dev-REL1_39",
+    "mediawiki/echo": "dev-REL1_39",
+    "mediawiki/elastica": "dev-REL1_39",
+    "mediawiki/flow": "dev-REL1_39",
     "mediawiki/g-tag": "dev-master",
-    "mediawiki/geo-data": "dev-REL1_35",
-    "mediawiki/googlecustomwikisearch": "dev-REL1_35",
-    "mediawiki/lookup-user": "dev-REL1_35",
-    "mediawiki/loops": "dev-REL1_35",
+    "mediawiki/geo-data": "dev-REL1_39",
+    "mediawiki/googlecustomwikisearch": "dev-REL1_39",
+    "mediawiki/lookup-user": "dev-REL1_39",
+    "mediawiki/loops": "dev-REL1_39",
     "mediawiki/maps": "^10.0",
     "mediawiki/meta-description-tag": "^0.4.0",
-    "mediawiki/mixed-namespace-search-suggestions": "dev-REL1_35",
-    "mediawiki/mobile-frontend": "dev-REL1_27#1421405",
-    "mediawiki/multimedia-viewer": "dev-REL1_35",
-    "mediawiki/newsletter": "dev-REL1_35",
-    "mediawiki/nuke": "dev-REL1_35",
+    "mediawiki/mixed-namespace-search-suggestions": "dev-REL1_39",
+    "mediawiki/mobile-frontend": "dev-REL1_27#c20e4d771dbca20a0e1bd9afa5182eaf0982e257",
+    "mediawiki/multimedia-viewer": "dev-REL1_39",
+    "mediawiki/newsletter": "dev-REL1_39",
+    "mediawiki/nuke": "dev-REL1_35#af4701d0104ccca93148f31743c35a547897363f",
     "mediawiki/page-forms": "^5.2",
-    "mediawiki/page-images": "dev-REL1_35",
+    "mediawiki/page-images": "dev-REL1_35#40a7af3007deaf755ee86a5325aaabdec3a13d22",
     "mediawiki/parser-functions": "dev-master",
-    "mediawiki/replace-text": "dev-REL1_35",
+    "mediawiki/replace-text": "dev-REL1_35#d898d05389c741949b9cb69a84104b2f8160d257",
     "mediawiki/semantic-forms-select": "^4.0@beta",
     "mediawiki/semantic-media-wiki": "^4.0",
     "mediawiki/semantic-result-formats": "^4.0",
-    "mediawiki/smitespam": "dev-REL1_35",
-    "mediawiki/template-data": "dev-REL1_35",
-    "mediawiki/text-extracts": "dev-REL1_35",
-    "mediawiki/thanks": "dev-REL1_35",
-    "mediawiki/translate": "^2021.04",
+    "mediawiki/smitespam": "dev-REL1_39",
+    "mediawiki/template-data": "dev-REL1_35#4d7fef94c3f6f3000e73b99e85c2c82674bbda65",
+    "mediawiki/text-extracts": "dev-REL1_35#b8980bf05a9f1431c7fdc2defd9a8ccc00c1bde0",
+    "mediawiki/thanks": "dev-REL1_39",
+    "mediawiki/translate": "^2023.07",
     "mediawiki/universal-language-selector": "^2021.04",
-    "mediawiki/upload-wizard": "dev-REL1_35",
-    "mediawiki/user-merge": "dev-REL1_35",
-    "mediawiki/variables": "dev-REL1_35",
-    "mediawiki/vector-skin": "dev-master#37d7761",
+    "mediawiki/upload-wizard": "dev-REL1_35#3274a143dee853fee613ed1bfeb16757c81e08eb",
+    "mediawiki/user-merge": "dev-REL1_39",
+    "mediawiki/variables": "dev-REL1_39",
+    "mediawiki/vector-skin": "dev-master#b332cb0dbbd5b9f3f58b677beb4d890c58736a9a",
     "mediawiki/visual-editor": "dev-master#1619506",
-    "mediawiki/wiki-editor": "dev-master#e18315e",
-    "mnsami/composer-custom-directory-installer": "^2.0",
-    "ruflin/elastica": "^6.1",
-    "shakeepers/hide-namespace": "~1.4.3"
+    "mediawiki/wiki-editor": "dev-master#9372bc3c08dea4cdf497b47c7e6261df3d695d81",
+    "mnsami/composer-custom-directory-installer": "^2.0"
   },
   "require-dev": {
     "insite/composer-dangling-locked-deps": "^0.2.1"
@@ -116,12 +113,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/comments",
-        "version": "dev-REL1_35",
+        "version": "dev-REL1_39",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-Comments.git",
           "type": "git",
-          "reference": "a9880be2f5ea0215baef7f33bdb9085d804f1f03"
+          "reference": "6ecba59f61345aa9d6a3fb30c8e4152ae190f044"
         }
       }
     },
@@ -129,12 +126,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/thanks",
-        "version": "dev-REL1_35",
+        "version": "dev-REL1_39",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-Thanks.git",
           "type": "git",
-          "reference": "8d58925"
+          "reference": "42c8e3d84bd80814b6584396090644c6272a56f4"
         }
       }
     },
@@ -146,12 +143,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/newsletter",
-        "version": "dev-REL1_35",
+        "version": "dev-REL1_39",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-Newsletter.git",
           "type": "git",
-          "reference": "0aa33948316f931dfa74ddce6b56904c691ebb47"
+          "reference": "2828ceeacd18b01137363af7494973f66db2893d"
         }
       }
     },
@@ -159,25 +156,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/lookup-user",
-        "version": "dev-REL1_35",
+        "version": "dev-REL1_39",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-LookupUser.git",
           "type": "git",
-          "reference": "6c5c1d7c0cdd9eb054e10937d06bf86c065b8820"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "mediawiki/google-custom-wiki-search",
-        "version": "dev-REL1_35",
-        "type": "mediawiki-extension",
-        "source": {
-          "url": "https://github.com/wikimedia/mediawiki-extensions-GoogleCustomWikiSearch.git",
-          "type": "git",
-          "reference": "4ff4cf030b1ad2f5c92caa8f0f4e5a702213a74b"
+          "reference": "c1a0791533d5aed165233ef7af612be6f9d6c985"
         }
       }
     },
@@ -185,12 +169,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/geo-data",
-        "version": "dev-REL1_35",
+        "version": "dev-REL1_39",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-GeoData.git",
           "type": "git",
-          "reference": "34ca364355f1142ad2eefe5fb15169870d92a892"
+          "reference": "2d865544d61601336282323096019fd9901d4828"
         }
       }
     },
@@ -210,12 +194,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/dismissable-site-notice",
-        "version": "dev-REL1_35",
+        "version": "dev-REL1_39",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-DismissableSiteNotice.git",
           "type": "git",
-          "reference": "7efd96482315ca9a546316604688d24c9de25cac"
+          "reference": "85cf6243e193f6726f98db35b772a227b0b042bb"
         }
       }
     },
@@ -223,12 +207,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/contribution-scores",
-        "version": "dev-REL1_35",
+        "version": "dev-REL1_39",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-ContributionScores.git",
           "type": "git",
-          "reference": "a35de703c04e92edb8c2115c297affa3e832b641"
+          "reference": "0c08d338a1150c76e74ae490cd4d5f5b9f6daa5f"
         }
       }
     },
@@ -236,12 +220,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/contact-page",
-        "version": "dev-REL1_35",
+        "version": "dev-REL1_39",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-ContactPage.git",
           "type": "git",
-          "reference": "edef59661956afac6d655ee0c8db59d253587768"
+          "reference": "ace069678fdfbc3f9a5150421d62afa9d504462a"
         }
       }
     },
@@ -249,31 +233,18 @@
       "type": "package",
       "package": {
         "name": "mediawiki/commons-metadata",
-        "version": "dev-REL1_35",
+        "version": "dev-REL1_39",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-CommonsMetadata.git",
           "type": "git",
-          "reference": "d370fd071d6cf98f50c0a892f36c2d7611fb7fea"
+          "reference": "0f38f47cb8aa23046764b2fa83be78904abcd67c"
         }
       }
     },
     {
       "type": "vcs",
       "url": "https://github.com/wikimedia/mediawiki-extensions-CleanChanges.git"
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "mediawiki/block-and-nuke",
-        "version": "dev-REL1_35",
-        "type": "mediawiki-extension",
-        "source": {
-          "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/BlockAndNuke.git",
-          "type": "git",
-          "reference": "c1dd5b1"
-        }
-      }
     }
   ],
   "scripts": {

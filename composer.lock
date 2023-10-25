@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "482bf26aed22d9351fdfd54f3f70f925",
+    "content-hash": "96564fc2578cc985ee3fff156f444ce3",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -79,12 +79,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer.git",
-                "reference": "ae4195d38c0d5c8be1434f4df498eb67aec3cf29"
+                "reference": "1da52361c8f788ae0183fb4d70eadbce04f333b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/ae4195d38c0d5c8be1434f4df498eb67aec3cf29",
-                "reference": "ae4195d38c0d5c8be1434f4df498eb67aec3cf29",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/1da52361c8f788ae0183fb4d70eadbce04f333b3",
+                "reference": "1da52361c8f788ae0183fb4d70eadbce04f333b3",
                 "shasum": ""
             },
             "require": {
@@ -104,7 +104,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer/tree/master"
             },
-            "time": "2022-01-21T10:44:05+00:00"
+            "time": "2023-10-25T14:39:33+00:00"
         },
         {
             "name": "archi-strasbourg/archi-home",
@@ -112,12 +112,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "a23cac313c5e53e62f53f8901de55d9fdd276bc6"
+                "reference": "e4c3959666282dcce1ef8778c22033a3cbe9f0b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/a23cac313c5e53e62f53f8901de55d9fdd276bc6",
-                "reference": "a23cac313c5e53e62f53f8901de55d9fdd276bc6",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/e4c3959666282dcce1ef8778c22033a3cbe9f0b4",
+                "reference": "e4c3959666282dcce1ef8778c22033a3cbe9f0b4",
                 "shasum": ""
             },
             "require": {
@@ -137,7 +137,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-home/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-home/tree/master"
             },
-            "time": "2022-07-29T09:51:14+00:00"
+            "time": "2023-10-19T10:16:46+00:00"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -212,12 +212,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab.git",
-                "reference": "37199f2467bfaa68bb26532320abdec5b08ae13b"
+                "reference": "0e71e43225a15b3e08bdcf80b5f0790b6275b0e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/37199f2467bfaa68bb26532320abdec5b08ae13b",
-                "reference": "37199f2467bfaa68bb26532320abdec5b08ae13b",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/0e71e43225a15b3e08bdcf80b5f0790b6275b0e7",
+                "reference": "0e71e43225a15b3e08bdcf80b5f0790b6275b0e7",
                 "shasum": ""
             },
             "require": {
@@ -243,7 +243,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab/tree/master"
             },
-            "time": "2022-01-20T11:10:03+00:00"
+            "time": "2023-10-25T14:26:23+00:00"
         },
         {
             "name": "archi-strasbourg/archi-wiki-skin",
@@ -251,12 +251,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "295a408fe61a391a23e9b424621f405b1c829c30"
+                "reference": "ba2ca03ce3fec7407d159d564fb2907fa54b22bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/295a408fe61a391a23e9b424621f405b1c829c30",
-                "reference": "295a408fe61a391a23e9b424621f405b1c829c30",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/ba2ca03ce3fec7407d159d564fb2907fa54b22bb",
+                "reference": "ba2ca03ce3fec7407d159d564fb2907fa54b22bb",
                 "shasum": ""
             },
             "require-dev": {
@@ -285,7 +285,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/issues",
                 "source": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/tree/master"
             },
-            "time": "2023-04-04T08:37:44+00:00"
+            "time": "2023-10-25T15:46:44+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -293,12 +293,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-category-breadcrumb.git",
-                "reference": "c3f3945b6bbf619f57458516683986b46a073533"
+                "reference": "a2ac1aab2c032ea098467bd74d0d767530e2c3fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/c3f3945b6bbf619f57458516683986b46a073533",
-                "reference": "c3f3945b6bbf619f57458516683986b46a073533",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-category-breadcrumb/zipball/a2ac1aab2c032ea098467bd74d0d767530e2c3fb",
+                "reference": "a2ac1aab2c032ea098467bd74d0d767530e2c3fb",
                 "shasum": ""
             },
             "default-branch": true,
@@ -312,7 +312,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-category-breadcrumb/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-category-breadcrumb/tree/master"
             },
-            "time": "2022-01-20T11:41:43+00:00"
+            "time": "2023-10-25T15:46:04+00:00"
         },
         {
             "name": "archi-strasbourg/email-login",
@@ -320,12 +320,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-email-login.git",
-                "reference": "23ca85115cb51c012b7c5e53a3babc6b86e8fa4d"
+                "reference": "c947a7e71924e859329e31493a286f55d39856db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-email-login/zipball/23ca85115cb51c012b7c5e53a3babc6b86e8fa4d",
-                "reference": "23ca85115cb51c012b7c5e53a3babc6b86e8fa4d",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-email-login/zipball/c947a7e71924e859329e31493a286f55d39856db",
+                "reference": "c947a7e71924e859329e31493a286f55d39856db",
                 "shasum": ""
             },
             "require-dev": {
@@ -354,7 +354,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-email-login/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-email-login/tree/master"
             },
-            "time": "2023-10-03T10:22:27+00:00"
+            "time": "2023-10-25T14:44:50+00:00"
         },
         {
             "name": "archi-strasbourg/emailuser-html",
@@ -467,12 +467,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-sections-count.git",
-                "reference": "042a7200f423bcd204bbf4427bc7d87c63e52a4a"
+                "reference": "9584f57cd774c780c1e5838289b281ad292ac8a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-sections-count/zipball/042a7200f423bcd204bbf4427bc7d87c63e52a4a",
-                "reference": "042a7200f423bcd204bbf4427bc7d87c63e52a4a",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-sections-count/zipball/9584f57cd774c780c1e5838289b281ad292ac8a8",
+                "reference": "9584f57cd774c780c1e5838289b281ad292ac8a8",
                 "shasum": ""
             },
             "require-dev": {
@@ -500,7 +500,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-sections-count/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-sections-count/tree/master"
             },
-            "time": "2023-10-03T10:11:41+00:00"
+            "time": "2023-10-19T10:15:50+00:00"
         },
         {
             "name": "composer/installers",
@@ -1177,33 +1177,35 @@
         },
         {
             "name": "elasticsearch/elasticsearch",
-            "version": "v6.8.2",
+            "version": "v7.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elastic/elasticsearch-php.git",
-                "reference": "619c78266999c6e431df9ca0f844e8f656ac145b"
+                "reference": "277cd5e182827c59c23e146a836a30470c0f879d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/619c78266999c6e431df9ca0f844e8f656ac145b",
-                "reference": "619c78266999c6e431df9ca0f844e8f656ac145b",
+                "url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/277cd5e182827c59c23e146a836a30470c0f879d",
+                "reference": "277cd5e182827c59c23e146a836a30470c0f879d",
                 "shasum": ""
             },
             "require": {
                 "ext-json": ">=1.3.7",
                 "ezimuel/ringphp": "^1.1.2",
-                "php": "^7.3 || ^8.0",
+                "php": "^7.1 || ^8.0",
                 "psr/log": "~1.0"
             },
             "require-dev": {
+                "cpliakas/git-wrapper": "~2.0 || ~3.0",
                 "doctrine/inflector": "^1.3",
+                "ext-yaml": "*",
+                "ext-zip": "*",
                 "mockery/mockery": "^1.2",
                 "phpstan/phpstan": "^0.12",
-                "phpunit/phpunit": "^9.3",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.3",
                 "squizlabs/php_codesniffer": "^3.4",
                 "symfony/finder": "~4.0",
-                "symfony/yaml": "~4.0",
-                "symplify/git-wrapper": ">=9.0 <9.3.27"
+                "symfony/yaml": "~4.0"
             },
             "suggest": {
                 "ext-curl": "*",
@@ -1238,9 +1240,9 @@
             ],
             "support": {
                 "issues": "https://github.com/elastic/elasticsearch-php/issues",
-                "source": "https://github.com/elastic/elasticsearch-php/tree/v6.8.2"
+                "source": "https://github.com/elastic/elasticsearch-php/tree/v7.11.0"
             },
-            "time": "2021-07-14T14:41:55+00:00"
+            "time": "2021-02-11T11:04:51+00:00"
         },
         {
             "name": "ezimuel/guzzlestreams",
@@ -2138,24 +2140,14 @@
         },
         {
             "name": "mediawiki/arrays",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Arrays",
-                "reference": "REL1_35"
+                "reference": "REL1_39"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
-            },
-            "type": "mediawiki-extension"
-        },
-        {
-            "name": "mediawiki/block-and-nuke",
-            "version": "dev-REL1_35",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/BlockAndNuke.git",
-                "reference": "c1dd5b1"
             },
             "type": "mediawiki-extension"
         },
@@ -2202,7 +2194,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Cite",
-                "reference": "bc16b05"
+                "reference": "989dcce3b74cf0c784e1a415adad3a5753de5a98"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -2211,16 +2203,16 @@
         },
         {
             "name": "mediawiki/clean-changes",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-CleanChanges.git",
-                "reference": "0ab3358f62c1c928390f700a018e509a2ec95a7d"
+                "reference": "05998e7594308555399483f3150855785e8330da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-CleanChanges/zipball/0ab3358f62c1c928390f700a018e509a2ec95a7d",
-                "reference": "0ab3358f62c1c928390f700a018e509a2ec95a7d",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-CleanChanges/zipball/05998e7594308555399483f3150855785e8330da",
+                "reference": "05998e7594308555399483f3150855785e8330da",
                 "shasum": ""
             },
             "require": {
@@ -2228,11 +2220,11 @@
                 "php": ">=7.1"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "38.0.0",
-                "mediawiki/mediawiki-phan-config": "0.10.2",
-                "mediawiki/minus-x": "1.1.0",
-                "php-parallel-lint/php-console-highlighter": "0.5.0",
-                "php-parallel-lint/php-parallel-lint": "1.2.0"
+                "mediawiki/mediawiki-codesniffer": "39.0.0",
+                "mediawiki/mediawiki-phan-config": "0.11.1",
+                "mediawiki/minus-x": "1.1.1",
+                "php-parallel-lint/php-console-highlighter": "1.0.0",
+                "php-parallel-lint/php-parallel-lint": "1.3.2"
             },
             "type": "mediawiki-extension",
             "scripts": {
@@ -2258,17 +2250,17 @@
             "description": "More compact display of recent changes lists",
             "homepage": "https://www.mediawiki.org/wiki/Extension:CleanChanges",
             "support": {
-                "source": "https://github.com/wikimedia/mediawiki-extensions-CleanChanges/tree/REL1_35"
+                "source": "https://github.com/wikimedia/mediawiki-extensions-CleanChanges/tree/REL1_39"
             },
-            "time": "2023-03-27T05:54:52+00:00"
+            "time": "2023-10-10T06:01:43+00:00"
         },
         {
             "name": "mediawiki/code-mirror",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/CodeMirror.git",
-                "reference": "REL1_35"
+                "reference": "REL1_39"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -2277,21 +2269,21 @@
         },
         {
             "name": "mediawiki/comments",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-Comments.git",
-                "reference": "a9880be2f5ea0215baef7f33bdb9085d804f1f03"
+                "reference": "6ecba59f61345aa9d6a3fb30c8e4152ae190f044"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/commons-metadata",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-CommonsMetadata.git",
-                "reference": "d370fd071d6cf98f50c0a892f36c2d7611fb7fea"
+                "reference": "0f38f47cb8aa23046764b2fa83be78904abcd67c"
             },
             "type": "mediawiki-extension"
         },
@@ -2301,7 +2293,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ConfirmEdit",
-                "reference": "eceeda6"
+                "reference": "b793c792470f0993970d2bbe191ca06eaa11fdfb"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -2310,21 +2302,21 @@
         },
         {
             "name": "mediawiki/contact-page",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-ContactPage.git",
-                "reference": "edef59661956afac6d655ee0c8db59d253587768"
+                "reference": "ace069678fdfbc3f9a5150421d62afa9d504462a"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/contribution-scores",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-ContributionScores.git",
-                "reference": "a35de703c04e92edb8c2115c297affa3e832b641"
+                "reference": "0c08d338a1150c76e74ae490cd4d5f5b9f6daa5f"
             },
             "type": "mediawiki-extension"
         },
@@ -2486,21 +2478,21 @@
         },
         {
             "name": "mediawiki/dismissable-site-notice",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-DismissableSiteNotice.git",
-                "reference": "7efd96482315ca9a546316604688d24c9de25cac"
+                "reference": "85cf6243e193f6726f98db35b772a227b0b042bb"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/echo",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Echo",
-                "reference": "REL1_35"
+                "reference": "REL1_39"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -2509,29 +2501,29 @@
         },
         {
             "name": "mediawiki/elastica",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-Elastica.git",
-                "reference": "cc89048f5e5fedf354461b38786319ba3db63811"
+                "reference": "22172e91fac46e0efa8f8377edb498999456b7c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-Elastica/zipball/cc89048f5e5fedf354461b38786319ba3db63811",
-                "reference": "cc89048f5e5fedf354461b38786319ba3db63811",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-Elastica/zipball/22172e91fac46e0efa8f8377edb498999456b7c4",
+                "reference": "22172e91fac46e0efa8f8377edb498999456b7c4",
                 "shasum": ""
             },
             "require": {
-                "elasticsearch/elasticsearch": "~6.5.1||~6.7.2||~6.8.2",
+                "elasticsearch/elasticsearch": "7.11.0",
                 "ext-curl": "*",
-                "ruflin/elastica": "6.2.0"
+                "ruflin/elastica": "7.1.5"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "38.0.0",
-                "mediawiki/mediawiki-phan-config": "0.10.2",
-                "mediawiki/minus-x": "1.1.0",
-                "php-parallel-lint/php-console-highlighter": "0.5.0",
-                "php-parallel-lint/php-parallel-lint": "1.2.0"
+                "mediawiki/mediawiki-codesniffer": "39.0.0",
+                "mediawiki/mediawiki-phan-config": "0.11.1",
+                "mediawiki/minus-x": "1.1.1",
+                "php-parallel-lint/php-console-highlighter": "1.0.0",
+                "php-parallel-lint/php-parallel-lint": "1.3.2"
             },
             "type": "library",
             "scripts": {
@@ -2565,33 +2557,34 @@
             "description": "Provides the elastica library and a connection layer as a MediaWiki extension",
             "homepage": "https://www.mediawiki.org/wiki/Extension:Elastica",
             "support": {
-                "source": "https://github.com/wikimedia/mediawiki-extensions-Elastica/tree/REL1_35"
+                "source": "https://github.com/wikimedia/mediawiki-extensions-Elastica/tree/REL1_39"
             },
-            "time": "2022-10-31T06:35:47+00:00"
+            "time": "2023-09-19T06:11:36+00:00"
         },
         {
             "name": "mediawiki/flow",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-Flow.git",
-                "reference": "b5eaa0347b9e43666ea25790ace6fb344801eff4"
+                "reference": "0f465291c58a52c81da622f2bf44a0046723401e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-Flow/zipball/b5eaa0347b9e43666ea25790ace6fb344801eff4",
-                "reference": "b5eaa0347b9e43666ea25790ace6fb344801eff4",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-Flow/zipball/0f465291c58a52c81da622f2bf44a0046723401e",
+                "reference": "0f465291c58a52c81da622f2bf44a0046723401e",
                 "shasum": ""
             },
             "require": {
-                "pimple/pimple": "3.3.1"
+                "pimple/pimple": "3.5.0",
+                "psr/container": "1.*"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "38.0.0",
-                "mediawiki/mediawiki-phan-config": "0.10.2",
-                "mediawiki/minus-x": "1.1.0",
-                "php-parallel-lint/php-console-highlighter": "0.5.0",
-                "php-parallel-lint/php-parallel-lint": "1.2.0",
+                "mediawiki/mediawiki-codesniffer": "39.0.0",
+                "mediawiki/mediawiki-phan-config": "0.11.1",
+                "mediawiki/minus-x": "1.1.1",
+                "php-parallel-lint/php-console-highlighter": "1.0.0",
+                "php-parallel-lint/php-parallel-lint": "1.3.2",
                 "symfony/css-selector": "~2.5",
                 "symfony/dom-crawler": "~2.5"
             },
@@ -2618,9 +2611,9 @@
             ],
             "description": "Discussion and collaboration system extension for MediaWiki",
             "support": {
-                "source": "https://github.com/wikimedia/mediawiki-extensions-Flow/tree/REL1_35"
+                "source": "https://github.com/wikimedia/mediawiki-extensions-Flow/tree/REL1_39"
             },
-            "time": "2023-04-24T06:13:15+00:00"
+            "time": "2023-10-17T06:36:46+00:00"
         },
         {
             "name": "mediawiki/g-tag",
@@ -2634,48 +2627,54 @@
         },
         {
             "name": "mediawiki/geo-data",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-GeoData.git",
-                "reference": "34ca364355f1142ad2eefe5fb15169870d92a892"
+                "reference": "2d865544d61601336282323096019fd9901d4828"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/googlecustomwikisearch",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-GoogleCustomWikiSearch.git",
-                "reference": "4ff4cf030b1ad2f5c92caa8f0f4e5a702213a74b"
+                "reference": "101da9e99f42d55f2f92a9e1b24e2bda9cd8f960"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-GoogleCustomWikiSearch/zipball/4ff4cf030b1ad2f5c92caa8f0f4e5a702213a74b",
-                "reference": "4ff4cf030b1ad2f5c92caa8f0f4e5a702213a74b",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-GoogleCustomWikiSearch/zipball/101da9e99f42d55f2f92a9e1b24e2bda9cd8f960",
+                "reference": "101da9e99f42d55f2f92a9e1b24e2bda9cd8f960",
                 "shasum": ""
             },
             "require-dev": {
-                "mediawiki/minus-x": "1.1.0",
+                "mediawiki/mediawiki-codesniffer": "38.0.0",
+                "mediawiki/minus-x": "1.1.1",
                 "php-parallel-lint/php-console-highlighter": "0.5.0",
-                "php-parallel-lint/php-parallel-lint": "1.2.0"
+                "php-parallel-lint/php-parallel-lint": "1.3.1"
             },
             "type": "library",
             "scripts": {
                 "test": [
                     "parallel-lint . --exclude vendor --exclude node_modules",
-                    "minus-x check ."
+                    "minus-x check .",
+                    "@phpcs"
                 ],
                 "fix": [
-                    "minus-x fix ."
+                    "minus-x fix .",
+                    "phpcbf"
+                ],
+                "phpcs": [
+                    "phpcs -sp --cache"
                 ]
             },
             "description": "Allow MediaWiki integration with Google Custom Search",
             "support": {
-                "source": "https://github.com/wikimedia/mediawiki-extensions-GoogleCustomWikiSearch/tree/REL1_35"
+                "source": "https://github.com/wikimedia/mediawiki-extensions-GoogleCustomWikiSearch/tree/REL1_39"
             },
-            "time": "2023-02-27T06:42:00+00:00"
+            "time": "2023-08-01T05:47:22+00:00"
         },
         {
             "name": "mediawiki/http-request",
@@ -2733,21 +2732,21 @@
         },
         {
             "name": "mediawiki/lookup-user",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-LookupUser.git",
-                "reference": "6c5c1d7c0cdd9eb054e10937d06bf86c065b8820"
+                "reference": "c1a0791533d5aed165233ef7af612be6f9d6c985"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/loops",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Loops.git",
-                "reference": "REL1_35"
+                "reference": "REL1_39"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -2860,16 +2859,16 @@
         },
         {
             "name": "mediawiki/mixed-namespace-search-suggestions",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-MixedNamespaceSearchSuggestions.git",
-                "reference": "28dfd7c3eb480fd3a661e78ca0f2607216bde5e6"
+                "reference": "675a371dfd2b954525c54b55c000439e2aa6eefe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-MixedNamespaceSearchSuggestions/zipball/28dfd7c3eb480fd3a661e78ca0f2607216bde5e6",
-                "reference": "28dfd7c3eb480fd3a661e78ca0f2607216bde5e6",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-MixedNamespaceSearchSuggestions/zipball/675a371dfd2b954525c54b55c000439e2aa6eefe",
+                "reference": "675a371dfd2b954525c54b55c000439e2aa6eefe",
                 "shasum": ""
             },
             "require": {
@@ -2877,10 +2876,10 @@
                 "php": ">=5.5.9"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "38.0.0",
-                "mediawiki/minus-x": "1.1.0",
-                "php-parallel-lint/php-console-highlighter": "0.5.0",
-                "php-parallel-lint/php-parallel-lint": "1.2.0"
+                "mediawiki/mediawiki-codesniffer": "39.0.0",
+                "mediawiki/minus-x": "1.1.1",
+                "php-parallel-lint/php-console-highlighter": "1.0.0",
+                "php-parallel-lint/php-parallel-lint": "1.3.2"
             },
             "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
@@ -2897,10 +2896,10 @@
             "description": "Includes suggestions from all content namespaces in the search box, showing from which namespace each suggestion is from.",
             "homepage": "https://www.mediawiki.org/wiki/Extension:MixedNamespaceSearchSuggestions",
             "support": {
-                "source": "https://github.com/wikimedia/mediawiki-extensions-MixedNamespaceSearchSuggestions/tree/REL1_35"
+                "source": "https://github.com/wikimedia/mediawiki-extensions-MixedNamespaceSearchSuggestions/tree/REL1_39"
             },
             "abandoned": true,
-            "time": "2023-01-21T12:19:31+00:00"
+            "time": "2023-01-21T13:28:21+00:00"
         },
         {
             "name": "mediawiki/mobile-frontend",
@@ -2908,7 +2907,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileFrontend",
-                "reference": "1421405"
+                "reference": "c20e4d771dbca20a0e1bd9afa5182eaf0982e257"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -2917,11 +2916,11 @@
         },
         {
             "name": "mediawiki/multimedia-viewer",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/MultimediaViewer",
-                "reference": "REL1_35"
+                "reference": "REL1_39"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -2930,11 +2929,11 @@
         },
         {
             "name": "mediawiki/newsletter",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-Newsletter.git",
-                "reference": "0aa33948316f931dfa74ddce6b56904c691ebb47"
+                "reference": "2828ceeacd18b01137363af7494973f66db2893d"
             },
             "type": "mediawiki-extension"
         },
@@ -2944,7 +2943,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Nuke",
-                "reference": "REL1_35"
+                "reference": "af4701d0104ccca93148f31743c35a547897363f"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -3019,7 +3018,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/PageImages.git",
-                "reference": "REL1_35"
+                "reference": "40a7af3007deaf755ee86a5325aaabdec3a13d22"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -3104,7 +3103,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ReplaceText",
-                "reference": "REL1_35"
+                "reference": "d898d05389c741949b9cb69a84104b2f8160d257"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -3420,23 +3419,23 @@
         },
         {
             "name": "mediawiki/smitespam",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-SmiteSpam.git",
-                "reference": "79b2beb406eb4f4c69e3740502e7c18bb2a17bae"
+                "reference": "55bda9b7aa732173d049f6ef654bfdfcde5ee855"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-SmiteSpam/zipball/79b2beb406eb4f4c69e3740502e7c18bb2a17bae",
-                "reference": "79b2beb406eb4f4c69e3740502e7c18bb2a17bae",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-SmiteSpam/zipball/55bda9b7aa732173d049f6ef654bfdfcde5ee855",
+                "reference": "55bda9b7aa732173d049f6ef654bfdfcde5ee855",
                 "shasum": ""
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "38.0.0",
-                "mediawiki/minus-x": "1.1.0",
-                "php-parallel-lint/php-console-highlighter": "0.5.0",
-                "php-parallel-lint/php-parallel-lint": "1.2.0"
+                "mediawiki/mediawiki-codesniffer": "39.0.0",
+                "mediawiki/minus-x": "1.1.1",
+                "php-parallel-lint/php-console-highlighter": "1.0.0",
+                "php-parallel-lint/php-parallel-lint": "1.3.2"
             },
             "type": "mediawiki-extension",
             "scripts": {
@@ -3462,9 +3461,9 @@
                 "smitespam"
             ],
             "support": {
-                "source": "https://github.com/wikimedia/mediawiki-extensions-SmiteSpam/tree/REL1_35"
+                "source": "https://github.com/wikimedia/mediawiki-extensions-SmiteSpam/tree/REL1_39"
             },
-            "time": "2023-03-13T07:04:47+00:00"
+            "time": "2023-10-17T06:38:01+00:00"
         },
         {
             "name": "mediawiki/template-data",
@@ -3472,7 +3471,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateData.git",
-                "reference": "REL1_35"
+                "reference": "4d7fef94c3f6f3000e73b99e85c2c82674bbda65"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -3485,7 +3484,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/TextExtracts.git",
-                "reference": "REL1_35"
+                "reference": "b8980bf05a9f1431c7fdc2defd9a8ccc00c1bde0"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -3494,40 +3493,40 @@
         },
         {
             "name": "mediawiki/thanks",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-Thanks.git",
-                "reference": "8d58925"
+                "reference": "42c8e3d84bd80814b6584396090644c6272a56f4"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/translate",
-            "version": "2021.04",
+            "version": "2023.07",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-Translate.git",
-                "reference": "e22fe2bf5df2d0b1a6fcd15a820ae10e2aaa3353"
+                "reference": "43b95482e3b0e3ab479481d959a57eaedb1af688"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-Translate/zipball/e22fe2bf5df2d0b1a6fcd15a820ae10e2aaa3353",
-                "reference": "e22fe2bf5df2d0b1a6fcd15a820ae10e2aaa3353",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-Translate/zipball/43b95482e3b0e3ab479481d959a57eaedb1af688",
+                "reference": "43b95482e3b0e3ab479481d959a57eaedb1af688",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": ">=1.0.1",
                 "mustangostang/spyc": "^0.6.3",
-                "php": ">=7.2"
+                "php": ">=7.4"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "35.0.0",
-                "mediawiki/mediawiki-phan-config": "0.10.6",
-                "mediawiki/minus-x": "1.1.0",
-                "php-parallel-lint/php-console-highlighter": "0.5.0",
-                "php-parallel-lint/php-parallel-lint": "1.2.0",
-                "slevomat/coding-standard": "^6.4"
+                "mediawiki/mediawiki-codesniffer": "41.0.0",
+                "mediawiki/mediawiki-phan-config": "0.12.1",
+                "mediawiki/minus-x": "1.1.1",
+                "php-parallel-lint/php-console-highlighter": "1.0.0",
+                "php-parallel-lint/php-parallel-lint": "1.3.2",
+                "slevomat/coding-standard": "^8.8"
             },
             "suggest": {
                 "mediawiki/babel": "Users can easily indicate their language proficiency on their user page",
@@ -3580,26 +3579,27 @@
                 "translation"
             ],
             "support": {
+                "docs": "https://www.mediawiki.org/wiki/Help:Extension:Translate",
                 "forum": "https://www.mediawiki.org/wiki/Extension_talk:Translate",
-                "irc": "irc://irc.freenode.net/mediawiki-i18n",
+                "irc": "irc://irc.libera.chat/wikimedia-language",
                 "issues": "https://phabricator.wikimedia.org/tag/mediawiki-extensions-translate/",
-                "source": "https://github.com/wikimedia/mediawiki-extensions-Translate/tree/2021.04",
+                "source": "https://github.com/wikimedia/mediawiki-extensions-Translate/tree/2023.07",
                 "wiki": "https://www.mediawiki.org/wiki/Extension:Translate"
             },
-            "time": "2021-04-29T11:49:59+00:00"
+            "time": "2023-07-13T06:17:21+00:00"
         },
         {
             "name": "mediawiki/universal-language-selector",
-            "version": "2021.04",
+            "version": "2021.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-UniversalLanguageSelector.git",
-                "reference": "190d6cd1cce5836c1335f49d12ad72560eef0e48"
+                "reference": "86cf8fa1511fd5e0447a50d4e8f9d084774409ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-UniversalLanguageSelector/zipball/190d6cd1cce5836c1335f49d12ad72560eef0e48",
-                "reference": "190d6cd1cce5836c1335f49d12ad72560eef0e48",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-UniversalLanguageSelector/zipball/86cf8fa1511fd5e0447a50d4e8f9d084774409ce",
+                "reference": "86cf8fa1511fd5e0447a50d4e8f9d084774409ce",
                 "shasum": ""
             },
             "require": {
@@ -3607,11 +3607,11 @@
                 "php": ">=7.1"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "35.0.0",
-                "mediawiki/mediawiki-phan-config": "0.10.6",
+                "mediawiki/mediawiki-codesniffer": "38.0.0",
+                "mediawiki/mediawiki-phan-config": "0.11.0",
                 "mediawiki/minus-x": "1.1.1",
                 "php-parallel-lint/php-console-highlighter": "0.5.0",
-                "php-parallel-lint/php-parallel-lint": "1.2.0"
+                "php-parallel-lint/php-parallel-lint": "1.3.1"
             },
             "suggest": {
                 "mediawiki/cldr": "Language names in all languages"
@@ -3631,11 +3631,10 @@
                 "mediawiki"
             ],
             "support": {
-                "irc": "irc://irc.freenode.net/mediawiki-i18n",
                 "issues": "https://phabricator.wikimedia.org/tag/mediawiki-extensions-universallanguageselector/",
-                "source": "https://github.com/wikimedia/mediawiki-extensions-UniversalLanguageSelector/tree/2021.04"
+                "source": "https://github.com/wikimedia/mediawiki-extensions-UniversalLanguageSelector/tree/2021.12"
             },
-            "time": "2021-04-29T11:49:59+00:00"
+            "time": "2021-12-03T11:19:58+00:00"
         },
         {
             "name": "mediawiki/upload-wizard",
@@ -3643,7 +3642,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/UploadWizard",
-                "reference": "REL1_35"
+                "reference": "3274a143dee853fee613ed1bfeb16757c81e08eb"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -3652,11 +3651,11 @@
         },
         {
             "name": "mediawiki/user-merge",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/UserMerge",
-                "reference": "REL1_35"
+                "reference": "REL1_39"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -3741,22 +3740,22 @@
         },
         {
             "name": "mediawiki/variables",
-            "version": "dev-REL1_35",
+            "version": "dev-REL1_39",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Variables",
-                "reference": "8356f4072971d242e1d3484071a7f6fd00ca1607"
+                "reference": "7153f4d49441f24d4159ae3a919f1a7a62ad0a40"
             },
             "require": {
                 "composer/installers": "~1.0",
                 "php": ">=5.5.9"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "38.0.0",
-                "mediawiki/mediawiki-phan-config": "0.10.2",
-                "mediawiki/minus-x": "1.1.0",
-                "php-parallel-lint/php-console-highlighter": "0.5.0",
-                "php-parallel-lint/php-parallel-lint": "1.2.0"
+                "mediawiki/mediawiki-codesniffer": "39.0.0",
+                "mediawiki/mediawiki-phan-config": "0.11.1",
+                "mediawiki/minus-x": "1.1.1",
+                "php-parallel-lint/php-console-highlighter": "1.0.0",
+                "php-parallel-lint/php-parallel-lint": "1.3.2"
             },
             "type": "mediawiki-extension",
             "scripts": {
@@ -3806,7 +3805,7 @@
                 "source": "https://phabricator.wikimedia.org/diffusion/EVAR/",
                 "irc": "irc://irc.freenode.org/mediawiki"
             },
-            "time": "2023-02-27T06:43:34+00:00"
+            "time": "2023-10-10T06:05:30+00:00"
         },
         {
             "name": "mediawiki/vector-skin",
@@ -3814,7 +3813,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-skins-Vector",
-                "reference": "37d7761"
+                "reference": "b332cb0dbbd5b9f3f58b677beb4d890c58736a9a"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -3843,7 +3842,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/WikiEditor.git",
-                "reference": "e18315e"
+                "reference": "9372bc3c08dea4cdf497b47c7e6261df3d695d81"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -4091,6 +4090,67 @@
                 "source": "https://github.com/nicmart/Tree/tree/master"
             },
             "time": "2015-08-20T20:50:35+00:00"
+        },
+        {
+            "name": "nyholm/dsn",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nyholm/dsn.git",
+                "reference": "9445621b426bac8c0ca161db8cd700da00a4e618"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nyholm/dsn/zipball/9445621b426bac8c0ca161db8cd700da00a4e618",
+                "reference": "9445621b426bac8c0ca161db8cd700da00a4e618",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^5.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nyholm\\Dsn\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com"
+                }
+            ],
+            "description": "Parse your DSN strings in a powerful and flexible way",
+            "homepage": "http://tnyholm.se",
+            "keywords": [
+                "database",
+                "dsn",
+                "dsn parser",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/Nyholm/dsn/issues",
+                "source": "https://github.com/Nyholm/dsn/tree/2.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-11-18T09:23:29+00:00"
         },
         {
             "name": "onoi/blob-store",
@@ -4983,29 +5043,29 @@
         },
         {
             "name": "pimple/pimple",
-            "version": "v3.3.1",
+            "version": "v3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silexphp/Pimple.git",
-                "reference": "21e45061c3429b1e06233475cc0e1f6fc774d5b0"
+                "reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/21e45061c3429b1e06233475cc0e1f6fc774d5b0",
-                "reference": "21e45061c3429b1e06233475cc0e1f6fc774d5b0",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
+                "reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
-                "psr/container": "^1.0"
+                "psr/container": "^1.1 || ^2.0"
             },
             "require-dev": {
-                "symfony/phpunit-bridge": "^5.0"
+                "symfony/phpunit-bridge": "^5.4@dev"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3.x-dev"
+                    "dev-master": "3.4.x-dev"
                 }
             },
             "autoload": {
@@ -5030,9 +5090,9 @@
                 "dependency injection"
             ],
             "support": {
-                "source": "https://github.com/silexphp/Pimple/tree/v3.3.1"
+                "source": "https://github.com/silexphp/Pimple/tree/v3.5.0"
             },
-            "time": "2020-11-24T20:35:42+00:00"
+            "time": "2021-10-28T11:13:42+00:00"
         },
         {
             "name": "pleonasm/bloom-filter",
@@ -5440,23 +5500,23 @@
         },
         {
             "name": "react/promise",
-            "version": "v2.9.0",
+            "version": "v2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise.git",
-                "reference": "234f8fd1023c9158e2314fa9d7d0e6a83db42910"
+                "reference": "f913fb8cceba1e6644b7b90c4bfb678ed8a3ef38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/promise/zipball/234f8fd1023c9158e2314fa9d7d0e6a83db42910",
-                "reference": "234f8fd1023c9158e2314fa9d7d0e6a83db42910",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/f913fb8cceba1e6644b7b90c4bfb678ed8a3ef38",
+                "reference": "f913fb8cceba1e6644b7b90c4bfb678ed8a3ef38",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.36"
+                "phpunit/phpunit": "^9.5 || ^5.7 || ^4.8.36"
             },
             "type": "library",
             "autoload": {
@@ -5500,64 +5560,60 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/promise/issues",
-                "source": "https://github.com/reactphp/promise/tree/v2.9.0"
+                "source": "https://github.com/reactphp/promise/tree/v2.10.0"
             },
             "funding": [
                 {
-                    "url": "https://github.com/WyriHaximus",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/clue",
-                    "type": "github"
+                    "url": "https://opencollective.com/reactphp",
+                    "type": "open_collective"
                 }
             ],
-            "time": "2022-02-11T10:27:51+00:00"
+            "time": "2023-05-02T15:15:43+00:00"
         },
         {
             "name": "ruflin/elastica",
-            "version": "6.2.0",
+            "version": "7.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ruflin/Elastica.git",
-                "reference": "6ef9cb6c01e0c167d31b424cb1f768ecc4ef9565"
+                "reference": "72a4598544e3f99b5dd8cacb05d009ee75c2a701"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ruflin/Elastica/zipball/6ef9cb6c01e0c167d31b424cb1f768ecc4ef9565",
-                "reference": "6ef9cb6c01e0c167d31b424cb1f768ecc4ef9565",
+                "url": "https://api.github.com/repos/ruflin/Elastica/zipball/72a4598544e3f99b5dd8cacb05d009ee75c2a701",
+                "reference": "72a4598544e3f99b5dd8cacb05d009ee75c2a701",
                 "shasum": ""
             },
             "require": {
-                "elasticsearch/elasticsearch": "^6.0",
+                "elasticsearch/elasticsearch": "^7.1.1",
                 "ext-json": "*",
-                "php": "^7.0||^8.0",
-                "psr/log": "~1.0"
-            },
-            "conflict": {
-                "elasticsearch/elasticsearch": "6.8.0 || 6.8.1"
+                "nyholm/dsn": "^2.0.0",
+                "php": "^7.2 || ^8.0",
+                "psr/log": "^1.0 || ^2.0 || ^3.0",
+                "symfony/deprecation-contracts": "^2.2 || ^3.0",
+                "symfony/polyfill-php73": "^1.19"
             },
             "require-dev": {
-                "aws/aws-sdk-php": "~3.0",
-                "guzzlehttp/guzzle": "~6.0",
-                "phpunit/phpunit": "^6.0||^8.5.20",
-                "yoast/phpunit-polyfills": "1.0.1"
+                "aws/aws-sdk-php": "^3.155",
+                "guzzlehttp/guzzle": "^6.3 || ^7.2",
+                "phpunit/phpunit": "^8.5.8 || ^9.4",
+                "symfony/phpunit-bridge": "^5.1.1"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Allow using IAM authentication with Amazon ElasticSearch Service",
-                "egeloen/http-adapter": "Allow using httpadapter transport",
-                "guzzlehttp/guzzle": "Allow using guzzle 6 as the http transport",
+                "egeloen/http-adapter": "Allow using httpadapter as transport",
+                "guzzlehttp/guzzle": "Allow using guzzle as transport",
                 "monolog/monolog": "Logging request"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.0.x-dev"
+                    "dev-master": "7.0.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Elastica\\": "lib/Elastica/"
+                    "Elastica\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -5578,9 +5634,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ruflin/Elastica/issues",
-                "source": "https://github.com/ruflin/Elastica/tree/6.2.0"
+                "source": "https://github.com/ruflin/Elastica/tree/7.1.5"
             },
-            "time": "2021-10-08T13:01:16+00:00"
+            "time": "2022-03-29T15:37:28+00:00"
         },
         {
             "name": "seld/jsonlint",
@@ -5706,33 +5762,6 @@
                 "source": "https://github.com/wmde/Serialization/tree/master"
             },
             "time": "2017-10-25T11:45:30+00:00"
-        },
-        {
-            "name": "shakeepers/hide-namespace",
-            "version": "1.4.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ShakePeers/mediawiki-HideNamespace.git",
-                "reference": "d4e808cf91a37c3c35ba58e636d9ab4c642e2767"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/mediawiki-HideNamespace/zipball/d4e808cf91a37c3c35ba58e636d9ab4c642e2767",
-                "reference": "d4e808cf91a37c3c35ba58e636d9ab4c642e2767",
-                "shasum": ""
-            },
-            "type": "mediawiki-extension",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "description": "Fork of HideNamespace extension for MediaWiki",
-            "support": {
-                "issues": "https://github.com/ShakePeers/mediawiki-HideNamespace/issues",
-                "source": "https://github.com/ShakePeers/mediawiki-HideNamespace/tree/1.4.3"
-            },
-            "abandoned": true,
-            "time": "2016-01-09T18:39:25+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -5866,6 +5895,85 @@
                 }
             ],
             "time": "2022-01-02T09:53:40+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php73",
+            "version": "v1.28.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php73.git",
+                "reference": "fe2f306d1d9d346a7fee353d0d5012e401e984b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/fe2f306d1d9d346a7fee353d0d5012e401e984b5",
+                "reference": "fe2f306d1d9d346a7fee353d0d5012e401e984b5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.28-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php73\\": ""
+                },
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.28.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-01-26T09:26:14+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
@@ -8215,9 +8323,9 @@
         },
         {
             "package": "mediawiki/comments",
-            "version": "dev-REL1_35",
-            "alias": "1.35",
-            "alias_normalized": "1.35.0.0"
+            "version": "dev-REL1_39",
+            "alias": "1.39",
+            "alias_normalized": "1.39.0.0"
         }
     ],
     "minimum-stability": "dev",
@@ -8237,7 +8345,6 @@
         "archi-strasbourg/link-to-archive": 20,
         "archi-strasbourg/sections-count": 20,
         "mediawiki/arrays": 20,
-        "mediawiki/block-and-nuke": 20,
         "mediawiki/cirrussearch": 20,
         "mediawiki/cite": 20,
         "mediawiki/clean-changes": 20,

@@ -58,7 +58,7 @@ class QueryCacheFormLink extends PFQueryFormLink
             } elseif ($param_name !== null) {
                 $value = urlencode($value);
                 parse_str("$param_name=$value", $arr);
-                $inQueryArr = PFUtils::array_merge_recursive_distinct($inQueryArr, $arr);
+                $inQueryArr = PFUtils::arrayMergeRecursiveDistinct($inQueryArr, $arr);
             }
         }
 

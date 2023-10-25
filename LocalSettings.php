@@ -93,7 +93,6 @@ wfLoadExtension('PageImages');
 wfLoadExtension('MobileFrontend');
 wfLoadExtension('GeoData');
 wfLoadExtension('ArchiTweaks');
-wfLoadExtension('BlockAndNuke');
 wfLoadExtension('DismissableSiteNotice');
 wfLoadExtension('Arrays');
 wfLoadExtension('MultimediaViewer');
@@ -113,11 +112,10 @@ wfLoadExtension('Thanks');
 wfLoadExtension('SmiteSpam');
 wfLoadExtension('CodeMirror');
 wfLoadExtension('GTag');
+wfLoadExtension('GoogleCustomWikiSearch');
+wfLoadExtension('ContributionScores');
 
 /** @var $IP string */
-require_once "$IP/extensions/HideNamespace/HideNamespace.php";
-require_once "$IP/extensions/GoogleCustomWikiSearch/GoogleCustomWikiSearch.php";
-require_once "$IP/extensions/ContributionScores/ContributionScores.php";
 
 include_once __DIR__ . '/apikeys.php';
 
