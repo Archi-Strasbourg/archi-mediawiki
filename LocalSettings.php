@@ -1,5 +1,7 @@
 <?php
 
+use CirrusSearch\Elastica\ES6CompatTransportWrapper;
+
 require_once __DIR__ . '/dbconfig.php';
 require_once __DIR__ . '/namespaces.php';
 
@@ -403,7 +405,15 @@ $wgGroupPermissions['bureaucrat']['usermerge'] = true;
 
 //CirrusSearch
 $wgSearchType = 'CirrusSearch';
-$wgCirrusSearchServers = ['localhost'];
+$wgCirrusSearchServers = [
+    [
+        'transport' => [
+            "type" => ES6CompatTransportWrapper::class,
+            'wrapped_transport' => 'Http'
+        ],
+        'host' => 'localhost'
+    ]
+];
 
 //LookupUser
 $wgGroupPermissions['bureaucrat']['lookupuser'] = true;
