@@ -251,12 +251,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "ba2ca03ce3fec7407d159d564fb2907fa54b22bb"
+                "reference": "6550b3a4a6727f667ab7c495dfefc91fe17b501f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/ba2ca03ce3fec7407d159d564fb2907fa54b22bb",
-                "reference": "ba2ca03ce3fec7407d159d564fb2907fa54b22bb",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/6550b3a4a6727f667ab7c495dfefc91fe17b501f",
+                "reference": "6550b3a4a6727f667ab7c495dfefc91fe17b501f",
                 "shasum": ""
             },
             "require-dev": {
@@ -285,7 +285,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/issues",
                 "source": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/tree/master"
             },
-            "time": "2023-10-25T15:46:44+00:00"
+            "time": "2023-11-02T11:22:49+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
