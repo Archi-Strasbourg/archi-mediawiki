@@ -74,7 +74,7 @@
     "mnsami/composer-custom-directory-installer": "^2.0"
   },
   "require-dev": {
-    "insite/composer-dangling-locked-deps": "^0.2.1"
+    "insite/composer-dangling-locked-deps": "^0.4.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
