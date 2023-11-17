@@ -2755,16 +2755,16 @@
         },
         {
             "name": "mediawiki/maps",
-            "version": "10.0.0",
+            "version": "10.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ProfessionalWiki/Maps.git",
-                "reference": "2ecdf439af7b1a127fdbb389cb50193b7292b4ba"
+                "reference": "b9c92e35666a4b909887661bfd134db98c24721a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ProfessionalWiki/Maps/zipball/2ecdf439af7b1a127fdbb389cb50193b7292b4ba",
-                "reference": "2ecdf439af7b1a127fdbb389cb50193b7292b4ba",
+                "url": "https://api.github.com/repos/ProfessionalWiki/Maps/zipball/b9c92e35666a4b909887661bfd134db98c24721a",
+                "reference": "b9c92e35666a4b909887661bfd134db98c24721a",
                 "shasum": ""
             },
             "require": {
@@ -2786,7 +2786,7 @@
             "require-dev": {
                 "mediawiki/mediawiki-codesniffer": "39.0.0",
                 "phpstan/phpstan": "^1.4.8",
-                "vimeo/psalm": "^4.22.0"
+                "vimeo/psalm": "^5.0.0"
             },
             "suggest": {
                 "mediawiki/semantic-media-wiki": "Add, edit, aggregate and visualize structured coordinate data stored with Semantic MediaWiki"
@@ -2845,7 +2845,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-10-26T21:21:35+00:00"
+            "time": "2023-10-16T18:37:42+00:00"
         },
         {
             "name": "mediawiki/meta-description-tag",
