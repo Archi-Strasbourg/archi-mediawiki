@@ -311,6 +311,9 @@
       "mediawiki/flow": {
         "Compatibilité éditeur visuel": "patches/flow-T260648.diff"
       },
+      "mediawiki/maps": {
+        "Parser sans utilisateur": "https://github.com/ProfessionalWiki/Maps/commit/4d50c2634ed1da08fb55c8ae95c413397faac179.diff"
+      },
       "mediawiki/semantic-media-wiki": {
         "Échappement des virgules dans les CSV": "patches/semantic-media-wiki-4976.diff"
       },
