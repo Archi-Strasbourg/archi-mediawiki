@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c64c5e0e2e36128e53588aeb0c5c2aeb",
+    "content-hash": "ae84ff9e9b2276396d1ae6927cba847c",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -12,19 +12,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog.git",
-                "reference": "5ab211d235cd17fc10529b4993c26a81c0928574"
+                "reference": "7507d115e4a629b96af6fedf15ff97f1a1e8babe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/5ab211d235cd17fc10529b4993c26a81c0928574",
-                "reference": "5ab211d235cd17fc10529b4993c26a81c0928574",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/7507d115e4a629b96af6fedf15ff97f1a1e8babe",
+                "reference": "7507d115e4a629b96af6fedf15ff97f1a1e8babe",
                 "shasum": ""
             },
             "require": {
-                "mediawiki/textextracts": "~1.26"
-            },
-            "require-dev": {
-                "phpdocumentor/phpdocumentor": "~2.9.0"
+                "mediawiki/text-extracts": "dev-REL1_35"
             },
             "default-branch": true,
             "type": "mediawiki-extension",
@@ -37,7 +34,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog/tree/master"
             },
-            "time": "2021-05-11T09:28:28+00:00"
+            "time": "2023-11-24T10:53:20+00:00"
         },
         {
             "name": "archi-strasbourg/archi-comments",
@@ -45,33 +42,31 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments.git",
-                "reference": "f517e9c5814b476cb2df1c9efc437f0167b23e81"
+                "reference": "fa21735b25eeecb95e9c0e241098ac5c2e4b25be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/f517e9c5814b476cb2df1c9efc437f0167b23e81",
-                "reference": "f517e9c5814b476cb2df1c9efc437f0167b23e81",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/fa21735b25eeecb95e9c0e241098ac5c2e4b25be",
+                "reference": "fa21735b25eeecb95e9c0e241098ac5c2e4b25be",
                 "shasum": ""
             },
             "require": {
-                "archi-strasbourg/archi-home": "^1.0.0",
-                "mediawiki/comments": "~1.26"
-            },
-            "require-dev": {
-                "phpdocumentor/phpdocumentor": "~2.9.0"
+                "archi-strasbourg/archi-home": "dev-master",
+                "mediawiki/comments": "dev-REL1_39",
+                "mediawiki/text-extracts": "dev-REL1_35"
             },
             "default-branch": true,
             "type": "mediawiki-extension",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0"
+                "GPL-3.0-only"
             ],
             "description": "Comments page for archi-wiki.org",
             "support": {
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments/tree/master"
             },
-            "time": "2021-05-17T09:32:54+00:00"
+            "time": "2023-11-24T10:50:24+00:00"
         },
         {
             "name": "archi-strasbourg/archi-footer",
@@ -79,19 +74,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer.git",
-                "reference": "1da52361c8f788ae0183fb4d70eadbce04f333b3"
+                "reference": "141fe3223d8ed992592f3f211121e35d44a3e122"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/1da52361c8f788ae0183fb4d70eadbce04f333b3",
-                "reference": "1da52361c8f788ae0183fb4d70eadbce04f333b3",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/141fe3223d8ed992592f3f211121e35d44a3e122",
+                "reference": "141fe3223d8ed992592f3f211121e35d44a3e122",
                 "shasum": ""
             },
             "require": {
-                "mediawiki/comments": "~1.26"
-            },
-            "require-dev": {
-                "phpdocumentor/phpdocumentor": "~2.9.0"
+                "mediawiki/comments": "dev-REL1_39"
             },
             "default-branch": true,
             "type": "mediawiki-extension",
@@ -104,7 +96,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer/tree/master"
             },
-            "time": "2023-10-25T14:39:33+00:00"
+            "time": "2023-11-24T11:01:03+00:00"
         },
         {
             "name": "archi-strasbourg/archi-home",
@@ -112,19 +104,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "e4c3959666282dcce1ef8778c22033a3cbe9f0b4"
+                "reference": "0aaa6c7e30240d633133f7b5dbc2851e398d19b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/e4c3959666282dcce1ef8778c22033a3cbe9f0b4",
-                "reference": "e4c3959666282dcce1ef8778c22033a3cbe9f0b4",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/0aaa6c7e30240d633133f7b5dbc2851e398d19b1",
+                "reference": "0aaa6c7e30240d633133f7b5dbc2851e398d19b1",
                 "shasum": ""
             },
             "require": {
-                "mediawiki/textextracts": "~1.26"
-            },
-            "require-dev": {
-                "phpdocumentor/phpdocumentor": "~2.9.0"
+                "mediawiki/text-extracts": "dev-REL1_35"
             },
             "default-branch": true,
             "type": "mediawiki-extension",
@@ -137,7 +126,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-home/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-home/tree/master"
             },
-            "time": "2023-10-19T10:16:46+00:00"
+            "time": "2023-11-24T10:47:45+00:00"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -251,12 +240,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "c9328a337c39f784f90234bf1461f3d3cb632ef2"
+                "reference": "886a68f49c7e338dd94e4a36eab34e13f35ca0ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/c9328a337c39f784f90234bf1461f3d3cb632ef2",
-                "reference": "c9328a337c39f784f90234bf1461f3d3cb632ef2",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/886a68f49c7e338dd94e4a36eab34e13f35ca0ae",
+                "reference": "886a68f49c7e338dd94e4a36eab34e13f35ca0ae",
                 "shasum": ""
             },
             "require-dev": {
@@ -285,7 +274,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/issues",
                 "source": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/tree/master"
             },
-            "time": "2023-11-15T13:42:27+00:00"
+            "time": "2023-11-23T10:16:44+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -2952,65 +2941,16 @@
         },
         {
             "name": "mediawiki/page-forms",
-            "version": "5.6.2",
+            "version": "5.6.3+BlueSpice440",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-PageForms.git",
-                "reference": "fbae710f16ac3e9a0da1ad727feed577f3f03ed1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-PageForms/zipball/fbae710f16ac3e9a0da1ad727feed577f3f03ed1",
-                "reference": "fbae710f16ac3e9a0da1ad727feed577f3f03ed1",
-                "shasum": ""
+                "reference": "86253e8e6d67f35290b43c1adc3d6e7921712f5a"
             },
             "require": {
-                "composer/installers": "^2|^1.0.1"
+                "composer/installers": "~1.0|~2.0"
             },
-            "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "41.0.0",
-                "mediawiki/mediawiki-phan-config": "0.12.1",
-                "mediawiki/minus-x": "1.1.1",
-                "php-parallel-lint/php-console-highlighter": "1.0.0",
-                "php-parallel-lint/php-parallel-lint": "1.3.2"
-            },
-            "suggest": {
-                "mediawiki/open-layers": "Allow us to use a local version of OpenLayers."
-            },
-            "type": "mediawiki-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.0.x-dev"
-                },
-                "installer-paths": {
-                    "../{$name}": [
-                        "mediawiki/open-layers"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Yaron Koren"
-                }
-            ],
-            "description": "Forms for creating and editing wiki pages.",
-            "homepage": "https://www.mediawiki.org/wiki/Extension:Page_Forms",
-            "keywords": [
-                "Forms",
-                "PF",
-                "Page Forms",
-                "Semantic Forms",
-                "mediawiki",
-                "wiki"
-            ],
-            "support": {
-                "source": "https://github.com/wikimedia/mediawiki-extensions-PageForms/tree/5.6.2"
-            },
-            "time": "2023-10-02T15:31:52+00:00"
+            "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/page-images",
@@ -8244,12 +8184,6 @@
         }
     ],
     "aliases": [
-        {
-            "package": "archi-strasbourg/archi-home",
-            "version": "9999999-dev",
-            "alias": "1.0.x-dev",
-            "alias_normalized": "1.0.9999999.9999999-dev"
-        },
         {
             "package": "archi-strasbourg/sections-count",
             "version": "9999999-dev",

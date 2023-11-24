@@ -4,8 +4,7 @@
   "license": "GPL-3.0-only",
   "type": "project",
   "replace": {
-    "rudloff/mediawiki-composer": "~0.1.3",
-    "mediawiki/textextracts": "*"
+    "rudloff/mediawiki-composer": "~0.1.3"
   },
   "require": {
     "php": ">=7.4",
@@ -13,7 +12,7 @@
     "archi-strasbourg/archi-blog": "dev-master",
     "archi-strasbourg/archi-comments": "dev-master",
     "archi-strasbourg/archi-footer": "dev-master",
-    "archi-strasbourg/archi-home": "dev-master as 1.0.x-dev",
+    "archi-strasbourg/archi-home": "dev-master",
     "archi-strasbourg/archi-maps": "dev-master",
     "archi-strasbourg/archi-move": "dev-master",
     "archi-strasbourg/archi-news-tab": "dev-master",
