@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog.git",
-                "reference": "7507d115e4a629b96af6fedf15ff97f1a1e8babe"
+                "reference": "80309fe3481945a5b95d40053f93831f08392774"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/7507d115e4a629b96af6fedf15ff97f1a1e8babe",
-                "reference": "7507d115e4a629b96af6fedf15ff97f1a1e8babe",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-blog/zipball/80309fe3481945a5b95d40053f93831f08392774",
+                "reference": "80309fe3481945a5b95d40053f93831f08392774",
                 "shasum": ""
             },
             "require": {
@@ -34,7 +34,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-blog/tree/master"
             },
-            "time": "2023-11-24T10:53:20+00:00"
+            "time": "2023-11-28T18:26:08+00:00"
         },
         {
             "name": "archi-strasbourg/archi-comments",
