@@ -3,6 +3,7 @@
 namespace ArchiTweaks;
 
 use ApiQueryBase;
+use ObjectCache;
 use TextExtracts\TextTruncator;
 use Title;
 use TextExtracts\ExtractFormatter;
@@ -66,12 +67,12 @@ class ApiQueryDescription extends ApiQueryBase
      */
     private function getIntro(Title $title)
     {
-        global $wgMemc;
+        $cache = ObjectCache::getLocalClusterInstance();
 
         $id = $title->getArticleID();
 
-        $key = wfMemcKey('archidescription', $id, $title->getTouched());
-        $result = $wgMemc->get($key);
+        $key = $cache->makeKey('archidescription', $id, $title->getTouched());
+        $result = $cache->get($key);
 
         if (!$result) {
             // On refait manuellement ce que fait TextExtracts pour pouvoir le faire sur la section 1.
@@ -89,7 +90,7 @@ class ApiQueryDescription extends ApiQueryBase
                 $result = $this->convertText($extracts['parse']['text']);
             }
 
-            $wgMemc->set($key, $result);
+            $cache->set($key, $result);
         }
 
         return $result;
