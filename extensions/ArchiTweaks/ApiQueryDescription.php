@@ -3,6 +3,10 @@
 namespace ArchiTweaks;
 
 use ApiQueryBase;
+use DerivativeContext;
+use DerivativeRequest;
+use MediaWiki\MediaWikiServices;
+use MobileContext;
 use ObjectCache;
 use TextExtracts\TextTruncator;
 use Title;
@@ -20,14 +24,28 @@ class ApiQueryDescription extends ApiQueryBase
      * @param $options
      *
      * @return mixed
+     * @see \MobileFrontendHooks::onOutputPageBeforeHTML()
      */
     private function apiRequest($options)
     {
-        $params = new \DerivativeRequest(
+        $params = new DerivativeRequest(
             $this->getRequest(),
             $options
         );
         $api = new \ApiMain($params);
+
+        /** @var MobileContext $mobileContext */
+        $mobileContext = MediaWikiServices::getInstance()->getService('MobileFrontend.Context');
+
+        /*
+         * MobileFrontendHooks ne détecte pas qu'il est dans une sous-requête d'API
+         * et il injecte un JS au début du HTML.
+         * Pour éviter ça, on lui indique explicitement le contexte.
+         */
+        $context = new DerivativeContext($mobileContext->getContext());
+        $context->setRequest(new DerivativeRequest($context->getRequest(), $options));
+        $mobileContext->setContext($context);
+
         $api->execute();
 
         return $api->getResult()->getResultData();
