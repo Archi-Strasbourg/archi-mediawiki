@@ -306,6 +306,7 @@ $wgHiddenCategories = [$wgCountryCategory];
 $wgExtraNamespaces[NS_ADDRESS] = 'Adresse';
 $wgExtraNamespaces[NS_ADDRESS_TALK] = 'Discussion_adresse';
 $wgExtraNamespaces[NS_ADDRESS_NEWS] = 'Actualités_adresse';
+$wgExtraNamespaces[NS_ADDRESS_NEWS_TALK] = 'Discussion_actualités_adresse';
 $wgExtraNamespaces[NS_SOURCE] = 'Source';
 $wgExtraNamespaces[NS_SOURCE_TALK] = 'Discussion_source';
 $wgExtraNamespaces[NS_NEWS] = 'Edito';
@@ -318,6 +319,12 @@ $wgExtraNamespaces[NS_ROUTE] = 'Parcours';
 $wgExtraNamespaces[NS_ROUTE_TALK] = 'Discussion_parcours';
 $wgExtraNamespaces[NS_BRIEF] = 'Brève';
 $wgExtraNamespaces[NS_BRIEF_TALK] = 'Discussion_brève';
+
+/*
+ * Namespace requis par MW, mais on ne s'en sert pas
+ * donc on exige une permission que personne n'a.
+ */
+$wgNamespaceProtection[NS_ADDRESS_NEWS_TALK] = 'nope';
 
 $wgNamespacesWithSubpages[NS_ADDRESS] = true;
 $wgNamespacesWithSubpages[NS_ADDRESS_NEWS] = true;
