@@ -350,6 +350,8 @@ $wgContentNamespaces[] = NS_PERSON;
 
 $wgNamespaceContentModels[NS_ADDRESS_TALK] = 'flow-board';
 $wgNamespaceContentModels[NS_NEWS_TALK] = 'flow-board';
+$wgNamespaceContentModels[NS_PERSON_TALK] = 'flow-board';
+$wgNamespaceContentModels[NS_USER_TALK] = 'flow-board';
 
 $wgArticleRobotPolicies['Adresse:Bac à sable'] = 'noindex';
 
