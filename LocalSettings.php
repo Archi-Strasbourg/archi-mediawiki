@@ -116,11 +116,11 @@ wfLoadExtension('CodeMirror');
 wfLoadExtension('GTag');
 wfLoadExtension('GoogleCustomWikiSearch');
 wfLoadExtension('ContributionScores');
+wfLoadExtension('Parsoid', 'vendor/wikimedia/parsoid/extension.json');
 
 /** @var $IP string */
 
 include_once __DIR__ . '/apikeys.php';
-
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
 $wgVisualEditorSupportedSkins = ['vector', 'archiwiki'];
