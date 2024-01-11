@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dd7c16862678a56a7920fb022d952b55",
+    "content-hash": "e01402ed35e924d96907781736274c23",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2847,50 +2847,6 @@
                 "reference": "0.4.0"
             },
             "type": "mediawiki-extension"
-        },
-        {
-            "name": "mediawiki/mixed-namespace-search-suggestions",
-            "version": "dev-REL1_39",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wikimedia/mediawiki-extensions-MixedNamespaceSearchSuggestions.git",
-                "reference": "675a371dfd2b954525c54b55c000439e2aa6eefe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-MixedNamespaceSearchSuggestions/zipball/675a371dfd2b954525c54b55c000439e2aa6eefe",
-                "reference": "675a371dfd2b954525c54b55c000439e2aa6eefe",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.5.9"
-            },
-            "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "39.0.0",
-                "mediawiki/minus-x": "1.1.1",
-                "php-parallel-lint/php-console-highlighter": "1.0.0",
-                "php-parallel-lint/php-parallel-lint": "1.3.2"
-            },
-            "type": "mediawiki-extension",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Niklas Laxström",
-                    "email": "niklas.laxstrom@gmail.com",
-                    "role": "Author"
-                }
-            ],
-            "description": "Includes suggestions from all content namespaces in the search box, showing from which namespace each suggestion is from.",
-            "homepage": "https://www.mediawiki.org/wiki/Extension:MixedNamespaceSearchSuggestions",
-            "support": {
-                "source": "https://github.com/wikimedia/mediawiki-extensions-MixedNamespaceSearchSuggestions/tree/REL1_39"
-            },
-            "abandoned": true,
-            "time": "2023-01-21T13:28:21+00:00"
         },
         {
             "name": "mediawiki/mobile-frontend",
@@ -8394,7 +8350,6 @@
         "mediawiki/googlecustomwikisearch": 20,
         "mediawiki/lookup-user": 20,
         "mediawiki/loops": 20,
-        "mediawiki/mixed-namespace-search-suggestions": 20,
         "mediawiki/mobile-frontend": 20,
         "mediawiki/multimedia-viewer": 20,
         "mediawiki/newsletter": 20,

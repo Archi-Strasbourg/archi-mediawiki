@@ -104,7 +104,6 @@ wfLoadExtension('Echo');
 wfLoadExtension('Variables');
 wfLoadExtension('Loops');
 wfLoadExtension('CirrusSearch');
-wfLoadExtension('MixedNamespaceSearchSuggestions');
 wfLoadExtension('Translate');
 wfLoadExtension('Maps');
 wfLoadExtension('WikiEditor');

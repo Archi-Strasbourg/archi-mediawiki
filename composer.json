@@ -46,7 +46,6 @@
     "mediawiki/loops": "dev-REL1_39",
     "mediawiki/maps": "^10.0",
     "mediawiki/meta-description-tag": "^0.4.0",
-    "mediawiki/mixed-namespace-search-suggestions": "dev-REL1_39",
     "mediawiki/mobile-frontend": "dev-REL1_27#c20e4d771dbca20a0e1bd9afa5182eaf0982e257",
     "mediawiki/multimedia-viewer": "dev-REL1_39",
     "mediawiki/newsletter": "dev-REL1_39",
