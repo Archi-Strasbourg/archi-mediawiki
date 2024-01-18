@@ -173,50 +173,32 @@ $wgCaptchaTriggers['contactpage'] = true;
 $wgRateLimits['badcaptcha']['ip'] = ['3', '60'];
 
 //Footer
-$wgHooks['SkinTemplateOutputPageBeforeExec'][] = function ($sk, &$tpl) {
-    $tpl->data['footerlinks']['places'] = [];
-
-    $tpl->set(
-        'contact',
-        Html::element(
+$wgHooks['SkinAddFooterLinks'][] = function (Skin $skin, string $key, array &$footerlinks ) {
+    if ( $key === 'places' ) {
+        $footerlinks['contact'] = Html::element(
             'a',
             ['href' => SpecialPage::getTitleFor('Contact')->getLocalURL()],
             'Nous contacter'
-        )
-    );
-    $tpl->data['footerlinks']['places'][] = 'contact';
+        );
 
-    $tpl->set(
-        'faq',
-        Html::element(
+        $footerlinks['faq'] = Html::element(
             'a',
             ['href' => Title::newFromText('Foire aux questions')->getLocalURL()],
             'Foire aux questions'
-        )
-    );
-    $tpl->data['footerlinks']['places'][] = 'faq';
+        );
 
-    $tpl->set(
-        'opendata',
-        Html::element(
+        $footerlinks['opendata'] = Html::element(
             'a',
             ['href' => Title::newFromText('Open Data')->getLocalURL()],
             'Open Data'
-        )
-    );
-    $tpl->data['footerlinks']['places'][] = 'opendata';
+        );
 
-    $tpl->set(
-        'legal',
-        Html::element(
+        $footerlinks['legal'] = Html::element(
             'a',
             ['href' => Title::newFromText('Mentions légales')->getLocalURL()],
             'Mentions légales'
-        )
-    );
-    $tpl->data['footerlinks']['places'][] = 'legal';
-
-    return true;
+        );
+    }
 };
 
 //ContactPage
