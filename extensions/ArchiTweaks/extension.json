@@ -22,7 +22,8 @@
     ],
     "ParserFirstCallInit": [
       "ArchiTweaks\\Hooks::onParserFirstCallInit"
-    ]
+    ],
+    "OutputPageParserOutput": "ArchiTweaks\\Hooks::onOutputPageParserOutput"
   },
   "SpecialPages": {
     "RunQueryCache": "ArchiTweaks\\SpecialRunQueryCache"

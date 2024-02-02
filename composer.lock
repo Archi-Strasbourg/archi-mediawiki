@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e01402ed35e924d96907781736274c23",
+    "content-hash": "2e0b817d4abbc2d41cedd4ff298bdde4",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -365,8 +365,8 @@
             "require-dev": {
                 "mockery/mockery": "~0.9.5",
                 "php-mock/php-mock-mockery": "~1.1.0",
-                "phpunit/phpunit": "~5.5.2",
-                "squizlabs/php_codesniffer": "~2.6.2",
+                "phpunit/phpunit": "~5.6.3",
+                "squizlabs/php_codesniffer": "~2.8.1",
                 "symfony/var-dumper": "~3.1.0"
             },
             "default-branch": true,
@@ -2899,16 +2899,73 @@
         },
         {
             "name": "mediawiki/page-forms",
-            "version": "5.6.3+BlueSpice440",
+            "version": "5.6.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wikimedia/mediawiki-extensions-PageForms.git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/PageForms.git",
                 "reference": "86253e8e6d67f35290b43c1adc3d6e7921712f5a"
             },
             "require": {
-                "composer/installers": "~1.0|~2.0"
+                "composer/installers": "^2|^1.0.1"
             },
-            "type": "mediawiki-extension"
+            "require-dev": {
+                "mediawiki/mediawiki-codesniffer": "41.0.0",
+                "mediawiki/mediawiki-phan-config": "0.12.1",
+                "mediawiki/minus-x": "1.1.1",
+                "php-parallel-lint/php-console-highlighter": "1.0.0",
+                "php-parallel-lint/php-parallel-lint": "1.3.2"
+            },
+            "suggest": {
+                "mediawiki/open-layers": "Allow us to use a local version of OpenLayers."
+            },
+            "type": "mediawiki-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0.x-dev"
+                },
+                "installer-paths": {
+                    "../{$name}": [
+                        "mediawiki/open-layers"
+                    ]
+                }
+            },
+            "scripts": {
+                "test": [
+                    "parallel-lint . --exclude vendor --exclude node_modules",
+                    "minus-x check .",
+                    "@phpcs"
+                ],
+                "fix": [
+                    "minus-x fix .",
+                    "phpcbf .",
+                    "phpcbf"
+                ],
+                "phpcs": [
+                    "phpcs -p -s ."
+                ],
+                "phan": [
+                    "phan -d . --long-progress-bar"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Yaron Koren"
+                }
+            ],
+            "description": "Forms for creating and editing wiki pages.",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Page_Forms",
+            "keywords": [
+                "MediaWiki",
+                "PF",
+                "Page Forms",
+                "Semantic Forms",
+                "Wiki",
+                "forms"
+            ],
+            "time": "2023-10-16T17:18:40+00:00"
         },
         {
             "name": "mediawiki/page-images",
@@ -8373,6 +8430,9 @@
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.4",
+        "ext-dom": "*",
+        "ext-libxml": "*",
+        "ext-mbstring": "*",
         "ext-redis": "*"
     },
     "platform-dev": [],

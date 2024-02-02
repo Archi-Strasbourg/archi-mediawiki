@@ -8,6 +8,9 @@
   },
   "require": {
     "php": ">=7.4",
+    "ext-dom": "*",
+    "ext-libxml": "*",
+    "ext-mbstring": "*",
     "ext-redis": "*",
     "archi-strasbourg/archi-blog": "dev-master",
     "archi-strasbourg/archi-comments": "dev-master",
