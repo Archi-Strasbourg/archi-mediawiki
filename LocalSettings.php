@@ -115,7 +115,7 @@ wfLoadExtension('CodeMirror');
 wfLoadExtension('GTag');
 wfLoadExtension('GoogleCustomWikiSearch');
 wfLoadExtension('ContributionScores');
-wfLoadExtension('Parsoid', 'vendor/wikimedia/parsoid/extension.json');
+wfLoadExtension('Parsoid', __DIR__ . '/vendor/wikimedia/parsoid/extension.json');
 
 /** @var $IP string */
 
