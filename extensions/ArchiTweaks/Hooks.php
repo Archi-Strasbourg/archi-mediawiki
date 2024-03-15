@@ -94,7 +94,7 @@ class Hooks
             $xpath = new DOMXPath($doc);
 
             /** @var DOMElement $node */
-            foreach ($xpath->query('//*[@id="powersearch"]//input[@name="fulltext"]') as $node) {
+            foreach ($xpath->query('//*[@class="mw-search-form-wrapper"]//input[@name="fulltext"]') as $node) {
                 // On retire ce paramètre pour permettre de renvoyer directement vers un résultat exact.
                 $node->parentNode->removeChild($node);
             }
