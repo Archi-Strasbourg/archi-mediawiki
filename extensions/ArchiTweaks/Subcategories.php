@@ -22,7 +22,9 @@ class Subcategories
 
         /** @var Title $member */
         foreach ($category->getMembers() as $member) {
-            $result[] = $member->getText();
+            if ($member->getNamespace() == NS_CATEGORY) {
+                $result[] = $member->getText();
+            }
         }
 
         return implode(',', $result);
