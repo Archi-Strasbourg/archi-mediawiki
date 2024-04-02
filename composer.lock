@@ -2311,16 +2311,16 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.39.6",
+            "version": "1.39.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "3406e1b7d014d22f2a68237ebf447a88b5ac74ed"
+                "reference": "3324d89080922a0853b23e0019ad3a48a4ff389a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/3406e1b7d014d22f2a68237ebf447a88b5ac74ed",
-                "reference": "3406e1b7d014d22f2a68237ebf447a88b5ac74ed",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/3324d89080922a0853b23e0019ad3a48a4ff389a",
+                "reference": "3324d89080922a0853b23e0019ad3a48a4ff389a",
                 "shasum": ""
             },
             "require": {
@@ -2369,7 +2369,7 @@
                 "wikimedia/minify": "2.3.0",
                 "wikimedia/normalized-exception": "1.0.1",
                 "wikimedia/object-factory": "4.0.0",
-                "wikimedia/parsoid": "0.16.2",
+                "wikimedia/parsoid": "0.16.3",
                 "wikimedia/php-session-serializer": "2.0.1",
                 "wikimedia/purtle": "1.0.8",
                 "wikimedia/relpath": "3.0.0",
@@ -2412,8 +2412,10 @@
             },
             "suggest": {
                 "ext-apcu": "Faster web responses overall.",
+                "ext-bcmath": "Increased performance of some operations. Required especially on 32 bit machines. This or ext-gmp are needed for scrambling Temporary Accounts.",
                 "ext-curl": "Faster HTTP services, e.g. when using InstantCommons, Swift, or Etcd.",
                 "ext-gd": "Enable thumbnails for file uploads.",
+                "ext-gmp": "Increased performance of some operations. Required especially on 32 bit machines. This or ext-bcmath are needed for scrambling Temporary Accounts.",
                 "ext-mysqli": "Enable the MySQL and MariaDB database type for MediaWiki.",
                 "ext-openssl": "Encrypt session data (or opt-out via $wgSessionInsecureSecrets).",
                 "ext-pcntl": "Enable CLI concurrent processing, e.g. for runJobs.php and rebuildLocalisationCache.php.",
@@ -2461,11 +2463,11 @@
             "support": {
                 "irc": "irc://irc.libera.chat/mediawiki",
                 "issues": "https://bugs.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.39.6",
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.39.7",
                 "wiki": "https://www.mediawiki.org/"
             },
             "abandoned": true,
-            "time": "2023-12-21T16:43:34+00:00"
+            "time": "2024-03-28T21:53:15+00:00"
         },
         {
             "name": "mediawiki/dismissable-site-notice",
@@ -4891,16 +4893,16 @@
         },
         {
             "name": "pear/pear-core-minimal",
-            "version": "v1.10.14",
+            "version": "v1.10.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/pear-core-minimal.git",
-                "reference": "a86fc145edb5caedbf96527214ce3cadc9de4a32"
+                "reference": "ce0adade8b97561656ace07cdaac4751c271ea8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/a86fc145edb5caedbf96527214ce3cadc9de4a32",
-                "reference": "a86fc145edb5caedbf96527214ce3cadc9de4a32",
+                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/ce0adade8b97561656ace07cdaac4751c271ea8c",
+                "reference": "ce0adade8b97561656ace07cdaac4751c271ea8c",
                 "shasum": ""
             },
             "require": {
@@ -4913,9 +4915,9 @@
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "": "src/"
-                }
+                "classmap": [
+                    "src/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "include-path": [
@@ -4936,7 +4938,7 @@
                 "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR",
                 "source": "https://github.com/pear/pear-core-minimal"
             },
-            "time": "2023-11-26T16:15:38+00:00"
+            "time": "2024-03-16T18:41:45+00:00"
         },
         {
             "name": "pear/pear_exception",
@@ -5854,16 +5856,16 @@
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.28.0",
+            "version": "v1.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "fe2f306d1d9d346a7fee353d0d5012e401e984b5"
+                "reference": "21bd091060673a1177ae842c0ef8fe30893114d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/fe2f306d1d9d346a7fee353d0d5012e401e984b5",
-                "reference": "fe2f306d1d9d346a7fee353d0d5012e401e984b5",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/21bd091060673a1177ae842c0ef8fe30893114d2",
+                "reference": "21bd091060673a1177ae842c0ef8fe30893114d2",
                 "shasum": ""
             },
             "require": {
@@ -5871,9 +5873,6 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-main": "1.28-dev"
-                },
                 "thanks": {
                     "name": "symfony/polyfill",
                     "url": "https://github.com/symfony/polyfill"
@@ -5913,7 +5912,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/v1.28.0"
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.29.0"
             },
             "funding": [
                 {
@@ -5929,7 +5928,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-26T09:26:14+00:00"
+            "time": "2024-01-29T20:11:03+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
@@ -7202,16 +7201,16 @@
         },
         {
             "name": "wikimedia/parsoid",
-            "version": "v0.16.2",
+            "version": "v0.16.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-services-parsoid.git",
-                "reference": "5f2c9b728613eabdd07aad255f42f3893c668a05"
+                "reference": "715011a9496b9084245009f80ec4ed206d7a48b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-services-parsoid/zipball/5f2c9b728613eabdd07aad255f42f3893c668a05",
-                "reference": "5f2c9b728613eabdd07aad255f42f3893c668a05",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-services-parsoid/zipball/715011a9496b9084245009f80ec4ed206d7a48b8",
+                "reference": "715011a9496b9084245009f80ec4ed206d7a48b8",
                 "shasum": ""
             },
             "require": {
@@ -7278,10 +7277,10 @@
             ],
             "support": {
                 "irc": "irc://irc.libera.chat/mediawiki-parsoid",
-                "source": "https://github.com/wikimedia/mediawiki-services-parsoid/tree/v0.16.2",
+                "source": "https://github.com/wikimedia/mediawiki-services-parsoid/tree/v0.16.3",
                 "wiki": "https://www.mediawiki.org/wiki/Parsoid"
             },
-            "time": "2023-10-02T21:34:06+00:00"
+            "time": "2024-02-12T22:02:43+00:00"
         },
         {
             "name": "wikimedia/php-session-serializer",
