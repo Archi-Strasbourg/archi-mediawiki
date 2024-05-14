@@ -5,9 +5,11 @@ namespace ArchiTweaks;
 use DOMDocument;
 use DOMElement;
 use DOMXPath;
+use MediaWiki\Revision\SlotRecord;
 use MWException;
 use OutputPage;
 use Parser;
+use RequestContext;
 use Title;
 use WikiPage;
 use WikitextContent;
@@ -22,14 +24,20 @@ class Hooks
     /**
      * @param WikiPage $wikiPage
      * @throws MWException
+     * @noinspection PhpUnused
      */
     public static function onPageContentInsertComplete(WikiPage &$wikiPage)
     {
+        if (!$wikiPage->isNew()) {
+            // On ne veut agir qu'à la création.
+            return;
+        }
+
         $title = $wikiPage->getTitle();
         $titleText = $title->getText();
+        $user = RequestContext::getMain()->getUser();
 
         $toCreate = [];
-
         if ($title->getNamespace() == NS_CATEGORY) {
             $contentText = $wikiPage->getContent()->getTextForSearchIndex();
 
@@ -58,10 +66,9 @@ class Hooks
             // Si la page n'existe pas encore, on la crée.
             if ($newTitle->getArticleID() == 0) {
                 $newPage = new WikiPage($newTitle);
-                $newPage->doEditContent(
-                    new WikitextContent($newPageInfo['content']),
-                    'Page créée automatiquement'
-                );
+                $pageUpdater = $newPage->newPageUpdater($user);
+                $pageUpdater->setContent(SlotRecord::MAIN, new WikitextContent($newPageInfo['content']));
+                $pageUpdater->saveRevision(\CommentStoreComment::newUnsavedComment('Page créée automatiquement'));
             }
         }
     }

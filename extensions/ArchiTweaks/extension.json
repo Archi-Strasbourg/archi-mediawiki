@@ -17,7 +17,7 @@
     "ArchiTweaks\\Subcategories": "Subcategories.php"
   },
   "Hooks": {
-    "PageContentInsertComplete": [
+    "PageSaveComplete": [
       "ArchiTweaks\\Hooks::onPageContentInsertComplete"
     ],
     "ParserFirstCallInit": [
