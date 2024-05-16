@@ -104,12 +104,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "896ae083840b5733c0e03fb45d315e7d59db6bf1"
+                "reference": "0595357efab59eec3aa254f7d28b9a503425a9b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/896ae083840b5733c0e03fb45d315e7d59db6bf1",
-                "reference": "896ae083840b5733c0e03fb45d315e7d59db6bf1",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/0595357efab59eec3aa254f7d28b9a503425a9b8",
+                "reference": "0595357efab59eec3aa254f7d28b9a503425a9b8",
                 "shasum": ""
             },
             "require": {
@@ -126,7 +126,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-home/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-home/tree/master"
             },
-            "time": "2024-01-17T09:14:05+00:00"
+            "time": "2024-05-16T09:21:57+00:00"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -240,12 +240,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "f7b7e7cd908822b8fced6a999a3ea382a09ef25d"
+                "reference": "001fa96faa5a617b3cfe48f81904a9bd3bf5721c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/f7b7e7cd908822b8fced6a999a3ea382a09ef25d",
-                "reference": "f7b7e7cd908822b8fced6a999a3ea382a09ef25d",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/001fa96faa5a617b3cfe48f81904a9bd3bf5721c",
+                "reference": "001fa96faa5a617b3cfe48f81904a9bd3bf5721c",
                 "shasum": ""
             },
             "require-dev": {
@@ -274,7 +274,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/issues",
                 "source": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/tree/master"
             },
-            "time": "2024-03-05T08:51:43+00:00"
+            "time": "2024-05-16T09:21:29+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
