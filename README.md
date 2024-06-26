@@ -2,6 +2,10 @@
 
 Port of Archi-Wiki to MediaWiki
 
+[Pré-requis](docs/REQUISITES.md)
+
+[Installation](docs/INSTALL.md)
+
 ## Setup
 
 You need to create a `dbconfig.php` file with at least the following variables:
