@@ -1,0 +1,22 @@
+{
+    "name": "ArchiValues",
+    "author": "Aymeric Feltz",
+    "description": "This extension gives a possibility to easily list all possible values of a property",
+    "version": "0.1",
+    "type": "parserhook",
+    "MessagesDirs": {
+        "ArchiValues": [
+            "i18n"
+        ]
+    },
+    "AutoloadClasses": {
+        "ArchiValuesHooks": "src/ArchiValuesHooks.php"
+    },
+    "ExtensionMessagesFiles": {
+        "ArchiValuesMagic": "ArchiValues.i18n.php"
+    },
+    "Hooks": {
+        "ParserFirstCallInit": "ArchiValuesHooks::onParserFirstCallInit"
+    },
+    "manifest_version": 1
+}

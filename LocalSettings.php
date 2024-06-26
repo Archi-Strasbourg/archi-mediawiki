@@ -73,6 +73,7 @@ wfLoadExtension('ArchiHome');
 wfLoadExtension('ArchiBlog');
 wfLoadExtension('ArchiComments');
 wfLoadExtension('ArchiFooter');
+wfLoadExtension('ArchiValues');
 wfLoadExtension('Newsletter');
 wfLoadExtension('Nuke');
 wfLoadExtension('EmailuserHtml');
@@ -116,6 +117,7 @@ wfLoadExtension('GTag');
 wfLoadExtension('GoogleCustomWikiSearch');
 wfLoadExtension('ContributionScores');
 wfLoadExtension('Parsoid', __DIR__ . '/vendor/wikimedia/parsoid/extension.json');
+
 
 /** @var $IP string */
 
@@ -300,6 +302,8 @@ $wgExtraNamespaces[NS_ROUTE] = 'Parcours';
 $wgExtraNamespaces[NS_ROUTE_TALK] = 'Discussion_parcours';
 $wgExtraNamespaces[NS_BRIEF] = 'Brève';
 $wgExtraNamespaces[NS_BRIEF_TALK] = 'Discussion_brève';
+$wgExtraNamespaces[NS_ALERTE] = 'Alerte';
+$wgExtraNamespaces[NS_ALERTE_TALK] = 'Discussion_alerte';
 
 /*
  * Namespace requis par MW, mais on ne s'en sert pas
@@ -316,6 +320,7 @@ $wgVisualEditorAvailableNamespaces[NS_ADDRESS_NEWS] = true;
 $wgVisualEditorAvailableNamespaces[NS_PERSON] = true;
 $wgVisualEditorAvailableNamespaces[NS_SOURCE] = true;
 $wgVisualEditorAvailableNamespaces[NS_MEDIAWIKI] = true;
+$wgVisualEditorAvailableNamespaces[NS_ALERTE] = true;
 $smwgNamespacesWithSemanticLinks[NS_ADDRESS] = true;
 $smwgNamespacesWithSemanticLinks[NS_ADDRESS_NEWS] = true;
 $smwgNamespacesWithSemanticLinks[NS_PERSON] = true;
@@ -323,11 +328,13 @@ $smwgNamespacesWithSemanticLinks[NS_USER] = true;
 $smwgNamespacesWithSemanticLinks[NS_SOURCE] = true;
 $smwgNamespacesWithSemanticLinks[NS_NEWS] = true;
 $smwgNamespacesWithSemanticLinks[NS_BRIEF] = true;
+$smwgNamespacesWithSemanticLinks[NS_ALERTE] = true;
 $wgNamespacesToBeSearchedDefault[NS_ADDRESS] = true;
 $wgNamespacesToBeSearchedDefault[NS_PERSON] = true;
 
 $wgContentNamespaces[] = NS_ADDRESS;
 $wgContentNamespaces[] = NS_PERSON;
+
 
 $wgNamespaceContentModels[NS_ADDRESS_TALK] = 'flow-board';
 $wgNamespaceContentModels[NS_NEWS_TALK] = 'flow-board';

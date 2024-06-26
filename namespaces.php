@@ -14,3 +14,5 @@ define('NS_ROUTE', 4008);
 define('NS_ROUTE_TALK', 4009);
 define('NS_BRIEF', 4010);
 define('NS_BRIEF_TALK', 4011);
+define('NS_ALERTE',4012);
+define('NS_ALERTE_TALK',4013);
