@@ -73,6 +73,7 @@ wfLoadExtension('ArchiHome');
 wfLoadExtension('ArchiBlog');
 wfLoadExtension('ArchiComments');
 wfLoadExtension('ArchiFooter');
+wfLoadExtension('ArchiValues');
 wfLoadExtension('Newsletter');
 wfLoadExtension('Nuke');
 wfLoadExtension('EmailuserHtml');

@@ -1,5 +1,6 @@
 extensions/*
 !extensions/ArchiTweaks/
+!extensions/ArchiValues/
 skins/
 vendor/
 dbconfig.php
