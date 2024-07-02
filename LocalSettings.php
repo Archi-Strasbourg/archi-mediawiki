@@ -118,7 +118,6 @@ wfLoadExtension('GoogleCustomWikiSearch');
 wfLoadExtension('ContributionScores');
 wfLoadExtension('Parsoid', __DIR__ . '/vendor/wikimedia/parsoid/extension.json');
 
-
 /** @var $IP string */
 
 include_once __DIR__ . '/apikeys.php';
@@ -331,10 +330,10 @@ $smwgNamespacesWithSemanticLinks[NS_BRIEF] = true;
 $smwgNamespacesWithSemanticLinks[NS_ALERTE] = true;
 $wgNamespacesToBeSearchedDefault[NS_ADDRESS] = true;
 $wgNamespacesToBeSearchedDefault[NS_PERSON] = true;
+$wgNamespacesToBeSearchedDefault[NS_CATEGORY]=true;
 
 $wgContentNamespaces[] = NS_ADDRESS;
 $wgContentNamespaces[] = NS_PERSON;
-
 
 $wgNamespaceContentModels[NS_ADDRESS_TALK] = 'flow-board';
 $wgNamespaceContentModels[NS_NEWS_TALK] = 'flow-board';
