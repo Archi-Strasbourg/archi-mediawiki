@@ -1,0 +1,23 @@
+{
+  "manifest_version": 1,
+  "name": "ArchiRecentChanges",
+  "version": "1.0.0",
+  "license-name": "GPL-3.0",
+  "author": "Aymeric Feltz",
+  "description": "Custom pages for archi-wiki.org that display a pinterest style list of recent changes",
+  "type": "specialpage",
+  "SpecialPages": {
+    "ArchiRecentChanges": "ArchiRecentChanges\\SpecialArchiRecentChanges"
+  },
+  "AutoloadClasses": {
+    "ArchiRecentChanges\\SpecialArchiRecentChanges": "SpecialArchiRecentChanges.php"
+  },
+  "MessagesDirs": {
+    "ArchiRecentChanges": [
+      "i18n"
+    ]
+  },
+  "ExtensionMessagesFiles": {
+    "ArchiRecentChangesAlias": "ArchiRecentChanges.i18n.alias.php"
+  }
+}
