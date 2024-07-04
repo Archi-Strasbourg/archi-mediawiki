@@ -70,6 +70,7 @@ wfLoadExtension('ArchiMaps');
 wfLoadExtension('VisualEditor');
 wfLoadExtension('TemplateData');
 wfLoadExtension('ArchiHome');
+wfLoadExtension('ArchiRecentChanges');
 wfLoadExtension('ArchiBlog');
 wfLoadExtension('ArchiComments');
 wfLoadExtension('ArchiFooter');
