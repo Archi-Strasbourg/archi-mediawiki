@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
   "name": "ArchiRecentChanges",
-  "version": "1.0.0",
+  "version": "1.1",
   "license-name": "GPL-3.0",
   "author": "Aymeric Feltz",
   "description": "Custom pages for archi-wiki.org that display a pinterest style list of recent changes",
@@ -16,6 +16,17 @@
     "ArchiRecentChanges": [
       "i18n"
     ]
+  },
+  "ResourceModules": {
+    "ext.archirecentchanges": {
+      "scripts": [
+        "js/archirecentchanges.js"
+      ]
+    }
+  },
+  "ResourceFileModulePaths": {
+    "localBasePath": "",
+    "remoteExtPath": "ArchiRecentChanges"
   },
   "ExtensionMessagesFiles": {
     "ArchiRecentChangesAlias": "ArchiRecentChanges.i18n.alias.php"
