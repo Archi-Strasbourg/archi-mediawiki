@@ -63,6 +63,30 @@ function displayImages(){
 		}
     });
 }
+
+async function getArbreCategories($title){
+	const api= new mw.Api();
+	var categorie=await api.getCategories($title).done(function(data){
+		return data;
+	});
+	if(categorie.length>0){}
+	else {
+		return "wrong";
+	}
+	
+	if(categorie[0]['title']=='Pays'){
+		return [];
+	}
+	var tmp=[];
+	for(var i in categorie){
+		tmp=await getArbreCategories("Catégorie:"+categorie[i]['title']);
+		if(tmp!="wrong"){
+			return tmp.push(categorie[i]['title']);
+		}
+	}
+	return "wrong";
+}
+
 async function addRecentChanges($rccontinue){
 	var url = "https://www.archi-wiki.org/api.php";
 	var params ={
@@ -74,12 +98,10 @@ async function addRecentChanges($rccontinue){
 		rclimit: 20,
 		rccontinue: $rccontinue,
 		format: "json"
-	}
-	url = url + "?origin=*";
-	Object.keys(params).forEach(function(key){url += "&" + key + "=" + params[key];});
-	
-	await fetch(url)
-		.then(function(response){return response.json();})
+	};
+
+	const api= new mw.Api();
+	await api.get(params)
 		.then(async function(response) {
 			var recentchanges= response.query.recentchanges;
 			recentchanges.sort(function(a, b){if(new Date(a.timestamp) > new Date(b.timestamp)){return -1;}if(new Date(a.timestamp) < new Date(b.timestamp)){return 1;}return 0;});
@@ -88,16 +110,42 @@ async function addRecentChanges($rccontinue){
 					var $recentChangeContainer = $('<article class="latest-changes-recent-change-container" id="'+batch+'"></article>');
 					batch++;
 					var $recentChange = $('<article class="latest-changes-recent-change"></article>');
-					var $a=$('<a href="/'+recentchanges[rc].title+'"></a>');
 					var $h3 = $('<h3><span id="'+recentchanges[rc].title+'" class="mw-headline"></span></h3>').text(recentchanges[rc].title.replace(/(Adresse:|Personne:)/g, '').replace(/\(.*\)/, '')); //remove the namespace and the city name
 					$recentChange.append($h3);
 					
 
-					var prop=await fetch("https://www.archi-wiki.org/api.php?action=ask&query=[["+recentchanges[rc].title+"]]|?Image principale|?Adresse complète&format=json").then(function(response){return response.json();})
+					/*var categoryTree=[];
+					await api.getCategories(recentchanges[rc].title).done(async function(data){
+						for(var cat in data){
+							await api.getCategories("Catégorie:"+data[cat]['title']).done(async function(data2){
+								if(data2.length>0){
+
+									await api.getCategories("Catégorie:"+data2[0]['title']).done(async function(data3){
+										if(data3.length>0){
+											await api.getCategories("Catégorie:"+data3[0]['title']).done(async function(data4){
+												if(data4.length>0){
+													categoryTree.push(data[cat]['title']);
+													categoryTree.push(data2[0]['title']);
+													categoryTree.push(data3[0]['title']);
+													categoryTree.push(data4[0]['title']);
+													
+												}
+											});
+										}
+									});
+								}
+							});
+						}
+					});
+					console.log(categoryTree);
+					*/
+					console.log("145: "+await getArbreCategories(recentchanges[rc].title));
+					var prop=await api.get({action: "ask", query: "[["+recentchanges[rc].title+"]]|?Image principale|?Adresse complète", format: "json"})
 						.then(function(response) {
 							var results = response.query.results;
 							return results[recentchanges[rc].title];
 						}).catch(function(error){console.log(error);});
+
 					if(prop["printouts"]["Adresse complète"].length>0){
 						$recentChange.append($('<p></p>').text(prop["printouts"]["Adresse complète"][0]['fulltext']));
 					}
@@ -106,8 +154,12 @@ async function addRecentChanges($rccontinue){
 					} else {
 						var $image=prop["printouts"]["Image principale"][0]['fulltext'];
 					}
-					console.log(recentchanges[rc].title);
-					console.log($image);
+
+
+					await api.parse('[['+$image+'|thumb|left|100px]]').done(function(data){
+						$recentChange.append($(data).find('div').first().html());
+					});
+
 					
 					/*$.ajax({
 						url: "extensions/ArchiRecentChanges/addWikiTextAsContent.php",
@@ -135,7 +187,7 @@ async function addRecentChanges($rccontinue){
 $(document).ready(function(){
 
     //Put the image in the right place in ArchiRecentChanges
-    displayImages();
+    //displayImages();
     setTimeout(() => {
         dispatchRecentChanges();
     }, 500);
