@@ -21,6 +21,9 @@
     "ext.archirecentchanges": {
       "scripts": [
         "js/archirecentchanges.js"
+      ],
+      "messages":[
+        "readthis"
       ]
     }
   },
