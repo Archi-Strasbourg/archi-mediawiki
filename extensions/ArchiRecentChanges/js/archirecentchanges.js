@@ -56,9 +56,15 @@ async function getArbreCategories($title){
 	}
 	var tmp=[];
 	for(var i in categorie){
-		tmp=await getArbreCategories("Catégorie:"+categorie[i]['title']);
-		if(tmp!="wrong"){
-			return tmp.concat([categorie[i]['title']]);
+		
+		if (categorie[i]['title'].endsWith('(Structure)') || categorie[i]['title'].endsWith('(Courant_architectural)') || categorie[i]['title'].endsWith('(Type_d\'événement)')) {
+			continue; //skip les catégories qu'on ne veut pas (A ajouté si d'autres catégories automatique existent)
+		}
+		else{
+			tmp=await getArbreCategories("Catégorie:"+categorie[i]['title']);
+			if(tmp!="wrong"){
+				return tmp.concat([categorie[i]['title']]);
+			}
 		}
 	}
 	return "wrong";
@@ -81,22 +87,46 @@ async function addRecentChanges($rccontinue){
 	const api= new mw.Api();
 	await api.get(params)
 		.then(async function(response) {
+			var start=new Date().getTime();
 			var recentchanges= response.query.recentchanges;
 			recentchanges.sort(function(a, b){if(new Date(a.timestamp) > new Date(b.timestamp)){return -1;}if(new Date(a.timestamp) < new Date(b.timestamp)){return 1;}return 0;});
 			for (var rc in recentchanges) {
 				if(recentchanges[rc].title && recentchanges[rc].title!='Adresse: Bac à sable'){
 					var $recentChangeContainer = $('<article class="latest-changes-recent-change-container" id="'+batch+'"></article>');
+					$recentChangeContainer.css({
+						top: '100%',
+						left: '100%',
+					});
 					batch++;
 					var $recentChange = $('<article class="latest-changes-recent-change"></article>');
 					var $h3 = $('<h3><span id="'+recentchanges[rc].title+'" class="mw-headline"></span></h3>').text(recentchanges[rc].title.replace(/(Adresse:|Personne:)/g, '').replace(/\(.*\)/, '')); //remove the namespace and the city name
 					$recentChange.append($h3);
 
-					
-					var prop=await api.get({action: "ask", query: "[["+recentchanges[rc].title+"]]|?Image principale|?Adresse complète", format: "json"})
-						.then(function(response) {
-							var results = response.query.results;
-							return results[recentchanges[rc].title];
-						}).catch(function(error){console.log(error);});
+					var title=new mw.Title(recentchanges[rc].title);
+					var res=await Promise.allSettled([
+						api.get({action: "ask", query: "[["+recentchanges[rc].title+"]]|?Image principale|?Adresse complète", format: "json"}),
+						getArbreCategories(recentchanges[rc].title),
+						api.parse(title,{section:1})
+					]).catch(function(error){console.log(error);}); //await simultanéé pour économiser du temps
+
+					var prop=res[0].value.query.results[recentchanges[rc].title];
+
+					var catégories=res[1].value;
+
+					var htmlText=res[2].value;
+					var text=$('<p></p>');
+					$(htmlText).find('p').each(function(){
+						text.append($(this).html());
+					});
+					$(text).find('sup').remove();
+					$(text).find('a').contents().unwrap();
+					htmlText=$(text).text();
+					if(htmlText.length>120){
+						var trimmedText=htmlText.substring(0,120);
+						trimmedText = trimmedText.substring(0, Math.min(trimmedText.length, trimmedText.lastIndexOf(" "))); //dosen't cut a word
+						htmlText=trimmedText+"...";
+					}
+
 
 					if(prop["printouts"]["Adresse complète"].length>0){
 						$recentChange.append($('<p></p>').text(prop["printouts"]["Adresse complète"][0]['fulltext']));
@@ -107,7 +137,6 @@ async function addRecentChanges($rccontinue){
 						var $image=prop["printouts"]["Image principale"][0]['fulltext'];
 					}
 
-					var catégories=await getArbreCategories(recentchanges[rc].title);
 					if(catégories!="wrong"){
 						var stringCatégories='<a href="/catégorie:'+catégories[0]+'" title="Catégorie:'+catégories[0]+'">'+catégories[0]+'</a>';
 						if(catégories[1]){
@@ -119,39 +148,18 @@ async function addRecentChanges($rccontinue){
 						}
 						$recentChange.append(stringCatégories)
 					}
-					;
 
 					await api.parse('[['+$image+'|thumb|left|100px]]').done(function(data){
 						$recentChange.append($(data).find('div').first().html());
 					});
+
 
 					var date=new Date(recentchanges[rc].timestamp);
 
 					date=$('<p></p>').append($('<i></i>').text(date.getDay()+'/'+date.getMonth()+'/'+date.getFullYear()));
 					$recentChange.append(date);
 
-					var title=new mw.Title(recentchanges[rc].title);
-					await api.parse(title,{section:1}).done(function(data){
-						var text = $('<p></p>');
-
-						$(data).find('p').each(function() {
-							text.append($(this).html());
-						});
-						$(text).find('sup').remove();
-						$(text).find('a').contents().unwrap(); //remove links
-						text=$(text).text();
-						
-						
-						if(text.length>120){
-							var trimmedText = text.substring(0, 120);
-							trimmedText = trimmedText.substring(0, Math.min(trimmedText.length, trimmedText.lastIndexOf(" "))) //dosen't cut a word
-
-							$recentChange.append(trimmedText+'...');
-						}
-						else {
-							$recentChange.append(text);
-						}
-					});
+					$recentChange.append(htmlText);
 
 					$recentChange.append($('<p></p>').append($('<a></a>').attr('href', '/'+recentchanges[rc].title).attr('title',recentchanges[rc].title).text(mw.message('readthis').text())));
 					$recentChangeContainer.hide();
@@ -163,6 +171,7 @@ async function addRecentChanges($rccontinue){
 			}
 			$("#voir-plus").data('val', response.continue.rccontinue);
 			$("#voir-plus").show();
+			console.log("temps de chargement: "+(new Date().getTime()-start));
 		}).catch(function(error){console.log(error);});
 	
 	
@@ -197,7 +206,11 @@ function displayImage($elt){
 	
 }
 function orderOne($elt){
+	$elt.fadeIn(1000);
 	$elt.css({
+		"transition-property": 'top',
+		"transition-duration": '1s',
+		"transition-timing-function": 'ease-out',
 		left: width + 'px',
 		top: height[tmp] + 'px',
 		width: height.length==1 ? '100%' : (100/height.length) + '%'
@@ -212,7 +225,8 @@ function orderOne($elt){
 	$(".mw-special-ArchiRecentChanges #content").css({
 		height: (Math.max.apply(null,height) +100)+ 'px'
 	});
-	$elt.show();
+	
+	//$elt.show();
 }
 function orderAll(){
 	w=window.innerWidth;
@@ -242,6 +256,9 @@ function orderAll(){
 $(document).ready(function(){
 	$('.mw-special-ArchiRecentChanges .latest-changes-recent-change-container').each(function(){
 		$(this).hide();
+		$(this).css({
+			top: '100%'
+		});
 	});
 	orderAll();
 
