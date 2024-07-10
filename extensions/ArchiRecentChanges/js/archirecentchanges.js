@@ -206,11 +206,11 @@ function displayImage($elt){
 	
 }
 function orderOne($elt){
-	$elt.fadeIn(1000);
+	//$elt.fadeIn(1000);
 	$elt.css({
-		"transition-property": 'top',
-		"transition-duration": '1s',
-		"transition-timing-function": 'ease-out',
+		//"transition-property": 'top',
+		//"transition-duration": '1s',
+		//"transition-timing-function": 'ease-out',
 		left: width + 'px',
 		top: height[tmp] + 'px',
 		width: height.length==1 ? '100%' : (100/height.length) + '%'
@@ -226,7 +226,7 @@ function orderOne($elt){
 		height: (Math.max.apply(null,height) +100)+ 'px'
 	});
 	
-	//$elt.show();
+	$elt.show();
 }
 function orderAll(){
 	w=window.innerWidth;
