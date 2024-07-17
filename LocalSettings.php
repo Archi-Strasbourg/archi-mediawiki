@@ -114,6 +114,7 @@ wfLoadExtension('Flow');
 wfLoadExtension('Thanks');
 wfLoadExtension('SmiteSpam');
 wfLoadExtension('CodeMirror');
+wfLoadExtension( 'Collection' );
 wfLoadExtension('GTag');
 wfLoadExtension('GoogleCustomWikiSearch');
 wfLoadExtension('ContributionScores');
@@ -454,3 +455,4 @@ $egMapsGeoCacheType = CACHE_DB;
 
 // GTag
 $wgGTagAnalyticsId = 'G-CLE3C9XSV4';
+
