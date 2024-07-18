@@ -6,10 +6,14 @@
   "APIPropModules": {
     "archiDescription": {
       "class": "ArchiTweaks\\ApiQueryDescription"
+    },
+    "archiCategoryTree": {
+      "class": "ArchiTweaks\\ArchiCategoryTree"
     }
   },
   "AutoloadClasses": {
     "ArchiTweaks\\ApiQueryDescription": "ApiQueryDescription.php",
+    "ArchiTweaks\\ArchiCategoryTree": "ArchiCategoryTree.php",
     "ArchiTweaks\\Hooks": "Hooks.php",
     "ArchiTweaks\\SpecialRunQueryCache": "SpecialRunQueryCache.php",
     "ArchiTweaks\\CachedQuery": "CachedQuery.php",
