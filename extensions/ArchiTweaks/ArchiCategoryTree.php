@@ -56,7 +56,7 @@ class ArchiCategoryTree extends ApiQueryBase
                     'pages',
                     $id,
                 ],
-                'test',
+                'categories',
                 self::getCategoryTree($title)
             );
         }

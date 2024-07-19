@@ -1,3 +1,4 @@
+console.log("loaded");
 var w;
 var height;
 var tmp;
@@ -8,7 +9,7 @@ function dispatchRecentChanges($new=0){
 	w=window.innerWidth;
 
 	//make it responsive
-	if(w==1920/4){
+	if(w==1920){
 		height=[100,100,100,100,100];
 	}else if(w>((1920/4)*3)){
 		height=[100,100,100,100];
@@ -183,29 +184,29 @@ async function addRecentChanges($rccontinue){
 function displayImage($elt){
 	var $headerImage = $elt.find('a.image>img').first();
 	
-    	var $headerImageUrl=$headerImage.attr('src');
-    	if(typeof($headerImageUrl)!='undefined'){
-    	    let $ImageUrl;
-    	    if($headerImageUrl.substr(0, $headerImageUrl.lastIndexOf('thumb') >= 0)){
-    	        $headerImageUrl=$headerImageUrl.substr(0, $headerImageUrl.lastIndexOf('/'));
-    	        $ImageUrl=$headerImageUrl.replace(/\/thumb/,'');
-    	    }
-    	    else{
-    	        $ImageUrl=$headerImageUrl;
-    	    }
-    	    var url = $elt.find('p > a').attr('href');
+	var $headerImageUrl=$headerImage.attr('src');
+	if(typeof($headerImageUrl)!='undefined'){
+		var $ImageUrl;
+		if($headerImageUrl.substr(0, $headerImageUrl.lastIndexOf('thumb') >= 0)){
+			$headerImageUrl=$headerImageUrl.substr(0, $headerImageUrl.lastIndexOf('/'));
+			$ImageUrl=$headerImageUrl.replace(/\/thumb/,'');
+		}
+		else{
+			$ImageUrl=$headerImageUrl;
+		}
+		var url = $elt.find('p > a').attr('href');
 
-			var img=new Image();
-			img.onload=function(){orderOne($elt);};
-			img.src=$ImageUrl;
-			img.classList.add('header-image');
-			img.style.width='100%';
-			img.style.height='100%';
-			var $imageA=$('<a></a>').attr('href', url).append(img);
-    	    $elt.prepend($imageA);
-    	    $headerImage.parents('.thumb').hide();
-			$headerImage.parents('.thumbinner').hide();
-    	}
+		var img=new Image();
+		img.src=$ImageUrl;
+		img.classList.add('header-image');
+		img.style.width='100%';
+		img.style.height='100%';
+		img.onload=function(){orderOne($elt);};
+		var $imageA=$('<a></a>').attr('href', url).append(img);
+		$elt.prepend($imageA);
+		$headerImage.parents('.thumb').hide();
+		$headerImage.parents('.thumbinner').hide();
+	}
 	
 }
 function orderOne($elt){
@@ -255,8 +256,9 @@ function orderAll(){
 	});
 	
 }
-
+console.log("ArchiRecentChanges");
 $(document).ready(function(){
+	
 	$('.mw-special-ArchiRecentChanges .latest-changes-recent-change-container').each(function(){
 		$(this).hide();
 		$(this).css({
