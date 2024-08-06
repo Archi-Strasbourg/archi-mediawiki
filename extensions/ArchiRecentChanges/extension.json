@@ -24,6 +24,10 @@
       ],
       "messages":[
         "readthis"
+      ],
+      "targets": [
+        "desktop",
+        "mobile"
       ]
     }
   },

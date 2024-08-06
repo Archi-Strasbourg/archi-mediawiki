@@ -9,7 +9,7 @@ function dispatchRecentChanges($new=0){
 	w=window.innerWidth;
 
 	//make it responsive
-	if(w==1920){
+	if(w>1900){
 		height=[100,100,100,100,100];
 	}else if(w>((1920/4)*3)){
 		height=[100,100,100,100];
@@ -235,7 +235,7 @@ function orderOne($elt){
 function orderAll(){
 	w=window.innerWidth;
 	//make it responsive
-	if(w==1920/4){
+	if(w>1900){
 		height=[100,100,100,100,100];
 	}else if(w>((1920/4)*3)){
 		height=[100,100,100,100];

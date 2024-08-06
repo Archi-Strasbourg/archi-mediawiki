@@ -71,6 +71,7 @@ wfLoadExtension('VisualEditor');
 wfLoadExtension('TemplateData');
 wfLoadExtension('ArchiHome');
 wfLoadExtension('ArchiRecentChanges');
+wfLoadExtension('ArchiRecentChangesDev');
 wfLoadExtension('ArchiBlog');
 wfLoadExtension('ArchiComments');
 wfLoadExtension('ArchiFooter');
@@ -117,9 +118,17 @@ wfLoadExtension('CodeMirror');
 wfLoadExtension('GTag');
 wfLoadExtension('GoogleCustomWikiSearch');
 wfLoadExtension('ContributionScores');
+wfLoadExtension( 'Scribunto' );
+wfLoadExtension( 'CodeEditor' );
 wfLoadExtension('Parsoid', __DIR__ . '/vendor/wikimedia/parsoid/extension.json');
 
 /** @var $IP string */
+
+//Scribunto
+$wgScribuntoDefaultEngine = 'luastandalone';
+
+//CodeEditor
+$wgDefaultUserOptions['usebetatoolbar'] = 1; // user option provided by WikiEditor extension
 
 include_once __DIR__ . '/apikeys.php';
 //VisualEditor

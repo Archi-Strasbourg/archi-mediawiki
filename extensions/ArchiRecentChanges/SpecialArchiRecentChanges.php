@@ -397,7 +397,6 @@ class SpecialArchiRecentChanges extends SpecialPage
     public function execute($subPage)
     {
         global $wgOut;
-        $wgOut->addModules('ext.archirecentchanges.js');
         $wgOut->addModules('ext.archirecentchanges');
         $this->languageCode = RequestContext::getMain()->getLanguage()->getCode();
 
@@ -408,7 +407,7 @@ class SpecialArchiRecentChanges extends SpecialPage
 
         //Dernières modifications
         $addresses=$this->outputRecentChanges();
-        $output->addWikiTextAsInterface('[[Special:Modifications récentes|' . wfMessage('allrecentchanges')->parse() . ']]');
+        $output->addWikiTextAsInterface('[[Special:Modifications récentes|' . wfMessage('allrecentchangesPage')->parse() . ']]');
         $output->addHTML('<button id="voir-plus" class="mw-ui-button" style="position:absolute;bottom:10px;left:45%;" data-val="'.$addresses['continue']['rccontinue'].'">Voir plus</button>');
 
         $output->addHTML('</div>'); // End of Latest block
