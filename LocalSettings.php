@@ -71,7 +71,6 @@ wfLoadExtension('VisualEditor');
 wfLoadExtension('TemplateData');
 wfLoadExtension('ArchiHome');
 wfLoadExtension('ArchiRecentChanges');
-wfLoadExtension('ArchiRecentChangesDev');
 wfLoadExtension('ArchiBlog');
 wfLoadExtension('ArchiComments');
 wfLoadExtension('ArchiFooter');
