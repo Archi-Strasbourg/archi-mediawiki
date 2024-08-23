@@ -114,7 +114,6 @@ wfLoadExtension('Flow');
 wfLoadExtension('Thanks');
 wfLoadExtension('SmiteSpam');
 wfLoadExtension('CodeMirror');
-wfLoadExtension( 'Collection' );
 wfLoadExtension('GTag');
 wfLoadExtension('GoogleCustomWikiSearch');
 wfLoadExtension('ContributionScores');
