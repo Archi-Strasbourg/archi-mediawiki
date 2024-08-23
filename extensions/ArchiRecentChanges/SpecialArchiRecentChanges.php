@@ -214,9 +214,10 @@ class SpecialArchiRecentChanges extends SpecialPage
      * @throws MWException
      * @throws Exception
      */
-    private function outputRecentChanges()
+    public function outputRecentChanges($rccontinue=null)
     {
         $output = $this->getOutput();
+
 
 
         $addresses = $this->apiRequest(
@@ -226,9 +227,11 @@ class SpecialArchiRecentChanges extends SpecialPage
                 'rcnamespace' => NS_ADDRESS . '|' . NS_PERSON,
                 'rctoponly' => true,
                 'rcshow' => '!redirect',
-                'rclimit' => 50
+                'rclimit' => 20,
+                'rccontinue' => $rccontinue
             ]
         );
+
         $news = $this->apiRequest(
             [
                 'action' => 'query',
@@ -236,7 +239,8 @@ class SpecialArchiRecentChanges extends SpecialPage
                 'rcnamespace' => NS_ADDRESS_NEWS,
                 'rctoponly' => true,
                 'rcshow' => '!redirect',
-                'rclimit' => 50
+                'rclimit' => 20,
+                'rccontinue' => $rccontinue
             ]
         );
         foreach ($addresses['query']['recentchanges'] as &$address) {
@@ -262,7 +266,7 @@ class SpecialArchiRecentChanges extends SpecialPage
 
         $i = 0;
         foreach ($addresses['query']['recentchanges'] as $change) {
-            if ($i >= 50) {
+            if ($i >= 20) {
                 break;
             }
 
@@ -344,7 +348,7 @@ class SpecialArchiRecentChanges extends SpecialPage
                         ]
                     );
 
-                    $output->addHTML('<article class="latest-changes-recent-change-container">');
+                    $output->addHTML('<article class="latest-changes-recent-change-container batch1">');
                     $output->addHTML('<article class="latest-changes-recent-change">');
                     $wikitext = '=== ' . preg_replace('/\(.*\)/', '', $title->getBaseText()) . ' ===' . PHP_EOL;
                     $output->addWikiTextAsContent($wikitext);
@@ -369,7 +373,7 @@ class SpecialArchiRecentChanges extends SpecialPage
                 }
             }
         }
-        $output->addWikiTextAsInterface('[[Special:Modifications récentes|' . wfMessage('allrecentchanges')->parse() . ']]');
+        return $addresses;
     }
 
     /**
@@ -392,6 +396,8 @@ class SpecialArchiRecentChanges extends SpecialPage
      */
     public function execute($subPage)
     {
+        global $wgOut;
+        $wgOut->addModules('ext.archirecentchanges');
         $this->languageCode = RequestContext::getMain()->getLanguage()->getCode();
 
         $output = $this->getOutput();
@@ -400,7 +406,9 @@ class SpecialArchiRecentChanges extends SpecialPage
         $output->addHTML('<div class="latest-block">');
 
         //Dernières modifications
-        $this->outputRecentChanges();
+        $addresses=$this->outputRecentChanges();
+        $output->addWikiTextAsInterface('[[Special:Modifications récentes|' . wfMessage('allrecentchangesPage')->parse() . ']]');
+        $output->addHTML('<button id="voir-plus" class="mw-ui-button" style="position:absolute;bottom:10px;left:45%;" data-val="'.$addresses['continue']['rccontinue'].'">Voir plus</button>');
 
         $output->addHTML('</div>'); // End of Latest block
     }
