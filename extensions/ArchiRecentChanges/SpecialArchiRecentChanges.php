@@ -35,6 +35,9 @@ use User;
 class SpecialArchiRecentChanges extends SpecialPage
 {
     private $languageCode;
+    private $length;
+    private $sort;
+    private $endDate;
 
     /**
      * SpecialArchiRecentChanges constructor.
@@ -104,9 +107,6 @@ class SpecialArchiRecentChanges extends SpecialPage
      */
     public static function getCategoryTree(Title $title)
     {
-        if ($title->getNamespace() == NS_ADDRESS_NEWS) {
-            $title = Title::newFromText($title->getText(), NS_ADDRESS);
-        }
         $parenttree = $title->getParentCategoryTree();
         CategoryBreadcrumb::checkParentCategory($parenttree);
         CategoryBreadcrumb::checkTree($parenttree);
@@ -132,7 +132,7 @@ class SpecialArchiRecentChanges extends SpecialPage
      * @return int
      * @throws Exception
      */
-    private function sortChanges($a, $b)
+    private function sortChangesTime($a, $b)
     {
         $dateA = new DateTime($a['timestamp']);
         $dateB = new DateTime($b['timestamp']);
@@ -142,6 +142,18 @@ class SpecialArchiRecentChanges extends SpecialPage
         }
 
         return ($dateA > $dateB) ? -1 : 1;
+    }
+
+    private function sortChangesSize($a, $b)
+    {
+        $sizeA = abs(intval($a['newlen']) - intval($a['oldlen']));
+        $sizeB = abs(intval($b['newlen']) - intval($b['oldlen']));
+
+        if ($sizeA == $sizeB) {
+            return 0;
+        }
+
+        return ($sizeA > $sizeB) ? -1 : 1;
     }
 
     /**
@@ -209,66 +221,63 @@ class SpecialArchiRecentChanges extends SpecialPage
         return $result;
     }
 
+    public function findInArray($array, $id)
+    {
+        foreach ($array as $i => $item) {
+            if ($item['pageid'] == $id) {
+                return $i;
+            }
+        }
+        return -1;
+    }
+
     /**
      * @throws ConfigException
      * @throws MWException
      * @throws Exception
      */
-    public function outputRecentChanges($rccontinue=null)
+    public function outputRecentChanges()
     {
         $output = $this->getOutput();
         
         
+        $this->endDate = new DateTime();
+        $this->endDate->sub(new \DateInterval('P' . $this->length . 'D'));
 
         $addresses = $this->apiRequest(
             [
                 'action' => 'query',
                 'list' => 'recentchanges',
                 'rcnamespace' => NS_ADDRESS . '|' . NS_PERSON,
-                'rctoponly' => true,
-                'rcshow' => '!redirect',
-                'rclimit' => 20,
-                'rccontinue' => $rccontinue
+                'rcshow' => '!bot',
+                'rclimit' => 1000,
+                'rcend' => $this->endDate->format('c'),
+                'rcprop'      => 'title|timestamp|ids|sizes',
+                'rctype' => ($this->sort=='newOnly'?'new':'new|edit')
             ]
         );
-
-        $news = $this->apiRequest(
-            [
-                'action' => 'query',
-                'list' => 'recentchanges',
-                'rcnamespace' => NS_ADDRESS_NEWS,
-                'rctoponly' => true,
-                'rcshow' => '!redirect',
-                'rclimit' => 20,
-                'rccontinue' => $rccontinue
-            ]
-        );
-        foreach ($addresses['query']['recentchanges'] as &$address) {
-            foreach ($news['query']['recentchanges'] as &$article) {
-                if (isset($address['title']) && isset($article['title'])) {
-                    $addressTitle = Title::newFromText($address['title']);
-                    $articleTitle = Title::newFromText($article['title']);
-                    if ($addressTitle->getText() == $articleTitle->getText()) {
-                        $revisionLookup = MediaWikiServices::getInstance()->getRevisionLookup();
-                        $addressRev = $revisionLookup->getRevisionById($addressTitle->getLatestRevID());
-                        $articleRev = $revisionLookup->getRevisionById($articleTitle->getLatestRevID());
-                        if ($articleRev->getTimestamp() > $addressRev->getTimestamp()) {
-                            $parent = $address;
-                            $address = $article;
-                            $address['parent'] = $parent;
-                        }
-                    }
-                }
+        
+        // regroupe les modifications par page
+        $addresses2=[];
+        $addresses2['query']['recentchanges'][0]=$addresses['query']['recentchanges'][0];
+        foreach ($addresses['query']['recentchanges'] as $address) {
+            $indice=$this->findInArray($addresses2['query']['recentchanges'], $address['pageid']);
+            if($indice==-1){
+                $addresses2['query']['recentchanges'][]=$address;
+            } else {
+                $addresses2['query']['recentchanges'][$indice]['oldlen']=$address['oldlen'];
             }
         }
-        unset($addresses['query']['recentchanges']['_element']);
-        usort($addresses['query']['recentchanges'], [$this, 'sortChanges']);
+        array_pop($addresses2['query']['recentchanges']); // remove "rc" at the end, don't know why it's there
+        //$output->addHTML('<p>'.json_encode($addresses2).'</p>');
+        
+        
+        usort($addresses2['query']['recentchanges'], [$this, ($this->sort=='biggest'?'sortChangesSize':'sortChangesTime')]);
 
         $i = 0;
-        foreach ($addresses['query']['recentchanges'] as $change) {
-            if ($i >= 20) {
-                break;
-            }
+        $output->addHTML('<h3 class="batch" id="batch1">du ' .$this->endDate->format('d/m/Y'). ' au ' .(new DateTime())->format('d/m/Y').' : </h3>');
+        foreach ($addresses2['query']['recentchanges'] as $change) {
+            
 
             if (isset($change['title']) && $change['title'] != 'Adresse:Bac à sable') {
                 $title = Title::newFromText($change['title']);
@@ -351,10 +360,12 @@ class SpecialArchiRecentChanges extends SpecialPage
                     $output->addHTML('<article class="latest-changes-recent-change-container batch1">');
                     $output->addHTML('<article class="latest-changes-recent-change">');
                     $wikitext = '=== ' . preg_replace('/\(.*\)/', '', $title->getBaseText()) . ' ===' . PHP_EOL;
+                    
                     $output->addWikiTextAsContent($wikitext);
                     if (isset($properties['query']['results'][(string)$mainTitle]) && !empty($properties['query']['results'][(string)$mainTitle]['printouts']['Adresse complète'])) {
                         $output->addWikiTextAsContent($properties['query']['results'][(string)$mainTitle]['printouts']['Adresse complète'][0]['fulltext']);
                     }
+                    
                     $output->addHTML($this->getCategoryTree($mainTitle));
 
                     if (isset($properties['query']['results'][(string)$mainTitle]) && !empty($properties['query']['results'][(string)$mainTitle]['printouts']['Image principale'])) {
@@ -363,8 +374,12 @@ class SpecialArchiRecentChanges extends SpecialPage
                     }
 
                     $date = new DateTime($change['timestamp']);
-                    $output->addWikiTextAsContent("''" . $date->format('d/m/Y') . "''");
-
+                    $output->addWikiTextAsContent("''" . $date->format('d/m/Y H:i') . "''");
+                    $taille = intval($change['newlen']) - intval($change['oldlen']);
+                    if($change['oldlen']==0){
+                        $output->addHTML('<p style="color:green;font-weight:bold;">Nouvelle page !</p>');
+                    }
+                    $output->addHTML('<p style="font-size:0.9em;margin-bottom:15px;color:'.($taille>0?"green;":"red;").(abs($taille)>1000?"font-weight:bold;":"").'font-style: italic;">' . (abs($taille)) . ($taille>0?" nouveaux caractères":" caractères supprimés").'</p>');
                     $output->addHTML('<p>' . $extract . '</p>');
                     $wikitext = '[[' . $title->getFullText() . '|' . wfMessage('readthis')->parse() . ']]';
                     $wikitext = str_replace("\t\t\n", '', $wikitext);
@@ -396,6 +411,18 @@ class SpecialArchiRecentChanges extends SpecialPage
      */
     public function execute($subPage)
     {
+        if($_GET['length']==''){
+            $this->length='3';
+        } else {
+            $this->length=$_GET['length'];
+        }
+        if($_GET['sort']==''){
+            $this->sort='oldest';
+        } else {
+            $this->sort=$_GET['sort'];
+        }
+        $this->endDate = new DateTime();
+        $this->endDate->sub(new \DateInterval('P' . $this->length . 'D'));
         global $wgOut;
         $wgOut->addModules('ext.archirecentchanges');
         $this->languageCode = RequestContext::getMain()->getLanguage()->getCode();
@@ -403,12 +430,31 @@ class SpecialArchiRecentChanges extends SpecialPage
         $output = $this->getOutput();
         $this->setHeaders();
 
-        $output->addHTML('<div class="latest-block">');
+        $output->addHTML('<div class="latest-block" style="display:flex;flex-direction:column;">');
 
         //Dernières modifications
         $addresses=$this->outputRecentChanges();
         $output->addWikiTextAsInterface('[[Special:Modifications récentes|' . wfMessage('allrecentchangesPage')->parse() . ']]');
-        $output->addHTML('<button id="voir-plus" class="mw-ui-button" style="position:absolute;bottom:10px;left:45%;" data-val="'.$addresses['continue']['rccontinue'].'">Voir plus</button>');
+        
+        $output->addHTML('<button id="voir-plus" class="mw-ui-button" style="position:absolute;bottom:10px;left:45%;" data-sort="'.$this->sort.'" data-length="'.$this->length.'" data-dateEnd="'.$this->endDate->format('c').'">Voir la prochaine periode</button>');
+        $output->addHTML('<form action="#" method="get" style="display:flex;align-items:baseline">
+                            <label for="sort">Trier par </label>
+                            <select name="sort" id="sort" style="width:unset;margin:0px 10px;">
+                                <option value="biggest" ' . ($this->sort == 'biggest' ? 'selected' : '') . '>tailles décroissante de modification</option>
+                                <option value="oldest" ' . ($this->sort == 'oldest' ? 'selected' : '') . '>date décroissante de modification</option>
+                                <option value="newOnly" ' . ($this->sort == 'newOnly' ? 'selected' : '') . '>nouvelles pages uniquement</option>
+                            </select>
+                            <label for="length">sur la période </label>
+                            <select name="length" id="length" style="width:unset;margin:0px 10px;">
+                                <option value="1" ' . ($this->length == '1' ? 'selected' : '') . '>dernières 24h</option>
+                                <option value="3" ' . ($this->length == '3' ? 'selected' : '') . '>derniers 3 jours</option>
+                                <option value="7" ' . ($this->length == '7' ? 'selected' : '') . '> dernière semaine</option>
+                            </select>
+                            
+                            <input type="submit" value="Valider">
+                        </form>');
+        
+        
 
         $output->addHTML('</div>'); // End of Latest block
     }

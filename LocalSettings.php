@@ -52,6 +52,8 @@ $wgGroupPermissions['*']['edit'] = false;
 $wgGroupPermissions['user']['edit'] = true;
 $wgGroupPermissions['*']['createpage'] = false;
 $wgGroupPermissions['user']['createpage'] = true;
+//Custom group for alerte mail exclusion
+$wgGroupPermissions['noAlerteMail']=$wgGroupPermissions['user'];
 
 //Extensions
 wfLoadSkin('archi-wiki');

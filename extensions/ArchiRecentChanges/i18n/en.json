@@ -1,16 +1,5 @@
 {
 	"archirecentchanges": "Recent changes",
-	"featured": "Featured article",
 	"readthis": "Read this article",
-	"search-placeholder": "Address, street or building name",
-	"read": "Read",
-	"othernews": "Read the other editorials",
-	"recentcontributions": "Recent contributions",
-	"allrecentchangesPage": "Got to the list of all recent changes",
-	"recentcomments": "Recent comments",
-	"allrecentcomments": "All recent comments",
-	"lastblog": "Latest editorial:",
-	"searchdesc": "Search through our $1 addresses and $2 images:",
-	"advancedsearch": "Advanced search",
-	"readthiscomment": "Read this comment"
+	"allrecentchangesPage": "Got to the list of all recent changes"
 }

@@ -1,44 +1,39 @@
 console.log("loaded");
 var w;
-var height;
+var height=[];
 var tmp;
 var width;
-var batch=0;
+var defaultHeight=180;
+var batch=1;
+
 function dispatchRecentChanges($new=0){
 	//fill the screen with columns of images
 	w=window.innerWidth;
-
-	//make it responsive
-	if(w>1900){
-		height=[100,100,100,100,100];
-	}else if(w>((1920/4)*3)){
-		height=[100,100,100,100];
-	} else if(w>((1920/4)*2)){
-		height=[100,100,100];
-	} else if(w>((1920/4)*1)){
-		height=[100,100];
-	} else {
-		height=[100];
-	}
-	tmp=0;
-	width=0;
-	$('.mw-special-ArchiRecentChanges .latest-changes-recent-change-container').each(function(){
+	defaultHeight=180;
+	$(".batch").each(function(){
 		$(this).css({
-			left: width + 'px',
-			top: height[tmp] + 'px',
-			width: height.length==1 ? '100%' : (100/height.length) + '%'
+			position: 'absolute',
+			top: defaultHeight+'px',
+			left: '0px'
 		});
-		height[tmp]+=$(this).outerHeight();
-		width+=$(this).outerWidth();
-		tmp++;
-		if(tmp==height.length){
-			tmp=0;
-			width=0;
+		defaultHeight+=$(this).outerHeight();
+		//make it responsive
+		if(w>1900){
+			height=[defaultHeight,defaultHeight,defaultHeight,defaultHeight,defaultHeight];
+		}else if(w>((1920/4)*3)){
+			height=[defaultHeight,defaultHeight,defaultHeight,defaultHeight];
+		} else if(w>((1920/4)*2)){
+			height=[defaultHeight,defaultHeight,defaultHeight];
+		} else if(w>((1920/4)*1)){
+			height=[defaultHeight,defaultHeight];
+		} else {
+			height=[defaultHeight];
 		}
-	});
-	//set the height of the screen
-	$(".mw-special-ArchiRecentChanges #content").css({
-		height: (Math.max.apply(null,height) +100)+ 'px'
+		tmp=0;
+		width=0;
+		$('.'+$(this).attr('id')).each(function(){
+			orderOne($(this));
+		});
 	});
 }
 
@@ -74,46 +69,104 @@ async function getArbreCategories($title){
 	return "wrong";
 }
 
-async function addRecentChanges($rccontinue){
+function findInArray($array, $id){
+	for (var i = 0; i < $array.length; i++) {
+		if ($array[i]['pageid'] == $id) {
+			return i;
+		}
+	}
+	return -1;
+}
+
+async function addRecentChanges($startDate, $sort, $length){
 	$("#voir-plus").hide();
 	var url = "https://www.archi-wiki.org/api.php";
+	var endDate = new Date($startDate);
+	endDate.setDate(endDate.getDate() - $length);
 	var params ={
 		action: "query",
 		list: "recentchanges",
 		rcnamespace: "4000|4006",
-		rctoponly: true,
-		rcshow: '!redirect',
-		rclimit: 20,
-		rccontinue: $rccontinue,
+		rcshow: '!bot',
+		rcstart: $startDate,
+		rcend: endDate.toISOString(),
+		rcprop: "title|timestamp|ids|sizes",
+		rclimit: 1000,
+		rctype: ($sort=="newOnly"?"new":"new|edit"),
 		format: "json"
 	};
+	batch++;
+	var options = { year: 'numeric', month: '2-digit', day: '2-digit' };
+	var startDate = new Date($startDate);
+	var $section=$('<h3 class="batch" id="batch'+batch+'">du '+endDate.toLocaleDateString('fr-FR',options)+' au ' +startDate.toLocaleDateString('fr-FR',options)+ ' : </h3>');
+	$section.css({
+		position: 'absolute',
+		top: defaultHeight+'px',
+		left: '0px',
+	});
+	$(".latest-block").append($section);
+	
+	defaultHeight+=$section.outerHeight();
+
+	w=window.innerWidth;
+	//make it responsive
+	if(w>1900){
+		height=[defaultHeight,defaultHeight,defaultHeight,defaultHeight,defaultHeight];
+	}else if(w>((1920/4)*3)){
+		height=[defaultHeight,defaultHeight,defaultHeight,defaultHeight];
+	} else if(w>((1920/4)*2)){
+		height=[defaultHeight,defaultHeight,defaultHeight];
+	} else if(w>((1920/4)*1)){
+		height=[defaultHeight,defaultHeight];
+	} else {
+		height=[defaultHeight];
+	}
+	tmp=0;
+	width=0;
 
 	const api= new mw.Api();
 	await api.get(params)
 		.then(async function(response) {
 			var start=new Date().getTime();
 			var recentchanges= response.query.recentchanges;
-			recentchanges.sort(function(a, b){if(new Date(a.timestamp) > new Date(b.timestamp)){return -1;}if(new Date(a.timestamp) < new Date(b.timestamp)){return 1;}return 0;});
-			for (var rc in recentchanges) {
-				if(recentchanges[rc].title && recentchanges[rc].title!='Adresse: Bac à sable'){
-					var $recentChangeContainer = $('<article class="latest-changes-recent-change-container" id="'+batch+'"></article>');
+
+			
+			var recentchanges2 = [];
+			for (var i = 0; i < recentchanges.length; i++) {
+				var address = recentchanges[i];
+				var indice = findInArray(recentchanges2, address['pageid']);
+				if (indice == -1) {
+					recentchanges2.push(address);
+				} else {
+					recentchanges2[indice]['oldlen'] = address['oldlen'];
+				}
+			}
+
+
+			if($sort=="biggest"){
+				recentchanges2.sort(function(a, b){if(Math.abs(parseInt(a.newlen)-parseInt(a.oldlen)) > Math.abs(parseInt(b.newlen)-parseInt(b.oldlen))){return -1;}if(Math.abs(parseInt(a.newlen)-parseInt(a.oldlen)) < Math.abs(parseInt(b.newlen)-parseInt(b.oldlen))){return 1;}return 0;});
+			} else {
+				recentchanges2.sort(function(a, b){if(new Date(a.timestamp) > new Date(b.timestamp)){return -1;}if(new Date(a.timestamp) < new Date(b.timestamp)){return 1;}return 0;});
+			}
+			for (var rc in recentchanges2) {
+				if(recentchanges2[rc].title && recentchanges2[rc].title!='Adresse: Bac à sable'){
+					var $recentChangeContainer = $('<article class="latest-changes-recent-change-container batch'+batch+'"></article>');
 					$recentChangeContainer.css({
 						top: '100%',
 						left: '100%',
 					});
-					batch++;
 					var $recentChange = $('<article class="latest-changes-recent-change"></article>');
-					var $h3 = $('<h3><span id="'+recentchanges[rc].title+'" class="mw-headline"></span></h3>').text(recentchanges[rc].title.replace(/(Adresse:|Personne:)/g, '').replace(/\(.*\)/, '')); //remove the namespace and the city name
+					var $h3 = $('<h3><span id="'+recentchanges2[rc].title+'" class="mw-headline"></span></h3>').text(recentchanges2[rc].title.replace(/(Adresse:|Personne:)/g, '').replace(/\(.*\)/, '')); //remove the namespace and the city name
 					$recentChange.append($h3);
 
-					var title=new mw.Title(recentchanges[rc].title);
+					var title=new mw.Title(recentchanges2[rc].title);
 					var res=await Promise.allSettled([
-						api.get({action: "ask", query: "[["+recentchanges[rc].title+"]]|?Image principale|?Adresse complète", format: "json"}),
-						getArbreCategories(recentchanges[rc].title),
+						api.get({action: "ask", query: "[["+recentchanges2[rc].title+"]]|?Image principale|?Adresse complète", format: "json"}),
+						getArbreCategories(recentchanges2[rc].title),
 						api.parse(title,{section:1})
 					]).catch(function(error){console.log(error);}); //await simultanéé pour économiser du temps
 
-					var prop=res[0].value.query.results[recentchanges[rc].title];
+					var prop=res[0].value.query.results[recentchanges2[rc].title];
 
 					var catégories=res[1].value;
 
@@ -131,14 +184,15 @@ async function addRecentChanges($rccontinue){
 						htmlText=trimmedText+"...";
 					}
 
-
-					if(prop["printouts"]["Adresse complète"].length>0){
-						$recentChange.append($('<p></p>').text(prop["printouts"]["Adresse complète"][0]['fulltext']));
-					}
-					if(prop["printouts"]["Image principale"].length==0){
-						var $image="Fichier:Image-manquante.jpg"
-					} else {
-						var $image=prop["printouts"]["Image principale"][0]['fulltext'];
+					if(prop!=undefined){
+						if(prop["printouts"]["Adresse complète"].length>0){
+							$recentChange.append($('<p></p>').text(prop["printouts"]["Adresse complète"][0]['fulltext']));
+						}
+						if(prop["printouts"]["Image principale"].length==0){
+							var $image="Fichier:Image-manquante.jpg"
+						} else {
+							var $image=prop["printouts"]["Image principale"][0]['fulltext'];
+						}
 					}
 
 					if(catégories!="wrong"){
@@ -158,14 +212,18 @@ async function addRecentChanges($rccontinue){
 					});
 
 
-					var date=new Date(recentchanges[rc].timestamp);
-
-					date=$('<p></p>').append($('<i></i>').text(date.getDay()+'/'+date.getMonth()+'/'+date.getFullYear()));
+					var date=new Date(recentchanges2[rc].timestamp);
+					date=$('<p></p>').append($('<i></i>').text(date.getDate()+'/'+(date.getMonth()+1)+'/'+date.getFullYear()+" "+date.getHours()+":"+date.getMinutes()));
 					$recentChange.append(date);
 
+					var taille=parseInt(recentchanges2[rc].newlen)-parseInt(recentchanges2[rc].oldlen);
+					if(recentchanges2[rc].oldlen=="0"){
+						$recentChange.append($('<p style="color:green;font-weight:bold;">Nouvelle page !</p>'));
+					}
+					$recentChange.append($('<p style="font-size:0.9em;margin-bottom:15px;color:'+(taille>0?"green;":"red;")+(Math.abs(taille)>1000?"font-weight:bold;":"")+'font-style: italic;">' + (Math.abs(taille)) + (taille>0?" nouveaux caractères":" caractères supprimés")+'</p>'));
 					$recentChange.append(htmlText);
 
-					$recentChange.append($('<p></p>').append($('<a></a>').attr('href', '/'+recentchanges[rc].title).attr('title',recentchanges[rc].title).text(mw.message('readthis').text())));
+					$recentChange.append($('<p></p>').append($('<a></a>').attr('href', '/'+recentchanges2[rc].title).attr('title',recentchanges2[rc].title).text(mw.message('readthis').text())));
 					$recentChangeContainer.hide();
 					$recentChangeContainer.append($recentChange);
 					$(".latest-block").append($recentChangeContainer);
@@ -173,7 +231,7 @@ async function addRecentChanges($rccontinue){
 					
 				}
 			}
-			$("#voir-plus").data('val', response.continue.rccontinue);
+			$("#voir-plus").data('dateend', endDate.toISOString());
 			$("#voir-plus").show();
 			console.log("temps de chargement: "+(new Date().getTime()-start));
 		}).catch(function(error){console.log(error);});
@@ -229,30 +287,37 @@ function orderOne($elt){
 	$(".mw-special-ArchiRecentChanges #content").css({
 		height: (Math.max.apply(null,height) +100)+ 'px'
 	});
-	
+	defaultHeight=Math.max.apply(null,height);
 	//$elt.show();
 }
 function orderAll(){
-	w=window.innerWidth;
-	//make it responsive
-	if(w>1900){
-		height=[100,100,100,100,100];
-	}else if(w>((1920/4)*3)){
-		height=[100,100,100,100];
-	} else if(w>((1920/4)*2)){
-		height=[100,100,100];
-	} else if(w>((1920/4)*1)){
-		height=[100,100];
-	} else {
-		height=[100];
-	}
-	tmp=0;
-	width=0;
-	$('.mw-special-ArchiRecentChanges .latest-changes-recent-change-container').each(function(){
-		displayImage($(this));
-		$(this).id=batch;
-		batch++;
+	$('.batch').each(function(){
+		$(this).css({
+			position: 'absolute',
+			top: defaultHeight+'px',
+			left: '0px'
+		});
+		defaultHeight+=$(this).outerHeight();
+		w=window.innerWidth;
+		//make it responsive
+		if(w>1900){
+			height=[defaultHeight,defaultHeight,defaultHeight,defaultHeight,defaultHeight];
+		}else if(w>((1920/4)*3)){
+			height=[defaultHeight,defaultHeight,defaultHeight,defaultHeight];
+		} else if(w>((1920/4)*2)){
+			height=[defaultHeight,defaultHeight,defaultHeight];
+		} else if(w>((1920/4)*1)){
+			height=[defaultHeight,defaultHeight];
+		} else {
+			height=[defaultHeight];
+		}
+		tmp=0;
+		width=0;
+		console.log($(this).attr('id'));
+		$('.'+$(this).attr('id')).each(function(){
+			displayImage($(this));
 
+		});
 	});
 	
 }
@@ -272,6 +337,6 @@ $(document).ready(function(){
     },true);
 	
 	$("#voir-plus").click(function(){
-		addRecentChanges($(this).data('val'));
+		addRecentChanges($(this).data('dateend'),$(this).data('sort'),$(this).data('length'));
 	});
 });
