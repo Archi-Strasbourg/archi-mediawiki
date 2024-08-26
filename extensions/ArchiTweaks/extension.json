@@ -11,9 +11,15 @@
       "class": "ArchiTweaks\\ArchiCategoryTree"
     }
   },
+  "APIModules":{
+    "RemoveAlerte": {
+      "class": "ArchiTweaks\\RemoveAlerte"
+    }
+  },
   "AutoloadClasses": {
     "ArchiTweaks\\ApiQueryDescription": "ApiQueryDescription.php",
     "ArchiTweaks\\ArchiCategoryTree": "ArchiCategoryTree.php",
+    "ArchiTweaks\\RemoveAlerte": "RemoveAlerte.php",
     "ArchiTweaks\\Hooks": "Hooks.php",
     "ArchiTweaks\\SpecialRunQueryCache": "SpecialRunQueryCache.php",
     "ArchiTweaks\\CachedQuery": "CachedQuery.php",
