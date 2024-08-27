@@ -464,3 +464,4 @@ $egMapsGeoCacheType = CACHE_DB;
 
 // GTag
 $wgGTagAnalyticsId = 'G-CLE3C9XSV4';
+

@@ -1,0 +1,20 @@
+{
+  "name": "archi-strasbourg/archi-recent-changes",
+  "description": "Custom pages for archi-wiki.org that display a pinterest style list of recent changes",
+  "license": "GPL-3.0-only",
+  "require": {
+    "mediawiki/text-extracts": "dev-REL1_35"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.bluespice.com/"
+    }
+  ],
+  "type": "mediawiki-extension",
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}

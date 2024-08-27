@@ -240,12 +240,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "001fa96faa5a617b3cfe48f81904a9bd3bf5721c"
+                "reference": "1f554e53d04c8bc0f06b72ac2803558edb3f6ab4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/001fa96faa5a617b3cfe48f81904a9bd3bf5721c",
-                "reference": "001fa96faa5a617b3cfe48f81904a9bd3bf5721c",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/1f554e53d04c8bc0f06b72ac2803558edb3f6ab4",
+                "reference": "1f554e53d04c8bc0f06b72ac2803558edb3f6ab4",
                 "shasum": ""
             },
             "require-dev": {
@@ -274,7 +274,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/issues",
                 "source": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/tree/master"
             },
-            "time": "2024-05-16T09:21:29+00:00"
+            "time": "2024-08-20T12:19:20+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
@@ -2008,12 +2008,12 @@
             "version": "5.2.11",
             "source": {
                 "type": "git",
-                "url": "https://github.com/justinrainbow/json-schema.git",
+                "url": "https://github.com/jsonrainbow/json-schema.git",
                 "reference": "2ab6744b7296ded80f8cc4f9509abbff393399aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/2ab6744b7296ded80f8cc4f9509abbff393399aa",
+                "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/2ab6744b7296ded80f8cc4f9509abbff393399aa",
                 "reference": "2ab6744b7296ded80f8cc4f9509abbff393399aa",
                 "shasum": ""
             },
@@ -2068,8 +2068,8 @@
                 "schema"
             ],
             "support": {
-                "issues": "https://github.com/justinrainbow/json-schema/issues",
-                "source": "https://github.com/justinrainbow/json-schema/tree/5.2.11"
+                "issues": "https://github.com/jsonrainbow/json-schema/issues",
+                "source": "https://github.com/jsonrainbow/json-schema/tree/5.2.11"
             },
             "time": "2021-07-22T09:24:00+00:00"
         },
@@ -2311,16 +2311,16 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.39.7",
+            "version": "1.39.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "3324d89080922a0853b23e0019ad3a48a4ff389a"
+                "reference": "fbca4024d261b040478cbb142ff08989d668e5f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/3324d89080922a0853b23e0019ad3a48a4ff389a",
-                "reference": "3324d89080922a0853b23e0019ad3a48a4ff389a",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/fbca4024d261b040478cbb142ff08989d668e5f2",
+                "reference": "fbca4024d261b040478cbb142ff08989d668e5f2",
                 "shasum": ""
             },
             "require": {
@@ -2365,11 +2365,11 @@
                 "wikimedia/html-formatter": "4.0.3",
                 "wikimedia/ip-set": "3.1.0",
                 "wikimedia/ip-utils": "4.0.0",
-                "wikimedia/less.php": "3.1.0",
+                "wikimedia/less.php": "3.2.1",
                 "wikimedia/minify": "2.3.0",
                 "wikimedia/normalized-exception": "1.0.1",
                 "wikimedia/object-factory": "4.0.0",
-                "wikimedia/parsoid": "0.16.3",
+                "wikimedia/parsoid": "0.16.4",
                 "wikimedia/php-session-serializer": "2.0.1",
                 "wikimedia/purtle": "1.0.8",
                 "wikimedia/relpath": "3.0.0",
@@ -2404,10 +2404,10 @@
                 "php-parallel-lint/php-console-highlighter": "0.5",
                 "php-parallel-lint/php-parallel-lint": "1.3.1",
                 "phpunit/phpunit": "^8.5",
-                "psy/psysh": "^0.11.1",
+                "psy/psysh": "^0.12.3",
                 "seld/jsonlint": "1.8.3",
                 "wikimedia/alea": "^0.9.3",
-                "wikimedia/testing-access-wrapper": "~2.0",
+                "wikimedia/testing-access-wrapper": "^3.0.0",
                 "wmde/hamcrest-html-matchers": "^1.0.0"
             },
             "suggest": {
@@ -2463,11 +2463,11 @@
             "support": {
                 "irc": "irc://irc.libera.chat/mediawiki",
                 "issues": "https://bugs.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.39.7",
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.39.8",
                 "wiki": "https://www.mediawiki.org/"
             },
             "abandoned": true,
-            "time": "2024-03-28T21:53:15+00:00"
+            "time": "2024-06-27T12:11:23+00:00"
         },
         {
             "name": "mediawiki/dismissable-site-notice",
@@ -5205,20 +5205,20 @@
         },
         {
             "name": "psr/http-factory",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-factory.git",
-                "reference": "e616d01114759c4c489f93b099585439f795fe35"
+                "reference": "2b4765fddfe3b508ac62f829e852b1501d3f6e8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/e616d01114759c4c489f93b099585439f795fe35",
-                "reference": "e616d01114759c4c489f93b099585439f795fe35",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
+                "reference": "2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0.0",
+                "php": ">=7.1",
                 "psr/http-message": "^1.0 || ^2.0"
             },
             "type": "library",
@@ -5242,7 +5242,7 @@
                     "homepage": "https://www.php-fig.org/"
                 }
             ],
-            "description": "Common interfaces for PSR-7 HTTP message factories",
+            "description": "PSR-17: Common interfaces for PSR-7 HTTP message factories",
             "keywords": [
                 "factory",
                 "http",
@@ -5254,9 +5254,9 @@
                 "response"
             ],
             "support": {
-                "source": "https://github.com/php-fig/http-factory/tree/1.0.2"
+                "source": "https://github.com/php-fig/http-factory"
             },
-            "time": "2023-04-10T20:10:41+00:00"
+            "time": "2024-04-15T12:06:14+00:00"
         },
         {
             "name": "psr/http-message",
@@ -5789,16 +5789,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v2.5.2",
+            "version": "v2.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "e8b495ea28c1d97b5e0c121748d6f9b53d075c66"
+                "reference": "80d075412b557d41002320b96a096ca65aa2c98d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/e8b495ea28c1d97b5e0c121748d6f9b53d075c66",
-                "reference": "e8b495ea28c1d97b5e0c121748d6f9b53d075c66",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/80d075412b557d41002320b96a096ca65aa2c98d",
+                "reference": "80d075412b557d41002320b96a096ca65aa2c98d",
                 "shasum": ""
             },
             "require": {
@@ -5836,7 +5836,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.2"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.3"
             },
             "funding": [
                 {
@@ -5852,20 +5852,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-02T09:53:40+00:00"
+            "time": "2023-01-24T14:02:46+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.29.0",
+            "version": "v1.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "21bd091060673a1177ae842c0ef8fe30893114d2"
+                "reference": "ec444d3f3f6505bb28d11afa41e75faadebc10a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/21bd091060673a1177ae842c0ef8fe30893114d2",
-                "reference": "21bd091060673a1177ae842c0ef8fe30893114d2",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/ec444d3f3f6505bb28d11afa41e75faadebc10a1",
+                "reference": "ec444d3f3f6505bb28d11afa41e75faadebc10a1",
                 "shasum": ""
             },
             "require": {
@@ -5912,7 +5912,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/v1.29.0"
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.30.0"
             },
             "funding": [
                 {
@@ -5928,7 +5928,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-29T20:11:03+00:00"
+            "time": "2024-05-31T15:07:36+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
@@ -6916,26 +6916,27 @@
         },
         {
             "name": "wikimedia/less.php",
-            "version": "v3.1.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/less.php.git",
-                "reference": "a486d78b9bd16b72f237fc6093aa56d69ce8bd13"
+                "reference": "0d5b30ba792bdbf8991a646fc9c30561b38a5559"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/less.php/zipball/a486d78b9bd16b72f237fc6093aa56d69ce8bd13",
-                "reference": "a486d78b9bd16b72f237fc6093aa56d69ce8bd13",
+                "url": "https://api.github.com/repos/wikimedia/less.php/zipball/0d5b30ba792bdbf8991a646fc9c30561b38a5559",
+                "reference": "0d5b30ba792bdbf8991a646fc9c30561b38a5559",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.9"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "34.0.0",
-                "mediawiki/minus-x": "1.0.0",
-                "php-parallel-lint/php-console-highlighter": "0.5.0",
-                "php-parallel-lint/php-parallel-lint": "1.2.0",
+                "mediawiki/mediawiki-codesniffer": "40.0.1",
+                "mediawiki/mediawiki-phan-config": "0.12.0",
+                "mediawiki/minus-x": "1.1.1",
+                "php-parallel-lint/php-console-highlighter": "1.0.0",
+                "php-parallel-lint/php-parallel-lint": "1.3.2",
                 "phpunit/phpunit": "^8.5"
             },
             "bin": [
@@ -6956,6 +6957,10 @@
             ],
             "authors": [
                 {
+                    "name": "Timo Tijhof",
+                    "homepage": "https://timotijhof.net"
+                },
+                {
                     "name": "Josh Schmidt",
                     "homepage": "https://github.com/oyejorge"
                 },
@@ -6968,7 +6973,8 @@
                     "homepage": "https://github.com/Mordred"
                 }
             ],
-            "description": "PHP port of the Javascript version of LESS http://lesscss.org (Originally maintained by Josh Schmidt)",
+            "description": "PHP port of the LESS processor",
+            "homepage": "https://gerrit.wikimedia.org/g/mediawiki/libs/less.php",
             "keywords": [
                 "css",
                 "less",
@@ -6979,9 +6985,9 @@
             ],
             "support": {
                 "issues": "https://github.com/wikimedia/less.php/issues",
-                "source": "https://github.com/wikimedia/less.php/tree/v3.1.0"
+                "source": "https://github.com/wikimedia/less.php/tree/v3.2.1"
             },
-            "time": "2020-12-11T19:33:31+00:00"
+            "time": "2023-02-03T06:43:41+00:00"
         },
         {
             "name": "wikimedia/lucene-explain-parser",
@@ -7201,16 +7207,16 @@
         },
         {
             "name": "wikimedia/parsoid",
-            "version": "v0.16.3",
+            "version": "v0.16.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-services-parsoid.git",
-                "reference": "715011a9496b9084245009f80ec4ed206d7a48b8"
+                "reference": "31553436c0c0fa99518c2de524c0adb3c256a6fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-services-parsoid/zipball/715011a9496b9084245009f80ec4ed206d7a48b8",
-                "reference": "715011a9496b9084245009f80ec4ed206d7a48b8",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-services-parsoid/zipball/31553436c0c0fa99518c2de524c0adb3c256a6fb",
+                "reference": "31553436c0c0fa99518c2de524c0adb3c256a6fb",
                 "shasum": ""
             },
             "require": {
@@ -7277,10 +7283,10 @@
             ],
             "support": {
                 "irc": "irc://irc.libera.chat/mediawiki-parsoid",
-                "source": "https://github.com/wikimedia/mediawiki-services-parsoid/tree/v0.16.3",
+                "source": "https://github.com/wikimedia/mediawiki-services-parsoid/tree/v0.16.4",
                 "wiki": "https://www.mediawiki.org/wiki/Parsoid"
             },
-            "time": "2024-02-12T22:02:43+00:00"
+            "time": "2024-04-06T01:32:49+00:00"
         },
         {
             "name": "wikimedia/php-session-serializer",
