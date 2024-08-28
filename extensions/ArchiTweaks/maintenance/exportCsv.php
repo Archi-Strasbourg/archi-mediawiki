@@ -35,7 +35,7 @@ class ExportCsv extends Maintenance
                 '[[Type::Adresse]]' .
                 '|?Adresse complète' .
                 '|?Adresse' .
-                '|?Numéro de rue' .
+                '|?Numéro' .
                 '|?Ville' .
                 '|?Pays' .
                 '|?Coordonnées' .
@@ -43,8 +43,6 @@ class ExportCsv extends Maintenance
                 '|?Événement' .
                 '|?Personne' .
                 '|?Inscription' .
-                '|?Langue' .
-                '|?Source' .
                 '|format=csv' .
                 '|mainlabel=Titre' .
                 '|limit=' . $limit .
@@ -184,11 +182,14 @@ class ExportCsv extends Maintenance
                     // On a besoin des dates des événements.
                     $dates = [];
                     foreach ($this->explodeEscaped(',', $row[8]) as $event) {
-                        $eventInfo = explode(';', $event);
-                        if (isset($eventInfo[1])) {
-                            $dates[] = trim(stripcslashes($eventInfo[1]));
+                        $eventInfo = explode('(', $event)[1];
+                        $eventInfo= explode(',', $eventInfo);
+                        if (isset($eventInfo[0])) {
+                            $dates[] = trim(stripcslashes($eventInfo[0]));
                         }
                     }
+
+                    
 
                     foreach ($content->getParserOutput($title, null, null, false)->getSections() as $section) {
                         if ($section['toclevel'] == 1) {
@@ -200,7 +201,12 @@ class ExportCsv extends Maintenance
 
                                 // On ne prend que les sections correspondant à un événement.
                                 if (in_array($date, $dates)) {
+                                    // Extraction du wikicode
+                                    $text = $content->getSection($section['index'])->getWikitextForTransclusion();
+
+                                    //ancienne méthode :
                                     // Extraction du texte brut.
+                                    /*
                                     $output = $content->getSection($section['index'])->getParserOutput($title, null, null, false);
                                     $formatter = new ExtractFormatter(
                                         $output->getText(),
@@ -209,13 +215,14 @@ class ExportCsv extends Maintenance
                                             ->getConfigFactory()
                                             ->makeConfig('textextracts')
                                     );
-                                    $text = trim(
+                                    
+                                    trim(
                                         preg_replace(
                                             "/" . ExtractFormatter::SECTION_MARKER_START . '(\d)' . ExtractFormatter::SECTION_MARKER_END . "(.*?)$/m",
                                             '',
                                             $formatter->getText()
                                         )
-                                    );
+                                    ); */
 
                                     $descriptions[] = addcslashes($date, ',;') . '; ' .
                                         addcslashes($text, ',;');
