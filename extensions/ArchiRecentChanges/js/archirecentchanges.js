@@ -10,6 +10,9 @@ function dispatchRecentChanges($new=0){
 	//fill the screen with columns of images
 	w=window.innerWidth;
 	defaultHeight=180;
+	if (window.innerWidth <((1920/4)*2)) {
+		defaultHeight = 210;
+	}
 	$(".batch").each(function(){
 		$(this).css({
 			position: 'absolute',
@@ -323,6 +326,9 @@ function orderAll(){
 }
 console.log("ArchiRecentChanges");
 $(document).ready(function(){
+	if (window.innerWidth <((1920/4)*2)) {
+		defaultHeight = 210;
+	}
 	
 	$('.mw-special-ArchiRecentChanges .latest-changes-recent-change-container').each(function(){
 		$(this).hide();

@@ -437,7 +437,7 @@ class SpecialArchiRecentChanges extends SpecialPage
         $output->addWikiTextAsInterface('[[Special:Modifications récentes|' . wfMessage('allrecentchangesPage')->parse() . ']]');
         
         $output->addHTML('<button id="voir-plus" class="mw-ui-button" style="position:absolute;bottom:10px;left:45%;" data-sort="'.$this->sort.'" data-length="'.$this->length.'" data-dateEnd="'.$this->endDate->format('c').'">Voir la prochaine periode</button>');
-        $output->addHTML('<form action="#" method="get" style="display:flex;align-items:baseline">
+        $output->addHTML('<form action="#" method="get" style="display:flex;align-items:baseline;flex-wrap:wrap">
                             <label for="sort">Trier par </label>
                             <select name="sort" id="sort" style="width:unset;margin:0px 10px;">
                                 <option value="biggest" ' . ($this->sort == 'biggest' ? 'selected' : '') . '>tailles décroissante de modification</option>
