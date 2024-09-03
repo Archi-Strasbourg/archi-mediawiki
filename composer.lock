@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e0b817d4abbc2d41cedd4ff298bdde4",
+    "content-hash": "6c58e1aeecf0c90d49a460009442d979",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2244,6 +2244,19 @@
             "time": "2023-10-10T06:01:43+00:00"
         },
         {
+            "name": "mediawiki/code-editor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/CodeEditor.git",
+                "reference": "2c85af0d67f5b2b02545795bcb10dec629457d00"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "mediawiki-extension"
+        },
+        {
             "name": "mediawiki/code-mirror",
             "version": "dev-REL1_39",
             "source": {
@@ -3061,6 +3074,19 @@
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ReplaceText",
                 "reference": "d898d05389c741949b9cb69a84104b2f8160d257"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "mediawiki-extension"
+        },
+        {
+            "name": "mediawiki/scribunto",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Scribunto.git",
+                "reference": "cd0d655f04eec7e0a39b1791ed788f09f1ed1b61"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -8397,6 +8423,7 @@
         "mediawiki/cirrussearch": 20,
         "mediawiki/cite": 20,
         "mediawiki/clean-changes": 20,
+        "mediawiki/code-editor": 20,
         "mediawiki/code-mirror": 20,
         "mediawiki/comments": 20,
         "mediawiki/commons-metadata": 20,
@@ -8419,6 +8446,7 @@
         "mediawiki/page-images": 20,
         "mediawiki/parser-functions": 20,
         "mediawiki/replace-text": 20,
+        "mediawiki/scribunto": 20,
         "mediawiki/semantic-forms-select": 10,
         "mediawiki/smitespam": 20,
         "mediawiki/template-data": 20,
