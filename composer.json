@@ -7,7 +7,7 @@
     "rudloff/mediawiki-composer": "~0.1.3"
   },
   "require": {
-    "php": ">=7.4",
+    "php": ">=8.2",
     "ext-dom": "*",
     "ext-libxml": "*",
     "ext-mbstring": "*",
@@ -269,7 +269,7 @@
   "config": {
     "sort-packages": true,
     "platform": {
-      "php": "7.4.16"
+      "php": "8.2.26"
     },
     "allow-plugins": {
       "composer/installers": true,
