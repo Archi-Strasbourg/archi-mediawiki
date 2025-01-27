@@ -260,17 +260,16 @@ class SpecialArchiRecentChanges extends SpecialPage
         // regroupe les modifications par page
         $addresses2=[];
         $addresses2['query']['recentchanges'][0]=$addresses['query']['recentchanges'][0];
-        foreach ($addresses['query']['recentchanges'] as $address) {
-            $indice=$this->findInArray($addresses2['query']['recentchanges'], $address['pageid']);
-            if($indice==-1){
-                $addresses2['query']['recentchanges'][]=$address;
-            } else {
-                $addresses2['query']['recentchanges'][$indice]['oldlen']=$address['oldlen'];
+        foreach ($addresses['query']['recentchanges'] as $key => $address) {
+            if (is_int($key)) {
+                $indice = $this->findInArray($addresses2['query']['recentchanges'], $address['pageid']);
+                if ($indice == -1) {
+                    $addresses2['query']['recentchanges'][] = $address;
+                } else {
+                    $addresses2['query']['recentchanges'][$indice]['oldlen'] = $address['oldlen'];
+                }
             }
         }
-        array_pop($addresses2['query']['recentchanges']); // remove "rc" at the end, don't know why it's there
-        //$output->addHTML('<p>'.json_encode($addresses2).'</p>');
-        
         
         usort($addresses2['query']['recentchanges'], [$this, ($this->sort=='biggest'?'sortChangesSize':'sortChangesTime')]);
 
