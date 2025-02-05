@@ -465,3 +465,6 @@ $egMapsGeoCacheType = CACHE_DB;
 // GTag
 $wgGTagAnalyticsId = 'G-CLE3C9XSV4';
 
+// Timeouts plus courts cas où un service ne répond pas
+$wgHTTPTimeout = 1;
+$wgHTTPConnectTimeout = 1;
