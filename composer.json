@@ -311,6 +311,9 @@
       "mediawiki/contactpage": {
         "En-tête From fixe": "patches/contactpage-1.diff"
       },
+      "mediawiki/code-editor": {
+        "Compatibilité avec PageForms": "https://github.com/wikimedia/mediawiki-extensions-CodeEditor/commit/806d1194de786c2b4c37af65769946d8f53eba11.diff"
+      },
       "mediawiki/flow": {
         "Compatibilité éditeur visuel": "patches/flow-T260648.diff"
       },
