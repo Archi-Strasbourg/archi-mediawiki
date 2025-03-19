@@ -9,7 +9,15 @@
     },
     "archiCategoryTree": {
       "class": "ArchiTweaks\\ArchiCategoryTree"
+    },
+    "archiUnsubscribeLink": {
+      "class": "ArchiTweaks\\ApiUnsubscribeLink"
     }
+  },
+  "MessagesDirs": {
+    "ArchiTweaks": [
+      "i18n"
+    ]
   },
   "APIModules":{
     "RemoveAlerte": {
@@ -18,10 +26,12 @@
   },
   "AutoloadClasses": {
     "ArchiTweaks\\ApiQueryDescription": "ApiQueryDescription.php",
+    "ArchiTweaks\\ApiUnsubscribeLink": "ApiUnsubscribeLink.php",
     "ArchiTweaks\\ArchiCategoryTree": "ArchiCategoryTree.php",
     "ArchiTweaks\\RemoveAlerte": "RemoveAlerte.php",
     "ArchiTweaks\\Hooks": "Hooks.php",
     "ArchiTweaks\\SpecialRunQueryCache": "SpecialRunQueryCache.php",
+    "ArchiTweaks\\SpecialUnsubscribe": "SpecialUnsubscribe.php",
     "ArchiTweaks\\CachedQuery": "CachedQuery.php",
     "ArchiTweaks\\QueryCacheFormLink": "QueryCacheFormLink.php",
     "ArchiTweaks\\Subcategories": "Subcategories.php"
@@ -36,7 +46,8 @@
     "OutputPageParserOutput": "ArchiTweaks\\Hooks::onOutputPageParserOutput"
   },
   "SpecialPages": {
-    "RunQueryCache": "ArchiTweaks\\SpecialRunQueryCache"
+    "RunQueryCache": "ArchiTweaks\\SpecialRunQueryCache",
+    "Unsubscribe": "ArchiTweaks\\SpecialUnsubscribe"
   },
   "ExtensionMessagesFiles": {
     "ArchiTweaksMagic": "ArchiTweaks.i18n.php"

@@ -468,3 +468,8 @@ $wgGTagAnalyticsId = 'G-CLE3C9XSV4';
 // Timeouts plus courts cas où un service ne répond pas
 $wgHTTPTimeout = 1;
 $wgHTTPConnectTimeout = 1;
+
+// Droit de générer un lien de désinscription pour un autre utilisateur.
+$wgAvailableRights[] = 'unsubscribe-link';
+$wgGroupPermissions['bureaucrat']['unsubscribe-link'] = true;
+$wgGroupPermissions['bot']['unsubscribe-link'] = true;
