@@ -71,11 +71,11 @@ class SpecialUnsubscribe extends SpecialPage
 
         $userOptionsManager = $services->getUserOptionsManager();
         if ($userOptionsManager->getOption($user, 'disablemail')) {
-            $output->addWikiTextAsInterface("Vous êtes déjà désinscrit de l'alerte mail.");
+            $output->addWikiTextAsInterface('Votre mail ' . $user->getEmail() . ' (utilisateur&nbsp;: ' . $user->getName() . ") est déjà désinscrit de l'alerte mail.");
         } else {
             $userOptionsManager->setOption($user, 'disablemail', TRUE);
             $user->saveSettings();
-            $output->addWikiTextAsInterface("Vous avez été désinscrit de l'alerte mail.");
+            $output->addWikiTextAsInterface('Votre mail ' . $user->getEmail() . ' (utilisateur:&nbsp;' . $user->getName() . ") a été désinscrit de l'alerte mail.");
         }
     }
 
