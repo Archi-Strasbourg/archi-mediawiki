@@ -119,8 +119,10 @@ wfLoadExtension('CodeMirror');
 wfLoadExtension('GTag');
 wfLoadExtension('GoogleCustomWikiSearch');
 wfLoadExtension('ContributionScores');
-wfLoadExtension( 'Scribunto' );
-wfLoadExtension( 'CodeEditor' );
+wfLoadExtension('Scribunto');
+wfLoadExtension('CodeEditor');
+wfLoadExtension('Linter');
+wfLoadExtension('DiscussionTools');
 wfLoadExtension('Parsoid', __DIR__ . '/vendor/wikimedia/parsoid/extension.json');
 
 /** @var $IP string */
@@ -345,12 +347,6 @@ $wgNamespacesToBeSearchedDefault[NS_CATEGORY]=true;
 
 $wgContentNamespaces[] = NS_ADDRESS;
 $wgContentNamespaces[] = NS_PERSON;
-
-$wgNamespaceContentModels[NS_ADDRESS_TALK] = 'flow-board';
-$wgNamespaceContentModels[NS_NEWS_TALK] = 'flow-board';
-$wgNamespaceContentModels[NS_PERSON_TALK] = 'flow-board';
-$wgNamespaceContentModels[NS_USER_TALK] = 'flow-board';
-
 $wgArticleRobotPolicies['Adresse:Bac à sable'] = 'noindex';
 
 //Cache

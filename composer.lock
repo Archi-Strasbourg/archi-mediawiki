@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "90a05b439df769dc1acc442fe4344aea",
+    "content-hash": "762c09bb72f7983bea014a2725a51486",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2488,6 +2488,19 @@
             "time": "2024-12-20T12:31:14+00:00"
         },
         {
+            "name": "mediawiki/discussion-tools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/DiscussionTools.git",
+                "reference": "12fbde92b337b3a89703a2f182a505b82103bd98"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "mediawiki-extension"
+        },
+        {
             "name": "mediawiki/dismissable-site-notice",
             "version": "dev-REL1_39",
             "source": {
@@ -2740,6 +2753,19 @@
                 "source": "https://github.com/SemanticMediaWiki/http-request/tree/1.3.1"
             },
             "time": "2017-01-14T16:25:41+00:00"
+        },
+        {
+            "name": "mediawiki/linter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Linter.git",
+                "reference": "be341885d79420838083fa920ed8319b2a7ed7e5"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/lookup-user",
@@ -8434,6 +8460,7 @@
         "mediawiki/confirm-edit": 20,
         "mediawiki/contact-page": 20,
         "mediawiki/contribution-scores": 20,
+        "mediawiki/discussion-tools": 20,
         "mediawiki/dismissable-site-notice": 20,
         "mediawiki/echo": 20,
         "mediawiki/elastica": 20,
@@ -8441,6 +8468,7 @@
         "mediawiki/g-tag": 20,
         "mediawiki/geo-data": 20,
         "mediawiki/googlecustomwikisearch": 20,
+        "mediawiki/linter": 20,
         "mediawiki/lookup-user": 20,
         "mediawiki/loops": 20,
         "mediawiki/mobile-frontend": 20,
