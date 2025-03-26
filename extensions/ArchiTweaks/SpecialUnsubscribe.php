@@ -70,12 +70,24 @@ class SpecialUnsubscribe extends SpecialPage
         }
 
         $userOptionsManager = $services->getUserOptionsManager();
-        if ($userOptionsManager->getOption($user, 'disablemail')) {
-            $output->addWikiTextAsInterface('Votre mail ' . $user->getEmail() . ' (utilisateur&nbsp;: ' . $user->getName() . ") est déjà désinscrit de l'alerte mail.");
-        } else {
-            $userOptionsManager->setOption($user, 'disablemail', TRUE);
+        if ($query['action'] == 'enable') {
+            $userOptionsManager->setOption($user, 'disablemail', FALSE);
             $user->saveSettings();
-            $output->addWikiTextAsInterface('Votre mail ' . $user->getEmail() . ' (utilisateur:&nbsp;' . $user->getName() . ") a été désinscrit de l'alerte mail.");
+            $output->addWikiTextAsInterface('Votre mail ' . $user->getEmail() . ' (utilisateur&nbsp;: ' . $user->getName() . ") a été réinscrit à l'alerte mail.");
+
+            $unsubUrl = $services->getUrlUtils()->assemble(['query' => wfArrayToCgi(['hash' => $query['hash'], 'user' => $query['user']])]);
+            $output->addHTML('<a class="mw-ui-button" href="' . $unsubUrl . '">Désabonnement</a>');
+        } else {
+            if ($userOptionsManager->getOption($user, 'disablemail')) {
+                $output->addWikiTextAsInterface('Votre mail ' . $user->getEmail() . ' (utilisateur&nbsp;: ' . $user->getName() . ") est déjà désinscrit de l'alerte mail.");
+            } else {
+                $userOptionsManager->setOption($user, 'disablemail', TRUE);
+                $user->saveSettings();
+                $output->addWikiTextAsInterface('Votre mail ' . $user->getEmail() . ' (utilisateur&nbsp;: ' . $user->getName() . ") a été désinscrit de l'alerte mail.");
+            }
+
+            $resubUrl = $services->getUrlUtils()->assemble(['query' => wfArrayToCgi(['hash' => $query['hash'], 'user' => $query['user'], 'action' => 'enable'])]);
+            $output->addHTML('<a class="mw-ui-button" href="' . $resubUrl . '">Se réabonner</a>');
         }
     }
 
