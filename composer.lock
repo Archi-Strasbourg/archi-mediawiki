@@ -2324,16 +2324,16 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.39.11",
+            "version": "1.39.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "20717b1096d3209a09612e4b09cfe57036d5f6da"
+                "reference": "78458ed106076061322977f86f5140d468de63a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/20717b1096d3209a09612e4b09cfe57036d5f6da",
-                "reference": "20717b1096d3209a09612e4b09cfe57036d5f6da",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/78458ed106076061322977f86f5140d468de63a3",
+                "reference": "78458ed106076061322977f86f5140d468de63a3",
                 "shasum": ""
             },
             "require": {
@@ -2379,10 +2379,10 @@
                 "wikimedia/ip-set": "3.1.0",
                 "wikimedia/ip-utils": "4.0.0",
                 "wikimedia/less.php": "4.4.1",
-                "wikimedia/minify": "2.3.0",
+                "wikimedia/minify": "2.9.0",
                 "wikimedia/normalized-exception": "1.0.1",
                 "wikimedia/object-factory": "4.0.0",
-                "wikimedia/parsoid": "0.16.4",
+                "wikimedia/parsoid": "0.16.5",
                 "wikimedia/php-session-serializer": "3.0.0",
                 "wikimedia/purtle": "1.0.8",
                 "wikimedia/relpath": "3.0.0",
@@ -2481,11 +2481,11 @@
             "support": {
                 "irc": "irc://irc.libera.chat/mediawiki",
                 "issues": "https://bugs.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.39.11",
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.39.12",
                 "wiki": "https://www.mediawiki.org/"
             },
             "abandoned": true,
-            "time": "2024-12-20T12:31:14+00:00"
+            "time": "2025-04-09T15:24:25+00:00"
         },
         {
             "name": "mediawiki/discussion-tools",
@@ -4882,16 +4882,16 @@
         },
         {
             "name": "pear/net_url2",
-            "version": "v2.2.2",
+            "version": "v2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Net_URL2.git",
-                "reference": "07fd055820dbf466ee3990abe96d0e40a8791f9d"
+                "reference": "c1f2b316ed9b05e881cdb494f7550ddf817c76c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Net_URL2/zipball/07fd055820dbf466ee3990abe96d0e40a8791f9d",
-                "reference": "07fd055820dbf466ee3990abe96d0e40a8791f9d",
+                "url": "https://api.github.com/repos/pear/Net_URL2/zipball/c1f2b316ed9b05e881cdb494f7550ddf817c76c8",
+                "reference": "c1f2b316ed9b05e881cdb494f7550ddf817c76c8",
                 "shasum": ""
             },
             "require": {
@@ -4920,12 +4920,12 @@
             ],
             "authors": [
                 {
-                    "name": "David Coallier",
-                    "email": "davidc@php.net"
-                },
-                {
                     "name": "Tom Klingenberg",
                     "email": "tkli@php.net"
+                },
+                {
+                    "name": "David Coallier",
+                    "email": "davidc@php.net"
                 },
                 {
                     "name": "Christian Schmidt",
@@ -4946,7 +4946,7 @@
                 "issues": "https://pear.php.net/bugs/search.php?cmd=display&package_name[]=Net_URL2",
                 "source": "https://github.com/pear/Net_URL2"
             },
-            "time": "2017-08-25T06:16:11+00:00"
+            "time": "2025-03-24T08:03:00+00:00"
         },
         {
             "name": "pear/pear-core-minimal",
@@ -5913,7 +5913,7 @@
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.31.0",
+            "version": "v1.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
@@ -5969,7 +5969,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/v1.31.0"
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.32.0"
             },
             "funding": [
                 {
@@ -7097,33 +7097,34 @@
         },
         {
             "name": "wikimedia/minify",
-            "version": "2.3.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wikimedia/minify.git",
-                "reference": "61b35567bb3fb85c1086f30809cc67d5900c591f"
+                "url": "https://github.com/wikimedia/mediawiki-libs-Minify.git",
+                "reference": "244bbb0c0acf0c1679078cc87cbc95c79ad9f33f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/minify/zipball/61b35567bb3fb85c1086f30809cc67d5900c591f",
-                "reference": "61b35567bb3fb85c1086f30809cc67d5900c591f",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-libs-Minify/zipball/244bbb0c0acf0c1679078cc87cbc95c79ad9f33f",
+                "reference": "244bbb0c0acf0c1679078cc87cbc95c79ad9f33f",
                 "shasum": ""
             },
             "require": {
+                "ext-fileinfo": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "pear/net_url2": "2.2.2",
-                "php": ">=7.2.9"
+                "pear/net_url2": "~2.2.2",
+                "php": ">=7.4.3"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "38.0.0",
-                "mediawiki/mediawiki-phan-config": "0.11.1",
-                "mediawiki/minus-x": "1.1.1",
-                "ockcyp/covers-validator": "1.3.3",
-                "php-parallel-lint/php-console-highlighter": "0.5.0",
-                "php-parallel-lint/php-parallel-lint": "1.3.1",
-                "phpunit/phpunit": "^8.5",
-                "wikimedia/testing-access-wrapper": "~2.0"
+                "mediawiki/mediawiki-codesniffer": "46.0.0",
+                "mediawiki/mediawiki-phan-config": "0.15.1",
+                "mediawiki/minus-x": "1.1.3",
+                "ockcyp/covers-validator": "1.6.0",
+                "php-parallel-lint/php-console-highlighter": "1.0.0",
+                "php-parallel-lint/php-parallel-lint": "1.4.0",
+                "phpunit/phpunit": "9.6.21",
+                "wikimedia/testing-access-wrapper": "~3.0.0"
             },
             "type": "library",
             "autoload": {
@@ -7159,9 +7160,9 @@
             "description": "Minification of JavaScript code and CSS stylesheets.",
             "homepage": "https://gerrit.wikimedia.org/g/mediawiki/libs/Minify",
             "support": {
-                "source": "https://github.com/wikimedia/minify/tree/2.3.0"
+                "source": "https://github.com/wikimedia/mediawiki-libs-Minify/tree/2.9.0"
             },
-            "time": "2022-04-19T20:48:10+00:00"
+            "time": "2025-03-26T17:40:22+00:00"
         },
         {
             "name": "wikimedia/normalized-exception",
@@ -7264,16 +7265,16 @@
         },
         {
             "name": "wikimedia/parsoid",
-            "version": "v0.16.4",
+            "version": "v0.16.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-services-parsoid.git",
-                "reference": "31553436c0c0fa99518c2de524c0adb3c256a6fb"
+                "reference": "f6f1dc0ad622544aacd0f9ae6992e824622644da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-services-parsoid/zipball/31553436c0c0fa99518c2de524c0adb3c256a6fb",
-                "reference": "31553436c0c0fa99518c2de524c0adb3c256a6fb",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-services-parsoid/zipball/f6f1dc0ad622544aacd0f9ae6992e824622644da",
+                "reference": "f6f1dc0ad622544aacd0f9ae6992e824622644da",
                 "shasum": ""
             },
             "require": {
@@ -7290,7 +7291,7 @@
                 "wikimedia/ip-utils": "^4.0.0 || ^5.0.0",
                 "wikimedia/object-factory": "^4.0.0 || ^5.0.0",
                 "wikimedia/remex-html": "^3.0.0",
-                "wikimedia/scoped-callback": "^3.0.0 || ^4.0.0",
+                "wikimedia/scoped-callback": "^3.0.0 || ^4.0.0 || ^5.0.0",
                 "wikimedia/wikipeg": "^2.0.6",
                 "wikimedia/zest-css": "^2.0.2"
             },
@@ -7340,10 +7341,10 @@
             ],
             "support": {
                 "irc": "irc://irc.libera.chat/mediawiki-parsoid",
-                "source": "https://github.com/wikimedia/mediawiki-services-parsoid/tree/v0.16.4",
+                "source": "https://github.com/wikimedia/mediawiki-services-parsoid/tree/v0.16.5",
                 "wiki": "https://www.mediawiki.org/wiki/Parsoid"
             },
-            "time": "2024-04-06T01:32:49+00:00"
+            "time": "2025-03-06T01:24:15+00:00"
         },
         {
             "name": "wikimedia/php-session-serializer",
