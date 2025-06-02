@@ -74,12 +74,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer.git",
-                "reference": "141fe3223d8ed992592f3f211121e35d44a3e122"
+                "reference": "0d0d35cfba485082b2cd0242c114bf468a6a5135"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/141fe3223d8ed992592f3f211121e35d44a3e122",
-                "reference": "141fe3223d8ed992592f3f211121e35d44a3e122",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/0d0d35cfba485082b2cd0242c114bf468a6a5135",
+                "reference": "0d0d35cfba485082b2cd0242c114bf468a6a5135",
                 "shasum": ""
             },
             "require": {
@@ -96,7 +96,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer/tree/master"
             },
-            "time": "2023-11-24T11:01:03+00:00"
+            "time": "2025-05-14T12:58:30+00:00"
         },
         {
             "name": "archi-strasbourg/archi-home",
