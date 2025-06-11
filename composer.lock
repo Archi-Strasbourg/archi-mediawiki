@@ -201,12 +201,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab.git",
-                "reference": "0e71e43225a15b3e08bdcf80b5f0790b6275b0e7"
+                "reference": "aaeaebeca771f506286a819eb111cc8220865a97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/0e71e43225a15b3e08bdcf80b5f0790b6275b0e7",
-                "reference": "0e71e43225a15b3e08bdcf80b5f0790b6275b0e7",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/aaeaebeca771f506286a819eb111cc8220865a97",
+                "reference": "aaeaebeca771f506286a819eb111cc8220865a97",
                 "shasum": ""
             },
             "require": {
@@ -232,7 +232,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab/tree/master"
             },
-            "time": "2023-10-25T14:26:23+00:00"
+            "time": "2025-06-11T08:14:49+00:00"
         },
         {
             "name": "archi-strasbourg/archi-wiki-skin",
