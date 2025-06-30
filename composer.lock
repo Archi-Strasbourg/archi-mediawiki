@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "762c09bb72f7983bea014a2725a51486",
+    "content-hash": "2dc5e969c8bdd645700a47d39537c550",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2132,7 +2132,7 @@
             "version": "dev-REL1_39",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Arrays",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-Arrays",
                 "reference": "REL1_39"
             },
             "require": {
@@ -2182,7 +2182,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Cite",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-Cite",
                 "reference": "989dcce3b74cf0c784e1a415adad3a5753de5a98"
             },
             "require": {
@@ -2248,7 +2248,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/CodeEditor.git",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-CodeEditor.git",
                 "reference": "2c85af0d67f5b2b02545795bcb10dec629457d00"
             },
             "require": {
@@ -2261,7 +2261,7 @@
             "version": "dev-REL1_39",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/CodeMirror.git",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-CodeMirror.git",
                 "reference": "REL1_39"
             },
             "require": {
@@ -2294,7 +2294,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ConfirmEdit",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-ConfirmEdit",
                 "reference": "b793c792470f0993970d2bbe191ca06eaa11fdfb"
             },
             "require": {
@@ -2492,7 +2492,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/DiscussionTools.git",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-DiscussionTools.git",
                 "reference": "12fbde92b337b3a89703a2f182a505b82103bd98"
             },
             "require": {
@@ -2515,7 +2515,7 @@
             "version": "dev-REL1_39",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Echo",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-Echo",
                 "reference": "REL1_39"
             },
             "require": {
@@ -2759,7 +2759,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Linter.git",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-Linter.git",
                 "reference": "be341885d79420838083fa920ed8319b2a7ed7e5"
             },
             "require": {
@@ -2782,7 +2782,7 @@
             "version": "dev-REL1_39",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Loops.git",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-Loops.git",
                 "reference": "REL1_39"
             },
             "require": {
@@ -2899,7 +2899,7 @@
             "version": "dev-REL1_27",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileFrontend",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-MobileFrontend",
                 "reference": "c20e4d771dbca20a0e1bd9afa5182eaf0982e257"
             },
             "require": {
@@ -2912,7 +2912,7 @@
             "version": "dev-REL1_39",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/MultimediaViewer",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-MultimediaViewer",
                 "reference": "REL1_39"
             },
             "require": {
@@ -2935,7 +2935,7 @@
             "version": "dev-REL1_35",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Nuke",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-Nuke",
                 "reference": "af4701d0104ccca93148f31743c35a547897363f"
             },
             "require": {
@@ -2948,7 +2948,7 @@
             "version": "5.6.3",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/PageForms.git",
+                "url": "https://github.com/wikimedia/mediawiki-extensions-PageForms.git",
                 "reference": "86253e8e6d67f35290b43c1adc3d6e7921712f5a"
             },
             "require": {
@@ -3018,7 +3018,7 @@
             "version": "dev-REL1_35",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/PageImages.git",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-PageImages.git",
                 "reference": "40a7af3007deaf755ee86a5325aaabdec3a13d22"
             },
             "require": {
@@ -3031,7 +3031,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ParserFunctions",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-ParserFunctions",
                 "reference": "master"
             },
             "require": {
@@ -3103,7 +3103,7 @@
             "version": "dev-REL1_35",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ReplaceText",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-ReplaceText",
                 "reference": "d898d05389c741949b9cb69a84104b2f8160d257"
             },
             "require": {
@@ -3116,7 +3116,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Scribunto.git",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-Scribunto.git",
                 "reference": "cd0d655f04eec7e0a39b1791ed788f09f1ed1b61"
             },
             "require": {
@@ -3484,7 +3484,7 @@
             "version": "dev-REL1_35",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateData.git",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-TemplateData.git",
                 "reference": "4d7fef94c3f6f3000e73b99e85c2c82674bbda65"
             },
             "require": {
@@ -3497,7 +3497,7 @@
             "version": "dev-REL1_35",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/TextExtracts.git",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-TextExtracts.git",
                 "reference": "b8980bf05a9f1431c7fdc2defd9a8ccc00c1bde0"
             },
             "require": {
@@ -3655,7 +3655,7 @@
             "version": "dev-REL1_35",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/UploadWizard",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-UploadWizard",
                 "reference": "3274a143dee853fee613ed1bfeb16757c81e08eb"
             },
             "require": {
@@ -3668,7 +3668,7 @@
             "version": "dev-REL1_39",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/UserMerge",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-UserMerge",
                 "reference": "REL1_39"
             },
             "require": {
@@ -3757,7 +3757,7 @@
             "version": "dev-REL1_39",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Variables",
+                "url": "https://github.com/wikimedia/mediawiki-extensions-Variables.git",
                 "reference": "7153f4d49441f24d4159ae3a919f1a7a62ad0a40"
             },
             "require": {
@@ -3826,7 +3826,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wikimedia/mediawiki-skins-Vector",
+                "url": "git@github.com:wikimedia/mediawiki-skins-Vector",
                 "reference": "b332cb0dbbd5b9f3f58b677beb4d890c58736a9a"
             },
             "require": {
@@ -3842,7 +3842,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/VisualEditor.git",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-VisualEditor.git",
                 "reference": "1619506"
             },
             "require": {
@@ -3855,7 +3855,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/WikiEditor.git",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-WikiEditor.git",
                 "reference": "9372bc3c08dea4cdf497b47c7e6261df3d695d81"
             },
             "require": {

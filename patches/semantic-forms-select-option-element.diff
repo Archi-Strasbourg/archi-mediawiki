@@ -1,0 +1,16 @@
+diff --git a/src/SemanticFormsSelectInput.php b/src/SemanticFormsSelectInput.php
+index f4cf2e3..e8d0ad7 100644
+--- a/src/SemanticFormsSelectInput.php
++++ b/src/SemanticFormsSelectInput.php
+@@ -214,9 +214,9 @@ class SemanticFormsSelectInput extends PFFormInput {
+ 
+ 				} else {
+ 					if ( in_array( $cur, $curvalues ) ) {
+-						$selected = " selected='selected'";
++						$selected = ['selected' => TRUE];
+ 					}
+-					$ret.="<option".$selected.">$cur</option>";
++                                       $ret .= \Html::element('option', $selected, $cur);
+ 				}
+ 			}
+ 
