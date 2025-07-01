@@ -2324,16 +2324,16 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.39.12",
+            "version": "1.39.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "78458ed106076061322977f86f5140d468de63a3"
+                "reference": "20d2594916db454cf331536fa8ceb544f418fc62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/78458ed106076061322977f86f5140d468de63a3",
-                "reference": "78458ed106076061322977f86f5140d468de63a3",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/20d2594916db454cf331536fa8ceb544f418fc62",
+                "reference": "20d2594916db454cf331536fa8ceb544f418fc62",
                 "shasum": ""
             },
             "require": {
@@ -2481,11 +2481,11 @@
             "support": {
                 "irc": "irc://irc.libera.chat/mediawiki",
                 "issues": "https://bugs.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.39.12",
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.39.13",
                 "wiki": "https://www.mediawiki.org/"
             },
             "abandoned": true,
-            "time": "2025-04-09T15:24:25+00:00"
+            "time": "2025-06-30T20:17:40+00:00"
         },
         {
             "name": "mediawiki/discussion-tools",
@@ -5846,16 +5846,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.5.1",
+            "version": "v3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6"
+                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
-                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/63afe740e99a13ba87ec199bb07bbdee937a5b62",
+                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62",
                 "shasum": ""
             },
             "require": {
@@ -5868,7 +5868,7 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
-                    "dev-main": "3.5-dev"
+                    "dev-main": "3.6-dev"
                 }
             },
             "autoload": {
@@ -5893,7 +5893,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.5.1"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.6.0"
             },
             "funding": [
                 {
@@ -5909,7 +5909,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:20:29+00:00"
+            "time": "2024-09-25T14:21:43+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
