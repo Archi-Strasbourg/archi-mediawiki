@@ -332,7 +332,8 @@
         "Option générée proprement": "patches/semantic-forms-select-option-element.diff"
       },
       "mediawiki/comments": {
-        "Propriété mal étendue": "https://github.com/wikimedia/mediawiki-extensions-Comments/commit/080afb62b9887d45bb103256295f29406fadf6fb.diff"
+        "Propriété mal étendue": "https://github.com/wikimedia/mediawiki-extensions-Comments/commit/080afb62b9887d45bb103256295f29406fadf6fb.diff",
+        "Debug ancres avec Chrome": "https://github.com/wikimedia/mediawiki-extensions-Comments/commit/2b1be432b587028b1c036567943feeb1b0a33e17.diff"
       }
     }
   }

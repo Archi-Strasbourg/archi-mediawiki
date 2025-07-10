@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2dc5e969c8bdd645700a47d39537c550",
+    "content-hash": "1ce109328b40e568eb811d4710deada3",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2948,7 +2948,7 @@
             "version": "5.6.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wikimedia/mediawiki-extensions-PageForms.git",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-PageForms.git",
                 "reference": "86253e8e6d67f35290b43c1adc3d6e7921712f5a"
             },
             "require": {
@@ -3757,7 +3757,7 @@
             "version": "dev-REL1_39",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wikimedia/mediawiki-extensions-Variables.git",
+                "url": "git@github.com:wikimedia/mediawiki-extensions-Variables",
                 "reference": "7153f4d49441f24d4159ae3a919f1a7a62ad0a40"
             },
             "require": {
