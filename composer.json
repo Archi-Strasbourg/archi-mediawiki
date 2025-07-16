@@ -35,7 +35,7 @@
     "mediawiki/code-mirror": "dev-REL1_43",
     "mediawiki/comments": "dev-REL1_43",
     "mediawiki/commons-metadata": "dev-REL1_43",
-    "mediawiki/confirm-edit": "dev-master#b793c792470f0993970d2bbe191ca06eaa11fdfb",
+    "mediawiki/confirm-edit": "dev-master#ca0037fb887f0bdbf36785b485adde2b8ba6690f",
     "mediawiki/contact-page": "dev-REL1_43",
     "mediawiki/contribution-scores": "dev-REL1_43",
     "mediawiki/core": "~1.43.0",
@@ -56,7 +56,7 @@
     "mediawiki/multimedia-viewer": "dev-REL1_43",
     "mediawiki/newsletter": "dev-REL1_43",
     "mediawiki/nuke": "dev-REL1_35#af4701d0104ccca93148f31743c35a547897363f",
-    "mediawiki/page-forms": "^5.2",
+    "mediawiki/page-forms": "^6.0",
     "mediawiki/page-images": "dev-master#1a5a4eff5a16fc04da30d4d5f14cf47c4f008bac",
     "mediawiki/parser-functions": "dev-master",
     "mediawiki/replace-text": "dev-REL1_35#d898d05389c741949b9cb69a84104b2f8160d257",
@@ -320,6 +320,7 @@
         "Parser sans utilisateur": "https://github.com/ProfessionalWiki/Maps/commit/4d50c2634ed1da08fb55c8ae95c413397faac179.diff"
       },
       "mediawiki/semantic-media-wiki": {
+        "Compatibilité MW 1.43.1": "patches/semantic-media-wiki-6152.diff",
         "Échappement des virgules dans les CSV": "patches/semantic-media-wiki-4976.diff"
       },
       "mediawiki/semantic-forms-select": {
@@ -328,7 +329,11 @@
         "Option générée proprement": "patches/semantic-forms-select-option-element.diff"
       },
       "mediawiki/comments": {
+        "Compatibilité MW 1.43": "https://github.com/wikimedia/mediawiki-extensions-Comments/commit/965ecdb6d26a1fd5821f44231a519c11cf5944bc.diff",
         "Debug ancres avec Chrome": "https://github.com/wikimedia/mediawiki-extensions-Comments/commit/2b1be432b587028b1c036567943feeb1b0a33e17.diff"
+      },
+      "mediawiki/text-extracts": {
+        "ApiPageSet::getGoodTitles() est déprécié": "patches/text-extracts-T339384.diff"
       }
     }
   }

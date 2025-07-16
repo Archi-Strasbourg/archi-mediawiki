@@ -1,0 +1,399 @@
+diff --git a/includes/export/SMW_ExportController.php b/includes/export/SMW_ExportController.php
+index f6f3a9cf58..1aa10739fd 100644
+--- a/includes/export/SMW_ExportController.php
++++ b/includes/export/SMW_ExportController.php
+@@ -589,9 +589,13 @@ public function printPageList( $offset = 0, $limit = 30 ) {
+ 				$query .= 'page_namespace = ' . $dbr->addQuotes( $ns );
+ 			}
+ 		}
+-		$res = $dbr->select( $dbr->tableName( 'page' ),
+-							'page_id,page_title,page_namespace', $query,
+-							'SMW::RDF::PrintPageList', [ 'ORDER BY' => 'page_id ASC', 'OFFSET' => $offset, 'LIMIT' => $limit ] );
++		$res = $dbr->select(
++			'page',
++			'page_id,page_title,page_namespace',
++			$query,
++			'SMW::RDF::PrintPageList',
++			[ 'ORDER BY' => 'page_id ASC', 'OFFSET' => $offset, 'LIMIT' => $limit ]
++		);
+ 		$foundpages = false;
+ 
+ 		foreach ( $res as $row ) {
+diff --git a/includes/specials/SpecialConcepts.php b/includes/specials/SpecialConcepts.php
+index 47ffb2ce8b..46293500cd 100644
+--- a/includes/specials/SpecialConcepts.php
++++ b/includes/specials/SpecialConcepts.php
+@@ -89,15 +89,15 @@ public function fetchFromTable( $limit, $offset ) {
+ 
+ 		$res = $connection->select(
+ 			[
+-				$connection->tableName( SQLStore::ID_TABLE ),
+-				$connection->tableName( SQLStore::CONCEPT_TABLE )
++				SQLStore::ID_TABLE,
++				SQLStore::CONCEPT_TABLE
+ 			],
+ 			$fields,
+ 			$conditions,
+ 			__METHOD__,
+ 			$options,
+ 			[
+-				$connection->tableName( SQLStore::ID_TABLE ) => [ 'INNER JOIN', [ 'smw_id=s_id' ] ]
++				SQLStore::ID_TABLE => [ 'INNER JOIN', [ 'smw_id=s_id' ] ]
+ 			]
+ 		);
+ 
+diff --git a/src/MediaWiki/Api/Browse/ListLookup.php b/src/MediaWiki/Api/Browse/ListLookup.php
+index 07a458fe54..fa057781b9 100644
+--- a/src/MediaWiki/Api/Browse/ListLookup.php
++++ b/src/MediaWiki/Api/Browse/ListLookup.php
+@@ -212,7 +212,7 @@ private function fetchFromTable( $ns, $requestOptions, $parameters ) {
+ 		$connection = $this->store->getConnection( 'mw.db' );
+ 
+ 		$res = $connection->select(
+-			$connection->tableName( SQLStore::ID_TABLE ),
++			SQLStore::ID_TABLE,
+ 			$fields,
+ 			$conditions,
+ 			__METHOD__,
+diff --git a/src/SQLStore/EntityStore/AuxiliaryFields.php b/src/SQLStore/EntityStore/AuxiliaryFields.php
+index 61c4cc38f3..e84790d657 100644
+--- a/src/SQLStore/EntityStore/AuxiliaryFields.php
++++ b/src/SQLStore/EntityStore/AuxiliaryFields.php
+@@ -126,10 +126,9 @@ public function setFieldMaps( $sid, ?array $seqmap = null, ?array $countmap = nu
+ 	private function fetchCountMap( array $hashes ) {
+ 		return $this->connection->select(
+ 			[
+-				// tableName conversion required by SQlite otherwise the
+-				// integration tests fail
+-				't' => $this->connection->tableName( SQLStore::ID_TABLE ),
+-				'p' => $this->connection->tableName( SQLStore::ID_AUXILIARY_TABLE ) ],
++				't' => SQLStore::ID_TABLE,
++				'p' => SQLStore::ID_AUXILIARY_TABLE
++			],
+ 			[
+ 				't.smw_id',
+ 				't.smw_hash',
+diff --git a/src/SQLStore/EntityStore/EntityIdFinder.php b/src/SQLStore/EntityStore/EntityIdFinder.php
+index e718a66445..207cf60087 100644
+--- a/src/SQLStore/EntityStore/EntityIdFinder.php
++++ b/src/SQLStore/EntityStore/EntityIdFinder.php
+@@ -280,8 +280,7 @@ public function findIdsByTitle( $title, $namespace, $iw = null, $subobjectName =
+ 		}
+ 
+ 		$rows = $this->connection->select(
+-			// This should be necessary but somehow `SQLite` fails here
+-			$this->connection->tableName( SQLStore::ID_TABLE ),
++			SQLStore::ID_TABLE,
+ 			[
+ 				'smw_id'
+ 			],
+diff --git a/src/SQLStore/EntityStore/SequenceMapFinder.php b/src/SQLStore/EntityStore/SequenceMapFinder.php
+index 61495fbb5a..a2fe9ab159 100644
+--- a/src/SQLStore/EntityStore/SequenceMapFinder.php
++++ b/src/SQLStore/EntityStore/SequenceMapFinder.php
+@@ -136,7 +136,7 @@ public function prefetchSequenceMap( array $ids ) {
+ 		$cache = $this->idCacheManager->get( 'sequence.map' );
+ 
+ 		$rows = $this->connection->select(
+-			$this->connection->tablename( SQLStore::ID_AUXILIARY_TABLE ),
++			SQLStore::ID_AUXILIARY_TABLE,
+ 			[
+ 				'smw_id',
+ 				'smw_seqmap'
+diff --git a/src/SQLStore/EntityStore/SubobjectListFinder.php b/src/SQLStore/EntityStore/SubobjectListFinder.php
+index 1a0d21137f..446e3079e3 100644
+--- a/src/SQLStore/EntityStore/SubobjectListFinder.php
++++ b/src/SQLStore/EntityStore/SubobjectListFinder.php
+@@ -129,7 +129,7 @@ private function newResultIterator( DIWikiPage $subject ) {
+ 		}
+ 
+ 		$res = $connection->select(
+-			$connection->tablename( SQLStore::ID_TABLE ),
++			SQLStore::ID_TABLE,
+ 			[
+ 				'smw_id',
+ 				'smw_subobject',
+diff --git a/src/SQLStore/Lookup/ByGroupPropertyValuesLookup.php b/src/SQLStore/Lookup/ByGroupPropertyValuesLookup.php
+index bb3c5ff895..39f17c230d 100644
+--- a/src/SQLStore/Lookup/ByGroupPropertyValuesLookup.php
++++ b/src/SQLStore/Lookup/ByGroupPropertyValuesLookup.php
+@@ -192,9 +192,9 @@ public function fetchValuesByGroup( DIProperty $property, $subjects ) {
+ 		if ( $isIdField ) {
+ 			$res = $connection->select(
+ 				[
+-					'o' => $connection->tableName( SQLStore::ID_TABLE ),
+-					'p' => $connection->tableName( $propTable->getName() ),
+-					'i' => $connection->tableName( SQLStore::ID_TABLE )
++					'o' => SQLStore::ID_TABLE,
++					'p' => $propTable->getName(),
++					'i' => SQLStore::ID_TABLE
+ 				],
+ 				$fields,
+ 				[
+@@ -215,8 +215,8 @@ public function fetchValuesByGroup( DIProperty $property, $subjects ) {
+ 		} else {
+ 			$res = $connection->select(
+ 				[
+-					'o' => $connection->tableName( SQLStore::ID_TABLE ),
+-					'p' => $connection->tableName( $propTable->getName() )
++					'o' => SQLStore::ID_TABLE,
++					'p' => $propTable->getName()
+ 				],
+ 				$fields,
+ 				[
+diff --git a/src/SQLStore/Lookup/ChangePropagationEntityLookup.php b/src/SQLStore/Lookup/ChangePropagationEntityLookup.php
+index f7909d60eb..36f2d971c9 100644
+--- a/src/SQLStore/Lookup/ChangePropagationEntityLookup.php
++++ b/src/SQLStore/Lookup/ChangePropagationEntityLookup.php
+@@ -160,7 +160,7 @@ private function fetchOtherReferencesOnTypePropagation( $property ) {
+ 
+ 			// Select any references that are hidden or remained active
+ 			$rows = $connection->select(
+-				$connection->tableName( $tableName ),
++				$tableName,
+ 				[
+ 					's_id'
+ 				],
+diff --git a/src/SQLStore/Lookup/DisplayTitleLookup.php b/src/SQLStore/Lookup/DisplayTitleLookup.php
+index 9a4e29a21f..70aab29da7 100644
+--- a/src/SQLStore/Lookup/DisplayTitleLookup.php
++++ b/src/SQLStore/Lookup/DisplayTitleLookup.php
+@@ -122,7 +122,7 @@ private function fetchFromTable( $list ) {
+ 		$propTable = $propTables[$propTableId];
+ 
+ 		$rows = $connection->select(
+-			$connection->tablename( $propTable->getName() ),
++			$propTable->getName(),
+ 			[
+ 				's_id',
+ 				'o_hash',
+diff --git a/src/SQLStore/Lookup/PropertyUsageListLookup.php b/src/SQLStore/Lookup/PropertyUsageListLookup.php
+index 43a6185d00..3092f7ceec 100644
+--- a/src/SQLStore/Lookup/PropertyUsageListLookup.php
++++ b/src/SQLStore/Lookup/PropertyUsageListLookup.php
+@@ -115,12 +115,12 @@ private function doQueryPropertyTable() {
+ 		$db = $this->store->getConnection( 'mw.db' );
+ 
+ 		$res = $db->select(
+-			[ $db->tableName( SQLStore::ID_TABLE ), $db->tableName( SQLStore::PROPERTY_STATISTICS_TABLE ) ],
++			[ SQLStore::ID_TABLE, SQLStore::PROPERTY_STATISTICS_TABLE ],
+ 			[ 'smw_id', 'smw_title', 'usage_count' ],
+ 			$conditions,
+ 			__METHOD__,
+ 			$options,
+-			[ $db->tableName( SQLStore::ID_TABLE ) => [ 'INNER JOIN', [ 'smw_id=p_id' ] ] ]
++			[ SQLStore::ID_TABLE => [ 'INNER JOIN', [ 'smw_id=p_id' ] ] ]
+ 		);
+ 
+ 		return $res;
+diff --git a/src/SQLStore/Lookup/RedirectTargetLookup.php b/src/SQLStore/Lookup/RedirectTargetLookup.php
+index ccfcb79ead..d612e02b1e 100644
+--- a/src/SQLStore/Lookup/RedirectTargetLookup.php
++++ b/src/SQLStore/Lookup/RedirectTargetLookup.php
+@@ -64,7 +64,7 @@ public function prepareCache( array $list ) {
+ 		$connection = $this->store->getConnection( 'mw.db' );
+ 
+ 		$rows = $connection->select(
+-			$connection->tableName( RedirectStore::TABLE_NAME ),
++			RedirectStore::TABLE_NAME,
+ 			[
+ 				'o_id',
+ 				's_title',
+diff --git a/src/SQLStore/Lookup/UsageStatisticsListLookup.php b/src/SQLStore/Lookup/UsageStatisticsListLookup.php
+index 35b8f0e31b..74211d52a0 100644
+--- a/src/SQLStore/Lookup/UsageStatisticsListLookup.php
++++ b/src/SQLStore/Lookup/UsageStatisticsListLookup.php
+@@ -206,12 +206,12 @@ public function getPropertyPageCount() {
+ 
+ 		// Select object ID's against known property ID's that match the conditions
+ 		$res = $db->select(
+-			[ $db->tableName( SQLStore::ID_TABLE ), $db->tableName( SQLStore::PROPERTY_STATISTICS_TABLE ) ],
++			[ SQLStore::ID_TABLE, SQLStore::PROPERTY_STATISTICS_TABLE ],
+ 			'smw_id',
+ 			$conditions,
+ 			__METHOD__,
+ 			$options,
+-			[ $db->tableName( SQLStore::ID_TABLE ) => [ 'INNER JOIN', [ 'smw_id=p_id' ] ] ]
++			[ SQLStore::ID_TABLE => [ 'INNER JOIN', [ 'smw_id=p_id' ] ] ]
+ 		);
+ 
+ 		return $res->numRows();
+@@ -306,13 +306,13 @@ public function getUsedPropertiesCount() {
+ 
+ 		// Select object ID's against known property ID's that match the conditions
+ 		$res = $db->select(
+-			[ $db->tableName( SQLStore::ID_TABLE ), $db->tableName( SQLStore::PROPERTY_STATISTICS_TABLE ) ],
++			[ SQLStore::ID_TABLE, SQLStore::PROPERTY_STATISTICS_TABLE ],
+ 			'smw_id',
+ 			$conditions,
+ 			__METHOD__,
+ 			$options,
+ 			[
+-				$db->tableName( SQLStore::ID_TABLE ) => [ 'INNER JOIN', [ 'smw_id=p_id' ] ]
++				SQLStore::ID_TABLE => [ 'INNER JOIN', [ 'smw_id=p_id' ] ]
+ 			]
+ 		);
+ 
+diff --git a/src/SQLStore/PropertyStatisticsStore.php b/src/SQLStore/PropertyStatisticsStore.php
+index 138c7b2123..1cace4b66d 100644
+--- a/src/SQLStore/PropertyStatisticsStore.php
++++ b/src/SQLStore/PropertyStatisticsStore.php
+@@ -282,7 +282,7 @@ public function getUsageCounts( array $propertyIds ) {
+ 		}
+ 
+ 		$propertyStatistics = $this->connection->select(
+-			$this->connection->tablename( SQLStore::PROPERTY_STATISTICS_TABLE ),
++			SQLStore::PROPERTY_STATISTICS_TABLE,
+ 			[
+ 				'usage_count',
+ 				'p_id',
+diff --git a/src/SQLStore/PropertyTableRowDiffer.php b/src/SQLStore/PropertyTableRowDiffer.php
+index 582768027c..efa92f167f 100644
+--- a/src/SQLStore/PropertyTableRowDiffer.php
++++ b/src/SQLStore/PropertyTableRowDiffer.php
+@@ -291,7 +291,7 @@ private function fetchCurrentContentsForPropertyTable( $sid, PropertyTableDefini
+ 		$connection = $this->store->getConnection( 'mw.db' );
+ 
+ 		$result = $connection->select(
+-			$connection->tablename( $propertyTable->getName() ),
++			$propertyTable->getName(),
+ 			'*',
+ 			[ 's_id' => $sid ],
+ 			__METHOD__
+diff --git a/src/SQLStore/QueryEngine/HierarchyTempTableBuilder.php b/src/SQLStore/QueryEngine/HierarchyTempTableBuilder.php
+index 9c5b728eee..7eb577cf4a 100644
+--- a/src/SQLStore/QueryEngine/HierarchyTempTableBuilder.php
++++ b/src/SQLStore/QueryEngine/HierarchyTempTableBuilder.php
+@@ -74,7 +74,7 @@ public function getHierarchyCache() {
+ 	public function setTableDefinitions( array $tableDefinitions ) {
+ 		foreach ( $tableDefinitions as $key => $tableDefinition ) {
+ 			$this->tableDefinitions[$key] = [
+-				$this->connection->tableName( $tableDefinition['table'] ),
++				$tableDefinition['table'],
+ 				$tableDefinition['depth']
+ 			];
+ 		}
+diff --git a/tests/phpunit/SQLStore/Lookup/ByGroupPropertyValuesLookupTest.php b/tests/phpunit/SQLStore/Lookup/ByGroupPropertyValuesLookupTest.php
+index b7f530f060..f750c5dd7b 100644
+--- a/tests/phpunit/SQLStore/Lookup/ByGroupPropertyValuesLookupTest.php
++++ b/tests/phpunit/SQLStore/Lookup/ByGroupPropertyValuesLookupTest.php
+@@ -42,10 +42,6 @@ public function testFetchGroup_Empty() {
+ 			->disableOriginalConstructor()
+ 			->getMock();
+ 
+-		$connection->expects( $this->any() )
+-			->method( 'tablename' )
+-			->willReturnArgument( 0 );
+-
+ 		$connection->expects( $this->any() )
+ 			->method( 'addQuotes' )
+ 			->willReturnArgument( 0 );
+@@ -126,10 +122,6 @@ public function testFetchGroup_PageResult() {
+ 			->disableOriginalConstructor()
+ 			->getMock();
+ 
+-		$connection->expects( $this->any() )
+-			->method( 'tablename' )
+-			->willReturnArgument( 0 );
+-
+ 		$connection->expects( $this->any() )
+ 			->method( 'addQuotes' )
+ 			->willReturnArgument( 0 );
+@@ -214,10 +206,6 @@ public function testFetchGroup_NonPageResult() {
+ 			->disableOriginalConstructor()
+ 			->getMock();
+ 
+-		$connection->expects( $this->any() )
+-			->method( 'tablename' )
+-			->willReturnArgument( 0 );
+-
+ 		$connection->expects( $this->any() )
+ 			->method( 'addQuotes' )
+ 			->willReturnArgument( 0 );
+diff --git a/tests/phpunit/SQLStore/Lookup/DisplayTitleLookupTest.php b/tests/phpunit/SQLStore/Lookup/DisplayTitleLookupTest.php
+index 194b40184b..08fec7196a 100644
+--- a/tests/phpunit/SQLStore/Lookup/DisplayTitleLookupTest.php
++++ b/tests/phpunit/SQLStore/Lookup/DisplayTitleLookupTest.php
+@@ -58,31 +58,23 @@ public function testPrefetchFromList() {
+ 			->disableOriginalConstructor()
+ 			->getMock();
+ 
+-		$connection->expects( $this->once() )
+-			->method( 'tablename' )
+-			->willReturnArgument( 0 );
+-
+ 		$connection->expects( $this->any() )
+ 			->method( 'unescape_bytea' )
+ 			->willReturnArgument( 0 );
+ 
+-		$connection->expects( $this->at( 0 ) )
+-			->method( 'select' )
+-			->with(
+-				'smw_object_ids',
+-				$this->equalTo( [ 'smw_id', 'smw_title', 'smw_namespace', 'smw_hash' ] ),
+-				$this->equalTo( [ 'smw_hash' => [
+-					'ebb1b47f7cf43a5a58d3c6cc58f3c3bb8b9246e6',
+-					'7b6b944694382bfab461675f40a2bda7e71e68e3' ] ] ) )
+-			->willReturn( [ (object)[ 'smw_hash' => 'foooo', 'smw_id' => 42 ] ] );
+-
+-		$connection->expects( $this->at( 2 ) )
++		$connection->expects( $this->exactly( 2 ) )
+ 			->method( 'select' )
+-			->with(
+-				'foo_table',
+-				$this->equalTo( [ 's_id', 'o_hash', 'o_blob' ] ),
+-				$this->equalTo( [ 's_id' => [ 42, 1001 ] ] ) )
+-			->willReturn( $rows );
++			->willReturnCallback( static function ( $table ) use ( $rows ) {
++				if ( $table === 'smw_object_ids' ) {
++					return [
++						(object)[ 'smw_hash' => 'ebb1b47f7cf43a5a58d3c6cc58f3c3bb8b9246e6', 'smw_id' => 42 ],
++						(object)[ 'smw_hash' => '7b6b944694382bfab461675f40a2bda7e71e68e3', 'smw_id' => 1001 ]
++					];
++				} elseif ( $table === 'foo_table' ) {
++					return $rows;
++				}
++				return [];
++			} );
+ 
+ 		$tableDefinition = $this->getMockBuilder( '\SMW\SQLStore\PropertyTableDefinition' )
+ 			->disableOriginalConstructor()
+diff --git a/tests/phpunit/SQLStore/QueryEngine/HierarchyTempTableBuilderTest.php b/tests/phpunit/SQLStore/QueryEngine/HierarchyTempTableBuilderTest.php
+index efca2b9a72..eb2b4743d3 100644
+--- a/tests/phpunit/SQLStore/QueryEngine/HierarchyTempTableBuilderTest.php
++++ b/tests/phpunit/SQLStore/QueryEngine/HierarchyTempTableBuilderTest.php
+@@ -39,12 +39,6 @@ public function testCanConstruct() {
+ 	}
+ 
+ 	public function testGetHierarchyTableDefinitionForType() {
+-		$this->connection->expects( $this->once() )
+-			->method( 'tableName' )
+-			->with(
+-				$this->stringContains( 'bar' ) )
+-			->willReturn( '_bar' );
+-
+ 		$instance = new HierarchyTempTableBuilder(
+ 			$this->connection,
+ 			$this->temporaryTableBuilder
+@@ -53,7 +47,7 @@ public function testGetHierarchyTableDefinitionForType() {
+ 		$instance->setTableDefinitions( [ 'property' => [ 'table' => 'bar', 'depth' => 3 ] ] );
+ 
+ 		$this->assertEquals(
+-			[ '_bar', 3 ],
++			[ 'bar', 3 ],
+ 			$instance->getTableDefinitionByType( 'property' )
+ 		);
+ 	}
+@@ -69,12 +63,6 @@ public function testTryToGetHierarchyTableDefinitionForUnregisteredTypeThrowsExc
+ 	}
+ 
+ 	public function testFillTempTable() {
+-		$this->connection->expects( $this->once() )
+-			->method( 'tableName' )
+-			->with(
+-				$this->stringContains( 'bar' ) )
+-			->willReturn( '_bar' );
+-
+ 		$this->connection->expects( $this->atLeastOnce() )
+ 			->method( 'query' );
+ 

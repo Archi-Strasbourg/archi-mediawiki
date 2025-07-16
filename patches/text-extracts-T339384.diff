@@ -1,0 +1,130 @@
+diff --git a/extension.json b/extension.json
+index 07e71a5..c21efa7 100644
+--- a/extension.json
++++ b/extension.json
+@@ -20,7 +20,8 @@
+ 				"ConfigFactory",
+ 				"MainWANObjectCache",
+ 				"LanguageConverterFactory",
+-				"WikiPageFactory"
++				"WikiPageFactory",
++				"TitleFormatter"
+ 			]
+ 		}
+ 	},
+diff --git a/includes/ApiQueryExtracts.php b/includes/ApiQueryExtracts.php
+index e701313..590e133 100644
+--- a/includes/ApiQueryExtracts.php
++++ b/includes/ApiQueryExtracts.php
+@@ -12,7 +12,9 @@ use FauxRequest;
+ use MediaWiki\Languages\LanguageConverterFactory;
+ use MediaWiki\Logger\LoggerFactory;
+ use MediaWiki\MediaWikiServices;
++use MediaWiki\Page\PageIdentity;
+ use MediaWiki\Page\WikiPageFactory;
++use MediaWiki\Title\TitleFormatter;
+ use ParserOptions;
+ use Title;
+ use WANObjectCache;
+@@ -52,6 +54,7 @@ class ApiQueryExtracts extends ApiQueryBase {
+ 	 * @var WikiPageFactory
+ 	 */
+ 	private $wikiPageFactory;
++	private TitleFormatter $titleFormatter;
+ 
+ 	// TODO: Allow extensions to hook into this to opt-in.
+ 	// This is partly for security reasons; see T107170.
+@@ -67,6 +70,7 @@ class ApiQueryExtracts extends ApiQueryBase {
+ 	 * @param WANObjectCache $cache
+ 	 * @param LanguageConverterFactory $langConvFactory
+ 	 * @param WikiPageFactory $wikiPageFactory
++	 * @param TitleFormatter $titleFormatter
+ 	 */
+ 	public function __construct(
+ 		$query,
+@@ -74,13 +78,15 @@ class ApiQueryExtracts extends ApiQueryBase {
+ 		ConfigFactory $configFactory,
+ 		WANObjectCache $cache,
+ 		LanguageConverterFactory $langConvFactory,
+-		WikiPageFactory $wikiPageFactory
++		WikiPageFactory $wikiPageFactory,
++		TitleFormatter $titleFormatter
+ 	) {
+ 		parent::__construct( $query, $moduleName, self::PREFIX );
+ 		$this->config = $configFactory->makeConfig( 'textextracts' );
+ 		$this->cache = $cache;
+ 		$this->langConvFactory = $langConvFactory;
+ 		$this->wikiPageFactory = $wikiPageFactory;
++		$this->titleFormatter = $titleFormatter;
+ 	}
+ 
+ 	/**
+@@ -88,7 +94,7 @@ class ApiQueryExtracts extends ApiQueryBase {
+ 	 * and sets up the result
+ 	 */
+ 	public function execute() {
+-		$titles = $this->getPageSet()->getGoodTitles();
++		$titles = $this->getPageSet()->getGoodPages();
+ 		if ( $titles === [] ) {
+ 			return;
+ 		}
+@@ -110,14 +116,14 @@ class ApiQueryExtracts extends ApiQueryBase {
+ 		}
+ 		$count = 0;
+ 		$titleInFileNamespace = false;
+-		/** @var Title $t */
++		/** @var PageIdentity $t */
+ 		foreach ( $titles as $id => $t ) {
+ 			if ( ++$count > $limit ) {
+ 				$this->setContinueEnumParameter( 'continue', $continue + $count - 1 );
+ 				break;
+ 			}
+ 
+-			if ( $t->inNamespace( NS_FILE ) ) {
++			if ( $t->getNamespace() === NS_FILE ) {
+ 				$text = '';
+ 				$titleInFileNamespace = true;
+ 			} else {
+@@ -159,22 +165,22 @@ class ApiQueryExtracts extends ApiQueryBase {
+ 
+ 	/**
+ 	 * Returns a processed, but not trimmed extract
+-	 * @param Title $title
++	 * @param PageIdentity $title
+ 	 * @return string
+ 	 */
+-	private function getExtract( Title $title ) {
+-		$contentModel = $title->getContentModel();
++	private function getExtract( PageIdentity $title ) {
++		$page = $this->wikiPageFactory->newFromTitle( $title );
++
++		$contentModel = $page->getContentModel();
+ 		if ( !in_array( $contentModel, $this->supportedContentModels, true ) ) {
+ 			$this->addWarning( [
+ 				'apiwarn-textextracts-unsupportedmodel',
+-				wfEscapeWikiText( $title->getPrefixedText() ),
++				wfEscapeWikiText( $this->titleFormatter->getPrefixedText( $title ) ),
+ 				$contentModel
+ 			] );
+ 			return '';
+ 		}
+ 
+-		$page = $this->wikiPageFactory->newFromTitle( $title );
+-
+ 		$introOnly = $this->params['intro'];
+ 		$text = $this->getFromCache( $page, $introOnly );
+ 		// if we need just first section, try retrieving full page and getting first section out of it
+diff --git a/tests/phpunit/ApiQueryExtractsTest.php b/tests/phpunit/ApiQueryExtractsTest.php
+index 8997a92..ff43c92 100644
+--- a/tests/phpunit/ApiQueryExtractsTest.php
++++ b/tests/phpunit/ApiQueryExtractsTest.php
+@@ -62,7 +62,8 @@ class ApiQueryExtractsTest extends \MediaWikiIntegrationTestCase {
+ 			$configFactory,
+ 			$cache,
+ 			$langConvFactory,
+-			$this->getServiceContainer()->getWikiPageFactory()
++			$this->getServiceContainer()->getWikiPageFactory(),
++			$this->getServiceContainer()->getTitleFormatter()
+ 		);
+ 	}
+ 
