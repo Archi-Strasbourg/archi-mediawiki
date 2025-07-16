@@ -33,28 +33,28 @@
     "mediawiki/clean-changes": "dev-REL1_43",
     "mediawiki/code-editor": "dev-master#f2643fe78b47d3d0be9a5c70d2d0b0fc03d0a60a",
     "mediawiki/code-mirror": "dev-REL1_43",
-    "mediawiki/comments": "dev-REL1_39 as 1.39",
-    "mediawiki/commons-metadata": "dev-REL1_39",
+    "mediawiki/comments": "dev-REL1_43",
+    "mediawiki/commons-metadata": "dev-REL1_43",
     "mediawiki/confirm-edit": "dev-master#b793c792470f0993970d2bbe191ca06eaa11fdfb",
-    "mediawiki/contact-page": "dev-REL1_39",
-    "mediawiki/contribution-scores": "dev-REL1_39",
+    "mediawiki/contact-page": "dev-REL1_43",
+    "mediawiki/contribution-scores": "dev-REL1_43",
     "mediawiki/core": "~1.43.0",
     "mediawiki/discussion-tools": "dev-master#a7df21e3572817c0fb51d7e00072748bee1075fc",
-    "mediawiki/dismissable-site-notice": "dev-REL1_39",
+    "mediawiki/dismissable-site-notice": "dev-REL1_43",
     "mediawiki/echo": "dev-REL1_43",
     "mediawiki/elastica": "dev-REL1_43",
     "mediawiki/flow": "dev-REL1_43",
     "mediawiki/g-tag": "dev-master",
-    "mediawiki/geo-data": "dev-REL1_39",
+    "mediawiki/geo-data": "dev-REL1_43",
     "mediawiki/googlecustomwikisearch": "dev-REL1_43",
     "mediawiki/linter": "dev-master#be341885d79420838083fa920ed8319b2a7ed7e5",
-    "mediawiki/lookup-user": "dev-REL1_39",
+    "mediawiki/lookup-user": "dev-REL1_43",
     "mediawiki/loops": "dev-REL1_43",
     "mediawiki/maps": "^11.0",
     "mediawiki/meta-description-tag": "^0.4.0",
     "mediawiki/mobile-frontend": "dev-REL1_27#19b1124fb6e6012af10ed8750fb05ac304a0566c",
     "mediawiki/multimedia-viewer": "dev-REL1_43",
-    "mediawiki/newsletter": "dev-REL1_39",
+    "mediawiki/newsletter": "dev-REL1_43",
     "mediawiki/nuke": "dev-REL1_35#af4701d0104ccca93148f31743c35a547897363f",
     "mediawiki/page-forms": "^5.2",
     "mediawiki/page-images": "dev-master#1a5a4eff5a16fc04da30d4d5f14cf47c4f008bac",
@@ -118,12 +118,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/comments",
-        "version": "dev-REL1_39",
+        "version": "dev-REL1_43",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-Comments.git",
           "type": "git",
-          "reference": "6ecba59f61345aa9d6a3fb30c8e4152ae190f044"
+          "reference": "254ac7820868855d3d49430ad8b935cdbd338060"
         }
       }
     },
@@ -148,12 +148,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/newsletter",
-        "version": "dev-REL1_39",
+        "version": "dev-REL1_43",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-Newsletter.git",
           "type": "git",
-          "reference": "2828ceeacd18b01137363af7494973f66db2893d"
+          "reference": "509ac14bbf0e1f29185130c2cb93334ff7be263d"
         }
       }
     },
@@ -161,12 +161,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/lookup-user",
-        "version": "dev-REL1_39",
+        "version": "dev-REL1_43",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-LookupUser.git",
           "type": "git",
-          "reference": "c1a0791533d5aed165233ef7af612be6f9d6c985"
+          "reference": "169c1526ba88cbd17d44b38e0dd42d9731916cf8"
         }
       }
     },
@@ -174,12 +174,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/geo-data",
-        "version": "dev-REL1_39",
+        "version": "dev-REL1_43",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-GeoData.git",
           "type": "git",
-          "reference": "2d865544d61601336282323096019fd9901d4828"
+          "reference": "8709756309ff639d88966efe6871d95a8275ec4f"
         }
       }
     },
@@ -199,12 +199,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/dismissable-site-notice",
-        "version": "dev-REL1_39",
+        "version": "dev-REL1_43",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-DismissableSiteNotice.git",
           "type": "git",
-          "reference": "85cf6243e193f6726f98db35b772a227b0b042bb"
+          "reference": "403b94229e917ef24f66459cae40691297fbe9f0"
         }
       }
     },
@@ -212,12 +212,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/contribution-scores",
-        "version": "dev-REL1_39",
+        "version": "dev-REL1_43",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-ContributionScores.git",
           "type": "git",
-          "reference": "0c08d338a1150c76e74ae490cd4d5f5b9f6daa5f"
+          "reference": "a00a21775ea3486720bb104e3fafa710fff18c61"
         }
       }
     },
@@ -225,12 +225,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/contact-page",
-        "version": "dev-REL1_39",
+        "version": "dev-REL1_43",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-ContactPage.git",
           "type": "git",
-          "reference": "ace069678fdfbc3f9a5150421d62afa9d504462a"
+          "reference": "ae0eefe6b50e7549a7c6901ed5f7038c8a182603"
         }
       }
     },
@@ -238,12 +238,12 @@
       "type": "package",
       "package": {
         "name": "mediawiki/commons-metadata",
-        "version": "dev-REL1_39",
+        "version": "dev-REL1_43",
         "type": "mediawiki-extension",
         "source": {
           "url": "https://github.com/wikimedia/mediawiki-extensions-CommonsMetadata.git",
           "type": "git",
-          "reference": "0f38f47cb8aa23046764b2fa83be78904abcd67c"
+          "reference": "3d8c38cb64b6dd7a07990d4f52b96ddd8d7cd227"
         }
       }
     },
@@ -328,7 +328,6 @@
         "Option générée proprement": "patches/semantic-forms-select-option-element.diff"
       },
       "mediawiki/comments": {
-        "Propriété mal étendue": "https://github.com/wikimedia/mediawiki-extensions-Comments/commit/080afb62b9887d45bb103256295f29406fadf6fb.diff",
         "Debug ancres avec Chrome": "https://github.com/wikimedia/mediawiki-extensions-Comments/commit/2b1be432b587028b1c036567943feeb1b0a33e17.diff"
       }
     }

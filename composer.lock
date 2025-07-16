@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d94da61e57df9dc3e5ee2f6ad747d770",
+    "content-hash": "f348183bd66102bbd58f05e356879b1b",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -42,18 +42,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments.git",
-                "reference": "fa21735b25eeecb95e9c0e241098ac5c2e4b25be"
+                "reference": "fcfac57d9eddbcc5a4834619b90ee3078137df25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/fa21735b25eeecb95e9c0e241098ac5c2e4b25be",
-                "reference": "fa21735b25eeecb95e9c0e241098ac5c2e4b25be",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/fcfac57d9eddbcc5a4834619b90ee3078137df25",
+                "reference": "fcfac57d9eddbcc5a4834619b90ee3078137df25",
                 "shasum": ""
             },
             "require": {
                 "archi-strasbourg/archi-home": "dev-master",
-                "mediawiki/comments": "dev-REL1_39",
-                "mediawiki/text-extracts": "dev-REL1_35"
+                "mediawiki/comments": "dev-REL1_43",
+                "mediawiki/text-extracts": "*@dev"
             },
             "default-branch": true,
             "type": "mediawiki-extension",
@@ -66,7 +66,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments/tree/master"
             },
-            "time": "2023-11-24T10:50:24+00:00"
+            "time": "2025-07-16T09:00:19+00:00"
         },
         {
             "name": "archi-strasbourg/archi-footer",
@@ -74,16 +74,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer.git",
-                "reference": "0d0d35cfba485082b2cd0242c114bf468a6a5135"
+                "reference": "24f6d9ec9ea0e0aa033b458215ac446e9b678a4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/0d0d35cfba485082b2cd0242c114bf468a6a5135",
-                "reference": "0d0d35cfba485082b2cd0242c114bf468a6a5135",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-footer/zipball/24f6d9ec9ea0e0aa033b458215ac446e9b678a4a",
+                "reference": "24f6d9ec9ea0e0aa033b458215ac446e9b678a4a",
                 "shasum": ""
             },
             "require": {
-                "mediawiki/comments": "dev-REL1_39"
+                "mediawiki/comments": "dev-REL1_43"
             },
             "default-branch": true,
             "type": "mediawiki-extension",
@@ -96,7 +96,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-footer/tree/master"
             },
-            "time": "2025-05-14T12:58:30+00:00"
+            "time": "2025-07-16T09:01:20+00:00"
         },
         {
             "name": "archi-strasbourg/archi-home",
@@ -104,16 +104,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-home.git",
-                "reference": "e9b15f5c5a7586edf9c86aed3654e091c940ba5e"
+                "reference": "9ddd36d27872f86d77ee3b02c5c9b6fdfd8375b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/e9b15f5c5a7586edf9c86aed3654e091c940ba5e",
-                "reference": "e9b15f5c5a7586edf9c86aed3654e091c940ba5e",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-home/zipball/9ddd36d27872f86d77ee3b02c5c9b6fdfd8375b9",
+                "reference": "9ddd36d27872f86d77ee3b02c5c9b6fdfd8375b9",
                 "shasum": ""
             },
             "require": {
-                "mediawiki/text-extracts": "dev-REL1_35"
+                "mediawiki/text-extracts": "*@dev"
             },
             "default-branch": true,
             "type": "mediawiki-extension",
@@ -126,7 +126,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-home/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-home/tree/master"
             },
-            "time": "2025-03-26T15:13:08+00:00"
+            "time": "2025-07-16T08:59:06+00:00"
         },
         {
             "name": "archi-strasbourg/archi-maps",
@@ -2319,21 +2319,21 @@
         },
         {
             "name": "mediawiki/comments",
-            "version": "dev-REL1_39",
+            "version": "dev-REL1_43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-Comments.git",
-                "reference": "6ecba59f61345aa9d6a3fb30c8e4152ae190f044"
+                "reference": "254ac7820868855d3d49430ad8b935cdbd338060"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/commons-metadata",
-            "version": "dev-REL1_39",
+            "version": "dev-REL1_43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-CommonsMetadata.git",
-                "reference": "0f38f47cb8aa23046764b2fa83be78904abcd67c"
+                "reference": "3d8c38cb64b6dd7a07990d4f52b96ddd8d7cd227"
             },
             "type": "mediawiki-extension"
         },
@@ -2352,21 +2352,21 @@
         },
         {
             "name": "mediawiki/contact-page",
-            "version": "dev-REL1_39",
+            "version": "dev-REL1_43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-ContactPage.git",
-                "reference": "ace069678fdfbc3f9a5150421d62afa9d504462a"
+                "reference": "ae0eefe6b50e7549a7c6901ed5f7038c8a182603"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/contribution-scores",
-            "version": "dev-REL1_39",
+            "version": "dev-REL1_43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-ContributionScores.git",
-                "reference": "0c08d338a1150c76e74ae490cd4d5f5b9f6daa5f"
+                "reference": "a00a21775ea3486720bb104e3fafa710fff18c61"
             },
             "type": "mediawiki-extension"
         },
@@ -2553,11 +2553,11 @@
         },
         {
             "name": "mediawiki/dismissable-site-notice",
-            "version": "dev-REL1_39",
+            "version": "dev-REL1_43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-DismissableSiteNotice.git",
-                "reference": "85cf6243e193f6726f98db35b772a227b0b042bb"
+                "reference": "403b94229e917ef24f66459cae40691297fbe9f0"
             },
             "type": "mediawiki-extension"
         },
@@ -2702,11 +2702,11 @@
         },
         {
             "name": "mediawiki/geo-data",
-            "version": "dev-REL1_39",
+            "version": "dev-REL1_43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-GeoData.git",
-                "reference": "2d865544d61601336282323096019fd9901d4828"
+                "reference": "8709756309ff639d88966efe6871d95a8275ec4f"
             },
             "type": "mediawiki-extension"
         },
@@ -2826,11 +2826,11 @@
         },
         {
             "name": "mediawiki/lookup-user",
-            "version": "dev-REL1_39",
+            "version": "dev-REL1_43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-LookupUser.git",
-                "reference": "c1a0791533d5aed165233ef7af612be6f9d6c985"
+                "reference": "169c1526ba88cbd17d44b38e0dd42d9731916cf8"
             },
             "type": "mediawiki-extension"
         },
@@ -2978,11 +2978,11 @@
         },
         {
             "name": "mediawiki/newsletter",
-            "version": "dev-REL1_39",
+            "version": "dev-REL1_43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-extensions-Newsletter.git",
-                "reference": "2828ceeacd18b01137363af7494973f66db2893d"
+                "reference": "509ac14bbf0e1f29185130c2cb93334ff7be263d"
             },
             "type": "mediawiki-extension"
         },
@@ -8483,12 +8483,6 @@
             "version": "9999999-dev",
             "alias": "1.0.x-dev",
             "alias_normalized": "1.0.9999999.9999999-dev"
-        },
-        {
-            "package": "mediawiki/comments",
-            "version": "dev-REL1_39",
-            "alias": "1.39",
-            "alias_normalized": "1.39.0.0"
         }
     ],
     "minimum-stability": "dev",
