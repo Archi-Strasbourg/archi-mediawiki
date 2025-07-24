@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "74b22a76c6925aa8477f685c6d8390c3",
+    "content-hash": "25c09a9b5f6009e3f3afc5b3667eaa96",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -2696,7 +2696,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SkizNet/mediawiki-GTag.git",
-                "reference": "1ebe30f99785451c51ae4e7a076ed6eb55c0a8de"
+                "reference": "81ba5605f0f814af3a21c902aca2e6db3cb86849"
             },
             "type": "mediawiki-extension"
         },
