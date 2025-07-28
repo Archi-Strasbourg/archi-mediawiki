@@ -406,19 +406,19 @@ class SpecialArchiRecentChanges extends SpecialPage
      * @param string $subPage
      *
      * @return void
-     * @throws MWException
+     * @throws MWException|\DateInvalidOperationException
      */
-    public function execute($subPage)
+    public function execute($subPage): void
     {
-        if($_GET['length']==''){
-            $this->length='3';
+        if (empty($_GET['length'])) {
+            $this->length = '3';
         } else {
-            $this->length=$_GET['length'];
+            $this->length = $_GET['length'];
         }
-        if($_GET['sort']==''){
-            $this->sort='oldest';
+        if (empty($_GET['sort'])) {
+            $this->sort = 'oldest';
         } else {
-            $this->sort=$_GET['sort'];
+            $this->sort = $_GET['sort'];
         }
         $this->endDate = new DateTime();
         $this->endDate->sub(new \DateInterval('P' . $this->length . 'D'));
