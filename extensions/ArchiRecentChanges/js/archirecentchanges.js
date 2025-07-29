@@ -246,7 +246,7 @@ async function addRecentChanges($startDate, $sort, $length){
 }
 
 function displayImage($elt){
-	var $headerImage = $elt.find('a.image>img').first();
+	var $headerImage = $elt.find('a.mw-file-description > img').first();
 	
 	var $headerImageUrl=$headerImage.attr('src');
 	if(typeof($headerImageUrl)!='undefined'){
@@ -268,7 +268,7 @@ function displayImage($elt){
 		img.onload=function(){orderOne($elt);};
 		var $imageA=$('<a></a>').attr('href', url).append(img);
 		$elt.prepend($imageA);
-		$headerImage.parents('.thumb').hide();
+		$headerImage.parents('figure').hide();
 		$headerImage.parents('.thumbinner').hide();
 	}
 	
