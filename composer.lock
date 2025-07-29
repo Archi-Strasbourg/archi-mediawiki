@@ -42,12 +42,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments.git",
-                "reference": "fcfac57d9eddbcc5a4834619b90ee3078137df25"
+                "reference": "6240ec56cb8bb08ff0fc774a5dd63d8d2900a317"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/fcfac57d9eddbcc5a4834619b90ee3078137df25",
-                "reference": "fcfac57d9eddbcc5a4834619b90ee3078137df25",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-comments/zipball/6240ec56cb8bb08ff0fc774a5dd63d8d2900a317",
+                "reference": "6240ec56cb8bb08ff0fc774a5dd63d8d2900a317",
                 "shasum": ""
             },
             "require": {
@@ -66,7 +66,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-comments/tree/master"
             },
-            "time": "2025-07-16T09:00:19+00:00"
+            "time": "2025-07-29T10:03:59+00:00"
         },
         {
             "name": "archi-strasbourg/archi-footer",
