@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "25c09a9b5f6009e3f3afc5b3667eaa96",
+    "content-hash": "f1f86910265c9979dad7e5d9cfe0ad27",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -134,17 +134,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps.git",
-                "reference": "2eb2ff63fba25c879829747e084b22d867fbf587"
+                "reference": "8931e069c915cc7a15ea6b22add6a002668acd07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/2eb2ff63fba25c879829747e084b22d867fbf587",
-                "reference": "2eb2ff63fba25c879829747e084b22d867fbf587",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-maps/zipball/8931e069c915cc7a15ea6b22add6a002668acd07",
+                "reference": "8931e069c915cc7a15ea6b22add6a002668acd07",
                 "shasum": ""
-            },
-            "require-dev": {
-                "phpdocumentor/phpdocumentor": "~2.9.0",
-                "squizlabs/php_codesniffer": "~2.8.0"
             },
             "default-branch": true,
             "type": "mediawiki-extension",
@@ -163,7 +159,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-maps/tree/master"
             },
-            "time": "2023-11-03T09:11:22+00:00"
+            "time": "2025-07-31T08:49:06+00:00"
         },
         {
             "name": "archi-strasbourg/archi-move",
@@ -3732,11 +3728,11 @@
         },
         {
             "name": "mediawiki/upload-wizard",
-            "version": "dev-REL1_35",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:wikimedia/mediawiki-extensions-UploadWizard",
-                "reference": "3274a143dee853fee613ed1bfeb16757c81e08eb"
+                "reference": "64b6822e66d8b6b743fc60f180b4cbe4a2d7e5cf"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"

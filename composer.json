@@ -70,7 +70,7 @@
     "mediawiki/thanks": "dev-REL1_43",
     "mediawiki/translate": "^2023.07",
     "mediawiki/universal-language-selector": "^2025.03",
-    "mediawiki/upload-wizard": "dev-REL1_35#3274a143dee853fee613ed1bfeb16757c81e08eb",
+    "mediawiki/upload-wizard": "dev-master#64b6822e66d8b6b743fc60f180b4cbe4a2d7e5cf",
     "mediawiki/user-merge": "dev-REL1_43",
     "mediawiki/variables": "dev-REL1_43",
     "mediawiki/vector-skin": "dev-master#d09fef55333cb0cbb5963c945bf2dc878f3b35ca",
