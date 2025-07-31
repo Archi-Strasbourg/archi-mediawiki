@@ -386,6 +386,7 @@ $wgULSIMEEnabled = false;
 $wgHidensNamespaces = [NS_ADDRESS];
 
 //Gallery
+$wgGalleryOptions['mode'] = 'nolines';
 $wgGalleryOptions['imageWidth'] = 180;
 $wgGalleryOptions['imageHeight'] = 240;
 
