@@ -258,8 +258,8 @@ class SpecialArchiRecentChanges extends SpecialPage
         );
         
         // regroupe les modifications par page
-        $addresses2=[];
-        $addresses2['query']['recentchanges'][0]=$addresses['query']['recentchanges'][0];
+        $addresses2 = [];
+        $addresses2['query']['recentchanges'][0] = $addresses['query']['recentchanges'][0] ?? [];
         foreach ($addresses['query']['recentchanges'] as $key => $address) {
             if (is_int($key)) {
                 $indice = $this->findInArray($addresses2['query']['recentchanges'], $address['pageid']);
