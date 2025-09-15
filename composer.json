@@ -27,6 +27,7 @@
     "archi-strasbourg/link-to-archive": "dev-master",
     "archi-strasbourg/sections-count": "dev-master as 1.0.x-dev",
     "cweagans/composer-patches": "^1.6",
+    "drupal/core-utility": "^10.5",
     "mediawiki/arrays": "dev-REL1_43",
     "mediawiki/cirrussearch": "dev-REL1_43",
     "mediawiki/cite": "dev-master#adb55e61f83938cff1b387ec458d2d048face40a",

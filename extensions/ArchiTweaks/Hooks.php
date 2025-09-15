@@ -5,6 +5,7 @@ namespace ArchiTweaks;
 use DOMDocument;
 use DOMElement;
 use DOMXPath;
+use Drupal\Component\Utility\Html;
 use MediaWiki\Revision\SlotRecord;
 use MWException;
 use OutputPage;
@@ -88,15 +89,9 @@ class Hooks
      * @return void
      * @noinspection PhpUnused
      */
-    public static function onOutputPageParserOutput(OutputPage $out) {
+    public static function onOutputPageParserOutput(OutputPage $out): void {
         if ($out->getTitle()->getFullText() == 'Spécial:Recherche') {
-            $doc = new DOMDocument();
-
-            // Options adaptées pour charger une portion de HTML et pas un document complet.
-            $doc->loadHTML(
-                mb_convert_encoding($out->getHTML(), 'HTML-ENTITIES', 'UTF-8'),
-                LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD
-            );
+            $doc = Html::load($out->getHTML());
 
             $xpath = new DOMXPath($doc);
 
@@ -107,7 +102,7 @@ class Hooks
             }
 
             $out->clearHTML();
-            $out->addHTML($doc->saveHTML());
+            $out->addHTML(Html::serialize($doc));
         }
     }
 
