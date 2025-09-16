@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c34568560f6f5bec86a2c691904ffb5",
+    "content-hash": "6d190bdebe6f6aad7fc45182fe938b92",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -3200,7 +3200,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:wikimedia/mediawiki-extensions-ParserFunctions",
-                "reference": "master"
+                "reference": "d1ed59560acb1e1455f8c44c5621d0f6917fa748"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"

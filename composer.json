@@ -59,7 +59,7 @@
     "mediawiki/nuke": "dev-REL1_35#af4701d0104ccca93148f31743c35a547897363f",
     "mediawiki/page-forms": "^6.0",
     "mediawiki/page-images": "dev-master#1a5a4eff5a16fc04da30d4d5f14cf47c4f008bac",
-    "mediawiki/parser-functions": "dev-master",
+    "mediawiki/parser-functions": "dev-master#d1ed59560acb1e1455f8c44c5621d0f6917fa748",
     "mediawiki/replace-text": "dev-REL1_35#d898d05389c741949b9cb69a84104b2f8160d257",
     "mediawiki/scribunto": "dev-master#7d2f2f5bddafd9e740c14e8d656c0408cbf130dc",
     "mediawiki/semantic-forms-select": "^4.0.1@dev",
