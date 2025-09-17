@@ -437,6 +437,7 @@ $wgMFCollapseSectionsByDefault = false;
 // NearbyPages
 $wgNearbyPagesUrl = "{$wgScriptPath}/api.php";
 $wgNearbyPagesNamespaces = [NS_ADDRESS];
+$wgNearbyRandomButton = FALSE;
 
 // BlockAndNuke
 $wgWhitelist = $IP . '/whitelist.txt';
