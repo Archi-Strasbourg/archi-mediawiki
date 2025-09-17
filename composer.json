@@ -55,6 +55,7 @@
     "mediawiki/meta-description-tag": "^0.4.0",
     "mediawiki/mobile-frontend": "dev-REL1_27#19b1124fb6e6012af10ed8750fb05ac304a0566c",
     "mediawiki/multimedia-viewer": "dev-REL1_43",
+    "mediawiki/nearby-pages": "dev-REL1_43",
     "mediawiki/newsletter": "dev-REL1_43",
     "mediawiki/nuke": "dev-REL1_35#af4701d0104ccca93148f31743c35a547897363f",
     "mediawiki/page-forms": "^6.0",
@@ -245,6 +246,19 @@
           "url": "https://github.com/wikimedia/mediawiki-extensions-CommonsMetadata.git",
           "type": "git",
           "reference": "3d8c38cb64b6dd7a07990d4f52b96ddd8d7cd227"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mediawiki/nearby-pages",
+        "version": "dev-REL1_43",
+        "type": "mediawiki-extension",
+        "source": {
+          "url": "https://github.com/wikimedia/mediawiki-extensions-NearbyPages.git",
+          "type": "git",
+          "reference": "03c36df35d0cfb5830b3f2e781272ec2373b2349"
         }
       }
     },

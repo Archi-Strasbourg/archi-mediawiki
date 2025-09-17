@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d190bdebe6f6aad7fc45182fe938b92",
+    "content-hash": "10653eb049b3a21647681c7e31296e71",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -3079,6 +3079,16 @@
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
+            },
+            "type": "mediawiki-extension"
+        },
+        {
+            "name": "mediawiki/nearby-pages",
+            "version": "dev-REL1_43",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/mediawiki-extensions-NearbyPages.git",
+                "reference": "03c36df35d0cfb5830b3f2e781272ec2373b2349"
             },
             "type": "mediawiki-extension"
         },
@@ -8475,6 +8485,7 @@
         "mediawiki/loops": 20,
         "mediawiki/mobile-frontend": 20,
         "mediawiki/multimedia-viewer": 20,
+        "mediawiki/nearby-pages": 20,
         "mediawiki/newsletter": 20,
         "mediawiki/nuke": 20,
         "mediawiki/page-images": 20,

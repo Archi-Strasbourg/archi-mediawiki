@@ -121,6 +121,7 @@ wfLoadExtension('Scribunto');
 wfLoadExtension('CodeEditor');
 wfLoadExtension('Linter');
 wfLoadExtension('DiscussionTools');
+wfLoadExtension('NearbyPages');
 wfLoadExtension('Parsoid', __DIR__ . '/vendor/wikimedia/parsoid/extension.json');
 
 /** @var $IP string */
@@ -432,6 +433,10 @@ $wgMFNearby = true;
 $wgMFContentNamespace = NS_ADDRESS;
 $wgMFQueryPropModules = ['archiDescription'];
 $wgMFCollapseSectionsByDefault = false;
+
+// NearbyPages
+$wgNearbyPagesUrl = "{$wgScriptPath}/api.php";
+$wgNearbyPagesNamespaces = [NS_ADDRESS];
 
 // BlockAndNuke
 $wgWhitelist = $IP . '/whitelist.txt';
