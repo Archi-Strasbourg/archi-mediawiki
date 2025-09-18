@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10653eb049b3a21647681c7e31296e71",
+    "content-hash": "85e7e9e5eef084b2f2ea6679c21952a3",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
