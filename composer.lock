@@ -3308,12 +3308,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SemanticMediaWiki/SemanticFormsSelect.git",
-                "reference": "5a7827657fe68ea22d35520dce9dc6c9bae22e36"
+                "reference": "7524f1ba69115d54e69d9178b16f3bf62c12aa10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticFormsSelect/zipball/5a7827657fe68ea22d35520dce9dc6c9bae22e36",
-                "reference": "5a7827657fe68ea22d35520dce9dc6c9bae22e36",
+                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticFormsSelect/zipball/7524f1ba69115d54e69d9178b16f3bf62c12aa10",
+                "reference": "7524f1ba69115d54e69d9178b16f3bf62c12aa10",
                 "shasum": ""
             },
             "require": {
@@ -3390,7 +3390,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2025-04-16T15:49:16+00:00"
+            "time": "2025-07-22T11:20:38+00:00"
         },
         {
             "name": "mediawiki/semantic-media-wiki",
