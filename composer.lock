@@ -347,23 +347,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-emailuser-html.git",
-                "reference": "668c25d8f07b1824c913c05cbb50447506b47d24"
+                "reference": "5603472844c067bfcabdca3d4690fcf03e2af0ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-emailuser-html/zipball/668c25d8f07b1824c913c05cbb50447506b47d24",
-                "reference": "668c25d8f07b1824c913c05cbb50447506b47d24",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-emailuser-html/zipball/5603472844c067bfcabdca3d4690fcf03e2af0ed",
+                "reference": "5603472844c067bfcabdca3d4690fcf03e2af0ed",
                 "shasum": ""
             },
             "require": {
                 "pear/mail_mime": "~1.10.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "~0.9.5",
-                "php-mock/php-mock-mockery": "~1.1.0",
-                "phpunit/phpunit": "~5.6.3",
-                "squizlabs/php_codesniffer": "~2.8.1",
-                "symfony/var-dumper": "~3.1.0"
             },
             "default-branch": true,
             "type": "mediawiki-extension",
@@ -376,7 +369,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-emailuser-html/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-emailuser-html/tree/master"
             },
-            "time": "2021-06-24T09:41:06+00:00"
+            "time": "2025-09-22T10:16:42+00:00"
         },
         {
             "name": "archi-strasbourg/language-code",
