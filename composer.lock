@@ -197,19 +197,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab.git",
-                "reference": "aaeaebeca771f506286a819eb111cc8220865a97"
+                "reference": "b0c9df339fd2cc74b20992d5d535362c17775bc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/aaeaebeca771f506286a819eb111cc8220865a97",
-                "reference": "aaeaebeca771f506286a819eb111cc8220865a97",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-archi-news-tab/zipball/b0c9df339fd2cc74b20992d5d535362c17775bc8",
+                "reference": "b0c9df339fd2cc74b20992d5d535362c17775bc8",
                 "shasum": ""
             },
             "require": {
                 "archi-strasbourg/sections-count": "^1.0.0"
-            },
-            "require-dev": {
-                "phpdocumentor/phpdocumentor": "~2.9.0"
             },
             "default-branch": true,
             "type": "mediawiki-extension",
@@ -228,7 +225,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-archi-news-tab/tree/master"
             },
-            "time": "2025-06-11T08:14:49+00:00"
+            "time": "2025-09-30T09:17:17+00:00"
         },
         {
             "name": "archi-strasbourg/archi-wiki-skin",
@@ -418,12 +415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/mediawiki-link-to-archive.git",
-                "reference": "2d630e872adc8d6ac1a6bf3acd6bcdfbb65cc811"
+                "reference": "0d5f334b69b20413cc0c83165fbf86f2655efaf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-link-to-archive/zipball/2d630e872adc8d6ac1a6bf3acd6bcdfbb65cc811",
-                "reference": "2d630e872adc8d6ac1a6bf3acd6bcdfbb65cc811",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/mediawiki-link-to-archive/zipball/0d5f334b69b20413cc0c83165fbf86f2655efaf6",
+                "reference": "0d5f334b69b20413cc0c83165fbf86f2655efaf6",
                 "shasum": ""
             },
             "default-branch": true,
@@ -437,7 +434,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/mediawiki-link-to-archive/issues",
                 "source": "https://github.com/Archi-Strasbourg/mediawiki-link-to-archive/tree/master"
             },
-            "time": "2025-05-19T10:31:27+00:00"
+            "time": "2025-09-30T09:16:04+00:00"
         },
         {
             "name": "archi-strasbourg/sections-count",
