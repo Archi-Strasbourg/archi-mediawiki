@@ -1,5 +1,7 @@
 <?php
 use MediaWiki\MediaWikiServices;
+use SMW\RequestOptions;
+
 class ArchiValuesHooks{
     public static function onParserFirstCallInit( Parser $parser ) {
         $parser->setFunctionHook( 'ArchiValues', [ self::class, 'getAllValuesForProperty' ] );
@@ -65,7 +67,7 @@ class ArchiValuesHooks{
 		if ( $store == null ) {
 			return [];
 		}
-		$requestoptions = new SMWRequestOptions();
+		$requestoptions = new RequestOptions();
 		$requestoptions->limit = self::getMaxValuesToRetrieve();
 		$values = self::getSMWPropertyValues( $store, null, $property_name, $requestoptions );
 		$values = array_filter($values, function($value) {
