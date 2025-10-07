@@ -178,6 +178,7 @@ $wgFileExtensions[] = 'doc';
 $wgFileExtensions[] = 'docx';
 
 // Captcha
+$wgCaptchaClass = 'QuestyCaptcha';
 $wgCaptchaQuestions = [
     "Quel est la couleur du logo d'Archi-Wiki ?" => ['noir', 'blanc'],
     'Où se trouve le siège du Parlement Européen ?' => 'Strasbourg'
