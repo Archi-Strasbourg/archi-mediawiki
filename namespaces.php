@@ -16,3 +16,5 @@ const NS_BRIEF = 4010;
 const NS_BRIEF_TALK = 4011;
 const NS_ALERTE = 4012;
 const NS_ALERTE_TALK = 4013;
+const NS_PORTAL = 4014;
+const NS_PORTAL_TALK = 4015;

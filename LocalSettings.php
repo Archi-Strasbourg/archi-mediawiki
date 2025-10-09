@@ -316,6 +316,8 @@ $wgExtraNamespaces[NS_BRIEF] = 'Brève';
 $wgExtraNamespaces[NS_BRIEF_TALK] = 'Discussion_brève';
 $wgExtraNamespaces[NS_ALERTE] = 'Alerte';
 $wgExtraNamespaces[NS_ALERTE_TALK] = 'Discussion_alerte';
+$wgExtraNamespaces[NS_PORTAL] = 'Portail';
+$wgExtraNamespaces[NS_PORTAL_TALK] = 'Discussion_portail';
 
 /*
  * Namespace requis par MW, mais on ne s'en sert pas
@@ -333,6 +335,7 @@ $wgVisualEditorAvailableNamespaces[NS_PERSON] = true;
 $wgVisualEditorAvailableNamespaces[NS_SOURCE] = true;
 $wgVisualEditorAvailableNamespaces[NS_MEDIAWIKI] = true;
 $wgVisualEditorAvailableNamespaces[NS_ALERTE] = true;
+$wgVisualEditorAvailableNamespaces[NS_PORTAL] = true;
 $smwgNamespacesWithSemanticLinks[NS_ADDRESS] = true;
 $smwgNamespacesWithSemanticLinks[NS_ADDRESS_NEWS] = true;
 $smwgNamespacesWithSemanticLinks[NS_PERSON] = true;
