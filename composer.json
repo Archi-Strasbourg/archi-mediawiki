@@ -331,6 +331,9 @@
       "mediawiki/code-editor": {
         "Compatibilité avec PageForms": "https://github.com/wikimedia/mediawiki-extensions-CodeEditor/commit/806d1194de786c2b4c37af65769946d8f53eba11.diff"
       },
+      "mediawiki/core": {
+        "preg_replace() appelé avec NULL": "https://github.com/wikimedia/mediawiki/commit/b460e379f747f4341b5d0f089bb80eaddc2eb76b.diff"
+      },
       "mediawiki/maps": {
         "Parser sans utilisateur": "https://github.com/ProfessionalWiki/Maps/commit/4d50c2634ed1da08fb55c8ae95c413397faac179.diff"
       },
