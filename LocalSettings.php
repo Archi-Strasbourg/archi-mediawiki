@@ -185,6 +185,7 @@ $wgCaptchaQuestions = [
 ];
 $wgCaptchaTriggers['contactpage'] = true;
 $wgRateLimits['badcaptcha']['ip'] = ['3', '60'];
+$wgGroupPermissions['user']['skipcaptcha'] = true;
 
 //Footer
 $wgHooks['SkinAddFooterLinks'][] = function (Skin $skin, string $key, array &$footerlinks ) {
