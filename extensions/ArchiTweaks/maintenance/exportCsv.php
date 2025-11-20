@@ -5,16 +5,15 @@ namespace ArchiTweaks;
 use ConfigException;
 use Maintenance;
 use MediaWiki\MediaWikiServices;
-use SMW\ApplicationFactory;
 use SMW\MediaWiki\Api\ApiRequestParameterFormatter;
 use SMW\MediaWiki\Api\Ask;
+use SMW\Query\QueryContext;
+use SMW\Query\QueryResult;
 use SMW\Query\ResultPrinters\CsvFileExportPrinter;
+use SMW\Services\ServicesFactory;
 use SMWQueryProcessor;
-use SMWQueryResult;
 use SplTempFileObject;
-use TextExtracts\ExtractFormatter;
 use Title;
-use WikiPage;
 
 $IP = getenv('MW_INSTALL_PATH');
 if ($IP === false) {
@@ -59,18 +58,17 @@ class ExportCsv extends Maintenance
      * @param int $offset
      * @param string $format
      * @param string $headers
-     * @return SMWQueryResult
+     * @return QueryResult
      */
-    private function getResults($limit, $offset = 0, $format = 'csv', $headers = 'show')
-    {
+    private function getResults($limit, int $offset = 0, string $format = 'csv', string $headers = 'show'): QueryResult {
         list($queryString, $parameters, $printouts) = $this->getParams($limit, $offset, $headers);
 
         // On ajoute la colonne principale.
         SMWQueryProcessor::addThisPrintout($printouts, $parameters);
 
-        return ApplicationFactory::getInstance()->getStore()->getQueryResult(
+        return ServicesFactory::getInstance()->getStore()->getQueryResult(
             SMWQueryProcessor::createQuery($queryString, SMWQueryProcessor::getProcessedParams($parameters),
-                SMWQueryProcessor::SPECIAL_PAGE,
+                QueryContext::SPECIAL_PAGE,
                 $format,
                 $printouts)
         );
@@ -157,8 +155,9 @@ class ExportCsv extends Maintenance
      * @throws ConfigException
      * @see CsvResultPrinter::getResultText()
      */
-    private function addSectionsAndOutput($csv, $headers)
-    {
+    private function addSectionsAndOutput($csv, $headers): void {
+        $pageFactory = MediaWikiServices::getInstance()->getWikiPageFactory();
+
         $oldTmp = new SplTempFileObject();
         $oldTmp->fwrite($csv);
         $oldTmp->rewind();
@@ -174,7 +173,7 @@ class ExportCsv extends Maintenance
                     $row[] = 'Description';
                 } else {
                     $title = Title::newFromText(stripcslashes($row[0]));
-                    $page = WikiPage::newFromID($title->getArticleID());
+                    $page = $pageFactory->newFromID($title->getArticleID());
                     $content = $page->getContent();
 
                     $descriptions = [];
@@ -189,9 +188,7 @@ class ExportCsv extends Maintenance
                         }
                     }
 
-                    
-
-                    foreach ($content->getParserOutput($title, null, null, false)->getSections() as $section) {
+                    foreach ($page->getParserOutput()->getSections() as $section) {
                         if ($section['toclevel'] == 1) {
                             // Extraction de la date.
                             preg_match('/\|\s?date\s?=\s?([^|}]+)/', $content->getSection($section['index'])->getWikitextForTransclusion(), $matches);
