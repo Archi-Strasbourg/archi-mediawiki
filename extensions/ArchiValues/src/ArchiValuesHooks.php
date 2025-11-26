@@ -1,5 +1,7 @@
 <?php
 use MediaWiki\MediaWikiServices;
+use SMW\DIProperty;
+use SMW\DIWikiPage;
 use SMW\RequestOptions;
 
 class ArchiValuesHooks{
@@ -31,23 +33,23 @@ class ArchiValuesHooks{
 		}
 	}
 
-	public static function getSMWPropertyValues( $store, $subject, $propID, $requestOptions = null ) {
+	public static function getSMWPropertyValues( $store, $subject, $propID, $requestOptions = null ): array {
 		// If SMW is not installed, exit out.
-		if ( !class_exists( 'SMWDIWikiPage' ) ) {
+		if ( !class_exists( DIWikiPage::class ) ) {
 			return [];
 		}
 		if ( $subject === null ) {
 			$page = null;
 		} else {
-			$page = SMWDIWikiPage::newFromTitle( $subject );
+			$page = DIWikiPage::newFromTitle( $subject );
 		}
-		$property = SMWDIProperty::newFromUserLabel( $propID );
+		$property = DIProperty::newFromUserLabel( $propID );
 		$res = $store->getPropertyValues( $page, $property, $requestOptions );
 		$values = [];
 		foreach ( $res as $value ) {
 			if ( $value instanceof SMWDIUri ) {
 				$values[] = $value->getURI();
-			} elseif ( $value instanceof SMWDIWikiPage ) {
+			} elseif ( $value instanceof DIWikiPage ) {
 				$realValue = str_replace( '_', ' ', $value->getDBKey() );
 				if ( $value->getNamespace() != 0 ) {
 					$realValue = PFUtils::getCanonicalName( $value->getNamespace() ) . ":$realValue";
