@@ -470,3 +470,6 @@ $wgHTTPConnectTimeout = 1;
 $wgAvailableRights[] = 'unsubscribe-link';
 $wgGroupPermissions['bureaucrat']['unsubscribe-link'] = true;
 $wgGroupPermissions['bot']['unsubscribe-link'] = true;
+
+// PageForms
+$wgPageFormsMaxLocalAutocompleteValues = 200;
