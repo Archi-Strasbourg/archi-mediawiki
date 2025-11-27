@@ -71,7 +71,7 @@ class SpecialRunQueryCache extends PFRunQuery
                     $output->getPageTitle(),
                     $output->getHTML(),
                     $output->getHeadItemsArray(),
-                    $output->getJsConfigVars(),
+                    $output->getJSVars(),
                     $output->getModules()
                 ),
                 $cache::TTL_DAY
