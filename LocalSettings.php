@@ -473,3 +473,6 @@ $wgGroupPermissions['bot']['unsubscribe-link'] = true;
 
 // PageForms
 $wgPageFormsMaxLocalAutocompleteValues = 200;
+
+// https://redmine.insite.coop/issues/38384
+$wgCacheEpoch = 20251210102501;
