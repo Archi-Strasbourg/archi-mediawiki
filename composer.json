@@ -335,7 +335,8 @@
         "preg_replace() appelé avec NULL": "https://github.com/wikimedia/mediawiki/commit/b460e379f747f4341b5d0f089bb80eaddc2eb76b.diff"
       },
       "mediawiki/maps": {
-        "Parser sans utilisateur": "https://github.com/ProfessionalWiki/Maps/commit/4d50c2634ed1da08fb55c8ae95c413397faac179.diff"
+        "Parser sans utilisateur": "https://github.com/ProfessionalWiki/Maps/commit/4d50c2634ed1da08fb55c8ae95c413397faac179.diff",
+        "Option clusteranimate": "https://github.com/ProfessionalWiki/Maps/commit/600252d3834ed7a060827cda32eeeab1d3d17575.diff"
       },
       "mediawiki/semantic-media-wiki": {
         "Compatibilité MW 1.43.1": "patches/semantic-media-wiki-6152.diff",
