@@ -319,6 +319,8 @@ $wgExtraNamespaces[NS_ALERTE] = 'Alerte';
 $wgExtraNamespaces[NS_ALERTE_TALK] = 'Discussion_alerte';
 $wgExtraNamespaces[NS_PORTAL] = 'Portail';
 $wgExtraNamespaces[NS_PORTAL_TALK] = 'Discussion_portail';
+$wgExtraNamespaces[NS_ARTICLE] = 'Article';
+$wgExtraNamespaces[NS_ARTICLE_TALK] = 'Discussion_article';
 
 /*
  * Namespace requis par MW, mais on ne s'en sert pas
@@ -343,6 +345,7 @@ $smwgNamespacesWithSemanticLinks[NS_PERSON] = true;
 $smwgNamespacesWithSemanticLinks[NS_USER] = true;
 $smwgNamespacesWithSemanticLinks[NS_SOURCE] = true;
 $smwgNamespacesWithSemanticLinks[NS_NEWS] = true;
+$smwgNamespacesWithSemanticLinks[NS_ARTICLE] = true;
 $smwgNamespacesWithSemanticLinks[NS_BRIEF] = true;
 $smwgNamespacesWithSemanticLinks[NS_ALERTE] = true;
 $wgNamespacesToBeSearchedDefault[NS_ADDRESS] = true;
@@ -420,6 +423,7 @@ $wgGroupPermissions['bureaucrat']['lookupuser'] = true;
 //PageImages
 $wgPageImagesNamespaces[] = NS_ADDRESS;
 $wgPageImagesNamespaces[] = NS_NEWS;
+$wgPageImagesNamespaces[] = NS_ARTICLE;
 
 //Loops
 $egLoopsCounterLimit = 4000;

@@ -18,3 +18,5 @@ const NS_ALERTE = 4012;
 const NS_ALERTE_TALK = 4013;
 const NS_PORTAL = 4014;
 const NS_PORTAL_TALK = 4015;
+const NS_ARTICLE = 4016;
+const NS_ARTICLE_TALK = 4017;
