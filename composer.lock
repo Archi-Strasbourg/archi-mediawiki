@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c03e7a7d52ef9146abcc10911316f3c",
+    "content-hash": "e7d4b37e21f3f10816ac5514c3f36519",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -3880,22 +3880,6 @@
                 "irc": "irc://irc.freenode.org/mediawiki"
             },
             "time": "2025-06-16T00:08:14+00:00"
-        },
-        {
-            "name": "mediawiki/vector-skin",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:wikimedia/mediawiki-skins-Vector",
-                "reference": "d09fef55333cb0cbb5963c945bf2dc878f3b35ca"
-            },
-            "require": {
-                "composer/installers": "~1.0|~2.0"
-            },
-            "type": "mediawiki-skin",
-            "extra": {
-                "installer-name": "Vector"
-            }
         },
         {
             "name": "mediawiki/visual-editor",
@@ -8695,7 +8679,6 @@
         "mediawiki/upload-wizard": 20,
         "mediawiki/user-merge": 20,
         "mediawiki/variables": 20,
-        "mediawiki/vector-skin": 20,
         "mediawiki/visual-editor": 20,
         "mediawiki/wiki-editor": 20
     },

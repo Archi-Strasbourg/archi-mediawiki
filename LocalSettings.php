@@ -55,7 +55,6 @@ $wgGroupPermissions['noAlerteMail']=$wgGroupPermissions['user'];
 
 //Extensions
 wfLoadSkin('archi-wiki');
-wfLoadSkin('Vector');
 wfLoadExtension('SemanticMediaWiki');
 if (function_exists('enableSemantics')) {
     enableSemantics('localhost');
@@ -135,7 +134,7 @@ $wgDefaultUserOptions['usebetatoolbar'] = 1; // user option provided by WikiEdit
 include_once __DIR__ . '/apikeys.php';
 //VisualEditor
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
-$wgVisualEditorSupportedSkins = ['vector', 'archiwiki'];
+$wgVisualEditorSupportedSkins = ['archiwiki'];
 $wgUploadDialog = [
     'fields' => [
         'description' => true,

@@ -75,7 +75,6 @@
     "mediawiki/upload-wizard": "dev-master#64b6822e66d8b6b743fc60f180b4cbe4a2d7e5cf",
     "mediawiki/user-merge": "dev-REL1_43",
     "mediawiki/variables": "dev-REL1_43",
-    "mediawiki/vector-skin": "dev-master#d09fef55333cb0cbb5963c945bf2dc878f3b35ca",
     "mediawiki/visual-editor": "dev-master#34cf5345add0fa8d353e76334a8a948772e77f2b",
     "mediawiki/wiki-editor": "dev-master#847d10db226f6fde298bc813361aac8b8b66559f",
     "mnsami/composer-custom-directory-installer": "^2.0"
