@@ -2,9 +2,9 @@
 
 namespace ArchiTweaks;
 
-use Category;
-use Parser;
-use Title;
+use MediaWiki\Category\Category;
+use MediaWiki\MediaWikiServices;
+use MediaWiki\Parser\Parser;
 
 class Subcategories
 {
@@ -15,16 +15,21 @@ class Subcategories
      * @return string
      * @noinspection PhpUnusedParameterInspection
      */
-    public static function render(Parser $parser, string $parent): string
-    {
+    public static function render(Parser $parser, string $parent): string {
         $result = [];
         $category = Category::newFromName($parent);
+        $pageProps = MediaWikiServices::getInstance()->getPageProps();
 
-        /** @var Title $member */
         foreach ($category->getMembers() as $member) {
-            if ($member->getNamespace() == NS_CATEGORY) {
-                $result[] = $member->getText();
+            if ($member->getNamespace() != NS_CATEGORY) {
+                continue;
             }
+            $properties = $pageProps->getProperties($member, 'hiddencat');
+            if (!empty($properties)) {
+                continue;
+            }
+
+            $result[] = $member->getText();
         }
 
         return implode(',', $result);
