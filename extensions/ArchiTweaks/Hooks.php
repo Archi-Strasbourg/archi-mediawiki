@@ -79,7 +79,7 @@ class Hooks
      * @return void
      * @throws MWException
      */
-    public static function onParserFirstCallInit(Parser $parser) {
+    public static function onParserFirstCallInit(Parser $parser): void {
         $parser->setFunctionHook( 'querycacheformlink', [ QueryCacheFormLink::class, 'run' ] );
         $parser->setFunctionHook( 'subcategories', [ Subcategories::class, 'render' ] );
     }
@@ -90,7 +90,8 @@ class Hooks
      * @noinspection PhpUnused
      */
     public static function onOutputPageParserOutput(OutputPage $out): void {
-        if ($out->getTitle()->getFullText() == 'Spécial:Recherche') {
+        $title = $out->getTitle()->getFullText();
+        if ($title == 'Spécial:Recherche') {
             $doc = Html::load($out->getHTML());
 
             $xpath = new DOMXPath($doc);
@@ -103,6 +104,9 @@ class Hooks
 
             $out->clearHTML();
             $out->addHTML(Html::serialize($doc));
+        }
+        elseif ($title == 'Spécial:AjouterDonnées/Nouvelle adresse') {
+            $out->addModules(['ext.architweaks.address_form']);
         }
     }
 

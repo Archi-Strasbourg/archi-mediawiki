@@ -64,6 +64,11 @@
         "desktop",
         "mobile"
       ]
+    },
+    "ext.architweaks.address_form": {
+      "scripts": [
+        "js/address-form.js"
+      ]
     }
   },
   "ResourceFileModulePaths": {
