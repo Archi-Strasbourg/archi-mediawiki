@@ -51,7 +51,7 @@
     "mediawiki/linter": "dev-master#be341885d79420838083fa920ed8319b2a7ed7e5",
     "mediawiki/lookup-user": "dev-REL1_43",
     "mediawiki/loops": "dev-REL1_43",
-    "mediawiki/maps": "^11.0",
+    "mediawiki/maps": "^12.1",
     "mediawiki/meta-description-tag": "^0.4.0",
     "mediawiki/mobile-frontend": "dev-REL1_27#19b1124fb6e6012af10ed8750fb05ac304a0566c",
     "mediawiki/multimedia-viewer": "dev-REL1_43",
