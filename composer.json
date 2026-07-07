@@ -51,7 +51,7 @@
     "mediawiki/linter": "dev-master#be341885d79420838083fa920ed8319b2a7ed7e5",
     "mediawiki/lookup-user": "dev-REL1_43",
     "mediawiki/loops": "dev-REL1_43",
-    "mediawiki/maps": "^11.0",
+    "mediawiki/maps": "^12.0",
     "mediawiki/meta-description-tag": "^0.4.0",
     "mediawiki/mobile-frontend": "dev-REL1_27#19b1124fb6e6012af10ed8750fb05ac304a0566c",
     "mediawiki/multimedia-viewer": "dev-REL1_43",
@@ -332,10 +332,6 @@
       },
       "mediawiki/core": {
         "preg_replace() appelé avec NULL": "https://github.com/wikimedia/mediawiki/commit/b460e379f747f4341b5d0f089bb80eaddc2eb76b.diff"
-      },
-      "mediawiki/maps": {
-        "Parser sans utilisateur": "https://github.com/ProfessionalWiki/Maps/commit/4d50c2634ed1da08fb55c8ae95c413397faac179.diff",
-        "Option clusteranimate": "https://github.com/ProfessionalWiki/Maps/commit/600252d3834ed7a060827cda32eeeab1d3d17575.diff"
       },
       "mediawiki/semantic-media-wiki": {
         "Compatibilité MW 1.43.1": "patches/semantic-media-wiki-6152.diff",
