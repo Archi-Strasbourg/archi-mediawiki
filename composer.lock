@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6bfe074d9b22c5fb5bd4c74502ad45cb",
+    "content-hash": "8b8c0402634104663fcad522181ede15",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -819,16 +819,16 @@
         },
         {
             "name": "data-values/data-values",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataValues/DataValues.git",
-                "reference": "1084142918095dfedf9b6cc0de0755f8c4628264"
+                "reference": "45aca708da1f7d39c4fca9e6c7373404627e083b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataValues/DataValues/zipball/1084142918095dfedf9b6cc0de0755f8c4628264",
-                "reference": "1084142918095dfedf9b6cc0de0755f8c4628264",
+                "url": "https://api.github.com/repos/DataValues/DataValues/zipball/45aca708da1f7d39c4fca9e6c7373404627e083b",
+                "reference": "45aca708da1f7d39c4fca9e6c7373404627e083b",
                 "shasum": ""
             },
             "require": {
@@ -873,7 +873,7 @@
             ],
             "support": {
                 "issues": "https://github.com/DataValues/DataValues/issues",
-                "source": "https://github.com/DataValues/DataValues/tree/3.1.0"
+                "source": "https://github.com/DataValues/DataValues/tree/3.1.1"
             },
             "funding": [
                 {
@@ -881,7 +881,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-10-21T13:57:56+00:00"
+            "time": "2026-02-04T13:26:44+00:00"
         },
         {
             "name": "data-values/geo",
@@ -1802,6 +1802,70 @@
                 }
             ],
             "time": "2020-08-19T16:25:55+00:00"
+        },
+        {
+            "name": "jeroen/message-reporter",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JeroenDeDauw/message-reporter.git",
+                "reference": "acf6cf8be76f8c6e39f6b22022e377016b6d2ac1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JeroenDeDauw/message-reporter/zipball/acf6cf8be76f8c6e39f6b22022e377016b6d2ac1",
+                "reference": "acf6cf8be76f8c6e39f6b22022e377016b6d2ac1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "replace": {
+                "onoi/message-reporter": "*"
+            },
+            "require-dev": {
+                "mediawiki/mediawiki-codesniffer": "~34.0",
+                "ockcyp/covers-validator": "~1.1",
+                "phpstan/phpstan": "~0.12.67",
+                "phpunit/phpunit": "^9.6",
+                "squizlabs/php_codesniffer": "~3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Onoi\\MessageReporter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "homepage": "https://EntropyWins.wtf"
+                },
+                {
+                    "name": "James Hong Kong"
+                }
+            ],
+            "description": "An interface to report and relay arbitrary messages to registered handlers, plus test doubles",
+            "homepage": "https://github.com/JeroenDeDauw/message-reporter",
+            "keywords": [
+                "messages",
+                "reporter"
+            ],
+            "support": {
+                "issues": "https://github.com/JeroenDeDauw/message-reporter/issues",
+                "source": "https://github.com/JeroenDeDauw/message-reporter/tree/1.5.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/JeroenDeDauw",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-03-30T22:28:22+00:00"
         },
         {
             "name": "jeroen/simple-cache",
@@ -2801,66 +2865,6 @@
             "time": "2025-07-01T06:33:56+00:00"
         },
         {
-            "name": "mediawiki/http-request",
-            "version": "2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/SemanticMediaWiki/http-request.git",
-                "reference": "1818e0731561621121fcc9da90f244a727ef0989"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/SemanticMediaWiki/http-request/zipball/1818e0731561621121fcc9da90f244a727ef0989",
-                "reference": "1818e0731561621121fcc9da90f244a727ef0989",
-                "shasum": ""
-            },
-            "require": {
-                "onoi/cache": "~1.2",
-                "php": ">=8.0"
-            },
-            "replace": {
-                "onoi/http-request": "*"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^9.5"
-            },
-            "suggest": {
-                "lib-curl": "Allows making CURL requests"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Onoi\\HttpRequest\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "James Hong Kong",
-                    "homepage": "https://github.com/mwjames"
-                }
-            ],
-            "description": "A minimalistic http/curl request interface library",
-            "homepage": "https://github.com/SemanticMediaWiki/http-request",
-            "keywords": [
-                "curl",
-                "http request"
-            ],
-            "support": {
-                "issues": "https://github.com/SemanticMediaWiki/http-request/issues",
-                "source": "https://github.com/SemanticMediaWiki/http-request/tree/2.0.0"
-            },
-            "time": "2022-12-13T13:16:31+00:00"
-        },
-        {
             "name": "mediawiki/linter",
             "version": "dev-master",
             "source": {
@@ -3336,47 +3340,35 @@
         },
         {
             "name": "mediawiki/semantic-media-wiki",
-            "version": "5.0.2",
+            "version": "7.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SemanticMediaWiki/SemanticMediaWiki.git",
-                "reference": "5db1fe6f8ce08ef5f0c591465ed68d80c60521ad"
+                "reference": "0d11c070bbe64f4425e3ab8be89eefa926dd9e4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMediaWiki/zipball/5db1fe6f8ce08ef5f0c591465ed68d80c60521ad",
-                "reference": "5db1fe6f8ce08ef5f0c591465ed68d80c60521ad",
+                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMediaWiki/zipball/0d11c070bbe64f4425e3ab8be89eefa926dd9e4e",
+                "reference": "0d11c070bbe64f4425e3ab8be89eefa926dd9e4e",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^2.2.0|^1.0.1",
                 "ext-mbstring": "*",
                 "jeroen/file-fetcher": "^6|^5|^4.4",
-                "justinrainbow/json-schema": "~5.2",
-                "mediawiki/http-request": "~2.0|~1.1",
-                "mediawiki/parser-hooks": "~1.4",
-                "onoi/blob-store": "~1.2",
-                "onoi/cache": "~1.2",
-                "onoi/callback-container": "~2.0",
-                "onoi/event-dispatcher": "~1.0",
-                "onoi/message-reporter": "~1.0",
-                "param-processor/param-processor": "~1.2",
+                "jeroen/message-reporter": "~1.0",
+                "param-processor/param-processor": "~1.13",
                 "php": ">=8.1",
-                "psr/log": "~1.0",
-                "seld/jsonlint": "^1.7",
-                "serialization/serialization": "~3.2|~4.0",
-                "symfony/css-selector": "^5|^4|^3.3",
-                "wikimedia/cdb": "^3|^2|^1",
+                "serialization/serialization": "~4.0",
                 "wikimedia/textcat": "^2|^1.1"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "46.0.0",
-                "mediawiki/mediawiki-phan-config": "0.14.0",
+                "mediawiki/mediawiki-codesniffer": "48.0.0",
+                "mediawiki/mediawiki-phan-config": "0.20.0",
                 "mediawiki/minus-x": "1.1.3",
                 "php-parallel-lint/php-console-highlighter": "1.0.0",
                 "php-parallel-lint/php-parallel-lint": "1.4.0",
-                "phpmd/phpmd": "~2.1",
-                "squizlabs/php_codesniffer": "~3.5"
+                "symfony/css-selector": "^5"
             },
             "suggest": {
                 "mediawiki/semantic-result-formats": "Provides additional result formats for queries of structured data"
@@ -3384,25 +3376,13 @@
             "type": "mediawiki-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.x-dev"
+                    "dev-master": "7.x-dev"
                 }
             },
             "autoload": {
                 "files": [
-                    "includes/GlobalFunctions.php"
-                ],
-                "psr-0": {
-                    "SemanticMediaWiki": "includes/SemanticMediaWiki.php"
-                },
-                "psr-4": {
-                    "SMW\\": "src/",
-                    "Onoi\\Tesa\\": "Tesa/src/",
-                    "SMW\\Tests\\": "tests/phpunit/",
-                    "SMW\\Maintenance\\": "maintenance/"
-                },
-                "classmap": [
-                    "includes/",
-                    "tests/phpunit/includes/"
+                    "src/Defines.php",
+                    "src/enableSemantics.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3458,7 +3438,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2025-05-23T22:21:16+00:00"
+            "time": "2026-07-18T01:51:41+00:00"
         },
         {
             "name": "mediawiki/semantic-result-formats",
@@ -4229,269 +4209,6 @@
             "time": "2021-11-18T09:23:29+00:00"
         },
         {
-            "name": "onoi/blob-store",
-            "version": "1.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/onoi/blob-store.git",
-                "reference": "c3e1f15214977e904fc0e91e0480175a464977ce"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/onoi/blob-store/zipball/c3e1f15214977e904fc0e91e0480175a464977ce",
-                "reference": "c3e1f15214977e904fc0e91e0480175a464977ce",
-                "shasum": ""
-            },
-            "require": {
-                "onoi/cache": "~1.1",
-                "php": ">=5.3.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Onoi\\BlobStore\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "mwjames"
-                }
-            ],
-            "description": "A simple interface to manage schema-free temporal persistent key/values",
-            "homepage": "https://github.com/onoi/blob-store",
-            "keywords": [
-                "messages"
-            ],
-            "support": {
-                "issues": "https://github.com/onoi/blob-store/issues",
-                "source": "https://github.com/onoi/blob-store/tree/master"
-            },
-            "time": "2016-07-09T17:32:53+00:00"
-        },
-        {
-            "name": "onoi/cache",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/onoi/cache.git",
-                "reference": "ecc999186aab7c8db411aedd892b2e5fe5a0b422"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/onoi/cache/zipball/ecc999186aab7c8db411aedd892b2e5fe5a0b422",
-                "reference": "ecc999186aab7c8db411aedd892b2e5fe5a0b422",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Onoi\\Cache\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "mwjames",
-                    "homepage": "https://github.com/mwjames"
-                }
-            ],
-            "description": "A minimalistic cache adapter interface library",
-            "homepage": "https://github.com/onoi/cache",
-            "keywords": [
-                "cache"
-            ],
-            "support": {
-                "issues": "https://github.com/onoi/cache/issues",
-                "source": "https://github.com/onoi/cache/tree/master"
-            },
-            "time": "2015-06-02T08:52:45+00:00"
-        },
-        {
-            "name": "onoi/callback-container",
-            "version": "2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/onoi/callback-container.git",
-                "reference": "cf2f4dda1b2479bc786985fdb5554af528d03e52"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/onoi/callback-container/zipball/cf2f4dda1b2479bc786985fdb5554af528d03e52",
-                "reference": "cf2f4dda1b2479bc786985fdb5554af528d03e52",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5",
-                "psr/log": "~1.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Onoi\\CallbackContainer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "mwjames",
-                    "homepage": "https://github.com/mwjames"
-                }
-            ],
-            "description": "A very simple callback container/builder library",
-            "homepage": "https://github.com/onoi/callback-container",
-            "keywords": [
-                "container"
-            ],
-            "support": {
-                "issues": "https://github.com/onoi/callback-container/issues",
-                "source": "https://github.com/onoi/callback-container/tree/master"
-            },
-            "time": "2017-02-18T10:46:46+00:00"
-        },
-        {
-            "name": "onoi/event-dispatcher",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/onoi/event-dispatcher.git",
-                "reference": "2af64e3997fc59b6d1e1f8f77e65fd6311c37109"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/onoi/event-dispatcher/zipball/2af64e3997fc59b6d1e1f8f77e65fd6311c37109",
-                "reference": "2af64e3997fc59b6d1e1f8f77e65fd6311c37109",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Onoi\\EventDispatcher\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "James Hong Kong"
-                }
-            ],
-            "description": "A minimalistic interface to relay generic events to registered listeners",
-            "homepage": "https://github.com/onoi/event-dispatcher",
-            "keywords": [
-                "events",
-                "listener"
-            ],
-            "support": {
-                "issues": "https://github.com/onoi/event-dispatcher/issues",
-                "source": "https://github.com/onoi/event-dispatcher/tree/master"
-            },
-            "time": "2019-01-27T03:37:14+00:00"
-        },
-        {
-            "name": "onoi/message-reporter",
-            "version": "1.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/onoi/message-reporter.git",
-                "reference": "ead8ef8f2868ccee6881e471295ebbaf8428c96c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/onoi/message-reporter/zipball/ead8ef8f2868ccee6881e471295ebbaf8428c96c",
-                "reference": "ead8ef8f2868ccee6881e471295ebbaf8428c96c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.3"
-            },
-            "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "~34.0",
-                "ockcyp/covers-validator": "~1.1",
-                "phpstan/phpstan": "~0.12.67",
-                "phpunit/phpunit": "^9.5",
-                "squizlabs/php_codesniffer": "~3.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Onoi\\MessageReporter\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Jeroen De Dauw",
-                    "homepage": "https://EntropyWins.wtf"
-                },
-                {
-                    "name": "James Hong Kong"
-                }
-            ],
-            "description": "An interface to report and relay arbitrary messages to registered handlers",
-            "homepage": "https://github.com/onoi/message-reporter",
-            "keywords": [
-                "messages",
-                "reporter"
-            ],
-            "support": {
-                "issues": "https://github.com/onoi/message-reporter/issues",
-                "source": "https://github.com/onoi/message-reporter/tree/1.4.2"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/JeroenDeDauw",
-                    "type": "github"
-                }
-            ],
-            "time": "2021-01-15T14:23:11+00:00"
-        },
-        {
             "name": "oojs/oojs-ui",
             "version": "v0.51.2",
             "source": {
@@ -4585,16 +4302,16 @@
         },
         {
             "name": "param-processor/param-processor",
-            "version": "1.12.0",
+            "version": "1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JeroenDeDauw/ParamProcessor.git",
-                "reference": "0850dc2af72d31b8f645e0f87a44ff4b68583a64"
+                "reference": "1b697b2e69bd1c47e375d2776b943470330adb9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JeroenDeDauw/ParamProcessor/zipball/0850dc2af72d31b8f645e0f87a44ff4b68583a64",
-                "reference": "0850dc2af72d31b8f645e0f87a44ff4b68583a64",
+                "url": "https://api.github.com/repos/JeroenDeDauw/ParamProcessor/zipball/1b697b2e69bd1c47e375d2776b943470330adb9a",
+                "reference": "1b697b2e69bd1c47e375d2776b943470330adb9a",
                 "shasum": ""
             },
             "require": {
@@ -4602,13 +4319,10 @@
                 "data-values/data-values": "~3.0|~2.0|~1.0",
                 "data-values/interfaces": "~1.0|~0.2.0|~0.1.4",
                 "data-values/validators": "~1.0|~0.1.1",
-                "php": ">=7.1"
+                "php": ">=8.1"
             },
             "require-dev": {
-                "ockcyp/covers-validator": "~1.0",
-                "phpmd/phpmd": "~2.6",
-                "phpunit/phpunit": "~8.0|~7.4",
-                "squizlabs/php_codesniffer": "~3.3"
+                "phpunit/phpunit": "~9.6"
             },
             "type": "library",
             "extra": {
@@ -4642,15 +4356,15 @@
                 "ParamProcessor",
                 "SMW",
                 "Semantic MediaWiki",
-                "Vaidation",
                 "declarative",
                 "mediawiki",
                 "parameters",
+                "validation",
                 "validator"
             ],
             "support": {
                 "issues": "https://github.com/JeroenDeDauw/ParamProcessor/issues",
-                "source": "https://github.com/JeroenDeDauw/ParamProcessor/tree/1.12.0"
+                "source": "https://github.com/JeroenDeDauw/ParamProcessor/tree/1.13.1"
             },
             "funding": [
                 {
@@ -4658,7 +4372,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-05-04T14:53:22+00:00"
+            "time": "2026-06-03T03:06:52+00:00"
         },
         {
             "name": "pear/console_getopt",
@@ -5681,70 +5395,6 @@
             "time": "2023-04-21T09:04:46+00:00"
         },
         {
-            "name": "seld/jsonlint",
-            "version": "1.11.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "1748aaf847fc731cfad7725aec413ee46f0cc3a2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/1748aaf847fc731cfad7725aec413ee46f0cc3a2",
-                "reference": "1748aaf847fc731cfad7725aec413ee46f0cc3a2",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.3 || ^7.0 || ^8.0"
-            },
-            "require-dev": {
-                "phpstan/phpstan": "^1.11",
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0 || ^8.5.13"
-            },
-            "bin": [
-                "bin/jsonlint"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Seld\\JsonLint\\": "src/Seld/JsonLint/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jordi Boggiano",
-                    "email": "j.boggiano@seld.be",
-                    "homepage": "https://seld.be"
-                }
-            ],
-            "description": "JSON Linter",
-            "keywords": [
-                "json",
-                "linter",
-                "parser",
-                "validator"
-            ],
-            "support": {
-                "issues": "https://github.com/Seldaek/jsonlint/issues",
-                "source": "https://github.com/Seldaek/jsonlint/tree/1.11.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/Seldaek",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/seld/jsonlint",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2024-07-11T14:55:45+00:00"
-        },
-        {
             "name": "serialization/serialization",
             "version": "4.1.0",
             "source": {
@@ -5804,72 +5454,6 @@
                 "source": "https://github.com/wmde/Serialization/tree/4.1.0"
             },
             "time": "2024-12-11T14:47:31+00:00"
-        },
-        {
-            "name": "symfony/css-selector",
-            "version": "v5.4.45",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/css-selector.git",
-                "reference": "4f7f3c35fba88146b56d0025d20ace3f3901f097"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/4f7f3c35fba88146b56d0025d20ace3f3901f097",
-                "reference": "4f7f3c35fba88146b56d0025d20ace3f3901f097",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2.5",
-                "symfony/polyfill-php80": "^1.16"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\CssSelector\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Jean-François Simon",
-                    "email": "jeanfrancois.simon@sensiolabs.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Converts CSS selectors to XPath expressions",
-            "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/css-selector/tree/v5.4.45"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2024-09-25T14:11:13+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
