@@ -238,6 +238,7 @@ class SpecialArchiRecentChanges extends SpecialPage
      */
     public function outputRecentChanges()
     {
+        return;
         $output = $this->getOutput();
         
         
