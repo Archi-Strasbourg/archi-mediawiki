@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f0edc2f3eef2820bd3578c90907f2d55",
+    "content-hash": "a73e9755e3287ba078052dc4d4285056",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -233,12 +233,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin.git",
-                "reference": "0701b1a0fd54f2ddcf226ac277f7b3e26b563a11"
+                "reference": "25b3946f66abb2d5c439a248700adfdf246b8828"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/0701b1a0fd54f2ddcf226ac277f7b3e26b563a11",
-                "reference": "0701b1a0fd54f2ddcf226ac277f7b3e26b563a11",
+                "url": "https://api.github.com/repos/Archi-Strasbourg/archi-mediawiki-skin/zipball/25b3946f66abb2d5c439a248700adfdf246b8828",
+                "reference": "25b3946f66abb2d5c439a248700adfdf246b8828",
                 "shasum": ""
             },
             "require-dev": {
@@ -267,7 +267,7 @@
                 "issues": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/issues",
                 "source": "https://github.com/Archi-Strasbourg/archi-mediawiki-skin/tree/master"
             },
-            "time": "2026-09-28T09:01:01+00:00"
+            "time": "2026-10-05T07:49:06+00:00"
         },
         {
             "name": "archi-strasbourg/category-breadcrumb",
