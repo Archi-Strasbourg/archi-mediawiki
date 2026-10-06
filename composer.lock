@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1bd4e73ae35eefa1010ac84ce9cefc53",
+    "content-hash": "f0edc2f3eef2820bd3578c90907f2d55",
     "packages": [
         {
             "name": "archi-strasbourg/archi-blog",
@@ -3063,25 +3063,25 @@
         },
         {
             "name": "mediawiki/page-forms",
-            "version": "6.0",
+            "version": "6.0.11",
             "source": {
                 "type": "git",
                 "url": "git@github.com:wikimedia/mediawiki-extensions-PageForms.git",
-                "reference": "35099cf9fab298ceb5fbc51ed2c721eae2728406"
+                "reference": "88ad8f1805a11bb1c693ddd9e5311b059593344f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-PageForms/zipball/35099cf9fab298ceb5fbc51ed2c721eae2728406",
-                "reference": "35099cf9fab298ceb5fbc51ed2c721eae2728406",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-extensions-PageForms/zipball/88ad8f1805a11bb1c693ddd9e5311b059593344f",
+                "reference": "88ad8f1805a11bb1c693ddd9e5311b059593344f",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^2|^1.0.1"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "46.0.0",
-                "mediawiki/mediawiki-phan-config": "0.15.1",
-                "mediawiki/minus-x": "1.1.3",
+                "mediawiki/mediawiki-codesniffer": "52.0.0",
+                "mediawiki/mediawiki-phan-config": "0.20.0",
+                "mediawiki/minus-x": "2.0.1",
                 "php-parallel-lint/php-console-highlighter": "1.0.0",
                 "php-parallel-lint/php-parallel-lint": "1.4.0"
             },
@@ -3115,6 +3115,9 @@
                 ],
                 "phan": [
                     "phan -d . --long-progress-bar"
+                ],
+                "foreign-resources": [
+                    "../../maintenance/run manageForeignResources --extension PageForms"
                 ]
             },
             "license": [
@@ -3135,7 +3138,7 @@
                 "Wiki",
                 "forms"
             ],
-            "time": "2025-04-17T14:07:22+00:00"
+            "time": "2026-08-27T15:56:12+00:00"
         },
         {
             "name": "mediawiki/page-images",
@@ -3250,38 +3253,32 @@
         },
         {
             "name": "mediawiki/semantic-forms-select",
-            "version": "dev-master",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SemanticMediaWiki/SemanticFormsSelect.git",
-                "reference": "7524f1ba69115d54e69d9178b16f3bf62c12aa10"
+                "reference": "8a92a432c156c4e23fc7c4107664d50aaca46b17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticFormsSelect/zipball/7524f1ba69115d54e69d9178b16f3bf62c12aa10",
-                "reference": "7524f1ba69115d54e69d9178b16f3bf62c12aa10",
+                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticFormsSelect/zipball/8a92a432c156c4e23fc7c4107664d50aaca46b17",
+                "reference": "8a92a432c156c4e23fc7c4107664d50aaca46b17",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": ">=1.0.1",
-                "php": ">=7.4"
+                "composer/installers": "^2|^1.0.1",
+                "php": ">=8.1"
             },
             "require-dev": {
+                "mediawiki/mediawiki-codesniffer": "48.0.0",
                 "mediawiki/minus-x": "1.1.3",
-                "mediawiki/semantic-media-wiki": "@dev",
                 "php-parallel-lint/php-console-highlighter": "1.0.0",
                 "php-parallel-lint/php-parallel-lint": "1.4.0"
             },
-            "default-branch": true,
             "type": "mediawiki-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "SFS\\": "src/"
+                    "dev-master": "5.x-dev"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3324,7 +3321,7 @@
             ],
             "support": {
                 "issues": "https://github.com/SemanticMediaWiki/SemanticFormsSelect/issues",
-                "source": "https://github.com/SemanticMediaWiki/SemanticFormsSelect/tree/master"
+                "source": "https://github.com/SemanticMediaWiki/SemanticFormsSelect/tree/5.0.0"
             },
             "funding": [
                 {
@@ -3336,7 +3333,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2025-07-22T11:20:38+00:00"
+            "time": "2026-06-08T09:54:01+00:00"
         },
         {
             "name": "mediawiki/semantic-media-wiki",
@@ -8280,7 +8277,6 @@
         "mediawiki/parser-functions": 20,
         "mediawiki/replace-text": 20,
         "mediawiki/scribunto": 20,
-        "mediawiki/semantic-forms-select": 20,
         "mediawiki/smitespam": 20,
         "mediawiki/template-data": 20,
         "mediawiki/text-extracts": 20,
