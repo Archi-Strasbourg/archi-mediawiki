@@ -56,9 +56,6 @@ $wgGroupPermissions['noAlerteMail']=$wgGroupPermissions['user'];
 //Extensions
 wfLoadSkin('archi-wiki');
 wfLoadExtension('SemanticMediaWiki');
-if (function_exists('enableSemantics')) {
-    enableSemantics('localhost');
-}
 wfLoadExtension('ParserFunctions');
 wfLoadExtension('Cite');
 wfLoadExtension('Comments');
@@ -408,7 +405,7 @@ $smwgQDefaultLimit = 500;
 $smwgQMaxInlineLimit = 20000;
 $smwgQMaxLimit = 20000;
 $smwgQUpperbound = 20000;
-$smwgParserFeatures = SMW_PARSER_STRICT | SMW_PARSER_HID_CATS;
+$smwgParserFeatures = ['strict', 'hidden-categories'];
 
 //UserMerge
 $wgGroupPermissions['bureaucrat']['usermerge'] = true;
