@@ -55,13 +55,13 @@ async function getArbreCategories($title){
 	else {
 		return "wrong";
 	}
-	
+
 	if(categorie[0]['title']=='Pays'){
 		return [];
 	}
 	var tmp=[];
 	for(var i in categorie){
-		
+
 		if (categorie[i]['title'].endsWith('(Structure)') || categorie[i]['title'].endsWith('(Courant_architectural)') || categorie[i]['title'].endsWith('(Type_d\'événement)')) {
 			continue; //skip les catégories qu'on ne veut pas (A ajouté si d'autres catégories automatique existent)
 		}
@@ -111,7 +111,7 @@ async function addRecentChanges($startDate, $sort, $length){
 		left: '0px',
 	});
 	$(".latest-block").append($section);
-	
+
 	defaultHeight+=$section.outerHeight();
 
 	w=window.innerWidth;
@@ -136,7 +136,7 @@ async function addRecentChanges($startDate, $sort, $length){
 			var start=new Date().getTime();
 			var recentchanges= response.query.recentchanges;
 
-			
+
 			var recentchanges2 = [];
 			for (var i = 0; i < recentchanges.length; i++) {
 				var address = recentchanges[i];
@@ -234,30 +234,39 @@ async function addRecentChanges($startDate, $sort, $length){
 					$recentChangeContainer.append($recentChange);
 					$(".latest-block").append($recentChangeContainer);
 					displayImage($recentChangeContainer);
-					
+
 				}
 			}
 			$("#voir-plus").data('dateend', endDate.toISOString());
 			$("#voir-plus").show();
 			console.log("temps de chargement: "+(new Date().getTime()-start));
 		}).catch(function(error){console.log(error);});
-	
-	
+
+
 }
 
 function displayImage($elt){
 	var $headerImage = $elt.find('a.mw-file-description > img').first();
-	
+
 	var $headerImageUrl=$headerImage.attr('src');
 	if(typeof($headerImageUrl)!='undefined'){
 		var $ImageUrl;
-		if($headerImageUrl.substr(0, $headerImageUrl.lastIndexOf('thumb') >= 0)){
-			$headerImageUrl=$headerImageUrl.substr(0, $headerImageUrl.lastIndexOf('/'));
-			$ImageUrl=$headerImageUrl.replace(/\/thumb/,'');
+
+		// Remplacement de l'URL de vignette par une image plus grande
+		if ($headerImageUrl.includes("thumb.wikimedia.org")) {
+			// Image provenant de Wikimedia
+			// Tailles des vignettes : https://www.mediawiki.org/wiki/Common_thumbnail_sizes
+			$ImageUrl = $headerImageUrl.replace("330px-", "1920px-"); // Couvertures header
+			$ImageUrl = $ImageUrl.replace("120px-", "1920px-"); // Vignettes home
+		} else if ($headerImageUrl.indexOf("/images/thumb") === 0 || $headerImageUrl.includes("archi-wiki.org")) {
+			// Image locale ou archi-wiki.org pour l'environnement de test
+			$headerImageUrl = $headerImageUrl.substring(0, $headerImageUrl.lastIndexOf('/'));
+			$ImageUrl = $ImageUrl = $headerImageUrl.replace(/\/thumb/, '');
+		}  else {
+			// Autre cas (fallback)
+			$ImageUrl = $headerImageUrl;
 		}
-		else{
-			$ImageUrl=$headerImageUrl;
-		}
+
 		var url = $elt.find('p > a').attr('href');
 
 		var img=new Image();
@@ -271,7 +280,7 @@ function displayImage($elt){
 		$headerImage.parents('figure').hide();
 		$headerImage.parents('.thumbinner').hide();
 	}
-	
+
 }
 function orderOne($elt){
 	$elt.fadeIn(1000);
@@ -325,7 +334,7 @@ function orderAll(){
 
 		});
 	});
-	
+
 }
 console.log("ArchiRecentChanges");
 $(document).ready(function(){
@@ -346,7 +355,7 @@ $(document).ready(function(){
     window.addEventListener('resize', function(){
         dispatchRecentChanges();
     },true);
-	
+
 	$("#voir-plus").click(function(){
 		addRecentChanges($(this).data('dateend'),$(this).data('sort'),$(this).data('length'));
 	});
