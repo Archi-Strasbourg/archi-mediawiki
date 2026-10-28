@@ -42,7 +42,7 @@ $wgEmailConfirmToEdit = true;
 $wgPasswordAttemptThrottle = [];
 $wgCategoryCollation = 'numeric';
 $wgMaxArticleSize = 4096;
-+$wgMainPageIsDomainRoot = true;
+$wgMainPageIsDomainRoot = true;
 
 setlocale(LC_TIME, 'fr_FR');
 
