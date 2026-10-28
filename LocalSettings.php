@@ -421,6 +421,7 @@ $wgGroupPermissions['bureaucrat']['lookupuser'] = true;
 $wgPageImagesNamespaces[] = NS_ADDRESS;
 $wgPageImagesNamespaces[] = NS_NEWS;
 $wgPageImagesNamespaces[] = NS_ARTICLE;
+$wgPageImagesScores['position'][0] = 100;
 
 //Loops
 $egLoopsCounterLimit = 4000;
