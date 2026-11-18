@@ -3337,16 +3337,16 @@
         },
         {
             "name": "mediawiki/semantic-media-wiki",
-            "version": "7.3.1",
+            "version": "7.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SemanticMediaWiki/SemanticMediaWiki.git",
-                "reference": "60637e855c294f3d223ddeef57af24338def7a8a"
+                "reference": "bcc3cbf4884f0474232a68d3eff060f93a506379"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMediaWiki/zipball/60637e855c294f3d223ddeef57af24338def7a8a",
-                "reference": "60637e855c294f3d223ddeef57af24338def7a8a",
+                "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMediaWiki/zipball/bcc3cbf4884f0474232a68d3eff060f93a506379",
+                "reference": "bcc3cbf4884f0474232a68d3eff060f93a506379",
                 "shasum": ""
             },
             "require": {
@@ -3435,7 +3435,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-09-28T18:23:29+00:00"
+            "time": "2026-11-10T23:03:53+00:00"
         },
         {
             "name": "mediawiki/semantic-result-formats",
